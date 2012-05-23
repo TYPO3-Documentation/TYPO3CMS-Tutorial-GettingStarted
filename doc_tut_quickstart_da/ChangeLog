@@ -1,0 +1,74 @@
+2011-06-04  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 92 in .swx
+	* Some minor text corrections
+
+2011-06-04  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 75 in .swx
+
+2011-05-23  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 62 in .swx
+	* Some minor text corrections
+
+2011-05-08  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 49 in .swx
+	* Some minor text corrections
+
+2011-04-26  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 39 in .swx
+	* Text corrections regarding the different located input-fields 
+
+2011-04-18  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 34 in .swx
+	* Some minor text corrections
+
+2011-04-11  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 30 in .swx
+	* Some minor text corrections
+
+2011-04-03  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 25 in .swx
+	* Some minor text corrections
+
+
+2011-03-20  Michael Bakonyi  <m.bakonyi@civit.de>
+
+	* Updated screenshots for 4.5 up to page 25 in .swx
+	* Some minor text corrections / changes for 4.5 up to page 25
+
+2011-02-25  Philipp Gampe  <dev@philippgampe.info>
+
+    * Changes for 4.5 up to page 92 "The file module or: Image archives"
+	* Changes for 4.5 up to page 109 "User management"
+	* Done with changes for 4.5 except extension manager and screenshots
+
+2011-02-23  Philipp Gampe  <dev@philippgampe.info>
+	
+	* Futher changes for 4.5 up to page 74 "Special Content Elements"
+	* Changes for 4.5 up to page 81 "Templates"
+
+2011-02-16  Philipp Gampe  <dev@philippgampe.info>
+
+	* Renamed sysfolder to folder, resolves #12487
+	* Adopt new names and position for content and page froms
+	* Adopt new conceps of pagetree and the new context menu
+	* Added note about file permissions, resolves #11762 (Thanks to Steffen	Gebert)
+
+2010-12-10  Francois Suter  <francois.suter@typo3.org>
+
+	* Added document/extension version number on cover page, resolves #11382
+
+2010-12-08  Francois Suter  <francois.suter@typo3.org>
+
+	* Released to TER as version 1.0.0
+
+2010-12-06  Francois Suter  <francois.suter@typo3.org>
+
+	* New version based on the TYPO3 4.4 Introduction Package
