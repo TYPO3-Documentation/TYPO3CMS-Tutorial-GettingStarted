@@ -1,0 +1,978 @@
+﻿Getting Started Tutorial
+Extension Key: doc_tut_quickstart
+Language: en
+Version: 1.0.0
+Keywords: forBeginners, forEditors, forAdmins
+Copyright 2000-2010, Documentation Team, <documentation@typo3.org>
+
+This document is published under the Open Content License
+available from http://www.opencontent.org/opl.shtml
+
+The content of this document is related to TYPO3 
+- a GNU/GPL CMS/Framework available from www.typo3.org
+
+
+
+
+
+
+Official documentation
+This document is included as part of the official TYPO3 documentation. It has been approved by the TYPO3 Documentation Team following a peer-review process. The reader should expect the information in this document to be accurate - please report discrepancies to the Documentation Team (documentation@typo3.org). Official documents are kept up-to-date to the best of the Documentation Team's abilities.
+
+Tutorial
+This document is a Tutorial. Tutorials are designed to be step-by-step instructions specifically created to walk a beginner through a particular task from beginning to end. To facilitate effective learning, Tutorials provide examples to illustrate the subjects they cover. In addition, Tutorials provide guidance on how to avoid common pitfalls and highlight key concepts that should be remembered for future reference.
+
+Table of Contents
+Getting Started Tutorial	1
+Introduction	3
+About this document	3
+What's new	3
+Credits	3
+Feedback	4
+Installation	5
+Prerequisite	5
+Getting the Introduction Package	5
+General principles	8
+Backend and Frontend	8
+General Backend Structure	10
+Page tree	10
+Special pages	14
+Page content 	21
+Edit and create pages and content 	24
+Edit page & content	24
+New page	27
+Move / Copy page	37
+Visibility settings - hiding pages, timing appearance etc. 	40
+Rich Text Editing: Bold, Italics, Bullet lists, Insert images 	46
+Make links 	47
+Password protected pages 	60
+Create users/groups	63
+Create a login form	69
+Create restricted branch 	71
+Email form 	73
+Media	76
+Backend modules 	78
+Tracking backend users 	78
+Templates	80
+Making changes to the template	81
+The Setup field	84
+The Object Browser	87
+Content in multiple columns	88
+Template & backend configuration disclaimer!	89
+The file module or: Image archives	91
+Managing files in TYPO3	91
+Uploading images to the archive 	94
+The List module and Clipboard	96
+Using the List module effectively	96
+The numeric clipboard pads - managing many elements 	100
+Selective editing 	103
+User Management 	107
+Distributed maintenance 	107
+Backend users 	107
+Setting up user permissions 	111
+Groups 	112
+Creating a new user for the Introduction sites 	124
+A short glimpse into the extension manager	128
+Changing backend language	131
+Troubleshooting	135
+Human readable URLs	135
+Note on image processing in TYPO3	135
+Colored differences in history module	135
+Next steps	136
+Tutorial for editors	136
+Tutorials for future administrators	136
+References	136
+Keep security in mind	136
+
+
+Introduction
+About this document
+This document is an introduction to the basic principles of TYPO3. The example website used in this introduction will get you started immediately on your own first TYPO3 website. After this tutorial you will have an idea about TYPO3's capabilities, its general structure and extension possibilities. Professional creation of templates and development with TYPO3 in general are not covered by this document.
+
+What's new
+The previous version of this document was known as the "Quickstart Guide".
+The current version is based on the TYPO3 Introduction Package for TYPO3 version 4.4. It is a fully rewritten version. The topics covered have changed slightly to match the Introduction Package.
+Credits
+The "Quickstart Guide" was originally written by Kasper Skårhøj. The current version was written by Philipp Gampe, Martin Holtz, Susanne Moog and Francois Suter.
+
+Feedback
+For general questions about the documentation get in touch by writing to documentation@typo3.org.
+If you find a bug in this manual, please file an issue in this manual's bug tracker: http://forge.typo3.org/projects/typo3v4-doc_tut_quickstart
+Maintaining quality documentation is hard work and the Documentation Team is always looking for volunteers. If you feel like helping please join the documentation mailing list (typo3.projects.documentation on lists.typo3.org).
+Installation
+Prerequisite
+You should have a fully configured and ready web server meeting the requirements you find at http://typo3.org/about/system-requirements/ 
+If you do not have a web server and you are running a Windows operation system, you might want to try the TYPO3Winstaller, which will install a web server and the Introduction Package on your local computer.  
+Getting the Introduction Package
+First you will need to download and install the introduction package which is used to explain TYPO3 in this tutorial. Get the package at http://typo3.org/download/. To install your first website follow the steps provided in the quick install part in the Installation and Upgrade Guide - if you want to use TYPO3 professionally you should read the full guide sometime. You can find a step-by-step guide below the "short installation guide". 
+For those who can't wait, try this very short installation guide: 
+Unzip / untar your downloaded introduction package in the root folder of your web server 
+Create a file called ENABLE_INSTALL_TOOL in the folder typo3conf
+Go to http://your-site.example.org/typo3/ with a browser, you should get redirected to the TYPO3 installer
+Follow the installer steps 
+Step-by-step - Installing the Introduction Package 
+This guide will provide you with the steps for downloading, extracting, uploading and installing the Introduction Package. It assumes you are using a Windows operation system. 
+Download 
+1. Go to "http://typo3.org/download/". 
+2. Click on the button labeled "Download TYPO3 version 4.4| with the new Introduction Package"  
+3. This will lead you to Sourceforge and the download should start shortly. If it does not, follow the instructions on the website. 
+Extract
+1. Open the .zip File. 
+2. Extract the contents into an empty folder of your choice. Make sure to remember this folder. 
+a. Click on "Files" >> "Extract All" 
+b. Select an empty folder or create a new one.  
+c. Click the extract/go/next button. 
+Upload
+You can upload the content of your folder with an FTP-client of you choice. The following step-by-step instruction assumes you are using the free, platform-independent FTP-client FileZilla.
+1. Open FileZilla 
+2. Connect to your website 
+a. Enter your FTP-server address.  This is often something like ftp.your-site.example.org. 
+b. Enter your username and your password. 
+c. Enter the port. If your server supports sFTP you should enter 22. If you do not know your port, enter 21 or leave it empty. 
+d. Press "Connect" 
+e. If anything fails, you can see some red lines in the log window directly under the connect bar. Get in touch with your hoster if you are unable to establish a connection. 
+f. If everything goes well, you should see some folders or files in right part of the window.  
+1. Navigate to your folder on server (right site) 
+a. Often the actual website is in a folder called website, docroot, htdocs or html. Open the folder. 
+b. If your website has any content already, you can see that content now. Usually there exists a file called index.html or index.php. 
+1. Navigate  to your folder on your local computer (left site). This is the folder where you extracted your .zip file into. 
+a. Open the folder. 
+b. You should see a file called index.php, and the folders fileadmin, t3lib, typo3, typo3conf, typo3temp and uploads. 
+1. Select all files 
+2. Open the context menu (right click) 
+3. Click on "Upload" - your files will be added to the queue at the bottom and the upload will start immediately.
+The upload is finished, when you can not see any more files in the queue.
+Install
+Before you precede, you will need to adjust the rights of your uploaded files and folders.
+1. Select all uploaded files and open the context menu (right click). 
+2. Click chmod    
+a. For all folders enter 755 
+b. For files enter 644 
+c. Make sure to check include subfolders 
+1. Open your web browser 
+2. Type your web server's address in the address bar, e.g. http://www.your-site.example.org/ 
+3. You should be redirected to http://www.your-site.example.org/typo3/ and the installer should show up with a welcome message. 
+4. If you see a large yellow box, telling you that the install tool is locked, do the following 
+a. Open your local folder again. 
+b. Create a new file called ENABLE_INSTALL_TOOL, the type does not mater. 
+c. Upload this file to your web server inside the folder typo3conf/ 
+d. Rename file, remove any kind of file extension (.doc, .txt, ...). The name on the server should be "ENABLE_INSTALL_TOOL" without anything else. 
+e. Reload your website inside your web browser (Press F5). 
+1. Click continue 
+2. Enter your database details 
+a. Enter your DB username. 
+b. Enter your DB password. 
+c. Enter your DB server address. Usually this is localhost. If your do not know, enter localhost. 
+d. Click continue. 
+1. Choose your database. You can create a new one if your have the rights to do so. Use an empty database - any table used by TYPO3 will be overridden! 
+a. Click continue. 
+1. Click continue once again. The installation will take a while, be patient. If it takes longer than five minutes, reload the page (press F5). 
+2. Enter a password. Remember the password, your will need it for administer your website later. Do not choose a trivial password.  
+3. Choose your color. 
+4. Click continue for the last time. 
+5. Click "Go to your website" :) 
+Done! Your website is ready now. Feel free to read the section "About TYPO3".
+General principles
+Backend and Frontend
+TYPO3 is divided in two areas - the backend and the frontend. While the frontend is for everyone out there on the web - it is the website TYPO3 produces - only you are allowed access to the backend - the administrative area of the website. A username and password is always required for the backend. You will later learn how to give access to the backend to others - like editors or co-administrators. 
+To go to the frontend, enter "http://www.your-site.example.org/" in your address bar. For now continue with the backend. 
+Go to the backend of your new website: open a browser and type "http://www.your-site.example.org/typo3/". 
+You will get a login page looking like this: 
+ 
+Use the username "admin" and the password you set when installing TYPO3. 
+
+After pressing the login button you get redirected to the TYPO3 backend overview. 
+ 
+On the left you have TYPO3's main modules - the main menu of the backend. Click on "Page" to go to the page module now. 
+
+General Backend Structure
+On the left you still have the modules overview, in the middle you now have the page tree and on the right the content area.
+ 
+Page tree
+The page tree represents the hierarchical structure of your page. In most cases this is exactly corresponding to what you will see in the navigations on your website. The page tree can be expanded by clicking the little arrows on the left of the items.
+Look at your page tree now: 
+ 
+Simultaneously look at the navigation in frontend if you click on "About TYPO3".
+ 
+You can see how the main menu of your website corresponds to the first level pages in the page tree, and the submenu corresponds to those beneath "About TYPO3" in the page tree. 
+For all modules below the "Web" category there is a page tree shown, this means all those modules are acting on a per-page base.
+A click on the page title will open that page in the content frame on the right. Hovering over the icon of a page will display its internal id. This id is also used to display the page in the frontend. 
+A click on the icon will open the context menu. 
+ 
+The context menu
+The context menu of a page can be used to access most of the page-related functions the fast way. Here is what these options do:
+Show: Opens the page you clicked in the browser (frontend)
+Edit: Lets you edit the page properties
+New: Lets you create a new page or new content
+Info: Displays some information of the page
+Copy: Copies the page
+Cut: Cuts the page
+Hide: Hides the page (so it isn't accessible from the frontend anymore)
+Visibility settings: Lets you change the pages visibility settings (like show/hide, access by certain user groups only...)
+Edit page properties: Lets you edit the properties of the page directly (like the page title or type)
+Delete: Deletes the page
+History/Undo: Shows the change history of the page (who did which changes when)
+Depending on the context, more functions might be available.
+ 
+Now use the context menu to show the "Welcome to TYPO3" page in the frontend. 
+You see on (1 blue) that the last part of the title in your browser bar corresponds to the title of the page in the page tree.
+(2) shows you that this is the page with ID 6. Go back to your page tree and hover over this' pages icon and you will see the ID 6 again.
+(3) might puzzle you - in the page tree and the title bar the pages name is "Welcome to TYPO3", but here in the menu it is suddenly "Get Started". How come? To find out select "Edit page properties" in the context menu of that page and take a look at the right content area: 
+ 
+There you can see that the page title (1) is "Welcome to TYPO3" but you will be also able to find "Get Started" at (2). It is called "Navigation title" and means the title that is displayed in any navigational elements (menus, breadcrumbs, sitemaps...). If it is empty the page title is. 
+Special pages
+ 
+Going back to the page tree, you will notice different symbols are used for the different page types. The ones appearing in the menu on your website are normal pages. Nothing special about them. Then there are those with a dotted border on the icon, these are pages that are hidden in menus. 
+Hide in menu 
+Pages hidden in menus are basically like the normal pages but don't appear in the menus. This is useful if you want to have a page you just want to link to but that should not appear in the menu.
+Edit the page properties of the page "Search" (use the context menu): 
+ 
+You can see that the page has "Hide in menu" checked. 
+Sysfolders 
+In the page tree you see some pages with a folder icon. These are so-called sysfolders. By default pages created in TYPO3 are meant to contain web page content. They appear in the menu and can have a title. 95% of all pages are used like that. But pages can also serve as simple containers of database elements that are not meant to be content on a visible web page. This is what sysfolders are for. Use them just like you use folders on your computer's file system to store different files in an organized manner. In the same way sysfolders are "folders" that nicely organize database elements inside TYPO3. Database elements are for example frontend users, frontend groups or news records. 
+
+You can create a sysfolder by selecting it in the "Type" drop down in the page properties: 
+ 
+Shortcuts 
+A shortcut can be used to create a page that is empty but works – for example – as a parent page of other pages. Imagine you are selling a product and have a navigation like this on you website:
+- About us
+- My Product
+- Imprint
+- Contact
+
+Now you want to have some subpages beneath the "My Product" page to convey the information about your product:
+- About us
+- My Product
+    - Overview
+    - Technical Details
+    - Pricing and Shipping
+- Imprint
+- Contact
+
+You don't really have content for the My Product page, you just want it to appear in the menu. Now you can use a shortcut to point the "My Product" page to the "Overview" page. What happens? Whenever you click the main menu point "My Product" you get directly to the overview page. You got your menu structure like you wanted but don't need content for the My Product page.
+In the Introduction Package you will find a shortcut, too. The "Home" page. The symbol for a shortcut is the little arrow in the lower right. The "Home" page is additionally the root of your website and has therefore it's own domain - that is where the world icon is coming from.
+
+You create a shortcut like you create a sysfolder - by selecting it's type in the drop down when editing page properties (1). 
+ 
+Link to external URL 
+External links can be used to create a link to an external page that appears in your menu. We will try this together. Imagine you want to have a link to http://typo3.org in your menu.
+First, click on the icon of the "Give Feedback" page and choose "New" from the context menu: 
+ 
+
+Choose "Page after" in the content frame on the right: 
+ 
+Now you should see the "Edit page properties" dialog that you already know: 
+ 
+1. Change the type to "Link to external URL" (1). You will get an alert that informs you that your changes have to be saved in order to continue. Press OK.
+2. Fill in the "Pagetitle". Let's call the menu item "TYPO3 – Enterprise Open Source CMS". The orange exclamation mark tells us that the field is required.
+Now you should see something like this: 
+ 
+Note the orange exclamation mark in the "URL" tab? This means, there is still something left for us to do. Click on that tab. 
+ 
+This is of course the most important part - the external URL we want to link to. Enter the URL in (1) and select the URL scheme in (2). If you don't want to use (2), you can set it to empty and just write the whole URL into (1).
+Choosing the right type
+Pay attention to the "Type" select box! Select the correct URL scheme here or set it to blank if you want to enter URLs which already contain a scheme (like http://typo3.org instead of typo3.org).
+Note the little arrow at (3)? It shows you which fields you changed that aren't saved yet.
+
+Save your changes now. You can save with one of the buttons located in the docheader:
+In general you can see what a button does by hovering over it and waiting for the tooltip explanation. 
+Help icons
+If you want to find out what certain elements in TYPO3 do you will often find a small question mark which you can hover to display a help text. If you click on the text you will get a longer explanation. 
+ 
+Visual Menu Spacer
+You can see another page type in our page tree: 
+ 
+This type is called visual menu spacer and does basically nothing in a default TYPO3 installation. You can use it to divide the page tree into parts so you have an easier overview. 
+Page content 
+Now that we have seen how the page is structured via the page tree and what the different page types do. It is time to have a look at the content.
+First let's see how the content on a page is organized. 
+Open the page "Editor Features" > "Text and Images" in your browser
+In a second browser window open the TYPO3 backend
+Choose the page module and select "Editor Features" > "Text and images" in your page tree
+Compare both views 
+Frontend: 
+
+
+Backend: 
+ 
+As you can see the order of the content elements on the webpage is the same as the order of the elements in the backend. The content elements are additionally sorted by columns, content that is in the right column in the backend is in the right column on your page. Each content element on your page can be of a different type (like text or text with image), so you can create very flexible pages.
+
+Let's look what happens if we move a content element.
+Hover with your mouse over the gray bar of a content element on that page: 
+ 
+As you can see, some editing icons for that element appear. Use the arrows at the right to move the content element up or down. After you moved the element have a look at your website frontend. You should see the page reflecting your changes to the order. 
+The other icons in the elements header point to different actions you can do with this element: 
+ 
+Edit and create pages and content 
+We know now that pages store their content in page content elements. So if you want to edit content on a page you have to edit page content elements! 
+Edit page & content
+It is really easy to edit page content in TYPO3. Just select the Page module (1), click the page title of the page you want to edit (2) and in the "Columns" view (3) you click the edit icon (4) of the page content element you wish to change: 
+ 
+
+This brings up this edit form: 
+ 
+First of all the field "Type:" (1) tells you the type of page content element! In this case "Text w/image". It could also be "Text" (like you saw earlier) or "Image" or "Table" etc. See for yourself! Each content element type has its own set of fields  and by inserting different elements you can achieve great diversity on your website.
+
+The header field (2) contains the headline of the content element. You can insert text by switching to the tab "Text": 
+ 
+Different element types have different options. Play around a bit and see what you can do on the different tabs. Be aware that every change of the element type saves the element.
+QuickEdit - save a mouse click...
+If you want fast access to your page content elements you can change the Page module view to "QuickEdit" instead of "Columns" - then the first content element on a page is shown right away:
+
+New page
+We already saw one way to create a new page when we created the "External URL" page earlier. However, in TYPO3 there are multiple ways to get things done. Here are some more ways to create a page: 
+ 
+
+If you click on either of the two buttons in the docheader you will get the position selector for your new page in the next step:
+ 
+Now create a new page "My Content Test" after (NOT inside) the "Text And images" page and have a look at your website afterwards. You will find the page in the menu next to the "Text and images" page. 
+ 
+ 
+The page is still blank - we need to create some page content elements on the page! 
+
+Creating page content elements 
+In the Page module, click the page title of "My Content Test" in the page tree and then the icon with the content element and the little green plus in the docheader "Create new content element":  
+Immediately you will see a nice form like this (below). This allows you to select a page content element type (1) - as said earlier, different content element types create different kinds of content on the web page - and the position (2) of the element. Let’s create "Text with image": 
+ 
+
+Right away we get the form. Now enter some dummy content and select an image from your hard drive (1). Select a position relative to the text for your image (2). If you chose a big image you can change it's size with (3) [If this does not work for you, have a look at the "troubleshooting" chapter]. Additionally you can enter a link for your image (4) 
+ 
+Press the "Save document" button. Now the image is uploaded to the web server and attached to the new page content element.
+
+This should look like this if everything went fine: 
+ 
+
+On the web page it now looks like this: 
+ 
+
+Inserting another content element 
+Back in the Page module the new content element is clearly shown. Let's create another content element. The little content element icons with the plus in the header bar of the content columns let you create content in that column. Use the icon at (3) the right column to add content there. 
+ 
+
+This time we choose to create a special element called "Sitemap".
+ 
+The site map element allows you to insert all sorts of page link lists (like a real site map, a menu of sub-pages...). We want to insert a link list to some pages we select manually, so we chose "Menu of these pages": 
+ 
+Select the pages you want to link to. There a two possible ways to do this. Either press the little folder icon and choose the pages from the pop-up that appears then or use the auto-suggest search.
+
+Here we added some sub-pages of "About TYPO3": 
+ 
+Now the page has two content elements, a "Text w/Image" type in the normal column and a "Sitemap" type in the right column: 
+ 
+
+In the Page module this looks like this:
+
+Move / Copy page
+Moving pages is really easy. Just drag the page in the page tree to its new position and choose "Move". Depending on what you want you can move the page into or after the page you dragged it to. 
+ 
+As you can see you can copy pages in the same way.
+Cut'n'Paste & Copy'n'Paste 
+You can also use Cut'n'Paste or Copy'n'Paste for moving or copying. Select "copy" from the context menu of the page you want to copy: 
+ 
+
+And choose "paste after" (or "paste into" depending on what you want) from the context menu of the destination page: 
+  
+Watch out - consistent concepts on board! 
+Notice that the same principles of copy/cut/paste can be used with not only pages but page content elements as well - well, in fact any database element or file that TYPO3 manages is subject to this functionality! This is a great example of how TYPO3 uses the same concepts consistently and throughout the system - so once you have learned a feature, a lot of other features make sense to you as well! If you open your eyes to it you will have many of those "Aha!" experiences when you see how things are designed to fit together.
+
+Visibility settings - hiding pages, timing appearance etc. 
+A feature you will find for many elements - in particular pages and page content elements - is the publishing control fields or visibility settings. They look like this for pages: 
+ 
+ 
+The access settings are the same for content elements. 
+
+Hiding a page 
+Check the "Hide page" flag: 
+ 
+
+Save the page and have a look at the page tree (if the page tree didn't reload press the green arrows on top of it to refresh): 
+ 
+The hidden page has an icon indicating its state. A page that is hidden can not be viewed from the frontend. If you are logged in the backend however you are still able to see a preview of that page. Choose "Show" from the context menu of the hidden page: 
+ 
+In the frontend you will see your hidden page with a "preview" note that tells you that a normal visitor won't see it: 
+ 
+
+Hiding pages and content element is probably the most typical kind of visibility setting. It is so common that it actually has its own item in the context menus: 
+ 
+Timing pages and content elements 
+While hiding is the most common thing you can also determine when a page should go online - on which date! For instance try to enter the code "d+10" in the "Start time" field: 
+ =  
+
+Automatically the date is set to the current date plus 10 days! If you save the page and hold the mouse over the page tree icon you can also see this setting reflected: 
+ 
+You can of course just enter a date directly or use the date picker to select one.
+And guess what - this page is currently not visible and will automatically be visible the 20th of July year 2010, 10 days later! That is how easy it is to control publishing of information based on Start times. The same principles work for the "Stop" field of course. And for page content elements, news elements, guest book elements - you name it. Same principle - many places - easy to understand. 
+Rich Text Editing: Bold, Italics, Bullet lists, Insert images 
+When you are working with the text on your pages you can use the same kind of formatting options as you are used to from your word processor. You have access to a Rich Text Editor (RTE) for the body text field. "Rich Text" means that you can apply formatting to the text in addition to just writing it. 
+ 
+As you can see you can create lists, apply formatting like bold or italic and even insert tables. This editor can be fully configured to match all your needs. The configuration is not part of this tutorial. You can find a description in the rtehtmlarea manual. 
+Make links 
+Hyperlinks are what glues the internet together some say. In TYPO3 you already have links automatically made for you since the sheer creation of pages in the hierarchical structure of the page tree has generated the menu automatically. 
+But you still might want to link from a piece of text to another page, a file, another website or an email address, right? This is very easy if you use the Rich Text Editor. Simply mark the text and press the "Insert Link" icon: 
+ 
+
+A popup opens in which you can choose which type of link you want to create. In this case choose the tab "Page" and click on "About TYPO3" in the page tree to create a link to the "About TYPO3" page.  
+ 
+The popup should close itself and you can now see that the text you marked is linked: 
+ 
+To edit the link just right-click on it and choose the link option from the context menu (or position your cursor somewhere in the link text and click on the link icon again).  
+In the frontend this will produce a link as you would expect. Click it and you are taken to the "About TYPO3" page: 
+ 
+If you have problems with the editor you can switch to the source code view and have a look at what it generated: 
+ 
+
+It is just simple HTML. But remember: The RTE parses the code in there and removes everything it doesn't know or isn't configured to allow. So you can't just write your own HTML in here.  
+Other kinds of links? 
+You can create links to local files and external webpages - even links directly to a specific content element on a page and links to email addresses. 
+We already saw how to link to an internal page. The following screenshots illustrate how to set different types of links. 
+Creating a link to a certain content element 
+ 
+Creating a link to a file 
+ 
+Creating a link to an external URL 
+ 
+Creating a link to an email address 
+ 
+
+Content element types 
+As you already know there are a number of page content element types available and combining them is the key to creating diverse web pages so not every single page on your site looks the same! 
+ 
+The different types are grouped by categories. The most used items are "Text" and "Text w/images".  
+
+Wizards 
+Notice that some elements come with a little wizard. For instance edit one of the content elements on the page "Tables" (you can find it in the "Editor features" branch): 
+ 
+
+You can edit the content of the table in plain text mode (1) or you can open the wizard (2). 
+ 
+The table is constructed by interpreting each line in the "Text" field as a table row. Then the vertical line, | , is used to separate columns from each other. This is the "low level" way it works and it could be maintained by hand.
+
+But the "Table wizard" would be the right tool to use for most people. This will bring up designated form fields and buttons for adding, deleting and moving table content around: 
+ 
+Secondary options - "Palettes" 
+From the dawn of time TYPO3 has held to the concept of primary and secondary form fields. The editing forms in TYPO3 contain a lot of fields and can be extended with even more. But many fields shown at the same time become very hard to overview for the average user. In particular if you are a beginner and have lots of new things to keep inside of your head already. 
+The concept of primary and secondary fields means that normally you see only the most important and typically used form fields (primary). And more detailed options are hidden in the secondary fields which are shown on request. 
+Go to the page "Frames" in your page tree and edit the first content element: 
+ 
+You only see some essential fields. Now press the button at (1). 
+
+You will now see the so-called secondary options palette: 
+
+So the complexity is hidden behind this button which makes the normal interface cleaner and easier to understand but the advanced options are always "just a click away".  
+The downside is when you need one of these secondary options and can't remember "behind which icon" it is (or if you use the field a lot) - then it might in itself be confusing to find them! Therefore you can activate the option "Show secondary options" in the bottom of all editing forms: 
+ 
+After activating the secondary options for all element will be shown by default. 
+Frames 
+One field in the secondary options that is used in the introduction package is the "Frame". Navigate to the "Frames" page in the frontend: 
+ 
+There are by default some frames to insert rulers or indent the text.
+
+Now go to the same page in the backend and edit the "Ruler before" content element: 
+ 
+You can see that the frame "Ruler before" is selected in the secondary options - this creates the horizontal line in front of the element. Basically what the frame element does is to wrap the content element with a certain html element or css class which can then in turn be used in your own stylesheet to create different looking elements. 
+Password protected pages 
+Now you know how to create and edit pages! That was not so hard, was it? Quite easy to become a webmaster with TYPO3. So one thing is to make web pages for all the world to see. What if we would like only a part of the world to see them? Can we add password protection? Yes, we can! 
+
+Actually there are already some password protected pages in our installation. Browse in the frontend to "Customer login" (it is the link on the top right corner).  
+ 
+Read the text on that page and then use the login box on the right to login as customer1.
+ 
+You see some pages appearing in the left menu after you successfully logged in.
+
+Now go to the backend and have a look at these pages in the page tree: 
+ 
+The little blue man on those pages tells you that these pages have some kind of user restriction. Go and edit the page properties of the page "Protected customer page" (Context menu > Edit) and go to the access tab: 
+ 
+You can see here that only the group "Customers" is allowed to see this page. You could also set the page to "Show at any login" that would mean that every registered user (regardless of his user group) would be able to see the page.
+In the next step you will learn how to create users and user groups. 
+Create users/groups
+Before you can create access restricted pages you must first and foremost have one or more frontend users and groups. These can be created before, during or after creation of your website. The order doesn't matter. 
+Frontend and backend users 
+Now, wait a minute! How many kinds of users are there? 
+Well, there are only two kinds. Remember that we have two areas of TYPO3 - the frontend (website) and the backend (administration). 
+Frontend users 
+A frontend user (orange icons) can log in to the website of course. They cannot change content (since they have nothing to do with the backend!) but they merely exist because it allows us restrict access to information on the website! 
+Frontend users (also called "Website users") are created in the system where we want to create them. In our case we have made a nice sysFolder called "Frontend users and groups" for both users and groups. The only requirement of this storage place for the frontend users is that we tell the login to look at that folder for the users. 
+ 
+Now you can probably imagine that users and groups are not content elements but records. So they won't fit into the columns concept of the page module. That is where the list module of TYPO3 comes in handy. The list module displays a listing of all records on a page. Content elements are a special kind of records and are displayed in the page module, all other records are normally only visible in the list module. 
+
+Open the list module on the "Frontend users and groups" page: 
+ 
+You can see two tables, one containing the users and one containing the user groups. Each table represents one record type in the list view.  
+Backend users 
+A backend user (blue or green icon) works in the backend and is concerned with changing the information behind the scenes. Because backend users are concerned with the administration of a website they have nothing to do with the access restriction on the website itself (which is only partially true of course since backend users can preview hidden frontend pages). 
+
+Backend users can be created only in one place - in the page tree root (pid = 0) - and only by backend users that are "admin" users (who have the admin-flag set, which is indicated by the blue icon) since they are the only users with access to records in the page tree root: 
+ 
+The three green backend users (1) are configured so they can maintain a little part of the website each - more about that in the users section later on. At (2) you see the configured backend user groups for your website. Finally the "admin" user (3) - the one we are working with - is blue and has total and unrestricted access to any part of the system. 
+Editing a user or group 
+As you can see we already have a sysFolder "Frontend users and groups" with user groups and two users. 
+The user group "Others" is really nothing but a dummy group. No special settings or anything. The user group "Customers" has one special setting: It contains the page the user will be redirected to after he logs in.  
+
+Let's have a look at that setting (editing things in the list module is pretty easy, just click on the user group icon in front of Customers and you will get the context menu again, then choose edit): 
+ 
+Go to the "Extended" tab and you will see the redirect setting:
+ 
+Creating a user
+Let’s try to create a user. Since frontend users (like page, page content elements, news articles etc) are just database records in TYPO3’s opinion, the same process of creation can be used for a frontend user as for any other element. So this is even a general introduction to creation of new elements! 
+
+Ready? It is simple. First, click the page icon in the page tree of the page where you want to create a new element: 
+ 
+Then select the "Website user" element:
+... and enter the information.
+Hidden stuff
+This page was configured to just contain users and groups, therefore you can only create these few record types. If you use new on other pages you will get more options.
+
+In this case username, password and group are required fields: 
+ 
+Save the user. If you click the page title of the "Users" sysFolder you should see this listing (provided the "List" module was the last backend module you used of course): 
+ 
+
+Go to the login form page again and log in with your newly created user: 
+ 
+Create a login form
+The Introduction Package already comes with a fully configured login form. But what if you want to create another one, for example on the homepage? No problem. In general the login form is just a content element like text or text with image. Go (in the backend) to the page "Welcome to TYPO3", make sure that the page module is selected and click on the little content element icon with the green plus in the header of the "Related information" content element. This will create a new content element after this one.
+ 
+
+Activate the tab "Form elements" and select "Login form": 
+ 
+You will get the form for configuration of the login. Give the login a header and then go to the "Insert plugin" tab. The most important thing here is to set the Startingpoint. This is the folder where the login looks for users. Use the little folder icon next to the Startingpoint field and select your "Frontend users and groups" page.  
+ 
+
+This is all you have to do. Now take a look at your website and you will see your shiny new login box on your home page: 
+ 
+Create restricted branch 
+Earlier you have seen how to restrict access to a page (you remember the access tab on the page properties, don't you?). Sometimes however it is useful to have not only restricted pages but whole branches that should only be seen by certain users. For example we want to restrict the whole "Editor features" branch to logged in users only. After what you know right now you'd have to edit each and every page by hand and set it to access restricted. For every new page of that branch you would have to do the same. Sounds annoying? Yeah, it is and therefore there is an easier way to do it.
+
+Go and edit the page properties of the "Editor features" page - tab "Access" again: 
+ 
+If you check "Include subpages" then all subpages will have the same access settings as the parent page. This means you can not only require a login but you could also set a "Start" or "Stop" date for a whole branch! 
+The Access options 
+Basically access restriction works as simple as this - just select a website user group and that is it. From that point you just handle which users are members of which groups. 
+Users can belong to one or more groups, so if you have groups for every section of your website and you want to have some kind of frontend super user, you could just assign him all groups.  
+Finally the option "Hide at login" means that a page will not be visible when a user logs in! This is useful if you have pages with information only relevant for users not yet logged in. Of course the option "Show at any login" is the opposite - that will enable the page for display for any user who is logged in. No need to be a member of any particular group - if you are logged in you are shown the page. 
+Special content elements
+There are some commonly used yet special content elements which will be explained in this section, like a contact form or the search box. You already know the special element sitemap from the section about Content Elements in general.  
+
+Email form 
+We already have an email form on the website. If you go the the page "Give Feedback" you will see a basic contact form: 
+ 
+
+Navigate to the "Give Feedback" page in the backend and edit the form: 
+ 
+ 
+In the configuration field the form is defined, at the "Jump to page" field you can define where the user gets redirected after he sends the form. If you leave this blank he won't be redirected. Normally you'd enter some kind of "Thank you" page.
+Let's take a closer look at the configuration. You already know the pipe (|) as separator from the tables content element. It is used here in this mail form to define the form fields. Every line represents one field of the form. Note the wizard icon on the right side of the field. Click it.
+ 
+As you can see the codes are transformed into this nice form. Here each field in the form is created by visual controls. For a field you need to enter a label of course (1) and a field type (2). These are the visible parts. You also have to give the field an internal name (3) which is the one that will be shown in the email the recipient gets. In the case of "Input field" types you can also enter a default value (4). 
+For all email forms there are three common values to be set: The name of the send button (5), the subject line of the email being sent (6) and finally the email address of the person that should receive the email (7). This person is normally you! Or whoever on your team who is supposed to respond to feedback. 
+
+Media
+The Media element is not yet used in the introduction package. But you may be interested to show an Video on your website. Upload your video into the fileadmin. Now create an new content element of type "media".
+ 
+
+Select the "Media" tab and select your video, set if needed some additional parameters and add the alternative content for those, who are not able to see your video.
+ 
+Save your content element and watch your video on your website. 
+ 
+Backend modules 
+Tracking backend users 
+Sometimes you want to know which editor did what, some sort of tracking the backend users actions. You can do that by using the integrated log functionality of TYPO3. Just select "Admin Tools" > "Log" from the menu and you will see an overview of the last actions your users did:
+ 
+Do you notice the little icons with the clock in the log? This is the record history. Each record has a history in TYPO3, so if you change a record by accident you can use this history to undo your changes.
+The easiest way to access the record history is through the list module.
+ 
+
+You will see colored differences between your changes [If you don't see colored differences, see "Troubleshooting"]:
+ 
+Templates
+During this lengthy document you might have wondered time and again - how can I change the title? Or how can I put in my own logo.
+Before we look at these issues you must understand something fundamental about how most CMS work: they separate content from presentation. This means the pages and content are stored in the database without any colors or fonts or background images attached to them. That information is instead located in the template and stylesheets which normally apply to the whole website when pages are shown. Thus a single change in the template will affect the overall appearance of the website for all pages. This is a great and very important feature of a CMS! Just ask people who made an html file based website with 100+ pages and wanted to make a redesign...
+Static and dynamic content
+Consider the "Introduction Package" website:
+ 
+Dynamic parts: On this website the menu (#1), (#2) and the breadcrumb navigation (#3) are indirectly dynamic parts of the page. This means they change from page to page automatically. We cannot directly affect these items per page. They are dynamically programmed parts of the template.
+However the content area (#4), (#5) is a directly dynamic part of the page since this is where the page specific content is inserted. We can affect this by adding, removing and rearranging page content elements! This area is not at all a part of the template (excepts its formatting in colors and fonts) since we directly control it by the content elements. 
+Static parts: Apart from the dynamic parts the template consists always of the same sitetitle (#6), the same background image (#7), a link to the frontend login (#8) and the search field (#9). These parts are also a part of the template (like the indirectly dynamic parts) but they never change by any action. Always the same on each page. 
+
+Template Records?
+So how does TYPO3 implement this principle? Well, you can read in-depth information about the recommended approach for professionally made website is the tutorial Modern Template Building. However this is written for people who are professionally working with web design in teams with developers, designers etc. So the level is a bit higher than this tutorial claims to be.
+But the main point is - the template record. This is a control element that instructs TYPO3 how to handle a certain branch of the page tree. If this seems like an awkward approach to you at first then so be it - it is in fact highly consistent with what you have learned already and further it makes perfect sense when you later want to make many sites in the same page tree including multiple templates etc.
+If you look at the simple Introduction Package website in our case notice that the root page of the website contains such a template record:
+ 
+If you edit the template "Introduction Package" you will see that most fields are empty. For each website you need a TypoScript template on the ROOT level, in this case that is the "Introduction Package" template. The TypoScript configuration of a website can be quite long therefore it is possible to make many small TypoScript templates that get included in the main template. For better maintenance, all TypoScript of the Introduction Package has been put into the folder 'Typoscript Templates'. The only thing the "Introduction Package" template does is to include the "ROOT" template that in turn includes other templates.
+Making changes to the template
+Let’s try to change a few things in the template record, "ROOT". Edit the template "Introduction Package" and select the tab "Includes". In section "Include basis template" click on the Icon before "ROOT" and select edit.
+
+Now you can edit the "ROOT" template in place:
+ 
+For standard templates the "Constants" field is often the place to change values. Constants define things that are used in many places in templates, like the name of the default template or the page where your news are coming from. Constants can then be used in the "Setup" field. For example if you have a constant definition like menu.top.pages = 28 you can later use it in the setup as {$menu.top.pages} and it will be substituted automatically with the value (28 in this case). So one change to a constant may mean many changes in different places in the final TypoScript configuration code of the template.
+In our case, let’s add the feedback page to the top right menu.
+ 
+Just add the page "Feedback" (id 2) to the list of pages in the top right menu.
+
+After saving the template record, click "Clear all cache" in the "Admin Functions" menu:
+ 
+Always do that if you edit template records directly.
+The result is:
+ 
+You can play with other values as well!
+The constant editor:
+The better way to handle these changes is to use the Template module in the "Constant Editor" view:
+ 
+With the constant editor you can edited most constants in a comfortable way. They have additional descriptions telling you what they do. Every constant is in a certain category. You can switch the categories with the "Category" select box on top.
+To repeat the change we did earlier (adding the Feedback page to the top right menu) choose "Navigation Menus" from the category menu and edit the constant:
+ 
+Now go and take a look around at what is available, play with the options and come back when you've had enough.
+The Setup field
+The constant field allows you to edit the defined constants fast and change general things on your website. The next level is to change the details or something more general like if there is a top right menu or not. The easiest way to do that is to use the "Info/Modify" view which allows you direct access to the important parts of the template.
+ 
+As you can see the template has a description that explains shortly what it does. All templates in the Introduction Package have this kind of short explanation, so you can click through them all and get an overview.
+
+Click on the subfolder menu_configuration now. You will see that not one but multiple templates are stored in it.
+ 
+Choose the template "menu.top" now to see the definition of the top right menu and click the pencil next to "Setup" (Notice how there is a link below the menu block which directly points you to editing of the full template record if you need it):
+ 
+Don't worry if you don't understand what you see yet, this tutorial just shows you the general principles and where you find what, the next tutorials will show you in-depth what TypoScript is and how you can use it to create your own websites.
+ 
+One thing you can see in this template is the usage of the constant we changed earlier {$menu.top.pages} in the template. 
+
+The Object Browser
+There is one other tool you should know when working with TypoScript. It is called the "Object Browser". Change the select box on top of the template module to "TypoScript Object Browser":
+ 
+The object browser shows you the TypoScript configuration of your website as an object tree, for example on the image above you can see how the command "page.10.includeCSS.10 = fileadmin..." is transformed into a tree structure. You can click the properties in the template to change them directly. Any changes are written to the current template (Which template is the current template? Look at the header of the Object Browser!) 
+Content in multiple columns
+As you have probably noticed your Introduction Package shows three columns in the page module, left, normal and right. If you look further you might additionally notice, that the left column is empty. So if you want to configure your TYPO3 more comfortable and easier to understand you'd want to hide that useless empty column. That is what we will do now.
+To configure how the TYPO3 backend looks so called TSconfig is used. TSconfig (TypoScript Configuration) is stored on pages and will have an effect on the page it is stored on and on all underlying pages. So if we want to hide the left column everywhere in our website we should change the TSconfig of our root page.  
+Click the page icon of our root page and choose "Edit page properties", then choose the tab "Options" and have a look at the TSconfig field:
+As you could guess from the comment, you just have to delete the "1" in the third line to disable the left column in the page view. Easy, isn't it? This is what you should get after saving the page:
+ 
+Verifying Page TSconfig
+Page TSconfig affects the page it is on and its underlying pages, if you are unsure whether or not a TSconfig option has an effect on the page you are on use the info module to show the current configuration. Choose "Info" from the main modules, then the page you want to inspect. After that choose Page TSconfig from the select box on the info page: 
+ 
+Again you see an hierarchical tree, this time of the backend configuration of TYPO3.  
+Template & backend configuration disclaimer!
+Since the "template" is the crucial point of your implementation possibilities it is very important to stress that this tutorial does not to any degree display the depth of possibilities with templates in TYPO3.   
+Facts about templates and possibilities
+Just to nail it to your mind for sure, this are some facts about templates in TYPO3: 
+You can implement any design you like, the way you like. 
+You can have any number of menu levels. 
+You can have multiple sites, multiple templates. 
+You can have pages in any number of languages. 
+You can have multiple content areas (columns) on a page. 
+You can integrate all kinds of external data sources through PHP written plugins. 
+You can add any number of web applications to run on various pages in TYPO3. 
+You can extend everything with PHP (with full backwards compatibility!). 
+You can do anything - some things are just more straightforward (most typical things), other things are more tricky (less typical things). 
+The file module or: Image archives
+Managing files in TYPO3
+Let’s look at another interesting module - the File module: 
+ 
+This works by the same principle as the List module for database elements - it has a folder tree and a list view of files in the folders. 
+The folder displayed by default (for "admin" users) is the "fileadmin/" folder located under the root folder of your web server directory. Here a little image archive already exists. These files are not used on the website directly. If we want to do so we can either a) link to the files from content elements or b) pick the files in the process of selecting files for content elements. 
+Using files from the archive in your content elements 
+The latter approach is the most typical. Try to insert an image element on the front page of the "History" site: 
+ 
+
+And instead of uploading one image at a time by the "Browse" button you can select multiple files already on the server! 
+ 
+After saving the files are attached to the record. Notice that contrary to what you might think the files are now copied to the uploads/pics/ folder where TYPO3 stores images attached to page content elements. 
+ 
+
+And on the front page you have got a nice block of images: 
+ 
+Notice that there are really a lot of options related to images in TYPO3. Enable "Show secondary options" and see for yourself: 
+ 
+The most important option is the "Position" selector (#1). With this you tell TYPO3 how to position the block of images (there are three images, remember!) in relation to text. This is mostly important when using the "Text w/Image" element type of course. Secondly the "Columns" selector (#2) is important since this is responsible for organizing the images into columns, in this case "2". The "Border" option (#3) is nice since a black border is surrounding the images and that looks good most of the time. The "Width" field (#4) determines the image block width in pixels - very useful as well. The "Link" box (#5) can set a link for the images unless the "Click-enlarge" option (#6) is selected which will enable a link for all images which opens a window with an enlarged version inside! Very nice feature for galleries! Finally the "Caption" field is for the text under images.
+And finally remember: 
+ 
+The little funky "?" icon - help at your fingertips! Use it! 
+Uploading images to the archive 
+One way to get images to the archive would be through FTP. But of course you can upload directly in the File module. Just click the folder icons: 
+ 
+This will bring up a Flash-Popup form where you can upload multiple files at once: 
+ 
+If your browser does not support flash, you can disable this feature in your user settings and you will get an Simple Upload-Form. 
+Likewise files can be renamed, copied, deleted etc - all by the functions available in the context menus you are familiar with already: 
+ 
+ 
+The List module and Clipboard
+The List module contains some very powerful features for managing the database content. Let's just think about it for a moment: All the page and page content related business went on in the Page module - it was designed for that! All template editing we did was done in the Template module - it was designed for that! But on the lower level, behind the scenes, the List module is the ultimate place to manage both pages, page content elements, template records, domain records, users and groups, news items and whatever elements TYPO3 is capable of managing! 
+Using the List module effectively
+You might already have used the clipboard to move a content element from one page to another. But let's see what happens behind the scenes: 
+ 
+
+On the "About TYPO3" page we have two content elements. View the page content with the List module, enable the "Clipboard" checkbox and select "Copy" for an element. 
+ 
+
+Notice how this element gets registered in the clipboard that is shown now! (You will have to refresh the List module before it is shown). 
+ 
+If you select another element the first one is removed. "Cutting" element is the same - it is just being registered as "Cut" instead. 
+
+If you enable "Extended view" checkbox you can see a whole panel of nifty little buttons which are all great shortcuts instead of activating the context menu all the time: 
+ 
+Try to play around with the buttons here! 
+
+The numeric clipboard pads - managing many elements 
+Back to the clipboard - select one of the "numeric pads" now: 
+ 
+Now you can tick off the elements to select for the clipboard - thus you can have not just one but multiple elements selected at once! 
+Select the first two elements and press the "Transfer..." button: 
+ 
+The elements are now registered for "cut" on the clipboard: 
+ 
+Pasting them onto another page is not just a question about going to that page and click the "Paste into" icon: 
+ 
+After confirming the warning... 
+ 
+... you will see the two elements moved to the top of the page and the clipboard pane #1 emptied:
+ 
+Managing files 
+You can do the same thing for files in the Filelist module. Just a quick view - and you can see the principles are the same: 
+ 
+
+Selective editing 
+The list module also uses the check boxes for elements for another purpose - selective multi editing. To enable this you must first of all click the title of the table in the List module (#1): 
+ 
+This will enable the extended mode. Here you can select additional fields from the table you want to view as well (#2). Select the "Type" field for now. This will make the "Type" field appear in addition to the "Header" field already there. 
+Editing all headers 
+Simply click the little pencil next to the "Header" label: 
+ 
+
+You will see this next: 
+ 
+This feature allows you to edit the same field from a large number of records in one stroke of the pen! Very comfortable! 
+You can do the same for both the Header and Type field at one time - just use another edit-pencil: 
+ 
+
+The result will be almost the same form - but with an additional field: 
+ 
+Now, activate the clipboard and select one of the numeric clipboards: 
+ 
+
+The really cool thing is if you tick off only some of the listed records: 
+ 
+Then you will - guessed it? - only get to edit those two! 
+ 
+Powerful stuff. 
+Now do the math yourself for the rest of the buttons! Play around with them now that you have the chance with this test website. 
+User Management 
+Distributed maintenance 
+The final step in our efforts to get this introduction website running is to look at distributed maintenance - a core requirement to a CMS. We already discussed the difference between frontend and backend users and how backend users were located in the root of the page tree: 
+ 
+Backend users 
+The introduction package is shipped with four users. Let's see what they can do. The best way to do this is to logout as admin and log in as one of these users, one at a time. 
+"simple_editor" 
+ 
+
+When you log in as "simple_editor" you will see this when you activate the Page module and select the page "Examples" for editing: 
+ 
+Only the page "Examples" with its subpages. The "simple_editor" is allowed to edit only that branch of the website. But it does not only reflect permission management - it also helps make the system more intuitive and user friendly. As you can see most of the backend modules are not shown to the simple_editor either.  The menu to the left contains only the "Page" and "View" modules in addition to the "File" and "Help" module.
+Images and Documents are managed in the "Filelist" module. The "simple_editor" sees only a Folder "Documents" which is linked to the folder fileadmin/user_upload/documents/. So all folders he does not need, are hidden.
+ 
+
+"news_editor" 
+Now log in as "news_editor". 
+ 
+The "news_editor" is only responsible for writing the news. He should not bother with all the other content of that website. The news are managed via the News-Admin Modul. Just like the simple_editor, he can see only the things, he should see. 
+ 
+Now select the module "News Admin" (#1), close the sidebar (#2) and select the provided path (#3). In the "News Admin" module the user can create and edit new News. 
+ 
+Now check the "Filelist" module.
+ 
+The "news_editor" has an restricted view at the folder structure as well, but he sees only documents, which are located in fileadmin/user_upload/news/. 
+"advanced_editor" 
+Now, log in as "advanced_editor". 
+ 
+The "advanced_editor" sees much more modules and the whole page structure. He is able to do the same as the news_editor and the simple_editor and much more. So, it is possible to restrict everyone to that modules and pages, which he needs to know. Have a look at the Filelist module.
+ 
+The "advanced_editor" does not see the whole fileadmin folder. But he has access to the "News", the "Documents" and another "Images" folder. 
+Setting up user permissions 
+Now we want to know how the users "simple_editor", "news_editor" and "advanced_editor" have been set up! Log in as "admin" again and let's explore it. Select "Edit" for the three users. You will see, that they are almost identical. But they all have a different Group selected. 
+ 
+On the tab "Mounts and Workspaces" there are both "Mount from groups:" are set. Which page and which folder the user can access, depends on the rights which are set at the group level. 
+ 
+It is a good practice to manage the permissions on group basis. 
+Groups 
+Let's look at the Simple editors group which the simple_editor is a member of.
+
+General 
+On the "General" tab you can edit the Group-Name, and write down a short description for that group. If you select an Sub-Group, all permissions from that group are inherited. An user which is in the simple_editor inherits all permissions from the "Simple editors" Group and the "All users" Group. 
+ 
+
+Include Access Lists 
+The "Include Access Lists" is the important point to notice here since that is the reason why we have all these options listed! Apart from those the group contains DB mounts and Filemounts which apply to all users that are members. 
+ 
+Modules 
+Looking at the access lists you will see that (#1) membership of this group will grant access to the Page and View module (unfortunately you will have to know that these codes are the equivalents of the names you know from the menu...).  
+
+ 
+
+Tables (modify) 
+The tables that a simple_editor is allowed to edit are listed (#2). 
+ 
+Log in as "simple_editor" and then try to create a new element: 
+ 
+Only pages and page content elements could be created. No users, no news elements. Only pages and content elements.
+Why this? Well, because "simple_editor" should not worry about anymore than this! He is not the guy in charge of the news, right! 
+
+Page types 
+This field (#3) dictates what page types members of the Simple editor group should be able to select. But if the simple_editor creates a new page, he does not have the possibility to change the page type. 
+ 
+That is because the Page-Type is not in the list of "allowed Excludefields":
+Allowed Excludefields 
+ 
+This is a long list, which becomes even longer with more Extensions installed. It is very powerful, but it takes a little background to understand it.
+When tables and fields are configured in TYPO3 (in the internal global PHP array, $TCA) some fields are marked as "excludeFields". This means that the fields are not allowed to be edited unless you have been granted special permission - that is what the "Allowed Excludefields" list does!
+
+This is easy to understand if you take a look at what the "simple_editor" sees when he edits a page header: 
+ 
+Not an impressive amount of fields. In particularly not if you compare it with what you see as "admin" user. 
+ 
+The reason for this difference is that 
+most of the fields in the pages are marked as "excludeFields" - hence cannot be edited by default - and 
+that the All Users group where the simple_editor inherits its rights, allows only access to some of these "excludeFields". 
+
+Now edit the simple_editor group and select the Page-Type field ("Page: Type") and save the group. 
+ 
+Now log in as simple_editor and edit a page-record. 
+ 
+The simple_editor has now the ability to change the page-type, but as it has been configured in section page types, the simple_editor has only the choice between standard and shortcut. 
+Explicitly allow/deny field values: 
+ 
+You can restrict which type of content element a group is allowed to use. If an editor should be allowed to use an plugin like tt_news, it is important to allow the use of the type "Insert Plugin" and to allow in subsection "Pagecontent: Plugin:" the appropriate Plugin itself. 
+ 
+Inverting the behavior
+You can change the behavior of this setting in the install tool. If you set [BE][explicitADmode] = explicitAllow you have to select the types of content elements which a group should be allowed to use instead of deny those types.
+This is actually recommended. First of all it is more secure, as nothing is allowed by default. It is also more intuitive when setting up permissions (because you are giving permissions and not removing them).
+
+DB Mounts 
+DB mounts (database mounts) are used to restrict a user's access to only some parts of the page tree. Each mount corresponds to a page in the tree. The user will have access only to those pages and their sub-pages. 
+ 
+As you see it couldn't be more easy to give a specific user access to a specific part of the page tree - just set the fields value to that page. Or two pages even! You can add any number of "DB mounts" as you like! 
+File Mounts 
+The file mount assigned to the simple_editor group is a relation to a simple record created in the page tree root as well: 
+ 
+When you edit it you will see how logically it is configured: 
+ 
+Simply, the directory "user_upload/documents/" (#1) is entered as PATH and the "BASE" field is configured to interpret that path relative to the "fileadmin/" direcotry (#2). That simple. When a user has a relation set to this record he will have this directory mounted in his Filelist module! 
+Page Permissions 
+One note to "DB mounts" - if the user has no read access permission to the page and sub pages of the DB mount then it really doesn't matter whatever you have configured - it will not work! And what is read access then? Each page has a permission setting for access like the file system on a UNIX server - there is an owner user, an owner group and then permission settings for each in five different categories; read page, edit page, delete page, new subpage and page content. Normally the default settings are fine enough and using the DB mounts to assign access is probably the easiest way to go. If you run into trouble, just set all permissions to "on" - that will make green starts over the full line (see image below). Of course, if you want to really know the ins and outs of this, go to the Inside TYPO3 document - here you will get the hairy explanation.
+
+Probably the best way to show you how page permissions should be set is to view the current permissions of the page tree. This is done by the "Access" module. 
+ 
+ 
+You have an overview which user and groups are able to edit which pages. You can change the permissions if you click on the allow/deny Icons. 
+
+When you look at the ownerships of the pages you can see that the simple_editor actually owns a few pages. He might have been the creator of those. When you create a page you become its owner automatically. But the main point is that the group "All users" is the owner group of all pages. And since "All users" is a subgroup of "Simple editors" as well as a subgroup of "Advanced editors" all members of that groups have access to that pages. But they are still restricted to work within their DB mounts. But with this configuration it is only possible for the owner to delete a page.
+
+If an editor creates a new page, he will become the owner of that page and his maingroup (the first one, if he is member for more than one) will be set for that page. But you are free to change that default-values via PAGE-TypoScript configuration.
+
+Let's have a look at that "PAGE-TS-Config". As an admin edit the page "Home" and select the "Options" tab. 
+ 
+In the TSconfig section you can control how the Backend should behave. We do not want to explain now, what you can do with TSconfig, but keep in mind, that you can change how the Backend react - on page basis! Have a look at the TSconfig Reference to get an overview. 
+Validation of settings 
+With the module "User Admin" you can actually validate that you have set the correct permissions. 
+ 
+This will tell you right away what the combined permissions will be for her. 
+ 
+The first two green stars mean "Read page" and "New content on page" - the red crosses means "Cannot edit, delete and create new pages".
+
+But you can also simulate a Backend-User by clicking on the red Switch-to-User Icon. After that you are logged in as that user - and if you log out, you are switched back. 
+ 
+The User Admin module is a great tool to evaluate user settings, compare users etc. Indispensable when you have many users and want to make sure you have control over their rights!. 
+Record locking? 
+Maybe you have noticed in the process of logging in and out as different users that an icon like this can appear: 
+ 
+This is just a warning to users that someone else is working on this page at the moment - records are not truly locked in TYPO3 since access to a record should be allowed if people have access. But this warning is a nice touch since it helps people to avoid conflicts.
+
+ Every time a user starts to edit a content record, an internal flag is set, which lasts for two hours. If the user close this record via save & close or close Button, that flag gets deleted. But if the user just select a different page to edit, that flag stay as it is. So, it is recommended to use the close button, if you are done with an record. 
+Creating a new user for the Introduction sites 
+Now, we can create a user who should be in charge for the "Resources" page including sub-pages. 
+Step 1: create a new User group "Resources editors" 
+User groups and Users are just records. Copy the backend user group record "Simple editors".
+ 
+Reload the List. 
+ 
+And paste the copied record in the list. 
+
+Now edit the new created backend usergroup "Simple editors (copy 1)". Change the group's title and the DB Mountpoint. 
+ 
+Step 2: create the user 
+Users are just records - create a "Backend user" record: 
+ 
+
+Enter the username, password, group membership: 
+ 
+Take care, that the "Mount from Groups" settings are set: 
+ 
+Save the record and check the new backend user with the switch-user function in the Admin-Tool. 
+ 
+It works: 
+ 
+A short glimpse into the extension manager
+TYPO3 has many features build in, but even more different features are implemented as extensions. With such extension you can enhance the functions of TYPO3 or build totally new features. Even a lot core features are implemented as extensions (plugins), so it is your choice if you want to use that features or not. The extension manager helps you to manage all your extensions. We want to have now a short glimpse at the extension manager. Login as admin and switch to the extension manager module. 
+ 
+At the top of the module, you can select different sub-modules (#1). You can get the list of all loaded extensions. This are extensions which are activated. In sub-module "Install extension" you can install and uninstall extensions which are already downloaded or shipped with as system extension. The most time you may want to download extensions from TER (TYPO3 Extension repository). This is done in the "import extension" sub-module. "Translation handling" manages the language selection for the backend and downloads the language packages for TYPO3 core and all extensions which are managed by the translation team. In "Settings" you can select an specific TER mirror and define the login for Uploading extensions. If everything works fine, you would not need to change anything. "Check for extension updates" helps you to get an quick overview for which extension an new version exists. 
+
+Now have a look at the list of loaded Extensions. 
+ 
+You can uninstall or install (in module "Install extensions") by clicking at the icon (#1). The title (#2) of the extension is shown. But more important is the extension key (#3). That key is used to create the extension folder in typo3conf/ext/, to define TypoScript paths and a lot more of depends on the extension key. The version (#4) and the state (#8) is set by the extension developer based on his judgement. You can download the extension itself (#5) or the manual (#6) if one is shipped with that extension. The extension type (#7) "System" indicates that an extension is shipped with the TYPO3 core, extensions of type "Local" are available in typo3conf/ext/extensionkey. 
+Some extensions are marked as "shy", so the list should not get to long with unimportant extensions. Just check "Display shy extensions" and have a look at the list. 
+ 
+
+Now let us install an new extension. For that switch to the sub-module "Install extensions".
+ 
+Click on the "Retrieve/Update" Button to retrieve the latest list of available extensions from the TER. Now let's look up for the extension ts45min.
+ 
+You can download and install the extension which ships with the OpenOffice (.sxw) manual. In this case, you would not get an new module or function, just the document itself which you can download in the loaded list view.
+Extension security
+Please keep in mind, that there is no security audit available for the extensions, so take a close look at extensions you are installing. If you find a security issue, get in touch with the security team (security@typo3.org).
+
+Changing backend language
+Usually an editor would like to use TYPO3 in his own language. So you need to change the language of TYPO3 for him. As an first step, you have to just download the language packages you need. To do so, just start the Extension Manager and select "Translation handling".
+
+Now select which language packages you want to download. Select all language packages you want to provide to your users. 
+
+Save your selection by hitting "Save selection". You can alter your selection at any time, so just select the languages you need now. 
+
+After saving your selection, you can either compare the actual status against the repository or just update and download the language packages from the repository. Just hit update. You will see an progress-bar where you can see for which Extension the language packages has been downloaded. Usually you should get a green bar and an green "UPD" marker for you language for each extension key. It can happen, that some extensions are not yet translated in your language, then you will get an "N/A".
+It may happen that not all packages get downloaded. Just hit the update button again - it should then retrieve the missing parts.
+
+
+Up to now, you just downloaded the language packages. Now you need to alter your "User settings" and select your language. Switch to the "User settings" Module and select the language you want to use for your account. 
+
+Save your new configuration. You will then get an message that your settings were updates. If you have a look at the main modules, you see that the modules are now shown in the language, you selected. If you hit again "User settings" even that page will be translated. 
+
+
+So, you just changed your own backend language. All editors needs to do it for themselves.
+
+If you create new editors you can give them a helping hand by selection an "default language" while creating new Backend user records. This language will be used when the log into TYPO3 the first time. 
+
+Keep in mind, that the "Default Language" really is nothing else, than an default setting. If they have logged in already, they have to switch their language for themselves in the "User settings" Module. 
+Troubleshooting
+Human readable URLs
+By default, TYPO3 identifies the page which should be delivered via the ?id parameter. So you can just enter http://www.your-site.example.org/index.php?id=4 to get the examples page. As every page in TYPO3 has an id, you only need to know that id to get the page. But for your visitors the url http://www.your-site.example.org/examples/ would be nicer. In TYPO3 this features comes as an extension (and there are actually several). The Introduction Package comes with one called "RealURL". If you have special needs regarding the scheme of your URLs, have a look at its manual.
+RealUrl should work just out of the box for you in the Introduction Package. If it does not, and you get redirected to the Welcome page with each click in the frontend, you may just deactivate realurl. For doing so, just go to the list module, select the template "Introduction Package" on the page "home" and put into the setup-field:
+config.tx_realurl_enable = 0
+
+Save the template record and just clear all caches. All links should be rendered with ?id= instead of human readable URLs now, and you should be able to just navigate trough your page. 
+Note on image processing in TYPO3
+If you are not so lucky you didn't see some of the images in these screenshots on your own server. This might be because ImageMagick was not properly detected on your server. You probably didn't see all the great things happen. 
+You will have to consult the installation documentation available to get those problems solved. Also remember there is a mailing list for installation questions. 
+Colored differences in history module
+To get the colored differences in the history module, you need to have installed the unix-tool diff on your server. Otherwise you will not get the colored differences. But you will be able to see the differences, just without colors. 
+Next steps
+TYPO3 has a lot of documentation available in the documentation library. They are divided into four sections. The tutorials section covers documents which provide you with a step-by-step introduction to a topic. If you need documentation about installing TYPO3 or related software you will find it in the section Installation. The Core Documentation is related to the core of TYPO3 and mainly describe behind the scenes technology. Target group of this documentation are extension- and core developers. In the section Extension Manuals there is a list of all manuals which are available from extension. That are a lot of different documents, so for beginners it is sometimes difficult to find the right document to get started. So, we recommend the following documents for further reading. 
+Tutorial for editors
+TYPO3 Tutorial for Editors: This basic tutorial for editors explains how to add or change content on an existing website in TYPO3. It provides the most basic step-by-step instructions to get the job done. This tutorial does not cover all available functions, only the most common ones.  
+Internal Manual (Module): The system extension cshmanual provides an additional backend module, which appears in the help menu. The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials. 
+Tutorials for future administrators
+Modern Template Building: The modern Template Building explains how to use an HTML-Template as skeleton for your webpage, and helps you with the first steps building your own website in TYPO3. 
+Futuristic Template Building: TYPO3 uses the concept of columns to define where the content is rendered. If your website design does not fit into columns or you need to be very flexible with the content elements, the extension TemplaVoila may help you build very flexible designs with TYPO3. This concept is explained in this tutorial. 
+TS in 45 minutes: TypoScript is the powerful configuration language, but it is not an scripting language. This tutorial explains the basic concepts of TypoScript and gives a first overview about the most important functions and objects.  
+References
+Tsconfig: With Page- and User-TSconfig you can change in parts the behavior of the backend. You can change labels, hide or show fields, set permissions and default values. This is usually done on the Page-TSconfig or User-TSconfig field. This reference shows which options are available for TYPO3. 
+TSRef: The TypoScript reference defines the different functions and objects, which can be used to configure the frontend output. Usually you will use the extension css_styled_content which ships with the whole configuration for all build in content elements. If you want to change something, you can look up the possible options in the TSref. 
+Keep security in mind
+Security is taken very seriously by the developers of TYPO3. The TYPO3 Security Team manages possible security incidents. They review it and considers its impact. If TYPO3 or an extension turns out to be actually vulnerable, the Security Team work on a fix for the problem. They contact the extension authors and if the fix is tested and released, an advisory is published. To get the bulletin notification delivered to your inbox, we strongly recommend to subscribe to the typo3-announce mailing list. The TYPO3 Security Team also provides some additional resource about securing your TYPO3 installation.
