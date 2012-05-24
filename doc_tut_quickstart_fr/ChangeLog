@@ -1,0 +1,11 @@
+2010-12-10  Francois Suter  <francois.suter@typo3.org>
+
+	* Added document/extension version number on cover page, resolves #11382
+
+2010-12-08  Francois Suter  <francois.suter@typo3.org>
+
+	* Released to TER as version 1.0.0
+
+2010-12-06  Francois Suter  <francois.suter@typo3.org>
+
+	* New version based on the TYPO3 4.4 Introduction Package
