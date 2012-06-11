@@ -1,0 +1,42 @@
+﻿.. include:: Images.txt
+
+.. ==================================================
+.. FOR YOUR INFORMATION
+.. --------------------------------------------------
+.. -*- coding: utf-8 -*- with BOM.
+
+.. ==================================================
+.. DEFINE SOME TEXTROLES
+.. --------------------------------------------------
+.. role::   underline
+.. role::   typoscript(code)
+.. role::   ts(typoscript)
+   :class:  typoscript
+.. role::   php(code)
+
+
+Tracking backend users
+^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes you want to know which editor did what, some sort of
+tracking the backend users actions. You can do that by using the
+integrated log functionality of TYPO3. Just select "Admin Tools" >
+"Log" from the menu and you will see an overview of the last actions
+your users did:
+
+|img-114|
+
+Do you notice the little icons with the clock in the log? This is the
+record history. Each record has a history in TYPO3, so if you change a
+record by accident you can use this history to undo your changes.
+
+The easiest way to access the record history is through the list
+module.
+
+|img-115|
+
+You will see colored differences between your changes (If you don't
+see colored differences, see "Troubleshooting"):
+
+|img-116|
+

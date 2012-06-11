@@ -1,0 +1,124 @@
+﻿.. |img-66|     image:: ../../Images/manual_html_736a8744.png
+   :height: 256
+   :width: 493
+.. :align: left
+.. :border: 0
+.. :name: Grafik50
+
+.. |img-67|     image:: ../../Images/manual_html_m453cd5a.png
+   :height: 565
+   :width: 581
+.. :align: left
+.. :border: 0
+.. :name: Grafik51
+
+.. |img-68|     image:: ../../Images/manual_html_1a2886f4.png
+   :height: 255
+   :width: 495
+.. :align: left
+.. :border: 0
+.. :name: Grafik52
+
+.. |img-69|     image:: ../../Images/manual_html_795cef83.png
+   :height: 364
+   :width: 417
+.. :align: left
+.. :border: 0
+.. :name: Grafik53
+
+.. |img-70|     image:: ../../Images/manual_html_m66c93681.png
+   :height: 277
+   :width: 495
+.. :align: left
+.. :border: 0
+.. :name: Grafik54
+
+.. |img-71|     image:: ../../Images/manual_html_6233ae73.png
+   :height: 371
+   :width: 502
+.. :align: left
+.. :border: 0
+.. :name: Grafik55
+
+.. |img-72|     image:: ../../Images/manual_html_2a99fdb6.png
+   :height: 491
+   :width: 591
+.. :align: bottom
+.. :border: 0
+.. :name: 65
+
+.. |img-73|     image:: ../../Images/manual_html_m7ac6ba2e.png
+   :height: 492
+   :width: 585
+.. :align: bottom
+.. :border: 0
+.. :name: 66
+
+.. |img-74|     image:: ../../Images/manual_html_137345b9.png
+   :height: 481
+   :width: 580
+.. :border: 0
+.. :name: 67
+
+.. |img-75|     image:: ../../Images/manual_html_4ff81355.png
+   :height: 409
+   :width: 179
+.. :align: bottom
+.. :border: 0
+.. :name: 68
+
+.. |img-76|     image:: ../../Images/manual_html_4249eddb.png
+   :height: 511
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 69
+
+.. |img-77|     image:: ../../Images/manual_html_m7aadfc36.png
+   :height: 665
+   :width: 513
+.. :border: 0
+.. :name: 70
+
+.. |img-78|     image:: ../../Images/manual_html_7006dd83.png
+   :height: 149
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 71
+
+.. |img-79|     image:: ../../Images/manual_html_66112bdb.png
+   :height: 301
+   :width: 584
+.. :align: left
+.. :border: 0
+.. :name: Grafik56
+
+.. |img-80|     image:: ../../Images/manual_html_6923394a.png
+   :height: 364
+   :width: 530
+.. :align: left
+.. :border: 0
+.. :name: Grafik57
+
+.. |img-81|     image:: ../../Images/manual_html_m740a8709.png
+   :height: 362
+   :width: 491
+.. :align: left
+.. :border: 0
+.. :name: Grafik58
+
+.. |img-82|     image:: ../../Images/manual_html_m4ec9e0a5.png
+   :height: 493
+   :width: 631
+.. :align: left
+.. :border: 0
+.. :name: Grafik59
+
+.. |img-83|     image:: ../../Images/manual_html_m4b818435.png
+   :height: 160
+   :width: 602
+.. :align: left
+.. :border: 0
+.. :name: Grafik60
+

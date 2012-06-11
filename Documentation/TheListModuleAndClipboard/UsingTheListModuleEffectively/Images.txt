@@ -1,0 +1,28 @@
+﻿.. |img-145|    image:: ../../Images/manual_html_m5f3fd6bc.png
+   :height: 437
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 134
+
+.. |img-146|    image:: ../../Images/manual_html_176a11ab.png
+   :height: 437
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 135
+
+.. |img-147|    image:: ../../Images/manual_html_m3a9b2c64.png
+   :height: 449
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 136
+
+.. |img-148|    image:: ../../Images/manual_html_m6e6002cb.png
+   :height: 426
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 137
+

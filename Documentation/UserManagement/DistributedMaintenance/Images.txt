@@ -1,0 +1,7 @@
+﻿.. |img-164|    image:: ../../Images/manual_html_m7a3c4c49.png
+   :height: 277
+   :width: 669
+.. :align: bottom
+.. :border: 0
+.. :name: 153
+

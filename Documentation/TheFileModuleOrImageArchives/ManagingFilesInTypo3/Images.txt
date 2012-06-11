@@ -1,0 +1,49 @@
+﻿.. |img-134|    image:: ../../Images/manual_html_m295dff82.png
+   :height: 181
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 123
+
+.. |img-135|    image:: ../../Images/manual_html_742bb6e2.png
+   :height: 29
+   :width: 401
+.. :align: bottom
+.. :border: 0
+.. :name: 124
+
+.. |img-136|    image:: ../../Images/manual_html_5b04971.png
+   :height: 484
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 125
+
+.. |img-137|    image:: ../../Images/manual_html_m718261af.png
+   :height: 255
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 126
+
+.. |img-138|    image:: ../../Images/manual_html_mb6ed931.png
+   :height: 419
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 127
+
+.. |img-139|    image:: ../../Images/manual_html_63ffd702.png
+   :height: 356
+   :width: 631
+.. :align: bottom
+.. :border: 0
+.. :name: 128
+
+.. |img-140|    image:: ../../Images/manual_html_m73441678.png
+   :height: 85
+   :width: 196
+.. :align: bottom
+.. :border: 0
+.. :name: 129
+
