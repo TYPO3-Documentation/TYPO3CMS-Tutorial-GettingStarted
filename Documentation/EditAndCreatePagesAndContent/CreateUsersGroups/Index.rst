@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 Create users/groups
@@ -85,7 +77,7 @@ are the  *only users* with access to records in the page tree root:
 
 The three green backend users (1) are configured so they can maintain
 a little part of the website each - more about that in the
-:underline:`users section` later on. At (2) you see the configured
+*users section* later on. At (2) you see the configured
 backend user groups for your website. Finally the "admin" user (3) -
 the one we are working with - is blue and has total and unrestricted
 access to any part of the system.

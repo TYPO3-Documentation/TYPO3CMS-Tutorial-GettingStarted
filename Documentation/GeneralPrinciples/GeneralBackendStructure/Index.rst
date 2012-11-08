@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 General Backend Structure
@@ -21,7 +13,7 @@ General Backend Structure
 On the left you still have the modules overview, in the middle you now
 have the page tree and on the right the content area.
 
-|img-5| 
+|img-5|
 Page tree
 ^^^^^^^^^
 
@@ -35,10 +27,8 @@ the little arrows on the left of the items.
 The page tree was completely rewritten for TYPO3 4.5 LTS. It now works
 much differently then the old version. If you are using an older
 version of TYPO3, please refer to an older version of this document:
-`:underline:`http://typo3.org/documentation/document-
-library/tutorials/doc\_tut\_quickstart/1.0.0/view/1/3/`
-<http://typo3.org/documentation/document-
-library/tutorials/doc_tut_quickstart/1.0.0/view/1/3/>`_
+`http://typo3.org/documentation/document-library/tutorials/doc\_tut\_quickstart/1.0.0/view/1/3/
+<http://typo3.org/documentation/document-library/tutorials/doc_tut_quickstart/1.0.0/view/1/3/>`_
 
 *Look at your page tree now:*
 
@@ -58,7 +48,7 @@ id. This id is also used to display the page in the frontend.
 
 A click on the icon will open the context menu.
 
-|img-9| 
+|img-9|
 The context menu
 """"""""""""""""
 
@@ -78,26 +68,26 @@ related functions the fast way. Here is what these options do:
   changes when)
 
 - Page Actions: Action related to the selected page
-  
+
   - New: Lets you create a new page or new content
-  
+
   - Cut: Cuts the page
-  
+
   - Copy: Copies the page
-  
+
   - Delete: Deletes the page
 
 - Branch Actions: Actions related to the whole branch
-  
+
   - Mount as treeroot: Temporarily makes the selected page being the
     treeroot
-  
+
   - Expand Branch: Same as clicking on a “closed” the arrow
-  
+
   - Collapse Branch: Same as clicking on an “open” arrow
-  
+
   - Export to .t3d: Opens the export tool and preselects the selected page
-  
+
   - Import from .t3d: Opens the import tool and preselects the selected
     page
 

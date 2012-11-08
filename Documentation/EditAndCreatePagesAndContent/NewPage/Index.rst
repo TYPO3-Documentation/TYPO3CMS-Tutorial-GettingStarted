@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 |img-32| New page
@@ -66,7 +58,7 @@ server and attached to the new page content element.
 
 If everything went fine it now looks like this on the web page:
 
-|img-42| 
+|img-42|
 Inserting another content element
 """""""""""""""""""""""""""""""""
 
@@ -99,7 +91,7 @@ normal column and a "Sitemap" type in the right column:
 
 |img-48| In the Page module this looks like this:
 
-|img-49| 
+|img-49|
 Move / Copy pages
 ^^^^^^^^^^^^^^^^^
 

@@ -1,24 +1,15 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Tutorial for editors
 ^^^^^^^^^^^^^^^^^^^^
 
-`:underline:`**TYPO3 Tutorial for Editors**`
+`**TYPO3 Tutorial for Editors**
 <http://typo3.org/documentation/document-library/extension-
 manuals/doc_tut_editors/current/>`_ : This basic tutorial for editors
 explains how to add or change content on an existing website in TYPO3.

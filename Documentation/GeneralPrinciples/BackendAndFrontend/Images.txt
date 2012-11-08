@@ -1,13 +1,13 @@
 ﻿.. |img-3|      image:: ../../Images/manual_html_7519d7b6.png
-   :height: 506
-   :width: 437
+.. :height: 506
+.. :width: 437
 .. :align: left
 .. :border: 0
 .. :name: Grafik16
 
 .. |img-4|      image:: ../../Images/manual_html_5733a2bc.png
-   :height: 469
-   :width: 631
+.. :height: 469
+.. :width: 631
 .. :align: left
 .. :border: 0
 .. :name: Grafik4

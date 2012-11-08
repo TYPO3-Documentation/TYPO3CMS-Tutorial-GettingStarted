@@ -1,41 +1,41 @@
 ﻿.. |img-22|     image:: ../Images/manual_html_3cd9b3b7.png
-   :height: 28
-   :width: 28
+.. :height: 28
+.. :width: 28
 .. :align: left
 .. :border: 0
 .. :name: graphics8
 
 .. |img-208|    image:: ../Images/manual_html_m2bdcce4f.png
-   :height: 390
-   :width: 669
+.. :height: 390
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 197
 
 .. |img-209|    image:: ../Images/manual_html_4cb008fc.png
-   :height: 316
-   :width: 579
+.. :height: 316
+.. :width: 579
 .. :align: bottom
 .. :border: 0
 .. :name: 198
 
 .. |img-210|    image:: ../Images/manual_html_m6d63c44d.png
-   :height: 107
-   :width: 306
+.. :height: 107
+.. :width: 306
 .. :align: bottom
 .. :border: 0
 .. :name: 199
 
 .. |img-211|    image:: ../Images/manual_html_m3022c16c.png
-   :height: 242
-   :width: 613
+.. :height: 242
+.. :width: 613
 .. :align: bottom
 .. :border: 0
 .. :name: 200
 
 .. |img-212|    image:: ../Images/manual_html_m65f5db8f.png
-   :height: 200
-   :width: 452
+.. :height: 200
+.. :width: 452
 .. :align: bottom
 .. :border: 0
 .. :name: 201

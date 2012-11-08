@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Getting the Introduction Package
@@ -20,12 +11,11 @@ Getting the Introduction Package
 
 First you will need to download and install the introduction package
 which is used to explain TYPO3 in this tutorial. Get the package at
-`:underline:`http://typo3.org/download/`
-<http://typo3.org/download/packages/>`_ . To install your first
+`http://typo3.org/download/ <http://typo3.org/download/packages/>`__ .
+To install your first
 website follow the steps provided in the quick install part in the
-`:underline:`Installation and Upgrade Guide`
-<http://typo3.org/documentation/document-
-library/guides/doc_guide_install/current/>`_ - if you want to use
+`Installation and Upgrade Guide <http://typo3.org/documentation/document-library/guides/doc_guide_install/current/>`_
+- if you want to use
 TYPO3 professionally you should read the full guide sometime. You can
 find a step-by-step guide below the "short installation guide".
 
@@ -59,8 +49,7 @@ assumes you are using a Windows operation system.
 Download
 ~~~~~~~~
 
-#. Go to " `:underline:`http://typo3.org/download/`
-   <http://typo3.org/download/>`_ ".
+#. Go to " `http://typo3.org/download/ <http://typo3.org/download/>`_ ".
 
 #. Click on the button labeled"Download TYPO3 version 4.5 LTS\| with the
    new Introduction Package"
@@ -89,8 +78,7 @@ Upload
 
 You can upload the content of your folder with an FTP-client of you
 choice. The following step-by-step instruction assumes you are using
-the free, platform-independent FTP-client `:underline:`FileZilla`
-<http://filezilla-project.org/>`_ .
+the free, platform-independent FTP-client `FileZilla <http://filezilla-project.org/>`_ .
 
 #. Open FileZilla
 

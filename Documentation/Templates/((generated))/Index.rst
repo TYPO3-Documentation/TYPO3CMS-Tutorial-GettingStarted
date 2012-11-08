@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 ((generated))
@@ -47,8 +39,8 @@ but they never change by any action. Always the same on each page.
 """""""""""""""""""""
 
 So how does TYPO3 implement this principle? Well, you can read in-
-depth information about the `:underline:`recommended approach for
-professionally made website in the tutorial Modern Template Building`
+depth information about the `*recommended approach for
+professionally made website in the tutorial Modern Template Building*
 <http://typo3.org/documentation/document-
 library/tutorials/doc_tut_templselect/current/>`_ . However this is
 written for people who are professionally working with web design in

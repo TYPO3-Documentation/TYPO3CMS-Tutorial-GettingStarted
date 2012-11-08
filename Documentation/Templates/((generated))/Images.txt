@@ -1,13 +1,13 @@
 ﻿.. |img-117|    image:: ../../Images/manual_html_m390acc1e.png
-   :height: 367
-   :width: 631
+.. :height: 367
+.. :width: 631
 .. :align: bottom
 .. :border: 0
 .. :name: 106
 
 .. |img-118|    image:: ../../Images/manual_html_m3e658ccf.png
-   :height: 264
-   :width: 631
+.. :height: 264
+.. :width: 631
 .. :align: bottom
 .. :border: 0
 .. :name: 107

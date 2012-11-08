@@ -1,20 +1,20 @@
 ﻿.. |img-131|    image:: ../../Images/manual_html_m5259e2e5.gif
-   :height: 328
-   :width: 629
+.. :height: 328
+.. :width: 629
 .. :align: left
 .. :border: 0
 .. :name: graphics14
 
 .. |img-132|    image:: ../../Images/manual_html_64c3e1a3.png
-   :height: 281
-   :width: 550
+.. :height: 281
+.. :width: 550
 .. :align: left
 .. :border: 0
 .. :name: graphics10
 
 .. |img-133|    image:: ../../Images/manual_html_m2fbce34d.png
-   :height: 387
-   :width: 631
+.. :height: 387
+.. :width: 631
 .. :align: left
 .. :border: 0
 .. :name: graphics13

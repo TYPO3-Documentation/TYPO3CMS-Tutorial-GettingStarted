@@ -1,62 +1,62 @@
 ﻿.. |img-199|    image:: ../../Images/manual_html_m166b86cc.png
-   :height: 292
-   :width: 669
+.. :height: 292
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 188
 
 .. |img-200|    image:: ../../Images/manual_html_m39541f53.png
-   :height: 70
-   :width: 211
+.. :height: 70
+.. :width: 211
 .. :align: bottom
 .. :border: 0
 .. :name: 189
 
 .. |img-201|    image:: ../../Images/manual_html_m1ddf554d.png
-   :height: 163
-   :width: 669
+.. :height: 163
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 190
 
 .. |img-202|    image:: ../../Images/manual_html_m36f2898f.png
-   :height: 229
-   :width: 669
+.. :height: 229
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 191
 
 .. |img-203|    image:: ../../Images/manual_html_m74be0f7a.png
-   :height: 243
-   :width: 669
+.. :height: 243
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 192
 
 .. |img-204|    image:: ../../Images/manual_html_766f37f6.png
-   :height: 388
-   :width: 669
+.. :height: 388
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 193
 
 .. |img-205|    image:: ../../Images/manual_html_m3d0a5273.png
-   :height: 81
-   :width: 669
+.. :height: 81
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 194
 
 .. |img-206|    image:: ../../Images/manual_html_121afd2b.png
-   :height: 396
-   :width: 669
+.. :height: 396
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 195
 
 .. |img-207|    image:: ../../Images/manual_html_m6ca57d36.png
-   :height: 166
-   :width: 669
+.. :height: 166
+.. :width: 669
 .. :align: bottom
 .. :border: 0
 .. :name: 196

@@ -1,6 +1,6 @@
 ﻿.. |img-65|     image:: ../../Images/manual_html_m61fd96fc.png
-   :height: 436
-   :width: 592
+.. :height: 436
+.. :width: 592
 .. :align: left
 .. :border: 0
 .. :name: Grafik49

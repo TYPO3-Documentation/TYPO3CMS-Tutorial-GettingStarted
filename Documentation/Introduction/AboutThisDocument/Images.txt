@@ -1,6 +1,6 @@
 ﻿.. |img-2|      image:: ../../Images/manual_html_m27abbc9b.png
-   :height: 467
-   :width: 631
+.. :height: 467
+.. :width: 631
 .. :align: bottom
 .. :border: 0
 .. :name: Grafik1

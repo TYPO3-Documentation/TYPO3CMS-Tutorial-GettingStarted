@@ -1,18 +1,9 @@
-﻿
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
 
 
 Human readable URLs
@@ -34,9 +25,7 @@ Package. If it does not, and you get redirected to the Welcome page
 with each click in the frontend, you may just deactivate realurl. For
 doing so, just go to the list module, select the template
 "Introduction Package" on the page "home" and put into the setup-
-field:
-
-::
+field::
 
    config.tx_realurl_enable = 0
 

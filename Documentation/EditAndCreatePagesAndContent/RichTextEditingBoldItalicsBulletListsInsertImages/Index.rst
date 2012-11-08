@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 Rich Text Editing: Bold, Italics, Bullet lists, Insert images
@@ -27,7 +19,5 @@ text in addition to just writing it.
 |img-65| As you can see you can create lists, apply formatting like bold or
 italic and even insert tables. This editor can be fully configured to
 match all your needs. The configuration is not part of this tutorial.
-You can find a description in the `:underline:`rtehtmlarea manual`
-<http://typo3.org/documentation/document-library/extension-
-manuals/rtehtmlarea_manual/current/>`_ .
+You can find a description in the `rtehtmlarea manual <http://typo3.org/documentation/document-library/extension-manuals/rtehtmlarea_manual/current/>`_ .
 

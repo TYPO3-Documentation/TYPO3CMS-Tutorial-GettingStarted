@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 Visibility settings - hiding pages, timing appearance etc.
@@ -46,7 +38,7 @@ that tells you that a normal visitor won't see it:
 of visibility setting. It is so common that it actually has its own
 item in the context menus:
 
-|img-61| 
+|img-61|
 Timing pages and content elements
 """""""""""""""""""""""""""""""""
 

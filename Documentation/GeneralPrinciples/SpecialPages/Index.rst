@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 Special pages
@@ -56,7 +48,7 @@ frontend groups or news records.
 You can create a folder by selecting it in the "Type" drop down in the
 page properties:
 
-|img-14| 
+|img-14|
 Shortcuts
 """""""""
 
@@ -82,7 +74,7 @@ from.
 You create a shortcut like you create a folder - by selecting it's
 type in the drop down when editing page properties:
 
-|img-15| 
+|img-15|
 Link to external URL
 """"""""""""""""""""
 

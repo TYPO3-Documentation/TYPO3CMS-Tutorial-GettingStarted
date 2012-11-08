@@ -1,18 +1,10 @@
-﻿.. include:: Images.txt
-
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
 .. -*- coding: utf-8 -*- with BOM.
 
-.. ==================================================
-.. DEFINE SOME TEXTROLES
-.. --------------------------------------------------
-.. role::   underline
-.. role::   typoscript(code)
-.. role::   ts(typoscript)
-   :class:  typoscript
-.. role::   php(code)
+.. include:: ../../Includes.txt
+.. include:: Images.txt
 
 
 Content in multiple columns
@@ -39,7 +31,7 @@ properties", then choose the tab "Resources" and have a look at the
 in the third line to disable the left column in the page view. Easy,
 isn't it? This is what you should get after saving the page:
 
-|img-132| 
+|img-132|
 Verifying Page TSconfig
 """""""""""""""""""""""
 
