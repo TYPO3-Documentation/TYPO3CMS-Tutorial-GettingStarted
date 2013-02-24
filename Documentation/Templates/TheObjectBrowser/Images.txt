@@ -1,7 +1,0 @@
-﻿.. |img-130|    image:: ../../Images/manual_html_8ca9fc0.png
-.. :height: 697
-.. :width: 631
-.. :align: bottom
-.. :border: 0
-.. :name: 119
-

@@ -13,7 +13,9 @@ General Backend Structure
 On the left you still have the modules overview, in the middle you now
 have the page tree and on the right the content area.
 
-|img-5|
+.. figure ../../Images/manual_html_m2d5c62b0.png
+   :alt: Overview backend modules.
+
 Page tree
 ^^^^^^^^^
 
@@ -22,7 +24,10 @@ most cases this is exactly corresponding to what you will see in the
 navigation on your website. The page tree can be expanded by clicking
 the little arrows on the left of the items.
 
-|img-6| **Watch out**
+.. figure: ../../Images/manual_html_m43fb96d.png
+   :alt:
+
+**Watch out**
 
 The page tree was completely rewritten for TYPO3 4.5 LTS. It now works
 much differently then the old version. If you are using an older
@@ -32,10 +37,16 @@ version of TYPO3, please refer to an older version of this document:
 
 *Look at your page tree now:*
 
-|img-7| Simultaneously look at the navigation in frontend if you click on
+.. figure:: ../../Images/manual_html_m2070bb7.png
+   :alt: Current page tree.
+
+Simultaneously look at the navigation in frontend if you click on
 "About TYPO3".
 
-|img-8| You can see how the main menu of your website corresponds to the first
+.. figure:: ../../Images/manual_html_c244875.png
+   :alt: Frontend of the Introduction Package.
+
+You can see how the main menu of your website corresponds to the first
 level pages in the page tree, and the submenu corresponds to those
 beneath "About TYPO3" in the page tree.
 
@@ -48,7 +59,9 @@ id. This id is also used to display the page in the frontend.
 
 A click on the icon will open the context menu.
 
-|img-9|
+.. figure:: ../../Images/manual_html_2766cf2b.png
+   :alt: Pagetree with opened context menu.
+
 The context menu
 """"""""""""""""
 
@@ -82,9 +95,9 @@ related functions the fast way. Here is what these options do:
   - Mount as treeroot: Temporarily makes the selected page being the
     treeroot
 
-  - Expand Branch: Same as clicking on a “closed” the arrow
+  - Expand Branch: Same as clicking on a "closed" the arrow
 
-  - Collapse Branch: Same as clicking on an “open” arrow
+  - Collapse Branch: Same as clicking on an "open" arrow
 
   - Export to .t3d: Opens the export tool and preselects the selected page
 
@@ -93,7 +106,8 @@ related functions the fast way. Here is what these options do:
 
 Depending on the context, fewer or more functions might be available.
 
-|img-10|
+.. figure:: ../../Images/manual_html_1063d3f2.png
+   :alt: Identifying the page ID of the menu entry within the frontend
 
 *Now use the context menu to show the "Welcome to TYPO3" page in the
 frontend.*
@@ -103,14 +117,19 @@ bar corresponds to the title of the page in the page tree.(2) shows
 you that this is the page with ID 6. Go back to your page tree and
 hover over this' pages icon and you will see the ID 6 again:
 
-|img-11| (3) might puzzle you - in the page tree and the title bar the pages
+.. figure:: ../../Images/manual_html_mb5edc9b.png
+   :alt: Identifying the page ID of the menu entry within the pagetree
+
+(3) might puzzle you - in the page tree and the title bar the pages
 name is "Welcome to TYPO3", but here in the menu it is suddenly "Get
 Started". How come? To find out select "Edit" in the context menu of
 that page and take a look at the right content area:
 
-|img-12| There you can see that the page title (1) is "Welcome to TYPO3" but
+.. figure:: ../../Images/manual_html_15d7cef5.png
+   :alt: Editing the page properties
+
+There you can see that the page title (1) is "Welcome to TYPO3" but
 you will be also able to find "Get Started" at (2). It is called
 "Alternative Navigation Title" and means the title that is displayed
 in any navigational elements (menus, breadcrumbs, sitemaps...). If it
 is empty the page title is.
-

@@ -27,11 +27,13 @@ First let's see how the content on a page is organized.
 
 Frontend:
 
-|img-26|
+.. figure:: ../../Images/manual_html_4b5d31cd.png
+   :alt: Page content seen from the frontend
 
 Backend:
 
-|img-27|
+.. figure:: ../../Images/manual_html_7a835369.png
+   :alt: Page content seen from the backend
 
 As you can see the order of the content elements on the webpage is the
 same as the order of the elements in the backend. The content elements
@@ -45,7 +47,8 @@ Let's look what happens if we move a content element.
 - Hover with your mouse over the gray bar of a content element on that
   page:
 
-|img-28|
+.. figure:: ../../Images/manual_html_m2a684cc8.png
+   :alt: Editing the pagecontent
 
 As you can see, some editing icons for that element appear. Use the
 arrows at the right to move the content element up or down. After you
@@ -55,5 +58,5 @@ the page reflecting your changes to the order.
 The other icons in the elements header point to different actions you
 can do with this element:
 
-|img-29|
-
+.. figure:: ../../Images/manual_html_43b3961a.png
+   :alt: Buttons and there functions within the elements header.

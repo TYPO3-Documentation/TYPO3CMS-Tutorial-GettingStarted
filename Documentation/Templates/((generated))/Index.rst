@@ -15,7 +15,8 @@
 
 Consider the "Introduction Package" website:
 
-|img-117|
+.. figure:: ../../Images/manual_html_m390acc1e.png
+   :alt:
 
 **Dynamic parts:** On this website the menu (#1), (#2) and the
 breadcrumb navigation (#3) are indirectly dynamic parts of the page.
@@ -58,7 +59,8 @@ If you look at the simple Introduction Package website in our case
 notice that the root page of the website contains such a template
 record:
 
-|img-118|
+.. figure:: ../../Images/manual_html_m3e658ccf.png
+   :alt:
 
 If you edit the template "Introduction Package" you will see that most
 fields are empty. For each website you need a TypoScript template on
@@ -70,4 +72,3 @@ TypoScript of the Introduction Package has been put into the folder
 'Typoscript Templates'. The only thing the "Introduction Package"
 template does is to include the "ROOT" template that in turn includes
 other templates.
-

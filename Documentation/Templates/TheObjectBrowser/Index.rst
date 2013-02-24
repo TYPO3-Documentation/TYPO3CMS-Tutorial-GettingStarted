@@ -14,7 +14,8 @@ There is one other tool you should know when working with TypoScript.
 It is called the "Object Browser". Change the select box on top of the
 template module to "TypoScript Object Browser":
 
-|img-130|
+.. figure:: ../../Images/manual_html_8ca9fc0.png
+   :alt:
 
 The object browser shows you the TypoScript configuration of your
 website as an object tree, for example on the image above you can see
@@ -23,4 +24,3 @@ into a tree structure. You can click the properties in the template to
 change them directly. Any changes are written to the current template
 (Which template is the current template? Look at the header of the
 Object Browser!)
-

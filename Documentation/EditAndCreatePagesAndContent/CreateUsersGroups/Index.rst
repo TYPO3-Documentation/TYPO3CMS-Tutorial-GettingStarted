@@ -15,7 +15,6 @@ foremost have one or more frontend users and groups. These can be
 created before, during or after creation of your website. The order
 doesn't matter.
 
-
 Frontend and backend users
 """"""""""""""""""""""""""
 
@@ -23,7 +22,6 @@ Now, wait a minute! How many kinds of users are there?
 
 Well, there are only two kinds. Remember that we have two areas of
 TYPO3 - the frontend (website) and the backend (administration).
-
 
 Frontend users
 ~~~~~~~~~~~~~~
@@ -39,7 +37,8 @@ called "Frontend users and groups" for both users and groups. The only
 requirement of this storage place for the frontend users is that we
 tell the login to look at that folder for the users.
 
-|img-88|
+.. figure:: ../../Images/manual_html_68dfbed9.png
+   :alt:
 
 Now you can probably imagine that users and groups are not content
 elements but records. So they won't fit into the columns concept of
@@ -51,12 +50,12 @@ list module.
 
 Open the list module on the "Frontend users and groups" page:
 
-|img-89|
+.. figure:: ../../Images/manual_html_m68049d5d.png
+   :alt:
 
 You can see two tables, one containing the users and one containing
 the user groups. Each table represents one record type in the list
 view.
-
 
 Backend users
 ~~~~~~~~~~~~~
@@ -73,7 +72,8 @@ Backend users can be created only in one place - in the page tree root
 the admin-flag set, which is indicated by the blue icon) since they
 are the  *only users* with access to records in the page tree root:
 
-|img-90|
+.. figure:: ../../Images/manual_html_cc7ed6f.png
+   :alt:
 
 The three green backend users (1) are configured so they can maintain
 a little part of the website each - more about that in the
@@ -98,31 +98,41 @@ Let's have a look at that setting (editing things in the list module
 is pretty easy, just click on the user group icon in front of
 Customers and you will get the context menu again, then choose edit):
 
-|img-91|
+.. figure:: ../../Images/manual_html_m2ed37a13.png
+   :alt:
 
 Go to the "Extended" tab and you will see the redirect setting:
 
-|img-92|
-
+.. figure:: ../../Images/manual_html_m7684c4b9.png
+   :alt:
 
 Creating a user
 """""""""""""""
 
-Let’s try to create a user. Since frontend users (like page, page
+Let's try to create a user. Since frontend users (like page, page
 content elements, news articles etc) are just database records in
 TYPO3’s opinion, the same process of creation can be used for a
 frontend user as for any other element. So this is even a general
 introduction to creation of new elements!
 
 Ready? It is simple. First, select the page in the page tree where you
-want to create a new element.  *Click the “Create new record” icon on
+want to create a new element.  *Click the "Create new record" icon on
 the top-left of the content area* :
 
-|img-93| Then select the "Website user" element:
+.. figure:: ../../Images/manual_html_m411daaad.png
+   :alt:
+   
+Then select the "Website user" element:
 
-|img-94| ... and enter the information.
+.. figure:: ../../Images/manual_html_3f5b8eee.png
+   :alt:
 
-|img-55| **Hidden stuff**
+... and enter the information.
+
+.. figure:: ../../Images/manual_html_6e95cd67.png
+   :alt:
+
+**Hidden stuff**
 
 This page was configured to just contain users and groups, therefore
 you can only create these few record types. If you use new on other
@@ -130,14 +140,19 @@ pages you will get more options.
 
 In this case username, password and group are required fields:
 
-|img-95|
+.. figure:: ../../Images/manual_html_40b1d7a1.png
+   :alt:
 
 Save the user. If you click the page title of the "Users" folder you
 should see this listing:
 
-|img-96|
+.. figure:: ../../Images/manual_html_m24ffae75.png
+   :alt:
 
-|img-55| **Page Module**
+.. figure:: ../../Images/manual_html_6e95cd67.png
+   :alt:
+
+**Page Module**
 
 For your convenience, the page module will list users too. However
 this will not work for groups, nor for any other kind of records.
@@ -149,5 +164,5 @@ module and select the same folder.
 Go to the login form page again and log in with your newly created
 user:
 
-|img-97|
-
+.. figure:: ../../Images/manual_html_m5ae4e360.png
+   :alt:

@@ -25,13 +25,18 @@ change the TSconfig of our root page.
 
 Click the page icon of our root page and choose "Edit page
 properties", then choose the tab "Resources" and have a look at the
-“TypoScript configuration” field:
+"TypoScript configuration" field:
 
-|img-131| As you could guess from the comment, you just have to delete the "1"
+.. figure:: ../../Images/manual_html_m5259e2e5.gif
+   :alt:
+
+As you could guess from the comment, you just have to delete the "1"
 in the third line to disable the left column in the page view. Easy,
 isn't it? This is what you should get after saving the page:
 
-|img-132|
+.. figure:: ../../Images/manual_html_64c3e1a3.png
+   :alt:
+
 Verifying Page TSconfig
 """""""""""""""""""""""
 
@@ -42,6 +47,8 @@ Choose "Info" from the main modules, then the page you want to
 inspect. After that choose Page TSconfig from the select box on the
 info page:
 
-|img-133| Again you see an hierarchical tree, this time of the backend
-configuration of TYPO3.
+.. figure:: ../../Images/manual_html_m2fbce34d.png
+   :alt:
 
+Again you see an hierarchical tree, this time of the backend
+configuration of TYPO3.

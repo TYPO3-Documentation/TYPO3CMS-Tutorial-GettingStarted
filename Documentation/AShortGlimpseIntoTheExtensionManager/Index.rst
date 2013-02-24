@@ -19,7 +19,8 @@ you to manage all your extensions. We want to have now a short glimpse
 at the extension manager. Login as admin and switch to the extension
 manager module.
 
-|img-208|
+.. figure:: ../Images/manual_html_m2bdcce4f.png
+   :alt:
 
 At the top of the module, you can select different sub-modules (#1).
 You can get the list of all loaded extensions. This are extensions
@@ -38,7 +39,8 @@ exists.
 
 Now have a look at the list of loaded Extensions.
 
-|img-209|
+.. figure:: ../Images/manual_html_4cb008fc.png
+   :alt:
 
 You can uninstall or install (in module "Install extensions") by
 clicking at the icon (#1). The title (#2) of the extension is shown.
@@ -56,25 +58,31 @@ Some extensions are marked as "shy", so the list should not get to
 long with unimportant extensions. Just check "Display shy extensions"
 and have a look at the list.
 
-|img-210|
+.. figure:: ../Images/manual_html_m6d63c44d.png
+   :alt:
 
 Now let us install an new extension. For that switch to the sub-module
 "Install extensions".
 
-|img-211|
+.. figure:: ../Images/manual_html_m3022c16c.png
+   :alt:
 
 Click on the "Retrieve/Update" Button to retrieve the latest list of
 available extensions from the TER. Now let's look up for the extension
 ts45min.
 
-|img-212|
+.. figure:: ../Images/manual_html_m65f5db8f.png
+   :alt:
 
 You can download and install the extension which ships with the
 OpenOffice (.sxw) manual. In this case, you would not get an new
 module or function, just the document itself which you can download in
 the loaded list view.
 
-|img-22| **Extension security**
+.. figure:: ../Images/manual_html_3cd9b3b7.png
+   :alt:
+
+**Extension security**
 
 Please keep in mind, that there is no security audit available for the
 extensions, so take a close look at extensions you are installing. If
@@ -88,4 +96,3 @@ you find a security issue, get in touch with the security team
    :glob:
 
    ChangingBackendLanguage/Index
-

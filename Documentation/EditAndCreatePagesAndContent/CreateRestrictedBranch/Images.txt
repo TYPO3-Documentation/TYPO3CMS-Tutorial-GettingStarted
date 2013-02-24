@@ -1,7 +1,0 @@
-﻿.. |img-103|    image:: ../../Images/manual_html_m49d876aa.png
-.. :height: 388
-.. :width: 538
-.. :align: left
-.. :border: 0
-.. :name: Grafik68
-

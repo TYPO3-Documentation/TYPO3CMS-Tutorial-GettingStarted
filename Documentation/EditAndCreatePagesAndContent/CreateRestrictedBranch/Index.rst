@@ -23,7 +23,10 @@ is an easier way to do it.
 Go and edit the page properties of the "Examples" page - tab "Access"
 again:
 
-|img-103| If you check "Extend to subpages: Enable" then all subpages will have
+.. figure:: ../../Images/manual_html_m49d876aa.png
+   :alt:
+
+If you check "Extend to subpages: Enable" then all subpages will have
 the same access settings as the parent page. This means you can not
 only require a login but you could also set a "Start" or "Stop" date
 for a whole branch!
@@ -55,4 +58,3 @@ There are some commonly used yet special content elements which will
 be explained in this section, like a contact form or the search box.
 You already know the special element sitemap from the section about
 Content Elements in general.
-

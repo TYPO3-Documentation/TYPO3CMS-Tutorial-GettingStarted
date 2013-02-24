@@ -25,14 +25,17 @@ Go to the backend of your new website: open a browser and type
 
 You will get a login page looking like this:
 
-|img-3| Use the username "admin" and the password you set when installing
+.. figure:: ../../Images/manual_html_7519d7b6.png
+   :alt: Login page for the backend.
+
+Use the username "admin" and the password you set when installing
 TYPO3.
 
 After pressing the login button you get redirected to the TYPO3
 backend overview.
 
-|img-4|
+.. figure:: ../../Images/manual_html_5733a2bc.png
+   :alt: Overview TYPO3 backend.
 
 On the left you have TYPO3's main modules - the main menu of the
 backend. Click on "Page" to go to the page module now.
-

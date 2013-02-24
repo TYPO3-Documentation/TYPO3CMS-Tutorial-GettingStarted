@@ -23,8 +23,8 @@ permissions from that group are inherited. An user which is in the
 simple\_editor inherits all permissions from the "Simple editors"
 Group and the "All users" Group.
 
-|img-176|
-
+.. figure: ../../Images/manual_html_m7f56a90a.png
+   :alt:
 
 Include Access Lists
 """"""""""""""""""""
@@ -34,8 +34,8 @@ that is the reason why we have all these options listed! Apart from
 those the group contains DB mounts and Filemounts which apply to all
 users that are members.
 
-|img-177|
-
+.. figure: ../../Images/manual_html_1c030fb1.png
+   :alt:
 
 Modules
 """""""
@@ -45,26 +45,27 @@ group will grant access to the Page and View module (unfortunately you
 will have to know that these codes are the equivalents of the names
 you know from the menu...).
 
-|img-178|
-
+.. figure: ../../Images/manual_html_m106ad6ae.png
+   :alt:
 
 Tables (modify)
 """""""""""""""
 
 The tables that a simple\_editor is allowed to edit are listed (#2).
 
-|img-179|
+.. figure: ../../Images/manual_html_ma9f33b3.png
+   :alt:
 
 Log in as "simple\_editor" and then try to create a new element:
 
-|img-180|
+.. figure: ../../Images/manual_html_m446a3d10.png
+   :alt:
 
 Only pages and page content elements could be created. No users, no
 news elements. Only pages and content elements.
 
 Why this? Well, because "simple\_editor" should not worry about
 anymore than this! He is not the guy in charge of the news, right!
-
 
 Page types
 """"""""""
@@ -73,16 +74,17 @@ This field (#3)dictates what page types members of the Simple editor
 group should be able to select. But if the simple\_editor creates a
 new page, he does not have the possibility to change the page type.
 
-|img-181|
+.. figure: ../../Images/manual_html_6a228642.png
+   :alt:
 
 That is because the Page-Type is not in the list of "allowed
 Excludefields":
 
-
 Allowed Excludefields
 """""""""""""""""""""
 
-|img-182|
+.. figure: ../../Images/manual_html_2251c446.png
+   :alt:
 
 This is a long list, which becomes even longer with more Extensions
 installed. It is very powerful, but it takes a little background to
@@ -97,12 +99,14 @@ list does!
 This is easy to understand if you take a look at what the
 "simple\_editor" sees when he edits a page header:
 
-|img-183|
+.. figure: ../../Images/manual_html_m521af062.png
+   :alt:
 
 Not an impressive amount of fields. In particularly not if you compare
 it with what you see as "admin" user.
 
-|img-184|
+.. figure: ../../Images/manual_html_m1063a52d.png
+   :alt:
 
 The reason for this difference is that
 
@@ -115,30 +119,36 @@ The reason for this difference is that
 Now edit the simple\_editor group and select the Page-Type field
 ("Page: Type") and save the group.
 
-|img-185|
+.. figure: ../../Images/manual_html_m770456d0.png
+   :alt:
 
 Now log in as simple\_editor and edit a page-record.
 
-|img-186|
+.. figure: ../../Images/manual_html_m72404890.png
+   :alt:
 
 The simple\_editor has now the ability to change the page-type, but as
 it has been configured in section page types, the simple\_editor has
 only the choice between standard and shortcut.
 
-
 Explicitly allow/deny field values:
 """""""""""""""""""""""""""""""""""
 
-|img-187|
+.. figure: ../../Images/manual_html_m1c1aa696.png
+   :alt:
 
 You can restrict which type of content element a group is allowed to
 use. If an editor should be allowed to use an plugin like tt\_news, it
 is important to allow the use of the type "Insert Plugin" and to allow
 in subsection "Pagecontent: Plugin:" the appropriate Plugin itself.
 
-|img-188|
+.. figure: ../../Images/manual_html_789c5406.png
+   :alt:
 
-|img-6| **Inverting the behavior**
+.. figure: ../../Images/manual_html_m43fb96d.png
+   :alt:
+
+**Inverting the behavior**
 
 You can change the behavior of this setting in the install tool. If
 you set [BE][explicitADmode] = explicitAllowyou have to select the
@@ -148,7 +158,6 @@ it is more secure, as  **nothing** isallowed by default. It is also
 more intuitive when setting up permissions (because you are
 **giving** permissions and not **removing** them).
 
-
 DB Mounts
 """""""""
 
@@ -157,13 +166,13 @@ only some parts of the page tree. Each mount corresponds to a page in
 the tree. The user will have access only to those pages and their sub-
 pages.
 
-|img-189|
+.. figure: ../../Images/manual_html_m1e1c635.png
+   :alt:
 
 As you see it couldn't be more easy to give a specific user access to
 a specific part of the page tree - just set the fields value to that
 page. Or two pages even! You can add any number of "DB mounts" as you
 like!
-
 
 File Mounts
 """""""""""
@@ -171,18 +180,19 @@ File Mounts
 The file mount assigned to the simple\_editor group is a relation to a
 simple record created in the page tree root as well:
 
-|img-190|
+.. figure: ../../Images/manual_html_m1124cef8.png
+   :alt:
 
 When you edit it you will see how logically it is configured:
 
-|img-191|
+.. figure: ../../Images/manual_html_537c8346.png
+   :alt:
 
 Simply, the directory "user\_upload/documents/" (#1) isentered as PATH
 and the "BASE" field is configured to interpret that path relative to
 the "fileadmin/" direcotry (#2). That simple. When a user has a
 relation set to this record he will have this directory  *mounted* in
 his Filelist module!
-
 
 Page Permissions
 """"""""""""""""
@@ -205,12 +215,14 @@ here you will get the hairy explanation.Probably the best way to show
 you how page permissions should be set is to view the current
 permissions of the page tree. This is done by the "Access" module.
 
-|img-192|
+.. figure: ../../Images/manual_html_51767a67.png
+   :alt:
 
-If you see only one column “admin”, than you have to select
-permissions instead of “User overview” in the dropdown on top.
+If you see only one column "admin", than you have to select
+permissions instead of "User overview" in the dropdown on top.
 
-|img-193|
+.. figure: ../../Images/manual_html_5a018e7e.png
+   :alt:
 
 You have an overview which user and groups are able to edit which
 pages. You can change the permissions if you click on the allow/deny
@@ -231,15 +243,15 @@ TypoScript configuration.
 Let's have a look at that page TypoScript configuration. As user admin
 edit the page "Home" and select the "Resources" tab.
 
-|img-194|
+.. figure: ../../Images/manual_html_73638fe6.png
+   :alt:
 
-In the “TypoScript configuration” section you can control how the
+In the "TypoScript configuration" section you can control how the
 Backend should behave. We do not want to explain now, what you can do
 with TSconfig, but keep in mind, that you can change how the Backend
 react - on page basis! Have a look at the `*TSconfig
 Reference*  <http://typo3.org/documentation/document-library/core-
 documentation/doc_core_tsconfig/current/>`_ to get an overview.
-
 
 Validation of settings
 """"""""""""""""""""""
@@ -247,25 +259,27 @@ Validation of settings
 With the module "User Admin" you can actually validate that you have
 set the correct permissions.
 
-|img-195|
+.. figure: ../../Images/manual_html_m53c7d08a.png
+   :alt:
 
 This will tell you right away what the  *combined permissions* will be
 for her.
 
-|img-196|
+.. figure: ../../Images/manual_html_b97ee56.png
+   :alt:
 
 The first two green stars mean "Read page" and "New content on page" -
 the red crosses means "Cannot edit, delete and create new pages".But
-you can also simulate a backend user by clicking on the red “Switch to
-user” Icon. After that you will be logged in as that user - and if you
+you can also simulate a backend user by clicking on the red "Switch to
+user" Icon. After that you will be logged in as that user - and if you
 log out, you will be switched back.
 
-|img-197|
+.. figure: ../../Images/manual_html_34947ac6.png
+   :alt:
 
 The User Admin module is a great tool to evaluate user settings,
 compare users etc. Indispensable when you have many users and want to
 make sure you have control over their rights!
-
 
 Record locking?
 """""""""""""""
@@ -273,7 +287,8 @@ Record locking?
 Maybe you have noticed in the process of logging in and out as
 different users that an icon like this can appear:
 
-|img-198|
+.. figure: ../../Images/manual_html_591f3138.png
+   :alt:
 
 This is just a warning to users that someone else is working on this
 page at the moment - records are not truly locked in TYPO3 since
@@ -285,4 +300,3 @@ close or close Button, that flag gets deleted. But if the user just
 select a different page to edit, that flag stay as it is. So, it is
 recommended to use the close button, if you are done editing an
 record.
-

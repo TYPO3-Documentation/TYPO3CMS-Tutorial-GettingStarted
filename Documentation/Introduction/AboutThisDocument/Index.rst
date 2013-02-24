@@ -17,5 +17,5 @@ will have an idea about TYPO3's capabilities, its general structure
 and extension possibilities. Professional creation of templates and
 development with TYPO3 in general are not covered by this document.
 
-|img-2|
-
+.. figure:: ../../Images/manual_html_m27abbc9b.png
+   :alt: Frontend of the Introduction Package

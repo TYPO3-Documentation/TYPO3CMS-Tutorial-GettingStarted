@@ -15,9 +15,15 @@ module (1), click the page title of the page you want to edit (2) and
 in the "Columns" view (3) you click the edit icon (4) of the page
 content element you wish to change:
 
-|img-30| This brings up this edit form:
+.. figure:: ../../Images/manual_html_m540215c0.png
+   :alt: Opening the edit form.
 
-|img-31| First of all the field "Type:" (1) tells you the type of page content
+This brings up this edit form:
+
+.. figure:: ../../Images/manual_html_15eda6f1.png
+   :alt: The edit form for the page content.
+
+First of all the field "Type:" (1) tells you the type of page content
 element! In this case "Text & Images". It could also be "Text" (like
 you saw earlier) or "Images" or "Table" etc. See for yourself! Each
 content element type has its own set of fields and by inserting
@@ -31,9 +37,11 @@ Different element types have different options. Play around a bit and
 see what you can do on the different tabs. Be aware that every change
 of the element type saves the element.
 
-|img-6| **QuickEdit - save a mouse click...**
+.. figure:: ../../Images/manual_html_m43fb96d.png
+   :alt:
+
+**QuickEdit - save a mouse click...**
 
 If you want fast access to your page content elements you can change
 the Page module view to "QuickEdit" instead of "Columns" - then the
 first content element on a page is shown right away:
-

@@ -1,3 +1,0 @@
-﻿.. |img-1|      image:: Images/manual_html_m12b2d25f.gif
-.. :align: left
-
