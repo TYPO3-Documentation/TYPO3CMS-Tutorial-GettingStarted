@@ -58,8 +58,8 @@ Download
    shortly. If it does not, follow the instructions on the website.
 
 
-**Extract**
-~~~~~~~~~~~
+Extract
+~~~~~~~
 
 #. Openthe .zip File.
 

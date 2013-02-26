@@ -6,8 +6,8 @@
 .. include:: ../Includes.txt
 
 
-**Templates**
--------------
+Templates
+---------
 
 During this lengthy document you might have wondered time and again -
 how can I change the title? Or how can I put in my own logo.

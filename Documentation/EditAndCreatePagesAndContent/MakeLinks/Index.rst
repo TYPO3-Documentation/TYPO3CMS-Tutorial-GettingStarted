@@ -93,8 +93,8 @@ Creating a link to an email address
 .. figure:: ../../Images/manual_html_137345b9.png
    :alt:
 
-**Content element types**
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Content element types
+~~~~~~~~~~~~~~~~~~~~~
 
 As you already know there are a number of page content element types
 available and combining them is the key to creating diverse web pages

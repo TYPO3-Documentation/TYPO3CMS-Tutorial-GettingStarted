@@ -10,8 +10,8 @@
 ((generated))
 ^^^^^^^^^^^^^
 
-**Static and dynamic content**
-""""""""""""""""""""""""""""""
+Static and dynamic content
+""""""""""""""""""""""""""
 
 Consider the "Introduction Package" website:
 
@@ -36,8 +36,8 @@ are also a part of the template (like the indirectly dynamic parts)
 but they never change by any action. Always the same on each page.
 
 
-**Template Records?**
-"""""""""""""""""""""
+Template Records?
+"""""""""""""""""
 
 So how does TYPO3 implement this principle? Well, you can read in-
 depth information about the `*recommended approach for

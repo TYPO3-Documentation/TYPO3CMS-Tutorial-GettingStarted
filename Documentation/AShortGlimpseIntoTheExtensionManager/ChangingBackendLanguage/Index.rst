@@ -7,8 +7,8 @@
 .. include:: Images.txt
 
 
-**Changing backend language**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changing backend language
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Usually an editor would like to use TYPO in his own language. So you
 need to change the language of TYPO for him. As an first step, you
