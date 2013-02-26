@@ -27,7 +27,7 @@ Getting Started Tutorial
       forBeginners, forEditors, forAdmins
 
 :Copyright:
-      2004-2012
+      2004-2013
 
 :Author:
       Documentation Team
