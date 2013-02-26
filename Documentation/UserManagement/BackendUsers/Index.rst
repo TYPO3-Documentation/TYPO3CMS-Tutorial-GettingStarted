@@ -5,7 +5,7 @@
 
 .. include:: ../../Includes.txt
 
-.. _backend-users:
+.. _user-management-backend-users:
 
 Backend users
 ^^^^^^^^^^^^^
@@ -14,7 +14,7 @@ The introduction package is shipped with four users. Let's see what
 they can do. The best way to do this is to logout as admin and log in
 as one of these users, one at a time.
 
-.. _simple-editor:
+.. _user-management-simple-editor:
 
 "simple\_editor"
 """"""""""""""""
@@ -44,7 +44,7 @@ need, are hidden.
 .. figure:: ../../Images/manual_html_308fbf0e.png
    :alt:
 
-.. _news-editor:
+.. _user-management-news-editor:
 
 "news\_editor"
 """"""""""""""
@@ -78,7 +78,7 @@ The "news\_editor" has an restricted view at the folder structure as
 well, but he sees only documents, which are located in
 fileadmin/user\_upload/news/.
 
-.. _advanced-editor:
+.. _user-management-advanced-editor:
 
 "advanced\_editor"
 """"""""""""""""""
