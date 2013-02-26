@@ -5,6 +5,7 @@
 
 .. include:: ../Includes.txt
 
+.. _the-list-module-and-clipboard:
 
 The List module and Clipboard
 -----------------------------

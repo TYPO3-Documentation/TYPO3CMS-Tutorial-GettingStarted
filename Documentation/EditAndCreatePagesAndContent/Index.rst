@@ -6,6 +6,8 @@
 .. include:: ../Includes.txt
 
 
+.. _edit-and-create-pages-and-content:
+
 Edit and create pages and content
 ---------------------------------
 

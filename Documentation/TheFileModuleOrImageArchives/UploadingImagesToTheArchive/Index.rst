@@ -6,6 +6,7 @@
 .. include:: ../../Includes.txt
 .. include:: Images.txt
 
+.. _uploading-images-to-the-archive:
 
 Uploading images to the archive
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _tutorial-for-editors:
+
 Tutorial for editors
 ^^^^^^^^^^^^^^^^^^^^
 

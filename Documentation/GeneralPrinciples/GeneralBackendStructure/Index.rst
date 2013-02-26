@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _general-backend-structure:
+
 General Backend Structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -15,6 +17,8 @@ have the page tree and on the right the content area.
 
 .. figure ../../Images/manual_html_m2d5c62b0.png
    :alt: Overview backend modules.
+
+.. _page-tree:
 
 Page tree
 ^^^^^^^^^
@@ -61,6 +65,8 @@ A click on the icon will open the context menu.
 
 .. figure:: ../../Images/manual_html_2766cf2b.png
    :alt: Pagetree with opened context menu.
+
+.. _the-context-menu:
 
 The context menu
 """"""""""""""""

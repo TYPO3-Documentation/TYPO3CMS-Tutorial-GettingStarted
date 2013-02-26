@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _visibility-settings-hiding-pages-timing-appearance-etc:
+
 Visibility settings - hiding pages, timing appearance etc.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -18,6 +20,8 @@ settings. They look like this for pages:
    :alt:
 
 The access settings are the same for content elements.
+
+.. _disabling-a-page:
 
 Disabling a page
 """"""""""""""""
@@ -55,6 +59,8 @@ item in the context menus:
 
 .. figure:: ../../Images/manual_html_m2816e462.png
    :alt:
+
+.. _timing-pages-and-content-elements:
 
 Timing pages and content elements
 """""""""""""""""""""""""""""""""

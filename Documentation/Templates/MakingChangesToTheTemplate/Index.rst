@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _making-changes-to-the-template:
+
 Making changes to the template
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -56,6 +58,8 @@ The result is:
    :alt:
 
 You can play with other values as well!
+
+.. _the-constant-editor:
 
 The constant editor:
 """"""""""""""""""""

@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _human-readable-url-s:
+
 Human readable URLs
 ^^^^^^^^^^^^^^^^^^^
 

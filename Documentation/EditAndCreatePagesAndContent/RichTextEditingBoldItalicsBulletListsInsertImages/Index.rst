@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _rich-text-editing-bold-italics-bullet-lists-insert-images:
+
 Rich Text Editing: Bold, Italics, Bullet lists, Insert images
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

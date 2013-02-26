@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _tutorials-for-future-administrators:
+
 Tutorials for future administrators
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

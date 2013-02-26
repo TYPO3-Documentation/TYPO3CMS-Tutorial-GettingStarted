@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _page-content:
+
 Page content
 ^^^^^^^^^^^^
 

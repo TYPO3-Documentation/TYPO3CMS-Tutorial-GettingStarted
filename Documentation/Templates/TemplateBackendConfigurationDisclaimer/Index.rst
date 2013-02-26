@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _template-backend-configuration-disclaimer:
+
 Template & backend configuration disclaimer!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -14,6 +16,7 @@ possibilities it is very important to stress that  *this tutorial*
 does  *not* to any degree display the depth of possibilities with
 templates in TYPO3.
 
+.. _facts-about-templates-and-possibilities:
 
 Facts about templates and possibilities
 """""""""""""""""""""""""""""""""""""""

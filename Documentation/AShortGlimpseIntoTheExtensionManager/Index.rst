@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _a-short-glimpse-into-the-extension-manager:
+
 A short glimpse into the extension manager
 ------------------------------------------
 

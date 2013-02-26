@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _email-form:
+
 Email form
 ^^^^^^^^^^
 
@@ -64,6 +66,8 @@ of the send button (5), the subject line of the email being sent (6)
 and finally the email address of the person that should receive the
 email (7). This person is normally you! Or whoever on your team who is
 supposed to respond to feedback.
+
+.. _media:
 
 Media
 """""

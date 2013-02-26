@@ -6,6 +6,8 @@
 .. include:: ../Includes.txt
 
 
+.. _next-steps:
+
 Next steps
 ----------
 

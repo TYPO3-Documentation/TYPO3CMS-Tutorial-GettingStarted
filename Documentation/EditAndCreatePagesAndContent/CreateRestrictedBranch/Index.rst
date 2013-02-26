@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _create-restricted-branch:
+
 Create restricted branch
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -31,6 +33,7 @@ the same access settings as the parent page. This means you can not
 only require a login but you could also set a "Start" or "Stop" date
 for a whole branch!
 
+.. _the-access-options:
 
 The Access options
 """"""""""""""""""
@@ -50,6 +53,7 @@ option "Show at any login" is the opposite - that will enable the page
 for display for any user who is logged in. No need to be a member of
 any particular group - if you are logged in you are shown the page.
 
+.. _special-content-elements:
 
 Special content elements
 """"""""""""""""""""""""

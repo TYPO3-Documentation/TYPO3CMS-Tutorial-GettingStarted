@@ -6,12 +6,15 @@
 .. include:: ../../Includes.txt
 .. include:: Images.txt
 
+.. _creating-a-new-user-for-the-introduction-site:
 
 Creating a new user for the Introduction site
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Now, we can create a user who should be in charge for the "Resources"
 page including sub-pages.
+
+.. _step-create-a-new-user-group-resources-editors:
 
 Step 1: create a new User group "Resources editors"
 """""""""""""""""""""""""""""""""""""""""""""""""""
@@ -37,6 +40,8 @@ editors (copy 1)". Change the group's title and the DB mount.
 
 .. figure:: ../../Images/manual_html_m36f2898f.png
    :alt:
+
+.. _step-create-the-user:
 
 Step 2: create the user
 """""""""""""""""""""""

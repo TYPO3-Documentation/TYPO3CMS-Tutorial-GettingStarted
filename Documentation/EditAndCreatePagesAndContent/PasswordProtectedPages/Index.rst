@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _password-protected-pages:
+
 Password protected pages
 ^^^^^^^^^^^^^^^^^^^^^^^^
 

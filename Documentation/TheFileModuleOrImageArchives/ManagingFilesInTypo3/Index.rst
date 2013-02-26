@@ -6,6 +6,7 @@
 .. include:: ../../Includes.txt
 .. include:: Images.txt
 
+.. _managing-files-in-typo:
 
 Managing files in TYPO3
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -26,6 +27,7 @@ files are not used on the website directly. If we want to do so we can
 either a) link to the files from content elements or b) pick the files
 in the process of selecting files for content elements.
 
+.. _using-files-from-the-archive-in-your-content-elements:
 
 Using files from the archive in your content elements
 """""""""""""""""""""""""""""""""""""""""""""""""""""

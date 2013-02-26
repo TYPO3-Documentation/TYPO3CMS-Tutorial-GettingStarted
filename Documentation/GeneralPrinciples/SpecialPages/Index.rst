@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _special-pages:
+
 Special pages
 ^^^^^^^^^^^^^
 
@@ -19,6 +21,7 @@ your website are normal pages. Nothing special about them. Then there
 are those with a dotted border on the icon, these are pages that are
 hidden in menus.
 
+.. _hide-in-menu:
 
 Hide in menu
 """"""""""""
@@ -34,6 +37,7 @@ the "Access" Tab:
 
 You can see that "Visibility" - "In Menus" - "Hide" is checked:
 
+.. _folders:
 
 Folders
 """""""
@@ -54,6 +58,8 @@ page properties:
 
 .. figure:: ../../Images/manual_html_51e47230.png
    :alt: Changing a page type from page to folder.
+
+.. _shortcuts:
 
 Shortcuts
 """""""""
@@ -82,6 +88,8 @@ type in the drop down when editing page properties:
 
 .. figure:: ../../Images/manual_html_m30383c44.png
    :alt: Changing a page type from page to Shortcut.
+
+.. _link-to-external-url:
 
 Link to external URL
 """"""""""""""""""""
@@ -164,6 +172,8 @@ the text you will get a longer explanation.
 
 .. figure:: ../../Images/manual_html_m311cf3f8.png
    :alt: Example for an active tooltip.
+
+.. _visual-menu-spacer:
 
 Visual Menu Spacer
 """"""""""""""""""

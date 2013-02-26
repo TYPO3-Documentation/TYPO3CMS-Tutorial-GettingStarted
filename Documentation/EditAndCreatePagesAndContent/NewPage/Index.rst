@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _new-page:
+
 New page
 ^^^^^^^^
 
@@ -38,6 +40,8 @@ You will find the page in the menu next to the "Text and images" page.
 
 The page is still blank - we need to create some page content elements
 on the page!
+
+.. _creating-page-content-elements:
 
 Creating page content elements
 """"""""""""""""""""""""""""""
@@ -85,6 +89,8 @@ If everything went fine it now looks like this on the web page:
 
 .. figure:: ../../Images/manual_html_3a20137b.png
    :alt: Take a look at the new page in the frontend.
+
+.. _inserting-another-content-element:
 
 Inserting another content element
 """""""""""""""""""""""""""""""""
@@ -135,6 +141,8 @@ In the Page module this looks like this:
 .. figure:: ../../Images/manual_html_b8cb356.png
    :alt: The Page modul after adding the sitemap.
 
+.. _move-copy-pages:
+
 Move / Copy pages
 ^^^^^^^^^^^^^^^^^
 
@@ -157,6 +165,8 @@ you can do on you desktop.
    :alt: Copying a page via drag'n'drop.
 
 To switch back to move mode, just toggle CTRL again.
+
+.. _cut-n-paste-copy-n-paste:
 
 Cut'n'Paste & Copy'n'Paste
 """"""""""""""""""""""""""

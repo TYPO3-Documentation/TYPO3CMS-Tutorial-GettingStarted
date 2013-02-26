@@ -6,6 +6,8 @@
 .. include:: ../Includes.txt
 
 
+.. _the-file-module-or-image-archives:
+
 The file module or: Image archives
 ----------------------------------
 

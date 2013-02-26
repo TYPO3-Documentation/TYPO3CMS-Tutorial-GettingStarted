@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _what-s-new:
+
 What's new
 ^^^^^^^^^^
 

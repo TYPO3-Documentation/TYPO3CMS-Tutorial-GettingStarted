@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _the-numeric-clipboard-pads-managing-many-elements:
+
 The numeric clipboard pads - managing many elements
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -46,6 +48,7 @@ clipboard pane #1 emptied:
 .. figure:: ../../Images/manual_html_m6e4e4607.png
    :alt:
 
+.. _managing-files:
 
 Managing files
 """"""""""""""

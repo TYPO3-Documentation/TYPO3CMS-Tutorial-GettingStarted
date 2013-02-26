@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _edit-page-content:
+
 Edit page & content
 ^^^^^^^^^^^^^^^^^^^
 

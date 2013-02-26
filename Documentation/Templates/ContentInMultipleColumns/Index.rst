@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _content-in-multiple-columns:
+
 Content in multiple columns
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -36,6 +38,8 @@ isn't it? This is what you should get after saving the page:
 
 .. figure:: ../../Images/manual_html_64c3e1a3.png
    :alt:
+
+.. _verifying-page-tsconfig:
 
 Verifying Page TSconfig
 """""""""""""""""""""""

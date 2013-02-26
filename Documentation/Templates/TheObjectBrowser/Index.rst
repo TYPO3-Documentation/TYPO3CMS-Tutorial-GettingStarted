@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _the-object-browser:
+
 The Object Browser
 ^^^^^^^^^^^^^^^^^^
 

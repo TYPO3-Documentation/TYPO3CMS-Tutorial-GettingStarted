@@ -6,6 +6,7 @@
 .. include:: ../../Includes.txt
 .. include:: Images.txt
 
+.. _distributed-maintenance:
 
 Distributed maintenance
 ^^^^^^^^^^^^^^^^^^^^^^^

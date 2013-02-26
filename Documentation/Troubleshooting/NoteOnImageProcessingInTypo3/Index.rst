@@ -5,6 +5,7 @@
 
 .. include:: ../../Includes.txt
 
+.. _note-on-image-processing-in-typo:
 
 Note on image processing in TYPO3
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

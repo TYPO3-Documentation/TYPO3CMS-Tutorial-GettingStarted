@@ -10,6 +10,8 @@
 ((generated))
 ^^^^^^^^^^^^^
 
+.. _static-and-dynamic-content:
+
 Static and dynamic content
 """"""""""""""""""""""""""
 
@@ -35,6 +37,8 @@ link to the frontend login (#8) and the search field (#9). These parts
 are also a part of the template (like the indirectly dynamic parts)
 but they never change by any action. Always the same on each page.
 
+
+.. _template-records:
 
 Template Records?
 """""""""""""""""

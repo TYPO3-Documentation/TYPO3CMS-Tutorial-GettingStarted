@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _getting-the-introduction-package:
+
 Getting the Introduction Package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -19,6 +21,8 @@ website follow the steps provided in the quick install part in the
 TYPO3 professionally you should read the full guide sometime. You can
 find a step-by-step guide below the "short installation guide".
 
+
+.. _for-those-who-can-t-wait-try-this-very-short-installation-guide:
 
 For those who can't wait, try this very short installation guide:
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -38,6 +42,8 @@ For those who can't wait, try this very short installation guide:
 - Follow the installer steps
 
 
+.. _step-by-step-installing-the-introduction-package:
+
 Step-by-step - Installing the Introduction Package
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -45,6 +51,7 @@ This guide will provide you with the steps for downloading,
 extracting, uploading and installing the Introduction Package. It
 assumes you are using a Windows operation system.
 
+.. _download:
 
 Download
 ~~~~~~~~
@@ -57,6 +64,7 @@ Download
 #. This will lead you to Sourceforge and the download should start
    shortly. If it does not, follow the instructions on the website.
 
+.. _extract:
 
 Extract
 ~~~~~~~
@@ -72,6 +80,7 @@ Extract
 
 #. Clickthe extract/go/next button.
 
+.. _upload:
 
 Upload
 ~~~~~~
@@ -127,6 +136,7 @@ the free, platform-independent FTP-client `FileZilla <http://filezilla-project.o
 The upload is finished, when you can not see any more files in the
 queue.
 
+.. _install:
 
 Install
 ~~~~~~~

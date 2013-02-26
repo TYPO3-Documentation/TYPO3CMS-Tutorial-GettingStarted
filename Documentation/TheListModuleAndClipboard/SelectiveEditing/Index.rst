@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _selective-editing:
+
 Selective editing
 ^^^^^^^^^^^^^^^^^
 
@@ -21,6 +23,8 @@ This will enable the extended mode. Here you can select additional
 fields from the table you want to view as well (#2). Select the "Type"
 field for now. This will make the "Type" field appear in addition to
 the "Header" field already there.
+
+.. _editing-all-headers:
 
 Editing all headers
 """""""""""""""""""

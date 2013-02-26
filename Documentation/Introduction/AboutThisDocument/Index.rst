@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _about-this-document:
+
 About this document
 ^^^^^^^^^^^^^^^^^^^
 

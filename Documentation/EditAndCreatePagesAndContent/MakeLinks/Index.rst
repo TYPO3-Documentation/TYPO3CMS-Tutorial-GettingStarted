@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _make-links:
+
 Make links
 ^^^^^^^^^^
 
@@ -57,6 +59,7 @@ It is just simple HTML. But remember: The RTE parses the code in there
 and removes everything it doesn't know or isn't configured to allow.
 So you can't just write your own HTML in here.
 
+.. _other-kinds-of-links:
 
 Other kinds of links?
 """""""""""""""""""""
@@ -68,12 +71,15 @@ addresses.
 We already saw how to link to an internal page. The following
 screenshots illustrate how to set different types of links.
 
+.. _creating-a-link-to-a-certain-content-element:
 
 Creating a link to a certain content element
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. figure:: ../../Images/manual_html_6233ae73.png
    :alt:
+
+.. _creating-a-link-to-a-file:
 
 Creating a link to a file
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,6 +99,8 @@ Creating a link to an email address
 .. figure:: ../../Images/manual_html_137345b9.png
    :alt:
 
+.. _content-element-types:
+
 Content element types
 ~~~~~~~~~~~~~~~~~~~~~
 
@@ -105,6 +113,8 @@ so not every single page on your site looks the same!
 
 The different types are grouped by categories. The most used items are
 "Text" and "Text & Images".
+
+.. _wizards:
 
 Wizards
 """""""
@@ -133,6 +143,8 @@ deleting and moving table content around:
 
 .. figure:: ../../Images/manual_html_7006dd83.png
    :alt:
+
+.. _secondary-options-palettes:
 
 Secondary options - "Palettes"
 """"""""""""""""""""""""""""""
@@ -179,6 +191,8 @@ all editing forms:
 
 After activating the secondary options for all element will be shown
 by default.
+
+.. _frames:
 
 Frames
 """"""

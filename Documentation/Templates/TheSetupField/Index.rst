@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _the-setup-field:
+
 The Setup field
 ^^^^^^^^^^^^^^^
 

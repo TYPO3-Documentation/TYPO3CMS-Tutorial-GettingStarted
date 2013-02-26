@@ -7,12 +7,15 @@
 .. include:: Images.txt
 
 
+.. _groups:
+
 Groups
 ^^^^^^
 
 Let's look at the Simple editors group which the simple\_editor is a
 member of.
 
+.. _general:
 
 General
 """""""
@@ -26,6 +29,8 @@ Group and the "All users" Group.
 .. figure: ../../Images/manual_html_m7f56a90a.png
    :alt:
 
+.. _include-access-lists:
+
 Include Access Lists
 """"""""""""""""""""
 
@@ -37,6 +42,8 @@ users that are members.
 .. figure: ../../Images/manual_html_1c030fb1.png
    :alt:
 
+.. _modules:
+
 Modules
 """""""
 
@@ -47,6 +54,8 @@ you know from the menu...).
 
 .. figure: ../../Images/manual_html_m106ad6ae.png
    :alt:
+
+.. _tables-modify:
 
 Tables (modify)
 """""""""""""""
@@ -67,6 +76,8 @@ news elements. Only pages and content elements.
 Why this? Well, because "simple\_editor" should not worry about
 anymore than this! He is not the guy in charge of the news, right!
 
+.. _page-types:
+
 Page types
 """"""""""
 
@@ -79,6 +90,8 @@ new page, he does not have the possibility to change the page type.
 
 That is because the Page-Type is not in the list of "allowed
 Excludefields":
+
+.. _allowed-excludefields:
 
 Allowed Excludefields
 """""""""""""""""""""
@@ -131,6 +144,8 @@ The simple\_editor has now the ability to change the page-type, but as
 it has been configured in section page types, the simple\_editor has
 only the choice between standard and shortcut.
 
+.. _explicitly-allow-deny-field-values:
+
 Explicitly allow/deny field values:
 """""""""""""""""""""""""""""""""""
 
@@ -158,6 +173,8 @@ it is more secure, as  **nothing** isallowed by default. It is also
 more intuitive when setting up permissions (because you are
 **giving** permissions and not **removing** them).
 
+.. _db-mounts:
+
 DB Mounts
 """""""""
 
@@ -173,6 +190,8 @@ As you see it couldn't be more easy to give a specific user access to
 a specific part of the page tree - just set the fields value to that
 page. Or two pages even! You can add any number of "DB mounts" as you
 like!
+
+.. _file-mounts:
 
 File Mounts
 """""""""""
@@ -193,6 +212,8 @@ and the "BASE" field is configured to interpret that path relative to
 the "fileadmin/" direcotry (#2). That simple. When a user has a
 relation set to this record he will have this directory  *mounted* in
 his Filelist module!
+
+.. _page-permissions:
 
 Page Permissions
 """"""""""""""""
@@ -253,6 +274,8 @@ react - on page basis! Have a look at the `*TSconfig
 Reference*  <http://typo3.org/documentation/document-library/core-
 documentation/doc_core_tsconfig/current/>`_ to get an overview.
 
+.. _validation-of-settings:
+
 Validation of settings
 """"""""""""""""""""""
 
@@ -280,6 +303,8 @@ log out, you will be switched back.
 The User Admin module is a great tool to evaluate user settings,
 compare users etc. Indispensable when you have many users and want to
 make sure you have control over their rights!
+
+.. _record-locking:
 
 Record locking?
 """""""""""""""

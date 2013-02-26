@@ -6,6 +6,7 @@
 .. include:: ../../Includes.txt
 .. include:: Images.txt
 
+.. _using-the-list-module-effectively:
 
 Using the List module effectively
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

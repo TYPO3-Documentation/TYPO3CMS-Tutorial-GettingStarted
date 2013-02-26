@@ -6,6 +6,8 @@
 .. include:: ../../Includes.txt
 
 
+.. _colored-differences-in-history-module:
+
 Colored differences in history module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

@@ -6,6 +6,8 @@
 .. include:: ../Includes.txt
 
 
+.. _general-principles:
+
 General principles
 ------------------
 

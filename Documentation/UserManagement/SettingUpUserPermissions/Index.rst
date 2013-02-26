@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _setting-up-user-permissions:
+
 Setting up user permissions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 

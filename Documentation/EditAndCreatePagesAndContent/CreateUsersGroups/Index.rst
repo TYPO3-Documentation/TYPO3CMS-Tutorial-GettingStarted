@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _create-users-groups:
+
 Create users/groups
 ^^^^^^^^^^^^^^^^^^^
 
@@ -15,6 +17,8 @@ foremost have one or more frontend users and groups. These can be
 created before, during or after creation of your website. The order
 doesn't matter.
 
+.. _frontend-and-backend-users:
+
 Frontend and backend users
 """"""""""""""""""""""""""
 
@@ -22,6 +26,8 @@ Now, wait a minute! How many kinds of users are there?
 
 Well, there are only two kinds. Remember that we have two areas of
 TYPO3 - the frontend (website) and the backend (administration).
+
+.. _frontend-users:
 
 Frontend users
 ~~~~~~~~~~~~~~
@@ -57,6 +63,8 @@ You can see two tables, one containing the users and one containing
 the user groups. Each table represents one record type in the list
 view.
 
+.. _backend-users:
+
 Backend users
 ~~~~~~~~~~~~~
 
@@ -83,6 +91,8 @@ the one we are working with - is blue and has total and unrestricted
 access to any part of the system.
 
 
+.. _editing-a-user-or-group:
+
 Editing a user or group
 """""""""""""""""""""""
 
@@ -105,6 +115,8 @@ Go to the "Extended" tab and you will see the redirect setting:
 
 .. figure:: ../../Images/manual_html_m7684c4b9.png
    :alt:
+
+.. _creating-a-user:
 
 Creating a user
 """""""""""""""

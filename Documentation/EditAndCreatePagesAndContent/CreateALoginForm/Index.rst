@@ -7,6 +7,8 @@
 .. include:: Images.txt
 
 
+.. _create-a-login-form:
+
 Create a login form
 ^^^^^^^^^^^^^^^^^^^
 
