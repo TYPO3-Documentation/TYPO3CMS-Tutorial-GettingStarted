@@ -4,7 +4,6 @@
 .. -*- coding: utf- -*- with BOM.
 
 .. include:: ../../Includes.txt
-.. include:: Images.txt
 
 
 .. _changing-backend-language:
