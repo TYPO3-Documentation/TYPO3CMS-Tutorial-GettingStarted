@@ -16,7 +16,7 @@ Getting Started Tutorial
       doc_tut_quickstart
 
 :Version:
-      1.0.0
+      1.0.1
 
 :Language:
       en

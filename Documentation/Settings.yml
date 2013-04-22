@@ -3,6 +3,6 @@
 conf.py:
   project: Getting Started Tutorial
   copyright: 2004-2013
-  version: 1.0.0
-  release: 1.0.0
+  version: 1.0.1
+  release: 1.0.1
 ...
