@@ -12,13 +12,54 @@ Introduction
 ------------
 
 
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+.. _about-this-document:
 
-   AboutThisDocument/Index
-   WhatsNew/Index
-   Credits/Index
-   Feedback/Index
+About this document
+^^^^^^^^^^^^^^^^^^^
 
+This document is an introduction to the basic principles of TYPO3. The
+example website used in this introduction will get you started
+immediately on your own first TYPO3 website. After this tutorial you
+will have an idea about TYPO3's capabilities, its general structure
+and extension possibilities. Professional creation of templates and
+development with TYPO3 in general are not covered by this document.
+
+.. figure:: ../Images/GettingStartedFrontendStartPage.png
+   :alt: Frontend of the Introduction Package
+
+
+.. _what-s-new:
+
+What's new
+^^^^^^^^^^
+
+The current version is updated to reflect the changes in TYPO3 4.5
+LTS.
+
+
+.. _credits:
+
+Credits
+^^^^^^^
+
+The "Quickstart Guide" was originally written by Kasper Skårhøj. The
+current version was written by Philipp Gampe, Martin Holtz, Susanne
+Moog and Francois Suter.
+
+
+.. _feedback:
+
+Feedback
+^^^^^^^^
+
+For general questions about the documentation get in touch by writing
+to `documentation@typo3.org <mailto:documentation@typo3.org>`_ .
+
+If you find a bug in this manual, please file an issue in this
+manual's bug tracker: `http://forge.typo3.org/projects/typ
+o3v4-doc\_tut\_quickstart <http://forge.typo3.org/projects/typo3v4-doc_tut_quickstart>`_
+
+Maintaining quality documentation is hard work and the Documentation
+Team is always looking for volunteers. If you feel like helping please
+join the documentation mailing list (typo3.projects.documentation on
+lists.typo3.org).
