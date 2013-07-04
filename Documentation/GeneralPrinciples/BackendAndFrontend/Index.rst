@@ -11,12 +11,13 @@
 Backend and Frontend
 ^^^^^^^^^^^^^^^^^^^^
 
-`TYPO3 CMS` is devided in two areas - the backend and the frontend.
-The `frontend` is the website that is produced by `TYPO3 CMS`. It is
+*TYPO3 CMS* is devided in two areas - the backend and the frontend.
+The *frontend* is the website that is produced by *TYPO3 CMS*. It is
 visible by everyone out there on the web.
-The administrative area of the website is called `backend`. A username
+The administrative area of the website is called *backend*. A username
 and a password is always required for the backend.
-You will later learn how to give access to the backend to others
+You will later learn how to give :ref:`access to the backend to others
+<creating-a-new-user-for-the-introduction-site>`
 - like editors or co-administrators.
 
 To go to the frontend, enter http://www.your-site.example.org/ in
@@ -30,14 +31,14 @@ You will get a login page looking like this:
 .. figure:: ../../Images/BackendLoginPage.png
    :alt: Login page for the backend
 
-Use the username "admin" and the password you set while installing
-`TYPO3 CMS`.
+Use the username **admin** and the password you set while installing
+*TYPO3 CMS*.
 
-After pressing the login button you will get redirected to the TYPO3
+After pressing the **login** button you will get redirected to the TYPO3
 backend overview.
 
 .. figure:: ../../Images/BackendOverView.png
    :alt: TYPO3 backend Overview
 
 On the left you have TYPO3's main modules - the main menu of the
-backend. Click on "Page" to go to the page module now.
+backend. Click on Web > **Page** to go to the *page module now*.

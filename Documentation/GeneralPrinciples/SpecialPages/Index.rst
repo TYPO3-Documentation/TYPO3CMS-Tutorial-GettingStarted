@@ -25,13 +25,13 @@ Hide in menu
 Pages hidden in menus are basically like the normal pages but don't
 appear in the menus. This is useful if you want to have a page, you
 just want to link to, but that should not appear in the menu. Edit the
-page properties of the page `Search` (use the context menu). Select
-the `Access` Tab:
+page properties of the page *Search* (use the context menu). Select
+the *Access* Tab:
 
 .. figure:: ../../Images/PagePropertiesAccess.png
    :alt: Hiding a page in menus
 
-You can see that `Visibility` - `In Menus` - `Hide` is checked.
+You can see that **Visibility > In Menus > Hide** is checked.
 
 .. _folders:
 
@@ -39,7 +39,7 @@ Folders
 """""""
 
 In the page tree you see some pages with a folder icon. By default
-pages created in TYPO3 are meant to contain web page content. They
+pages created in *TYPO3 CMS* are meant to contain web page content. They
 appear in the menu and can have a title. 95% of all pages are used
 like that. But pages can also serve as simple containers of database
 elements that are not meant to be content on a visible web page. This
@@ -49,7 +49,7 @@ manner. In the same way folders nicely organize database elements
 inside TYPO3. Database elements are for example frontend users,
 frontend groups or news records.
 
-You can create a folder by selecting it in the `Type` drop down in the
+You can create a folder by selecting it in the *Type* drop down in the
 page properties:
 
 .. figure:: ../../Images/PageTypeFolder.png
@@ -62,7 +62,7 @@ Shortcuts
 
 A shortcut can be used to create a page that is empty but works - for
 example - as a parent page of other pages. Imagine you are selling a
-product and have a navigation like this on you website:
+product and have a navigation like this on your website:
 
 - About us
 
@@ -70,11 +70,12 @@ product and have a navigation like this on you website:
 
 - Imprint
 
-- Contact.
+- Contact
 
 Now you want to have some subpages beneath
-the `My Product` page to convey the information about your product:
--About us
+the *My Product* page to convey the information about your product:
+
+- About us
 
 - My Product
   
@@ -88,21 +89,21 @@ the `My Product` page to convey the information about your product:
 
 - Contact
   
-You don't really have content for the `My Product`
+You don't really have content for the *My Product*
 page, you just want it to appear in the menu. Now you can use
-a shortcut to point the "My Product" page to the "Overview" page. What
-happens? Whenever you click the main menu point "My Product" you get
+a shortcut to point the *My Product* page to the *Overview* page. What
+happens? Whenever you click the main menu point *My Product* you get
 directly to the overview page. You got your menu structure like you
-wanted but don't need content for the `My Product` page.
+wanted but don't need content for the *My Product* page.
 
-In the Introduction Package you will find a shortcut, too. The `Home`
+In the Introduction Package you will find a shortcut, too. The *Home*
 page. The symbol for a shortcut is the little arrow in the lower
-right. The "Home" page is additionally the root of your website and
+right. The *Home* page is additionally the root of your website and
 has therefore it's own domain - that is where the world icon is coming
 from.
 
 You can create a shortcut like you create a folder - by selecting it's
-type in the drop down when editing page the properties:
+type in the drop down while editing page the properties:
 
 .. figure:: ../../Images/PageTypeShortcut.png
    :alt: Changing a page type from page to Shortcut
@@ -121,7 +122,7 @@ icon in the top left hand corner of the page tree:*
   :alt: Add a new page with the page tree menu
 
 A menu will open that contains different symbols for different kind of
-pages. Hover over them to see there names. *Now drag the "Link to
+page. Hover over them to see there names. *Now drag the "Link to
 External URL" icon onto the "Feedback" page:*
 
 .. figure:: ../../Images/PageTreeAddDragAndDrop.png

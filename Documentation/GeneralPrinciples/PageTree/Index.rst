@@ -22,7 +22,7 @@ the little arrows on the left of the items.
    :alt: Current page tree
 
 Simultaneously look at the navigation in frontend if you click on
-"About TYPO3".
+**About TYPO3**.
 
 .. figure:: ../../Images/FrontendAboutTypo3.png
    :alt: Frontend of the Introduction Package
@@ -31,14 +31,15 @@ You can see how the main menu of your website corresponds to the first
 level pages in the page tree, and the submenu corresponds to those
 beneath "About TYPO3" in the page tree.
 
-For all modules below the `Web` category there is a page tree shown,
+For all modules below the *Web* category there is a page tree shown,
 this means all those modules are acting on a per-page base.
 
 A click on the page title will open that page in the content frame on
 the right. Hovering over the icon of a page will display its internal
 id. This id is also used to display the page in the frontend.
 
-A click on the page icon will open the context menu.
+A click on the page icon will open the context menu. Alternatively you
+can right click the whole page title.
 
 .. figure:: ../../Images/PageTreeWithContextMenu.png
    :alt: Pagetree with opened context menu
@@ -48,15 +49,15 @@ A click on the page icon will open the context menu.
 The context menu
 """"""""""""""""
 
-The context menu of a page can be used to access most of the page-
-related functions the fast way. Here is what these options do:
+The context menu of a page can be used to access most of the
+page-related functions the fast way. Here is what these options do:
 
 - Show: Opens the page you clicked in the browser (frontend)
 
-- Edit: Lets you edit the page properties
-
 - Disable: Disables the page (so it isn't accessible from the frontend
   anymore)
+
+- Edit: Lets you edit the page properties
 
 - Info: Displays some information of the page
 
@@ -104,15 +105,15 @@ hover over this pages icon and you will see the ID 6 again:
    :alt: Identifying the page ID of the menu entry within the pagetree
 
 (3) might puzzle you - in the page tree and the title bar the pages
-name is "Welcome to TYPO3", but here in the menu it is suddenly "Get
-Started". How come? To find out select "Edit" in the context menu of
+name is *Welcome to TYPO3*, but here in the menu it is suddenly *Get
+Started*. How come? To find out select **Edit** in the context menu of
 that page and take a look at the right content area:
 
 .. figure:: ../../Images/EditPageProperties.png
    :alt: Editing the page properties
 
-There you can see that the page title (1) is "Welcome to TYPO3" but
-you will be also able to find "Get Started" at (2). This is called
-"Alternative Navigation Title" and means the title that is displayed
+There you can see that the page title (1) is *Welcome to TYPO3* but
+you will be also able to find *Get Started* at (2). This is called
+*Alternative Navigation Title* and means the title that is displayed
 in any navigational element (menus, breadcrumbs, sitemaps...). If it
 is empty, the page title is used.
