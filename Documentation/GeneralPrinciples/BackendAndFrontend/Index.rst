@@ -11,7 +11,7 @@
 Backend and Frontend
 ^^^^^^^^^^^^^^^^^^^^
 
-*TYPO3 CMS* is devided in two areas - the backend and the frontend.
+*TYPO3 CMS* is divided into two areas - the backend and the frontend.
 The *frontend* is the website that is produced by *TYPO3 CMS*. It is
 visible by everyone out there on the web.
 The administrative area of the website is called *backend*. A username
