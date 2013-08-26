@@ -80,15 +80,14 @@ OpenOffice (.sxw) manual. In this case, you would not get an new
 module or function, just the document itself which you can download in
 the loaded list view.
 
-.. figure:: ../Images/manual_html_3cd9b3b7.png
-   :alt:
+.. warning::
 
-**Extension security**
+   **Extension security**
 
-Please keep in mind, that there is no security audit available for the
-extensions, so take a close look at extensions you are installing. If
-you find a security issue, get in touch with the security team
-(security@typo3.org).
+   Please keep in mind, that there is no security audit available for the
+   extensions, so take a close look at extensions you are installing. If
+   you find a security issue, get in touch with the security team
+   (security@typo3.org).
 
 
 .. toctree::

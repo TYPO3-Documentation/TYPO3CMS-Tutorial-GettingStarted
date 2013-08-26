@@ -159,18 +159,17 @@ in subsection "Pagecontent: Plugin:" the appropriate Plugin itself.
 .. figure: ../../Images/manual_html_789c5406.png
    :alt:
 
-.. figure: ../../Images/manual_html_m43fb96d.png
-   :alt:
+.. note::
 
-**Inverting the behavior**
+   **Inverting the behavior**
 
-You can change the behavior of this setting in the install tool. If
-you set [BE][explicitADmode] = explicitAllowyou have to select the
-types of content elements which a group should be allowed to use
-instead of deny those types.This is actually recommended. First of all
-it is more secure, as  **nothing** isallowed by default. It is also
-more intuitive when setting up permissions (because you are
-**giving** permissions and not **removing** them).
+   You can change the behavior of this setting in the install tool. If
+   you set [BE][explicitADmode] = explicitAllowyou have to select the
+   types of content elements which a group should be allowed to use
+   instead of deny those types.This is actually recommended. First of all
+   it is more secure, as  **nothing** is allowed by default. It is also
+   more intuitive when setting up permissions (because you are
+   **giving** permissions and not **removing** them).
 
 .. _db-mounts:
 

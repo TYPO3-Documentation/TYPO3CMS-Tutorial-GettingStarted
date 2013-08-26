@@ -38,11 +38,10 @@ Different element types have different options. Play around a bit and
 see what you can do on the different tabs. Be aware that every change
 of the element type saves the element.
 
-.. figure:: ../../Images/manual_html_m43fb96d.png
-   :alt:
+.. note::
 
-**QuickEdit - save a mouse click...**
+   **QuickEdit - save a mouse click...**
 
-If you want fast access to your page content elements you can change
-the Page module view to "QuickEdit" instead of "Columns" - then the
-first content element on a page is shown right away:
+   If you want fast access to your page content elements you can change
+   the Page module view to "QuickEdit" instead of "Columns" - then the
+   first content element on a page is shown right away:

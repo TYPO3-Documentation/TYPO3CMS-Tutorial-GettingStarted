@@ -26,7 +26,7 @@ operation system, you might want to try the
 which will install a web
 server and the Introduction Package on your local computer.
 
-Make sure to have your database creditials ready.
+Make sure to have your database credentials ready.
 
 .. _getting-the-introduction-package:
 
