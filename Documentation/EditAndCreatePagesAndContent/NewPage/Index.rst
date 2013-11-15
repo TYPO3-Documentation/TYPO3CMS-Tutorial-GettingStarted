@@ -59,7 +59,7 @@ the web page - and the position (2) of the element. Let's create "Text
 & Images":
 
 .. figure:: ../../Images/manual_html_7465331a.png
-   :alt: Choosing "Text with Image" for the new content element.
+   :alt: Choosing "Text & Images" for the new content element.
 
 In the form which appears enter a headline (1) and some dummy content
 (2) under the tab "General".

@@ -75,7 +75,7 @@ the image block width in pixels - very useful as well. The most
 important option is the "Image Alignment" selector (#1). With this you
 tell TYPO3 how to position the block of images (there are three
 images, remember!) in relation to text. This is mostly important when
-using the "Text w/Image" element type of course. Secondly the "Number
+using the "Text & Images" element type of course. Secondly the "Number
 of Columns" selector (#2) is important since this is responsible for
 organizing the images into columns, in this case "2".
 

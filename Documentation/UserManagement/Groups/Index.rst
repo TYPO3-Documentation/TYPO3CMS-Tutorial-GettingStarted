@@ -154,7 +154,7 @@ Explicitly allow/deny field values:
 You can restrict which type of content element a group is allowed to
 use. If an editor should be allowed to use an plugin like tt\_news, it
 is important to allow the use of the type "Insert Plugin" and to allow
-in subsection "Pagecontent: Plugin:" the appropriate Plugin itself.
+in subsection "Page content: Plugin:" the appropriate Plugin itself.
 
 .. figure: ../../Images/manual_html_789c5406.png
    :alt:

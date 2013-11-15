@@ -14,7 +14,7 @@ Create a login form
 The Introduction Package already comes with a fully configured login
 form. But what if you want to create another one, for example on the
 homepage? No problem. In general the login form is just a content
-element like text or text with image. Go (in the backend) to the page
+element like text or text & images. Go (in the backend) to the page
 "Welcome to TYPO3", make sure that the page module is selected and
 click on the little content element icon with the green plus in the
 header of the "Related information" content element. This will create

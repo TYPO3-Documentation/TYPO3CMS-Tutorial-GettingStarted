@@ -41,7 +41,7 @@ same as the order of the elements in the backend. The content elements
 are additionally sorted by columns, content that is in the right
 column in the backend is in the right column on your page. Each
 content element on your page can be of a different type (like text or
-text with image), so you can create very flexible pages.
+text & images), so you can create very flexible pages.
 
 Let's look what happens if we move a content element.
 
@@ -49,7 +49,7 @@ Let's look what happens if we move a content element.
   page:
 
 .. figure:: ../../Images/manual_html_m2a684cc8.png
-   :alt: Editing the pagecontent
+   :alt: Editing the page content
 
 As you can see, some editing icons for that element appear. Use the
 arrows at the right to move the content element up or down. After you
