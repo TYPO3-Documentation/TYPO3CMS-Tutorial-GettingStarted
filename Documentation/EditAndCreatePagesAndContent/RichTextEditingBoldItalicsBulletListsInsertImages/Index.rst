@@ -23,5 +23,6 @@ text in addition to just writing it.
 As you can see you can create lists, apply formatting like bold or
 italic and even insert tables. This editor can be fully configured to
 match all your needs. The configuration is not part of this tutorial.
-You can find a description in the `rtehtmlarea manual <http://typo3.org/documentation/document-library/extension-manuals/rtehtmlarea_manual/current/>`_ .
+You can find a description in the `rtehtmlarea manual
+<http://docs.typo3.org/typo3cms/extensions/rtehtmlarea/>`_ .
 

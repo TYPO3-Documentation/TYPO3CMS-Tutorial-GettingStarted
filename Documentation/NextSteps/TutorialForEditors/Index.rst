@@ -12,8 +12,7 @@ Tutorial for editors
 ^^^^^^^^^^^^^^^^^^^^
 
 `**TYPO3 Tutorial for Editors**
-<http://typo3.org/documentation/document-library/extension-
-manuals/doc_tut_editors/current/>`_ : This basic tutorial for editors
+<http://docs.typo3.org/typo3cms/EditorsTutorial/>`_ : This basic tutorial for editors
 explains how to add or change content on an existing website in TYPO3.
 It provides the most basic step-by-step instructions to get the job
 done. This tutorial does not cover all available functions, only the

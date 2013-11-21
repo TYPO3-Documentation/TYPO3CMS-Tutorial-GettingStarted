@@ -228,9 +228,8 @@ using the DB mounts to assign access is probably the easiest way to
 go. If you run into trouble, just set all permissions to "on" - that
 will make green starts over the full line (see image below). Of
 course, if you want to really know the ins and outs of this, go to the
-*Inside TYPO3 document*  <http://typo3.org/documentation
-/document-library/core-documentation/doc_core_inside/current/>`_ -
-here you will get the hairy explanation.Probably the best way to show
+`*Inside TYPO3 document*  <http://docs.typo3.org/typo3cms/InsideTypo3Reference/>`_ -
+here you will get the hairy explanation. Probably the best way to show
 you how page permissions should be set is to view the current
 permissions of the page tree. This is done by the "Access" module.
 
@@ -269,8 +268,8 @@ In the "TypoScript configuration" section you can control how the
 Backend should behave. We do not want to explain now, what you can do
 with TSconfig, but keep in mind, that you can change how the Backend
 react - on page basis! Have a look at the `*TSconfig
-Reference*  <http://typo3.org/documentation/document-library/core-
-documentation/doc_core_tsconfig/current/>`_ to get an overview.
+Reference*  <http://docs.typo3.org/typo3cms/TSconfigReference/>`_ to
+get an overview.
 
 .. _validation-of-settings:
 
