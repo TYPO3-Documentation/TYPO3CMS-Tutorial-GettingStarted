@@ -8,91 +8,101 @@
 
 .. _a-short-glimpse-into-the-extension-manager:
 
-A short glimpse into the extension manager
+A short glimpse into the Extension Manager
 ------------------------------------------
 
-TYPO3 has many features build in, but even more different features are
-implemented as extensions. With such extension you can enhance the
-functions of TYPO3 or build totally new features. Even a lot core
-features are implemented as extensions (plugins), so it is your choice
-if you want to use that features or not. The extension manager helps
-you to manage all your extensions. We want to have now a short glimpse
-at the extension manager. Login as admin and switch to the extension
-manager module.
+TYPO3 has many built-in features but even more different features are
+implemented as extensions. With extensions you can enhance the functionality of
+TYPO3 CMS or create totally new features. Even a lot of the core features itself
+are implemented as extensions (plugins). It is up to you to use them or not.
 
-.. figure:: ../Images/manual_html_m2bdcce4f.png
-   :alt:
+The *Extension Manager* assists you while administrating all your extensions.
+Let us have a short glimpse at the *Extension Manager* now. Login as administrator
+and select the *Extension Manager* (1) module from the *ADMIN TOOLS*.
 
-At the top of the module, you can select different sub-modules (#1).
-You can get the list of all loaded extensions. This are extensions
-which are activated. In sub-module "Install extension" you can install
-and uninstall extensions which are already downloaded or shipped with
-as system extension. The most time you may want to download extensions
-from TER (TYPO3 Extension repository). This is done in the "import
-extension" sub-module. "Translation handling" manages the language
-selection for the backend and downloads the language packages for
-TYPO3 core and all extensions which are managed by the translation
-team. In "Settings" you can select an specific TER mirror and define
-the login for Uploading extensions. If everything works fine, you
-would not need to change anything. "Check for extension updates" helps
-you to get an quick overview for which extension an new version
-exists.
+.. figure:: ../Images/T3CMS62-BE-ExtensionManager.png
+   :alt: TYPO3 CMS 6.2 Extension Manager
 
-Now have a look at the list of loaded Extensions.
+In the drop down on top of the module (2) different functions respectively views of
+the *Extension Manager* can be selected.
 
-.. figure:: ../Images/manual_html_4cb008fc.png
-   :alt:
+- Having **Manage Extensions** selected you will get a list of all loaded
+  extensions. Anyway, whether they are currently activated (see (1) below )
+  or not (see (2) below).
 
-You can uninstall or install (in module "Install extensions") by
-clicking at the icon (#1). The title (#2) of the extension is shown.
-But more important is the extension key (#3). That key is used to
-create the extension folder in typo3conf/ext/, to define TypoScript
-paths and a lot more of depends on the extension key. The version (#4)
-and the state (#8) is set by the extension developer based on his
-judgement. You can download the extension itself (#5) or the manual
-(#6) if one is shipped with that extension. The extension type (#7)
-"System" indicates that an extension is shipped with the TYPO3 core,
-extensions of type "Local" are available in typo3conf/ext/
-*extensionkey* .
+- Selecting **Get Extensions** in the drop down on top allows you to search,
+  download and install extensions. Here you are right if you want to retrieve
+  the latest Extension-List from TYPO3 Extension Repository (TER).
 
-Some extensions are marked as "shy", so the list should not get to
-long with unimportant extensions. Just check "Display shy extensions"
-and have a look at the list.
+- Choosing **Get preconfigured distribution** will allow you to download such
+  packages. Do you remember the  :ref:`Introduction Package <installing-the-introduction-package>`
+  we downloaded during the installation of the TYPO3 base system?
 
-.. figure:: ../Images/manual_html_m6d63c44d.png
-   :alt:
 
-Now let us install an new extension. For that switch to the sub-module
-"Install extensions".
+Now let us have a look at the list of loaded Extensions:
 
-.. figure:: ../Images/manual_html_m3022c16c.png
-   :alt:
+.. figure:: ../Images/T3CMS62-BE-LoadedExtensions.png
+   :alt: TYPO3 CMS 6.2 activated and deactivated extensions
 
-Click on the "Retrieve/Update" Button to retrieve the latest list of
-available extensions from the TER. Now let's look up for the extension
-ts45min.
+The data in the list above represent from left to right:
 
-.. figure:: ../Images/manual_html_m65f5db8f.png
-   :alt:
+- Extension install/uninstall symbol. You can install or uninstall an extension by
+  clicking on the related icon (1) or (2).
 
-You can download and install the extension which ships with the
-OpenOffice (.sxw) manual. In this case, you would not get an new
-module or function, just the document itself which you can download in
-the loaded list view.
+- Extension title.
+
+- Extension key. Used to create the extension folder in typo3conf/ext/ and to
+  define TypoScript paths. Furthermore a lot of other things depend on the
+  extension key.
+
+- Extension version.
+
+- Extension related actions (3) represented by specific icons. This icons are
+  visible only when you hover over the extension line. Moving the cursor
+  over an icon itself will show a short description of the action.
+
+- Extension state (experimental, alpha, beta, stable, obsolete). Set by the
+  extension developer himself based on his own judgement.
+
+Now let us install a new extension. Therefor select *Get Extensions*
+(see (1) below) from the drop down on top:
+
+.. figure:: ../Images/T3CMS62-BE-GetExtension.png
+   :alt: TYPO3 CMS 6.2 get extension
+
+Field (3) is still empty at the moment and the list below (4) shows all
+available extensions. It is a good idea to update this list by clicking on the
+*Update now* button (2) before you proceed. This ensures only the latest version
+of any extension will be displayed in the list and thereby offered for download
+and installation.
+
+Having done so, type the extension's name or a part of it in field (3) and click
+on the *Go* button. All extensions containing the string you just typed will
+show up in the list.
+
+At this point there are two options:
+
+- for directly downloading and installing the extension of your choice just
+  click on its "Import and Install" symbol (4).
+
+- if you would like to get more information about the extension first simply
+  click on one of the underlined text sections.
+
+Now let us have a look up at the more detailed information about extension
+doc_tut_ts45_de:
+
+.. figure:: ../Images/T3CMS62-BE-InstallExtension.png
+   :alt: TYPO3 CMS 6.2 install extension
+
+As you see the name of the extension is now automatically preselected in the
+drop down on top. If the extension fits your needs you can easily download and
+install it by clicking on the "Import and Install" symbol (1).
 
 .. warning::
 
    **Extension security**
 
-   Please keep in mind, that there is no security audit available for the
-   extensions, so take a close look at extensions you are installing. If
-   you find a security issue, get in touch with the security team
-   (security@typo3.org).
-
-
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
-
-   ChangingBackendLanguage/Index
+   Please keep in mind there is no security audit available for the
+   extensions! Have a close look at the extensions you are installing.
+   If you find any security issue get in touch with the security team:
+   security@typo3.org .

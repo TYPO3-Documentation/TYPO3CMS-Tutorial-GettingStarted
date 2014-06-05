@@ -22,7 +22,7 @@ Getting Started Tutorial
       en
 
 :Description:
-      The official tutorial to discover the main features and concepts of TYPO3. It is based on the Introduction Package.
+      The official tutorial to discover the main features and concepts of TYPO3 CMS. It is based on the Introduction Package.
 
 :Keywords:
       forBeginners, forEditors, forAdmins
@@ -43,10 +43,10 @@ Getting Started Tutorial
 :Rendered:
       |today|
 
-The content of this document is related to TYPO3,
+The content of this document is related to TYPO3 CMS,
 
 a GNU/GPL CMS/Framework available from `www.typo3.org
-<http://www.typo3.org/>`_
+<http://www.typo3.org/>`_ .
 
 
 **Official documentation**

@@ -11,8 +11,8 @@
 Colored differences in history module
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To get the colored differences in the history module, you need to have
-installed the unix-tool diff on your server. Otherwise you will not
-get the colored differences. But you will be able to see the
-differences, just without colors.
+To get colored differences in the history module, you need to have
+the UNIX tool *diff* installed on your server. Otherwise you will not
+get colored differences. Anyway, you will be able to see the differences but
+without being colored.
 

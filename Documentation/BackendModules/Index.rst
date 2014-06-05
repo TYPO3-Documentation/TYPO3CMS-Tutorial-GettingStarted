@@ -17,5 +17,5 @@ Backend modules
    :titlesonly:
    :glob:
 
+   ChangingBackendLanguage/Index
    TrackingBackendUsers/Index
-

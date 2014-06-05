@@ -11,27 +11,41 @@
 Tracking backend users
 ^^^^^^^^^^^^^^^^^^^^^^
 
-Sometimes you want to know which editor did what, some sort of
-tracking the backend users actions. You can do that by using the
-integrated log functionality of TYPO3. Just select "Admin Tools" >
-"Log" from the menu and you will see an overview of the last actions
-your users did:
 
-.. figure:: ../../Images/manual_html_30d9ed96.png
-   :alt:
+Sometimes you may want or need to know which editor made ​​which changes.
+Tracking the backend users actions can easily be done by using the integrated
+log functionality of TYPO3 CMS.
 
-Do you notice the little icons with the clock in the log? This is the
-record history. Each record has a history in TYPO3, so if you change a
-record by accident you can use this history to undo your changes.
+Just select **SYSTEM > Log** from the modules menu on the left and you will get
+an overview of your backend users last actions:
 
-The easiest way to access the record history is through the list
-module.
+.. figure:: ../../Images/T3CMS62-BE-AdminLog.png
+   :alt: TYPO3 CMS 6.2 administration log
 
-.. figure:: ../../Images/manual_html_30a60760.png
-   :alt:
+Do you recognize the little icons with the clock in the log? Clicking this symbol
+will forward you directly the record's history. Each record in TYPO3 CMS has its
+own history. Therefor, if you change a record accidently you can use its history
+to undo your changes.
 
-You will see colored differences between your changes (If you don't
-see colored differences, see "Troubleshooting"):
+.. figure:: ../../Images/T3CMS62-BE-OpenRecordHistory.png
+   :alt: TYPO3 CMS 6.2 open record history
 
-.. figure:: ../../Images/manual_html_4e35257d.png
-   :alt:
+The easiest way to open a record's history is the route via the list module (1).
+Afterwards select the page (2) containing the related content element. Open its
+context menu (3) and select "History/Undo" (4).
+
+.. figure:: ../../Images/T3CMS62-BE-ShowRecordHistory.png
+   :alt: TYPO3 CMS 6.2 show record history
+
+Having done so you will see the differences between your changes emphasized by green and
+red colors.
+
+
+
+.. tip::
+
+    **Get colored differences**
+
+    If you do not see colored differences see
+    :ref:`Colored differences in history module <colored-differences-in-history-module>`
+    in chapter *Troubleshooting*.

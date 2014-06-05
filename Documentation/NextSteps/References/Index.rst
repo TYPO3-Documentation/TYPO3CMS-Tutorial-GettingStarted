@@ -6,22 +6,21 @@
 .. include:: ../../Includes.txt
 
 
-.. _references:
+.. _next-steps-references:
 
 References
 ^^^^^^^^^^
 
-`**TSconfig**  <http://docs.typo3.org/typo3cms/TSconfigReference>`_
-: With Page- and User-TSconfig you can change in parts
-the behavior of the  **backend** . You can change labels, hide or show
-fields, set permissions and default values. This is usually done on
-the Page-TSconfig or User-TSconfig field. This reference shows which
-options are available for TYPO3.
+TSconfig Reference
+  :ref:`TSconfig <t3tsconfig:start>` covers both
+  *Page-TSconfig* and *User-TSconfig*, with which you are able to change the behavior of
+  the **backend** in parts. You can change labels, hide or show fields, set
+  permissions and default values. Usually this will be done in the *Page-TSconfig*
+  or *User-TSconfig* fields. This reference explains which options are available in
+  TYPO3 CMS.
 
-`**TSref** <http://docs.typo3.org/typo3cms/TyposcriptReference/>`_ :
-The TypoScript reference defines the different functions and objects,
-which can be used to configure the  **frontend** output. Usually you
-will use the extension css\_styled\_content which ships with the whole
-configuration for all build in content elements. If you want to change
-something, you can look up the possible options in the TSref.
-
+TypoScript Reference
+  The :ref:`TypoScript Reference <t3tsref:start>` defines different functions and objects which can
+  be used to configure the **frontend's** output. Usually you will use an extension's
+  configuration for all built-in content elements. If you would like to change
+  something you can look up the possible options in the *TSRef*.

@@ -11,53 +11,80 @@
 Page content
 ^^^^^^^^^^^^
 
-Now that we have seen how the page is structured via the page tree and
-what the different page types do. It is time to have a look at the
-content.
+Having seen how our website is structured by the page tree and
+what is the purpose of different page types we will go ahead with the
+content now.
 
-First let's see how the content on a page is organized.
+First, let us have a look how the content on a page is organized:
 
-- Open the page "Editor Features" > "Text and Images" in your browser
+- Open the page "CONTENT EXAMPLES" > "Text and images" in your browser
 
 - In a second browser window open the TYPO3 backend
 
-- Choose the page module and select "Editor Features" > "Text and
+- Choose the page module and select "Content Examples" > "Text and
   images" in your page tree
 
 - Compare both views
 
 Frontend:
 
-.. figure:: ../../Images/manual_html_4b5d31cd.png
+.. figure:: ../../Images/T3CMS62-FE-TextAndImages.png
    :alt: Page content seen from the frontend
 
 Backend:
 
-.. figure:: ../../Images/manual_html_7a835369.png
+.. figure:: ../../Images/T3CMS62-BE-TextAndImages.png
    :alt: Page content seen from the backend
 
-As you can see the order of the content elements on the webpage is the
+As you see the order of the content elements on the webpage is the
 same as the order of the elements in the backend. The content elements
 are additionally sorted by columns, content that is in the right
 column in the backend is in the right column on your page. Each
 content element on your page can be of a different type (like text or
-text & images), so you can create very flexible pages.
+text & images), so you are very flexible in creating pages.
 
-Let's look what happens if we move a content element.
+Now let us move a content element inside a page. Typically the top bar of each
+content element is colored light grey and there are no icons visible on it. When
+you hover over the top bar of a content element three things will happen:
 
-- Hover with your mouse over the gray bar of a content element on that
-  page:
+- the color of the top bar changes from light grey to dark grey
 
-.. figure:: ../../Images/manual_html_m2a684cc8.png
-   :alt: Editing the page content
+- a few icons become visible on the top bar
 
-As you can see, some editing icons for that element appear. Use the
-arrows at the right to move the content element up or down. After you
-moved the element have a look at your website frontend. You should see
-the page reflecting your changes to the order.
+- your mouse cursor changes its shape to a crosshair cursor
 
-The other icons in the elements header point to different actions you
-can do with this element:
 
-.. figure:: ../../Images/manual_html_43b3961a.png
+.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-1.png
+   :alt: Moving content element - figure 1
+
+After the mouse cursor's shape changed to a crosshair press the left mouse button
+and move the content element up and down (do not relaese the mouse button). Doing
+so, you will recognise light green horizontal bars (1) showing up between the other
+content elements. This bars mark all possible positions where you can drop the content
+element your are currently dragging.
+
+.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-2.png
+   :alt: Moving content element - figure 2
+
+Now move the content element to its final position. You will note the light green
+bar changes its color to dark green (2). By Releasing the left mouse button you will
+drop the content element on its new position and you are done.
+
+.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-3.png
+   :alt: Moving content element - figure 3
+
+
+After moving the content element to its new position have a look at your
+website's frontend. It reflects the changing of the content elements arrangement
+in the backend.
+
+The icons in a content element's header bar indicate different actions you
+can perform with this element:
+
+.. figure:: ../../Images/T3CMS62-BE-ContentElementsHeaderBarIcons.png
    :alt: Buttons and there functions within the elements header.
+
+1. show context menu
+2. edit content element
+3. hide/show content element
+4. delete content element
