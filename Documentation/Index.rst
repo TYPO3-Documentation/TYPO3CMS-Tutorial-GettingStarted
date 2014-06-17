@@ -16,7 +16,7 @@ Getting Started Tutorial
       doc_tut_quickstart
 
 :Version:
-      1.0.1
+      6.2.0
 
 :Language:
       en
@@ -28,7 +28,7 @@ Getting Started Tutorial
       forBeginners, forEditors, forAdmins
 
 :Copyright:
-      2004-2013
+      2004-2014
 
 :Author:
       Documentation Team
