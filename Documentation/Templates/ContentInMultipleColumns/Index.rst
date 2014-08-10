@@ -28,7 +28,7 @@ Click the page icon of our root page and choose "Edit page
 properties", then choose the tab "Resources" and have a look at the
 "TypoScript configuration" field:
 
-.. figure:: ../../Images/manual_html_m5259e2e5.gif
+.. figure:: ../../Images/manual_html_m5259e2e5.png
    :alt:
 
 As you could guess from the comment, you just have to delete the "1"

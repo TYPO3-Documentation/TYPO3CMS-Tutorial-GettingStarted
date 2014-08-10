@@ -1,7 +1,7 @@
 .. ==================================================
 .. FOR YOUR INFORMATION
 .. --------------------------------------------------
-.. -*- coding: utf- -*- with BOM.
+.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -16,20 +16,20 @@ need to change the language of TYPO for him. As an first step, you
 have to just download the language packages you need. To do so, just
 start the Extension Manager and select "Translation handling".
 
-.. figure:: ../../Images/manual_html_mdeb.png
+.. figure:: ../../Images/manual_html_m229d97eb.png
    :alt:
 
 Now select which language packages you want to download.
 Select all language packages you want to provide to your users.
 
-.. figure:: ../../Images/manual_html_ffae.png
+.. figure:: ../../Images/manual_html_64ff6ae7.png
    :alt:
 
 Save your selection by hitting "Save selection". You can
 alter your selection at any time, so just select the languages you
 need now.
 
-.. figure:: ../../Images/manual_html_mbfed.png
+.. figure:: ../../Images/manual_html_m34bf77ed.png
    :alt:
 
 After saving your selection, you can either compare the
@@ -44,7 +44,7 @@ then you will get an "N/A".
 It may happen that not all packages get downloaded. Just hit the
 update button again - it should then retrieve the missing parts.
 
-.. figure:: ../../Images/manual_html_abbf.png
+.. figure:: ../../Images/manual_html_48a1bb4f.png
    :alt:
 
 Up to now, you just downloaded the language packages. Now you need to
@@ -52,7 +52,7 @@ alter your "User settings" and select your language. Switch to the
 "User settings" Module and select the language you want to use for
 your account.
 
-.. figure:: ../../Images/manual_html_mfbcef.png
+.. figure:: ../../Images/manual_html_m4f4bc7ef.png
    :alt:
 
 Save your new configuration. You will then get an message
@@ -61,7 +61,7 @@ modules, you see that the modules are now shown in the language, you
 selected. If you hit again "User settings" even that page will be
 translated.
 
-.. figure:: ../../Images/manual_html_f.png
+.. figure:: ../../Images/manual_html_583f1025.png
    :alt:
 
 So, you just changed your own backend language. All editors
@@ -69,10 +69,10 @@ needs to do it for themselves.
 
 If you create new editors you can give them a helping hand by
 selection an "default language" while creating new Backend user
-records. This language will be used when the log into TYPO the first
+records. This language will be used when the log into TYPO3 the first
 time.
 
-.. figure:: ../../Images/manual_html_dea.png
+.. figure:: ../../Images/manual_html_210d9ea9.png
    :alt:
 
 Keep in mind, that the "Default Language" really is nothing
