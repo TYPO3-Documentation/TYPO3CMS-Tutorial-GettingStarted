@@ -12,7 +12,7 @@ Tracking backend users
 ^^^^^^^^^^^^^^^^^^^^^^
 
 
-Sometimes you may want or need to know which editor made ​​which changes.
+Sometimes you may want or need to know which editor made which changes.
 Tracking the backend users actions can easily be done by using the integrated
 log functionality of TYPO3 CMS.
 
