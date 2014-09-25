@@ -44,39 +44,6 @@ need, are hidden.
 .. figure:: ../../Images/manual_html_308fbf0e.png
    :alt:
 
-.. _user-management-news-editor:
-
-"news\_editor"
-""""""""""""""
-
-Now log in as "news\_editor".
-
-.. figure:: ../../Images/manual_html_m45a8da8c.png
-   :alt:
-
-The "news\_editor" is only responsible for writing the news. He should
-not bother with all the other content of that website. The news are
-managed via the News-Admin Modul. Just like the simple\_editor, he can
-see only the things, he should see.
-
-.. figure:: ../../Images/manual_html_m138ec611.png
-   :alt:
-
-Now select the module "News Admin" (#1), close the sidebar (#2) and
-select the provided path (#3). In the "News Admin" module the user can
-create and edit new News.
-
-.. figure:: ../../Images/manual_html_6d62edb7.png
-   :alt:
-
-Now check the "Filelist" module.
-
-.. figure:: ../../Images/manual_html_m3e7a0d77.png
-   :alt:
-
-The "news\_editor" has an restricted view at the folder structure as
-well, but he sees only documents, which are located in
-fileadmin/user\_upload/news/.
 
 .. _user-management-advanced-editor:
 
