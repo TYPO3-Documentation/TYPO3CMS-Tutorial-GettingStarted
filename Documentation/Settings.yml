@@ -2,27 +2,27 @@
 ---
 conf.py:
   project: Getting Started Tutorial
-  copyright: 2004-2014
+  copyright: 2004-2015
   version: 6.2.0
   release: 6.2.0
   intersphinx_mapping:
     t3install:
-    - http://docs.typo3.org/typo3cms/InstallationGuide
+    - https://docs.typo3.org/typo3cms/InstallationGuide
     - null
     t3tsconfig:
-    - http://docs.typo3.org/typo3cms/TSconfigReference
+    - https://docs.typo3.org/typo3cms/TSconfigReference
     - null
     t3tsref:
-    - http://docs.typo3.org/typo3cms/TyposcriptReference
+    - https://docs.typo3.org/typo3cms/TyposcriptReference
     - null
     t3editors:
-    - http://docs.typo3.org/typo3cms/EditorsTutorial
+    - https://docs.typo3.org/typo3cms/EditorsTutorial
     - null
     t3ts45:
-    - http://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial
+    - https://docs.typo3.org/typo3cms/TyposcriptIn45MinutesTutorial
     - null
     t3templating:
-    - http://docs.typo3.org/typo3cms/TemplatingTutorial/
+    - https://docs.typo3.org/typo3cms/TemplatingTutorial/
     - null
   html_theme_options:
     github_repository: TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted

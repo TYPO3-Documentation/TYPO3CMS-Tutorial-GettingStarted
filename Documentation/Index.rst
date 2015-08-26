@@ -28,7 +28,7 @@ Getting Started Tutorial
       forBeginners, forEditors, forAdmins
 
 :Copyright:
-      2004-2014
+      2004-2015
 
 :Author:
       Documentation Team
@@ -37,8 +37,8 @@ Getting Started Tutorial
       documentation@typo3.org
 
 :License:
-      Open Content License available from `www.opencontent.org/opl.shtml
-      <http://www.opencontent.org/opl.shtml>`_
+      Open Publication License available from `www.opencontent.org/openpub/
+      <http://www.opencontent.org/openpub/>`_
 
 :Rendered:
       |today|
@@ -46,7 +46,7 @@ Getting Started Tutorial
 The content of this document is related to TYPO3 CMS,
 
 a GNU/GPL CMS/Framework available from `www.typo3.org
-<http://www.typo3.org/>`_ .
+<https://typo3.org/>`_ .
 
 
 **Official documentation**

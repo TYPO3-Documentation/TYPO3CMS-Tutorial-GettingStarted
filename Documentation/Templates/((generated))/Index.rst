@@ -45,7 +45,7 @@ Template Records?
 So how does TYPO3 implement this principle? Well, you can read in-
 depth information about the `*recommended approach for
 professionally made website in the tutorial Modern Template Building*
-<http://docs.typo3.org/typo3cms/extensions/doc_tut_templselect/>`_ .
+<https://docs.typo3.org/typo3cms/extensions/doc_tut_templselect/>`_ .
 However this is written for people who are professionally working with
 web design in teams with developers, designers etc. So the level is a
 bit higher than this tutorial claims to be.
