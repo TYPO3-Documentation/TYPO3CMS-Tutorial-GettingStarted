@@ -1,10 +1,4 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
-
 .. include:: ../../Includes.txt
-
 
 .. _the-object-browser:
 
@@ -16,11 +10,10 @@ It is called the "Object Browser". Change the select box on top of the
 template module to "TypoScript Object Browser":
 
 .. figure:: ../../Images/manual_html_8ca9fc0.png
-   :alt:
 
 The object browser shows you the TypoScript configuration of your
 website as an object tree, for example on the image above you can see
-how the command "page.10.includeCSS.10 = fileadmin..." is transformed
+how the notation "page.includeCSS.10 = fileadmin..." is transformed
 into a tree structure. You can click the properties in the template to
 change them directly. Any changes are written to the current template
 (Which template is the current template? Look at the header of the
