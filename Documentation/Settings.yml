@@ -2,9 +2,9 @@
 ---
 conf.py:
   project: Getting Started Tutorial
-  copyright: 2004-2015
-  version: 6.2.0
-  release: 6.2.0
+  copyright: 2004-2016
+  version: 7
+  release: 7
   intersphinx_mapping:
     t3install:
     - https://docs.typo3.org/typo3cms/InstallationGuide
