@@ -365,6 +365,11 @@ if 1 and "TYPO3 specific":
     if __function:
         __function(globals(), t3DocTeam)
 
+import t3SphinxThemeRtd
+html_theme_path = []
+html_theme_path.append(t3SphinxThemeRtd.get_html_theme_path())
+html_theme = 't3SphinxThemeRtd'
+
 #-------------------------------------------------
 #
 # TYPO3 codeblock END.
