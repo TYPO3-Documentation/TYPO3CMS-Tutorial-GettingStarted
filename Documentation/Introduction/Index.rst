@@ -20,12 +20,12 @@ About this document
 This document is an introduction to the basic principles of TYPO3 CMS. The
 example website used in this introduction will get you started
 immediately on your own first TYPO3 CMS website. After this tutorial you
-will have an idea about TYPO3 CMS's capabilities, its general structure
+should have an overview about TYPO3 CMS's capabilities, its general structure
 and extension possibilities. Professional creation of templates and
 development with TYPO3 CMS in general are not covered by this document.
 
-.. figure:: ../Images/T3CMS62-IntroPack.png
-   :alt: Frontend of the TYPO3 CMS 6.2 Introduction Package
+.. figure:: ../Images/IntroductionPackageHomePage.png
+   :alt: Frontend of the TYPO3 CMS Introduction Package
 
 
 .. _what-s-new:
@@ -33,8 +33,7 @@ development with TYPO3 CMS in general are not covered by this document.
 What's new
 ^^^^^^^^^^
 
-The current version is updated to reflect the changes in TYPO3 CMS 6.2
-LTS.
+The current version is updated to reflect the changes in TYPO3 CMS 7 LTS.
 
 
 .. _credits:
@@ -42,9 +41,10 @@ LTS.
 Credits
 ^^^^^^^
 
-The "Quickstart Guide" was originally written by Kasper Skårhøj and adapted to TYPO3 CMS
-4.5 LTS by Philipp Gampe, Martin Holtz, Susanne Moog and François Suter.
-The current version was revised and updated to TYPO3 CMS 6.2 LTS by Guido Haase.
+The "Quickstart Guide" was originally written by Kasper Skårhøj and adapted to
+TYPO3 CMS 4.5 LTS by Philipp Gampe, Martin Holtz, Susanne Moog and François Suter.
+It was revised and updated to version 6.2 LTS by Guido Haase and to version 7 LTS
+by Francois Suter.
 
 
 .. _feedback:
