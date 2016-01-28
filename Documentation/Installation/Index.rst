@@ -17,7 +17,7 @@ Prerequisite
 ^^^^^^^^^^^^
 
 For trying out TYPO3 CMS you need to have a fully configured and ready
-to use web server which meets the   `minimum system requirements
+to use web server which meets the `minimum system requirements
 <http://typo3.org/typo3-cms/overview/requirements/>`_.
 
 If you do not have a web server and you are running a MS Windows
@@ -27,54 +27,40 @@ server and TYPO3 CMS on your computer.
 
 Make sure to have your database credentials ready.
 
+
 .. _getting-the-introduction-package:
 .. _installing-typo3-cms-base-system:
 
 Installing TYPO3 CMS base system
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First you will need to download and install the TYPO3 CMS Package
-which is used to explain TYPO3 CMS in this tutorial. Get this package at
-`http://typo3.org/download/ <http://typo3.org/download/>`_.
-To install your first
-website follow the steps provided in the :ref:`Quick Installation <t3install:quick-installation>`
+First you will need to download and install the TYPO3 CMS Package.
+Follow the steps provided in the :ref:`Quick Installation <t3install:quick-installation>`
 part of the :ref:`Installation and Upgrade Guide <t3install:start>`.
-If you want to use TYPO3 CMS professionally we recommend to read the whole guide.
+
+At step 6, choose to download the list of distributions. See below.
+
 
 .. _installing-the-introduction-package:
 
 Installing the Introduction Package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Having downloaded and unpacked the TYPO3 CMS package do not forget to install the
-Introduction Package itself. It is not included in the TYPO3 CMS package and has
-to be downloaded and installed separately. Performing a typical installation the
-:ref:`Install Tool <t3install:the-install-tool>`
-will offer this option when reaching the related installation step.
+When you are at step 6 of the Install Tool, choose to download the list
+of distributions.
 
-.. figure:: ../Images/T3CMS62-Install-IntroPack.png
-   :alt: Installing TYPO3 CMS 6.2 Introduction Package
+.. figure:: ../Images/InstallToolLoadDistributions.png
+   :alt: Choosing to load distributions in the Install Tool
 
-The introduction package is a complete demo website. Based on a responsive
-design it  contains a lot of default content for testing and learning purposes. Please
-try it, if you are new to TYPO3 CMS!
+You then will be prompted to log into the TYPO3 CMS backend using
+the login and password you defined just before in step 5. You will
+be taken automatically to the place where you can choose a distribution.
 
-.. _for-those-who-can-t-wait-try-this-very-short-installation-guide:
+.. figure:: ../Images/InstallIntroductionPackage.png
+   :alt: Installing TYPO3 CMS Introduction Package
 
-For those who can't wait, try this very short installation guide:
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+Just click on the "Install" button and a complete preconfigured web site
+will be installed within minutes. It contains several pages and a lot
+of example content.
 
-- Unzip / untar your downloaded TYPO3 CMS package in the root folder
-  of your web server
-
-- Make sure your web server user has write permissions to the
-  folders :file:`fileadmin/,typo3conf/,typo3temp/` and :file:`uploads/`
-
-- Opening `http://your-site.example.org/ <http://your-site.example.org/>`_ in a
-  web browser you will be redirected to the TYPO3 CMS
-  :ref:`Install Tool <t3install:the-install-tool>`
-
-- If this does not happen, create a file called :file:`ENABLE\_INSTALL\_TOOL` in
-  the :file:`typo3conf/` folder
-
-- Follow the steps in the TYPO3 CMS :ref:`Install Tool <t3install:the-install-tool>`
+We will explore all that in the rest of this tutorial.
