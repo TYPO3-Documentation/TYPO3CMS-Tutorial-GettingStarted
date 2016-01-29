@@ -1,9 +1,9 @@
 
 .. include:: Includes.txt
 
-.. _targets-for-crossreferencing:
-
 .. only:: html
+
+   .. _Targets-for-Cross-Referencing:
 
    Targets for Cross-Referencing
    =============================
