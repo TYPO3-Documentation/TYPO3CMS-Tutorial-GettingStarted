@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -11,38 +7,46 @@
 Page tree
 ^^^^^^^^^
 
-The page tree represents the hierarchical structure of your page. In
-most cases this is exactly corresponding to what you will see in the
-navigation on your website. The page tree can be expanded by clicking
+The page tree represents the hierarchical structure of your pages. In
+most cases this corresponds exactly to the navigation structure
+of your web site. The page tree can be expanded by clicking
 the little arrows on the left of the items.
 
-Look at your page tree in the backend now:
+For example, click on the arrow next to the page called "About".
+Your page tree should look like this:
 
-.. figure:: ../../Images/T3CMS62-BE-PageTree.png
-   :alt: Current page tree
+.. figure:: ../../Images/BackendPageTree.png
+   :alt: The page tree with the "About" page expanded
+
 
 Simultaneously have a look at the navigation in the frontend. Click on
-**About** in the main menu on top and then select **TYPO3** form the submenu:
+**About** item in the main menu on top and then select **TYPO3** from the sub-menu:
 
-.. figure:: ../../Images/T3CMS62-FE-AboutPage.png
+.. figure:: ../../Images/FrontendAboutPage.png
    :alt: Frontend of the Introduction Package
 
-As you see the main menu on top of your website corresponds to the first
-level menu pages in the page tree. Furthermore the submenu of the **About** page
-in the frontent corresponds to the entries beneath **About** in the page tree.
 
-For all modules below the **WEB** category the page tree will be displayed.
-This means all these modules are acting on a per-page base.
+As you see the main menu on top of your web site corresponds to the first
+level menu pages in the page tree. The sub-menu of the **About** page
+in the frontend corresponds to the entries beneath **About** in the page tree.
+
+The page with the world icon represents the root of your web site.
+There may be several web sites per TYPO3 installation.
+The top node with the TYPO3 logo is a special container which is used
+to store very general information.
+
+Modules may display the page tree or not. The presence of the page tree
+implies that the module reacts to the selection of a page in the page tree.
 
 A click on the page title opens that page in the content area on
-the right. Hovering over the icon of a page will display its internal
-id. This id is also used to display the page in the frontend.
+the right. Hovering over the icon of a page will display its internal id.
 
 A click on the page icon will open the context menu. Alternatively you
 can right click the whole page title.
 
-.. figure:: ../../Images/T3CMS62-BE-ContextMenu.png
-   :alt: Pagetree with opened context menu
+.. figure:: ../../Images/BackendContextMenu.png
+   :alt: Page tree with opened context menu
+
 
 .. _the-context-menu:
 
@@ -59,7 +63,7 @@ page-related functions the fast way. Here is what these options do:
 
 - Edit: Lets you edit the page properties
 
-- Info: Displays some information of the page
+- Info: Displays information about the page
 
 - History/Undo: Shows the change history of the page (who did which
   changes when)
@@ -88,42 +92,11 @@ page-related functions the fast way. Here is what these options do:
   - Import from .t3d: Opens the import tool and preselects the selected
     page
 
-Depending on the context, fewer or more functions might be available.
 
-Next use the context menu of the "Congratulations" page to the show this page
-in the frontend:
+Editing pages
+"""""""""""""
 
-.. figure:: ../../Images/T3CMS62-FE-GetStarted.png
-   :alt: Identifying the page ID of the menu entry within the frontend
+Modifying an existing page or adding a new one is covered in the
+:ref:`Editors Tutorial <t3editors:pages>`.
 
-
-As you see at (1) the first part of the page title in your browser
-bar corresponds to the title of the page in the page tree. (2) shows
-this is the page with id 1. Go back to your page tree in the backend and
-hover over the related page's icon and you will recognize id 1 again:
-
-.. figure:: ../../Images/T3CMS62-BE-PageTreePageID.png
-   :alt: Identifying the page ID of the menu entry within the pagetree
-
-(3) might puzzle you - in the page tree and the title bar the page's
-name is "Congratulations", but here in the frontent menu it is suddenly "Get
-Started". To find out what happened hover over the icon of the "Home" page
-in the page tree. As you see this page is a :ref:`Shortcut <shortcuts>`
-to page "Congratulations" with id 1.
-
-Now select **Edit** in the context menu of "Home" page and take a look at the
-right content area:
-
-.. figure:: ../../Images/T3CMS62-BE-EditPageProperties.png
-   :alt: Editing the page properties
-
-Here you find the page's type *Shortcut* again (1). The shortcut's target
-is the "Congratulations" page (2). The title of the page itself is "Home" (3). But,
-there is an *Alternative Navigation Title* assigned to it:  "Get Started" (4).
-This title is displayed in any navigational element (menus, breadcrumbs, sitemaps...).
-If not set the page title will be used.
-
-The "Congratulations" page is additionally the root of your website and
-therefore has its own domain - that is where the world icon is coming
-from.
-
+Next we will look at how content is placed on pages.

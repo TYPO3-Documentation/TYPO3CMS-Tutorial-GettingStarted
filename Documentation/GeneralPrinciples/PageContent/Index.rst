@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -11,80 +7,55 @@
 Page content
 ^^^^^^^^^^^^
 
-Having seen how our website is structured by the page tree and
-what is the purpose of different page types we will go ahead with the
-content now.
+Let us now see how content is structured in a TYPO3 CMS web site.
+First of all we shall navigate to a particular page:
 
-First, let us have a look how the content on a page is organized:
+- in the backend, click on the arrow right of the "Content Examples" page
 
-- Open the page "CONTENT EXAMPLES" > "Text and images" in your browser
+- next click on the "Text and images" page
 
-- In a second browser window open the TYPO3 backend
+- use the context menu to show the "Text and images" in the frontend.
 
-- Choose the page module and select "Content Examples" > "Text and
-  images" in your page tree
-
-- Compare both views
+Let's now compare both views.
 
 Frontend:
 
-.. figure:: ../../Images/T3CMS62-FE-TextAndImages.png
+.. figure:: ../../Images/FrontendTextAndImages.png
    :alt: Page content seen from the frontend
+
 
 Backend:
 
-.. figure:: ../../Images/T3CMS62-BE-TextAndImages.png
+.. figure:: ../../Images/BackendTextAndImages.png
    :alt: Page content seen from the backend
 
-As you see the order of the content elements on the webpage is the
+
+As you see the order of the content elements on the web page is the
 same as the order of the elements in the backend. The content elements
-are additionally sorted by columns, content that is in the right
-column in the backend is in the right column on your page. Each
+are stored in columns, content that is in the right
+column in the backend is in the right column on your page, etc. Each
 content element on your page can be of a different type (like text or
-text & images), so you are very flexible in creating pages.
+text & images) giving you a lot of flexibility.
 
-Now let us move a content element inside a page. Typically the top bar of each
-content element is colored light grey and there are no icons visible on it. When
-you hover over the top bar of a content element three things will happen:
+The Page module shows a preview of each content element, together
+with some action icons. Here is a quick overview:
 
-- the color of the top bar changes from light grey to dark grey
-
-- a few icons become visible on the top bar
-
-- your mouse cursor changes its shape to a crosshair cursor
+.. figure:: ../../Images/BackendContentElementPreview.png
+   :alt: Content element preview and action icons
 
 
-.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-1.png
-   :alt: Moving content element - figure 1
-
-After the mouse cursor's shape changed to a crosshair press the left mouse button
-and move the content element up and down (do not relaese the mouse button). Doing
-so, you will recognise light green horizontal bars (1) showing up between the other
-content elements. This bars mark all possible positions where you can drop the content
-element your are currently dragging.
-
-.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-2.png
-   :alt: Moving content element - figure 2
-
-Now move the content element to its final position. You will note the light green
-bar changes its color to dark green (2). By Releasing the left mouse button you will
-drop the content element on its new position and you are done.
-
-.. figure:: ../../Images/T3CMS62-BE-MoveContentElements-3.png
-   :alt: Moving content element - figure 3
+#. insert a new content element above the current one
+#. an icon representing the type of content element
+   (hovering over it will show its id)
+#. edit the content element
+#. hide/show the content element
+#. delete content element
+#. a preview of the element's content (will vary depending on the type)
+#. insert a new content element below the current one
 
 
-After moving the content element to its new position have a look at your
-website's frontend. It reflects the changing of the content elements arrangement
-in the backend.
+Editing content
+"""""""""""""""
 
-The icons in a content element's header bar indicate different actions you
-can perform with this element:
-
-.. figure:: ../../Images/T3CMS62-BE-ContentElementsHeaderBarIcons.png
-   :alt: Buttons and there functions within the elements header.
-
-1. show context menu
-2. edit content element
-3. hide/show content element
-4. delete content element
+Modifying existing content or adding new content is covered in the
+:ref:`Editors Tutorial <t3editors:content-elements>`.

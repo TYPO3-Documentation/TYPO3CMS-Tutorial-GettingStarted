@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../Includes.txt
 
@@ -12,7 +8,7 @@ General principles
 ------------------
 
 This chapter aims to give you some important information about
-the general principles of *TYPO3 CMS*. It gives you the information
+the general principles of TYPO3 CMS. It is the base
 needed to understand the next chapters.
 
 .. toctree::
@@ -23,6 +19,6 @@ needed to understand the next chapters.
    BackendAndFrontend/Index
    GeneralBackendStructure/Index
    PageTree/Index
-   SpecialPages/Index
    PageContent/Index
+   TopBar/Index
 

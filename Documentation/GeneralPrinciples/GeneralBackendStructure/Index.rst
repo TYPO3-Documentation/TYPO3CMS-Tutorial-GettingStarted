@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -12,12 +8,16 @@
 General Backend Structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On the left you still have the *modules menu*, in the middle you now
-have the *page tree* and on the right the *content area*.
+Here is a complete overview of the general backend structure.
 
-.. figure:: ../../Images/T3CMS62-BE-AreasOverview.png
-   :alt: Overview of the backend
+On top of the *modules menu* and the *top bar* which we saw in
+the previous chapter, we now have in the middle
+the *page tree* and on the right the (main) *content area*.
 
-The *docheader* contains your action icons - like close, save or preview
-- and some general information.
-We will have a closer look at the individual parts on the next pages.
+.. figure:: ../../Images/BackendAreasOverview.png
+   :alt: Overview of the whole TYPO3 CMS backend
+
+The so-called *docheader* contains the action icons - like close, save or preview
+- some general information and sometimes a drop-down menu with further actions.
+
+We will have a closer look at the individual parts in the next pages.
