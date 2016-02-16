@@ -20,5 +20,6 @@ needed to understand the next chapters.
    GeneralBackendStructure/Index
    PageTree/Index
    PageContent/Index
+   Templates/Index
    TopBar/Index
 

@@ -77,7 +77,6 @@ future reference.
    Installation/Index
    GeneralPrinciples/Index
    BackendModules/Index
-   Templates/Index
    TheFileModuleOrImageArchives/Index
    TheListModuleAndClipboard/Index
    UserManagement/Index
