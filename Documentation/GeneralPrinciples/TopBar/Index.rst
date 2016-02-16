@@ -23,7 +23,7 @@ and the current view will get saved to this list of bookmarks.
 
 The lightning bolt icon opens the menu to flush the various
 caches that are used by TYPO3 CMS to improve performance.
-Caches are described in detail in :ref:`Core APIs <t3api:caching-framework>`.
+Caches are described in detail in :ref:`Core APIs <t3api:caching>`.
 
 .. figure:: ../../Images/BackendTopbarHelp.png
    :alt: The top bar with the help menu
