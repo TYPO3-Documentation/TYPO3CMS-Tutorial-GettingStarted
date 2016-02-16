@@ -93,6 +93,33 @@ page-related functions the fast way. Here is what these options do:
     page
 
 
+.. _the-view-module:
+
+The View module
+"""""""""""""""
+
+It is also possible to view a page directly in the backend, by selecting the View module,
+which also offers the possibility to preview a page in different screen sizes, thanks
+to the drop-down menu at the top.
+
+.. figure:: ../../Images/BackendViewModule.png
+   :alt: Viewing a page directly in the backend
+
+
+.. _collapse-page-tree:
+
+Collapsing the page tree
+""""""""""""""""""""""""
+
+The page tree can be collapse to gain screen space, by clicking on the handle
+on its right.
+
+.. figure:: ../../Images/BackendCollapsePageTree.png
+   :alt: Click there to collpase the page tree
+
+
+.. _editing-pages:
+
 Editing pages
 """""""""""""
 
