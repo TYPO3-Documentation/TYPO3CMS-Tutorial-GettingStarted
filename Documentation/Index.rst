@@ -76,7 +76,6 @@ future reference.
    Introduction/Index
    Installation/Index
    GeneralPrinciples/Index
-   EditAndCreatePagesAndContent/Index
    BackendModules/Index
    Templates/Index
    TheFileModuleOrImageArchives/Index
