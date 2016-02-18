@@ -77,8 +77,8 @@ future reference.
    Installation/Index
    GeneralPrinciples/Index
    BackendModules/Index
+   ListModule/Index
    TheFileModuleOrImageArchives/Index
-   TheListModuleAndClipboard/Index
    UserManagement/Index
    AShortGlimpseIntoTheExtensionManager/Index
    Troubleshooting/Index
