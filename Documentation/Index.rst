@@ -78,9 +78,9 @@ future reference.
    GeneralPrinciples/Index
    ListModule/Index
    FileModule/Index
-   BackendModules/Index
+   ExtensionManager/Index
    UserManagement/Index
-   AShortGlimpseIntoTheExtensionManager/Index
+   OtherBackendModules/Index
    Troubleshooting/Index
    NextSteps/Index
    Targets
