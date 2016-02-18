@@ -1,108 +1,80 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../Includes.txt
 
 
+.. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
 A short glimpse into the Extension Manager
 ------------------------------------------
 
-TYPO3 has many built-in features but even more different features are
-implemented as extensions. With extensions you can enhance the functionality of
-TYPO3 CMS or create totally new features. Even a lot of the core features itself
-are implemented as extensions (plugins). It is up to you to use them or not.
+TYPO3 CMS has many built-in features but even more features are
+available via extensions. Actually the whole of TYPO3 CMS itself
+is made of extensions. With public extensions you can enhance existing
+features or add totally new ones.
 
-The *Extension Manager* assists you while administrating all your extensions.
-Let us have a short glimpse at the *Extension Manager* now. Login as administrator
-and select the *Extension Manager* (1) module from the *ADMIN TOOLS*.
+The *Extension Manager* is where you can manage available extensions
+or get new ones from the TYPO3 Extension Repository (TER). It is quite
+a rich tool and this chapter provides only a brief overview.
 
-.. figure:: ../Images/T3CMS62-BE-ExtensionManager.png
-   :alt: TYPO3 CMS 6.2 Extension Manager
+.. note::
 
-In the drop down on top of the module (2) different functions respectively views of
-the *Extension Manager* can be selected.
+   It is possible to set up your TYPO3 CMS installation to use
+   Composer instead, but this is not covered by this tutorial.
 
-- Having **Manage Extensions** selected you will get a list of all loaded
-  extensions. Anyway, whether they are currently activated (see (1) below )
-  or not (see (2) below).
+Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 
-- Selecting **Get Extensions** in the drop down on top allows you to search,
-  download and install extensions. Here you are right if you want to retrieve
-  the latest Extension-List from TYPO3 Extension Repository (TER).
-
-- Choosing **Get preconfigured distribution** will allow you to download such
-  packages. Do you remember the  :ref:`Introduction Package <installing-the-introduction-package>`
-  we downloaded during the installation of the TYPO3 base system?
+.. figure:: ../Images/BackendExtensionManager.png
+   :alt: TYPO3 CMS Extension Manager
 
 
-Now let us have a look at the list of loaded Extensions:
+It shows the "Installed extensions". The first action icon (1) can be used
+to install an uninstalled extension or vice-versa (uninstalled extensions
+appear grayed out).
 
-.. figure:: ../Images/T3CMS62-BE-LoadedExtensions.png
-   :alt: TYPO3 CMS 6.2 activated and deactivated extensions
+Next comes information about the extension: title, key, version and state.
+Finally are one or more actions icons, depending on what the extension offers.
+All extensions have a download action, many will have a configuration action,
+which can be used to access the extension's options. Again just hover over
+the actions to get a help text.
 
-The data in the list above represent from left to right:
 
-- Extension install/uninstall symbol. You can install or uninstall an extension by
-  clicking on the related icon (1) or (2).
+.. _install-extension:
 
-- Extension title.
+Installing a new extension
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Extension key. Used to create the extension folder in typo3conf/ext/ and to
-  define TypoScript paths. Furthermore a lot of other things depend on the
-  extension key.
+Let's look briefly at the extension installation process. Use the menu
+in the docheader to switch to the "Get extensions" view:
 
-- Extension version.
+.. figure:: ../Images/BackendExtensionManagerInstall.png
+   :alt: Getting extensions from the Extension Manager
 
-- Extension related actions (3) represented by specific icons. This icons are
-  visible only when you hover over the extension line. Moving the cursor
-  over an icon itself will show a short description of the action.
 
-- Extension state (experimental, alpha, beta, stable, obsolete). Set by the
-  extension developer himself based on his own judgement.
+The list which appears in this view is the full list of extensions
+from the TER (limited to those compatible with the TYPO3 CMS that
+you are using). You can update this list using the button at the
+top right (1). A search field is available (2).
 
-Now let us install a new extension. Therefor select *Get Extensions*
-(see (1) below) from the drop down on top:
+Clicking the "Import and install" action (3) will trigger the installation.
+Extensions may depend on other extensions, in which case all will
+be installed transparently.
 
-.. figure:: ../Images/T3CMS62-BE-GetExtension.png
-   :alt: TYPO3 CMS 6.2 get extension
+If you look for a specific version of an extension, you can click
+on its title (4) and access the list of all available versions.
 
-Field (3) is still empty at the moment and the list below (4) shows all
-available extensions. It is a good idea to update this list by clicking on the
-*Update now* button (2) before you proceed. This ensures only the latest version
-of any extension will be displayed in the list and thereby offered for download
-and installation.
+.. figure:: ../Images/BackendExtensionManagerExtensionVersions.png
+   :alt: Viewing all possible versions of a given extension
 
-Having done so, type the extension's name or a part of it in field (3) and click
-on the *Go* button. All extensions containing the string you just typed will
-show up in the list.
 
-At this point there are two options:
-
-- for directly downloading and installing the extension of your choice just
-  click on its "Import and Install" symbol (4).
-
-- if you would like to get more information about the extension first simply
-  click on one of the underlined text sections.
-
-Now let us have a look up at the more detailed information about extension
-doc_tut_ts45_de:
-
-.. figure:: ../Images/T3CMS62-BE-InstallExtension.png
-   :alt: TYPO3 CMS 6.2 install extension
-
-As you see the name of the extension is now automatically preselected in the
-drop down on top. If the extension fits your needs you can easily download and
-install it by clicking on the "Import and Install" symbol (1).
+Only compatible versions are displayed. Known insecure versions
+will also never show up.
 
 .. warning::
 
    **Extension security**
 
-   Please keep in mind there is no security audit available for the
+   Please keep in mind there is no security audit available for public
    extensions! Have a close look at the extensions you are installing.
    If you find any security issue get in touch with the security team:
    security@typo3.org .
