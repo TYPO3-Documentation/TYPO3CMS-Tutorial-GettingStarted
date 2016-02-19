@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -10,39 +6,50 @@
 Backend users
 ^^^^^^^^^^^^^
 
-The introduction package is shipped with four users. Let's see what
-they can do. The best way to do this is to logout as admin and log in
-as one of these users, one at a time.
+Managing backend users is best done using the **SYSTEM > Backend users**
+module.
+
+.. figure:: ../../Images/BackendBackendUsersModule.png
+   :alt: The Backend Users module
+
+
+The module makes it possible to search and filter users. They
+can also be edited, deleted or disabled.
+
+As you can see in the list, the Introduction Package is shipped with
+two users on top of the admin users created during the installation
+process. Let's take a look at what these other users can do.
+
 
 .. _user-management-simple-editor:
 
 "simple\_editor"
 """"""""""""""""
 
-.. figure:: ../../Images/manual_html_m6690f493.png
-   :alt:
+The simplest way to check out another user (when one is an
+administrator) is to use the "simulate user" feature:
 
-When you log in as "simple\_editor" you will see this when you
-activate the Page module and select the page "Examples" for editing:
+.. figure:: ../../Images/BackendBackendUsersSimulate.png
+   :alt: The last action icon lets us simulate another user
 
-.. figure:: ../../Images/manual_html_m7cbdc677.png
-   :alt:
 
-Only the page "Examples" with its subpages. The "simple\_editor" is
-allowed to edit only that branch of the website. But it does not only
-reflect permission management - it also helps make the system more
-intuitive and user friendly. As you can see most of the backend
-modules are not shown to the simple\_editor either. The menu to the
-left contains only the "Page" and "View" modules in addition to the
-"File" and "Help" module.
+And here is what "simple\_editor" sees when accessing the
+TYPO3 CMS backend:
 
-Images and Documents are managed in the "Filelist" module. The
-"simple\_editor" sees only a Folder "Documents" which is linked to the
-folder fileadmin/user\_upload/documents/. So all folders he does not
-need, are hidden.
+.. figure:: ../../Images/BackendSimpleEditorUser.png
+   :alt: The backend view for the "simple\_editor"
 
-.. figure:: ../../Images/manual_html_308fbf0e.png
-   :alt:
+
+As you can see, this user only has access to the "Page" module.
+Furthermore its view of the page tree is also limited to the
+branch starting with the "Content examples" page.
+
+To switch back to the admin account, click on the user's name
+in the top bar and click the "Exit" button (note that this button
+normally reads "Logout").
+
+.. figure:: ../../Images/BackendBackendUsersSimulateExit.png
+   :alt: Exiting the backend user simulation
 
 
 .. _user-management-advanced-editor:
@@ -50,19 +57,21 @@ need, are hidden.
 "advanced\_editor"
 """"""""""""""""""
 
-Now, log in as "advanced\_editor".
+Now try doing the same with the "advanced\_editor". You should
+see the following after switching user:
 
-.. figure:: ../../Images/manual_html_m1d09baa9.png
-   :alt:
+.. figure:: ../../Images/BackendAdvancedEditorUser.png
+   :alt: The backend view for the "advanced\_editor"
 
-The "advanced\_editor" sees much more modules and the whole page
-structure. He is able to do the same as the news\_editor and the
-simple\_editor and much more. So, it is possible to restrict everyone
-to that modules and pages, which he needs to know. Have a look at the
-Filelist module.
+The "advanced\_editor" is allowed to use more modules than
+"simple\_editor" but doesn't have any access to the page tree.
+This is probably a bug of the Introduction Package, but it makes
+for a good exercise for changing user rights in the next chapters.
 
-.. figure:: ../../Images/manual_html_m7f6aa8da.png
-   :alt:
+.. note::
 
-The "advanced\_editor" does not see the whole fileadmin folder. But he
-has access to the "News", the "Documents" and another "Images" folder.
+   User records can also be accessed using the **WEB > List** module
+   and clicking on the root node (the one with the TYPO3 CMS logo).
+
+   .. figure:: ../../Images/BackendBackendUsersList.png
+      :alt: Viewing backend users in the List module
