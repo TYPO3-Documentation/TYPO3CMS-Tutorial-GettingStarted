@@ -5,8 +5,8 @@
 .. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
-A short glimpse into the Extension Manager
-------------------------------------------
+The Extension Manager
+---------------------
 
 TYPO3 CMS has many built-in features but even more features are
 available via extensions. Actually the whole of TYPO3 CMS itself
