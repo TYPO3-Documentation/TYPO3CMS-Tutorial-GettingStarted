@@ -82,7 +82,7 @@ in the Install Tool.
    :alt: The Configuration module showing the global configuration array
 
 
-.. _system-modules-log:
+.. _system-modules-reports:
 
 Reports
 """""""

@@ -2,7 +2,7 @@
 .. include:: ../../Includes.txt
 
 
-.. _changing-backend-language:
+.. _info-functions-modules:
 
 Info and Functions modules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
