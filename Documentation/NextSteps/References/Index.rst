@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../../Includes.txt
 
@@ -12,15 +8,14 @@ References
 ^^^^^^^^^^
 
 TSconfig Reference
-  :ref:`TSconfig <t3tsconfig:start>` covers both
-  *Page-TSconfig* and *User-TSconfig*, with which you are able to change the behavior of
+  :ref:`TSconfig Reference <t3tsconfig:start>` covers both
+  *Page TSconfig* and *User TSconfig*, with which you are able to change the behavior of
   the **backend** in parts. You can change labels, hide or show fields, set
-  permissions and default values. Usually this will be done in the *Page-TSconfig*
-  or *User-TSconfig* fields. This reference explains which options are available in
+  permissions and default values. This reference explains which options are available in
   TYPO3 CMS.
 
 TypoScript Reference
-  The :ref:`TypoScript Reference <t3tsref:start>` defines different functions and objects which can
-  be used to configure the **frontend's** output. Usually you will use an extension's
-  configuration for all built-in content elements. If you would like to change
-  something you can look up the possible options in the *TSRef*.
+  The :ref:`TypoScript Reference <t3tsref:start>` describes the different functions
+  and objects which can be used to configure the **frontend** output, including the
+  full page template and the rendering of individual content elements according to
+  their type.

@@ -1,7 +1,3 @@
-.. ==================================================
-.. FOR YOUR INFORMATION
-.. --------------------------------------------------
-.. -*- coding: utf-8 -*- with BOM.
 
 .. include:: ../Includes.txt
 
@@ -11,23 +7,24 @@
 Next steps
 ----------
 
-TYPO3 has a lot of documentation available on the
+TYPO3 CMS has a lot of documentation available on the
 `documentation web site <https://docs.typo3.org/typo3cms/>`_.
-The TYPO3 CMS documentation is divided into several sections:
+The documentation is divided into several sections:
 
-1. The **Tutorials** section covers documents which provide step-by-step
+1. `Tutorials <https://docs.typo3.org/typo3cms/Tutorials.html>`_
+   section covers documents which provide step-by-step
    introductions to specific topics.
-2. If you need documentation about installing TYPO3 CMS or related software
-   you will find it in the **Guides** section.
-3. The **Reference** section is related to the core of TYPO3 and mainly
-   describes the things behind the scenes of technology. Target groups of this
-   documentation are extension developers and core developers.
-4. In the section **Extension Manuals** you will find a list of all manuals
-   available for extensions.
+2. `Guides <https://docs.typo3.org/typo3cms/Guides.html>`_
+   cover topics in more depth, like installation or security.
+3. The `References <https://docs.typo3.org/typo3cms/References.html>`_
+   are related to the core of TYPO3 CMS and drill into details.
+   They also provide extensive references (hence their name) about configurations and APIs.
+4. The `Extensions <https://docs.typo3.org/typo3cms/extensions/>`_ gathers all
+   manuals related to core and public extensions.
 
-This is a huge number of different documents and beginners may find it a little
-bit confusing to find the right document to get started. Therefore we recommend
-the following documents for further studies:
+This is admittedly a huge mass of documentation and you may feel lost
+about where to look next. We recommend the following documents for further studies
+after this tutorial:
 
 
 .. toctree::
