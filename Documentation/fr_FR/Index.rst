@@ -9,78 +9,71 @@ Getting Started Tutorial
 ========================
 
 :Previous Key:
-      doc_tut_quickstart
+         doc_tut_quickstart
 
 :Version:
-      7 LTS
+         7 LTS
 
 :Language:
-      en
+         fr
 
 :Description:
-      The official tutorial to discover the main features and concepts of TYPO3 CMS. It is based on the Introduction Package.
+         Le tutoriel officiel pour découvrir les principaux concepts et fonctionnalités de TYPO3 CMS. Il s'appuie sur l'Introduction Package.
 
 :Keywords:
-      forBeginners, forEditors, forAdmins
+         forBeginners, forEditors, forAdmins
 
 :Copyright:
-      2004-2016
+         2004-2016
 
 :Author:
-      Documentation Team
+         Documentation Team
 
 :Email:
-      documentation@typo3.org
+         documentation@typo3.org
 
 :License:
-      Open Publication License available from `www.opencontent.org/openpub/
+         Open Publication License available from `www.opencontent.org/openpub/
       <http://www.opencontent.org/openpub/>`_
 
 :Rendered:
-      |today|
+         |today|
 
-The content of this document is related to TYPO3 CMS,
+Le contenu de ce document est lié à TYPO3 CMS,
 
-a GNU/GPL CMS/Framework available from `www.typo3.org
+un CMS/Framework GNU/GPL disponible à cette url `www.typo3.org
 <https://typo3.org/>`_ .
 
+**Documentation officielle**
 
-**Official documentation**
-
-This document is included as part of the official TYPO3 documentation.
-It has been approved by the TYPO3 Documentation Team following a peer-
-review process. The reader should expect the information in this
-document to be accurate - please report discrepancies to the
-Documentation Team (documentation@typo3.org). Official documents are
-kept up-to-date to the best of the Documentation Team's abilities.
+Ce document fait partie de la documentation officielle de TYPO3.
+Il a été approuvé par l' équipe de documentation TYPO3 suite à un
+processus de vérification par pairs. Les informations destinées aux lecteurs dans ce document devant être précises - merci de signaler les erreurs à l'équipe de Documentation ( documentation@typo3.org ).
+Les documents officiels sont tenues à jour selon les capacités de l'équipe de documentation.
 
 
-**Tutorial**
+**Tutoriel**
 
-This document is a Tutorial. Tutorials are designed to be step-by-step
-instructions specifically created to walk a beginner through a
-particular task from beginning to end. To facilitate effective
-learning, Tutorials provide examples to illustrate the subjects they
-cover. In addition, Tutorials provide guidance on how to avoid common
-pitfalls and highlight key concepts that should be remembered for
-future reference.
+Ce document est un tutoriel. Les tutoriels sont conçus sous forme d'instructions spécifiquement créées pour mener étape par étape un débutant du début à la fin d'une tâche particulière. Pour faciliter un apprentissage efficace, les tutoriels fournissent des exemples pour illustrer les sujets qu'ils
+couvrent. En outre, les tutoriels fournissent des indications sur la façon d'éviter les pièges communs
+et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite .
 
 
-**Table of Contents**
+**Table des matières**
 
 .. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+:maxdepth: 5
+      :titlesonly:
+      :glob:
 
-   Introduction/Index
-   Installation/Index
-   GeneralPrinciples/Index
-   ListModule/Index
-   FileModule/Index
-   ExtensionManager/Index
-   UserManagement/Index
-   OtherBackendModules/Index
-   Troubleshooting/Index
-   NextSteps/Index
-   Targets
+      Introduction/Index
+      Installation/Index
+      GeneralPrinciples/Index
+      ListModule/Index
+      FileModule/Index
+      ExtensionManager/Index
+      UserManagement/Index
+      OtherBackendModules/Index
+      Troubleshooting/Index
+      NextSteps/Index
+      Targets
