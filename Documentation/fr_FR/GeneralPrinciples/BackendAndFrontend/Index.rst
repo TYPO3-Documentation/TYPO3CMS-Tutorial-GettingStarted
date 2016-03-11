@@ -11,42 +11,41 @@
 Backend and Frontend
 ^^^^^^^^^^^^^^^^^^^^
 
-TYPO3 CMS is divided into two areas - the *backend* and the *frontend*.
-The *frontend* is the website that is produced by TYPO3 CMS. It is
-visible by everyone out there on the web.
-The administrative area of the web site is called the *backend*. A user name
-and a password are always required to log into the backend.
+TYPO3 CMS est divisé en deux zones - le *backend* et le *frontend*.
+Le *frontend* est le site produit par TYPO3 CMS et visible par tout internaute sur le web.
+La partie administrative du site Web est appelé le *backend*.
+Un nom d'utilisateur et un mot de passe sont toujours nécessaires
+pour ouvrir une session dans le backend.
 
-To display the *frontend*, enter the URL of your web site
-in the address bar of your browser (e.g.
-`http://www.your-site.example.org/`).
+Pour afficher le *frontend*, entrez l'URL de votre site web dans
+la barre d'adresse de votre navigateur (par exemple `http://www.votre-site.example.org/`).
 
-The *backend* is accessed by adding `/typo3/` to your web site's
-URL (e.g `http://www.your-site.example.org/typo3/`)
-A login page looking like this will be displayed:
+Le *backend* est accessible en ajoutant / typo3 / à l'URL de votre site Web
+(par exemple `http://www.votre-site.example.org/typo3/`)
+Une page de connexion ressemblant à ceci sera affichée :
 
 .. figure:: ../../Images/BackendLoginPage.png
-   :alt: Login page for the TYPO3 CMS backend
+   :alt: Page de connexion au backend de TYPO3 CMS
 
-Use the user name (default is **admin**) and the password that you defined during
-the installation process.
+Utilisez le nom d'utilisateur (par défaut **admin**) et le mot de passe
+que vous avez défini au cours du processus d'installation.
 
-After pressing the **login** button you will get redirected to the TYPO3 CMS
-backend overview:
+Après avoir appuyé sur le bouton **connexion** , vous serez redirigé vers
+la liste d'aperçu des modules de backend de TYPO3 CMS :
 
 .. figure:: ../../Images/BackendAboutModules.png
-   :alt: TYPO3 CMS backend Overview with the About Modules screen
+   :alt: Présentation du backend TYPO3 CMS avec l'écran du module "À propos"
 
-At the top is the *top bar*. On the left side is the *module menu*, main menu of the TYPO3 CMS backend.
-It is divided into main modules ("Web", "File", etc.) and their sub-modules.
+Au sommet se trouve la *barre supérieure*. Sur le côté gauche se trouve le *menu des modules*,
+qui constitue le menu principal du backend de TYPO3 CMS.
+Il est divisé en modules principaux ( "Web", "Fichier", etc.) et leurs sous-modules.
 
-The current view is a list of all installed modules and their usage.
-It is called the **About Modules** view and can be reached using the help menu
-in the top bar:
+La vue actuelle présente la liste de tous les modules installés et leur rôle.
+C'est la vue du module **À propos** qui peut être consultée
+en utilisant le menu d'aide dans la barre supérieure:
 
 .. figure:: ../../Images/BackendHelpMenu.png
-   :alt: Accessing the Help menu from the top bar
+   :alt: Accéder au menu d'aide à partir de la barre supérieure
 
-
-To perform the next step click on **WEB** > **Page** now.
-This will redirect you to the **Page** module.
+Pour passer à l'étape suivante, cliquez maintenant sur **WEB** > **Page**.
+Cela vous redirigera vers le module **Page**.
