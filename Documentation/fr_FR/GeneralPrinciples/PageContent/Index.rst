@@ -4,58 +4,62 @@
 
 .. _page-content:
 
-Page content
-^^^^^^^^^^^^
+Contenus de page
+^^^^^^^^^^^^^^^^
 
-Let us now see how content is structured in a TYPO3 CMS web site.
-First of all we shall navigate to a particular page:
+Voyons maintenant comment le contenu est structuré dans un site web TYPO3 CMS.
+Nous allons tout d'abord accéder à une page particulière:
 
-- in the backend, click on the arrow right of the "Content Examples" page
+- dans le backend, cliquez sur la flèche droite de la page "Exemples de contenu"
+(à gauche du titre de page)
 
-- next click on the "Text and images" page
+- ensuite cliquez sur la page "Text and images"
 
-- use the context menu to show the "Text and images" in the frontend.
+- utilisez le menu contextuel pour afficher la page "Text and images" dans le frontend.
 
-Let's now compare both views.
+Comparons maintenant les deux vues.
 
 Frontend:
 
 .. figure:: ../../Images/FrontendTextAndImages.png
-   :alt: Page content seen from the frontend
+   :alt: Contenu de la page vu depuis le frontend
 
 
 Backend:
 
 .. figure:: ../../Images/BackendTextAndImages.png
-   :alt: Page content seen from the backend
+   :alt: Contenu de la page vu depuis le backend
 
 
-As you see the order of the content elements on the web page is the
-same as the order of the elements in the backend. The content elements
-are stored in columns, content that is in the right
-column in the backend is in the right column on your page, etc. Each
-content element on your page can be of a different type (like text or
-text & images) giving you a lot of flexibility.
+Comme vous le voyez l'ordre des éléments de contenu sur la page Web
+est le même que l'ordre des éléments dans le backend.
+Les éléments de contenu sont stockées dans des colonnes,
+le contenu qui se trouve dans la colonne de droite dans le backend
+est dans la colonne de droite sur votre page, etc.
+Chaque élément de contenu sur votre page peut être d'un type différent
+(comme du texte ou du texte et des images) vous donnant beaucoup de
+flexibilité dans la construction de vos pages.
 
-The Page module shows a preview of each content element, together
-with some action icons. Here is a quick overview:
+Le module "Page" montre un aperçu de chaque élément de contenu,
+avec des icônes d'action. Voici un aperçu rapide:
 
 .. figure:: ../../Images/BackendContentElementPreview.png
-   :alt: Content element preview and action icons
+   :alt: Aperçu des élements de contenu et des icones d'action
 
 
-#. insert a new content element above the current one
-#. an icon representing the type of content element
-   (hovering over it will show its id)
-#. edit the content element
-#. hide/show the content element
-#. delete content element
-#. a preview of the element's content (will vary depending on the type)
-#. insert a new content element below the current one
+#. insérer un nouvel élément de contenu au-dessus de l'actuel
+#. une icône représentant le type d'élément de contenu
+   (le survol de cette icône montrera l'indentifiant du contenu)
+#. editer l'élément de contenu
+#. masquer / afficher l'élément de contenu
+#. supprimer élément de contenu
+#. un aperçu du contenu de l'élément (varie en fonction du type)
+#. insérer un nouvel élément de contenu en dessous de l'actuel
 
 
-Editing content
-"""""""""""""""
+Édition de contenu
+""""""""""""""""""
 
+L'édition d'un contenu existant et l'ajout d'un nouveau contenu sont abordés dans le
 Modifying existing content or adding new content is covered in the
-:ref:`Editors Tutorial <t3editors:content-elements>`.
+:ref:`Tutoriel Editeurs <t3editors:content-elements>`.
