@@ -4,49 +4,47 @@
 
 .. _top-bar:
 
-The top bar
-^^^^^^^^^^^
+La barre supérieure
+^^^^^^^^^^^^^^^^^^^
 
-The top bar contains some information and additional menus.
+La barre supérieure contient des informations et des menus supplémentaires.
 
 .. figure:: ../../Images/BackendTopbarCache.png
-   :alt: The top bar with the flush cache menu open
+   :alt: La barre supérieure avec le menu ouvert pour l'effacement du cache
 
 
-To the left is the TYPO3 CMS logo (which can be modified by an extension,
-as the Introduction Package does), then comes the name of your site
-(this is part of global configuratio, which is decribed later).
+A gauche se trouve le logo TYPO3 CMS (qui peut être modifié par une extension,
+comme le fait le paquet d'introduction), puis vient le nom de votre site
+(qui se définie dans la configuration globale, décrite plus tard).
 
-The star icon will open a list of bookmarked views. Every time
-you see such an icon in the TYPO3 CMS backend, you can click on it
-and the current view will get saved to this list of bookmarks.
+L'icône en étoile va ouvrir une liste de marque-pages.
+Chaque fois que vous voyez cette icône dans le backend TYPO3 CMS,
+vous pouvez cliquer dessus et la vue actuelle sera sauvegardée dans cette liste de signets.
 
-The lightning bolt icon opens the menu to flush the various
-caches that are used by TYPO3 CMS to improve performance.
-Caches are described in detail in :ref:`Core APIs <t3api:caching>`.
+L'icône en forme d'éclair ouvre le menu pour vider les différents caches utilisés par TYPO3 CMS
+afin d'améliorer les performances.
+Les caches sont décrits en détail dans les :ref:`APIs de base <t3api:caching>`.
 
 .. figure:: ../../Images/BackendTopbarHelp.png
-   :alt: The top bar with the help menu
+   :alt: La barre supérieure avec le menu d'aide
 
-
-The question mark icon opens the help menu, which gives access
-to various modules related to help and documentation.
+Le point d'interrogation ouvre le menu d'aide,
+qui donne accès à différents modules liés à l'aide et la documentation.
 
 .. figure:: ../../Images/BackendTopbarApplicationInformation.png
-   :alt: The top bar with the application information panel
+   :alt: La barre supérieure avec le panneau d'information de l'application
 
-
-The next icon opens up a panel showing various information
-about the current system and TYPO3 CMS installation.
+L'icône suivante ouvre un panneau montrant diverses informations
+sur le système hôte actuel et sur l'installation de TYPO3 CMS.
 
 .. figure:: ../../Images/BackendTopbarUser.png
-   :alt: The top bar with the user menu
+   :alt: La barre supérieure avec le menu utilisateur
 
+Le nom d'utilisateur est affiché à côté.
+Il ouvre un menu donnant accès au module "Paramètres utilisateur",
+où vous pouvez modifier votre mot de passe et diverses préférences.
+Voici également le bouton "Déconnexion".
 
-The user name is displayed next. It opens a menu giving access
-to the "User Settings" module, where you can change your password
-and various preferences. Here is also the "Logout" button.
-
-Finally, flush right, is a general "Search" field, which will search
-through all records (pages, content elements, users, etc.) existing
-in the current TYPO3 CMS installation.
+Enfin, aligné à droite, se trouve un champs de recherche général,
+qui recherche à travers tous les enregistrements (pages, éléments de contenu, utilisateurs, etc.)
+existant dans l'instance de TYPO3 CMS.
