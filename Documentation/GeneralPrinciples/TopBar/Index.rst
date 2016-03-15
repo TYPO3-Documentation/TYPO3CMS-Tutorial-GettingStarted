@@ -15,7 +15,7 @@ The top bar contains some information and additional menus.
 
 To the left is the TYPO3 CMS logo (which can be modified by an extension,
 as the Introduction Package does), then comes the name of your site
-(this is part of global configuratio, which is decribed later).
+(this is part of global configuration, which is decribed later).
 
 The star icon will open a list of bookmarked views. Every time
 you see such an icon in the TYPO3 CMS backend, you can click on it
