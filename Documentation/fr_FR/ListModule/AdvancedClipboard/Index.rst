@@ -5,51 +5,50 @@
 .. _advanced_clipboard_usage:
 .. _the-numeric-clipboard-pads-managing-many-elements:
 
-Advanced clipboard usage
-^^^^^^^^^^^^^^^^^^^^^^^^
+Utilisation avancée du presse-papier
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Please move to the "TYPO3" page below the "About" page
-and select one of the "numeric pads":
+Rendez vous à la page "TYPO3" sous la page "À propos" et sélectionnez
+l'un des presse-papier numéroté :
 
 .. figure:: ../../Images/BackendActivateClipboardPad.png
    :alt:
 
-Note how the list view was changed. Each record now has a checkbox
-and action icons have been moved to the list header. With them
-you can:
+Notez comment l'affichage de la liste a été modifiée.
+Chaque enregistrement a maintenant une case à cocher et
+les icônes d'action ont été déplacés vers l'en-tête de liste.
+Avec eux, vous pouvez :
 
-#. transfer selected items to the clipboard
+#. transférer les éléments sélectionné vers le presse-papier
 
-#. edit all selected items at once
+#. modifier tous les éléments sélectionnés à la fois
 
-#. delete all selected items at once
+#. supprimer tous les éléments sélectionnés à la fois
 
-#. select all items in the list
+#. sélectionner tous les éléments dans la liste
 
-Now check both boxes and click the "Transfer" icon.
-Your clipboard should look like this:
+Maintenant, cochez les deux cases et cliquez sur l'icône "Transfert".
+Votre presse-papier devrait ressembler à ceci :
 
 .. figure:: ../../Images/BackendClipboardWithMultipleItems.png
-   :alt: Multiple items stored in the clipboard
+   :alt: Plusieurs éléments stockés dans le presse-papier
 
+Notez comment les éléments sont enregistrés pour "Déplacer".
+Le menu déroulant peut être utilisé pour modifier le comportement en "Copier"
+(que vous pouvez faire si vous ne voulez pas changer la page en cours).
 
-Note how the elements are registered for "Move". The dropdown
-menu can be used to change the behaviour to "Copy" (which you can do
-if you don't want to change the current page).
-
-Move to the "History" page and click the "Paste into" icon:
+Déplacer vous vers la page "Historique" et cliquez sur l'icône "Coller dans" :
 
 .. figure:: ../../Images/BackendPasteClipboardContent.png
-   :alt: The "Paste into" icon at the top of the list
+   :alt: L'icône "Coller dans" en haut de la liste
 
-A warning appears to confirm the operation:
+Un avertissement apparaît pour confirmer l'opération :
 
 .. figure:: ../../Images/BackendClipboardWarning.png
-   :alt: The dialog box for confirming the paste action
+   :alt: La boîte de dialogue pour confirmer l'action "coller"
 
-
-After confirmation, you can see that the two elements have been moved
-to the top of the list and that the clipboard pane is empty:
+Après confirmation, vous pouvez voir que les deux éléments ont été déplacés
+vers le haut de la liste et que le volet presse-papier est vide :
 
 .. figure:: ../../Images/BackendMovedContentEmpyClipboard.png
-   :alt: Moved records and empty clipboard
+   :alt: Les enregistrements déplacés et le presse-papier vide
