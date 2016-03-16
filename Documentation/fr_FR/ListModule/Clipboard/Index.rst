@@ -3,30 +3,30 @@
 
 .. _clipboard:
 
-The clipboard
-^^^^^^^^^^^^^
+Le presse-papier
+^^^^^^^^^^^^^^^^
 
-Every time a record is copied in the TYPO3 CMS backend,
-it appears in the clipboard found at the bottom of the List module
-screen.
+Chaque fois qu'un enregistrement est copié dans le backend TYPO3 CMS,
+il apparaît dans le presse-papier qui se trouve au bas de l'écran du module "Liste".
 
-Click on the copy icon of the "Features" page:
+Cliquez sur l'icône de copie de la page "Features" :
 
 .. figure:: ../../Images/BackendCopyToClipboard.png
-   :alt: Pointing at the copy icon
+   :alt: L'icône de copie
 
 
-Now scroll down and look at the clipboard:
+Maintenant, atteignez le bas de page et regardez le presse-papier :
 
 .. figure:: ../../Images/BackendSimpleClipboard.png
-   :alt: The clipboard with the newly copied record
+   :alt: Le presse-papier avec l'enregistrement nouvellement copié
 
+Notez comment le presse-papier enregistre le fait que nous avons choisi l'action "Copier" :
+"Copier" est affiché à coté de l'étiquette de l'enregistrement copié.
+L'action "Couper" est la même, mais le presse-papier le reflétera avec un texte différent :
+("Couper" est affiché à coté de l'étiquette de l'enregistrement coupé).
 
-Note how the clipboard registers the fact that we have chosen
-the "Copy" action. The "Cut" action is the same, but the clipboard
-will reflect that with different texts.
-
-As you can see, the clipboard indicates that it is in
-"single record mode". If you cut or copy another record it will
-replace the current content of the clipboard. In the next chapter
-we will look at the other clipboards.
+Comme vous pouvez le voir, le presse-papier indique
+qu'il est en « mode d'enregistrement unique ».
+Si vous coupez ou copiez un autre enregistrement,
+il remplacera le contenu actuel du presse-papier.
+Dans le chapitre suivant, nous examinerons les autres presse-papier.
