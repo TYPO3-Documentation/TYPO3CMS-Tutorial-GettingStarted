@@ -3,17 +3,16 @@
 
 .. _the-list-module-and-clipboard:
 
-The List module
+Le module liste
 ---------------
 
-In TYPO3 CMS all the information is stored in database records:
-pages, content elements, templates, users, news items, etc.
-For some of this information dedicated modules exist, like
-the *Page* or the *Template* module which we visited earlier.
+Dans TYPO3 CMS toutes les informations sont stockées dans des enregistremenst de base de données:
+les pages, les éléments de contenu, les gabarits, les utilisateurs, des actualités, etc.
+Pour certaines de ces informations modules dédiés existent, comme le module *Page* ou
+*Gabarits* que nous avons vus plus tôt.
 
-But these records, as well as all others that don't have such
-a dedicated module, can be created and edited using the
-**WEB > List** module.
+Mais ces documents, ainsi que tous les autres qui ne disposent pas de module dédié,
+peuvent être créés et modifiés à l'aide du module **WEB >Liste**.
 
 
 .. toctree::
