@@ -28,7 +28,7 @@ selected directory. You can choose to always display thumbnails
    :alt: The File module
 
 For admin users, the folder displayed by default is called
-"fileadmin/ (auto-generated) and corresponds to the
+"fileadmin/ (auto-generated)" and corresponds to the
 :file:`fileadmin/` folder located under the root folder of your web
 server directory.
 
