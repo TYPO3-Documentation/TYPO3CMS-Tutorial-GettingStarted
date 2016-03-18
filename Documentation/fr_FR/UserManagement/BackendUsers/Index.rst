@@ -3,53 +3,50 @@
 
 .. _user-management-backend-users:
 
-Backend users
-^^^^^^^^^^^^^
+Utilisateurs Backend
+^^^^^^^^^^^^^^^^^^^^
 
-Managing backend users is best done using the **SYSTEM > Backend users**
-module.
+La gestion des utilisateurs backend est plus aisée
+en utilisant module le **SYSTEM > Utilisateurs Backend**.
 
 .. figure:: ../../Images/BackendBackendUsersModule.png
-   :alt: The Backend Users module
+   :alt: Le module Utilisateurs Backend
 
+Le module permet de rechercher et filtrer les utilisateurs.
+Ils peuvent également être modifiés, supprimés ou désactivés.
 
-The module makes it possible to search and filter users. They
-can also be edited, deleted or disabled.
-
-As you can see in the list, the Introduction Package is shipped with
-two users on top of the admin users created during the installation
-process. Let's take a look at what these other users can do.
-
+Comme vous pouvez le voir dans la liste, le paquet d'introduction est livré
+avec deux utilisateurs en plus de l'utilisateurs admin créés au cours du processus d'installation.
+Jetons un coup d'oeil à ce que ces autres utilisateurs peuvent faire.
 
 .. _user-management-simple-editor:
 
 "simple\_editor"
 """"""""""""""""
 
-The simplest way to check out another user (when one is an
-administrator) is to use the "simulate user" feature:
+La façon la plus simple de vérifier le profil d'un autre utilisateur
+(quand on est un administrateur) est d'utiliser la fonction
+"changer d'utilisateur" :
 
 .. figure:: ../../Images/BackendBackendUsersSimulate.png
-   :alt: The last action icon lets us simulate another user
+   :alt: La dernière icône d'action nous permet de simuler un autre utilisateur
 
-
-And here is what "simple\_editor" sees when accessing the
-TYPO3 CMS backend:
+Et voici ce que "simple_editor" voit lors de l'accès au backend TYPO3 CMS :
 
 .. figure:: ../../Images/BackendSimpleEditorUser.png
-   :alt: The backend view for the "simple\_editor"
+   :alt: La vue backend pour l'utilisateur "simple\_editor"
 
 
-As you can see, this user only has access to the "Page" module.
-Furthermore its view of the page tree is also limited to the
-branch starting with the "Content examples" page.
+Comme vous pouvez le voir, cet utilisateur ne dispose que d'un accès au module "Page".
+De plus son point de vue de l'arborescence des pages est également limitée
+à la branche à partir de la page "exemples de contenu".
 
-To switch back to the admin account, click on the user's name
-in the top bar and click the "Exit" button (note that this button
-normally reads "Logout").
+Pour revenir sur le compte admin, cliquez sur le nom de l'utilisateur
+dans la barre supérieure et cliquez sur le bouton "Quittez"
+(notez que ce bouton lit normalement "Déconnexion").
 
 .. figure:: ../../Images/BackendBackendUsersSimulateExit.png
-   :alt: Exiting the backend user simulation
+   :alt: Quitter la simulation d'utilisateur backend
 
 
 .. _user-management-advanced-editor:
@@ -57,21 +54,23 @@ normally reads "Logout").
 "advanced\_editor"
 """"""""""""""""""
 
-Now try doing the same with the "advanced\_editor". You should
-see the following after switching user:
+Maintenant, essayez de faire la même chose avec l'utilisateur "advanced_editor".
+Vous devriez voir ce qui suit après le changement d'utilisateur:
 
 .. figure:: ../../Images/BackendAdvancedEditorUser.png
-   :alt: The backend view for the "advanced\_editor"
+   :alt: La vue backend pour l'utilisateur "advanced\_editor"
 
-The "advanced\_editor" is allowed to use more modules than
-"simple\_editor" but doesn't have any access to the page tree.
-This is probably a bug of the Introduction Package, but it makes
-for a good exercise for changing user rights in the next chapters.
+L'utilisateur "advanced_editor" est autorisé à utiliser plus de modules
+que "simple_editor", mais n'a pas accès à l'arborescence des pages.
+Ceci est probablement un bug du paquet d'introduction,
+mais cela fait un bon exercice pour modifier les droits
+des utilisateurs dans les chapitres suivants.
 
 .. note::
 
-   User records can also be accessed using the **WEB > List** module
-   and clicking on the root node (the one with the TYPO3 CMS logo).
+   Les enreggistements d'utilisateur peuvent également être consultés
+   en utilisant le module **WEB > Liste** et en cliquant sur
+   le nœud racine (celui avec le logo TYPO3 CMS).
 
    .. figure:: ../../Images/BackendBackendUsersList.png
-      :alt: Viewing backend users in the List module
+      :alt: Affichage des utilisateurs backend dans le module de liste
