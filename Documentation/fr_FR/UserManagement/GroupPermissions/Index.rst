@@ -5,53 +5,53 @@
 .. _permissions:
 .. _setting-up-user-permissions:
 
-Setting up user permissions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Configuration des autorisations utilisateur
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We will look into setting up user permissions by editing the
-"Advanced editors" user group.
+Nous allons examiner la mise en place des autorisations utilisateur
+en modifiant le groupe d'utilisateurs "éditeurs avancés".
 
 .. _general:
 
-General
-"""""""
+Onglet Général
+""""""""""""""
 
-On the "General" tab you can edit the group's title and write a
-short description. As mentioned before, permissions from sub-groups
-will be inherited by the current group.
+Dans l'onglet "Général", vous pouvez modifier le titre du groupe
+et écrire une courte description. Comme mentionné précédemment,
+les autorisations des sous-groupes seront hérités par le groupe actuel.
 
 .. figure:: ../../Images/BackendBackendGroupEditGeneralTab.png
-   :alt: Content of the "General" tab when editing a backend user group
+   :alt: Contenu de l'onglet "Général" lors de l'édition d'un groupe d'utilisateurs backend
 
 
 .. note::
 
-   Setting permissions is not just about access rights. It is also
-   about decluttering the interface by letting the users see only
-   what is really useful to them.
+   La définition des autorisations ne concerne pas seulement les droits d'accès.
+   Il est également question de simplifier l'interface
+   en ne laissant les utilisateurs voir que ce qui est vraiment utile pour eux.
 
 
 .. _access-lists:
 .. _include-access-lists:
 
-Access Lists
+Liste d'ccès
 """"""""""""
 
-The "Access Lists" tab is where most permissions are defined.
-All fields are detailed below, one by one.
-
+L'onglet « listes d'accès » est l'endroit
+où la plupart des autorisations sont définies.
+Tous les champs sont détaillés ci-dessous, un par un.
 
 .. _modules:
 
 Modules
 ~~~~~~~
 
-The first field is used to define which modules members of the group
-should have access to. Obviously this will influence what appears
-in the module menu.
+Le premier champ est utilisé pour définir les modules
+auquels les membres du groupe devraient avoir accès.
+Évidemment, cela aura une influence sur ce qui apparaît dans le menu du module.
 
 .. figure:: ../../Images/BackendBackendGroupEditModules.png
-   :alt: Choosing modules for the backend user group
+   :alt: Le choix des modules pour le groupe d'utilisateurs backend
 
 
 .. _tables:
@@ -60,9 +60,10 @@ in the module menu.
 Tables
 ~~~~~~
 
-The second field allows to select the tables that the members of the
-groups are allowed to see ("Tables (listing)"). And the next field is
-the same but for the tables that can be modified ("Tables (modify)").
+Le deuxième champ permet de sélectionner les tables
+que les membres des groupes sont autorisés à voir ( «Tables (liste)").
+Et le champ suivant est le même, mais pour les tables
+qui peuvent être modifiés ( "Tables (modifier)").
 
 .. figure:: ../../Images/BackendBackendGroupEditTables.png
    :alt:
@@ -70,12 +71,11 @@ the same but for the tables that can be modified ("Tables (modify)").
 
 .. _page-types:
 
-Page types
-~~~~~~~~~~
+Les types de page
+~~~~~~~~~~~~~~~~~
 
-This field restricts which page types are available to members
-of the group. Explanations about the various page types are
-found in the Editors Guide.
+Ce champ restreint les types de pages disponibles pour les membres du groupe.
+Les explications sur les différents types de pages se trouvent dans le Guide des éditeurs.
 
 .. figure:: ../../Images/BackendBackendGroupEditPageTypes.png
    :alt:
@@ -83,118 +83,122 @@ found in the Editors Guide.
 
 .. _allowed-excludefields:
 
-Allowed Excludefields
-~~~~~~~~~~~~~~~~~~~~~
+Champs exclusifs autorisés
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-When defining table fields in TYPO3 CMS, it is possible to mark them
-as "excluded". Such fields will never be visible to backend users
-(except administrators, of course) unless they are explicitely given
-access to them. This field is about giving such access. It displays
-a list of all tables and their excluded fields.
+Lors de la définition des champs de table dans TYPO3 CMS,
+il est possible de les marquer comme «exclus».
+Ces champs ne seront jamais visibles pour les utilisateurs backend
+(à l'exception des administrateurs, bien sûr)
+à moins que leur accès ne soient explicitement autorisé.
+Ce champ sert à autoriser ces accès.
+Il affiche une liste de toutes les tables et leurs champs exclus.
 
 .. figure:: ../../Images/BackendBackendGroupEditExcludeFields.png
-   :alt: The list of excluded fields in its default state (all tables collapsed)
+   :alt: La liste des champs exclus dans leur état par défaut (toutes les tables sont pliées)
 
-
-Click on a table name to expand the list of its fields and make
-a selection of fields by checking some boxes.
+Cliquez sur un nom de table pour développer la liste de ses champs
+et de faire une sélection de champs en cochant quelques cases.
 
 .. figure:: ../../Images/BackendBackendGroupEditExcludeFieldsExpanded.png
-   :alt: The same list with one table expanded
+   :alt: La même liste avec le tableau développé
 
 
 .. _explicitly-allow-deny-field-values:
 
-Explicitly allow/deny field values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Autorisations / Interdictions explicites des valeurs de champ
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-For some fields, it is possible to define fine-grained permissions
-on the actual values allowed for those fields. This is in particular
-the case for the "Page content: Type" field, which defines the type
-of content element that can then be defined by the members of the
-group.
+Pour certains champs, il est possible de définir des permissions
+fines sur les valeurs réelles autorisées pour ces champs.
+Ceci est en particulier le cas pour le champ « Contenu de la page : Type »,
+qui définit le type d'élément de contenu qui peut alors être
+utilisés par les membres du groupe.
 
-As with the list of excluded fields, this fields first appears
-with groups collapsed. You need to expand one group to start
-making changes.
+Comme la liste des champs exclus, ce champs apparaît d'abord
+avec les champs repliés.
+Vous devez développer les champs pour commencer à faire des changements.
 
 .. figure:: ../../Images/BackendBackendGroupEditAllowDeny.png
-   :alt: Setting permissions for values of the content type field
+   :alt: Définition des autorisations pour les valeurs du champ de type de contenu
 
 
-Limit to languages
-~~~~~~~~~~~~~~~~~~
+Limiter aux langues
+~~~~~~~~~~~~~~~~~~~
 
-In multilingual web site, it is also possible to restrict users
-to only some languages. This can be achieved using the last field
-of the "Access Lists" tab.
+Dans un site Web multilingue, il est également possible
+de restreindre les utilisateurs à seulement quelques langues.
+Ceci peut être réalisé en utilisant le dernier champ de l'onglet "Listes d'accès".
 
 .. figure:: ../../Images/BackendBackendGroupEditLanguages.png
-   :alt: Setting permissions for languages
+   :alt: Définition des autorisations pour les langues
 
 
 .. _mounts:
 
-Mounts and workspaces
-"""""""""""""""""""""
+Montages et Espaces de travail
+""""""""""""""""""""""""""""""
 
-The next tab contains very important fields which define over
-which part of the page tree and the file system the members of
-the group may exert their rights.
+L'onglet suivant contient des champs très importants
+qui définissent sur quelle partie de l'arborescence des pages
+et du système de fichiers les membres du groupe peuvent exercer leurs droits.
 
-We will cover only mounts here. Detailed information about
-workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
+Ici nous allons seulement couvrir les montages.
+Des informations détaillées sur les espaces de travail
+peut être trouvées dans le :ref:`manuel lié à l'extension<workspaces:start>`.
 
 
 .. _db-mounts:
 
-DB Mounts
-~~~~~~~~~
+Montage de base de données
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-DB mounts (database mounts) are used to restrict a user's access to
-only some parts of the page tree. Each mount corresponds to a page in
-the tree. The user will have access only to those pages and their sub-
-pages.
+Les montage BDD (montages de base de données) sont utilisés pour limiter
+les accès d'un utilisateur à seulement certaines parties de l'arborescence des pages.
+Chaque montage correspond à une page dans l'arborescence.
+L'utilisateur aura accès uniquement à ces pages et leurs sous-pages.
 
 .. figure:: ../../Images/BackendBackendGroupEditDBMounts.png
-   :alt: Choosing DB mounts for the group
+   :alt: Choix du montage de base de données pour le groupe
 
 
-See also :ref:`Pages permissions <page-permissions>`.
+Voir aussi :ref:`les autorisations de pages<page-permissions>`.
 
 .. _file-mounts:
 
-File Mounts
-~~~~~~~~~~~
+Montages de fichiers
+~~~~~~~~~~~~~~~~~~~~
 
-File mounts are similar but for access to files. The main difference
-is that file mount records must be defined by the administrator first.
-These are located in the root node:
+Les montages de fichiers sont similaires aux montages de BDD,
+mais pour accéder aux fichiers.
+La principale différence est que les dossier de stockage de fichiers
+doivent être définis par l'administrateur en premier.
+Ceux-ci sont situés dans le noeud racine :
 
 .. figure:: ../../Images/BackendFileMountList.png
-   :alt: List of all available file mounts
+   :alt: Liste de tous les montages de fichiers disponibles
 
-
-They can then simply be selected when editing a backend user group:
+Ils peuvent alors être simplement sélectionnés
+lors de l'édition d'un groupe d'utilisateurs backend :
 
 .. figure:: ../../Images/BackendBackendGroupEditFileMounts.png
-   :alt: Selecting allowed file mounts
+   :alt: Sélection des montages de fichiers autorisés
 
 .. note::
 
-   The definition of file mount records also depends on so-called
-   file storages. This topic is covered in more detail in the
-   :ref:`File Abstraction Layer reference <t3fal:start>`.
-
+   La définition des montages de fichiers dépend aussi de ce qu'on appelle
+   les dossier de stockage de fichiers. Ce sujet est abordé plus en détail
+   dans la référence de :ref:`la couche d'abstraction de fichiers<t3fal:start>`.
 
 .. _file-permissions:
 
-Fileoperation permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Permissions sur les manipulations de fichiers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Giving access to File mounts is not the whole story. Specific operations
-on files and directories must be allowed. This is what the next field
-does. Choose either "Directory" or "Files" and start checking boxes.
+Donner accès aux montages de fichiers n'est pas tout.
+Les opérations spécifiques sur les fichiers et les répertoires doivent être autorisées.
+Voici ce que le champ suivant fait.
+Choisissez soit "Répertoire" ou "Fichiers" et commencer à vérifier les boîtes.
 
 .. figure:: ../../Images/BackendBackendGroupEditFilePermissions.png
-   :alt: Giving specific file operation permissions
+   :alt: Donner des autorisations spécifiques sur les manipulations de fichiers
