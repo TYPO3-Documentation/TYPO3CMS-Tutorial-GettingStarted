@@ -17,7 +17,7 @@ tous les médias associés au site web TYPO3 CMS.
 Gestion des fichiers dans TYPO3 CMS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Ce module est très similaire au module ** WEB> Liste**.
+Ce module est très similaire au module **WEB > Liste**.
 Il affiche une arborescence de navigation, correspondant
 à la structure de fichier sur le serveur,
 et une liste de tous les fichiers du répertoire sélectionné.

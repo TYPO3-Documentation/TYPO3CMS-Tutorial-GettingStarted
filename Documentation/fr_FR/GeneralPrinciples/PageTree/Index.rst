@@ -32,7 +32,7 @@ Simultaneously have a look at the navigation in the frontend. Click on
 Comme vous le voyez, le menu principal en haut de votre site correspond
 aux pages du premier niveau dans l'arborescence.
 Le sous-menu de la page **À propos** en frontend correspond aux entrées
-sous ** À propos** dans l'arborescence.
+sous **À propos** dans l'arborescence.
 
 La page avec l'icône du gobe terrestre représente la racine de votre site Web.
 Il peut y avoir plusieurs sites Web par l'installation de TYPO3.
