@@ -62,18 +62,18 @@ et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite
 **Table des matières**
 
 .. toctree::
-:maxdepth: 5
-      :titlesonly:
-      :glob:
+   :maxdepth: 5
+   :titlesonly:
+   :glob:
 
-      Introduction/Index
-      Installation/Index
-      GeneralPrinciples/Index
-      ListModule/Index
-      FileModule/Index
-      ExtensionManager/Index
-      UserManagement/Index
-      OtherBackendModules/Index
-      Troubleshooting/Index
-      NextSteps/Index
-      Targets
+   Introduction/Index
+   Installation/Index
+   GeneralPrinciples/Index
+   ListModule/Index
+   FileModule/Index
+   ExtensionManager/Index
+   UserManagement/Index
+   OtherBackendModules/Index
+   Troubleshooting/Index
+   NextSteps/Index
+   Targets
