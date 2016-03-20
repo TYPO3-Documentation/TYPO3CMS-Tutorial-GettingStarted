@@ -5,67 +5,66 @@
 .. _the-file-module:
 .. _the-file-module-or-image-archives:
 
-The File module
----------------
+Le module Fichiers
+------------------
 
-The **FILE > Filelist** module is where you can manage
-all the media associated with the TYPO3 CMS web site.
-
+Le module **Fichier> Fichiers** est l'endroit où vous pouvez gérer
+tous les médias associés au site web TYPO3 CMS.
 
 .. _managing-files:
 .. _managing-files-in-typo:
 
-Managing files in TYPO3 CMS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Gestion des fichiers dans TYPO3 CMS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This module is very similare to the **WEB > List** module.
-It displays a navigation tree, which corresponds to the file
-structure on the server, and a list of all files for the
-selected directory. You can choose to always display thumbnails
-(this might get slow if you have a lot of files in the chose directory).
+Ce module est très similaire au module **WEB > Liste**.
+Il affiche une arborescence de navigation, correspondant
+à la structure de fichier sur le serveur,
+et une liste de tous les fichiers du répertoire sélectionné.
+Vous pouvez choisir de toujours afficher les vignettes
+(cela peut être lent si vous avez beaucoup de fichiers dans le répertoire choisi).
 
 .. figure:: ../Images/BackendFileModule.png
-   :alt: The File module
+   :alt: Le module "Fichiers"
 
-For admin users, the folder displayed by default is called
-"fileadmin/ (auto-generated) and corresponds to the
-:file:`fileadmin/` folder located under the root folder of your web
-server directory.
+Pour les administrateurs, le dossier affiché par défaut est appelé
+"fileadmin/ (auto-created)" et correspond au dossier :file:`fileadmin/`
+situé dans le dossier racine de votre répertoire du serveur web.
 
-Using those files inside content elements to display them
-or link to them in your web site is covered in the
-:ref:`Editors Tutorial <t3editors:images>`.
+L'utilisation de ces fichiers à l'intérieur des éléments de contenu
+pour les afficher ou lier sur votre site web est couvert dans
+le :ref:`Tutoriel Éditeurs <t3editors:images>`.
 
 .. note::
 
-   There exists extensions which make it possible to connect to remote
-   storages (like a WebDAV server or an Amazon S3 account) and work
-   with the files as if they were on the TYPO3 CMS server.
+   Il existe des extensions qui permettent de se connecter
+   à des stockages distants (comme un serveur WebDAV ou un compte Amazon S3)
+   et de travailler avec les fichiers comme si ils étaient sur le serveur TYPO3 CMS.
 
-There's a clipboard just like in the *List* module.
+Il y a un presse-papier, tout comme dans le module *Liste*.
 
 .. figure:: ../Images/BackendFileClipboard.png
-   :alt: The File module's clipboard
+   :alt: le presse-papier du module "Fichiers"
 
 
-Using the action icons, files can be renamed or replaced
-(just hover over the icons and you will get a help text).
+En utilisant les icônes d'action, les fichiers peuvent être renommés
+ou remplacés (juste en survolant les icônes et vous obtiendrez un texte d'aide).
 
 
 .. _uploading-files:
 
-Uploading new files
-"""""""""""""""""""
+Envoyer de nouveaux fichiers
+""""""""""""""""""""""""""""
 
-You can upload files to a given folder by using the context menu
-or to the current directory by using the action icon in the docheader.
+Vous pouvez télécharger des fichiers dans un dossier donné
+en utilisant le menu contextuel ou dans le répertoire courant
+en utilisant l'icône d'action dans le bandeau d'entête.
 
 .. figure:: ../Images/BackendFileUploadIcons.png
-   :alt: Upload possibilities in the File module
+   :alt: Possibilités de téléchargez dans le module "Fichiers"
 
-
-You will get to simple upload view:
+Vous obtiendrez la simple vue de téléchargement :
 
 .. figure:: ../Images/BackendFileUpload.png
-   :alt: Upload possibilities in the File module
+   :alt: Possibilités de téléchargez dans le module "Fichiers"
 

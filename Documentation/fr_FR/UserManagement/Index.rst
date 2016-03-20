@@ -4,17 +4,17 @@
 
 .. _user-management:
 
-User Management
----------------
+Gestion des utilisateurs
+------------------------
 
-We saw earlier that TYPO3 CMS enforces a strict separation of
-so-called "frontend" and "backend". The same is true for users:
-there are "frontend users", who are web site visitors, and
-"backend users", who are editors and administrators.
+Nous avons vu précédemment que TYPO3 CMS applique une stricte séparation
+des «frontend» et «backend». La même séparation s'applique pour les utilisateurs :
+il y a des «utilisateurs frontend», qui sont les visiteurs du site Web,
+et les «utilisateurs backend», qui sont les éditeurs et les administrateurs.
 
-Working with frontend users is discussed in the Editors Guide.
-We will now look at backend users and how to set up groups and
-permissions.
+La gestion des utilisateurs frontend est abordée dans le Guide des éditeurs.
+Nous allons maintenant examiner les utilisateurs backend et
+comment paramétrer des groupes et des autorisations.
 
 .. toctree::
    :maxdepth: 5
