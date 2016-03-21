@@ -4,12 +4,12 @@
 
 .. _backend-modules:
 
-Other backend modules
----------------------
+Autres modules backend
+----------------------
 
-The previous chapter led you through several of the
-modules provided by the TYPO3 CMS backend. This chapter
-will give you a quick overview of the remaining ones.
+Le chapitre précédent vous a conduit à travers quelques
+modules présents dans le backend TYPO3 CMS.
+Ce chapitre vous donnera un aperçu rapide de ceux qui restent.
 
 
 .. toctree::
