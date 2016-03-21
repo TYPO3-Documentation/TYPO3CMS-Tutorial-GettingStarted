@@ -5,18 +5,19 @@
 .. _human-readable-urls:
 .. _human-readable-url-s:
 
-Human readable URLs
-^^^^^^^^^^^^^^^^^^^
+URLs humainement lisibles
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
-By default TYPO3 CMS identifies the page which should be delivered by the "?id"
-parameter. Just enter *http://www.your-site.example.org/index.php?id=33* to get
-the "Overview" page of the Introduction Package.
+Par défaut TYPO3 CMS identifie la page qui doit être délivrée par le paramètre "id?".
+Il suffit d'entrer *http://www.votre-site.exemple.org/index.php?id=33* pour obtenir
+la page "Vue d'ensemble" du paquet d'introduction.
 
-This is convenient but not good for visitors nor for proper referencing.
-Human-readable URLs are provided by extension "realurl" (others exist).
-Thus the above-mentioned URL becomes *http://www.your-site.example.org/content-examples/overview/*.
+Ceci est pratique mais pas bon pour les visiteurs, ni pour un référencement optimal.
+Les URLs humainement lisibles sont fournies par l'extension "realurl" (d'autres existent).
+Ainsi, l'URL mentionnée ci-dessus devient
+*http://www.votre-site.exemple.org/exemples-de-contenus/vue-d-ensemble/*.
 
-This should work out of the box with the Introduction Package. If it does not
-you may want to deactivate human-readable URLs. The simplest way to achieve
-this is to go to the **ADMIN TOOLS > Extensions** module and deactivate
-extension "realurl".
+Cela devrait fonctionner dès l'installation du paquet d'introduction.
+Si cela ne ne fonctionne vous devrez peut-être désactiver les URL humainement lisibles.
+La façon la plus simple d'y parvenir est d'aller dans le module
+**OUTILS D'ADMINISTRATIOIN > Extensions** et de désactiver l'extension "realurl".
