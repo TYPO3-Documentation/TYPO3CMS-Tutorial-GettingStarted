@@ -89,7 +89,7 @@ Reports
 
 The *Reports* module contains information and diagnostic data
 about your TYPO3 CMS installation. It is particularly worthwhile
-to regularly check out the "Status Report" as it will infom you
+to regularly check out the "Status Report" as it will inform you
 about bad configuration, security issues, etc.
 
 .. figure:: ../../Images/BackendReportsModule.png
