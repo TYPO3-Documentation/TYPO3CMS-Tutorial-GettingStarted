@@ -4,27 +4,26 @@
 
 .. _next-steps:
 
-Next steps
-----------
+Prochaines étapes
+-----------------
 
-TYPO3 CMS has a lot of documentation available on the
-`documentation web site <https://docs.typo3.org/typo3cms/>`_.
-The documentation is divided into several sections:
+TYPO3 CMS a beaucoup de documentation disponible sur le
+`site Web de documentation <https://docs.typo3.org/typo3cms/>`_.
+La documentation est divisée en plusieurs sections:
 
-1. `Tutorials <https://docs.typo3.org/typo3cms/Tutorials.html>`_
-   section covers documents which provide step-by-step
-   introductions to specific topics.
-2. `Guides <https://docs.typo3.org/typo3cms/Guides.html>`_
-   cover topics in more depth, like installation or security.
-3. The `References <https://docs.typo3.org/typo3cms/References.html>`_
-   are related to the core of TYPO3 CMS and drill into details.
-   They also provide extensive references (hence their name) about configurations and APIs.
-4. The `Extensions <https://docs.typo3.org/typo3cms/extensions/>`_ gathers all
-   manuals related to core and public extensions.
+1. Les `Tutoriaux<https://docs.typo3.org/typo3cms/Tutorials.html>`_ présentent
+   étape par étape des sujets spécifiques.
+2. Les `GuidesGuides <https://docs.typo3.org/typo3cms/Guides.html>`_ couvrent
+   des sujets plus en profondeur, comme l'installation ou de la sécurité.
+3. Les `références <https://docs.typo3.org/typo3cms/References.html>`_ sont liées
+   au noyau de TYPO3 CMS et entrent dans les détails. Elles fournissent également
+   de nombreuses références (d'où leur nom) sur les configurations et les API.
+4. Les `extensions <https://docs.typo3.org/typo3cms/extensions/>`_ rassemblent
+   tous les manuels relatifs aux extensions du noyau et aux extensions publiques.
 
-This is admittedly a huge mass of documentation and you may feel lost
-about where to look next. We recommend the following documents for further studies
-after this tutorial:
+Ceci représente une grande quantité de documentation et vous pouvez vous sentir perdu
+et ne pas savoir où chercher par la suite. Nous vous recommandons les documents suivants
+pour continuer après ce tutoriel :
 
 
 .. toctree::
