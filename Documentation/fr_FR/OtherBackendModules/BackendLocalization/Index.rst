@@ -4,56 +4,61 @@
 
 .. _changing-backend-language:
 
-Changing backend language
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Modification de la langue backend
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The TYPO3 CMS backend is available in many languages. These
-translations are bundled into packages which need to be fetched
-from the community translation server (https://translation.typo3.org/).
-Once installed backend users can choose which language to use.
+Le backend TYPO3 CMS est disponible dans de nombreuses langues.
+Ces traductions sont regroupés dans des paquets qui doivent
+être récupérés à partir du serveur de traduction communautaire
+(https://translation.typo3.org/).
+Une fois installées, les utilisateurs backend peuvent choisir
+la langue qu'ils souhaitent utiliser.
 
-Loading translation packages happens in the **ADMIN TOOLS > Languages**
-module.
+Le chargement des paquets de traduction se passe dans le module
+**Outils d'administration >langues**.
 
 .. figure:: ../../Images/BackendLanguageModule.png
-   :alt: The backend language administration module
+   :alt: Le module backend d'administration des langues
 
 
-Click on the "+" icon to activate a new language. A download button
-appears to the right. Click on it to get the translations. In the docheader
-is a download icon which will fetch packages for all activated languages.
-It is recommended to update regularly to benefit from completed or
-improved translations.
+Cliquez sur l'icône "+" pour activer une nouvelle langue.
+Un bouton de téléchargement apparaît à droite.
+Cliquez dessus pour obtenir les traductions.
+Dans le docheader se trouve une icône de téléchargement
+qui ira chercher les paquets pour toutes les langues activées.
+Il est recommandé de les mettre à jour régulièrement
+afin de bénéficier de traductions ajoutées ou améliorées.
 
-To change the language of the backend, move to the **User Settings**
-module, which is accessed by clicking on your user name in the top bar.
+Pour changer la langue du backend, allez au module
+**Configuration utilisateur personnelle**, qui est accessible
+en cliquant sur votre nom d'utilisateur dans la barre supérieure.
 
 .. figure:: ../../Images/BackendSettingsLanguage.png
-   :alt: Changing the current user's interface language
+   :alt: Changer la langue de l'interface pour l'utilisateur actuel
 
 
-Choose "Language" at the bottom, then hit the "Save" button
-in the docheader. The backend should update itself automatically
-but you may want to reload the page in the browser.
-Your backend should now be in Basque.
+Choisissez "Langue" en bas, puis appuyez sur le bouton "Enregistrer" dans le docheader.
+Le backend devrait se mettre à jour automatiquement,
+mais vous devrez peut-être recharger la page dans le navigateur.
+Votre backend devrait maintenant être en basque.
 
 .. figure:: ../../Images/BackendTranslated.png
-   :alt: The backend translated to Basque
+   :alt: Le backend traduit en basque
 
 
-As you can see, if a translation is incomplete, the backend
-will fall back to English.
+Comme vous pouvez le voir, si une traduction est incomplète,
+le backend bascule en anglais (pour les termes non traduits).
 
-A default language can also be set when creating a new backend
-user.
+Une langue par défaut peut également être définie
+lors de la création d'un nouvel utilisateur backend.
 
 .. figure:: ../../Images/BackendBackendDefaultLanguage.png
-   :alt: Setting the default language for a new backend user
+   :alt: Réglage de la langue par défaut pour un nouvel utilisateur de backend
 
 
 .. caution::
 
-   Changing a user's default language will not change the backend
-   language if that user has already logged in at least once, as
-   the language is kept in the user preferences. Such users will
-   need to update their language themselves.
+   La modification de la langue par défaut d'un utilisateur ne changera
+   pas la langue backend si cet utilisateur s'est déjà connecté
+   au moins une fois, car la langue est maintenue dans les préférences de l'utilisateur.
+   Ces utilisateurs devront mettre à jour leur langue eux-mêmes.
