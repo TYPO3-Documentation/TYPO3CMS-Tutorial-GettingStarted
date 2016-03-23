@@ -45,6 +45,7 @@ Le "Guide de démarrage rapide" a été écrit par Kasper Skårhøj et adapté �
 TYPO3 CMS 4.5 LTS par Philipp Gampe , Martin Holtz , Susanne Moog et François Suter.
 Il a été révisé et mis à jour à la version 6.2 LTS par Guido Haase et à la version 7 LTS
 par François Suter.
+La mise à jour de François Suter a été traduit en français par Jonathan Iroulin.
 
 .. _feedback:
 
