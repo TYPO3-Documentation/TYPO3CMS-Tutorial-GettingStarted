@@ -1,4 +1,3 @@
-
 .. include:: ../../Includes.txt
 
 .. _using-the-list-module-effectively:
