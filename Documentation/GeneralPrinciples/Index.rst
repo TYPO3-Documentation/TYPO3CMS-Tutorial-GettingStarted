@@ -21,4 +21,5 @@ needed to understand the next chapters.
    PageContent/Index
    Templates/Index
    TopBar/Index
+   ContextMenu/Index
 
