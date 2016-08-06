@@ -110,8 +110,8 @@ to the drop-down menu at the top.
 Collapsing the page tree
 """"""""""""""""""""""""
 
-The page tree can be collapse to gain screen space, by clicking on the handle
-on its right.
+The page tree can be collapsed to gain screen space, by clicking on the handle
+on its right-hand side.
 
 .. figure:: ../../Images/BackendCollapsePageTree.png
    :alt: Click there to collpase the page tree
