@@ -10,6 +10,9 @@ Setting up user permissions
 We will look into setting up user permissions by editing the
 "Advanced editors" user group.
 
+.. figure:: ../../Images/BackendBackendGroupEditSettings.png
+   :alt: Choosing the settings menu
+
 .. _general:
 
 General
