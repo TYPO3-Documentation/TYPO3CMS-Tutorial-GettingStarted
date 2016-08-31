@@ -27,6 +27,9 @@ Backend:
 
 For now we want to be in "Columns" mode. If that is not the case when you move to the Page module, please use the menu in the docheader to switch mode.
 
+.. figure:: ../../Images/PageModuleFunctions.png
+   :alt: Changing mode in the Page module
+
 .. figure:: ../../Images/BackendTextAndImages.png
    :alt: Page content seen from the backend
 
