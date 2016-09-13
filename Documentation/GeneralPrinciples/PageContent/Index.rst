@@ -22,12 +22,15 @@ Frontend:
 .. figure:: ../../Images/FrontendTextAndImages.png
    :alt: Page content seen from the frontend
 
+For now we want to be in "Columns" mode. If that is not the case when you move to the Page module, please use the menu in the docheader to switch mode.
+
+.. figure:: ../../Images/PageModuleFunctions.png
+   :alt: Changing mode in the Page module
 
 Backend:
 
 .. figure:: ../../Images/BackendTextAndImages.png
    :alt: Page content seen from the backend
-
 
 As you see the order of the content elements on the web page is the
 same as the order of the elements in the backend. The content elements
