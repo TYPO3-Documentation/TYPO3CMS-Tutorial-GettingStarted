@@ -11,7 +11,7 @@ Getting Started Tutorial
       doc_tut_quickstart
 
 :Version:
-      7 LTS
+      |release|
 
 :Language:
       en
