@@ -28,7 +28,7 @@ Here is a brief view of the *Template* module:
 Templating itself is covered by other tutorials:
 
 - the :ref:`TypoScript in 45 minutes Tutorial <t3ts45:start>` covers the basics of TypoScript
-  and how to related pages and content elements to an actual HTML output.
+  and how to relate pages and content elements to an actual HTML output.
 
 - the :ref:`Templating Tutorial <t3templating:start>` guides you through the actual integration
   of HTML models into your TYPO3 CMS installation using TypoScript.
