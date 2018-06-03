@@ -56,7 +56,7 @@ kept up-to-date to the best of the Documentation Team's abilities.
 
 **Tutorial**
 
-This document is a tutorial. Tutorials are designed to be step-by-step
+This document is a ttutorial. Tutorials are designed to be step-by-step
 instructions specifically created to walk a beginner through a
 particular task from beginning to end. To facilitate effective
 learning, tutorials provide examples to illustrate the subjects they
