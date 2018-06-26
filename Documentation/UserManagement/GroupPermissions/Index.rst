@@ -162,6 +162,12 @@ pages.
    :alt: Choosing DB mounts for the group
 
 
+.. note::
+
+   Better alternative:
+   Set the DB mounts on a backend user group. And then activate the checkbox 
+   "Mount from groups" for the "DB Mounts" on the user's backend record.
+
 See also :ref:`Pages permissions <page-permissions>`.
 
 .. _file-mounts:
@@ -187,6 +193,12 @@ They can then simply be selected when editing a backend user group:
    The definition of file mount records also depends on so-called
    file storages. This topic is covered in more detail in the
    :ref:`File Abstraction Layer reference <t3fal:start>`.
+
+.. note::
+
+   Better alternative:
+   Set the file mounts on a backend user group. And then activate the checkbox 
+   "Mount from groups" for the "File Mounts" on the user's backend record.
 
 
 .. _file-permissions:
