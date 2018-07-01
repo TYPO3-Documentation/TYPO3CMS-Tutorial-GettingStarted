@@ -161,14 +161,10 @@ pages.
 .. figure:: ../../Images/BackendBackendGroupEditDBMounts.png
    :alt: Choosing DB mounts for the group
 
-
-.. note::
-
-   Better alternative:
-   Set the DB mounts on a backend user group. And then activate the checkbox 
-   "Mount from groups" for the "DB Mounts" on the user's backend record.
-
 See also :ref:`Pages permissions <page-permissions>`.
+
+In order to inherit these settings in assigned users, activate the checkbox
+"Mount from groups" for the "DB Mounts" on the user's backend record.
 
 .. _file-mounts:
 
@@ -194,12 +190,8 @@ They can then simply be selected when editing a backend user group:
    file storages. This topic is covered in more detail in the
    :ref:`File Abstraction Layer reference <t3fal:start>`.
 
-.. note::
-
-   Better alternative:
-   Set the file mounts on a backend user group. And then activate the checkbox 
-   "Mount from groups" for the "File Mounts" on the user's backend record.
-
+In order to inherit these settings in assigned users, activate the checkbox
+"Mount from groups" for the "File Mounts" on the user's backend record.
 
 .. _file-permissions:
 
