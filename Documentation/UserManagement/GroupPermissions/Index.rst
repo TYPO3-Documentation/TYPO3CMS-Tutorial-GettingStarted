@@ -164,7 +164,9 @@ pages.
 See also :ref:`Pages permissions <page-permissions>`.
 
 In order to inherit these settings in assigned users, activate the checkbox
-"Mount from groups" for the "DB Mounts" on the user's backend record.
+"Mount from groups" for the "DB Mounts" in the `be_users` record of this
+user. This record can be find in the "List" module on the root page and in the
+"Backend User" module.
 
 .. _file-mounts:
 
@@ -187,11 +189,15 @@ They can then simply be selected when editing a backend user group:
 .. note::
 
    The definition of file mount records also depends on so-called
+   m
    file storages. This topic is covered in more detail in the
    :ref:`File Abstraction Layer reference <t3fal:start>`.
 
 In order to inherit these settings in assigned users, activate the checkbox
-"Mount from groups" for the "File Mounts" on the user's backend record.
+"Mount from groups" for the "File Mounts" in the `be_users` record of this
+user. This record can be find in the "List" module on the root page and in the
+"Backend User" module.
+
 
 .. _file-permissions:
 
