@@ -39,7 +39,7 @@ page tree. Now click again on the "Congratulations" page in the
 
 
 By choosing "All users" as group and then "Set recursively 3 levels"
-in the "Depth" dropdown, we will assing **all** the pages in the
+in the "Depth" dropdown, we will assign **all** the pages in the
 page tree to the "All users" group.
 
 Actually this makes a lot of sense, since the "All users" group
