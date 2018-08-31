@@ -20,6 +20,14 @@ a rich tool and this chapter provides only a brief overview.
 
    It is possible to set up your TYPO3 CMS installation to use
    Composer instead, but this is not covered by this tutorial.
+   
+.. note::
+
+   Since TYPO3 9.3 only the first backend admin will see the Admin Tools module.
+   You must add the other backend admin users manually under 
+   **Admin Tools > Settings > Manage System Maintainers** to activate it.
+   Alternatively you can set the website into "Development" mode in the Install Tool.
+
 
 Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 
