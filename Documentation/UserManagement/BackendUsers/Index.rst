@@ -74,3 +74,19 @@ for a good exercise for changing user rights in the next chapters.
 
    .. figure:: ../../Images/BackendBackendUsersList.png
       :alt: Viewing backend users in the List module
+
+.. _user-management-system-maintainers:
+
+System Maintainers
+""""""""""""""""""
+
+Introduced in TYPO3 CMS 9, there is a special permission for Backend Users.
+The first created user, during installation of TYPO3, is already marked as a
+System Maintainer. Other users can become System Maintainers within the module
+**Admin Tools > Settings > Manage System Maintainers**.
+
+System Maintainers are the only users who are able to access the install tool
+and extension manager. The users are persisted within the
+:file:`LocalConfiguration.php` as :php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['systemMaintainers']`.
+
+Also see changelog `Feature: #82266 - Backend Users System Maintainers <https://docs.typo3.org/typo3cms/extensions/core/Changelog/9.0/Feature-82266-BackendUsersSystemMaintainers.html>`_.
