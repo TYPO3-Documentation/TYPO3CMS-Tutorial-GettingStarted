@@ -16,16 +16,23 @@ The *Extension Manager* is where you can manage available extensions
 or get new ones from the TYPO3 Extension Repository (TER). It is quite
 a rich tool and this chapter provides only a brief overview.
 
-.. note::
+.. hint::
 
    It is possible to set up your TYPO3 CMS installation to use
    Composer instead, but this is not covered by this tutorial.
+
+.. note::
+
+   Since TYPO3 9.3 only the first backend admin will see the Admin Tools module.
+   To provide this tools for further backend users, see
+   :ref:`user-management-system-maintainers`.
+   Alternatively the website can be set into "Development" mode in the Install
+   Tool.
 
 Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 
 .. figure:: ../Images/BackendExtensionManager.png
    :alt: TYPO3 CMS Extension Manager
-
 
 It shows the "Installed extensions". The first action icon (1) can be used
 to install an uninstalled extension or vice-versa (uninstalled extensions
