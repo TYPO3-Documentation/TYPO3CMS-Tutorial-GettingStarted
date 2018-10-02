@@ -24,7 +24,7 @@ a rich tool and this chapter provides only a brief overview.
 .. note::
 
    Since TYPO3 9.3 only the first backend admin will see the Admin Tools module.
-   To provide this tools for further backend users, see
+   To provide these tools for further backend users, see
    :ref:`user-management-system-maintainers`.
    Alternatively the website can be set into "Development" mode in the Install
    Tool.
