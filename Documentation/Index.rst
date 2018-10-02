@@ -23,7 +23,7 @@ Getting Started Tutorial
       forBeginners, forEditors, forAdmins
 
 :Copyright:
-      2004-2016
+      2004-2018
 
 :Author:
       Documentation Team
