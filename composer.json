@@ -1,0 +1,6 @@
+{
+    "name": "typo3/tutorial-getting-started",
+    "type": "typo3-cms-documentation",
+    "description": "The official tutorial to discover the main features and concepts of TYPO3 CMS. It is based on the Introduction Package.",
+    "license": "OPL-1.0"
+}
