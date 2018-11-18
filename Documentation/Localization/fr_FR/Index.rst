@@ -1,7 +1,7 @@
 .. include:: Includes.txt
 
 
-.. _start:
+.. _start-fr:
 
 ========================
 Getting Started Tutorial
