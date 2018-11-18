@@ -3,13 +3,13 @@
 
 .. _next-steps-security:
 
-Keep security in mind
-^^^^^^^^^^^^^^^^^^^^^
+Gardez à l'esprit la sécurité
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Security is taken very seriously by the developers of TYPO3 CMS. The
-`TYPO3 Security Team <http://typo3.org/teams/security/>`_ manages possible security
-incidents. They review them and consider their impact. Security advisories
-are regularly published.
+La sécurité est prise très au sérieux par les développeurs de TYPO3 CMS.
+`L'équipe de sécurité TYPO3 <http://typo3.org/teams/security/>`_
+gère les potentiels incidents de sécurité. Ils les examinent et
+considèrent leurs impacts. Des avis de sécurité sont régulièrement publiés.
 
-More information about security can be found in the
-:ref:`Security Guide <t3security:start>`.
+Vous pouvez consulter plus d'informations sur la sécurité
+dans le :ref:`Guide de sécurité <t3security:start>`.

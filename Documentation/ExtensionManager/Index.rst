@@ -4,76 +4,81 @@
 .. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
-The Extension Manager
----------------------
+Le gestionnaire d'extension
+---------------------------
 
-TYPO3 CMS has many built-in features but even more features are
-available via extensions. Actually the whole of TYPO3 CMS itself
-is made of extensions. With public extensions you can enhance existing
-features or add totally new ones.
+TYPO3 CMS possède de nombreuses fonctionnalités intégrées
+mais encore plus de fonctionnalités sont disponibles via des extensions.
+En fait, TYPO3 CMS lui-même est fait d'extensions.
+Avec les extensions publiques, vous pouvez améliorer les fonctionnalités
+existantes ou en ajouter de totalement nouvelles.
 
-The *Extension Manager* is where you can manage available extensions
-or get new ones from the TYPO3 Extension Repository (TER). It is quite
-a rich tool and this chapter provides only a brief overview.
+Le *gestionnaire d'extension* est l'endroit où vous pouvez gérer
+les extensions disponibles ou obtenir de nouvelles du répertoire d'extension TYPO3
+(TER : TYPO3 Extension Repository).
+C'est un outil très riche et ce chapitre n'en fournit qu'un bref aperçu.
 
 .. note::
 
-   It is possible to set up your TYPO3 CMS installation to use
-   Composer instead, but this is not covered by this tutorial.
+   Il est possible de configurer votre installation TYPO3 CMS
+   pour utiliser Composer à la place, mais ceci n'est pas couverts par ce tutoriel.
+
+En allant au module **OUTILS D'ADMINISTRATION > Extensions**, nous obtenons la vue suivante:
 
 Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 
 .. figure:: ../Images/BackendExtensionManager.png
-   :alt: TYPO3 CMS Extension Manager
+   :alt: Gestionnaire d'extensions TYPO3 CMS
 
+Il montre les "Extensions installées".
+La première icône d'action (1) peut être utilisée pour installer une extension désinstallée
+ou vice-versa (les extensions désinstallés apparaissent en grisé).
 
-It shows the "Installed extensions". The first action icon (1) can be used
-to install an uninstalled extension or vice-versa (uninstalled extensions
-appear grayed out).
-
-Next comes information about the extension: title, key, version and state.
-Finally are one or more actions icons, depending on what the extension offers.
-All extensions have a download action, many will have a configuration action,
-which can be used to access the extension's options. Again just hover over
-the actions to get a help text.
+Vient ensuite des informations sur l'extension : le titre, la clé, la version et l'état.
+Enfin il y a une ou plusieurs icônes d'action, en fonction de ce que l'extension offre.
+Toutes les extensions ont une action de téléchargement,
+beaucoup auront une action de configuration,
+qui peut être utilisée pour accéder aux options de l'extension.
+Encore une fois il suffit de survoler les icônes d'action pour obtenir un texte d'aide.
 
 
 .. _install-extension:
 
-Installing a new extension
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installation d'une nouvelle extension
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Let's look briefly at the extension installation process. Use the menu
-in the docheader to switch to the "Get extensions" view:
+Regardons brièvement le processus d'installation d'extension.
+Utilisez le menu dans l'entête de page pour passer à la vue "Ajouter des extensions"
 
 .. figure:: ../Images/BackendExtensionManagerInstall.png
-   :alt: Getting extensions from the Extension Manager
+   :alt: Obtenir des extensions à partir du gestionnaire d'extensions
 
+La liste qui apparaît dans ce point de vue est la liste complète
+des extensions du TER (limité à celles qui sont compatibles avec
+la version TYPO3 CMS que vous utilisez).
+Vous pouvez mettre à jour cette liste en utilisant le bouton en haut à droite (1).
+Un champ de recherche est disponible (2).
 
-The list which appears in this view is the full list of extensions
-from the TER (limited to those compatible with the TYPO3 CMS that
-you are using). You can update this list using the button at the
-top right (1). A search field is available (2).
+Cliquer sur l'action "Importer et installer" (3) va déclencher l'installation.
+Les extensions peuvent dépendre d'autres extensions,
+auquel cas tout sera installé de façon transparente.
 
-Clicking the "Import and install" action (3) will trigger the installation.
-Extensions may depend on other extensions, in which case all will
-be installed transparently.
-
-If you look for a specific version of an extension, you can click
-on its title (4) and access the list of all available versions.
+Si vous cherchez une version spécifique d'une extension,
+vous pouvez cliquer sur son titre (4) et accéder à la liste
+de toutes les versions disponibles.
 
 .. figure:: ../Images/BackendExtensionManagerExtensionVersions.png
-   :alt: Viewing all possible versions of a given extension
+   :alt: Voir toutes les versions possibles d'une extension donnée
 
-
-Only compatible versions are displayed. Known insecure versions
-will also never show up.
+Seules les versions compatibles sont affichées.
+Les versions connues comme étant non sécurisées ne seront jamais affichées.
 
 .. warning::
 
-   **Extension security**
+   **Sécurité des extensions**
 
-   Please keep in mind there is no security audit available for public
-   extensions! Have a close look at the extensions you are installing.
-   If you find any security issue get in touch with the security team:
-   security@typo3.org .
+   Merci de garder à l'esprit qu'il n'y a pas de vérification de sécurité
+   disponible pour des extensions publiques !
+   Jetez un oeil de près aux extensions que vous installez.
+   Si vous trouvez un problème de sécurité entrer en contact
+   avec l'équipe de sécurité: security@typo3.org.

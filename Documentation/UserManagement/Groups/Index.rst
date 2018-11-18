@@ -3,35 +3,39 @@
 
 .. _groups:
 
-Groups
-^^^^^^
+Groupes
+^^^^^^^
 
-While it is possible to change user permissions on a user basis,
-it is strongly recommended to use groups instead. Just as for users,
-there are "Backend user groups" and "Frontend user groups".
+Bien qu'il soit possible de modifier les permissions
+de l'utilisateur au niveau de l'utilisateur,
+il est fortement recommandé d'utiliser des groupes à la place.
+Tout comme pour les utilisateurs, il y a des "groupes d'utilisateurs backend"
+et des "groupes d'utilisateurs frontend".
 
-This chapter provides just a quick overview of backend user groups.
-In the next chapter we will look at changing user permissions using
-groups.
+Ce chapitre fournit juste un rapide aperçu des groupes d'utilisateurs backend.
+Dans le chapitre suivant, nous allons envisager de modifier
+les permissions des utilisateurs en utilisant des groupes.
 
-Backend groups can also be viewed using **SYSTEM > Backend users**
-module:
+Les groupes Backend peuvent également être consultés en utilisant
+le modul **SYSTEM > Utilisateurs backend** :
 
 .. figure:: ../../Images/BackendBackendUserGroups.png
-   :alt: Viewing groups in the Backend Users module
+   :alt: Affichage des groupes dans le module Utilisateurs Backend
 
 
-We can see two groups that obviously correspond to our users
-("simple" and "advanced"). Furthermore there is a "All users"
-group which is a sub-group of the two others. This means that all
-permissions set for the "All users" groups will be shared with both
-"Advanced editors" users and "Simple editors" users.
+Nous pouvons voir deux groupes qui correspondent évidemment
+à nos utilisateurs ( «simple» et «avancé»).
+En plus, il existe un groupe "Tous les utilisateurs" qui est un sous-groupe des deux autres.
+Cela signifie que toutes les permissions paramétrées pour le groupe
+"Tous les utilisateurs" seront partagées avec les utilisateurs
+"éditeurs avancés" et les utilisateurs "éditeurs simples".
 
-To view which user is part of each group, the easiest is to click
-on the "information" action icon. A pop-up will open with detailed
-information about the group. Scroll down until you find the
-"References to this item:" section. This shows the list of backend
-users who are part of this group.
+Pour voir quel utilisateur fait partie d'un groupe,
+le plus simple est de cliquer sur l'icône d'action "information".
+Une pop-up va ouvrir des informations détaillées sur le groupe.
+Faites défiler la liste jusqu'à ce que vous trouviez la section
+"Références à cet élément :".
+Cela présente la liste des utilisateurs backend faisant partie de ce groupe.
 
 .. figure:: ../../Images/BackendBackendUserGroupDetail.png
-   :alt: Checking out which users are part of the group
+   :alt: Vérification des utilisateurs faisant partie d'un groupe

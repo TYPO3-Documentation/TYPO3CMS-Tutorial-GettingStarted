@@ -3,10 +3,11 @@
 
 .. _next-steps-editors:
 
-Tutorial for editors
-^^^^^^^^^^^^^^^^^^^^
+Tutoriel pour les éditeurs
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:ref:`The Editors Tutorial <t3editors:start>`
-explains how to add or change content on an existing website in TYPO3 CMS.
-It provides the most basic step-by-step instructions to get the job
-done. This is very likely the next step that you want to take.
+:ref:`Le Tutoriel pour les éditeurs <t3editors:start>`
+explique comment ajouter ou modifier le contenu d'un site
+Web TYPO3 CMS existant. Il fournit les instructions les plus
+élémentaires étape par étape pour faire le travail.
+Ceci est très probablement la prochaine étape que vous souhaitez effectuer.

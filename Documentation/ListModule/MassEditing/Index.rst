@@ -4,61 +4,59 @@
 .. _mass-editing:
 .. _selective-editing:
 
-Mass editing
-^^^^^^^^^^^^
+L'édition de masse
+^^^^^^^^^^^^^^^^^^
 
-The *List* module also makes it possible to display more information
-about each record and to edit several records at a time.
-To enable this, first click on the table header (1):
+Le module *Liste* permet également d'afficher plus d'informations
+sur chaque enregistrement et de modifier plusieurs enregistrements à la fois.
+Pour ce faire, cliquez d'abord sur l'en-tête de tableau (1):
 
 .. figure:: ../../Images/BackendListAdditionalFields.png
-   :alt: The List view with an additional field displayed
+   :alt: La vue Liste avec un champ supplémentaire ("Type") affiché
 
+Cela limite la vue de ce tableau unique et ajoute un sélecteur (2)
+vous permettant de sélectionner les champs supplémentaires à afficher.
+Sélectionnez le champ "Type" pour le moment et cliquez sur le bouton "Paramétrer un champ".
 
-This restricts the view to that single table and adds a selector (2)
-where you can select which additional fields to display. Select the "Type"
-field for now and click on the "Set fields" button.
-This makes the "Type" field appear in a new column to the right of the record
-list (4).
-
+Cela fait apparaître le champ "Type" dans une nouvelle colonne à droite de la liste d'enregistrement (4).
 
 .. _editing-all-headers:
 
-Editing all headers
-"""""""""""""""""""
+Modification tous les en-têtes
+""""""""""""""""""""""""""""""
 
-To edit the headers of all records in one go,
-simply click the little pencil next to the "Header" label:
+Pour modifier les en-têtes de tous les enregistrements en une seule fois,
+il suffit de cliquer sur le petit crayon à côté de l'étiquette "Titre de page" :
 
 .. figure:: ../../Images/BackendListEditAllHeaders.png
-   :alt: The button to edit a given field for all records
+   :alt: Le bouton pour modifier un champ donné pour tous les enregistrements
 
-You will then see this:
+Vous verrez alors ceci :
 
 .. figure:: ../../Images/BackendListChangeAllHeaders.png
-   :alt: Editing form displayed for all records
+   :alt: Formulaire d'édition affiché pour tous les enregistrements
 
-When saving the changed will be stored for all records.
+Lors de l'enregistrement les changements seront stockés pour tous les enregistrements.
 
-All field that are currently viewable can be edited at the same
-time, by choose a different icon:
+Tous les champs qui sont actuellement visibles peuvent être modifiés en même temps,
+en choisissant une icône différente :
 
 .. figure:: ../../Images/BackendListEditAllFields.png
-   :alt: The button to edit all fields visible in the list
+   :alt: Le bouton pour modifier tous les champs visibles dans la liste
 
-The result is almost the same form, but with the additional field:
+Le résultat est presque le même formulaire, mais avec les champs supplémentaires :
 
 .. figure:: ../../Images/BackendListChangeAllFields.png
-   :alt: Editing form displayed for all records and all fields
+   :alt: Formulaire d'édition affiché pour tous les enregistrements et tous les champs
 
-This can be further refined. Activate one of the clipboard pads if
-this is not already the case and check the boxes for a couple of records:
+Cela peut être encore affiné. Activez l'une des plaquettes de presse-papier si
+cela n'est pas déjà fait et cochez les cases pour deux d'enregistrements :
 
 .. figure:: ../../Images/BackendListSelectiveEditing.png
-   :alt: Selecting records for editing
+   :alt: Sélection d'enregistrements pour l'édition
 
-The result is a form for editing just the chosen field for the
-selected records:
+Le résultat est un formulaire juste pour l'édition des champ choisis
+pour les deux enregistrements sélectionnés :
 
 .. figure:: ../../Images/BackendListSelectiveEditingForm.png
-   :alt: Editig form displayed for the selected records
+   :alt: Formulaire d'édition affiché pour les enregistrements sélectionnés

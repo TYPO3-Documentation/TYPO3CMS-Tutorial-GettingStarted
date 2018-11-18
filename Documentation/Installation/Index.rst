@@ -8,54 +8,57 @@ Installation
 
 .. _prerequisite:
 
-Prerequisite
-^^^^^^^^^^^^
+Pré-requis
+^^^^^^^^^^
 
-For trying out TYPO3 CMS you need to have a fully configured and ready
-to use web server which meets the `minimum system requirements
+Pour essayer le CMS TYPO3 vous avez besoin d'avoir un serveur Web entièrement configuré et prêt
+à l'emploi qui répond aux `exigences système minimales
 <http://typo3.org/typo3-cms/overview/requirements/>`_.
 
-If you do not have a web server and you are running a MS Windows
-on local your machine, you might want to try the `TYPO3Winstaller
-<http://typo3winstaller.sourceforge.net/>`_, which will install a web
-server and TYPO3 CMS on your computer.
+Si vous ne disposez pas d'un serveur web et que vous exécutez un MS Windows
+sur votre ordinateur, vous pourriez vouloir essayer le `TYPO3Winstaller
+<http://typo3winstaller.sourceforge.net/>`_, qui installera un serveur web
+et le CMS TYPO3 sur votre ordinateur.
 
-Make sure to have your database credentials ready.
+Assurez-vous d'avoir les informations d'identification à votre base de données.
 
 
 .. _getting-the-introduction-package:
 .. _installing-typo3-cms-base-system:
 
-Installing TYPO3 CMS base system
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installation du système de base TYPO3 CMS
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-First you will need to download and install the TYPO3 CMS Package.
-Follow the steps provided in the :ref:`Quick Installation <t3install:quick-installation>`
-part of the :ref:`Installation and Upgrade Guide <t3install:start>`.
+Vous devrez d'abord télécharger et installer le paquet TYPO3.
+Suivez les étapes indiquées dans la partie :ref:`Installation rapide <t3install:quick-installation>`
+du :ref:`Guide d'Installation et de mise à jour<t3install:start>`.
 
-At step 6, choose to download the list of distributions. See below.
+A l'étape 6, choisir de télécharger la liste des distributions.
+Voir ci-dessous.
 
 
 .. _installing-the-introduction-package:
 
-Installing the Introduction Package
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When you are at step 6 of the Install Tool, choose to download the list
-of distributions.
+Installation du paquet d'introduction
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Lorsque vous êtes à l'étape 6 de l' outil d'installation,
+choisissez de télécharger la liste des distributions .
 
 .. figure:: ../Images/InstallToolLoadDistributions.png
-   :alt: Choosing to load distributions in the Install Tool
+   :alt: Choisir de charger les distributions dans l'outil d'installation
 
-You then will be prompted to log into the TYPO3 CMS backend using
-the login and password you defined just before in step 5. You will
-be taken automatically to the place where you can choose a distribution.
+Vous serez alors invité à vous connecter au backend TYPO3 CMS à l'aide
+du login et du mot de passe que vous aurez défini juste avant à l'étape 5.
+Vous serez automatiquement dirigés à la page vous permettant de choisir
+une distribution.
 
 .. figure:: ../Images/InstallIntroductionPackage.png
-   :alt: Installing TYPO3 CMS Introduction Package
+   :alt: Installation du paquet d'introduction de TYPO3 CMS
 
-Just click on the "Install" button and a complete preconfigured web site
-will be installed within minutes. It contains several pages and a lot
-of example content.
+Il suffit de cliquer sur le bouton "Installer" et un site web completement
+préconfiguré sera installé en quelques minutes.
+Il contient plusieurs pages et beaucoup d'exemple contenu.
 
-We will explore all that in the rest of this tutorial.
+Nous allons explorer tout ceci dans le reste de ce tutoriel .

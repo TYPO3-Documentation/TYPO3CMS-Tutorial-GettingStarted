@@ -1,8 +1,8 @@
 .. include:: ../Includes.txt
 
 
-Troubleshooting
----------------
+Dépannage
+---------
 
 
 .. toctree::

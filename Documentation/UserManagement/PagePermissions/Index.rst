@@ -3,50 +3,54 @@
 
 .. _page-permissions:
 
-Page Permissions
-^^^^^^^^^^^^^^^^
+Autorisations de pages
+^^^^^^^^^^^^^^^^^^^^^^
 
-:ref:`DB mounts <db-mounts>` are not the whole story about access to pages.
-Users and groups also need to have rights to perform operations on the
-pages like viewing, editing or deleting.
+:ref:`Les montages de base de données<db-mounts>` ne font pas tout dans l'accès aux pages.
+Les utilisateurs et les groupes ont aussi besoin d'avoir des droits
+pour effectuer des opérations sur les pages comme la visualisation, l'édition ou la suppression.
 
-This is managed using the **SYSTEM > Access** module:
+Ceci est géré en utilisant le module **SYSTEM > Accès** :
 
 .. figure:: ../../Images/BackendAccessModule.png
-   :alt: The Access module with ownerships and permissions
+   :alt: Le module d'accès avec propriétaire et permissions
 
 
-Every page has an owner, who is a user, and also a group
-membership. Rights can be assigned to the owner, to the group
-or to everyone. This will be familiar to Unix users.
+Chaque page a un propriétaire, qui est un utilisateur,
+et a aussi une appartenance à un groupe.
+Les droits peuvent être attribués au propriétaire,
+au groupe ou à tout le monde.
+Ce sera familier aux utilisateurs d'Unix.
 
-To change a permission, simply click on the related icon and it
-will switch state. To change the owner or the group of a given
-page, click on the owner's or group's name and a small form appears.
+Pour modifier une permission, cliquez simplement sur l'icône liée
+et elle changer d'état. Pour changer le propriétaire ou le groupe d'une page donnée,
+cliquez sur le nom du groupe ou du propriétaire et un petit formulaire s'affichera.
 
 .. figure:: ../../Images/BackendAccessModuleChangeOwner.png
-   :alt: Changing a page's owner
+   :alt: Modification du propriétaire d'une page
 
 
-It is also possible to change owner, group and permissions
-recursively, even for the whole page tree. Let's place ourselves
-on the home page by clicking on the "Congratulations" page in the
-page tree. Now click again on the "Congratulations" page in the
-*Access* module. You should see the following:
+Il est également possible de changer le propriétaire,
+le groupe et les autorisations de façon récursive,
+même pour l'ensemble de l'arborescence de la page.
+Placons nous sur la page d'accueil en cliquant sur
+la page "Félicitations" dans l'arborescence de page.
+Maintenant, cliquez à nouveau sur la page "Félicitations"
+dans le module *Accès*. Vous devriez voir ce qui suit:
 
 .. figure:: ../../Images/BackendAccessModuleChangeRecursively.png
-   :alt: Preparing for recursively changing the group on the whole page tree
+   :alt: Préparation pour changer récursivement de groupe sur l'ensemble de l'arborescence de la page
 
 
-By choosing "All users" as group and then "Set recursively 3 levels"
-in the "Depth" dropdown, we will assing **all** the pages in the
-page tree to the "All users" group.
+En choisissant «Tous les utilisateurs» comme groupe,
+puis "Définir récursivement 3 niveaux" dans la liste déroulante "profondeur",
+nous assignons toutes les pages de l'arborescence au groupe "Tous les utilisateurs".
 
-Actually this makes a lot of sense, since the "All users" group
-is a sub-group of both "Simple editors" and "Advanced editors".
-This way both groups will have the same permissions on the
-page tree. However since they have different DB mounts, they
-will not have access to the same set of pages.
+En fait, ce changement fait sens, puisque le groupe "Tous les utilisateurs"
+est un sous-groupe de deux groupes «éditeurs simples» et «éditeurs avancés».
+De cette façon, les deux groupes auront les mêmes autorisations sur l'arborescence des pages.
+Toutefois, étant donné qu'ils ont des montages de base de données différents,
+ils n'auront pas accès au même ensemble de pages.
 
 .. figure:: ../../Images/BackendAccessModuleGroupChanged.png
-   :alt: The group has changed for all pages
+   :alt: Le groupe a changé pour toutes les pages

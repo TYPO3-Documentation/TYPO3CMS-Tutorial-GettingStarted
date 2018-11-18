@@ -3,12 +3,13 @@
 
 .. _general-principles:
 
-General principles
+Principes généraux
 ------------------
 
-This chapter aims to give you some important information about
-the general principles of TYPO3 CMS. It is the base
-needed to understand the next chapters.
+
+Ce chapitre a pour object de vous donner des informations
+importantes sur les principes généraux de TYPO3 CMS.
+C'est la base nécessaire pour comprendre les chapitres suivants.
 
 .. toctree::
    :maxdepth: 5
@@ -21,5 +22,4 @@ needed to understand the next chapters.
    PageContent/Index
    Templates/Index
    TopBar/Index
-   ContextMenu/Index
 

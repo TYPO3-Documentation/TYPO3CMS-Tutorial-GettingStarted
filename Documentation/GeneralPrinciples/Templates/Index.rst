@@ -3,60 +3,57 @@
 
 .. _templates:
 
-Templates
+Gabarits
 ^^^^^^^^^
 
-After that brief overview of pages and content elements,
-you might wonder how all this structure is turned into a
-web site, complete with page layout, CSS and JavaScript files.
+Après ce bref aperçu des pages et des éléments de contenu,
+vous pourriez vous demander comment tout cette structure est transformée
+en un site web, avec la mise en page, fichiers CSS et JavaScript.
 
-In TYPO3 CMS this job is achieved using *templates* which should
-be considered as a kind of configuration written in a language called
-*TypoScript*.
+Dans TYPO3 CMS ce travail est réalisé en utilisant des *gabarits*
+qui doivent être considérés comme une sorte de configuration écrite
+dans un langage appelé *TypoScript*.
 
-The **WEB > Template** module provides an overview of the
-TypoScript configuration and allows to work with so-called
-"template records", which is where the TypoScript configuration
-is actually stored.
+Le module **WEB> Template** donne un aperçu de la configuration
+TypoScript et permet de travailler avec ce qu'on appelle "les gabarits",
+stockant la configuration de TypoScript.
 
+Voici un bref aperçu du module *Gabarit* :
 Here is a brief view of the *Template* module:
 
 .. figure:: ../../Images/BackendTemplateModule.png
-   :alt: The Template module showing the hierarchy of TypoScript templates
+   :alt: Le module de gabarits montrant la hiérarchie des gabarits TypoScript.
 
 
-Templating itself is covered by other tutorials:
+Le Templating est couvert par d'autres tutoriels:
 
-- the :ref:`TypoScript in 45 minutes Tutorial <t3ts45:start>` covers the basics of TypoScript
-  and how to related pages and content elements to an actual HTML output.
+- le :ref:`Tutoriel TypoScript en 45 minutes <t3ts45:start>` couvre les bases du TypoScript et
+comment générer du HTML lié aux pages et les éléments de contenu.
 
-- the :ref:`Templating Tutorial <t3templating:start>` guides you through the actual integration
-  of HTML models into your TYPO3 CMS installation using TypoScript.
-
+- le :ref:`Tutoriel Templating <t3templating:start>` vous guide à travers l'intégration de modèles
+ HTML dans votre installation TYPO3 CMS utilisant TypoScript.
 
 .. _facts-about-templates-and-possibilities:
 
-Facts about templates and possibilities
-"""""""""""""""""""""""""""""""""""""""
+Faits et possibilités sur les gabarits
+""""""""""""""""""""""""""""""""""""""
 
-Here is a short list of the possibilities offered by
-TYPO3 CMS templates:
+Voici une courte liste des possibilités offertes par les modèles TYPO3 CMS :
 
-- You can implement *any* design you like, the way you like.
+- Vous pouvez mettre en œuvre *toute* conception que vous aimez, comme vous le souhaitez.
 
-- You can have any number of menu levels.
+- Vous pouvez avoir plusieurs niveau de menu.
 
-- You can have multiple sites, multiple templates.
+- Vous pouvez avoir plusieurs sites, plusieurs modèles.
 
-- You can have pages in any number of languages.
+- Vous pouvez avoir des pages en plusieurs langues.
 
-- You can have multiple content areas (columns) on a page.
+- Vous pouvez avoir plusieurs zones de contenu (colonnes) sur une page.
 
-- You can integrate all kinds of external data sources through plugins
-  written in PHP.
+- Vous pouvez intégrer toutes sortes de sources de données externes grâce à des
+  plugins écrits en PHP.
 
-- You can add any number of web applications to run on various pages in
-  TYPO3.
+- Vous pouvez ajouter de nombreuses applications web pour fonctionner sur différentes page TYPO3.
 
-- You can extend pretty much anything with PHP.
+- Vous pouvez étendre à peu près tout avec PHP.
 
