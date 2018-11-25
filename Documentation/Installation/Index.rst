@@ -17,7 +17,7 @@ to use web server which meets the `minimum system requirements
 <https://get.typo3.org/version/9#system-requirements>`_.
 
 If you do not have a web server and you are running a MS Windows
-on local your machine, you might want to try the `TYPO3Winstaller
+on your local machine, you might want to try the `TYPO3Winstaller
 <http://typo3winstaller.sourceforge.net/>`_, which will install a web
 server and TYPO3 CMS on your computer.
 
