@@ -3,21 +3,20 @@
 
 .. _info-functions-modules:
 
-Info and Functions modules
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Les modules Information et Fonctions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The **WEB > Info** module displays a variety of information
-related to the pages in your web site. It contains several
-functions which can be accessed by the dropdown menu in the
-docheader. For example, the *Localization Overview* lets
-you check quickly which pages are translated and which are
-not. In most Info screens you can change how deep down the
-page tree information should be displayed.
+Le module **WEB > Info** affiche une variété d'informations
+relatives aux pages de votre site web. Il contient plusieurs
+fonctions accessibles depuis le menu déroulant dans le docheader.
+Par exemple, l'*Aperçu des traductions* vous permet de vérifier
+rapidement les pages étant traduites et celles qui ne le sont pas.
+Dans la plupart des écrans d'informations vous pouvez modifier
+la profondeur d'arborescence des informations devant être affichées.
 
 .. figure:: ../../Images/BackendInfoLocalizationOverview.png
-   :alt: Viewing translation status, two levels deep
+   :alt: Affichage de l'état de traduction, sur deux niveaux de profondeur
 
 
-The **WEB > Functions** module also offers several features.
-The most interesting one is the ability to create several
-pages in one go.
+Le module **WEB > Fonctions** propose également plusieurs fonctionnalités.
+La plus intéressante est la possibilité de créer plusieurs pages en une seule fois.

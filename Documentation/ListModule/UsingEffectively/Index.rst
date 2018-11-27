@@ -2,58 +2,62 @@
 
 .. _using-the-list-module-effectively:
 
-Using the List module effectively
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Utiliser efficacement le module Liste
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Choose the **WEB > List** module and place yourself on the
-"Congratulations" page. You should see the following:
+Choisissez le module **WEB > List** et placez-vous sur la page "Congratulations".
+Vous devriez voir ce qui suit:
 
 .. figure:: ../../Images/BackendListModule.png
-   :alt: A typical view from the List module
+   :alt: Une vue typique du module Liste
 
-The List view typically shows the list of records present on the
-current page, grouped by type. The name which appears for each record
-depends on which field is used as label. For "pages", the field is
-"Pagetitle".
+La vue Liste montre généralement la liste des enregistrements
+présents sur la page courante, regroupés par type.
+Le nom qui apparaît pour chaque enregistrement dépend du champ utilisé comme étiquette.
+Pour les pages, le champ affiché est le champ "Titre de la page".
 
-The view offers a lot of action icons:
+La vue Liste propose plusieurs icônes d'action:
 
-#. create a new record (a wizard appears to let choose which type)
+#. créer un nouvel enregistrement (un assistant apparaît pour choisir le type de ce nouvel enregistrement)
 
-#. view the current page (in the frontend)
+#. afficher la page en cours (dans le frontend)
 
-#. edit the current page
+#. modifier la page courante
 
-#. search in the current page
+#. chercher dans la page courante
 
-#. clear the cache of the current page
+#. clairement le cache de la page courante
 
-#. refresh the List view
+#. actualiser la vue "Liste"
 
-#. bookmark this view
+#. mettre en signet cette vue
 
-#. access contextual help
+#. accéder à l'aide contextuelle
 
-#. create a new page record (specifically)
+#. créer une nouvelle page fiche
 
-#. action icons for the record. What icons appear here depends on the record
-   type. If the record is viewable in the frontend (as "pages" are), a "View"
-   icon is displayed. All records will have the next three icons, respectively
-   "Edit", "Hide/unhide" (i.e. visible in the frontend or not) and "Delete".
+#. icônes d'actions pour chaque enregistrement.
+   Les icônes qui apparaissent ici dépendent du type d'enregistrement
+   Si l'enregistrement est visible dans le frontend (comme le sont les "pages"),
+   une icône "visualiser" est affichée.
+   Tous les enregistrements auront les trois icônes suivantes, respectivement "Editer",
+   "Cacher / Montrer" (à savoir visible dans le frontend ou non) et "Supprimer".
 
-   The ellipsis icon (three consecutive dots) expands the icon list to show
-   additional action icons (typically for accessing information, moving around, etc.)
+   L'icône avec 3 points de suspension élargit la liste d'icônes pour afficher
+   les icônes d'action supplémentaires (généralement pour accéder à l'information,
+   la déplacer, etc.)
 
-   Last come the cut and paste icons.
+   En dernier viennent les icônes de couper et coller.
 
-If you want to always see the expanded list of icons, you can check the
-"Extended view" box at the bottom of the view (please scroll down).
+Si vous voulez toujours voir la liste élargie des icônes,
+vous pouvez cocher la case "Vue étendue" au bas de la vue
+(décendez dans le bas de la page).
 
-Also make sure that the "Show clipboard" box is checked, as we will explore
-this next.
+Assurez-vous également que la case "Afficher le presse-papiers" est cochée,
+car nous allons le découvrir prochainement.
 
-If you plan to manage a multilingual web site, you will want to also
-check the "Localization view" box.
+Si vous prévoyez de gérer un site web multilingue,
+vous voudrez également cocher la case "vue de localisation".
 
 .. figure:: ../../Images/BackendListModuleOptions.png
-   :alt: The viewing three options at the bottom of the List module screen
+   :alt: Les trois options d'affichage au bas de l'écran du module "Liste"

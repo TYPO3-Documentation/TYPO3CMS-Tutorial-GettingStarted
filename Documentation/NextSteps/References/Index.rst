@@ -3,18 +3,20 @@
 
 .. _next-steps-references:
 
-References
-^^^^^^^^^^
+Les références
+^^^^^^^^^^^^^^
 
-TSconfig Reference
-  :ref:`TSconfig Reference <t3tsconfig:start>` covers both
-  *Page TSconfig* and *User TSconfig*, with which you are able to change the behavior of
-  the **backend** in parts. You can change labels, hide or show fields, set
-  permissions and default values. This reference explains which options are available in
-  TYPO3 CMS.
+La référence TSconfig (Configuration Typoscript)
+  :ref:`La référence TSconfig <t3tsconfig:start>` couvre à la fois
+  la *TSconfig des pages* et la *TSconfig des utilisateurs*,
+  avec lesquelles vous êtes en mesure de changer en partie
+  le comportement du backend.
+  Vous pouvez changer les étiquettes, masquer ou afficher les champs,
+  définir des autorisations et des valeurs par défaut.
+  Cette référence explique quelles options sont disponibles dans TYPO3 CMS.
 
-TypoScript Reference
-  The :ref:`TypoScript Reference <t3tsref:start>` describes the different functions
-  and objects which can be used to configure the **frontend** output, including the
-  full page template and the rendering of individual content elements according to
-  their type.
+La Référence TypoScript
+  Le :ref:`référence TypoScript <t3tsref:start>` décrit
+  les différentes fonctions et objets qui peuvent être utilisés
+  pour configurer la sortie en **frontend**, y compris le gabarit complet
+  de la page et le rendu individuel des éléments de contenu selon leur type.

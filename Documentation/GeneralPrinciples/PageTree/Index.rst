@@ -3,126 +3,127 @@
 
 .. _page-tree:
 
-Page tree
-^^^^^^^^^
+L'arborescence de page
+^^^^^^^^^^^^^^^^^^^^^^
 
-The page tree represents the hierarchical structure of your pages. In
-most cases this corresponds exactly to the navigation structure
-of your web site. The page tree can be expanded by clicking
-the little arrows on the left of the items.
+L'arborescence de page représente la structure hiérarchique de vos pages.
+Dans la plupart des cas, cela correspond exactement à la structure de navigation
+de votre site web.
+L'arborescence peut être dépliée en cliquant sur les petites flèches
+sur la gauche des éléments.
 
-For example, click on the arrow next to the page called "About".
-Your page tree should look like this:
+Par exemple, cliquez sur la flèche à côté de la page intitulée «À propos».
+Votre arborescence devrait ressembler à ceci:
 
 .. figure:: ../../Images/BackendPageTree.png
-   :alt: The page tree with the "About" page expanded
+   :alt: L'arborescence de la page "A propos" est dépliée
 
+Jetez un oeil simultanément à la navigation dans le frontend.
+Cliquez sur l'item **À propos** en haut dans le menu principal puis sélectionnez
+TYPO3 à partir du sous-menu:
 
 Simultaneously have a look at the navigation in the frontend. Click on
 **About** item in the main menu on top and then select **TYPO3** from the sub-menu:
 
 .. figure:: ../../Images/FrontendAboutPage.png
-   :alt: Frontend of the Introduction Package
+   :alt: Frontend du paquet d'Introduction
 
+Comme vous le voyez, le menu principal en haut de votre site correspond
+aux pages du premier niveau dans l'arborescence.
+Le sous-menu de la page **À propos** en frontend correspond aux entrées
+sous **À propos** dans l'arborescence.
 
-As you see the main menu on top of your web site corresponds to the first
-level menu pages in the page tree. The sub-menu of the **About** page
-in the frontend corresponds to the entries beneath **About** in the page tree.
+La page avec l'icône du gobe terrestre représente la racine de votre site Web.
+Il peut y avoir plusieurs sites Web par l'installation de TYPO3.
+Le nœud supérieur avec le logo TYPO3 est un conteneur spécial
+utilisé pour stocker des informations très générales.
 
-The page with the world icon represents the root of your web site.
-There may be several web sites per TYPO3 installation.
-The top node with the TYPO3 logo is a special container which is used
-to store very general information.
+Les modules peuvent afficher l'arborescence de la page ou non.
+La présence de l'arborescence indique que le module réagit
+à la sélection d'une page dans cette dernière.
 
-Modules may display the page tree or not. The presence of the page tree
-implies that the module reacts to the selection of a page in the page tree.
+Un clic sur le titre d'une page ouvre la page dans la zone de contenu à droite.
+Le survol de l'icône d'une page affiche son identifiant interne.
 
-A click on the page title opens that page in the content area on
-the right. Hovering over the icon of a page will display its internal id.
-
-A click on the page icon will open the context menu. Alternatively you
-can right click the whole page title.
+Un clic sur l'icône d'une page va ouvrir le menu contextuel.
+Sinon, vous pouvez faire un clic droit sur le titre de la page.
 
 .. figure:: ../../Images/BackendContextMenu.png
-   :alt: Page tree with opened context menu
+   :alt: L'arborescence avec le menu contextuel ouvert
 
 
 .. _the-context-menu:
 
-The context menu
-""""""""""""""""
+Le menu contextuel
+""""""""""""""""""
 
-The context menu of a page can be used to access most of the
-page-related functions the fast way. Here is what these options do:
+Le menu contextuel d'une page peut être utilisé pour accéder rapidement à la plupart
+des fonctions liées à la page. Voici ce que font ces options:
 
-- Show: Opens the page you clicked in the browser (frontend)
+- Afficher: Ouvre la page sur la quelle vous cliquez dans le navigateur (frontend)
 
-- Disable: Disables the page (so it isn't accessible from the frontend
-  anymore)
+- Désactiver: désactive la page (elle n'est donc plus accessible à partir du frontend)
 
-- Edit: Lets you edit the page properties
+- Edit: Vous permet de modifier les propriétés de la page
 
-- Info: Displays information about the page
+- Info: Affiche des informations sur la page
 
-- History/Undo: Shows the change history of the page (who did which
-  changes when)
+- Histoirique/Annuler: Affiche l'historique des modifications de la page (qui a fait ce changement et quand)
 
-- Page Actions: Action related to the selected page
+- Page Actions: Action liées à la page sélectionnée
 
-  - New: Lets you create a new page or new content
+  - Nouveau: vous permet de créer une nouvelle page ou un nouveau contenu
 
-  - Cut: Cuts the page
+  - Couper: Coupe la page
 
-  - Copy: Copies the page
+  - Copier: Copie la Page
 
-  - Delete: Deletes the page
+  - Supprimer: Supprime la page
 
-- Branch Actions: Actions related to the whole branch
+- Branch Actions: Actions liées à l'ensemble de la branche
 
-  - Mount as treeroot: Temporarily makes the selected page being the
-    treeroot
+  - Monter comme racine: rend temporairement la page sélectionnée, page racine
 
-  - Expand Branch: Same as clicking on a "closed" the arrow
+  - Développez la branche: developpe la branche inférieure de la page sélectionnée
 
-  - Collapse Branch: Same as clicking on an "open" arrow
+  - Replier la branche: replie la branche inférieure de la page sélectionnée
 
-  - Export to .t3d: Opens the export tool and preselects the selected page
+  - Exporter vers .t3d: Ouvre l'outil d'exportation et présélectionne la page sélectionnée
 
-  - Import from .t3d: Opens the import tool and preselects the selected
-    page
+  - Importer à partir de .t3d: Ouvre l'outil d'importation et présélectionne la page sélectionnée
 
 
 .. _the-view-module:
 
-The View module
-"""""""""""""""
+Le module Vue
+"""""""""""""
 
-It is also possible to view a page directly in the backend, by selecting the View module,
-which also offers the possibility to preview a page in different screen sizes, thanks
-to the drop-down menu at the top.
+Il est également possible d'afficher une page directement dans le backend,
+en sélectionnant le module Vue, qui offre également la possibilité de prévisualiser
+une page dans les différentes tailles d'écran, grâce au menu déroulant en haut.
 
 .. figure:: ../../Images/BackendViewModule.png
-   :alt: Viewing a page directly in the backend
+   :alt: Affichage d'une page directement dans le backend
 
 
 .. _collapse-page-tree:
 
-Collapsing the page tree
-""""""""""""""""""""""""
+Réduire l'arborescence
+""""""""""""""""""""""
 
-The page tree can be collapsed to gain screen space, by clicking on the handle
-on its right-hand side.
+L'arborescence peut être réduite, en cliquant sur la poignée sur sa droite,
+pour gagner de l'espace à l'écran.
 
 .. figure:: ../../Images/BackendCollapsePageTree.png
-   :alt: Click there to collpase the page tree
+   :alt: Cliquez là pour réduire l'arborescence des pages
 
 
 .. _editing-pages:
 
-Editing pages
+Édition de pages
 """""""""""""
 
-Modifying an existing page or adding a new one is covered in the
-:ref:`Editors Tutorial <t3editors:pages>`.
+La modification d'une page existante et l'ajout d'une nouvelle page sont abordées dans le
+:ref:`Tutoriel Editeurs <t3editors:pages>`.
 
-Next we will look at how content is placed on pages.
+Ensuite, nous allons voir comment le contenu est placé sur les pages.
