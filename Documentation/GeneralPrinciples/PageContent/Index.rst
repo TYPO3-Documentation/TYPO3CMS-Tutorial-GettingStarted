@@ -3,8 +3,9 @@
 
 .. _page-content:
 
-Page content
-^^^^^^^^^^^^
+============
+Page Content
+============
 
 Let us now see how content is structured in a TYPO3 CMS web site.
 First of all we shall navigate to a particular page:
@@ -55,9 +56,6 @@ with some action icons. Here is a quick overview:
 #. a preview of the element's content (will vary depending on the type)
 #. insert a new content element below the current one
 
-
-Editing content
-"""""""""""""""
 
 Modifying existing content or adding new content is covered in the
 :ref:`Editors Tutorial <t3editors:content-elements>`.
