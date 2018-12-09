@@ -1,3 +1,7 @@
+\|
+`Contributing <CONTRIBUTING.md>`__  \|
+`Help & Support <https://typo3.org/help>`__ \|
+
 ================================
 TYPO3 - Getting Started Tutorial
 ================================
