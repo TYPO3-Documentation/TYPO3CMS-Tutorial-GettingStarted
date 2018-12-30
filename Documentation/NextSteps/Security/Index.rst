@@ -12,4 +12,4 @@ incidents. They review them and consider their impact. Security advisories
 are regularly published.
 
 More information about security can be found in the
-:ref:`Security Guide <t3security:start>`.
+:ref:`t3api:security`.
