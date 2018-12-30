@@ -67,9 +67,11 @@ future reference.
 
 **Table of Contents**
 
+see :ref:`sitemap`
+
 .. toctree::
    :maxdepth: 5
-   :titlesonly:
+   :hidden:
    :glob:
 
    Introduction/Index
@@ -82,4 +84,5 @@ future reference.
    OtherBackendModules/Index
    Troubleshooting/Index
    NextSteps/Index
+   Sitemap
    Targets
