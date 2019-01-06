@@ -47,8 +47,6 @@ by Francois Suter.
 Feedback
 ^^^^^^^^
 
-For general questions about the documentation get in touch by writing
-to `documentation@typo3.org <mailto:documentation@typo3.org>`_.
 
 If you find a bug in this manual, please be so kind as to check the
 online version on https://docs.typo3.org/typo3cms/GettingStartedTutorial/.
@@ -56,7 +54,11 @@ From there you can hit the "Edit me on GitHub" button in the top right corner
 and submit a pull request via GitHub. Alternatively you can just file an issue
 using the bug tracker: https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues.
 
+You can also contact the Documentation Team directly in the 
+`Slack <https://my.typo3.org/about-mytypo3org/slack/>`__
+channel **#typo3-documentation**.
+
 Maintaining high quality documentation requires time and effort
 and the TYPO3 Documentation Team always appreciates support.
-If you want to support us, please join the documentation
-mailing list/forum (http://forum.typo3.org/index.php/f/44/).
+If you want to support us, please join us on Slack or contact
+us via email:  documentation@typo3.org.
