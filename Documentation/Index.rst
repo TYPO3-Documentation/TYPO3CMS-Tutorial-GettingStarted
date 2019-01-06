@@ -17,7 +17,7 @@ Getting Started Tutorial
       2004-2018
 
 :Author: 
-      Documentation Team & Community
+      Documentation Team & community
 
 :Email:
       documentation@typo3.org
@@ -28,7 +28,6 @@ Getting Started Tutorial
 
 
 The content of this document is related to TYPO3 CMS,
-
 a GNU/GPL CMS/Framework available from `typo3.org
 <https://typo3.org/>`_ .
 
@@ -43,7 +42,7 @@ Official documentation
    It has been approved by the TYPO3 Documentation Team following a peer-
    review process. 
 
-   If you find an error or something is missing, please `Open an issue
+   If you find an error or something is missing, please `create an issue
    <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/new>`__
    or make the change yourself. You can find out more about how to do
    this in `CONTRIBUTING.md <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/blob/latest/CONTRIBUTING.md>`__
