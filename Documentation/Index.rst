@@ -16,7 +16,7 @@ Getting Started Tutorial
       doc_tut_quickstart
 
 :Version:
-      1.0.1
+      4.5 (based on TYPO3 version 4.5)
 
 :Language:
       en
