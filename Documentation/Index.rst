@@ -14,7 +14,7 @@ Getting Started Tutorial
       en
 
 :Copyright:
-      2004-2018
+      2004-2019
 
 :Author: 
       Documentation Team & community
