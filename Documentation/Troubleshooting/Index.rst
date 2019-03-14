@@ -10,6 +10,5 @@ Troubleshooting
    :titlesonly:
    :glob:
 
-   HumanReadableUrls/Index
    ImageProcessing/Index
 
