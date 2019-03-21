@@ -3,8 +3,9 @@
 
 .. _backend-and-frontend:
 
+====================
 Backend and Frontend
-^^^^^^^^^^^^^^^^^^^^
+====================
 
 TYPO3 CMS is divided into two areas - the *backend* and the *frontend*.
 The *frontend* is the website that is produced by TYPO3 CMS. It is

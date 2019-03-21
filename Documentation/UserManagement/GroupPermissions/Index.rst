@@ -4,8 +4,9 @@
 .. _permissions:
 .. _setting-up-user-permissions:
 
-Setting up user permissions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================
+Setting up User Permissions
+===========================
 
 We will look into setting up user permissions by editing the
 "Advanced editors" user group.
@@ -16,7 +17,7 @@ We will look into setting up user permissions by editing the
 .. _general:
 
 General
-"""""""
+=======
 
 On the "General" tab you can edit the group's title and write a
 short description. As mentioned before, permissions from sub-groups
@@ -37,7 +38,7 @@ will be inherited by the current group.
 .. _include-access-lists:
 
 Access Lists
-""""""""""""
+============
 
 The "Access Lists" tab is where most permissions are defined.
 All fields are detailed below, one by one.
@@ -46,7 +47,7 @@ All fields are detailed below, one by one.
 .. _modules:
 
 Modules
-~~~~~~~
+-------
 
 The first field is used to define which modules members of the group
 should have access to. Obviously this will influence what appears
@@ -60,7 +61,7 @@ in the module menu.
 .. _tables-modify:
 
 Tables
-~~~~~~
+------
 
 The second field allows to select the tables that the members of the
 groups are allowed to see ("Tables (listing)"). And the next field is
@@ -72,8 +73,8 @@ the same but for the tables that can be modified ("Tables (modify)").
 
 .. _page-types:
 
-Page types
-~~~~~~~~~~
+Page Types
+----------
 
 This field restricts which page types are available to members
 of the group. Explanations about the various page types are
@@ -86,7 +87,7 @@ found in the Editors Guide.
 .. _allowed-excludefields:
 
 Allowed Excludefields
-~~~~~~~~~~~~~~~~~~~~~
+---------------------
 
 When defining table fields in TYPO3 CMS, it is possible to mark them
 as "excluded". Such fields will never be visible to backend users
@@ -107,8 +108,8 @@ a selection of fields by checking some boxes.
 
 .. _explicitly-allow-deny-field-values:
 
-Explicitly allow/deny field values
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Explicitly Allow or Deny Field Values
+-------------------------------------
 
 For some fields, it is possible to define fine-grained permissions
 on the actual values allowed for those fields. This is in particular
@@ -124,8 +125,8 @@ making changes.
    :alt: Setting permissions for values of the content type field
 
 
-Limit to languages
-~~~~~~~~~~~~~~~~~~
+Limit to Languages
+------------------
 
 In multilingual web site, it is also possible to restrict users
 to only some languages. This can be achieved using the last field
@@ -137,8 +138,8 @@ of the "Access Lists" tab.
 
 .. _mounts:
 
-Mounts and workspaces
-"""""""""""""""""""""
+Mounts and Workspaces
+=====================
 
 The next tab contains very important fields which define over
 which part of the page tree and the file system the members of
@@ -151,7 +152,7 @@ workspaces can be found in the :ref:`related extension manual <workspaces:start>
 .. _db-mounts:
 
 DB Mounts
-~~~~~~~~~
+---------
 
 DB mounts (database mounts) are used to restrict a user's access to
 only some parts of the page tree. Each mount corresponds to a page in
@@ -171,7 +172,7 @@ user. This record can be found in the "List" module on the root page and in the
 .. _file-mounts:
 
 File Mounts
-~~~~~~~~~~~
+-----------
 
 File mounts are similar but for access to files. The main difference
 is that file mount records must be defined by the administrator first.
@@ -201,8 +202,8 @@ user. This record can be found in the "List" module on the root page and in the
 
 .. _file-permissions:
 
-Fileoperation permissions
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Fileoperation Permissions
+-------------------------
 
 Giving access to File mounts is not the whole story. Specific operations
 on files and directories must be allowed. This is what the next field
