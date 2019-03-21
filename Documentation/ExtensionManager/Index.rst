@@ -4,8 +4,9 @@
 .. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
+=====================
 The Extension Manager
----------------------
+=====================
 
 TYPO3 CMS has many built-in features but even more features are
 available via extensions. Actually the whole of TYPO3 CMS itself
@@ -47,8 +48,8 @@ the actions to get a help text.
 
 .. _install-extension:
 
-Installing a new extension
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Installing a New Extension
+==========================
 
 Let's look briefly at the extension installation process. Use the menu
 in the docheader to switch to the "Get extensions" view:

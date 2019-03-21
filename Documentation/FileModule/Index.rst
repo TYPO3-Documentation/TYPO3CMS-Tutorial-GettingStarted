@@ -4,8 +4,9 @@
 .. _the-file-module:
 .. _the-file-module-or-image-archives:
 
+===============
 The File module
----------------
+===============
 
 The **FILE > Filelist** module is where you can manage
 all the media associated with the TYPO3 CMS web site.
@@ -14,8 +15,8 @@ all the media associated with the TYPO3 CMS web site.
 .. _managing-files:
 .. _managing-files-in-typo:
 
-Managing files in TYPO3 CMS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Managing Files in TYPO3 CMS
+===========================
 
 This module is very similare to the **WEB > List** module.
 It displays a navigation tree, which corresponds to the file
@@ -53,8 +54,8 @@ Using the action icons, files can be renamed or replaced
 
 .. _uploading-files:
 
-Uploading new files
-"""""""""""""""""""
+Uploading New Files
+-------------------
 
 You can upload files to a given folder by using the context menu
 or to the current directory by using the action icon in the docheader.

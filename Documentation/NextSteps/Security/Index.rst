@@ -4,7 +4,7 @@
 .. _next-steps-security:
 
 =====================
-Keep security in mind
+Keep Security in Mind
 =====================
 
 Security is taken very seriously by the developers of TYPO3 CMS. The

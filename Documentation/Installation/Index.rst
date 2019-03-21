@@ -28,7 +28,7 @@ Make sure to have your database credentials ready.
 .. _installing-typo3-cms-base-system:
 .. _installing-the-introduction-package:
 
-Installing TYPO3 CMS base system
+Installing TYPO3 CMS Base System
 ================================
 
 First you will need to download and install the TYPO3 CMS Package.

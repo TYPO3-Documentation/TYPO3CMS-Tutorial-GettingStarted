@@ -2,8 +2,9 @@
 
 .. _clipboard:
 
-The clipboard
-^^^^^^^^^^^^^
+=============
+The Clipboard
+=============
 
 Every time a record is copied in the TYPO3 CMS backend,
 it appears in the clipboard found at the bottom of the List module
