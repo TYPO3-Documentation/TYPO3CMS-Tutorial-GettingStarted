@@ -3,8 +3,9 @@
 
 .. _page-tree:
 
-Page tree
-^^^^^^^^^
+=========
+Page Tree
+=========
 
 The page tree represents the hierarchical structure of your pages. In
 most cases this corresponds exactly to the navigation structure
@@ -49,8 +50,8 @@ can right click the whole page title.
 
 .. _the-context-menu:
 
-The context menu
-""""""""""""""""
+The Context Menu
+================
 
 The context menu of a page can be used to access most of the
 page-related functions the fast way. Here is what these options do:
@@ -94,8 +95,8 @@ page-related functions the fast way. Here is what these options do:
 
 .. _the-view-module:
 
-The View module
-"""""""""""""""
+The View Module
+===============
 
 It is also possible to view a page directly in the backend, by selecting the View module,
 which also offers the possibility to preview a page in different screen sizes, thanks
@@ -107,8 +108,8 @@ to the drop-down menu at the top.
 
 .. _collapse-page-tree:
 
-Collapsing the page tree
-""""""""""""""""""""""""
+Collapsing the Page Tree
+========================
 
 The page tree can be collapsed to gain screen space, by clicking on the handle
 on its right-hand side.
@@ -119,8 +120,8 @@ on its right-hand side.
 
 .. _editing-pages:
 
-Editing pages
-"""""""""""""
+Editing Pages
+=============
 
 Modifying an existing page or adding a new one is covered in the
 :ref:`Editors Tutorial <t3editors:pages>`.
