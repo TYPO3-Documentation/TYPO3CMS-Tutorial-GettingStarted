@@ -23,8 +23,8 @@ Video
 
 .. youtube:: nl0mY6S1Pdg
 
-   Introduction to TYPO3 8 LTS for Editors
 
+Link: `Introduction to TYPO3 8 LTS for Editors <https://www.youtube.com/watch?v=nl0mY6S1Pdg>`__
 
 .. important::
 
