@@ -4,8 +4,9 @@
 .. _mass-editing:
 .. _selective-editing:
 
-Mass editing
-^^^^^^^^^^^^
+============
+Mass Editing
+============
 
 The *List* module also makes it possible to display more information
 about each record and to edit several records at a time.
@@ -24,8 +25,8 @@ list (4).
 
 .. _editing-all-headers:
 
-Editing all headers
-"""""""""""""""""""
+Editing all Headers
+===================
 
 To edit the headers of all records in one go,
 simply click the little pencil next to the "Header" label:

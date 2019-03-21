@@ -3,8 +3,9 @@
 
 .. _templates:
 
+=========
 Templates
-^^^^^^^^^
+=========
 
 After that brief overview of pages and content elements,
 you might wonder how all this structure is turned into a
@@ -36,8 +37,8 @@ Templating itself is covered by other tutorials:
 
 .. _facts-about-templates-and-possibilities:
 
-Facts about templates and possibilities
-"""""""""""""""""""""""""""""""""""""""
+Facts About Templates and Possibilities
+=======================================
 
 Here is a short list of the possibilities offered by
 TYPO3 CMS templates:

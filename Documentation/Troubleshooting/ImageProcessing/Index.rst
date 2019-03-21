@@ -3,8 +3,9 @@
 .. _image-processing:
 .. _note-on-image-processing-in-typo:
 
-A note on image processing
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+==========================
+A Note on Image Processing
+==========================
 
 TYPO3 CMS relies on ImageMagick or GraphicsMagic to generate on the fly
 images matching the specified sizes. If you do not see all expected images

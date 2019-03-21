@@ -3,8 +3,9 @@
 
 .. _system-modules:
 
+==============
 System Modules
-^^^^^^^^^^^^^^
+==============
 
 In the :ref:`User Management <user-management>` chapter we
 already visited the *Access* and *Backend Users* module. Here is
@@ -14,7 +15,7 @@ a brief presentation of the other modules.
 .. _system-modules-install:
 
 Install
-"""""""
+=======
 
 The Install Tool is presented in the :ref:`Installation Guide <t3install:the-install-tool>`.
 It can be accessed directly from the TYPO3 CMS backend.
@@ -23,7 +24,7 @@ It can be accessed directly from the TYPO3 CMS backend.
 .. _system-modules-log:
 
 Log
-"""
+===
 
 The TYPO3 CMS backend traces a number of actions performed by users:
 login, cache clearing, database entries (creation, update, deletion),
@@ -36,8 +37,8 @@ available to help digging into this data.
 
 .. _system-modules-dbcheck:
 
-DB check
-""""""""
+DB Check
+========
 
 The *Database (DB) Check* module offers four functions related
 to the database and its content.
@@ -67,7 +68,7 @@ Check and update global reference index
 .. _system-modules-configuration:
 
 Configuration
-"""""""""""""
+=============
 
 The *Configuration* module can be used to view the various
 configuration arrays used by TYPO3 CMS. It is not the goal
@@ -84,7 +85,7 @@ in the Install Tool.
 .. _system-modules-reports:
 
 Reports
-"""""""
+=======
 
 The *Reports* module contains information and diagnostic data
 about your TYPO3 CMS installation. It is particularly worthwhile
