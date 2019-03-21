@@ -3,8 +3,9 @@
 
 .. _page-permissions:
 
+================
 Page Permissions
-^^^^^^^^^^^^^^^^
+================
 
 :ref:`DB mounts <db-mounts>` are not the whole story about access to pages.
 Users and groups also need to have rights to perform operations on the

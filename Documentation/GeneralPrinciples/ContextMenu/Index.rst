@@ -3,8 +3,9 @@
 
 .. _context-menu:
 
-The contextual menus
-^^^^^^^^^^^^^^^^^^^^
+====================
+The Contextual Menus
+====================
 
 While learning about the :ref:`page tree <page-tree>`,
 you already saw that you could get a contextual menu

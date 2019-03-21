@@ -3,8 +3,9 @@
 
 .. _groups:
 
+======
 Groups
-^^^^^^
+======
 
 While it is possible to change user permissions on a user basis,
 it is strongly recommended to use groups instead. Just as for users,

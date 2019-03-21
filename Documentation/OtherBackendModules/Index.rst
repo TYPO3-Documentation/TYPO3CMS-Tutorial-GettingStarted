@@ -3,8 +3,9 @@
 
 .. _backend-modules:
 
-Other backend modules
----------------------
+=====================
+Other Backend Modules
+=====================
 
 The previous chapter led you through several of the
 modules provided by the TYPO3 CMS backend. This chapter

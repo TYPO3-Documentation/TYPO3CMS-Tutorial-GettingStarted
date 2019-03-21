@@ -2,8 +2,9 @@
 
 .. _user-management-backend-users:
 
-Backend users
-^^^^^^^^^^^^^
+=============
+Backend Users
+=============
 
 Managing backend users is best done using the **SYSTEM > Backend users**
 module.
@@ -23,7 +24,7 @@ process. Let's take a look at what these other users can do.
 .. _user-management-simple-editor:
 
 "simple\_editor"
-""""""""""""""""
+================
 
 The simplest way to check out another user (when one is an
 administrator) is to use the "simulate user" feature:
@@ -54,7 +55,7 @@ normally reads "Logout").
 .. _user-management-advanced-editor:
 
 "advanced\_editor"
-""""""""""""""""""
+==================
 
 Now try doing the same with the "advanced\_editor". You should
 see the following after switching user:
@@ -78,7 +79,7 @@ for a good exercise for changing user rights in the next chapters.
 .. _user-management-system-maintainers:
 
 System Maintainers
-""""""""""""""""""
+==================
 
 Introduced in TYPO3 CMS 9, there is a special permission for Backend Users.
 The first created user, during installation of TYPO3, is already marked as a

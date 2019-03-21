@@ -4,8 +4,9 @@
 .. _advanced_clipboard_usage:
 .. _the-numeric-clipboard-pads-managing-many-elements:
 
-Advanced clipboard usage
-^^^^^^^^^^^^^^^^^^^^^^^^
+========================
+Advanced Clipboard Usage
+========================
 
 Please move to the "TYPO3" page below the "About" page
 and select one of the "numeric pads":
