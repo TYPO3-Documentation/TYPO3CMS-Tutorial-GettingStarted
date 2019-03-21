@@ -5,7 +5,7 @@
 .. _the-file-module-or-image-archives:
 
 ===============
-The File module
+The File Module
 ===============
 
 The **FILE > Filelist** module is where you can manage
