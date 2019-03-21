@@ -3,8 +3,9 @@
 .. _setup-user:
 .. _creating-a-new-user-for-the-introduction-site:
 
-Setting up a user
-^^^^^^^^^^^^^^^^^
+=================
+Setting up a User
+=================
 
 To explore the last details of setting up a backend user
 - and as an exercise - this chapter will guide you
@@ -14,8 +15,8 @@ interesting, we will also create a new user group.
 
 .. _step-create-a-new-group:
 
-Step 1: create a new group
-""""""""""""""""""""""""""
+Step 1: Create a New Group
+==========================
 
 Let's create a new user group using the *Access* module.
 
@@ -55,8 +56,8 @@ to get back to the group list.
 
 .. _step-create-the-user:
 
-Step 2: create the user
-"""""""""""""""""""""""
+Step 2: Create the User
+=======================
 
 Similarly to what we have done before, let's create a new
 user using the *Access* module.

@@ -10,7 +10,7 @@ Introduction
 
 .. _about-this-document:
 
-About this document
+About This Document
 ===================
 
 This document is an introduction to the basic principles of TYPO3 CMS. The
@@ -44,7 +44,7 @@ Ask on **Slack** for help:
 
 .. _what-s-new:
 
-What's new
+What's New
 ==========
 
 The current version is updated to reflect the changes in TYPO3 CMS 7.6 LTS.

@@ -3,8 +3,9 @@
 
 .. _top-bar:
 
-The top bar
-^^^^^^^^^^^
+===========
+The Top Bar
+===========
 
 The top bar contains some information and additional menus.
 

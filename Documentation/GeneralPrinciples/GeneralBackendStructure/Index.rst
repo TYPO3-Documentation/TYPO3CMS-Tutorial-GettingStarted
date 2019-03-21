@@ -4,8 +4,9 @@
 .. _docheader:
 .. _general-backend-structure:
 
+=========================
 General Backend Structure
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 Here is a complete overview of the general backend structure.
 
