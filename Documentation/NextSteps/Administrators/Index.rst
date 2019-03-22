@@ -8,19 +8,68 @@
 For Integrators
 ===============
 
-What Is An Integrator?
-======================
 
-The TYPO3 Association defines a `TYPO3 CMS Certified Integrator <https://typo3.org/certification/integrator/>`__
-as follows:
+.. tip::
 
-"The TYPO3 CMS Certified Integrator develops the template for a website,
-configures all the necessary extensions and creates the access rights
-for backend users. The TYPO3 CMS Certified Integrator does not install
-TYPO3 on the web server and does not program extensions.
+   Read `TYPO3 CMS Certified Integrator <https://typo3.org/certification/integrator/>`__
+   to learn what the TYPO3 Association defines as integrator.
 
-The TYPO3 CMS Certified Integrator knows how to configure the
-pre-installed TYPO3 using the installer."
+If you want to learn how to professionally setup or maintain TYPO3 websites,
+you can look at the following resources:
+
+.. _site-handling:
+
+Site and Language Handling
+==========================
+
+You can:
+
+* setup several websites in one TYPO3 installation
+* setup several languages for each site
+
+Before TYPO3, it was necessary to setup the language configuration for each
+site manually with TypoScript.
+
+TYPO3 9 comes with a powerful site handling module which is handled in
+:ref:`t3api:sitehandling`. This includes, setting up sites, language configuration
+and URL handlling. Find out more about URL handling in the next section.
+
+Even if you only use one language or only one site, it is recommended to setup
+the site configuration. You can find it in the backend under :guilabel:`SITE MANAGEMENT`:
+:guilabel:`Sites`.
+
+.. image:: ../../Images/SiteManagement.png
+   :class: with-shadow
+
+
+.. _human-readable-urls:
+.. _human-readable-url-s:
+
+Human-readable URLs
+===================
+
+By default TYPO3 CMS identifies the page which should be delivered by the "?id"
+parameter. Just enter *http://www.your-site.example.org/index.php?id=33* to get
+the "Overview" page of the Introduction Package.
+
+This is convenient but not good for visitors nor for proper referencing.
+
+Starting with version 9.5, human-readable URLs are created automatically by TYPO3.
+This functionality is available for pages, languages and also extensions.
+The documentation is available in "TYPO3 Explained" :ref:`t3api:sitehandling`.
+
+ Additional other tutorials like
+`TYPO3 Worx: TYPO3 Site Management and Routing <https://typo3worx.eu/2018/10/typo3-site-management-and-routing/>`__
+and
+`TYPO3 Worx: TYPO3 Routing: Extensions and Enhancers <https://typo3worx.eu/2018/12/typo3-routing-extensions-and-enhancers/>`__
+are also available.
+
+For previous TYPO3 versions, this functionality was provided by third party extensions like
+`realurl <https://extensions.typo3.org/extension/realurl/>`__.
+
+Thus, the URL as mentioned earlier becomes for example
+*http://www.your-site.example.org/content-examples/overview/*.
+
 
 
 Creating Your Own Sitepackage (Theme)
