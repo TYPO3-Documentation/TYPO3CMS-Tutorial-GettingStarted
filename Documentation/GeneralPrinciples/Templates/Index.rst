@@ -24,6 +24,7 @@ Here is a brief view of the *Template* module:
 
 .. figure:: ../../Images/BackendTemplateModule.png
    :alt: The Template module showing the hierarchy of TypoScript templates
+   :class: with-shadow
 
 
 Templating itself is covered by other tutorials:
@@ -31,7 +32,8 @@ Templating itself is covered by other tutorials:
 - the :ref:`TypoScript in 45 minutes Tutorial <t3ts45:start>` covers the basics of TypoScript
   and how to relate pages and content elements to an actual HTML output.
 
-- the :ref:`Templating Tutorial <t3templating:start>` guides you through the actual integration
+- the :ref:`t3sitepackage:start` and the :ref:`Templating Tutorial <t3templating:start>` guides you
+  through the actual integration
   of HTML models into your TYPO3 CMS installation using TypoScript.
 
 
@@ -47,7 +49,8 @@ TYPO3 CMS templates:
 
 - You can have any number of menu levels.
 
-- You can have multiple sites, multiple templates.
+- You can have multiple sites, multiple templates. (Since TYPO3 9, the configuration
+  of sites is handled in the site module, see :ref:`sitehandling` in "TYPO3 Explained")
 
 - You can have pages in any number of languages.
 

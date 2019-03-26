@@ -7,8 +7,11 @@
 Getting Started Tutorial
 ========================
 
+.. use |release| to automatically show release
+
 :Version:
-      |release|
+      9.5 (other: `8.7 <https://docs.typo3.org/typo3cms/GettingStartedTutorial/8.7/>`__
+      | `7.6 <https://docs.typo3.org/typo3cms/GettingStartedTutorial/7.6/>`__)
 
 :Language:
       en
@@ -16,8 +19,8 @@ Getting Started Tutorial
 :Copyright:
       2004-2019
 
-:Author: 
-      Documentation Team & community
+:Authors:
+      TYPO3 community (see :ref:`credits`)
 
 :Email:
       documentation@typo3.org
@@ -26,53 +29,60 @@ Getting Started Tutorial
       Open Publication License available from `www.opencontent.org/openpub/
       <http://www.opencontent.org/openpub/>`_
 
+:Status:
+      Tested and reviewed for TYPO3 9.5.5 on April 11, 2019
 
-The content of this document is related to TYPO3 CMS,
-a GNU/GPL CMS/Framework available from `typo3.org
-<https://typo3.org/>`_ .
+
+**TYPO3**
+
+   The content of this document is related to TYPO3 CMS,
+   a GNU/GPL CMS/Framework available from `typo3.org
+   <https://typo3.org/>`_ .
 
 
 **About this manual:**
 
-The official tutorial to discover the main features and concepts of TYPO3 CMS.
-It is based on the Introduction Package.
+   The official tutorial to discover the main features and concepts of TYPO3 CMS.
+   It is based on the Introduction Package.
 
 
 **Official documentation:**
 
-This document is included as part of the official TYPO3 documentation.
-It has been approved by the TYPO3 Documentation Team following a peer-
-review process. 
+   This document is included as part of the official TYPO3 documentation.
 
-If you find an error or something is missing, please `create an issue
-<https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/new>`__
-or make the change yourself. You can find out more about how to do
-this in `CONTRIBUTING.md <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/blob/latest/CONTRIBUTING.md>`__
-
-You can also contact the Documentation Team directly in the 
-`Slack <https://my.typo3.org/about-mytypo3org/slack/>`__
-channel **#typo3-documentation** or via email: documentation@typo3.org.
-
+   If you find an error or something is missing, please:
+   `Report a Problem <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/new>`__
 
 **Tutorial**
 
-This document is a tutorial. Tutorials are designed to be step-by-step
-instructions specifically created to walk a beginner through a
-particular task from beginning to end. To facilitate effective
-learning, tutorials provide examples to illustrate the subjects they
-cover. In addition, tutorials provide guidance on how to avoid common
-pitfalls and highlight key concepts that should be remembered for
-future reference.
+   This document is a tutorial. Tutorials are designed to be step-by-step
+   instructions specifically created to walk a beginner through a
+   particular task from beginning to end. To facilitate effective
+   learning, tutorials provide examples to illustrate the subjects they
+   cover. In addition, tutorials provide guidance on how to avoid common
+   pitfalls and highlight key concepts that should be remembered for
+   future reference.
+
+**For Contributors**
+
+   You are welcome to help in improving this guide. Just click on "Edit me on GitHub"
+   on the top right to submit your change request.
+
+   You can find out more about how to do this and how to contact the Documentation
+   Team in :ref:`Contribute <contribute>`.
+
+   :ref:`linktargets` | `GitHub repository <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
+   | `Issues <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
 
 
-**Table of Contents**
+**Sitemap:**
 
-see :ref:`sitemap`
+   :ref:`sitemap`
+
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 2
    :hidden:
-   :glob:
 
    Introduction/Index
    Installation/Index
@@ -85,4 +95,3 @@ see :ref:`sitemap`
    Troubleshooting/Index
    NextSteps/Index
    Sitemap
-   Targets

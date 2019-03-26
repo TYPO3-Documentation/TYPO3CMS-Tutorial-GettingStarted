@@ -22,15 +22,17 @@ This module is very similare to the **WEB > List** module.
 It displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the
 selected directory. You can choose to always display thumbnails
-(this might get slow if you have a lot of files in the chose directory).
+(this might get slow if you have a lot of files in the chosen
+directory).
 
 .. figure:: ../Images/BackendFileModule.png
    :alt: The File module
+   :class: with-shadow
 
 For admin users, the folder displayed by default is called
 "fileadmin/ (auto-generated)" and corresponds to the
-:file:`fileadmin/` folder located under the root folder of your web
-server directory.
+:file:`fileadmin/` folder located under the document root
+folder on your web server.
 
 Using those files inside content elements to display them
 or link to them in your web site is covered in the
@@ -38,14 +40,18 @@ or link to them in your web site is covered in the
 
 .. note::
 
-   There exists extensions which make it possible to connect to remote
+   There are extensions, which make it possible to connect to remote
    storages (like a WebDAV server or an Amazon S3 account) and work
    with the files as if they were on the TYPO3 CMS server.
+
+Clipboard
+---------
 
 There's a clipboard just like in the *List* module.
 
 .. figure:: ../Images/BackendFileClipboard.png
    :alt: The File module's clipboard
+   :class: with-shadow
 
 
 Using the action icons, files can be renamed or replaced
@@ -68,4 +74,5 @@ You will get to simple upload view:
 
 .. figure:: ../Images/BackendFileUpload.png
    :alt: Upload possibilities in the File module
+   :class: with-shadow
 

@@ -18,10 +18,10 @@ For more help on the topic, please refer to the
 You could also ask for help in the `installation forums <https://forum.typo3.org/index.php/i/6/>`_.
 
 .. note::
-   Please be aware that converting/reading of PDF and AI files is actually no
-   more possible because GraphicsMagic and ImageMagick recently dropped this 
+   Please be aware that converting/reading of PDF and AI files is no longer
+   possible because GraphicsMagic and ImageMagick recently dropped this
    functionality for security reasons. 
 
    See the issues https://forge.typo3.org/issues/86368 and https://forge.typo3.org/issues/86369
-   for further details, where a workaround is also present.
+   for further details. The issues also describe a workaround.
 

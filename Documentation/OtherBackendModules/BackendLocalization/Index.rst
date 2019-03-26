@@ -3,53 +3,74 @@
 
 .. _changing-backend-language:
 
-=========================
-Changing Backend Language
-=========================
+========================
+Manage Backend Languages
+========================
 
 The TYPO3 CMS backend is available in many languages. These
 translations are bundled into packages which need to be fetched
 from the community translation server (https://translation.typo3.org/).
 Once installed backend users can choose which language to use.
 
-Loading translation packages happens in the **ADMIN TOOLS > Languages**
-module.
+Load and Update Translation Packages
+====================================
 
-.. figure:: ../../Images/BackendLanguageModule.png
-   :alt: The backend language administration module
+.. rst-class:: bignums
 
+1. Open the module "Manage Language Packs"
 
-Click on the "+" icon to activate a new language. A download button
-appears to the right. Click on it to get the translations. In the docheader
-is a download icon which will fetch packages for all activated languages.
+   .. figure:: ../../Images/BackendLanguageModule.png
+      :alt: Open the backend language administration module
+      :class: with-shadow
+
+      Open the backend language administration module
+
+2. Click on Add language and on the + next to your language
+
+   .. figure:: ../../Images/ManageLanguagePacksAddLanguage.png
+      :alt: Open the backend language administration module
+      :class: with-shadow
+
+      Open the backend language administration module
+
+3. Click on "Update all" to update the activated languages.
+
 It is recommended to update regularly to benefit from completed or
 improved translations.
 
-To change the language of the backend, move to the **User Settings**
-module, which is accessed by clicking on your user name in the top bar.
+Change the Language in the Backend
+==================================
+
+.. rst-class:: bignums
+
+1. Open the **User Settings** module
+
+   This is accessed by clicking on your user name in the top bar.
+
+2. Choose "Language" at the bottom
+
+3. Hit the "Save" button in the docheader.
 
 .. figure:: ../../Images/BackendSettingsLanguage.png
    :alt: Changing the current user's interface language
+   :class: with-shadow
 
-
-Choose "Language" at the bottom, then hit the "Save" button
-in the docheader. The backend should update itself automatically
+The backend should update itself automatically
 but you may want to reload the page in the browser.
-Your backend should now be in Basque.
+Your backend should now be in you selected language.
 
-.. figure:: ../../Images/BackendTranslated.png
-   :alt: The backend translated to Basque
+If a translation is incomplete, the backend will fall
+back to English.
 
-
-As you can see, if a translation is incomplete, the backend
-will fall back to English.
+Set a Default Language When Creating a Backend User
+===================================================
 
 A default language can also be set when creating a new backend
 user.
 
 .. figure:: ../../Images/BackendBackendDefaultLanguage.png
    :alt: Setting the default language for a new backend user
-
+   :class: with-shadow
 
 .. caution::
 
