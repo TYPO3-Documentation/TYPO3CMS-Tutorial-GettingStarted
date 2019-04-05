@@ -23,10 +23,7 @@ module:
 
 
 We can see two groups that obviously correspond to our users
-("simple" and "advanced"). Furthermore there is a "All users"
-group which is a sub-group of the two others. This means that all
-permissions set for the "All users" groups will be shared with both
-"Advanced editors" users and "Simple editors" users.
+("simple" and "advanced").
 
 To view which user is part of each group, the easiest is to click
 on the "information" action icon. A pop-up will open with detailed
