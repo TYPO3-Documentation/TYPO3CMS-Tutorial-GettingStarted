@@ -29,6 +29,8 @@ development with TYPO3 CMS in general are not covered by this document.
 Get Help
 ========
 
+.. _slack:
+
 Slack
 -----
 
