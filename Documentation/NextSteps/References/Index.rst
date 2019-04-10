@@ -7,6 +7,9 @@
 References
 ==========
 
+For a more detailed description of TSconfig, TCA and TypoScript reference, please see
+:ref:`t3api:next-steps`.
+
 TSconfig Reference
    :ref:`TSconfig Reference <t3tsconfig:start>` covers both
    *Page TSconfig* and *User TSconfig*, with which you are able to change the behavior of
