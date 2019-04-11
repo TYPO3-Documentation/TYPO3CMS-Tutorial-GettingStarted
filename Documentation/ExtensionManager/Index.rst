@@ -17,10 +17,9 @@ The *Extension Manager* is where you can manage available extensions
 or get new ones from the TYPO3 Extension Repository (TER). It is quite
 a rich tool and this chapter provides only a brief overview.
 
-.. hint::
-
-   It is possible to set up your TYPO3 CMS installation to use
-   Composer instead, but this is not covered by this tutorial.
+It is possible to set up your TYPO3 CMS installation and install
+extensions by using Composer. In that case, the *Extension Manager*
+is of little relevance. For more information, see the :ref:`t3install:start`.
 
 .. note::
 
@@ -34,6 +33,7 @@ Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 
 .. figure:: ../Images/BackendExtensionManager.png
    :alt: TYPO3 CMS Extension Manager
+   :class: with-shadow
 
 It shows the "Installed extensions". The first action icon (1) can be used
 to install an uninstalled extension or vice-versa (uninstalled extensions
@@ -51,31 +51,7 @@ the actions to get a help text.
 Installing a New Extension
 ==========================
 
-Let's look briefly at the extension installation process. Use the menu
-in the docheader to switch to the "Get extensions" view:
-
-.. figure:: ../Images/BackendExtensionManagerInstall.png
-   :alt: Getting extensions from the Extension Manager
-
-
-The list which appears in this view is the full list of extensions
-from the TER (limited to those compatible with the TYPO3 CMS that
-you are using). You can update this list using the button at the
-top right (1). A search field is available (2).
-
-Clicking the "Import and install" action (3) will trigger the installation.
-Extensions may depend on other extensions, in which case all will
-be installed transparently.
-
-If you look for a specific version of an extension, you can click
-on its title (4) and access the list of all available versions.
-
-.. figure:: ../Images/BackendExtensionManagerExtensionVersions.png
-   :alt: Viewing all possible versions of a given extension
-
-
-Only compatible versions are displayed. Known insecure versions
-will also never show up.
+This is covered in the "Installation and Upgrade Guide": :ref:`t3install:extension-installation`.
 
 .. warning::
 

@@ -58,7 +58,7 @@ Starting with version 9.5, human-readable URLs are created automatically by TYPO
 This functionality is available for pages, languages and also extensions.
 The documentation is available in "TYPO3 Explained" :ref:`t3api:sitehandling`.
 
- Additional other tutorials like
+Other tutorials like
 `TYPO3 Worx: TYPO3 Site Management and Routing <https://typo3worx.eu/2018/10/typo3-site-management-and-routing/>`__
 and
 `TYPO3 Worx: TYPO3 Routing: Extensions and Enhancers <https://typo3worx.eu/2018/12/typo3-routing-extensions-and-enhancers/>`__
@@ -72,8 +72,8 @@ Thus, the URL as mentioned earlier becomes for example
 
 
 
-Creating Your Own Sitepackage (Theme)
-=====================================
+Create Your Own Sitepackage (Theme)
+===================================
 
 In this tutorial, you used the `Introduction Package <https://extensions.typo3.org/extension/introduction/>`__
 which depends on and uses the
@@ -129,7 +129,3 @@ use the following resources:
 * :ref:`t3extbasebook:fluid-start` in the "Extbase / Fluid Book"
 * :ref:`t3viewhelper:start`
 
-References
-==========
-
-See the :ref:`list of references <next-steps-references>`.

@@ -12,15 +12,6 @@ already visited the *Access* and *Backend Users* module. Here is
 a brief presentation of the other modules.
 
 
-.. _system-modules-install:
-
-Install
-=======
-
-The Install Tool is presented in the :ref:`Installation Guide <t3install:the-install-tool>`.
-It can be accessed directly from the TYPO3 CMS backend.
-
-
 .. _system-modules-log:
 
 Log
@@ -33,6 +24,7 @@ available to help digging into this data.
 
 .. figure:: ../../Images/BackendLogModule.png
    :alt: The Log module and its many filters
+   :class: with-shadow
 
 
 .. _system-modules-dbcheck:
@@ -45,6 +37,7 @@ to the database and its content.
 
 .. figure:: ../../Images/BackendDbCheckModule.png
    :alt: Overview of the DB check functions
+   :class: with-shadow
 
 Record Statistics
   Simple shows a count of the various records in the database,
@@ -75,11 +68,11 @@ configuration arrays used by TYPO3 CMS. It is not the goal
 of this tutorial to described the role of each of these arrays,
 you discover their function as you dig deeper into
 TYPO3 CMS. Let's just mention that the `$GLOBALS['TYPO3_CONF_VARS']`
-contains global configuration values that you may have set
-in the Install Tool.
+contains global configuration values.
 
 .. figure:: ../../Images/BackendConfigurationModule.png
    :alt: The Configuration module showing the global configuration array
+   :class: with-shadow
 
 
 .. _system-modules-reports:

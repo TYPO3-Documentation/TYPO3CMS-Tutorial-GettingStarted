@@ -47,4 +47,4 @@ Specifically, these are the steps you must perform:
    content, it will configure the web site and add a website template using the Bootstrap
    Package.
 
-The rest of this tutorial is based on the introduction package.
+The rest of this tutorial is based on the Introduction Package.

@@ -2,10 +2,11 @@
 
 
 .. _info-functions-modules:
+.. _info-module:
 
-==========================
-Info and Functions Modules
-==========================
+===========
+Info Module
+===========
 
 The **WEB > Info** module displays a variety of information
 related to the pages in your web site. It contains several
@@ -18,7 +19,3 @@ page tree information should be displayed.
 .. figure:: ../../Images/BackendInfoLocalizationOverview.png
    :alt: Viewing translation status, two levels deep
 
-
-The **WEB > Functions** module also offers several features.
-The most interesting one is the ability to create several
-pages in one go.
