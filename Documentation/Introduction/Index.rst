@@ -38,6 +38,8 @@ reviewed for TYPO3 9.
 Get Help
 ========
 
+.. _slack:
+
 Slack
 -----
 
