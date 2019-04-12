@@ -168,13 +168,13 @@ page-related functions the fast way. Here is what these options do:
 Create New Pages With Drag and Drop
 ===================================
 
-You can also create new pages using drag'n'drop.
+You can also create new pages using drag and drop.
 
 .. rst-class:: bignums
 
-1. Clicking on the "Create new pages" icon (top left)
+1. Clicking on the "Create new pages" icon (top left of the page tree)
 
-2. Drag and drop a "Standard" page to its location in the page tree.
+2. Drag and drop a "Standard" page to its desired location in the page tree.
 
 
    .. figure:: ../../Images/PageTreeDragndop1.png
@@ -183,7 +183,10 @@ You can also create new pages using drag'n'drop.
    .. figure:: ../../Images/PageTreeDragndop2.png
       :class: with-shadow
 
-3. A new page with title [Default Title] has now been created.
+3. A new page has now been created at the desired location.
+
+   By default it will be called "[Default Title]" which can be changed
+   right away by entering a new title.
 
    .. figure:: ../../Images/PageTreeDragndop3.png
       :class: with-shadow
