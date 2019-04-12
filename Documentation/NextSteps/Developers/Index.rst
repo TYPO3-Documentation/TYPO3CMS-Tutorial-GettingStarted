@@ -132,7 +132,7 @@ For online browsing, you can use `GitHub <https://github.com/TYPO3/TYPO3.CMS/tre
 
 Again, make sure to look in the correct branch for your version.
 
-Not Found What You Where Looking For?
+Not Found What You Were Looking For?
 =====================================
 
 .. tip::
