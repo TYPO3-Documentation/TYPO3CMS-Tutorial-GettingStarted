@@ -108,13 +108,51 @@ page-related functions the fast way. Here is what these options do:
 
 - **Edit**: Lets you edit the page properties
 
-- **New**: Lets you create a new page or new content
+- **New**: Create a new page
+
+
+.. important::
+
+   This creates a new page under the current page on the same level in the page
+   tree:
+
+   .. code-block:: none
+
+      parent
+       |
+       ---> current page
+       |
+       ---> new page
+
+   If you wish to create a new page, as subpage of current page, use "More options"
+   > 'Create New' wizard" or use :ref:`new-page-drag-and-drop`.
+
+   .. code-block:: none
+
+      parent
+       |
+       --> currrent page
+            |
+            ---> new page
+
 
 - **Info**: Displays information about the page
 
 - **Copy**: Copies the page
 
 - **Cut**: Cuts the page
+
+- **More options**:
+
+  - **More options ... > 'Create New' wizard**: Same as "New", but you can select where
+    the new page is to be created.
+
+  - ...
+
+  - **More options ... > Export**: Opens the export tool and preselects the selected page
+
+  - **More options ... > Import**: Opens the import tool and preselects the selected
+    page
 
 - **Disable**: Disables the page (so it isn't accessible from the frontend
   anymore)
@@ -124,12 +162,31 @@ page-related functions the fast way. Here is what these options do:
 - **History/Undo**: Shows the change history of the page (who did which
   changes when)
 
-- **Branch Actions**: Actions related to the whole branch
 
-  - **More options ... > Export**: Opens the export tool and preselects the selected page
+.. _new-page-drag-and-drop:
 
-  - **More options ... > Import**: Opens the import tool and preselects the selected
-    page
+Create New Pages With Drag and Drop
+===================================
+
+You can also create new pages using drag'n'drop.
+
+.. rst-class:: bignums
+
+1. Clicking on the "Create new pages" icon (top left)
+
+2. Drag and drop a "Standard" page to its location in the page tree.
+
+
+   .. figure:: ../../Images/PageTreeDragndop1.png
+      :class: with-shadow
+
+   .. figure:: ../../Images/PageTreeDragndop2.png
+      :class: with-shadow
+
+3. A new page with title [Default Title] has now been created.
+
+   .. figure:: ../../Images/PageTreeDragndop3.png
+      :class: with-shadow
 
 
 .. _the-view-module:
