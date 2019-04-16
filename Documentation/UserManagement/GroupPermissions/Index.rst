@@ -78,7 +78,7 @@ Page Types
 
 This field restricts which page types are available to members
 of the group. Explanations about the various page types are
-found in the Editors Guide.
+found in the :ref:`Editors Guide: <t3editors:pages-types>`.
 
 .. figure:: ../../Images/BackendBackendGroupEditPageTypes.png
    :alt:

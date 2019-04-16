@@ -11,26 +11,45 @@ module.
 
 .. figure:: ../../Images/BackendBackendUsersModule.png
    :alt: The Backend Users module
+   :class: with-shadow
 
 
 The module makes it possible to search and filter users. They
 can also be edited, deleted or disabled.
 
-As you can see in the list, the Introduction Package is shipped with
-two users on top of the admin users created during the installation
-process. Let's take a look at what these other users can do.
+Default Editors in the Introduction Package
+===========================================
 
+The Introduction Package should create two default editors and
+groups for you: "simple_editor" and "advanced_editor".
+
+.. hint::
+
+   The following steps assume that the editors "simple_editor"
+   and "advanced_editor exist". In some versions of the
+   "Introduction Package", `they will not get created
+   <https://github.com/FriendsOfTYPO3/introduction/issues/21>`__.
+
+   If these users do not exist in your installation, please
+   follow the steps in :ref:`user-management-create-default-editors`
+   before you continue.
+
+.. _simulate-user:
+
+Simulate User
+=============
 
 .. _user-management-simple-editor:
 
 "simple\_editor"
-================
+----------------
 
 The simplest way to check out another user (when one is an
 administrator) is to use the "simulate user" feature:
 
 .. figure:: ../../Images/BackendBackendUsersSimulate.png
    :alt: The last action icon lets us simulate another user
+   :class: with-shadow
 
 
 And here is what "simple\_editor" sees when accessing the
@@ -38,6 +57,7 @@ TYPO3 CMS backend:
 
 .. figure:: ../../Images/BackendSimpleEditorUser.png
    :alt: The backend view for the "simple\_editor"
+   :class: with-shadow
 
 
 As you can see, this user only has access to the "Page" module.
@@ -50,18 +70,20 @@ normally reads "Logout").
 
 .. figure:: ../../Images/BackendBackendUsersSimulateExit.png
    :alt: Exiting the backend user simulation
+   :class: with-shadow
 
 
 .. _user-management-advanced-editor:
 
 "advanced\_editor"
-==================
+------------------
 
 Now try doing the same with the "advanced\_editor". You should
 see the following after switching user:
 
 .. figure:: ../../Images/BackendAdvancedEditorUser.png
    :alt: The backend view for the "advanced\_editor"
+   :class: with-shadow
 
 The "advanced\_editor" is allowed to use more modules than
 "simple\_editor" but doesn't have any access to the page tree.
@@ -75,6 +97,7 @@ for a good exercise for changing user rights in the next chapters.
 
    .. figure:: ../../Images/BackendBackendUsersList.png
       :alt: Viewing backend users in the List module
+      :class: with-shadow
 
 .. _user-management-system-maintainers:
 
