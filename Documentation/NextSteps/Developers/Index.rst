@@ -124,7 +124,7 @@ Styleguide
 
 
 Look at the Core Source-Code
-----------------------------
+============================
 
 Of course, you can also look at the TYPO3 source code.
 
