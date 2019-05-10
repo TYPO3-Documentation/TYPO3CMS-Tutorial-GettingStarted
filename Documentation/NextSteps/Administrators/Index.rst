@@ -27,7 +27,7 @@ You can:
 * setup several websites in one TYPO3 installation
 * setup several languages for each site
 
-Before TYPO3, it was necessary to setup the language configuration for each
+Before TYPO3 9, it was necessary to setup the language configuration for each
 site manually with TypoScript.
 
 TYPO3 9 comes with a powerful site handling module which is handled in
