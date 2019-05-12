@@ -31,7 +31,7 @@ Before TYPO3 9, it was necessary to setup the language configuration for each
 site manually with TypoScript.
 
 TYPO3 9 comes with a powerful site handling module which is handled in
-:ref:`t3api:sitehandling`. This includes, setting up sites, language configuration
+:ref:`t3coreapi:sitehandling`. This includes, setting up sites, language configuration
 and URL handlling. Find out more about URL handling in the next section.
 
 Even if you only use one language or only one site, it is recommended to setup
@@ -56,7 +56,7 @@ This is convenient but not good for visitors nor for proper referencing.
 
 Starting with version 9.5, human-readable URLs are created automatically by TYPO3.
 This functionality is available for pages, languages and also extensions.
-The documentation is available in "TYPO3 Explained" :ref:`t3api:sitehandling`.
+The documentation is available in "TYPO3 Explained" :ref:`t3coreapi:sitehandling`.
 
 Other tutorials like
 `TYPO3 Worx: TYPO3 Site Management and Routing <https://typo3worx.eu/2018/10/typo3-site-management-and-routing/>`__
@@ -80,7 +80,7 @@ which depends on and uses the
 `Bootstrap Package <https://extensions.typo3.org/extension/bootstrap_package/>`__ extension.
 
 The Introduction Package is a distribution. Find out more about distributions
-in "TYPO3 Explained": :ref:`t3api:distribution`.
+in "TYPO3 Explained": :ref:`t3coreapi:distribution`.
 
 The Introduction Package together with the Bootstrap Package provides
 a frontend layout based on bootstrap, adds configuration

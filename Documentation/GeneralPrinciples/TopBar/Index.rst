@@ -28,7 +28,7 @@ The top bar contains some information and additional menus.
    and the current view will get saved to this list of bookmarks.
 #. The lightning bolt icon opens the **Clear Cache** menu to flush the various
    caches that are used by TYPO3 CMS to improve performance.
-   Caches are described in detail in TYPO3 Explained::ref:`t3api:caching`.
+   Caches are described in detail in TYPO3 Explained::ref:`t3coreapi:caching`.
 #. The question mark icon opens the **Help** menu, which gives access
    to various modules related to help and documentation.
 #. The next icon opens up a panel showing various information

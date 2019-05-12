@@ -42,25 +42,25 @@ quite well.
 
 It is (in most parts) well maintained.
 
-* Introduction: :ref:`t3api:overview`
-* :ref:`t3api:extension-architecture` (You should read the entire chapter except
+* Introduction: :ref:`t3coreapi:overview`
+* :ref:`t3coreapi:extension-architecture` (You should read the entire chapter except
   for "Creating a Distribution")
-* :ref:`t3api:api-overview`: Start with the first chapters listed. Some of the
+* :ref:`t3coreapi:api-overview`: Start with the first chapters listed. Some of the
   things listed in "TYPO3 Explained" are for specific use cases, which you might
   never need. We list a
   few chapters that explain general concepts, that you should definitely read.
   This is not a complete lists:
 
-  * :ref:`t3api:directory-structure` : general directory structure of a TYPO3
+  * :ref:`t3coreapi:directory-structure` : general directory structure of a TYPO3
     installation
-  * :ref:`t3api:namespaces`
-  * :ref:`t3api:globals`
-  * :ref:`t3api:tce`
+  * :ref:`t3coreapi:namespaces`
+  * :ref:`t3coreapi:globals`
+  * :ref:`t3coreapi:tce`
 
 Extension Builder
 =================
 
-See :ref:`t3api:extension-create-new`. It contains a description of how to
+See :ref:`t3coreapi:extension-create-new`. It contains a description of how to
 create a new extension with the Extension Builder.
 
 References

@@ -8,7 +8,7 @@ References
 ==========
 
 For a more detailed description of TSconfig, TCA and TypoScript reference, please see
-:ref:`t3api:next-steps`.
+:ref:`t3coreapi:next-steps`.
 
 TSconfig Reference
    :ref:`TSconfig Reference <t3tsconfig:start>` covers both
