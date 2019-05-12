@@ -24,10 +24,14 @@ in the address bar of your browser (e.g.
 Backend
 =======
 
-The administrative area of the web site is called the *backend*. A user name
-and a password are always required to log into the backend.
+The administrative area of the web site is called the *backend*.
+It is from here you create and manage the content that is viewed
+in the *frontend*.
+
+A user name and a password are always required to log into the backend.
 
 .. rst-class:: bignums
+
 
 1. Enter URL with `/typo3` in your browser
 
@@ -45,7 +49,7 @@ and a password are always required to log into the backend.
    Use the user name (default is **admin**) and the password that you defined during
    the installation process.
 
-   After pressing the **login** button you will get redirected to the TYPO3 CMS
+   After pressing the **login** button you will be redirected to the TYPO3 CMS
    backend overview:
 
    .. figure:: ../../Images/BackendAboutModules.png
