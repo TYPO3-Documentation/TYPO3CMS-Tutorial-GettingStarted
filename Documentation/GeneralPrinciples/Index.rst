@@ -6,9 +6,8 @@
 General principles
 ------------------
 
-This chapter aims to give you some important information about
-the general principles of TYPO3 CMS. It is the base
-needed to understand the next chapters.
+This chapter will introduce you to some of the core components used
+in TYPO3's backend interface and is recommended for new users.
 
 .. toctree::
    :maxdepth: 5
