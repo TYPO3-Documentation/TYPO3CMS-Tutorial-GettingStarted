@@ -8,13 +8,13 @@ The Contextual Menus
 ====================
 
 While learning about the :ref:`page tree <page-tree>`,
-you already saw that you could get a contextual menu
-when clicking on a page icon.
+we were introduced to contextual menus
+when selecting icons in the Page module.
 
-Contextual menus exist in many places in the TYPO3 CMS
-backend. Just try your luck clicking on any icon that
-you see. Chances are good that a contextual menu will
-appear, offering useful functions to execute.
+Contextual menus exist throught the CMS's
+backend. You will notice that different sets of
+icons appear depending on what page you are on
+what actions you are performing.
 
 For example, there's a contextual menu in the **WEB > List** view:
 
