@@ -6,8 +6,10 @@
 Page content
 ^^^^^^^^^^^^
 
-Let us now see how content is structured in a TYPO3 CMS web site.
-First of all we shall navigate to a particular page:
+Site content can be structured in many ways.
+
+A good place to start exploring different ways content
+can be arranged is the "Content Examples" section.
 
 - in the backend, click on the arrow right of the "Content Examples" page
 
