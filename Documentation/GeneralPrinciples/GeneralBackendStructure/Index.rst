@@ -7,16 +7,16 @@
 General Backend Structure
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Here is a complete overview of the general backend structure.
+Here is a complete overview of the backend interface and its structure.
 
-On top of the *modules menu* and the *top bar* which we saw in
-the previous chapter, we now have in the middle
-the *page tree* and on the right the (main) *content area*.
+Situated in the center left of page is the
+*page tree* and to its right the (main) *content area*.
 
 .. figure:: ../../Images/BackendAreasOverview.png
    :alt: Overview of the whole TYPO3 CMS backend
 
-The so-called *docheader* contains the action icons - like close, save or preview
-- some general information and sometimes a drop-down menu with further actions.
+The *docheader* contains contextual icons including close, save and preview.
+It also features other information and a drop-down menu with further actions
+will appear depening on what actions you are performing.
 
 We will have a closer look at the individual parts in the next pages.
