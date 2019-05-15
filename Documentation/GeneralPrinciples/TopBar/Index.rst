@@ -14,7 +14,6 @@ including the name of your site and also the version of TYPO3 it is currently ru
 
 .. figure:: ../../Images/BackendTopBar.png
    :alt: The top bar with the flush cache menu open
-<<<<<<< HEAD
    :class: with-shadow
 
    Backend top bar
