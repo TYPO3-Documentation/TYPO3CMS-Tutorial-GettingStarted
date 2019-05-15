@@ -15,9 +15,9 @@ including the name of your site and also the version of TYPO3 it is currently ru
    :alt: The top bar with the flush cache menu open
 
 
-To the left is the TYPO3 CMS logo (which can be modified customised), 
-then comes the name of your site (this is part of global configuration, 
-which is described later on).
+To the left is the TYPO3 CMS logo (which can be customised), 
+then we have the name of your site (this is set with your global configuration, 
+which is covered later on).
 
 The star icon will open a list of bookmarked views. Every time
 you see this icon in the backend, you can click on it
