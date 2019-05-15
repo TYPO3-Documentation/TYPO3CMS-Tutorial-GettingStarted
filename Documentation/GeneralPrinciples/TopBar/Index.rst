@@ -9,8 +9,8 @@ The Top Bar
 
 The top bar features a set of menus that allow you to quickly carry out common administrative tasks.
 
-The top bar also contains specific information about your environment including the name of your installation
-and also the version of TYPO3 it is currently running.
+The top bar also contains specific information about your instance of TYPO3
+including the name of your site and also the version of TYPO3 it is currently running.
 
 .. figure:: ../../Images/BackendTopBar.png
    :alt: The top bar with the flush cache menu open
