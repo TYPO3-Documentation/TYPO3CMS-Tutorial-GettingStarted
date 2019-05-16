@@ -3,9 +3,9 @@
 
 .. _next-steps:
 
-==========
-Next Steps
-==========
+==============================
+Next Steps and Further Reading
+==============================
 
 TYPO3 CMS has a lot of documentation available on the
 `docs.typo3.org <https://docs.typo3.org/typo3cms/>`_ website.
