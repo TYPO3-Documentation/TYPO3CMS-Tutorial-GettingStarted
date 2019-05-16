@@ -30,7 +30,7 @@ You can:
 Before TYPO3 9, it was necessary to setup the language configuration for each
 site manually with TypoScript.
 
-TYPO3 9 comes with a powerful site handling module which is handled in
+TYPO3 9 comes with a powerful site handling module which is document in
 :ref:`t3coreapi:sitehandling`. This includes, setting up sites, language configuration
 and URL handlling. Find out more about URL handling in the next section.
 
