@@ -58,7 +58,12 @@ Ask on **Slack** for help:
 What's New
 ==========
 
-The current version is updated to reflect the changes in TYPO3 CMS 9.5 LTS.
+The current version was updated to reflect the changes in TYPO3 CMS 9.5 LTS.
+
+If you use a different TYPO3 version, click on "Related Links" in the bottom
+of the menu to select a different version (see `Version Selector
+<https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_ in
+"Usage Tips").
 
 
 .. _credits:
