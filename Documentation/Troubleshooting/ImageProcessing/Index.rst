@@ -7,9 +7,9 @@
 A Note on Image Processing
 ==========================
 
-TYPO3 CMS relies on ImageMagick or GraphicsMagic to generate on the fly
-images matching the specified sizes. If you do not see all expected images
-it could that neither ImageMagick nor GraphicsMagic are installed on your
+TYPO3 CMS relies on ImageMagick or GraphicsMagic to generate
+images matching the specified sizes on the fly. If you do not see all expected images
+it could be that neither ImageMagick nor GraphicsMagic are installed on your
 server or that your installation is not properly configured.
 
 For more help on the topic, please refer to the
