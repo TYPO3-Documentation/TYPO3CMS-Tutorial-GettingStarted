@@ -25,9 +25,6 @@ Installing TYPO3 CMS Base System
 
 First you will need to download and install the TYPO3's Base Distribution.
 Follow the steps provided in the :ref:`Quick Installation <t3install:quick-installation>`
-<<<<<<< HEAD
-part of the Installation and Upgrade Guide.
-=======
 part of the :ref:`Installation and Upgrade Guide <t3install:start>`.
 
 .. _installing-the-introduction-package:
@@ -50,11 +47,9 @@ the login and password you defined in step 5.
 
 Once you have successfully logged in, you will be presented with a list
 of available distributions.
->>>>>>> Improve readability and structure of Installation page
 
 Specifically, these are the steps you must perform:
 
-<<<<<<< HEAD
 #. Make sure your system is setup as described in :ref:`t3install:system-requirements`.
 #. Install base system: It is recommended to use Composer for installing as described in
    :ref:`t3install:install-via-composer`. As an alternative, you can install
@@ -66,7 +61,3 @@ Specifically, these are the steps you must perform:
    Package.
 
 The rest of this tutorial is based on the Introduction Package.
-=======
-Select "Install" and a prebuilt web site
-will be installed automatically.
->>>>>>> Improve readability and structure of Installation page
