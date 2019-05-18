@@ -9,10 +9,10 @@ Page Tree
 
 .. sectionauthor:: name <email>
 
-The page tree represents the hierarchical structure of your pages. In
+The page tree represents the hierarchical structure of your site and its pages. In
 most cases this corresponds exactly to the navigation structure
 of your web site. The page tree can be expanded by clicking
-the little arrows on the left of the items.
+the arrow to the left of each page.
 
 .. rst-class:: bignums
 
@@ -51,7 +51,6 @@ the little arrows on the left of the items.
       :alt: Frontend of the Introduction Package
       :class: with-shadow
 
-
 The main menu on top of your web site corresponds to the first
 level menu pages in the page tree. The sub-menu of the :guilabel:`"Content Examples"`
 page in the frontend corresponds to the entries beneath "Content Examples" in the page tree.
@@ -70,21 +69,21 @@ We will now look at some components of the page tree a little more closely:
 
 
 Root page
-   The page with the world icon represents the root of your web site.
-   There may be several web sites per TYPO3 installation.
+   The page with the globe icon represents the root of your web site.
+   Multiple websites can exist within a single installation of TYPO3.
    The top node with the TYPO3 logo is a special container which is used
-   to store very general information.
+   to store shared resources such as file mounts and backend user records.
 
 .. figure:: ../../Images/RootPage.png
    :alt: Frontend of the Introduction Package
    :class: with-shadow
 
 Modules:
-   may display the page tree or not. The presence of the page tree
-   implies that the module reacts to the selection of a page in the page tree.
+   Some modules make use of the page tree, but not all. The presence of the page tree
+   implies that the module depends upon the selection of a specific pages in the page tree.
 
 Content area:
-   A click on the page title opens that page in the content area on
+   Clicking on a pages title opens that page in the content area to
    the right. Hovering over the icon of a page will display its internal id.
 
 Context menu:
@@ -101,8 +100,8 @@ Context menu:
 The Context Menu
 ================
 
-The context menu of a page can be used to access most of the
-page-related functions the fast way. Here is what these options do:
+The context menu of a page is used to access the most common
+page related functions. Here is what these options do:
 
 - **Show**: Opens the page you clicked in the browser (frontend)
 
@@ -197,9 +196,9 @@ You can also create new pages using drag and drop.
 The View Module
 ===============
 
-It is also possible to view a page directly in the backend, by selecting the View module,
-which also offers the possibility to preview a page in different screen sizes, thanks
-to the drop-down menu at the top.
+It is also possible to view a page having to leave the backend. By selecting the View module,
+backend users are able to preview individual pages and test them against various screen sizes,
+by accessing the drop-down menu at the top.
 
 .. figure:: ../../Images/BackendViewModule.png
    :alt: Viewing a page directly in the backend

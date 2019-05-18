@@ -7,18 +7,16 @@
 Templates
 =========
 
-After that brief overview of pages and content elements,
-you might wonder how all this structure is turned into a
+After that overview of pages and content elements,
+you may wonder how all this structure and content is turned into a
 web site, complete with page layout, CSS and JavaScript files.
 
-In TYPO3 CMS this job is achieved using *templates* which should
-be considered as a kind of configuration written in a language called
-*TypoScript*.
+In TYPO3, this job is achieved using *templates* which can
+be seen as a kind of configuration language called *TypoScript*.
 
 The **WEB > Template** module provides an overview of the
-TypoScript configuration and allows to work with so-called
-"template records", which is where the TypoScript configuration
-is actually stored.
+TypoScript configuration and allows to work with "template records", 
+which is where the TypoScript configuration is stored.
 
 Here is a brief view of the *Template* module:
 
@@ -63,4 +61,3 @@ TYPO3 CMS templates:
   TYPO3.
 
 - You can extend pretty much anything with PHP.
-
