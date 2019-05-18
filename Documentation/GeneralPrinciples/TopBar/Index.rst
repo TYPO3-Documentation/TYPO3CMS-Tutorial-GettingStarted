@@ -32,7 +32,7 @@ including the name of your site and also the version of TYPO3 it is currently ru
    caches that are used by TYPO3 CMS to improve performance.
    Caches are described in detail in TYPO3 Explained::ref:`t3coreapi:caching`.
 #. The question mark icon opens the **Help** menu, which gives
-    you access to helper modules and additional support documentation.
+   you access to helper modules and additional support documentation.
 #. The next icon opens up a panel showing various information
    about the environment.
 #. Your user name is displayed next. It opens a menu giving access
