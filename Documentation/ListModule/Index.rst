@@ -6,14 +6,17 @@
 The List Module
 ===============
 
-In TYPO3 CMS all the information is stored in database records:
-pages, content elements, templates, users, news items, etc.
-For some of this information dedicated modules exist, like
-the *Page* or the *Template* module which we visited earlier.
+The List Module is a useful tool that allows you to browse through
+each page or folder within your site and view all of the records that
+are stored within it. The List Module also gives you the ability to 
+create and manage records that don't have a dedicated Module.
 
-But these records, as well as all others that don't have such
-a dedicated module, can be created and edited using the
-**WEB > List** module.
+Sub pages, content elements and News stories are examples of the different
+kinds of records that can be stored on any given page.
+
+For example, a typical page would consist of several content elements that
+contain text and images. By using the List Module, you can see every content element 
+stored on that page, even if its set to hidden.
 
 
 .. toctree::
