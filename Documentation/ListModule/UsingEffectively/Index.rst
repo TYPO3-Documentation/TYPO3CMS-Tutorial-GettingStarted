@@ -6,21 +6,21 @@
 Using the List Module Effectively
 =================================
 
-Choose the **WEB > List** module and place yourself on the
+Select the **WEB > List** module and browse to the
 "Congratulations" page. You should see the following:
 
 .. figure:: ../../Images/BackendListModule.png
    :alt: A typical view from the List module
    :class: with-shadow
 
-The list view typically shows the list of records present on the
+The list view displays a list of records stored on the
 current page, grouped by type. The name which appears for each record
 depends on which field is used as label. For "pages", the field is
 "Pagetitle".
 
-The list view offers a lot of action icons in the **Docheader**:
+The list view offers several different action icons in the **Docheader**:
 
-#. **Create** a new record (a wizard appears to let choose which type)
+#. **Create** a new record (a wizard appears to let you choose which type)
 
 #. **View** the current page (in the frontend)
 
@@ -36,32 +36,32 @@ The list view offers a lot of action icons in the **Docheader**:
 
 #. Access **contextual help**
 
-In the **Content Area**, there are also some action icons:
+In the **Content Area**, action icons are also available:
 
 .. figure:: ../../Images/BackendListModule2.png
    :alt: A typical view from the List module
    :class: with-shadow
 
 
-#. Create a **new page record** (specifically)
+#. Create a **new page record**
 
 #. Action icons for the record. What icons appear here depends on the record
-   type. If the record is viewable in the frontend (as "pages" are), a "View"
+   type selected. If the record is viewable in the frontend (as "pages" are), a "View"
    icon is displayed. All records will have the next three icons, respectively
    "Edit", "Hide/unhide" (i.e. visible in the frontend or not) and "Delete".
 
    The ellipsis icon (three consecutive dots) expands the icon list to show
    additional action icons (typically for accessing information, moving around, etc.)
 
-   Last come the cut and paste icons.
+   Lastly, the cut and paste icons.
 
-If you want to always see the expanded list of icons, you can check the
-**"Extended view"** box at the bottom of the view (please scroll down).
+If you wish to have the list of icons expanded all the time, you can check the
+**"Extended view"** box at the very bottom of the view.
 
 Also make sure that the **"Show clipboard"** box is checked, as we will explore
 this next.
 
-If you plan to manage a multilingual web site, you will want to also
+If you plan to manage a multilingual web site, you will want to 
 check the **"Localization view"** checkbox.
 
 .. figure:: ../../Images/BackendListModuleOptions.png
