@@ -8,9 +8,10 @@
 Mass Editing
 ============
 
-The *List* module also makes it possible to display more information
-about each record and to edit several records at a time.
-To enable this, first click on the table header (1):
+The *List* module makes it possible to display additional information
+about each record and gives you the ability edit several records with
+one action.
+To enable this feature, select the table header (1):
 
 .. figure:: ../../Images/BackendListAdditionalFields.png
    :alt: The List view with an additional field displayed
@@ -30,7 +31,7 @@ Edit all Headers
 ================
 
 To edit the headers of all records in one go,
-simply click the little pencil next to the "Header" label:
+select the pencil icon next to the "Header" label:
 
 .. figure:: ../../Images/BackendListEditAllHeaders.png
    :alt: The button to edit a given field for all records
@@ -42,13 +43,13 @@ You will then see this:
    :alt: Editing form displayed for all records
    :class: with-shadow
 
-When saving the changed will be stored for all records.
+Upon saving this change will be applied to all records.
 
 Edit Selected Fields
 ====================
 
-All field that are currently viewable can be edited at the same
-time, by choose a different icon:
+All fields that are currently viewable can be edited at the same
+time by selecting a different icon:
 
 .. figure:: ../../Images/BackendListEditAllFields.png
    :alt: The button to edit all fields visible in the list
@@ -85,4 +86,3 @@ selected records:
 .. figure:: ../../Images/BackendListSelectiveEditingForm.png
    :alt: Editig form displayed for the selected records
    :class: with-shadow
-
