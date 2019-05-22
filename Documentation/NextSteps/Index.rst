@@ -7,9 +7,9 @@
 Next Steps and Further Reading
 ==============================
 
-TYPO3 CMS has a lot of documentation available on the
-`docs.typo3.org <https://docs.typo3.org/typo3cms/>`_ website.
-The documentation is divided into several sections:
+All of TYPO3's documentation is available 
+`docs.typo3.org <https://docs.typo3.org/typo3cms/>`_.
+The documentation is divided into the following sections:
 
 #. `Tutorials and Guides <https://docs.typo3.org/typo3cms/Tutorials.html>`_
    section covers documents which provide step-by-step
@@ -20,8 +20,8 @@ The documentation is divided into several sections:
 #. The `Extensions <https://docs.typo3.org/typo3cms/extensions/>`_ section gathers all
    manuals related to core and public extensions.
 
-This is admittedly a huge mass of documentation and you may feel lost
-about where to look next. We recommend the following documents for further studies
+This can be quite overwhelming for people new to the CMS and you may feel lost
+and unsure about where start. We recommend the following documents for further reading
 after this tutorial:
 
 .. toctree::
