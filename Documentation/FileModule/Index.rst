@@ -19,7 +19,7 @@ Managing Files in TYPO3 CMS
 ===========================
 
 Files including documents and images are managed in the 
-the Filelist module. Similar to the **WEB > List** module,
+Filelist module. Similar to the **WEB > List** module,
 it displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the
 selected directory.
