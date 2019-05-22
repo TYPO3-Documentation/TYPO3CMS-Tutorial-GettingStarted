@@ -21,7 +21,7 @@ The documentation is divided into the following sections:
    manuals related to core and public extensions.
 
 This can be quite overwhelming for people new to the CMS and you may feel lost
-and unsure about where start next. We recommend the following documents for further reading
+and unsure about where start. We recommend the following documents for further reading
 after this tutorial:
 
 .. toctree::
