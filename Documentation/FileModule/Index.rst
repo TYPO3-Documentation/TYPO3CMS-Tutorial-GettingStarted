@@ -9,7 +9,7 @@ The File Module
 ===============
 
 The **FILE > Filelist** module is where you can manage
-all the media associated with the TYPO3 CMS web site.
+all the media associated with your TYPO3 web site.
 
 
 .. _managing-files:
@@ -18,12 +18,11 @@ all the media associated with the TYPO3 CMS web site.
 Managing Files in TYPO3 CMS
 ===========================
 
-This module is very similare to the **WEB > List** module.
-It displays a navigation tree, which corresponds to the file
+Files including documents and images are managed in the 
+Filelist module. Similar to the **WEB > List** module,
+it displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the
-selected directory. You can choose to always display thumbnails
-(this might get slow if you have a lot of files in the chosen
-directory).
+selected directory.
 
 .. figure:: ../Images/BackendFileModule.png
    :alt: The File module
@@ -34,14 +33,14 @@ For admin users, the folder displayed by default is called
 :file:`fileadmin/` folder located under the document root
 folder on your web server.
 
-Using those files inside content elements to display them
+Using these files inside content elements to display them
 or link to them in your web site is covered in the
 :ref:`Editors Tutorial <t3editors:images>`.
 
 .. note::
 
-   There are extensions, which make it possible to connect to remote
-   storages (like a WebDAV server or an Amazon S3 account) and work
+   There are extensions which make it possible to connect to remote
+   storage pools (like a WebDAV server or an Amazon S3 account) and work
    with the files as if they were on the TYPO3 CMS server.
 
 Clipboard
