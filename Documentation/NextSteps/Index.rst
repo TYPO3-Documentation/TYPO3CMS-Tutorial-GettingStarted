@@ -30,7 +30,7 @@ after this tutorial:
    :glob:
 
    Editors/Index
-   Administrators/Index
+   Integrators/Index
    Developers/Index
    Security/Index
    References/Index
