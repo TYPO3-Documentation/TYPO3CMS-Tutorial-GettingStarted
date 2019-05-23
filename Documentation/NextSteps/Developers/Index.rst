@@ -9,11 +9,11 @@ For Developers
 
 
 
-Extbase / Fluid
+Fluid / Extbase
 ===============
 
-For learning extension development with the Extbase framework and the templating
-engine Fluid you can use one of these resources:
+To find out more about Templating using Fluid and building your own extensions
+in Extbase, the following resources are recommended:
 
 * online resource: :ref:`t3extbasebook:start` (partly outdated)
 * book: `Michael Schams, Patrick Lobacher: "TYPO3 Extbase: Modern Extension
@@ -25,31 +25,29 @@ engine Fluid you can use one of these resources:
    Note that the current edition of the book is for TYPO3 7. The online
    resource is partly outdated. So, at the moment we must discourage
    you from using these Extbase / Fluid resources, unfortunately.
-
-You can start with the resources in "TYPO3 Explained" in the
-next section.
+   
+   A new edition of this book is scheduled for release in 2019.
 
 TYPO3 Explained
 ===============
 
 "TYPO3 Explained" is part of the official documentation on docs.typo3.org.
 
-It is an extensive resource, which gives you an introduction to
-TYPO3, the extension architecture and then features a reference in the API
-Overview. The API Overview is actually more than an overview of the public
-functions of TYPO3 and explains the concepts and how to use the core functionality
-quite well.
+It is an extensive resource that aims to gives you an introduction to
+TYPO3, its extension architecture and a detailed outline of its API.
+The API Overview covers more than just the public functions of TYPO3, it also
+explains the concepts and how to use core functionality.
 
 It is (in most parts) well maintained.
 
 * Introduction: :ref:`t3coreapi:overview`
 * :ref:`t3coreapi:extension-architecture` (You should read the entire chapter except
   for "Creating a Distribution")
-* :ref:`t3coreapi:api-overview`: Start with the first chapters listed. Some of the
-  things listed in "TYPO3 Explained" are for specific use cases, which you might
+* :ref:`t3coreapi:api-overview`: Start with the first chapter listed. Some of the
+  sections listed in "TYPO3 Explained" are for specific use cases, which you might
   never need. We list a
   few chapters that explain general concepts, that you should definitely read.
-  This is not a complete lists:
+  This is not a complete list:
 
   * :ref:`t3coreapi:directory-structure` : general directory structure of a TYPO3
     installation
@@ -79,8 +77,8 @@ for TYPO3.
 Extensions
 ==========
 
-You can also look at existing extensions to see how others
-do things.
+You can also look at existing extensions to see how other developers 
+have built their extensions.
 
 All (publicly available) third party extensions are listed in the
 `TYPO3 Extension Repository <https://extensions.typo3.org/?tx_solr%5Bfilter%5D%5B0%5D=typo3%3A9+LTS>`__.
@@ -92,9 +90,9 @@ repository.
 
    Make sure to always choose an extension that supports the TYPO3 version
    you are using. So, if you are using TYPO3 9, restrict your search to
-   extensions, that already support TYPO3 9!
+   extensions, that already support TYPO3 9.
 
-   TYPO3 has gone through quite some changes between major versions, so be
+   TYPO3 has gone through several large changes between each major version, so be
    sure to look at code and documentation for your current version.
 
 .. figure:: ../../Images/search-ter.png
@@ -140,5 +138,3 @@ Not Found What You Were Looking For?
    You can also go to the
    :ref:`slack` channel **#typo3-cms** and ask for recommendations about what
    to read for your particular task.
-
-
