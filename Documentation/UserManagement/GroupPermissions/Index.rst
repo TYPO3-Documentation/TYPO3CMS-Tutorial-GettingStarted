@@ -8,7 +8,7 @@
 Setting up User Permissions
 ===========================
 
-We will look into setting up user permissions by editing the
+We will look into managing user permissions by editing the
 "Advanced editors" user group.
 
 .. figure:: ../../Images/BackendBackendGroupEditSettings.png
@@ -29,10 +29,10 @@ will be inherited by the current group.
 
 .. note::
 
-   Setting permissions is not just about access rights. It is also
-   about decluttering the interface by letting the users see only
-   what is really useful to them.
+   Setting permissions is not just about access rights.
 
+   It can also help to declutter the backend, ensuring that
+   backend users only see and have access to the modules they require.
 
 .. _access-lists:
 .. _include-access-lists:
@@ -41,7 +41,7 @@ Access Lists
 ============
 
 The "Access Lists" tab is where most permissions are defined.
-All fields are detailed below, one by one.
+All fields are detailed below.
 
 
 .. _modules:
@@ -50,8 +50,8 @@ Modules
 -------
 
 The first field is used to define which modules members of the group
-should have access to. Obviously this will influence what appears
-in the module menu.
+should have access to. This will directly influence what appears
+in the module menu for backend users.
 
 .. figure:: ../../Images/BackendBackendGroupEditModules.png
    :alt: Choosing modules for the backend user group
@@ -63,7 +63,7 @@ in the module menu.
 Tables
 ------
 
-The second field allows to select the tables that the members of the
+The second field allows you to select the tables that the members of the
 groups are allowed to see ("Tables (listing)"). And the next field is
 the same but for the tables that can be modified ("Tables (modify)").
 
@@ -76,7 +76,7 @@ the same but for the tables that can be modified ("Tables (modify)").
 Page Types
 ----------
 
-This field restricts which page types are available to members
+These fields can restrict which page types are available to members
 of the group. Explanations about the various page types are
 found in the :ref:`Editors Guide: <t3editors:pages-types>`.
 
@@ -89,10 +89,10 @@ found in the :ref:`Editors Guide: <t3editors:pages-types>`.
 Allowed Excludefields
 ---------------------
 
-When defining table fields in TYPO3 CMS, it is possible to mark them
+When defining table fields in TYPO3, it is possible to mark them
 as "excluded". Such fields will never be visible to backend users
-(except administrators, of course) unless they are explicitely given
-access to them. This field is about giving such access. It displays
+(except administrators, of course) unless they are explicitly given
+access to them. This field is about granting such access. It displays
 a list of all tables and their excluded fields.
 
 .. figure:: ../../Images/BackendBackendGroupEditExcludeFields.png
@@ -111,7 +111,7 @@ a selection of fields by checking some boxes.
 Explicitly Allow or Deny Field Values
 -------------------------------------
 
-For some fields, it is possible to define fine-grained permissions
+For some fields, it is possible to set fine-grained permissions
 on the actual values allowed for those fields. This is in particular
 the case for the "Page content: Type" field, which defines the type
 of content element that can then be defined by the members of the
@@ -128,8 +128,8 @@ making changes.
 Limit to Languages
 ------------------
 
-In multilingual web site, it is also possible to restrict users
-to only some languages. This can be achieved using the last field
+In a multilingual web site, it is also possible to restrict users
+to a specific language or set of languages. This can be achieved using the last field
 of the "Access Lists" tab.
 
 .. figure:: ../../Images/BackendBackendGroupEditLanguages.png
@@ -141,9 +141,9 @@ of the "Access Lists" tab.
 Mounts and Workspaces
 =====================
 
-The next tab contains very important fields which define over
-which part of the page tree and the file system the members of
-the group may exert their rights.
+The next tab contains very important fields which define 
+which parts of the page tree and the file system the members of
+the group may exert their rights over.
 
 We will cover only mounts here. Detailed information about
 workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
@@ -174,15 +174,15 @@ user. This record can be found in the "List" module on the root page and in the
 File Mounts
 -----------
 
-File mounts are similar but for access to files. The main difference
-is that file mount records must be defined by the administrator first.
+File mounts are similar to DB mounts but instead are used for manage access to files. 
+The main difference is that file mount records must be defined by the administrator first.
 These are located in the root node:
 
 .. figure:: ../../Images/BackendFileMountList.png
    :alt: List of all available file mounts
 
 
-They can then simply be selected when editing a backend user group:
+They can then be selected when editing a backend user group:
 
 .. figure:: ../../Images/BackendBackendGroupEditFileMounts.png
    :alt: Selecting allowed file mounts
