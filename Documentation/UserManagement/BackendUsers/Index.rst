@@ -6,7 +6,7 @@
 Backend Users
 =============
 
-Managing backend users is best done using the **SYSTEM > Backend users**
+You can manage backend users using the **SYSTEM > Backend users**
 module.
 
 .. figure:: ../../Images/BackendBackendUsersModule.png
@@ -14,13 +14,13 @@ module.
    :class: with-shadow
 
 
-The module makes it possible to search and filter users. They
-can also be edited, deleted or disabled.
+This module makes it possible to search and filter users. They
+can also be edited, deleted and disabled.
 
 Default Editors in the Introduction Package
 ===========================================
 
-The Introduction Package should create two default editors and
+The Introduction Package will create two default editors and
 groups for you: "simple_editor" and "advanced_editor".
 
 .. hint::
@@ -104,7 +104,7 @@ for a good exercise for changing user rights in the next chapters.
 System Maintainers
 ==================
 
-Introduced in TYPO3 CMS 9, there is a special permission for Backend Users.
+Introduced in TYPO3 CMS 9, this is a special permission for Backend Users.
 The first created user, during installation of TYPO3, is already marked as a
 System Maintainer. Other users can become System Maintainers only within the module
 **Admin Tools > Settings > Manage System Maintainers**.
@@ -114,3 +114,5 @@ and the Extension Manager. These users are persisted within the
 :file:`LocalConfiguration.php` as :php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['systemMaintainers']`.
 
 Also see changelog `Feature: #82266 - Backend Users System Maintainers <https://docs.typo3.org/typo3cms/extensions/core/Changelog/9.0/Feature-82266-BackendUsersSystemMaintainers.html>`_.
+
+
