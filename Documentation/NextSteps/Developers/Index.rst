@@ -16,17 +16,17 @@ To find out more about Templating using Fluid and building your own extensions
 in Extbase, the following resources are recommended:
 
 * online resource: :ref:`t3extbasebook:start` (partly outdated)
-* book: `Michael Schams, Patrick Lobacher: "TYPO3 Extbase: Modern Extension
+* book: `Michael Schams: "TYPO3 Extbase: Modern Extension
   Development for TYPO3 CMS with Extbase & Fluid"
-  <https://www.amazon.com/dp/1530534178/?tag=stackoverfl08-20>`__ (for TYPO3 7)
+  <https://www.extbase-book.org/>`__ (3rd edition for TYPO3 9)
 
 
 .. important::
-   Note that the current edition of the book is for TYPO3 7. The online
-   resource is partly outdated. So, at the moment we must discourage
-   you from using these Extbase / Fluid resources, unfortunately.
-   
-   A new edition of this book is scheduled for release in 2019.
+   Note that currently, the online resource :ref:`t3extbasebook:start`
+   may be partly outdated. The `TYPO3 Extbase and Fluid book, 3rd edition
+   <https://www.extbase-book.org/>`__ by Michael Schams was just released,
+   so it should be up to date. 
+
 
 TYPO3 Explained
 ===============
