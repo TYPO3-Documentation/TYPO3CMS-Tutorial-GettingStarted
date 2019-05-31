@@ -22,15 +22,12 @@ Getting Started Tutorial
 :Authors:
       TYPO3 community (see :ref:`credits`)
 
-:Email:
-      documentation@typo3.org
-
 :License:
       Open Publication License available from `www.opencontent.org/openpub/
       <http://www.opencontent.org/openpub/>`_
 
 :Status:
-      Tested and reviewed for TYPO3 9.5.5 on April 11, 2019
+      ok - Tested and reviewed for TYPO3 9.5.5 on April 11, 2019
 
 
 **TYPO3**
@@ -68,8 +65,10 @@ Getting Started Tutorial
    You are welcome to help in improving this guide. Just click on "Edit me on GitHub"
    on the top right to submit your change request.
 
-   You can find out more about how to do this and how to contact the Documentation
-   Team in :ref:`Contribute <contribute>`.
+   Read more general information about contributing to the documentation
+   in :ref:`Writing Documentation  ➜  <h2document:docs-contribute>`.
+
+   Or, `contact the Documentation Team ➜ <h2document:contact-us>`.
 
    :ref:`linktargets` | `GitHub repository <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
    | `Issues <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
