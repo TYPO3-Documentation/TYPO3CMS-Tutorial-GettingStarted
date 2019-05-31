@@ -65,13 +65,15 @@ Getting Started Tutorial
    You are welcome to help in improving this guide. Just click on "Edit me on GitHub"
    on the top right to submit your change request.
 
-   Read more general information about contributing to the documentation
-   in :ref:`Writing Documentation  ➜  <h2document:docs-contribute>`.
+   General information:
 
-   Or, `contact the Documentation Team ➜ <h2document:contact-us>`.
+   * :ref:`Contribute (in "Writing Documentation")  ➜  <h2document:docs-contribute>`
+   * :ref:`Contact the Documentation Team ➜ <h2document:contact-us>`.
 
-   :ref:`linktargets` | `GitHub repository <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
-   | `Issues <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
+   Links for this manual:
+
+   :ref:`linktargets` | `GitHub repository ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
+   | `Issues ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
 
 
 **Sitemap:**
