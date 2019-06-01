@@ -26,7 +26,7 @@ conf.py:
     - null
   html_theme_options:
     github_repository: TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted
-    github_branch: latest
+    github_branch: 6.2
   latex_documents:
   - - Index
     - t3start.tex
