@@ -7,6 +7,7 @@
 Getting Started Tutorial
 ========================
 
+.. test
 .. use |release| to automatically show release
 
 :Version:
