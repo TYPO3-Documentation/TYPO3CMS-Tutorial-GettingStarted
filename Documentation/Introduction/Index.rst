@@ -76,7 +76,8 @@ Credits
 This manual was originally written by Kasper Skårhøj and adapted to
 TYPO3 CMS 4.5 LTS by Philipp Gampe, Martin Holtz, Susanne Moog and François Suter.
 It was revised and updated to version 6.2 LTS by Guido Haase, to version 7 LTS
-by Francois Suter and to version 9 by Sybille Peters.
+by Francois Suter and to version 9.5 LTS by Sybille Peters.
+Tom Warwick made several language improvements on the 9.5 branch for better readability.
 
 Since TYPO3 documentation can now be edited by the TYPO3 community collaboratively,
 a number of other people have made changes and improved this tutorial. You can see
