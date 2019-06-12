@@ -31,7 +31,7 @@ Content area (right)
 Docheader (top)
    The *docheader* contains contextual icons including close, save and preview.
    It also features other information and a drop-down menu with further actions
-   which will appear depedning on what actions you are performing.
+   which will appear depending on what actions you are performing.
 
 
 .. figure:: ../../Images/BackendAreasOverview.png
