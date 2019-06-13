@@ -93,6 +93,5 @@ Getting Started Tutorial
    ExtensionManager/Index
    UserManagement/Index
    OtherBackendModules/Index
-   Troubleshooting/Index
    NextSteps/Index
    Sitemap
