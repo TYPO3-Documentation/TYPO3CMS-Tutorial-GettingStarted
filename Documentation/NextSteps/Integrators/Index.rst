@@ -31,7 +31,7 @@ site manually with TypoScript.
 
 TYPO3 9 comes with a powerful site handling module which is document in
 :ref:`t3coreapi:sitehandling`. This includes, setting up sites, language configuration
-and URL handlling. Find out more about URL handling in the next section.
+and URL handling. Find out more about URL handling in the next section.
 
 Even if you only use one language or only one site, it is recommended to setup
 the site configuration. You can find it in the backend under :guilabel:`SITE MANAGEMENT`:

@@ -130,7 +130,7 @@ page related functions. Here is what these options do:
 
       parent
        |
-       --> currrent page
+       --> current page
             |
             ---> new page
 
