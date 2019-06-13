@@ -9,8 +9,6 @@ TYPO3 - Getting Started Tutorial
 
 This is the "Getting Started Tutorial" for TYPO3. It is part of the official TYPO3 documentation
 
-
-:Description: How to get started with TYPO3.
 :Read online: https://docs.typo3.org/typo3cms/GettingStartedTutorial/
 :Repository:  https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted
 
