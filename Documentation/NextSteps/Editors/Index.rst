@@ -37,8 +37,4 @@ Rich Text Editing
 Read `Basic Usage <https://docs.typo3.org/typo3cms/extensions/rte_ckeditor/Usage/Index.html>`__
 in the rte_ckeditor documentation for an introduction to rich text editing.
 
-Or watch the video from the official TYPO3 YouTube channel:
 
-.. youtube:: 0589lNwFCic
-
-   Tutorial - Rich Text Editor
