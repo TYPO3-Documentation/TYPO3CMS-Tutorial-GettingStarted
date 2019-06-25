@@ -196,7 +196,7 @@ You can also create new pages using drag and drop.
 The View Module
 ===============
 
-It is also possible to view a page having to leave the backend. By selecting the View module,
+It is also possible to view a page without having to leave the backend. By selecting the View module,
 backend users are able to preview individual pages and test them against various screen sizes,
 by accessing the drop-down menu at the top.
 
