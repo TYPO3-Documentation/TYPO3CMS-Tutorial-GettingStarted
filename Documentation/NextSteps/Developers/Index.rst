@@ -7,7 +7,8 @@
 For Developers
 ==============
 
-
+.. _next-steps-developers-extbase:
+.. _next-steps-developers-fluid:
 
 Fluid / Extbase
 ===============
