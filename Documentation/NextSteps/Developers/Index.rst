@@ -27,6 +27,10 @@ in Extbase, the following resources are recommended:
    <https://www.extbase-book.org/>`__ by Michael Schams was just released,
    so it should be up to date. 
 
+You may also want to refer to the 
+`Fluid ViewHelper reference <https://docs.typo3.org/typo3cms/ViewHelperReference/>`__
+once you work with Fluid.
+
 TYPO3 Explained
 ===============
 
