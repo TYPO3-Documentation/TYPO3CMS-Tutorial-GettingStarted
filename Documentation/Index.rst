@@ -93,5 +93,6 @@ Getting Started Tutorial
    ExtensionManager/Index
    UserManagement/Index
    OtherBackendModules/Index
+   Templating/Index
    NextSteps/Index
    Sitemap
