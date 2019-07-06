@@ -69,4 +69,4 @@ Further Reading
 
 `Templating with Fluid <https://docs.typo3.org/m/typo3/tutorial-templating-with-fluid/master/en-us/>`__.
 
-`Sitepackages <hhttps://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/Index.html>`__.
+`Sitepackages <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/Index.html>`__.
