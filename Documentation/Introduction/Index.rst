@@ -13,13 +13,12 @@ Introduction
 About This Document
 ===================
 
-This document is an introduction to the basic principles of TYPO3 CMS. The
-example website used in this introduction will get you started
-immediately on your own first TYPO3 CMS website. After this tutorial you
-should have an overview about TYPO3 CMS's capabilities, its general structure
-and extension possibilities. Professional creation of templates and
-development with TYPO3 CMS in general are not covered by this document.
+This document was created to introduce new users to TYPO3, its core features and
+provide an overview on how to configure and administer the CMS.
 
+Upon completing this tutorial, you should have a better understanding about how
+the CMS is installed, how the backend is administered and how you begin creating
+templates.
 
 French Translation
 ------------------

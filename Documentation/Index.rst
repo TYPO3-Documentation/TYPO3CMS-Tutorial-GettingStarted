@@ -52,7 +52,7 @@ Getting Started Tutorial
 
 **Tutorial**
 
-   This document is a tutorial. Tutorials are designed to be step-by-step
+   This document is a tutorial. Tutorials provide step-by-step
    instructions specifically created to walk a beginner through a
    particular task from beginning to end. To facilitate effective
    learning, tutorials provide examples to illustrate the subjects they
@@ -93,5 +93,6 @@ Getting Started Tutorial
    ExtensionManager/Index
    UserManagement/Index
    OtherBackendModules/Index
+   Templating/Index
    NextSteps/Index
    Sitemap
