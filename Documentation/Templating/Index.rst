@@ -16,8 +16,8 @@ Whilst this tutorial does not cover templating in TYPO3, this section is intende
 and give you a brief introduction to TYPO3's templating engine and also discuss best practices for managing your sites
 HTML templates, stylesheets and other assets.
 
-.. _Introducing Fluid:
 
+.. _introducing-fluid:
 
 Introducing Fluid
 =================
@@ -35,13 +35,15 @@ For example a simple web page that features a navigation menu, a few paragraphs 
 Fluid's syntax is easy to learn and is very similar to HTML by design.
 
 
-.. _Where are templates stored:
+.. _where-are-templates-stored:
 
 Where are templates stored
 ==========================
 
+.. _where-are-templates-stored-fileadmin:
+
 Fileadmin
-=========
+---------
 
 You *can* store your HTML templates in Fileadmin alongside your projects static content such as documents and images. This is a convenient way
 of storing your files when you are first starting out with Fluid. It is also very common to find templates stored in Fileadmin on older, legacy
@@ -51,8 +53,10 @@ However, using Fileadmin to store your templates comes with considerable drawbac
 from accessing and potentially deleting your sites HTML templates with no easy ability in place to retrieve the files once they are deleted.
 
 
+.. _where-are-templates-stored-sitepackages:
+
 Sitepackages
-============
+------------
 
 Sitepackages are a convenient way of bundling your sites HTML,CSS and other assets into a single, reusable extension.
 By using Sitepackages we can:
@@ -62,7 +66,7 @@ By using Sitepackages we can:
 - Install our Sitepackage using a one click installation process, making it easier to deploy across multiple instances.
 
 
-.. _Further Reading:
+.. _further-reading:
 
 Further Reading
 ===============
