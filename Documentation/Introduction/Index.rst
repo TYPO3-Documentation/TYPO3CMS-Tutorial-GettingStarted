@@ -8,30 +8,6 @@ Introduction
 ============
 
 
-.. _about-this-document:
-
-About This Document
-===================
-
-This document was created to introduce new users to TYPO3, its core features and
-provide an overview on how to configure and administer the CMS.
-
-Upon completing this tutorial, you should have a better understanding about how
-the CMS is installed, how the backend is administered and how you begin creating
-templates.
-
-French Translation
-------------------
-
-A French translation has been created by Jonathan Iroulin.
-
-We are currently working on optimizing the rendering. Due to this, there
-was an issue with rendering the translation. The translated version still
-exists in a separate branch **fr** and only needs to be reactivated once
-the issues with rendering have been solved and the French branch has been
-reviewed for TYPO3 9.
-
-
 .. _get-help:
 
 Get Help
@@ -52,13 +28,8 @@ Ask on **Slack** for help:
 4. Join the **#typo3-cms** channel and ask your question
 
 
-.. _what-s-new:
-
-Status of This Manual
-=====================
-
-The current version was updated to reflect TYPO3 CMS 9.5 LTS.
-
+Select Version
+==============
 
 .. tip:: Select the correct version
 
@@ -67,20 +38,33 @@ The current version was updated to reflect TYPO3 CMS 9.5 LTS.
    <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_ in
    "Usage Tips").
 
-.. _credits:
+How to Read This Tutorial
+=========================
 
-Credits
-=======
+This tutorial walks you through the TYPO3 backend module by module. While doing this,
+important TYPO3 features are explained and we show you how to do common tasks like
+using the TYPO3 clipboard for editing.
 
-This manual was originally written by Kasper Skårhøj and adapted to
-TYPO3 CMS 4.5 LTS by Philipp Gampe, Martin Holtz, Susanne Moog and François Suter.
-It was revised and updated to version 6.2 LTS by Guido Haase, to version 7 LTS
-by Francois Suter and to version 9.5 LTS by Sybille Peters.
-Tom Warwick made several language improvements on the 9.5 branch for better readability.
+This is a hands on tutorial: It is recommended to have a working TYPO3 installation
+available and try out the features as you go along. You learn how to setup a TYPO3
+installation in :ref:`installation`. In this tutorial we use a TYPO3 installation
+based on the Introduction Package. Since TYPO3 is highly configurable, the items in
+the GUI may look and behave slightly differently if your installation is not based
+on the Introduction Package or has been modified otherwise.
 
-Since TYPO3 documentation can now be edited by the TYPO3 community collaboratively,
-a number of other people have made changes and improved this tutorial. You can see
-the `list of contributors on GitHub
-<https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/graphs/contributors>`__.
+The chapter :ref:`general-principles` gives you a general overview over the main parts
+and features of the backend. The following chapters :ref:`list-module` and :ref:`file-module`
+show some basic editing tasks using these modules. They are highly recommended for
+**editors**.
 
+The following chapters handle some **administration** and **configuration tasks**. They
+require additional privileges in the backend. Editors will
+usually not have access to system modules. So, for editors it is recommended to skip right to
+the section :ref:`next-steps-editors`.
+
+**Integrators** who wish to integrate an existing template into TYPO3 may wish to
+start reading with :ref:`Templating`.
+
+All target audiences will find recommendations for additional reading in the :ref:`next-steps`
+section.
 
