@@ -25,6 +25,10 @@ should not have been able to do in the first place.
 Before TYPO3 version 9 there was only admin and non admin. Now we have the
 additional access privilege "system maintainer".
 
+
+
+.. _admin-user:
+
 Admin
 =====
 
@@ -39,7 +43,10 @@ Admin
 .. image:: ../../Images/system_open.png
    :class: with-shadow
 
+
+
 .. _user-management-system-maintainers:
+.. _system-maintainer:
 
 System Maintainers
 ==================

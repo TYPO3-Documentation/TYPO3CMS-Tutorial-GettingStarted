@@ -27,7 +27,7 @@ Getting Started Tutorial
       Newcomers, editors, integrators, administrators
 
 :Status:
-      ok - Tested and reviewed for TYPO3 9.5.5 on April 11, 2019
+      ok - Tested and reviewed for TYPO3 9.5.8 on July 22, 2019
 
 
 **TYPO3**
@@ -104,7 +104,9 @@ Getting Started Tutorial
 
    UserManagement/Index
    ExtensionManager/Index
-   OtherBackendModules/Index
+   OtherBackendModules/InfoAndFunctions/Index
+   OtherBackendModules/BackendLocalization/Index
+   OtherBackendModules/SystemModules/Index
 
 .. toctree::
    :maxdepth: 2

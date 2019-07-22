@@ -7,6 +7,11 @@
 Manage Backend Languages
 ========================
 
+.. important::
+
+   This chapters cover modules that will only be available for backend users
+   with :ref:`"system maintainer" <system-maintainer>` access privileges.
+
 The TYPO3 CMS backend is available in many languages. These
 translations are bundled into packages which need to be fetched
 from the community translation server (https://translation.typo3.org/).

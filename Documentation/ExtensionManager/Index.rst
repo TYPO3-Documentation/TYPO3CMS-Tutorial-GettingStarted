@@ -8,6 +8,25 @@
 The Extension Manager
 =====================
 
+.. important::
+
+   This chapters cover modules that will only be available for backend users
+   with :ref:`"system maintainer" <system-maintainer>` access privileges.
+
+.. tip::
+
+   It is possible to set up your TYPO3 CMS installation and install
+   extensions by using **Composer**. In that case, the *Extension Manager*
+   is of little relevance. For more information, see the chapters in the
+   Installation & Upgrade Guide:
+
+   * :ref:`t3install:install-via-composer`
+   * :ref:`t3install:install-extension-with-composer`
+
+   If you are using Composer, skip to
+   the next chapter :ref:`backend-modules`.
+
+
 TYPO3 CMS has many built-in features but even more features are
 available via extensions. Actually the whole of TYPO3 CMS itself
 is made of extensions. With public extensions you can enhance existing
@@ -16,10 +35,6 @@ features or add totally new ones.
 The *Extension Manager* is where you can manage available extensions
 or get new ones from the TYPO3 Extension Repository (TER). It is quite
 a rich tool and this chapter provides only a brief overview.
-
-It is possible to set up your TYPO3 CMS installation and install
-extensions by using Composer. In that case, the *Extension Manager*
-is of little relevance. For more information, see the :ref:`t3install:start`.
 
 Moving to **ADMIN TOOLS > Extensions**, we get the following view:
 

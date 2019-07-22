@@ -7,6 +7,11 @@
 System Modules
 ==============
 
+.. important::
+
+   This chapters cover modules that will only be available for backend users
+   with :ref:`"admin" <admin-user>` access privileges.
+
 In the :ref:`User Management <user-management>` chapter we covered the
 *Access* and *Backend Users* module. In this section we take a look
 at the remaining modules.
@@ -64,7 +69,7 @@ Configuration
 
 The *Configuration* module can be used to view the various
 configuration arrays used by the CMS. It is not the goal
-of this tutorial to described the role of each of these arrays,
+of this tutorial to describe the role of each of these arrays,
 you can discover their function as you dig deeper into
 TYPO3 CMS. Let's just mention that the `$GLOBALS['TYPO3_CONF_VARS']`
 contains global configuration values.
