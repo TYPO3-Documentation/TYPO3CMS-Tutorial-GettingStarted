@@ -7,11 +7,8 @@
 Getting Started Tutorial
 ========================
 
-.. use |release| to automatically show release
-
 :Version:
-      9.5 (other: `8.7 <https://docs.typo3.org/typo3cms/GettingStartedTutorial/8.7/>`__
-      | `7.6 <https://docs.typo3.org/typo3cms/GettingStartedTutorial/7.6/>`__)
+      |release|
 
 :Language:
       en
@@ -26,6 +23,9 @@ Getting Started Tutorial
       Open Publication License available from `www.opencontent.org/openpub/
       <http://www.opencontent.org/openpub/>`_
 
+:Target Audience:
+      Newcomers, editors, integrators, administrators
+
 :Status:
       ok - Tested and reviewed for TYPO3 9.5.5 on April 11, 2019
 
@@ -37,10 +37,10 @@ Getting Started Tutorial
    <https://typo3.org/>`_ .
 
 
-**About this manual:**
+**About this tutorial:**
 
    The official tutorial to discover the main features and concepts of TYPO3 CMS.
-   It is based on the Introduction Package.
+   It is based on the Introduction Package. :ref:`Read more ... <about>`
 
 
 **Official documentation:**
@@ -87,12 +87,36 @@ Getting Started Tutorial
 
    Introduction/Index
    Installation/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: EDITING
+   :hidden:
+
    GeneralPrinciples/Index
    ListModule/Index
    FileModule/Index
-   ExtensionManager/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ADMINISTRATION
+   :hidden:
+
    UserManagement/Index
+   ExtensionManager/Index
    OtherBackendModules/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: TEMPLATING
+   :hidden:
+
    Templating/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: NEXT STEPS
+   :hidden:
+
    NextSteps/Index
    Sitemap

@@ -21,6 +21,7 @@ permissions.
    :titlesonly:
    :glob:
 
+   BackendPrivileges/Index
    BackendUsers/Index
    Groups/Index
    GroupPermissions/Index

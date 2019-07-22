@@ -1,5 +1,6 @@
 .. include:: ../Includes.txt
 
+.. _list-module:
 .. _the-list-module-and-clipboard:
 
 ===============

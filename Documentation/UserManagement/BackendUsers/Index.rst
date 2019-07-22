@@ -17,6 +17,11 @@ module.
 This module makes it possible to search and filter users. They
 can also be edited, deleted and disabled.
 
+.. tip::
+
+   See section :ref:`privileges` for more information on
+   special backend user roles "admin" and "system maintainers".
+
 Default Editors in the Introduction Package
 ===========================================
 
@@ -98,21 +103,4 @@ for a good exercise for changing user rights in the next chapters.
    .. figure:: ../../Images/BackendBackendUsersList.png
       :alt: Viewing backend users in the List module
       :class: with-shadow
-
-.. _user-management-system-maintainers:
-
-System Maintainers
-==================
-
-Introduced in TYPO3 CMS 9, this is a special permission for Backend Users.
-The first created user, during installation of TYPO3, is already marked as a
-System Maintainer. Other users can become System Maintainers only within the module
-**Admin Tools > Settings > Manage System Maintainers**.
-
-System Maintainers are the only users who are able to see and access the Install Tool
-and the Extension Manager. These users are persisted within the
-:file:`LocalConfiguration.php` as :php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['systemMaintainers']`.
-
-Also see changelog `Feature: #82266 - Backend Users System Maintainers <https://docs.typo3.org/typo3cms/extensions/core/Changelog/9.0/Feature-82266-BackendUsersSystemMaintainers.html>`_.
-
 

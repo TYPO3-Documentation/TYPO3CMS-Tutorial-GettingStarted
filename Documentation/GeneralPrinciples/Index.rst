@@ -3,8 +3,9 @@
 
 .. _general-principles:
 
-General principles
-------------------
+==================
+General Principles
+==================
 
 This chapter will introduce you to some of the core components used
 in TYPO3's backend interface and is recommended for new users.

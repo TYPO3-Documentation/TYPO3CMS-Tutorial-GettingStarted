@@ -1,6 +1,6 @@
 .. include:: ../Includes.txt
 
-
+.. _file-module:
 .. _the-file-module:
 .. _the-file-module-or-image-archives:
 
@@ -75,3 +75,11 @@ You will get to simple upload view:
    :alt: Upload possibilities in the File module
    :class: with-shadow
 
+Next Steps
+==========
+
+The next chapters cover configuration and administration tasks that
+require special access privileges as described in :ref:`privileges`.
+
+As editor, you may want to skip to :ref:`next-steps-editors` in
+the "Next Steps" chapter to get some pointers for further reading.
