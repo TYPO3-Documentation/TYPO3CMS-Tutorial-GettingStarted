@@ -27,7 +27,7 @@ Getting Started Tutorial
       Newcomers, editors, integrators, administrators
 
 :Status:
-      ok - Tested and reviewed for TYPO3 9.5.8 on July 22, 2019
+      needs review (Last reviewed for TYPO3 9.5.8 on July 22, 2019)
 
 
 **TYPO3**
