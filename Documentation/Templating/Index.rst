@@ -71,6 +71,6 @@ By using Sitepackages we can:
 Further Reading
 ===============
 
-`Templating with Fluid <https://docs.typo3.org/m/typo3/tutorial-templating-with-fluid/master/en-us/>`__.
+`Templating with Fluid <https://docs.typo3.org/m/typo3/tutorial-templating/master/en-us/>`__.
 
 `Sitepackages <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/Index.html>`__.
