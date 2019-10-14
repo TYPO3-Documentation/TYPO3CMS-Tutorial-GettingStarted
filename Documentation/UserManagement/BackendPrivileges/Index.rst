@@ -10,7 +10,7 @@ The following chapters cover modules that will only be available for backend
 users with specific access privileges.
 
 In addition to configuring access
-rights for bachend users or groups as described in :ref:`permissions`, there
+rights for backend users or groups as described in :ref:`permissions`, there
 are "superuser" rights which can be activated for each user.
 
 If a backend user has been created for editing in the backend, he or she should
