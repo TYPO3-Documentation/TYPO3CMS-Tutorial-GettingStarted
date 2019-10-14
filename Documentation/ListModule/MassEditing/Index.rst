@@ -84,5 +84,5 @@ The result is a form for editing just the chosen field for the
 selected records:
 
 .. figure:: ../../Images/BackendListSelectiveEditingForm.png
-   :alt: Editig form displayed for the selected records
+   :alt: Editing form displayed for the selected records
    :class: with-shadow
