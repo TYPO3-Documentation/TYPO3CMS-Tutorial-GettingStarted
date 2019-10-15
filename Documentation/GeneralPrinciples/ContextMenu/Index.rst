@@ -11,7 +11,7 @@ While learning about the :ref:`page tree <page-tree>`,
 we were introduced to contextual menus
 when selecting icons in the Page module.
 
-Contextual menus exist throught the CMS's
+Contextual menus exist throughout the CMS's
 backend. You will notice that different sets of
 icons appear depending on what page you are on
 what actions you are performing.
