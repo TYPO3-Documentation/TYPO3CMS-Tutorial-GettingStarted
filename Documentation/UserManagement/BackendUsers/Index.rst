@@ -31,7 +31,7 @@ groups for you: "simple_editor" and "advanced_editor".
 .. hint::
 
    The following steps assume that the editors "simple_editor"
-   and "advanced_editor exist". In some versions of the
+   and "advanced_editor" exist. In some versions of the
    "Introduction Package", `they will not get created
    <https://github.com/FriendsOfTYPO3/introduction/issues/21>`__.
 
