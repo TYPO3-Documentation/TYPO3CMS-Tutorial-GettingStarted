@@ -12,5 +12,4 @@ Security is taken very seriously by the developers of TYPO3 CMS. The
 incidents. They review them and consider their impact. Security advisories
 are regularly published.
 
-More information about security can be found in the
-:ref:`t3api:security`.
+More information about security can be found in :ref:`t3security:start`.
