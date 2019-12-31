@@ -12,11 +12,8 @@
 Getting Started Tutorial
 ========================
 
-:Previous Key:
-      doc_tut_quickstart
-
 :Version:
-      6.2.0
+      |release|
 
 :Language:
       en
@@ -40,8 +37,6 @@ Getting Started Tutorial
       Open Publication License available from `www.opencontent.org/openpub/
       <http://www.opencontent.org/openpub/>`_
 
-:Rendered:
-      |today|
 
 The content of this document is related to TYPO3 CMS,
 
