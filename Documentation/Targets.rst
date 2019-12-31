@@ -1,6 +1,6 @@
-.. include:: Includes.txt
+:orphan:
 
-.. only:: html
+.. include:: Includes.txt
 
 .. _linktargets:
 

@@ -125,6 +125,6 @@ use the following resources:
 * `Fluid documentation <https://github.com/TYPO3/Fluid>`__: As Fluid itself can be
   used independently to TYPO3, it is developed outside of the TYPO3 project. This
   is the start page of the Fluid project.
-* :ref:`t3extbasebook:fluid-start` in the "Extbase / Fluid Book"
+* :ref:`t3extbasebook:fluid` in the "Extbase / Fluid Book"
 * :ref:`t3viewhelper:start`
 

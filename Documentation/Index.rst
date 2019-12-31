@@ -122,3 +122,10 @@ Getting Started Tutorial
 
    NextSteps/Index
    Sitemap
+
+.. toctree::
+   :maxdepth: 1
+   :caption: ABOUT
+   :hidden:
+
+   About
