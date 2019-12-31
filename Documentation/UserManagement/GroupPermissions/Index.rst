@@ -145,9 +145,6 @@ The next tab contains very important fields which define over
 which part of the page tree and the file system the members of
 the group may exert their rights.
 
-We will cover only mounts here. Detailed information about
-workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
-
 
 .. _db-mounts:
 
@@ -186,13 +183,6 @@ They can then simply be selected when editing a backend user group:
 
 .. figure:: ../../Images/BackendBackendGroupEditFileMounts.png
    :alt: Selecting allowed file mounts
-
-.. note::
-
-   The definition of file mount records also depends on so-called
-   m
-   file storages. This topic is covered in more detail in the
-   :ref:`File Abstraction Layer reference <t3fal:start>`.
 
 In order to inherit these settings in assigned users, activate the checkbox
 "Mount from groups" for the "File Mounts" in the `be_users` record of this

@@ -33,7 +33,6 @@ after this tutorial:
    Administrators/Index
    Developers/Index
    References/Index
-   Security/Index
 
 
 If not stated otherwise, we link to the latest versions of the manuals here, which reflect the latest

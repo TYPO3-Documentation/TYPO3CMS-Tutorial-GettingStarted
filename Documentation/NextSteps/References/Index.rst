@@ -20,10 +20,6 @@ TypoScript Reference
    full page template and the rendering of individual content elements according to
    their type.
 
-Fluid ViewHelper Reference
-   The :ref:`t3viewhelper:start` is useful when you work with the Fluid templating
-   engine.
-
 TCA Reference
    The :ref:`t3tca:start` is only relevant for developers. It describes the global
    array called $GLOBALS['TCA']. This array is a layer on top of the database
