@@ -67,13 +67,13 @@ on the top right to submit your change request.
 
 General information:
 
-* :ref:`Contribute (in "Writing Documentation")  ➜  <h2document:docs-contribute>`
-* :ref:`Contact the Documentation Team ➜ <h2document:contact-us>`.
+* :ref:`Contribute (in "Writing Documentation") <h2document:docs-contribute>`
+* :ref:`Contact the Documentation Team <h2document:contact-us>`.
 
 Links for this manual:
 
-:ref:`linktargets` | `GitHub repository ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
-| `Issues ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
+:ref:`linktargets` | `GitHub repository <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
+| `Issues <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
 
 
 .. toctree::
