@@ -36,6 +36,18 @@ available to help filter this data.
 DB Check
 ========
 
+.. important::
+
+   "DB Check and :ref:`system-modules-configuration` are only available
+   if the system extension "lowlevel" was installed and activated.
+   
+   For Composer based systems (see also :ref:`t3install:extension-installation`):
+   
+   .. code-block:: bash
+   
+      composer req typo3/cms-lowlevel
+
+
 The *Database (DB) Check* module offers four functions related
 to the database and its content.
 
