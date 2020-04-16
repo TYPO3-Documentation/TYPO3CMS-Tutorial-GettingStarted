@@ -9,7 +9,7 @@ Templating
 
 At this point, you should now be able to install and configure TYPO3 and be familiar with
 its backend. You may be wondering how you go about adding bespoke HTML templates
-to your own TYPO3 project and you might have noticed that the HTML, CSS and Javascript for the Introduction Package are
+to your own TYPO3 project and you might have noticed that the HTML, CSS and Javascript for the Introduction Package
 are not accessible in the backend.
 
 Whilst this tutorial does not cover templating in TYPO3, this section is intended to answer both of these questions
