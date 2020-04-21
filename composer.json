@@ -4,6 +4,6 @@
     "description": "The official tutorial to discover the main features and concepts of TYPO3 CMS. It is based on the Introduction Package.",
     "license": "OPL-1.0",
     "require": {
-      "typo3/cms-core": "^10.0"
+      "typo3/cms-core": "^10.4"
     }
 }
