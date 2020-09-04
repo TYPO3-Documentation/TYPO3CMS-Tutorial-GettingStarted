@@ -17,40 +17,40 @@ The Extension Manager
 
    It is possible to set up your TYPO3 CMS installation and install
    extensions by using **Composer**. In that case, the *Extension Manager*
-   is of little relevance. For more information, see the chapters in the
+   is of less relevance. For more information, see the chapters in the
    Installation & Upgrade Guide:
 
    * :ref:`t3install:install-via-composer`
    * :ref:`t3install:install-extension-with-composer`
 
-   If you are using Composer, skip to
-   the next chapter :ref:`backend-modules`.
-
-
 TYPO3 CMS has many built-in features but even more features are
 available via extensions. Actually the whole of TYPO3 CMS itself
 is made of extensions. With public extensions you can enhance existing
-features or add totally new ones.
+features or add new ones.
 
-The *Extension Manager* is where you can manage available extensions
-or get new ones from the TYPO3 Extension Repository (TER). It is quite
+The *Extension Manager* is where you can manage available extensions.
+You can also install extensions from the TYPO3 Extension Repository (TER),
+if your installation is not set up with Composer. The *Extension Manager* is quite
 a rich tool and this chapter provides only a brief overview.
 
-Moving to **ADMIN TOOLS > Extensions**, we get the following view:
+Moving to **ADMIN TOOLS > Extensions**, we get the following view
+(in non-Composer mode):
 
 .. figure:: ../Images/BackendExtensionManager.png
    :alt: TYPO3 CMS Extension Manager
    :class: with-shadow
 
 It shows the "Installed extensions". The first action icon (1) can be used
-to install an uninstalled extension or vice-versa (uninstalled extensions
+to activate an extension or deactivate it (deactivated extensions
 appear grayed out).
 
-Next comes information about the extension: title, key, version and state.
-Finally are one or more actions icons, depending on what the extension offers.
-All extensions have a download action, many will have a configuration action,
-which can be used to access the extension's options. Again just hover over
-the actions to get a help text.
+Next comes information about the extension (from left to right): the
+title (2), key (3), version (4) state (5) and type (6).
+
+On the right, there are one or more actions icons (7), depending on what the extension offers.
+All extensions have a download action. Hover over the actions to get a help text.
+
+Extensions are configured in :guilabel:`Settings > Extension Configuration`
 
 
 .. _install-extension:
