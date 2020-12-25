@@ -28,7 +28,9 @@ Ask on **Slack** for help:
 4. Join the **#typo3-cms** channel and ask your question
 
 
-Select Version
+.. _usage-version-selector:
+
+Select version
 ==============
 
 .. tip:: Select the correct version
