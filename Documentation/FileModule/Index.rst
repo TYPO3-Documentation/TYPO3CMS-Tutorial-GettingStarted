@@ -49,6 +49,7 @@ or link to them in your web site is covered in the
 
 
 .. index:: pair: Files; Clipboard
+
 Clipboard
 ---------
 

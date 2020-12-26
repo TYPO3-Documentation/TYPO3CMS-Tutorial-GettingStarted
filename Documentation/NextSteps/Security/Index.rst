@@ -1,7 +1,7 @@
 .. include:: /Includes.rst.txt
 .. index::
    Security
-   Security Tea
+   Security Team
 .. _next-steps-security:
 
 =====================
