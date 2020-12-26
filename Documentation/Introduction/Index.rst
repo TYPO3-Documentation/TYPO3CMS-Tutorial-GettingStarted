@@ -38,32 +38,32 @@ Select Version
    <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_ in
    "Usage Tips").
 
-How to Read This Tutorial
-=========================
+About This Tutorial
+===================
 
-This tutorial walks you through the TYPO3 backend module by module. While doing this,
-important TYPO3 features are explained and we show you how to do common tasks like
-using the TYPO3 clipboard for editing.
+This tutorial will introduce you to TYPO3's backend, covering each of its modules in detail.
+It will also show you to how to carry out common tasks that you would expect to perform
+in any content management system.
 
-This is a hands on tutorial: It is recommended to have a working TYPO3 installation
-available and try out the features as you go along. You learn how to setup a TYPO3
-installation in :ref:`installation`. In this tutorial we use a TYPO3 installation
-based on the Introduction Package. Since TYPO3 is highly configurable, the items in
-the GUI may look and behave slightly differently if your installation is not based
-on the Introduction Package or has been modified otherwise.
+In the :ref:`installation` chapter, you will learn how to set up TYPO3 after completing a new installation.
+We use a TYPO3 installation based on the Introduction Package. Since TYPO3 is highly configurable, the items in
+the GUI may look and behave slightly differently if your installation is not using the Introduction Package.
 
-The chapter :ref:`general-principles` gives you a general overview over the main parts
-and features of the backend. The following chapters :ref:`list-module` and :ref:`file-module`
-show some basic editing tasks using these modules. They are highly recommended for
-**editors**.
+The chapter :ref:`general-principles` gives you an overview of TYPO3's backend. Here you will learn how to
+log in to the CMS and perform other tasks such as creating pages in the Page Tree and adding content to individual pages.
 
-The following chapters handle some **administration** and **configuration tasks**. They
-require additional privileges in the backend. Editors will
-usually not have access to system modules. So, for editors it is recommended to skip right to
-the section :ref:`next-steps-editors`.
+The chapters :ref:`list-module` and :ref:`file-module`
+cover some basic editing tasks and are aimed at **editors**.
 
-**Integrators** who wish to integrate an existing template into TYPO3 may wish to
-start reading with :ref:`Templating`.
+The next few chapters handle some **administration** and **configuration tasks**. They
+require enhanced backend privileges. Editors will
+usually not have access to these modules.
+
+For editors, we recommended that you proceed
+to the :ref:`next-steps-editors` section.
+
+**Integrators** who wish to start adding HTML templates into their installation of TYPO3
+can find out more in the :ref:`Templating` section.
 
 All target audiences will find recommendations for additional reading in the :ref:`next-steps`
 section.
