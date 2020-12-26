@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _setup-user:
 .. _creating-a-new-user-for-the-introduction-site:
