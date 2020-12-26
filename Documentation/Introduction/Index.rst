@@ -27,16 +27,16 @@ Ask on **Slack** for help:
 3. Join the TYPO3 Slack workspace: https://typo3.slack.com
 4. Join the **#typo3-cms** channel and ask your question
 
+Selecting The Right Version Of This Tutorial
+============================================
 
-Select Version
-==============
+.. tip:: Make sure the version of TYPO3 you are using matches the same revision of this tutorial
 
-.. tip:: Select the correct version
-
-   If you use a different TYPO3 version, click on "Related Links" in the bottom
-   of the menu to select a different version (see `Version Selector
-   <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_ in
-   "Usage Tips").
+   If you are using a different version of TYPO3, you can 
+   `select the appropriate revision of this tutorial <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_
+   that matches your installation by
+   finding the **Release** drop-down, located at the top left of 
+   this tutorials' navigation menu.
 
 How to Read This Tutorial
 =========================
