@@ -1,10 +1,11 @@
 .. include:: /Includes.rst.txt
-
-
+.. index::
+   Security
+   Security Tea
 .. _next-steps-security:
 
 =====================
-Keep Security in Mind
+Keep security in mind
 =====================
 
 Security is taken very seriously by the developers of TYPO3 CMS. The
