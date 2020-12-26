@@ -1,10 +1,9 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Backend; Page tree
 .. _page-tree:
 
 =========
-Page Tree
+Page tree
 =========
 
 .. sectionauthor:: name <email>
@@ -55,7 +54,9 @@ The main menu on top of your web site corresponds to the first
 level menu pages in the page tree. The sub-menu of the :guilabel:`"Content Examples"`
 page in the frontend corresponds to the entries beneath "Content Examples" in the page tree.
 
-Working With the Page Tree
+.. index:: Root page
+
+Working with the page tree
 ==========================
 
 Remember the components of the backend from the :ref:`previous page <general-backend-structure>`?
@@ -95,9 +96,10 @@ Context menu:
       :class: with-shadow
 
 
+.. index:: Page tree; Context menu
 .. _the-context-menu:
 
-The Context Menu
+The context menu
 ================
 
 The context menu of a page is used to access the most common
@@ -162,9 +164,10 @@ page related functions. Here is what these options do:
   changes when)
 
 
+.. index:: Pages; Create
 .. _new-page-drag-and-drop:
 
-Create New Pages With Drag and Drop
+Create new pages with drag and drop
 ===================================
 
 You can also create new pages using drag and drop.
@@ -191,9 +194,10 @@ You can also create new pages using drag and drop.
       :class: with-shadow
 
 
+.. index:: Modules; View
 .. _the-view-module:
 
-The View Module
+The view module
 ===============
 
 It is also possible to view a page without having to leave the backend. By selecting the View module,
@@ -204,9 +208,11 @@ by accessing the drop-down menu at the top.
    :alt: Viewing a page directly in the backend
    :class: with-shadow
 
+
+.. index:: Page tree; Collapse
 .. _collapse-page-tree:
 
-Collapsing the Page Tree
+Collapsing the page tree
 ========================
 
 The page tree can be collapsed to gain screen space, by clicking on the second icon
@@ -219,9 +225,10 @@ on the left in the top bar.
    Collapse or expand the page tree
 
 
+.. index:: Pages; Edit
 .. _editing-pages:
 
-Editing Pages
+Editing pages
 =============
 
 Modifying an existing page or adding a new one is covered in the

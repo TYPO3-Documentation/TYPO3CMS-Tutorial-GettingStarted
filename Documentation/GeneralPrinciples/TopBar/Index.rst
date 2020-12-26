@@ -1,10 +1,9 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Backend; Top bar
 .. _top-bar:
 
 ===========
-The Top Bar
+The top bar
 ===========
 
 The top bar features a set of menus that allow you to quickly carry out common administrative tasks.

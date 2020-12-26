@@ -1,6 +1,4 @@
 .. include:: /Includes.rst.txt
-
-
 .. _backend-and-frontend:
 
 ====================
@@ -8,6 +6,8 @@ Backend and Frontend
 ====================
 
 TYPO3 CMS is divided into two areas - the *backend* and the *frontend*.
+
+.. index:: Frontend
 
 Frontend
 ========
@@ -19,6 +19,7 @@ in the address bar of your browser (e.g.
 `http://www.your-site.example.org/`).
 
 
+.. index:: Backend
 .. _backend-login:
 
 Backend

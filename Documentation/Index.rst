@@ -1,10 +1,9 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Getting started
 .. _start:
 
 ========================
-Getting Started Tutorial
+Getting started tutorial
 ========================
 
 :Version:
@@ -117,3 +116,4 @@ Links for this manual:
 
    NextSteps/Index
    Sitemap
+   GenIndex

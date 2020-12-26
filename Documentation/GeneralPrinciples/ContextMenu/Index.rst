@@ -1,11 +1,10 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Context menu
 .. _context-menu:
 
-====================
-The Contextual Menus
-====================
+=================
+The context menus
+=================
 
 While learning about the :ref:`page tree <page-tree>`,
 we were introduced to contextual menus
