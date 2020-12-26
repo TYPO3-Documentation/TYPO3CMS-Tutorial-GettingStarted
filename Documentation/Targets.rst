@@ -1,12 +1,14 @@
+:orphan:
+
 .. include:: /Includes.rst.txt
 
 .. only:: html
 
 .. _linktargets:
 
-===========
-Linktargets
-===========
+============
+Link targets
+============
 
 Explanation
 ===========
@@ -33,7 +35,7 @@ More information:
 
 .. _Targets-for-Cross-Referencing:
 
-Targets for Cross-Referencing
+Targets for cross referencing
 =============================
 
 

@@ -55,7 +55,7 @@ It is (in most parts) well maintained.
   * :ref:`t3coreapi:directory-structure` : general directory structure of a TYPO3
     installation
   * :ref:`t3coreapi:namespaces`
-  * :ref:`t3coreapi:globals`
+  * :ref:`t3coreapi:globals-variables`
   * :ref:`t3coreapi:tce`
 
 Extension Builder
