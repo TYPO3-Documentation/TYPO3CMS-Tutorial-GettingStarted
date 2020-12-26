@@ -1,10 +1,11 @@
 .. include:: /Includes.rst.txt
-
-
+.. index::
+   Backend users; Page permissions
+   pair: Page; Permissions
 .. _page-permissions:
 
 ================
-Page Permissions
+Page permissions
 ================
 
 :ref:`DB mounts <db-mounts>` are not the whole story about access to pages.

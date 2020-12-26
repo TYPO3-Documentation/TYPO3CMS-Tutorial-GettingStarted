@@ -1,10 +1,9 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Modules; System
 .. _system-modules:
 
 ==============
-System Modules
+System modules
 ==============
 
 .. important::
@@ -16,6 +15,8 @@ In the :ref:`User Management <user-management>` chapter we covered the
 *Access* and *Backend Users* module. In this section we take a look
 at the remaining modules.
 
+
+.. index:: Modules; Log
 .. _system-modules-log:
 
 Log
@@ -31,14 +32,15 @@ available to help filter this data.
    :class: with-shadow
 
 
+.. index:: Modules; DB check
 .. _system-modules-dbcheck:
 
-DB Check
+DB check
 ========
 
 .. important::
 
-   "DB Check and :ref:`system-modules-configuration` are only available
+   "DB check and :ref:`system-modules-configuration` are only available
    if the system extension "lowlevel" was installed and activated.
    
    For Composer based systems (see also :ref:`t3install:extension-installation`):
@@ -48,7 +50,7 @@ DB Check
       composer req typo3/cms-lowlevel
 
 
-The *Database (DB) Check* module offers four functions related
+The *Database (DB) check* module offers four functions related
 to the database and its content.
 
 .. figure:: ../../Images/BackendDbCheckModule.png
@@ -74,6 +76,7 @@ Check and update global reference index
   useful to update this index regularly.
 
 
+.. index:: Modules; Configuration
 .. _system-modules-configuration:
 
 Configuration
@@ -91,6 +94,7 @@ contains global configuration values.
    :class: with-shadow
 
 
+.. index:: Modules; Reports
 .. _system-modules-reports:
 
 Reports

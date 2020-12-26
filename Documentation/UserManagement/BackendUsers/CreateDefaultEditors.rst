@@ -5,7 +5,7 @@
 .. _user-management-create-default-editors:
 
 ====================
-Create Default Users
+Create default users
 ====================
 
 Create simple_editor
@@ -57,7 +57,7 @@ Create "advanced_editor"
 
 Now, create another user "advanced_editor". Use the group "Advanced Editors".
 
-Change DB Mount for Group "Simple Editors"
+Change DB mount for group "simple editors"
 ==========================================
 
 The group "Simple Editors" should have the page "Content Examples" set as
