@@ -8,7 +8,7 @@ Next Steps and Further Reading
 ==============================
 
 All of TYPO3's documentation is available 
-`docs.typo3.org <https://docs.typo3.org/typo3cms/>`_.
+`docs.typo3.org <https://docs.typo3.org/>`_.
 The documentation is divided into the following sections:
 
 #. `Tutorials and Guides <https://docs.typo3.org/typo3cms/Tutorials.html>`_
