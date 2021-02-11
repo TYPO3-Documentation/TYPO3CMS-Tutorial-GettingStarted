@@ -1,6 +1,5 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Module; Templates
 .. _templates:
 
 =========
@@ -35,9 +34,10 @@ Templating itself is covered by other tutorials:
   of HTML models into your TYPO3 CMS installation using TypoScript.
 
 
+.. index:: Templating
 .. _facts-about-templates-and-possibilities:
 
-Facts About Templates and Possibilities
+Facts about templates and possibilities
 =======================================
 
 Here is a short list of the possibilities offered by

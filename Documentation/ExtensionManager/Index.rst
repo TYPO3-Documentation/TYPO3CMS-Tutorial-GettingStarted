@@ -1,6 +1,5 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Extension Manager
 .. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
@@ -53,9 +52,10 @@ All extensions have a download action. Hover over the actions to get a help text
 Extensions are configured in :guilabel:`Settings > Extension Configuration`
 
 
+.. index:: Extensions; Installation
 .. _install-extension:
 
-Installing a New Extension
+Installing a new extension
 ==========================
 
 This is covered in the "Installation and Upgrade Guide": :ref:`t3install:extension-installation`.

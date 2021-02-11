@@ -1,11 +1,10 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Clipboard; Advanced
 .. _advanced_clipboard_usage:
 .. _the-numeric-clipboard-pads-managing-many-elements:
 
 ========================
-Advanced Clipboard Usage
+Advanced clipboard usage
 ========================
 
 Select a page (here, we use "Customizings"), the :guilabel:`List`

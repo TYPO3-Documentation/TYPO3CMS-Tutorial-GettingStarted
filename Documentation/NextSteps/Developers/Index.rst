@@ -1,12 +1,14 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Roles; Developers
 .. _next-steps-developers:
 
 ==============
-For Developers
+For developers
 ==============
 
+.. index::
+   Fluid
+   Extbase
 .. _next-steps-developers-extbase:
 .. _next-steps-developers-fluid:
 
@@ -30,6 +32,8 @@ in Extbase, the following resources are recommended:
 You may also want to refer to the 
 `Fluid ViewHelper reference <https://docs.typo3.org/typo3cms/ViewHelperReference/>`__
 once you work with Fluid.
+
+.. index:: Manuals; TYPO3 Explained
 
 TYPO3 Explained
 ===============
@@ -55,8 +59,13 @@ It is (in most parts) well maintained.
   * :ref:`t3coreapi:directory-structure` : general directory structure of a TYPO3
     installation
   * :ref:`t3coreapi:namespaces`
-  * :ref:`t3coreapi:globals`
+  * :ref:`t3coreapi:globals-variables`
   * :ref:`t3coreapi:tce`
+
+
+.. index::
+   Extension Builder
+   Extensions; Create
 
 Extension Builder
 =================
@@ -76,6 +85,11 @@ list:
 You will definitely need these, if you want to get serious about developing
 for TYPO3.
 
+index::
+   Extensions
+   Third-party extensions
+   Extension Repository
+   TER
 
 Extensions
 ==========
@@ -83,7 +97,7 @@ Extensions
 You can also look at existing extensions to see how other developers 
 have built their extensions.
 
-All (publicly available) third party extensions are listed in the
+All (publicly available) third-party extensions are listed in the
 `TYPO3 Extension Repository <https://extensions.typo3.org/?tx_solr%5Bfilter%5D%5B0%5D=typo3%3A9+LTS>`__.
 
 You can do a search, and then click on "Code Insights" to go to the code
@@ -106,7 +120,9 @@ repository.
 
 Some extensions that are already used as examples in the documentation are:
 
-For Developing Backend Modules:
+.. index:: Modules; Development
+
+For developing backend modules:
 -------------------------------
 
 Styleguide
@@ -124,7 +140,9 @@ Styleguide
 * `Installation <https://github.com/TYPO3/styleguide#installation>`__
 
 
-Look at the Core Source-Code
+.. index:: Core source code
+
+Look at the Core source code
 ============================
 
 Of course, you can also look at the TYPO3 source code.
@@ -133,7 +151,8 @@ For online browsing, you can use `GitHub <https://github.com/TYPO3/TYPO3.CMS/tre
 
 Again, make sure to look in the correct branch for your version.
 
-Not Found What You Were Looking For?
+
+Not found what you were looking for?
 =====================================
 
 .. tip::

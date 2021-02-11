@@ -10,7 +10,7 @@ Introduction
 
 .. _get-help:
 
-Get Help
+Get help
 ========
 
 .. _slack:
@@ -27,7 +27,6 @@ Ask on **Slack** for help:
 3. Join the TYPO3 Slack workspace: https://typo3.slack.com
 4. Join the **#typo3-cms** channel and ask your question
 
-
 .. _usage-version-selector:
 
 Select version
@@ -39,6 +38,7 @@ Select version
    of the menu to select a different version (see `Version Selector
    <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_ in
    "Usage Tips").
+
 
 About This Tutorial
 ===================

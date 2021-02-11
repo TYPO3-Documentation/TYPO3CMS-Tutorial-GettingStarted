@@ -1,10 +1,9 @@
 .. include:: /Includes.rst.txt
-
-
+.. index:: Backend users
 .. _user-management:
 
 =======================
-Backend User Management
+Backend user management
 =======================
 
 .. important::

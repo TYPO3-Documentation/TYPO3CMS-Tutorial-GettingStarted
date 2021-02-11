@@ -1,5 +1,5 @@
 .. include:: /Includes.rst.txt
-
+.. index:: pair: Modules; Backend users
 .. _user-management-backend-users:
 
 =============
@@ -22,7 +22,7 @@ can also be edited, deleted and disabled.
    See section :ref:`privileges` for more information on
    special backend user roles "admin" and "system maintainers".
 
-Default Editors in the Introduction Package
+Default editors in the Introduction Package
 ===========================================
 
 The Introduction Package will create two default editors and
@@ -39,9 +39,11 @@ groups for you: "simple_editor" and "advanced_editor".
    follow the steps in :ref:`user-management-create-default-editors`
    before you continue.
 
+
+.. index:: Backend users; Simulate user
 .. _simulate-user:
 
-Simulate User
+Simulate user
 =============
 
 .. _user-management-simple-editor:

@@ -1,14 +1,12 @@
 .. include:: /Includes.rst.txt
-
-
 .. _general-principles:
 
 ==================
-General Principles
+General principles
 ==================
 
 This chapter will introduce you to some of the core components used
-in TYPO3's backend interface and is recommended for new users.
+in the TYPO3 backend interface and is recommended for new users.
 
 .. toctree::
    :maxdepth: 5

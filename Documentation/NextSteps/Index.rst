@@ -1,10 +1,8 @@
 .. include:: /Includes.rst.txt
-
-
 .. _next-steps:
 
 ==============================
-Next Steps and Further Reading
+Next steps and further reading
 ==============================
 
 All of TYPO3's documentation is available 
@@ -34,7 +32,6 @@ after this tutorial:
    Developers/Index
    Security/Index
    References/Index
-
 
 
 .. tip::

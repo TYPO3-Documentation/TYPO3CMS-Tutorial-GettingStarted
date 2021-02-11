@@ -1,13 +1,13 @@
 .. include:: /Includes.rst.txt
-
+.. index:: Clipboard
 .. _clipboard:
 
 =============
-The Clipboard
+The clipboard
 =============
 
 Every time a record is copied in the TYPO3 CMS backend,
-it appears in the clipboard found at the bottom of the List module
+it appears in the clipboard found at the bottom of the list module
 screen.
 
 Click on the copy icon of the "Features" page:

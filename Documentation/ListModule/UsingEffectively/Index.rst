@@ -1,9 +1,8 @@
 .. include:: /Includes.rst.txt
-
 .. _using-the-list-module-effectively:
 
 =================================
-Using the List Module Effectively
+Using the list module effectively
 =================================
 
 Select the **WEB > List** module and browse to the
