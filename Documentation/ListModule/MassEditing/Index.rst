@@ -1,14 +1,13 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Editing; Mass editing
 .. _mass-editing:
 .. _selective-editing:
 
 ============
-Mass Editing
+Mass editing
 ============
 
-The *List* module makes it possible to display additional information
+The list module makes it possible to display additional information
 about each record and gives you the ability edit several records with
 one action.
 To enable this feature, select the table header (1):
@@ -27,7 +26,7 @@ list (4).
 
 .. _editing-all-headers:
 
-Edit all Headers
+Edit all headers
 ================
 
 To edit the headers of all records in one go,
@@ -45,7 +44,7 @@ You will then see this:
 
 Upon saving this change will be applied to all records.
 
-Edit Selected Fields
+Edit selected fields
 ====================
 
 All fields that are currently viewable can be edited at the same
@@ -62,7 +61,7 @@ The result is almost the same form, but with the additional field "Type":
    :class: with-shadow
 
 
-Edit Selected Fields of Selected Records
+Edit selected fields of selected records
 ========================================
 
 This can be further refined:

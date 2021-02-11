@@ -1,22 +1,26 @@
-.. include:: ../Includes.txt
-
+.. include:: /Includes.rst.txt
+.. index::
+   Modules; Filelist
+   Filelist
 .. _file-module:
 .. _the-file-module:
 .. _the-file-module-or-image-archives:
 
-===============
-The File Module
-===============
+===================
+The Filelist module
+===================
 
 The **FILE > Filelist** module is where you can manage
 all the media associated with your TYPO3 web site.
 
-
+.. index::
+   Files; Management
+   Directories; fileadmin
 .. _managing-files:
 .. _managing-files-in-typo:
 
-Managing Files in TYPO3 CMS
-===========================
+Managing files in the TYPO3 CMS
+===============================
 
 Files including documents and images are managed in the 
 Filelist module. Similar to the **WEB > List** module,
@@ -43,6 +47,9 @@ or link to them in your web site is covered in the
    storage pools (like a WebDAV server or an Amazon S3 account) and work
    with the files as if they were on the TYPO3 CMS server.
 
+
+.. index:: pair: Files; Clipboard
+
 Clipboard
 ---------
 
@@ -57,9 +64,10 @@ Using the action icons, files can be renamed or replaced
 (just hover over the icons and you will get a help text).
 
 
+.. index:: Files; Upload
 .. _uploading-files:
 
-Uploading New Files
+Uploading new files
 -------------------
 
 You can upload files to a given folder by using the context menu
@@ -74,6 +82,7 @@ You will get to simple upload view:
 .. figure:: ../Images/BackendFileUpload.png
    :alt: Upload possibilities in the File module
    :class: with-shadow
+
 
 Next Steps
 ==========

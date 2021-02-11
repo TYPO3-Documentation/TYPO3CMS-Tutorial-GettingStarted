@@ -1,11 +1,12 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index::
+   Backend
+   Modules
 .. _docheader:
 .. _general-backend-structure:
 
 =========================
-General Backend Structure
+General backend structure
 =========================
 
 Here is a complete overview of the backend interface and its structure.

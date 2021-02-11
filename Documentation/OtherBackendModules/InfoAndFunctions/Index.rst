@@ -1,11 +1,10 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Modules; Info
 .. _info-functions-modules:
 .. _info-module:
 
 ===========
-Info Module
+Info module
 ===========
 
 The **WEB > Info** module displays a variety of information

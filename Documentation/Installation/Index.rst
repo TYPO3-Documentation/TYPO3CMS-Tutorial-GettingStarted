@@ -1,6 +1,5 @@
-.. include:: ../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Installation
 .. _installation:
 .. _getting-the-introduction-package:
 .. _installing-typo3-cms-base-system:

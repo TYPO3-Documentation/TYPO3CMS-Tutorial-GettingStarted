@@ -1,9 +1,9 @@
-.. include:: ../../Includes.txt
-
+.. include:: /Includes.rst.txt
+.. index:: Backend users; Privileges
 .. _privileges:
 
 ==================
-Backend Privileges
+Backend privileges
 ==================
 
 The following chapters cover modules that will only be available for backend
@@ -27,6 +27,9 @@ additional access privilege "system maintainer".
 
 
 
+.. index::
+   Backend users; Admin
+   pair: Privileges; Admin
 .. _admin-user:
 
 Admin
@@ -45,10 +48,13 @@ Admin
 
 
 
+.. index::
+   Backend users; System maintainers
+   pair: Privileges; System maintainers
 .. _user-management-system-maintainers:
 .. _system-maintainer:
 
-System Maintainers
+System maintainers
 ==================
 
 The first backend admin created during installation will automatically be a system

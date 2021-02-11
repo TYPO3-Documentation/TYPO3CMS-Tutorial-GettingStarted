@@ -1,13 +1,12 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Roles; Editors
 .. _next-steps-editors:
 
 ===========
-For Editors
+For editors
 ===========
 
-Tutorial for Editors
+Tutorial for editors
 ====================
 
 The :ref:`t3editors:start` explains how to add and amend content on an existing TYPO3 based website.
@@ -30,9 +29,12 @@ You may also want to check out the
 `TYPO3 YouTube channel <https://www.youtube.com/user/typo3/videos>`__
 for more videos on TYPO3.
 
+.. index::
+   Rich text editor
+   RTE
 
-Rich Text Editing
-=================
+The rich text editor (RTE)
+==========================
 
 Read `Basic Usage <https://docs.typo3.org/typo3cms/extensions/rte_ckeditor/Usage/Index.html>`__
 in the rte_ckeditor documentation for an introduction to rich text editing.

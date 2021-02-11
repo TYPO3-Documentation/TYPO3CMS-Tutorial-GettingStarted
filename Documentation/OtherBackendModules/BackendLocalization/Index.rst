@@ -1,10 +1,9 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Backend; Languages
 .. _changing-backend-language:
 
 ========================
-Manage Backend Languages
+Manage backend languages
 ========================
 
 .. important::
@@ -17,12 +16,15 @@ translations are bundled into packages which need to be fetched
 from the community translation server (https://translation.typo3.org/).
 Once installed backend users can choose which language to use.
 
-Load and Update Translation Packages
+
+.. index:: Modules;  Manage language packs
+
+Load and update translation packages
 ====================================
 
 .. rst-class:: bignums
 
-1. Open the module "Manage Language Packs"
+1. Open the module :guilabel:`Manage Language Packs`
 
    .. figure:: ../../Images/BackendLanguageModule.png
       :alt: Open the backend language administration module
@@ -30,7 +32,7 @@ Load and Update Translation Packages
 
       Open the backend language administration module
 
-2. Click on Add language and on the + next to your language
+2. Click on :guilabel:`add language` and on the :guilabel:`+` next to your language
 
    .. figure:: ../../Images/ManageLanguagePacksAddLanguage.png
       :alt: Open the backend language administration module
@@ -42,6 +44,7 @@ Load and Update Translation Packages
 
 It is recommended to update regularly to benefit from completed or
 improved translations.
+
 
 Change the Language in the Backend
 ==================================
@@ -67,7 +70,8 @@ Your backend should now be in you selected language.
 If a translation is incomplete, the backend will fall
 back to English.
 
-Set a Default Language When Creating a Backend User
+
+Set a default language when creating a backend user
 ===================================================
 
 A default language can also be set when creating a new backend

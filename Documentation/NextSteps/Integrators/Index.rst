@@ -1,10 +1,9 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Roles; Integrators
 .. _next-steps-integrators:
 
 ===============
-For Integrators
+For integrators
 ===============
 
 
@@ -16,9 +15,12 @@ For Integrators
 If you want to learn how to professionally setup or maintain TYPO3 websites,
 you can look at the following resources:
 
+.. index::
+   Site handling
+   Language handling
 .. _site-handling:
 
-Site and Language Handling
+Site and language handling
 ==========================
 
 You can:
@@ -41,6 +43,10 @@ the site configuration. You can find it in the backend under :guilabel:`SITE MAN
    :class: with-shadow
 
 
+.. index::
+   Routes
+   Human-readable URLs
+   see: Human-readable URLs; Routes
 .. _human-readable-urls:
 .. _human-readable-url-s:
 
@@ -69,9 +75,11 @@ For previous TYPO3 versions, this functionality was provided by third party exte
 Thus, the URL as mentioned earlier becomes for example
 *http://www.your-site.example.org/content-examples/overview/*.
 
+.. index::
+   Sitepackage
+   Theme
 
-
-Create Your Own Sitepackage (Theme)
+Create your own sitepackage (theme)
 ===================================
 
 In this tutorial, you used the `Introduction Package <https://extensions.typo3.org/extension/introduction/>`__
@@ -103,6 +111,8 @@ Or watch this 3 part video series from the official TYPO3 YouTube channel:
 * `Part 3 <https://www.youtube.com/watch?v=SEoWOBT0rQE>`__
 
 
+.. index:: TypoScript
+
 TypoScript
 ==========
 
@@ -114,6 +124,9 @@ TypoScript introduction.
 basics of *TypoScript*.
 
 Use the :ref:`TypoScript Reference <t3tsref:start>` as a reference.
+
+
+.. index:: Fluid
 
 Fluid
 =====

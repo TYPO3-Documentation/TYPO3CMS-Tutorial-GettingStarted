@@ -1,10 +1,9 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Page content
 .. _page-content:
 
 ============
-Page Content
+Page content
 ============
 
 Site content can be structured in many ways.

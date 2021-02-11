@@ -1,11 +1,10 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Backend users; Group permissions
 .. _permissions:
 .. _setting-up-user-permissions:
 
 ===========================
-Setting up User Permissions
+Setting up user permissions
 ===========================
 
 We will look into managing user permissions by editing the
@@ -34,16 +33,21 @@ will be inherited by the current group.
    It can also help to declutter the backend, ensuring that
    backend users only see and have access to the modules they require.
 
+
+.. index::
+   Backend users; Access lists
+   Permissions; Access lists
 .. _access-lists:
 .. _include-access-lists:
 
-Access Lists
+Access lists
 ============
 
 The "Access Lists" tab is where most permissions are defined.
 All fields are detailed below.
 
 
+.. index:: pair: Permissions; Modules
 .. _modules:
 
 Modules
@@ -57,6 +61,7 @@ in the module menu for backend users.
    :alt: Choosing modules for the backend user group
 
 
+.. index:: pair: Permissions; Tables
 .. _tables:
 .. _tables-modify:
 
@@ -71,9 +76,10 @@ the same but for the tables that can be modified ("Tables (modify)").
    :alt:
 
 
+.. index:: pair: Permissions; Page types
 .. _page-types:
 
-Page Types
+Page types
 ----------
 
 These fields can restrict which page types are available to members
@@ -84,10 +90,11 @@ found in the :ref:`Editors Guide: <t3editors:pages-types>`.
    :alt:
 
 
+.. index:: Permissions; Allowed exclude fields
 .. _allowed-excludefields:
 
-Allowed Excludefields
----------------------
+Allowed exclude fields
+----------------------
 
 When defining table fields in TYPO3, it is possible to mark them
 as "excluded". Such fields will never be visible to backend users
@@ -108,7 +115,7 @@ a selection of fields by checking some boxes.
 
 .. _explicitly-allow-deny-field-values:
 
-Explicitly Allow or Deny Field Values
+Explicitly allow or deny field values
 -------------------------------------
 
 For some fields, it is possible to set fine-grained permissions
@@ -125,7 +132,9 @@ making changes.
    :alt: Setting permissions for values of the content type field
 
 
-Limit to Languages
+.. index:: pair: Permissions; Languages
+
+Limit to languages
 ------------------
 
 In a multilingual web site, it is also possible to restrict users
@@ -136,9 +145,12 @@ of the "Access Lists" tab.
    :alt: Setting permissions for languages
 
 
+.. index::
+   Permissions; Mounts
+   pair: Permissions; Workspaces
 .. _mounts:
 
-Mounts and Workspaces
+Mounts and workspaces
 =====================
 
 The next tab contains very important fields which define 
@@ -149,9 +161,10 @@ We will cover only mounts here. Detailed information about
 workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
 
 
+.. index:: Permissions; DB mounts
 .. _db-mounts:
 
-DB Mounts
+DB mounts
 ---------
 
 DB mounts (database mounts) are used to restrict a user's access to
@@ -169,6 +182,7 @@ In order to inherit these settings in assigned users, activate the checkbox
 user. This record can be found in the "List" module on the root page and in the
 "Backend User" module.
 
+.. index:: Permissions; File mounts
 .. _file-mounts:
 
 File Mounts
@@ -200,12 +214,13 @@ user. This record can be found in the "List" module on the root page and in the
 "Backend User" module.
 
 
+.. index:: Permissions; File operations
 .. _file-permissions:
 
-Fileoperation Permissions
--------------------------
+File operation permissions
+--------------------------
 
-Giving access to File mounts is not the whole story. Specific operations
+Giving access to file mounts is not the whole story. Specific operations
 on files and directories must be allowed. This is what the next field
 does. Choose either "Directory" or "Files" and start checking boxes.
 

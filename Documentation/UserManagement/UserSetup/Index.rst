@@ -1,10 +1,10 @@
-.. include:: ../../Includes.txt
-
+.. include:: /Includes.rst.txt
+.. index:: Backend users; Setup
 .. _setup-user:
 .. _creating-a-new-user-for-the-introduction-site:
 
 =================
-Setting up a User
+Setting up a user
 =================
 
 To explore the last details of setting up a backend user
@@ -13,9 +13,10 @@ through the process of creating a new user. To make it more
 interesting, we will also create a new user group.
 
 
+.. index:: Backend users; Group
 .. _step-create-a-new-group:
 
-Step 1: Create a New Group
+Step 1: Create a new group
 ==========================
 
 Let's create a new user group using the *Access* module.
@@ -54,9 +55,10 @@ Let's ignore all the rest. Use the "Save and close" action
 to get back to the group list.
 
 
+.. index:: Backend users; Create
 .. _step-create-the-user:
 
-Step 2: Create the User
+Step 2: Create the user
 =======================
 
 Similarly to what we have done before, let's create a new

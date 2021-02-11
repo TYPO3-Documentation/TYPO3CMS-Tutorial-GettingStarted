@@ -1,6 +1,5 @@
-.. include:: ../../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Backend users; Groups
 .. _groups:
 
 ======
@@ -8,7 +7,7 @@ Groups
 ======
 
 While it is possible to change permissions on a per user basis,
-it is strongly recommended you use Groups instead. Just as for users,
+it is strongly recommended you use groups instead. Just as for users,
 there are "Backend user groups" and "Frontend user groups".
 
 This chapter provides a quick overview of backend user groups.

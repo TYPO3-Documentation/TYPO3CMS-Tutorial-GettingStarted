@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _introduction:
@@ -27,7 +27,6 @@ Ask on **Slack** for help:
 3. Join the TYPO3 Slack workspace: https://typo3.slack.com
 4. Join the **#typo3-cms** channel and ask your question
 
-
 .. _usage-version-selector:
 
 Selecting the right version of this tutorial
@@ -40,7 +39,8 @@ Selecting the right version of this tutorial
    finding the **Release** drop-down, located at the top left of
    this tutorials' navigation menu.
 
-About this tutorial
+
+About This Tutorial
 ===================
 
 This tutorial will introduce you to TYPO3's backend, covering each of its modules in detail.

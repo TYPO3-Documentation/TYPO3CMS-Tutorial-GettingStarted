@@ -1,6 +1,5 @@
-.. include:: ../Includes.txt
-
-
+.. include:: /Includes.rst.txt
+.. index:: Templating
 .. _Templating:
 
 ==========
@@ -17,6 +16,7 @@ and give you a brief introduction to TYPO3's templating engine and also discuss 
 HTML templates, stylesheets and other assets.
 
 
+.. index:: Fluid
 .. _introducing-fluid:
 
 Introducing Fluid
@@ -35,11 +35,14 @@ For example a simple web page that features a navigation menu, a few paragraphs 
 Fluid's syntax is easy to learn and is very similar to HTML by design.
 
 
+.. index:: Template storage
 .. _where-are-templates-stored:
 
 Where are templates stored
 ==========================
 
+
+.. index:: Directories; Fileadmin
 .. _where-are-templates-stored-fileadmin:
 
 Fileadmin
@@ -53,6 +56,7 @@ However, using Fileadmin to store your templates comes with considerable drawbac
 from accessing and potentially deleting your sites HTML templates with no easy ability in place to retrieve the files once they are deleted.
 
 
+.. index:: Sitepackage
 .. _where-are-templates-stored-sitepackages:
 
 Sitepackages
@@ -68,7 +72,7 @@ By using Sitepackages we can:
 
 .. _further-reading:
 
-Further Reading
+Further reading
 ===============
 
 `Templating with Fluid <https://docs.typo3.org/m/typo3/tutorial-templating/master/en-us/>`__.
