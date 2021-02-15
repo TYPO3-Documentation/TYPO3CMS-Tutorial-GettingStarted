@@ -3,8 +3,9 @@
 
 .. _top-bar:
 
+===================
 La barre supérieure
-^^^^^^^^^^^^^^^^^^^
+===================
 
 La barre supérieure contient des informations et des menus supplémentaires.
 

@@ -3,8 +3,9 @@
 
 .. _next-steps-references:
 
+==============
 Les références
-^^^^^^^^^^^^^^
+==============
 
 La référence TSconfig (Configuration Typoscript)
   :ref:`La référence TSconfig <t3tsconfig:start>` couvre à la fois

@@ -3,8 +3,9 @@
 
 .. _next-steps-editors:
 
+==========================
 Tutoriel pour les éditeurs
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+==========================
 
 :ref:`Le Tutoriel pour les éditeurs <t3editors:start>`
 explique comment ajouter ou modifier le contenu d'un site

@@ -3,8 +3,9 @@
 .. _setup-user:
 .. _creating-a-new-user-for-the-introduction-site:
 
+==============================
 Configuration d'un utilisateur
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 Pour explorer les derniers détails de la mise en place d'un utilisateur backend
 - et en guise d'exercice - ce chapitre vous guidera à travers le processus
@@ -16,7 +17,7 @@ un nouveau groupe d'utilisateurs.
 .. _step-create-a-new-group:
 
 Étape 1: créer un nouveau groupe
-""""""""""""""""""""""""""""""""
+================================
 
 Nous allons créer un nouveau groupe d'utilisateurs en utilisant le module *Accès*.
 
@@ -55,7 +56,7 @@ Ignorons tout le reste. Utilisez l'action
 .. _step-create-the-user:
 
 Étape 2: créer l'utilisateur
-""""""""""""""""""""""""""""
+============================
 
 Tout comme nous l'avons fait avant, nous allons créer un nouvel
 utilisateur en utilisant le module le module *Accès*.

@@ -3,8 +3,9 @@
 
 .. _page-content:
 
+================
 Contenus de page
-^^^^^^^^^^^^^^^^
+================
 
 Voyons maintenant comment le contenu est structuré dans un site web TYPO3 CMS.
 Nous allons tout d'abord accéder à une page particulière:
@@ -57,7 +58,7 @@ avec des icônes d'action. Voici un aperçu rapide:
 
 
 Édition de contenu
-""""""""""""""""""
+==================
 
 L'édition d'un contenu existant et l'ajout d'un nouveau contenu sont abordés dans le
 Modifying existing content or adding new content is covered in the

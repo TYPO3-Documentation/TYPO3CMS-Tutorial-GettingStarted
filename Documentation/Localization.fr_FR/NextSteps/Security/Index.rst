@@ -3,8 +3,9 @@
 
 .. _next-steps-security:
 
+=============================
 Gardez à l'esprit la sécurité
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=============================
 
 La sécurité est prise très au sérieux par les développeurs de TYPO3 CMS.
 `L'équipe de sécurité TYPO3 <http://typo3.org/teams/security/>`_

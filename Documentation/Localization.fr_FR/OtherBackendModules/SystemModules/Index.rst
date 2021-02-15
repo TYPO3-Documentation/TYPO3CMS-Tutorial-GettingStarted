@@ -3,8 +3,9 @@
 
 .. _system-modules:
 
+======================
 Les modules du système
-^^^^^^^^^^^^^^^^^^^^^^
+======================
 
 Dans le chapitre :ref:`Gestion des utilisateurs <user-management>`
 nous avons déjà visité les modules *Accèss* et *Utilisateurs Backend*.
@@ -14,7 +15,7 @@ Voici une brève présentation des autres modules.
 .. _system-modules-install:
 
 Installation
-""""""""""""
+============
 
 L'outil d'installation est présentée dans le :ref:`Guide d'installation <t3install:the-install-tool>`.
 On peut y accéder directement à partir du backend CMS TYPO3.
@@ -26,7 +27,7 @@ It can be accessed directly from the TYPO3 CMS backend.
 .. _system-modules-log:
 
 Fichier journal
-"""""""""""""""
+===============
 
 Le backend TYPO3 CMS trace un certain nombre d'actions effectuées
 par les utilisateurs : connexion, suppression de cache,
@@ -41,7 +42,7 @@ Un certain nombre de filtres sont disponibles pour aider à exploiter ces donné
 .. _system-modules-dbcheck:
 
 Vérification BD
-"""""""""""""""
+===============
 
 Le module *Vérification base de données (BD)* offre quatre fonctions
 liées à la base de données et son contenu.
@@ -70,7 +71,7 @@ Vérifier et mettre à jour l'index global des références
 .. _system-modules-configuration:
 
 Configuration
-"""""""""""""
+=============
 
 Le module *Configuration* peut être utilisé pour visualiser
 les différents tableaux de configuration utilisés par TYPO3 CMS.
@@ -86,7 +87,7 @@ des valeurs de configuration globale que vous avez définis dans l'outil d'insta
 .. _system-modules-reports:
 
 Rapports
-""""""""
+========
 
 Le module *Rapports* contient des informations et des données de diagnostic
 au sujet de votre installation TYPO3 CMS. Il est particulièrement intéressant

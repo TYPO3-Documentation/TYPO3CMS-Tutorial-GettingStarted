@@ -3,8 +3,9 @@
 
 .. _info-functions-modules:
 
+====================================
 Les modules Information et Fonctions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+====================================
 
 Le module **WEB > Info** affiche une variété d'informations
 relatives aux pages de votre site web. Il contient plusieurs

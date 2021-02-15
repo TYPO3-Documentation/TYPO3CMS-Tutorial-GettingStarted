@@ -4,8 +4,9 @@
 .. _the-file-module:
 .. _the-file-module-or-image-archives:
 
+==================
 Le module Fichiers
-------------------
+==================
 
 Le module **Fichier> Fichiers** est l'endroit où vous pouvez gérer
 tous les médias associés au site web TYPO3 CMS.
@@ -14,7 +15,7 @@ tous les médias associés au site web TYPO3 CMS.
 .. _managing-files-in-typo:
 
 Gestion des fichiers dans TYPO3 CMS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===================================
 
 Ce module est très similaire au module **WEB > Liste**.
 Il affiche une arborescence de navigation, correspondant
@@ -53,7 +54,7 @@ ou remplacés (juste en survolant les icônes et vous obtiendrez un texte d'aide
 .. _uploading-files:
 
 Envoyer de nouveaux fichiers
-""""""""""""""""""""""""""""
+----------------------------
 
 Vous pouvez télécharger des fichiers dans un dossier donné
 en utilisant le menu contextuel ou dans le répertoire courant

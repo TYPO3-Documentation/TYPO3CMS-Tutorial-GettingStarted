@@ -3,8 +3,9 @@
 
 .. _templates:
 
+========
 Gabarits
-^^^^^^^^^
+========
 
 Après ce bref aperçu des pages et des éléments de contenu,
 vous pourriez vous demander comment tout cette structure est transformée
@@ -36,7 +37,7 @@ Le Templating est couvert par d'autres tutoriels:
 .. _facts-about-templates-and-possibilities:
 
 Faits et possibilités sur les gabarits
-""""""""""""""""""""""""""""""""""""""
+======================================
 
 Voici une courte liste des possibilités offertes par les modèles TYPO3 CMS :
 

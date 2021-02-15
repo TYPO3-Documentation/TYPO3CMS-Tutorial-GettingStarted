@@ -4,8 +4,9 @@
 .. _human-readable-urls:
 .. _human-readable-url-s:
 
+=========================
 URLs humainement lisibles
-^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================
 
 Par défaut TYPO3 CMS identifie la page qui doit être délivrée par le paramètre "id?".
 Il suffit d'entrer *http://www.votre-site.exemple.org/index.php?id=33* pour obtenir

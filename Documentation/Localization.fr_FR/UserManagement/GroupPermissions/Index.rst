@@ -4,8 +4,9 @@
 .. _permissions:
 .. _setting-up-user-permissions:
 
+===========================================
 Configuration des autorisations utilisateur
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===========================================
 
 Nous allons examiner la mise en place des autorisations utilisateur
 en modifiant le groupe d'utilisateurs "éditeurs avancés".
@@ -13,7 +14,7 @@ en modifiant le groupe d'utilisateurs "éditeurs avancés".
 .. _general:
 
 Onglet Général
-""""""""""""""
+==============
 
 Dans l'onglet "Général", vous pouvez modifier le titre du groupe
 et écrire une courte description. Comme mentionné précédemment,
@@ -34,7 +35,7 @@ les autorisations des sous-groupes seront hérités par le groupe actuel.
 .. _include-access-lists:
 
 Liste d'ccès
-""""""""""""
+============
 
 L'onglet « listes d'accès » est l'endroit
 où la plupart des autorisations sont définies.
@@ -43,7 +44,7 @@ Tous les champs sont détaillés ci-dessous, un par un.
 .. _modules:
 
 Modules
-~~~~~~~
+-------
 
 Le premier champ est utilisé pour définir les modules
 auquels les membres du groupe devraient avoir accès.
@@ -57,7 +58,7 @@ auquels les membres du groupe devraient avoir accès.
 .. _tables-modify:
 
 Tables
-~~~~~~
+------
 
 Le deuxième champ permet de sélectionner les tables
 que les membres des groupes sont autorisés à voir ( «Tables (liste)").
@@ -71,7 +72,7 @@ qui peuvent être modifiés ( "Tables (modifier)").
 .. _page-types:
 
 Les types de page
-~~~~~~~~~~~~~~~~~
+-----------------
 
 Ce champ restreint les types de pages disponibles pour les membres du groupe.
 Les explications sur les différents types de pages se trouvent dans le Guide des éditeurs.
@@ -83,7 +84,7 @@ Les explications sur les différents types de pages se trouvent dans le Guide de
 .. _allowed-excludefields:
 
 Champs exclusifs autorisés
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Lors de la définition des champs de table dans TYPO3 CMS,
 il est possible de les marquer comme «exclus».
@@ -106,7 +107,7 @@ et de faire une sélection de champs en cochant quelques cases.
 .. _explicitly-allow-deny-field-values:
 
 Autorisations / Interdictions explicites des valeurs de champ
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 Pour certains champs, il est possible de définir des permissions
 fines sur les valeurs réelles autorisées pour ces champs.
@@ -123,7 +124,7 @@ Vous devez développer les champs pour commencer à faire des changements.
 
 
 Limiter aux langues
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
 Dans un site Web multilingue, il est également possible
 de restreindre les utilisateurs à seulement quelques langues.
@@ -136,7 +137,7 @@ Ceci peut être réalisé en utilisant le dernier champ de l'onglet "Listes d'ac
 .. _mounts:
 
 Montages et Espaces de travail
-""""""""""""""""""""""""""""""
+==============================
 
 L'onglet suivant contient des champs très importants
 qui définissent sur quelle partie de l'arborescence des pages
@@ -150,7 +151,7 @@ peut être trouvées dans le :ref:`manuel lié à l'extension<workspaces:start>`
 .. _db-mounts:
 
 Montage de base de données
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 Les montage BDD (montages de base de données) sont utilisés pour limiter
 les accès d'un utilisateur à seulement certaines parties de l'arborescence des pages.
@@ -166,7 +167,7 @@ Voir aussi :ref:`les autorisations de pages<page-permissions>`.
 .. _file-mounts:
 
 Montages de fichiers
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 Les montages de fichiers sont similaires aux montages de BDD,
 mais pour accéder aux fichiers.
@@ -192,7 +193,7 @@ lors de l'édition d'un groupe d'utilisateurs backend :
 .. _file-permissions:
 
 Permissions sur les manipulations de fichiers
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 Donner accès aux montages de fichiers n'est pas tout.
 Les opérations spécifiques sur les fichiers et les répertoires doivent être autorisées.

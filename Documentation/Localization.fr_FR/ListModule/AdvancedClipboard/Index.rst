@@ -4,8 +4,9 @@
 .. _advanced_clipboard_usage:
 .. _the-numeric-clipboard-pads-managing-many-elements:
 
+====================================
 Utilisation avancée du presse-papier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+====================================
 
 Rendez vous à la page "TYPO3" sous la page "À propos" et sélectionnez
 l'un des presse-papier numéroté :

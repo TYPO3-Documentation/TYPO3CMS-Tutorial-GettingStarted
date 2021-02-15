@@ -3,8 +3,9 @@
 
 .. _general-principles:
 
+==================
 Principes généraux
-------------------
+==================
 
 
 Ce chapitre a pour object de vous donner des informations

@@ -4,8 +4,9 @@
 .. _mass-editing:
 .. _selective-editing:
 
+==================
 L'édition de masse
-^^^^^^^^^^^^^^^^^^
+==================
 
 Le module *Liste* permet également d'afficher plus d'informations
 sur chaque enregistrement et de modifier plusieurs enregistrements à la fois.
@@ -23,7 +24,7 @@ Cela fait apparaître le champ "Type" dans une nouvelle colonne à droite de la 
 .. _editing-all-headers:
 
 Modification tous les en-têtes
-""""""""""""""""""""""""""""""
+==============================
 
 Pour modifier les en-têtes de tous les enregistrements en une seule fois,
 il suffit de cliquer sur le petit crayon à côté de l'étiquette "Titre de page" :

@@ -3,8 +3,9 @@
 
 .. _page-tree:
 
+======================
 L'arborescence de page
-^^^^^^^^^^^^^^^^^^^^^^
+======================
 
 L'arborescence de page représente la structure hiérarchique de vos pages.
 Dans la plupart des cas, cela correspond exactement à la structure de navigation
@@ -55,7 +56,7 @@ Sinon, vous pouvez faire un clic droit sur le titre de la page.
 .. _the-context-menu:
 
 Le menu contextuel
-""""""""""""""""""
+==================
 
 Le menu contextuel d'une page peut être utilisé pour accéder rapidement à la plupart
 des fonctions liées à la page. Voici ce que font ces options:
@@ -96,7 +97,7 @@ des fonctions liées à la page. Voici ce que font ces options:
 .. _the-view-module:
 
 Le module Vue
-"""""""""""""
+=============
 
 Il est également possible d'afficher une page directement dans le backend,
 en sélectionnant le module Vue, qui offre également la possibilité de prévisualiser
@@ -109,7 +110,7 @@ une page dans les différentes tailles d'écran, grâce au menu déroulant en ha
 .. _collapse-page-tree:
 
 Réduire l'arborescence
-""""""""""""""""""""""
+======================
 
 L'arborescence peut être réduite, en cliquant sur la poignée sur sa droite,
 pour gagner de l'espace à l'écran.
@@ -121,7 +122,7 @@ pour gagner de l'espace à l'écran.
 .. _editing-pages:
 
 Édition de pages
-"""""""""""""
+================
 
 La modification d'une page existante et l'ajout d'une nouvelle page sont abordées dans le
 :ref:`Tutoriel Editeurs <t3editors:pages>`.

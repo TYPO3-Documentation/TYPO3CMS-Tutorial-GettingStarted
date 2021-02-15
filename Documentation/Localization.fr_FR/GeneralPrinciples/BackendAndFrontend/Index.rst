@@ -3,8 +3,9 @@
 
 .. _backend-and-frontend:
 
+====================
 Backend and Frontend
-^^^^^^^^^^^^^^^^^^^^
+====================
 
 TYPO3 CMS est divisé en deux zones - le *backend* et le *frontend*.
 Le *frontend* est le site produit par TYPO3 CMS et visible par tout internaute sur le web.

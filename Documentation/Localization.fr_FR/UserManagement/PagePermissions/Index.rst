@@ -3,8 +3,9 @@
 
 .. _page-permissions:
 
+======================
 Autorisations de pages
-^^^^^^^^^^^^^^^^^^^^^^
+======================
 
 :ref:`Les montages de base de données<db-mounts>` ne font pas tout dans l'accès aux pages.
 Les utilisateurs et les groupes ont aussi besoin d'avoir des droits

@@ -2,8 +2,9 @@
 
 .. _clipboard:
 
+================
 Le presse-papier
-^^^^^^^^^^^^^^^^
+================
 
 Chaque fois qu'un enregistrement est copié dans le backend TYPO3 CMS,
 il apparaît dans le presse-papier qui se trouve au bas de l'écran du module "Liste".

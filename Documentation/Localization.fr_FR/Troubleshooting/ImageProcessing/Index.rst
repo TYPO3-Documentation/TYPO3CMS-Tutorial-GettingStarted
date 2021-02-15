@@ -3,8 +3,9 @@
 .. _image-processing:
 .. _note-on-image-processing-in-typo:
 
+==============================
 Note sur le traitement d'image
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 TYPO3 CMS s'appuie sur ImageMagick ou GraphicsMagic pour générer
 à la volée des images correspondant aux dimensions spécifiées.

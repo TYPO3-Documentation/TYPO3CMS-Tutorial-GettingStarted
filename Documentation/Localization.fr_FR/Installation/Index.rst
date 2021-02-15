@@ -3,13 +3,14 @@
 
 .. _installation:
 
+============
 Installation
-------------
+============
 
 .. _prerequisite:
 
 Pré-requis
-^^^^^^^^^^
+==========
 
 Pour essayer le CMS TYPO3 vous avez besoin d'avoir un serveur Web entièrement configuré et prêt
 à l'emploi qui répond aux `exigences système minimales
@@ -27,7 +28,7 @@ Assurez-vous d'avoir les informations d'identification à votre base de données
 .. _installing-typo3-cms-base-system:
 
 Installation du système de base TYPO3 CMS
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================================
 
 Vous devrez d'abord télécharger et installer le paquet TYPO3.
 Suivez les étapes indiquées dans la partie :ref:`Installation rapide <t3install:quick-installation>`
@@ -41,7 +42,7 @@ Voir ci-dessous.
 
 
 Installation du paquet d'introduction
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 Lorsque vous êtes à l'étape 6 de l' outil d'installation,
 choisissez de télécharger la liste des distributions .

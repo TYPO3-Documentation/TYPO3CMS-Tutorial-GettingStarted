@@ -2,8 +2,9 @@
 
 .. _the-list-module-and-clipboard:
 
+===============
 Le module liste
----------------
+===============
 
 Dans TYPO3 CMS toutes les informations sont stockées dans des enregistremenst de base de données:
 les pages, les éléments de contenu, les gabarits, les utilisateurs, des actualités, etc.

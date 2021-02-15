@@ -3,14 +3,15 @@
 
 .. _introduction:
 
+============
 Introduction
-------------
+============
 
 
 .. _about-this-document:
 
 À propos de ce document
-^^^^^^^^^^^^^^^^^^^^^^^
+=======================
 
 Ce document est une introduction aux principes de base de TYPO3 CMS. Le
 site web exemple utilisé dans cette introduction va vous aider à démarrer
@@ -26,7 +27,7 @@ développement avec TYPO3 CMS en général, ne sont pas couverts par le présent
 .. _what-s-new:
 
 Quoi de neuf
-^^^^^^^^^^^^
+============
 
 La version actuelle est mis à jour pour refléter les changements dans TYPO3 CMS 7 LTS.
 
@@ -34,7 +35,7 @@ La version actuelle est mis à jour pour refléter les changements dans TYPO3 CM
 .. _credits:
 
 Credits
-^^^^^^^
+=======
 
 Le "Guide de démarrage rapide" a été écrit par Kasper Skårhøj et adapté à
 TYPO3 CMS 4.5 LTS par Philipp Gampe , Martin Holtz , Susanne Moog et François Suter.
@@ -45,7 +46,7 @@ La mise à jour de François Suter a été traduite en français par Jonathan Ir
 .. _feedback:
 
 Commentaires
-^^^^^^^^^^^^
+============
 
 Pour des questions générales concernant la documentation écrire à
 `documentation@typo3.org <mailto:documentation@typo3.org>`_.

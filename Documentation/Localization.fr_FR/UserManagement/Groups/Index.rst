@@ -3,8 +3,9 @@
 
 .. _groups:
 
+=======
 Groupes
-^^^^^^^
+=======
 
 Bien qu'il soit possible de modifier les permissions
 de l'utilisateur au niveau de l'utilisateur,

@@ -3,8 +3,9 @@
 
 .. _user-management:
 
+========================
 Gestion des utilisateurs
-------------------------
+========================
 
 Nous avons vu précédemment que TYPO3 CMS applique une stricte séparation
 des «frontend» et «backend». La même séparation s'applique pour les utilisateurs :

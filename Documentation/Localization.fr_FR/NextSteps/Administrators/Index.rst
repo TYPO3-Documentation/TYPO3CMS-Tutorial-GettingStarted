@@ -3,8 +3,9 @@
 
 .. _next-steps-administrators:
 
+=========================================
 Tutoriels pour les futurs administrateurs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=========================================
 
 :ref:`TypoScript en 45 minutes <t3ts45:start>` vous guide
 à travers les bases du *TypoScript* le puissant langage

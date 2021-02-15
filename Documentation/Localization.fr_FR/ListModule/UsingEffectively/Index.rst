@@ -2,8 +2,9 @@
 
 .. _using-the-list-module-effectively:
 
+=====================================
 Utiliser efficacement le module Liste
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 Choisissez le module **WEB > List** et placez-vous sur la page "Congratulations".
 Vous devriez voir ce qui suit:

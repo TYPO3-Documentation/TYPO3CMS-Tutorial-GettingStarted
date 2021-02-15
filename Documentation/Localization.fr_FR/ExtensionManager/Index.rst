@@ -4,8 +4,9 @@
 .. _extension-manager:
 .. _a-short-glimpse-into-the-extension-manager:
 
+===========================
 Le gestionnaire d'extension
----------------------------
+===========================
 
 TYPO3 CMS possède de nombreuses fonctionnalités intégrées
 mais encore plus de fonctionnalités sont disponibles via des extensions.
@@ -45,7 +46,7 @@ Encore une fois il suffit de survoler les icônes d'action pour obtenir un texte
 .. _install-extension:
 
 Installation d'une nouvelle extension
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=====================================
 
 Regardons brièvement le processus d'installation d'extension.
 Utilisez le menu dans l'entête de page pour passer à la vue "Ajouter des extensions"

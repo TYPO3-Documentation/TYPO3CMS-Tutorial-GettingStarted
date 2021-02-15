@@ -2,8 +2,9 @@
 
 .. _user-management-backend-users:
 
+====================
 Utilisateurs Backend
-^^^^^^^^^^^^^^^^^^^^
+====================
 
 La gestion des utilisateurs backend est plus aisée
 en utilisant module le **SYSTEM > Utilisateurs Backend**.
@@ -21,7 +22,7 @@ Jetons un coup d'oeil à ce que ces autres utilisateurs peuvent faire.
 .. _user-management-simple-editor:
 
 "simple\_editor"
-""""""""""""""""
+================
 
 La façon la plus simple de vérifier le profil d'un autre utilisateur
 (quand on est un administrateur) est d'utiliser la fonction
@@ -51,7 +52,7 @@ dans la barre supérieure et cliquez sur le bouton "Quittez"
 .. _user-management-advanced-editor:
 
 "advanced\_editor"
-""""""""""""""""""
+==================
 
 Maintenant, essayez de faire la même chose avec l'utilisateur "advanced_editor".
 Vous devriez voir ce qui suit après le changement d'utilisateur:

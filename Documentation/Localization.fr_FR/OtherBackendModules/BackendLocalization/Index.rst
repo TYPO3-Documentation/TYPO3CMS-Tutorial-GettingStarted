@@ -3,8 +3,9 @@
 
 .. _changing-backend-language:
 
+=================================
 Modification de la langue backend
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+=================================
 
 Le backend TYPO3 CMS est disponible dans de nombreuses langues.
 Ces traductions sont regroupés dans des paquets qui doivent
