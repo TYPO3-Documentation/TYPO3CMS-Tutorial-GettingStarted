@@ -32,8 +32,7 @@ Getting Started Tutorial
          documentation@typo3.org
 
 :License:
-         Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
+         Open Publication License available from `www.opencontent.org/openpub/ <http://www.opencontent.org/openpub/>`_
 
 :Rendered:
          |today|
