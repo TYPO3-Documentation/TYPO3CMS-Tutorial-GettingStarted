@@ -46,11 +46,12 @@ couvrent. En outre, les tutoriels fournissent des indications sur la façon d'é
 et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite .
 
 
-**Table des matières**
+:ref:`Table des matières (Sitemap) <sitemap>`
 
 .. toctree::
    :maxdepth: 5
    :titlesonly:
+   :hidden:
    :glob:
 
    Introduction/Index
@@ -63,3 +64,4 @@ et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite
    OtherBackendModules/Index
    Troubleshooting/Index
    NextSteps/Index
+   Sitemap
