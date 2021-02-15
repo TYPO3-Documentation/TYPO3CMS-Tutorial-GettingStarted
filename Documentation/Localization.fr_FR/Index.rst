@@ -7,9 +7,6 @@
 Getting Started Tutorial
 ========================
 
-:Previous Key:
-         doc_tut_quickstart
-
 :Version:
          7 LTS
 
@@ -23,24 +20,16 @@ Getting Started Tutorial
          forBeginners, forEditors, forAdmins
 
 :Copyright:
-         2004-2016
+         Depuis 2004
 
 :Author:
-         Documentation Team
-
-:Email:
-         documentation@typo3.org
+         `Documentation Team <https://typo3.org/community/teams/documentation>`__
 
 :License:
-         Open Publication License available from `www.opencontent.org/openpub/ <http://www.opencontent.org/openpub/>`_
-
-:Rendered:
-         |today|
+         `Open Publication License <http://www.opencontent.org/openpub/>`_
 
 Le contenu de ce document est lié à TYPO3 CMS,
-
-un CMS/Framework GNU/GPL disponible à cette url `www.typo3.org
-<https://typo3.org/>`_ .
+un CMS/Framework GNU/GPL disponible à cette url `www.typo3.org <https://typo3.org/>`_ .
 
 **Documentation officielle**
 
@@ -74,4 +63,3 @@ et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite
    OtherBackendModules/Index
    Troubleshooting/Index
    NextSteps/Index
-   Targets
