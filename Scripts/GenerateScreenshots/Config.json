@@ -1,0 +1,217 @@
+{
+  "comments": {
+    "php": "// Automatic screenshot: Remove this comment if you want to manually change this file",
+    "rst.txt": ".. Automatic screenshot: Remove this line if you want to manually change this file",
+    "general": "Automatic screenshot:"
+  },
+  "settings": {
+    "snippet": "ignore"
+  },
+  "extensions": [
+    {
+      "extension": "backend",
+      "paths": {
+        "imageSource": "Documentation/Includes/Images/BackendUser/AutomaticScreenshots/",
+        "relativeImagePath": "/Includes/Images/BackendUser/AutomaticScreenshots/",
+        "imageRst": "Documentation/Includes/Images/BackendUser/RstIncludes/"
+      },
+      "modules": [
+        {
+          "module": "/module/web/ts",
+          "screens": [
+            {
+              "filename": "TemplateAnalyzer",
+              "caption": "All templates applying to a page, as used by the Introduction Package",
+              "viewport": {"width": 960, "height": 640},
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TemplateAnalyzerModuleFunctionController"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesAnalyzerDetails",
+              "caption": "Viewing the content of a given template in the Template Analyzer",
+              "viewport": {"width": 960, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "template",
+                  "value": "sys_4"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesConstantEditor",
+              "caption": "The Constant Editor showing some categories with constants",
+              "viewport": {"width": 640, "height": 640},
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateConstantEditorModuleFunctionController"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesConstants",
+              "caption": "Overview of the defined constants",
+              "viewport": {"width": 640, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateObjectBrowserModuleFunctionController"
+                },
+                {
+                  "key": "SET[ts_browser_type]",
+                  "value": "const"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesSetup",
+              "caption": "Overview of the defined setup",
+              "viewport": {"width": 640, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateObjectBrowserModuleFunctionController"
+                },
+                {
+                  "key": "SET[ts_browser_type]",
+                  "value": "setup"
+                },
+                {
+                  "key": "SET[ts_browser_const]",
+                  "value": "subst"
+                },
+                {
+                  "key": "tsbr[page]",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table": "be_groups",
+          "screens": [
+            {
+              "view": "fields",
+              "selectRecord": {
+                "by": "title",
+                "title": "Simple editors"
+              }
+            },
+            {
+              "view": "record",
+              "selectRecord": {
+                "by": "title",
+                "title": "Simple editors"
+              },
+              "selector": ".typo3-TCEforms",
+              "filename": "BeGroupEditGeneralTab",
+              "actions": []
+            }
+          ],
+
+          "fields": [
+            {
+              "field": "explicit_allowdeny",
+              "filename": "BeGroupEditAllowDeny",
+              "actions": [
+                {
+                  "action": "open",
+                  "accordion": ".panel-heading a"
+                },
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "clip": {
+                "height": 400
+              }
+            },
+            {
+              "field": "db_mountpoints",
+              "filename": "BeGroupEditDBMounts"
+            },
+            {
+              "field": "db_mountpoints",
+              "filename": "BeGroupEditDBMounts"
+            },
+            {
+              "field": "non_exclude_fields",
+              "filename": "BeGroupEditExcludeFields",
+              "actions": [
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "clip": {
+                "height": 400
+              }
+            },
+            {
+              "field": "non_exclude_fields",
+              "filename": "BeGroupEditExcludeFieldsExpanded",
+              "actions": [
+                {
+                  "action": "open",
+                  "accordion": "#data_be_groups_3_non_exclude_fields-group-2 .panel-heading a"
+                },
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "clip": {
+                "height": 400
+              }
+            },
+            {
+              "field": "file_mountpoints",
+              "filename": "BeGroupEditFileMounts"
+            },
+            {
+              "field": "file_permissions",
+              "filename": "BeGroupEditFilePermissions",
+              "actions": [
+                {
+                  "action": "open",
+                  "accordion": "#data_be_groups_3_file_permissions-group-2 .panel-heading a"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
