@@ -118,6 +118,31 @@
       ],
       "tables": [
         {
+          "table": "be_users",
+          "screens": [
+            {
+              "view": "record",
+              "selectRecord": {
+                "by": "username",
+                "username": "styleguide demo user 2"
+              },
+              "actions": [
+                {
+                  "action": "click",
+                  "select": "lang"
+                },
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "selector": "",
+              "filename": "BeUserDefaultLanguage",
+              "caption": "The type selector of a content elements"
+            }
+          ]
+        },
+        {
           "table": "be_groups",
           "screens": [
             {
@@ -142,20 +167,7 @@
           "fields": [
             {
               "field": "explicit_allowdeny",
-              "filename": "BeGroupEditAllowDeny",
-              "actions": [
-                {
-                  "action": "open",
-                  "accordion": ".panel-heading a"
-                },
-                {
-                  "action": "hide",
-                  "selector": ".module-docheader"
-                }
-              ],
-              "clip": {
-                "height": 400
-              }
+              "filename": "BeGroupEditAllowDeny"
             },
             {
               "field": "db_mountpoints",
@@ -208,6 +220,22 @@
                   "accordion": "#data_be_groups_3_file_permissions-group-2 .panel-heading a"
                 }
               ]
+            },
+            {
+              "field": "allowed_languages",
+              "filename": "BeGroupEditLanguages"
+            },
+            {
+              "field": "groupMods",
+              "filename": "BeGroupEditModules"
+            },
+            {
+              "field": "pagetypes_select",
+              "filename": "BeGroupEditPageTypes"
+            },
+            {
+              "field": "pagetypes_select",
+              "filename": "BeGroupEditPageTypes"
             }
           ]
         }
