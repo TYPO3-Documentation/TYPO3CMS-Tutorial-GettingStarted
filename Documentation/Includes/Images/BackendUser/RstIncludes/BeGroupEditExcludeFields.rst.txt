@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditExcludeFields.png
+   :alt: Screenshot of field be_groups:non_exclude_fields
+   :class: with-shadow
+
+   :ref:`Screenshot of field be_groups:non_exclude_fields <tca_example_non_exclude_fields>`

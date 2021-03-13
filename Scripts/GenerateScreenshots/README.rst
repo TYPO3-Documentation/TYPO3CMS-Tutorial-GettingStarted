@@ -25,4 +25,4 @@ Compare images and copy files
 
 ::
 
-   https://sig-screenshots.ddev.site/scripts/index.php
+   https://sig-screenshots.ddev.site/scripts/index.php?manual=TYPO3CMS-Tutorial-GettingStarted

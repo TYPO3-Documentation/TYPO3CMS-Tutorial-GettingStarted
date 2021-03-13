@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditTables.png
+   :alt: Screenshot of field be_groups:tables_select
+   :class: with-shadow
+
+   :ref:`Screenshot of field be_groups:tables_select <tca_example_tables_select>`

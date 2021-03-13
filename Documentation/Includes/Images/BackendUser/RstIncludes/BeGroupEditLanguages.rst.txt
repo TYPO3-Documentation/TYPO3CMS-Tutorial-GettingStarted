@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditLanguages.png
+   :alt: Screenshot of field be_groups:allowed_languages
+   :class: with-shadow
+
+   :ref:`Screenshot of field be_groups:allowed_languages <tca_example_allowed_languages>`

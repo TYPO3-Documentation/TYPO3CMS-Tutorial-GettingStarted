@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditFilePermissions.png
+   :alt: Screenshot of field be_groups:file_permissions
+   :class: with-shadow
+
+   :ref:`Screenshot of field be_groups:file_permissions <tca_example_file_permissions>`

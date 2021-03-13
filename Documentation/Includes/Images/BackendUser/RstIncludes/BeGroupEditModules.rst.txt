@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditModules.png
+   :alt: Screenshot of field be_groups:groupMods
+   :class: with-shadow
+
+   :ref:`Screenshot of field be_groups:groupMods <tca_example_groupMods>`
