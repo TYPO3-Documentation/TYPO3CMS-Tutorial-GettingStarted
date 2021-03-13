@@ -1,7 +1,7 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
 .. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditDBMounts.png
-   :alt: Screenshot of field be_groups:db_mountpoints
+   :alt: Choosing DB mounts for the group
    :class: with-shadow
 
-   :ref:`Screenshot of field be_groups:db_mountpoints <tca_example_db_mountpoints>`
+   Choosing DB mounts for the group

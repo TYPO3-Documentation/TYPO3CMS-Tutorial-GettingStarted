@@ -1,7 +1,7 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
 .. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditTables.png
-   :alt: Screenshot of field be_groups:tables_select
+   :alt: Select the tables that the members of this group are allowed to see
    :class: with-shadow
 
-   :ref:`Screenshot of field be_groups:tables_select <tca_example_tables_select>`
+   Select the tables that the members of this group are allowed to see

@@ -1,7 +1,7 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
 .. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditPageTypes.png
-   :alt: Screenshot of field be_groups:pagetypes_select
+   :alt: Restrict which page types are available to members of this group
    :class: with-shadow
 
-   :ref:`Screenshot of field be_groups:pagetypes_select <tca_example_pagetypes_select>`
+   Restrict which page types are available to members of this group

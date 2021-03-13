@@ -5,7 +5,8 @@
     "general": "Automatic screenshot:"
   },
   "settings": {
-    "snippet": "ignore"
+    "snippet": "ignore",
+    "isTca": false
   },
   "extensions": [
     {
@@ -138,7 +139,7 @@
               ],
               "selector": "",
               "filename": "BeUserDefaultLanguage",
-              "caption": "The type selector of a content elements"
+              "caption": "Setting the default language for a new backend user"
             }
           ]
         },
@@ -182,7 +183,7 @@
               },
               "selector": ".typo3-TCEforms",
               "filename": "BeGroupEditGeneralTab",
-              "description": "Content of the \"General\" tab when editing a backend user group",
+              "caption": "Content of the \"General\" tab when editing a backend user group",
               "actions": []
             }
           ],
@@ -191,22 +192,22 @@
             {
               "field": "explicit_allowdeny",
               "filename": "BeGroupEditAllowDeny",
-              "description": "Setting permissions for values of the content type field"
+              "caption": "Setting permissions for values of the content type field"
             },
             {
               "field": "db_mountpoints",
               "filename": "BeGroupEditDBMounts",
-              "description": ""
+              "caption": ""
             },
             {
               "field": "db_mountpoints",
               "filename": "BeGroupEditDBMounts",
-              "description": "Choosing DB mounts for the group"
+              "caption": "Choosing DB mounts for the group"
             },
             {
               "field": "non_exclude_fields",
               "filename": "BeGroupEditExcludeFields",
-              "description": "The list of excluded fields in its default state (all tables collapsed)",
+              "caption": "The list of excluded fields in its default state (all tables collapsed)",
               "actions": [
                 {
                   "action": "hide",
@@ -220,7 +221,7 @@
             {
               "field": "non_exclude_fields",
               "filename": "BeGroupEditExcludeFieldsExpanded",
-              "description": "The same list with one table expanded",
+              "caption": "The same list with one table expanded",
               "actions": [
                 {
                   "action": "open",
@@ -238,12 +239,12 @@
             {
               "field": "file_mountpoints",
               "filename": "BeGroupEditFileMounts",
-              "description": "List of all available file mounts"
+              "caption": "List of all available file mounts"
             },
             {
               "field": "file_permissions",
               "filename": "BeGroupEditFilePermissions",
-              "description": "Giving specific file operation permissions",
+              "caption": "Giving specific file operation permissions",
               "actions": [
                 {
                   "action": "open",
@@ -254,27 +255,27 @@
             {
               "field": "allowed_languages",
               "filename": "BeGroupEditLanguages",
-              "description": "Setting permissions for languages"
+              "caption": "Setting permissions for languages"
             },
             {
               "field": "groupMods",
               "filename": "BeGroupEditModules",
-              "description": "Choosing modules for the backend user group"
+              "caption": "Choosing modules for the backend user group"
             },
             {
               "field": "pagetypes_select",
               "filename": "BeGroupEditPageTypes",
-              "description": ""
+              "caption": ""
             },
             {
               "field": "pagetypes_select",
               "filename": "BeGroupEditPageTypes",
-              "description": "Restrict which page types are available to members of this group"
+              "caption": "Restrict which page types are available to members of this group"
             },
             {
               "field": "tables_select",
               "filename": "BeGroupEditTables",
-              "description": "Select the tables that the members of this group are allowed to see",
+              "caption": "Select the tables that the members of this group are allowed to see",
               "actions": [
                 {
                   "action": "hide",

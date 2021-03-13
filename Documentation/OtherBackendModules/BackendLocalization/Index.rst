@@ -77,9 +77,7 @@ Set a default language when creating a backend user
 A default language can also be set when creating a new backend
 user.
 
-.. figure:: ../../Images/BackendBackendDefaultLanguage.png
-   :alt: Setting the default language for a new backend user
-   :class: with-shadow
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeUserDefaultLanguage.rst.txt
 
 .. caution::
 
