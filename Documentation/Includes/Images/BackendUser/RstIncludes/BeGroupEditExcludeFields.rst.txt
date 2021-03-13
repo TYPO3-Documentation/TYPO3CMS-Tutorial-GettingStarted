@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditExcludeFields.png
+   :alt: The list of excluded fields in its default state (all tables collapsed)
+   :class: with-shadow
+
+   The list of excluded fields in its default state (all tables collapsed)

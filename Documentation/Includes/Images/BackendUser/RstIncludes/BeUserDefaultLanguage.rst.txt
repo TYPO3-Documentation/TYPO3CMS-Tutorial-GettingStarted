@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUserDefaultLanguage.png
+   :alt: The type selector of a content elements
+   :class: with-shadow
+
+   The type selector of a content elements

@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditFilePermissions.png
+   :alt: Giving specific file operation permissions
+   :class: with-shadow
+
+   Giving specific file operation permissions

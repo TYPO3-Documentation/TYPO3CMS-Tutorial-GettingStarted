@@ -10,8 +10,7 @@ Setting up user permissions
 We will look into managing user permissions by editing the
 "Advanced editors" user group.
 
-.. figure:: ../../Images/BackendBackendGroupEditSettings.png
-   :alt: Choosing the settings menu
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditAllowDeny.rst.txt
 
 .. _general:
 
@@ -22,8 +21,7 @@ On the "General" tab you can edit the group's title and write a
 short description. As mentioned before, permissions from sub-groups
 will be inherited by the current group.
 
-.. figure:: ../../Images/BackendBackendGroupEditGeneralTab.png
-   :alt: Content of the "General" tab when editing a backend user group
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditGeneralTab.rst.txt
 
 
 .. note::
@@ -57,9 +55,7 @@ The first field is used to define which modules members of the group
 should have access to. This will directly influence what appears
 in the module menu for backend users.
 
-.. figure:: ../../Images/BackendBackendGroupEditModules.png
-   :alt: Choosing modules for the backend user group
-
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditModules.rst.txt
 
 .. index:: pair: Permissions; Tables
 .. _tables:
@@ -72,8 +68,7 @@ The second field allows you to select the tables that the members of the
 groups are allowed to see ("Tables (listing)"). And the next field is
 the same but for the tables that can be modified ("Tables (modify)").
 
-.. figure:: ../../Images/BackendBackendGroupEditTables.png
-   :alt:
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditTables.rst.txt
 
 
 .. index:: pair: Permissions; Page types
@@ -86,8 +81,7 @@ These fields can restrict which page types are available to members
 of the group. Explanations about the various page types are
 found in the :ref:`Editors Guide: <t3editors:pages-types>`.
 
-.. figure:: ../../Images/BackendBackendGroupEditPageTypes.png
-   :alt:
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditPageTypes.rst.txt
 
 
 .. index:: Permissions; Allowed exclude fields
@@ -102,15 +96,13 @@ as "excluded". Such fields will never be visible to backend users
 access to them. This field is about granting such access. It displays
 a list of all tables and their excluded fields.
 
-.. figure:: ../../Images/BackendBackendGroupEditExcludeFields.png
-   :alt: The list of excluded fields in its default state (all tables collapsed)
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditExcludeFields.rst.txt
 
 
 Click on a table name to expand the list of its fields and make
 a selection of fields by checking some boxes.
 
-.. figure:: ../../Images/BackendBackendGroupEditExcludeFieldsExpanded.png
-   :alt: The same list with one table expanded
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditExcludeFieldsExpanded.rst.txt
 
 
 .. _explicitly-allow-deny-field-values:
@@ -128,8 +120,7 @@ As with the list of excluded fields, this fields first appears
 with groups collapsed. You need to expand one group to start
 making changes.
 
-.. figure:: ../../Images/BackendBackendGroupEditAllowDeny.png
-   :alt: Setting permissions for values of the content type field
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditAllowDeny.rst.txt
 
 
 .. index:: pair: Permissions; Languages
@@ -141,8 +132,7 @@ In a multilingual web site, it is also possible to restrict users
 to a specific language or set of languages. This can be achieved using the last field
 of the "Access Lists" tab.
 
-.. figure:: ../../Images/BackendBackendGroupEditLanguages.png
-   :alt: Setting permissions for languages
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditLanguages.rst.txt
 
 
 .. index::
@@ -153,7 +143,7 @@ of the "Access Lists" tab.
 Mounts and workspaces
 =====================
 
-The next tab contains very important fields which define 
+The next tab contains very important fields which define
 which parts of the page tree and the file system the members of
 the group may exert their rights over.
 
@@ -172,8 +162,7 @@ only some parts of the page tree. Each mount corresponds to a page in
 the tree. The user will have access only to those pages and their sub-
 pages.
 
-.. figure:: ../../Images/BackendBackendGroupEditDBMounts.png
-   :alt: Choosing DB mounts for the group
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditDBMounts.rst.txt
 
 See also :ref:`Pages permissions <page-permissions>`.
 
@@ -188,18 +177,14 @@ user. This record can be found in the "List" module on the root page and in the
 File Mounts
 -----------
 
-File mounts are similar to DB mounts but instead are used for manage access to files. 
+File mounts are similar to DB mounts but instead are used for manage access to files.
 The main difference is that file mount records must be defined by the administrator first.
 These are located in the root node:
 
-.. figure:: ../../Images/BackendFileMountList.png
-   :alt: List of all available file mounts
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditFileMounts.rst.txt
 
 
-They can then be selected when editing a backend user group:
-
-.. figure:: ../../Images/BackendBackendGroupEditFileMounts.png
-   :alt: Selecting allowed file mounts
+They can then be selected when editing a backend user group.
 
 .. note::
 
@@ -224,5 +209,4 @@ Giving access to file mounts is not the whole story. Specific operations
 on files and directories must be allowed. This is what the next field
 does. Choose either "Directory" or "Files" and start checking boxes.
 
-.. figure:: ../../Images/BackendBackendGroupEditFilePermissions.png
-   :alt: Giving specific file operation permissions
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditFilePermissions.rst.txt

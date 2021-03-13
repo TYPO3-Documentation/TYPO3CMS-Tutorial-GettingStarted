@@ -1,0 +1,295 @@
+{
+  "comments": {
+    "php": "// Automatic screenshot: Remove this comment if you want to manually change this file",
+    "rst.txt": ".. Automatic screenshot: Remove this line if you want to manually change this file",
+    "general": "Automatic screenshot:"
+  },
+  "settings": {
+    "snippet": "ignore",
+    "isTca": false
+  },
+  "extensions": [
+    {
+      "extension": "backend",
+      "paths": {
+        "imageSource": "Documentation/Includes/Images/BackendUser/AutomaticScreenshots/",
+        "relativeImagePath": "/Includes/Images/BackendUser/AutomaticScreenshots/",
+        "imageRst": "Documentation/Includes/Images/BackendUser/RstIncludes/"
+      },
+      "modules": [
+        {
+          "module": "/module/web/ts",
+          "screens": [
+            {
+              "filename": "TemplateAnalyzer",
+              "caption": "All templates applying to a page, as used by the Introduction Package",
+              "viewport": {"width": 960, "height": 640},
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TemplateAnalyzerModuleFunctionController"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesAnalyzerDetails",
+              "caption": "Viewing the content of a given template in the Template Analyzer",
+              "viewport": {"width": 960, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "template",
+                  "value": "sys_4"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesConstantEditor",
+              "caption": "The Constant Editor showing some categories with constants",
+              "viewport": {"width": 640, "height": 640},
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateConstantEditorModuleFunctionController"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesConstants",
+              "caption": "Overview of the defined constants",
+              "viewport": {"width": 640, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateObjectBrowserModuleFunctionController"
+                },
+                {
+                  "key": "SET[ts_browser_type]",
+                  "value": "const"
+                }
+              ]
+            },
+            {
+              "filename": "TemplatesSetup",
+              "caption": "Overview of the defined setup",
+              "viewport": {"width": 640, "height": 640},
+              "selector": "#TypoScriptTemplateModuleController",
+              "parameters": [
+                {
+                  "key": "id",
+                  "value": 223
+                },
+                {
+                  "key": "SET[function]",
+                  "value": "TYPO3\\CMS\\Tstemplate\\Controller\\TypoScriptTemplateObjectBrowserModuleFunctionController"
+                },
+                {
+                  "key": "SET[ts_browser_type]",
+                  "value": "setup"
+                },
+                {
+                  "key": "SET[ts_browser_const]",
+                  "value": "subst"
+                },
+                {
+                  "key": "tsbr[page]",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table": "be_users",
+          "screens": [
+            {
+              "view": "record",
+              "selectRecord": {
+                "by": "username",
+                "username": "styleguidedemouser1"
+              },
+              "actions": [
+                {
+                  "action": "click",
+                  "select": "lang"
+                },
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "selector": "",
+              "filename": "BeUserDefaultLanguage",
+              "caption": "Setting the default language for a new backend user"
+            }
+          ]
+        },
+        {
+          "table": "be_groups",
+          "screens": [
+            {
+              "view": "table",
+              "pid": 0,
+              "selector": ".recordlist",
+              "filename": "BeGroupEditSettings",
+              "actions": [
+                {
+                  "action": "draw",
+                  "item": "box",
+                  "selector": "tbody .btn-default:first"
+                },
+                {
+                  "action": "draw",
+                  "item": "arrow",
+                  "selector": "tbody .btn-default:first"
+                },
+                {
+                  "action": "wait",
+                  "timeout": 100
+                }
+              ]
+            },
+            {
+              "view": "fields",
+              "selectRecord": {
+                "by": "title",
+                "title": "Simple editors"
+              }
+            },
+            {
+              "view": "record",
+              "selectRecord": {
+                "by": "title",
+                "title": "Simple editors"
+              },
+              "selector": ".typo3-TCEforms",
+              "filename": "BeGroupEditGeneralTab",
+              "caption": "Content of the \"General\" tab when editing a backend user group",
+              "actions": []
+            }
+          ],
+
+          "fields": [
+            {
+              "field": "explicit_allowdeny",
+              "filename": "BeGroupEditAllowDeny",
+              "caption": "Setting permissions for values of the content type field"
+            },
+            {
+              "field": "db_mountpoints",
+              "filename": "BeGroupEditDBMounts",
+              "caption": ""
+            },
+            {
+              "field": "db_mountpoints",
+              "filename": "BeGroupEditDBMounts",
+              "caption": "Choosing DB mounts for the group"
+            },
+            {
+              "field": "non_exclude_fields",
+              "filename": "BeGroupEditExcludeFields",
+              "caption": "The list of excluded fields in its default state (all tables collapsed)",
+              "actions": [
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "clip": {
+                "height": 400
+              }
+            },
+            {
+              "field": "non_exclude_fields",
+              "filename": "BeGroupEditExcludeFieldsExpanded",
+              "caption": "The same list with one table expanded",
+              "actions": [
+                {
+                  "action": "open",
+                  "accordion": "#data_be_groups_3_non_exclude_fields-group-2 .panel-heading a"
+                },
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "clip": {
+                "height": 400
+              }
+            },
+            {
+              "field": "file_mountpoints",
+              "filename": "BeGroupEditFileMounts",
+              "caption": "List of all available file mounts"
+            },
+            {
+              "field": "file_permissions",
+              "filename": "BeGroupEditFilePermissions",
+              "caption": "Giving specific file operation permissions",
+              "actions": [
+                {
+                  "action": "open",
+                  "accordion": "#data_be_groups_3_file_permissions-group-2 .panel-heading a"
+                }
+              ]
+            },
+            {
+              "field": "allowed_languages",
+              "filename": "BeGroupEditLanguages",
+              "caption": "Setting permissions for languages"
+            },
+            {
+              "field": "groupMods",
+              "filename": "BeGroupEditModules",
+              "caption": "Choosing modules for the backend user group"
+            },
+            {
+              "field": "pagetypes_select",
+              "filename": "BeGroupEditPageTypes",
+              "caption": ""
+            },
+            {
+              "field": "pagetypes_select",
+              "filename": "BeGroupEditPageTypes",
+              "caption": "Restrict which page types are available to members of this group"
+            },
+            {
+              "field": "tables_select",
+              "filename": "BeGroupEditTables",
+              "caption": "Select the tables that the members of this group are allowed to see",
+              "actions": [
+                {
+                  "action": "hide",
+                  "selector": ".module-docheader"
+                }
+              ],
+              "selector": ".formengine-field-item",
+              "clip": {
+                "height": 400
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeGroupEditLanguages.png
+   :alt: Setting permissions for languages
+   :class: with-shadow
+
+   Setting permissions for languages
