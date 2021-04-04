@@ -1,7 +1,7 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
 .. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUserDefaultLanguage.png
-   :alt: The type selector of a content elements
+   :alt: Setting the default language for a new backend user
    :class: with-shadow
 
-   The type selector of a content elements
+   Setting the default language for a new backend user

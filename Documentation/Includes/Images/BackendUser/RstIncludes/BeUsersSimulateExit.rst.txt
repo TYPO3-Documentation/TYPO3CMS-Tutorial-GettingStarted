@@ -1,0 +1,7 @@
+.. Manual screenshot
+
+.. figure:: /Includes/Images/BackendUser/ManualScreenshots/BeUsersSimulateExit.png
+   :alt: Exiting the backend user simulation
+   :class: with-shadow
+
+   Exiting the backend user simulation
