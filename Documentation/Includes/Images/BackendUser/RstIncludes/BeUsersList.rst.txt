@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUsersList.png
+   :alt: Viewing backend users in the List module
+   :class: with-shadow
+
+   Viewing backend users in the List module

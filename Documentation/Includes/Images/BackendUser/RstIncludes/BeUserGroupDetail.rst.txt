@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUserGroupDetail.png
+   :alt: Screenshot of  table be_groups
+   :class: with-shadow
+
+   Screenshot of  table be_groups

@@ -17,18 +17,16 @@ groups.
 Backend groups can also be viewed using **SYSTEM > Backend users**
 module:
 
-.. figure:: ../../Images/BackendBackendUserGroups.png
-   :alt: Viewing groups in the Backend Users module
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeUserGroups.rst.txt
 
 
 We can see two groups that correspond to our users
 ("simple" and "advanced").
 
-To find out what group each user is a member of, select the 
+To find out what group each user is a member of, select the
 "information" action icon. A pop-up will open with detailed
 information about the group. Scroll down until you find the
 "References to this item:" section. This shows the list of backend
 users who are part of this group.
 
-.. figure:: ../../Images/BackendBackendUserGroupDetail.png
-   :alt: Checking out which users are part of the group
+.. include:: /Includes/Images/BackendUser/RstIncludes/BeUserGroupDetail.rst.txt
