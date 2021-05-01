@@ -1,7 +1,7 @@
 
 :orphan:
 
-.. this file ist linked from Index.rst but not included in the menu
+.. this file is linked from Index.rst but not included in the menu
 
 .. include:: /Includes.rst.txt
 
