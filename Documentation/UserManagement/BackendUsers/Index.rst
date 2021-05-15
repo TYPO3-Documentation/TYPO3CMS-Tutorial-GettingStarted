@@ -9,7 +9,7 @@ Backend Users
 You can manage backend users using the **SYSTEM > Backend users**
 module.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeUsersModule.rst.txt
+.. include:: /Images/Rst/BeUsersModule.rst.txt
 
 
 This module makes it possible to search and filter users. They

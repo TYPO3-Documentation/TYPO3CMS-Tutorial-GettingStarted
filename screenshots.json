@@ -1,0 +1,65 @@
+{
+  "suites": {
+    "Introduction": {
+      "screenshots": [
+        [
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "see",
+            "text": "Backend Users"
+          },
+          {
+            "action": "click",
+            "link": "Backend Users"
+          },
+          {
+            "action": "drawBox",
+            "selector": "#system_BeuserTxBeuser"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#system_BeuserTxBeuser",
+            "label": "1",
+            "position": "right"
+          },
+          {
+            "action": "switchToContentFrame"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Listing",
+            "timeout": 5
+          },
+          {
+            "action": "drawBox",
+            "selector": ".t3-js-jumpMenuBox"
+          },
+          {
+            "action": "drawArrow",
+            "selector": ".t3-js-jumpMenuBox",
+            "position": "right-bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".t3-js-jumpMenuBox",
+            "label": "2",
+            "position": "right"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BeUsersModule",
+            "altText": "Screenshot of the Backend User Module",
+            "caption": "SYSTEM > Backend users"
+          }
+        ]
+      ]
+    },
+    "Styleguide": {
+      "screenshots": {}
+    }
+  }
+}
