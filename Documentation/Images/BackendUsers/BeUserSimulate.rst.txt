@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/BackendUsers/BeUserSimulate.png
+   :alt: 'Simulate User' in backend user module
+   :class: with-shadow
+
+   The last action icon lets us simulate another user

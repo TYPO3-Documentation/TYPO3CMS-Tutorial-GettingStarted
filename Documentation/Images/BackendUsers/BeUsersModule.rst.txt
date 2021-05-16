@@ -1,7 +1,7 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Images/AutomaticScreenshots/BeUsersModule.png
-   :alt: SYSTEM > Backend users
+.. figure:: /Images/BackendUsers/BeUsersModule.png
+   :alt: Screenshot of the Backend User Module
    :class: with-shadow
 
    SYSTEM > Backend users
