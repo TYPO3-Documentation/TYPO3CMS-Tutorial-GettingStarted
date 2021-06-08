@@ -1,7 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUserDefaultLanguage.png
-   :alt: Setting the default language for a new backend user
-   :class: with-shadow
-
-   Setting the default language for a new backend user
