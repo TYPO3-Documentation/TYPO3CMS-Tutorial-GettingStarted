@@ -91,7 +91,7 @@
           },
           {
             "action": "see",
-            "text": "SU editor"
+            "text": "SU advanced-editor"
           },
           {
             "action": "makeScreenshotOfWindow",
@@ -100,7 +100,7 @@
           },
           {
             "action": "click",
-            "link": "SU editor"
+            "link": "SU advanced-editor"
           },
           {
             "action": "see",
