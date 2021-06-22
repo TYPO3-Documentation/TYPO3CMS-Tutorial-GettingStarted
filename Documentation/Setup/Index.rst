@@ -31,7 +31,7 @@ Site name, title and entry point
 * **Root Page ID*** Points to the root page of the page tree for this site
 * **Site Identifier** Used internally, make this unique and only use alphanumeric characters (will also be the directory name of this site configuration)
 * **Website Title** Visible in the front end title tag
-* **Entry Point** Here we attach the domain for our site, it should be the fully qualified domain of our web site https://example.com/
+* **Entry Point** Here we attach the fully qualified domain of our web site - https://example.com/
 * **Variant for the entry point** Used to configure for example the local web site domain (in development context)
 
 .. todo:: Mention development vs. production context in the install and deployment guide
@@ -59,9 +59,9 @@ With :guilabel:`create new record` a new backend user can be created.
 
 This user record has to be "Enabled" before it can be used to log in to the backend.
 
-A username and password need to be set. Additional information can also be provided such as the users name and email address.
+A username and password need to be set. Additional information can also be provided such as the user's name and email address.
 
-If this user should have full access to the backend, the "Admin" toggle needs to be enabled.
+Enabling the "Admin" toggle grants the user full access to the back end.
 
 Change the backend language
 ===========================

@@ -18,8 +18,10 @@ who have been granted access. The frontend is what the visitor will see when bro
 Backend
 =======
 
-The backend enables users to create and publish content and also perform a range of common administrative tasks such as adding users
-and managing extensions.
+The backend's main role is to enable users to create and publish content for their site.
+
+The backend is also used to configure an installation of TYPO3. Domains, languages and other information that determines how a site behaves are managed via the backend.
+Other tasks such as adding additional backend users and managing third party extensions are also handled in the backend.
 
 Access The Backend
 ------------------
@@ -39,27 +41,19 @@ The backend contains a range of modules that are grouped by task.
 
 -  Admin Tools features a collection of administrative modules that enable you to perform various maintenance and upgrade tasks. This module also contains the Extension manager, allowing you to enable and disable any third-party extensions that are currently installed.
 
--  The System group contains modules that allow administrators to manage access to the backend itself, view error logs and provides information specific to that installation.
-
-The Page Tree
--------------
-
-Located within the Web module, the Page Tree represents the hierarchical structure of a TYPO3 site and its content. In most cases the structure of the page tree matches the navigation structure found in the frontend.
-
-The Page Tree is the main storage point for other types of content as well, such as News articles and frontend user accounts.
+-  The System group contains modules that allow administrators to manage access to the backend itself, view error logs and provide information specific to that installation.
 
 Extensions
 ----------
 
 Developed by the community, Extensions provide a range of solutions that help extend TYPO3. Extensions come in many forms from small extensions that carry out specific tasks to larger Extensions
-that provide an entire suite of functionality such as the TYPO3 Blog Extension for example. Extensions also act as a container for an installations HTML, CSS & JavaScript. This kind of Extension is called
-a site package.
+that provide an entire suite of functionality such as the TYPO3 Blog Extension for example.
 
 
 Frontend
 ========
 
-The frontend combines the content created in the backend along with the installations HTML templates to generate webpages.
+The frontend combines the content created in the backend along with the installation's HTML templates to generate web pages.
 
 To achieve this, TYPO3 uses the Fluid templating engine that acts as the glue between user generated content and design templates.
 

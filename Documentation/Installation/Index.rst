@@ -13,7 +13,7 @@ Installation And Deployment
 ---------------------------
 
 Composer should only ever be used to install TYPO3 on a local or development environment. By not using Composer in a live environment, the need to install
-dependencies is completely removed - reducing potentials vectors for attack.
+dependencies are completely removed - reducing potential vectors for attack.
 
 Once an installation is ready to go "live", it should then be moved or "deployed" to the live environment instead.
 
@@ -22,7 +22,7 @@ Pre-installation Checklist
 
 - Command line (CLI) access with the ability to create directories and symbolic links.
 - Access to :ref:`Composer <composer>` via the CLI (for local development)
-- Access to the webservers root directory
+- Access to the web server's root directory
 - Database with appropriate credentials
 
 Execute Composer Create-Project
@@ -121,7 +121,7 @@ Access TYPO3 via a web browser
 ------------------------------
 
 TYPO3 can now be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
-redirect all request to `/typo3/index.php` to complete the installation process.
+redirect all requests to `/typo3/index.php` to complete the installation process.
 
 .. tip::
 
@@ -142,7 +142,7 @@ TYPO3 will now scan the host environment. During the scan TYPO3 will check the h
 - Minimum required version of PHP is installed.
 - Required PHP extensions are loaded.
 - php.ini is configured.
-- TYPO3 is able create and delete files and directories within the installations root directory.
+- TYPO3 is able to create and delete files and directories within the installation's root directory.
 
 If no issues are detected, the installation process can continue.
 
@@ -221,5 +221,4 @@ Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
    :hidden:
    :titlesonly:
 
-   Composer.rst
    Deployment.rst

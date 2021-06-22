@@ -17,7 +17,7 @@ The following settings need to be set in the installations :file:`php.ini`
 
 * `max_input_vars` set to a minimum 1500
 
-The following settings control the maximum upload filesize:
+The following settings control the maximum upload file size:
 
 * `post_max_size` set to 10M to allow uploads of 10MB
 
@@ -52,11 +52,11 @@ Required Database Extensions
 
 .. tabs::
 
-   .. tab:: MySQL
+   .. tab:: MySQL / MariaDB
 
       * pdo_mysql (recommended)
       * OR mysqli
-      The InnoDB engine is required for MySQL and Maria DB instances.
+      The InnoDB engine is required for MySQL and MariaDB instances.
 
    .. tab:: Postgres
 
