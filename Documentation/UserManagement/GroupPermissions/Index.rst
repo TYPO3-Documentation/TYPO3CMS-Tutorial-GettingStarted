@@ -123,7 +123,12 @@ making changes.
 
 .. figure:: ../../Images/BackendBackendGroupEditAllowDeny.png
    :alt: Setting permissions for values of the content type field
+   
+.. note::
 
+   You can change the behavior in the install tool by setting
+   :ref:`[BE][explicitADmode]<t3coreapi:globals-typo3-conf-vars-be-explicitadmode>` 
+   to :php:`explicitDeny`.
 
 Limit to Languages
 ------------------
