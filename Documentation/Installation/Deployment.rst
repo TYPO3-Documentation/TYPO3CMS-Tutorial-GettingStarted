@@ -6,32 +6,32 @@
 Deploying to Production
 =======================
 
+This guide outlines the steps required to manually deploy TYPO3 and ensure the installation
+is secure and ready to be used in a production context. This guide also highlights a number of
+automation tools that can help automate the deployment process.
+
 There are several different ways to deploy TYPO3. One of the more simple
 options is to manually copy its files and database
 from a local machine to the live server, adjusting the configuration where
 necessary.
 
-This guide outlines the steps required to deploy TYPO3 manually and ensure the installation
-is secure and ready to be used in a production context. This guide also highlights a number of
-automation tools that can help automate the deployment process.
-
 General Deployment Steps
 ========================
 
--  Building the local environment (installing everything necessary for the website)
--  Running `composer install --no-dev` to install without development dependencies
--  Copying files to the production server
--  Copying the database to the production server
+-  Build the local environment (installing everything necessary for the website)
+-  Run `composer install --no-dev` to install without development dependencies
+-  Copy files to the production server
+-  Copy the database to the production server
 -  Clearing the caches
 
 .. note::
 
     The `composer install` command should not be run on the live environment.
-    Ideally, `composer` should run locally or on a dedicated deployment machine,
+    Ideally, `composer` should only run locally or on a dedicated deployment machine,
     to allow testing before going live.
 
     To avoid conflicts between the local and the server's PHP version,
-    the server's PHP version should be defined in the :file:`composer.json` file
+    the server's PHP version can be defined in the :file:`composer.json` file
     (e.g. ``{"platform": {"php": "7.2"}}``), so `composer` will always check
     the correct dependencies.
 
@@ -40,7 +40,7 @@ Production Settings
 
 .. todo:: figure out how to describe that AdditionalConfiguration allows setting additional configuration ;) or exclude LocalConfiguration from repository and create with deployment on live whatever.
 
-To ensure a secure installation of TYPO3 on a production server, the following settings should be set:
+To ensure a secure installation of TYPO3 on a production server, the following settings need to be set:
 
 - :guilabel:`Admin Tools > Settings > Configuration Presets` The "Live" preset has to be chosen to make sure no debug output is displayed.
 - `HTTPS` should be used on production servers and :php:`$GLOBALS['TYPO3_CONF_VARS']['BE']['lockSSL']` should be set to `true`.

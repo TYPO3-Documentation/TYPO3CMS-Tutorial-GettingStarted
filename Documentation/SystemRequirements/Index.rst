@@ -16,8 +16,8 @@ For up-to-date information about TYPO3's system requirements visit `get.typo3.or
 
 .. include:: PHP.rst
 
-Webserver
-=========
+Web Server
+==========
 
 .. tabs::
 

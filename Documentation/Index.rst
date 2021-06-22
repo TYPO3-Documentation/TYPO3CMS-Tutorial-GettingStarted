@@ -7,7 +7,13 @@
 Getting Started
 ===============
 
-Welcome to Getting Started, this guide is split into four chapters detailing everything required to get started with TYPO3.
+Welcome to Getting Started, this guide features an introduction to TYPO3 that highlights some of its core concepts including the backend
+administrative interface.
+
+This guide also contains information on how to configure the host operating system and features a detailed installation guide
+that explains how TYPO3 is installed.
+
+A set of "Next Steps" are also provided, highlighting what to do once TYPO3 installed.
 
 :ref:`Concepts <concepts>`
 ==========================
