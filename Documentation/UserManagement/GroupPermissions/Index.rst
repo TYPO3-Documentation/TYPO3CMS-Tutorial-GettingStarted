@@ -126,11 +126,9 @@ making changes.
    
 .. note::
 
-   **Inverting the behavior**
-
-   You can change the behavior of this setting in the install tool 
-   [BE][explicitADmode] = explicitDeny
-   This can be helpful on updating TYPO3 and still using the old permissions.
+   You can change the behavior in the install tool by setting
+   :ref:`[BE][explicitADmode]<t3coreapi:globals-typo3-conf-vars-be-explicitadmode>` 
+   to :php:`explicitDeny`.
 
 Limit to Languages
 ------------------
