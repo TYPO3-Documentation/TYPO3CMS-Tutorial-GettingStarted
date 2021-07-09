@@ -11,7 +11,7 @@ The top bar features a set of menus that allow you to quickly carry out common a
 The top bar also contains specific information about your instance of TYPO3
 including the name of your site and also the version of TYPO3 it is currently running.
 
-.. figure:: ../../Images/BackendTopBar.png
+.. figure:: /Images/ManualScreenshots/BackendOverview/BackendTopBar.png
    :alt: The top bar with the flush cache menu open
    :class: with-shadow
 

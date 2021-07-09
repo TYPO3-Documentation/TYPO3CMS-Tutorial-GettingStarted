@@ -41,7 +41,7 @@ A user name and a password are always required to log into the backend.
 
    A login page looking like this will be displayed:
 
-   .. figure:: ../../Images/BackendLoginPage.png
+   .. figure:: /Images/ManualScreenshots/Login/LoginPage.png
       :alt: Login page for the TYPO3 CMS backend
       :class: with-shadow
 
@@ -53,14 +53,16 @@ A user name and a password are always required to log into the backend.
    After pressing the **login** button you will be redirected to the TYPO3 CMS
    backend overview:
 
-   .. figure:: ../../Images/BackendAboutModules.png
-      :alt: TYPO3 CMS backend Overview with the About Modules screen
+   .. TODO: you see the Dashboard not the about module now...
+
+   .. figure:: /Images/ManualScreenshots/Dashboard/Dashboard.png
+      :alt: TYPO3 CMS Dashboard
       :class: with-shadow
 
 The current view is a list of all installed modules and their usage.
 It can be reached using the help menu in the top bar
 and selecting :guilabel:`About TYPO3 CMS`.
 
-.. figure:: ../../Images/BackendHelpMenu.png
+.. figure:: /Images/ManualScreenshots/BackendOverview/HelpMenu.png
    :alt: Accessing the Help menu from the top bar
    :class: with-shadow

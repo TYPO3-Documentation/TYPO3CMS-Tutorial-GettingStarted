@@ -24,7 +24,7 @@ existing groups (created by the "Introduction Package").
 
 2. Click on the `+`: "Create new record"
 
-   .. figure:: ../../Images/UserManagementCreateNewUser.png
+   .. figure:: /Images/ManualScreenshots/BackendUsers/CreateNewUser.png
       :alt: Create a new editor
       :class: with-shadow
 
@@ -37,7 +37,7 @@ existing groups (created by the "Introduction Package").
    * **Group:** Select "Simple editors" in the "Available Items"
    * **Name:** Simple Editor
 
-   .. figure:: ../../Images/UserManagementCreateNewUserSimpleEditor.png
+   .. figure:: /Images/ManualScreenshots/BackendUsers/CreateNewUserSimpleEditor.png
       :alt: Fill out fields for the new backend user
       :class: with-shadow
 
@@ -45,7 +45,7 @@ existing groups (created by the "Introduction Package").
 
 5. Activate the backend user
 
-   .. figure:: ../../Images/BackendEditorUnhide.png
+   .. figure:: /Images/ManualScreenshots/BackendUsers/EditorUnhide.png
       :alt: Activate editor
       :class: with-shadow
 
@@ -85,7 +85,7 @@ The group "Simple Editors" should have the page "Content Examples" set as
 
 8. Click Save
 
-.. figure:: ../../Images/BackendGroupDbMount.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/GroupDbMount.png
    :class: with-shadow
    :alt: Change DB Mount
 

@@ -26,7 +26,7 @@ Load and update translation packages
 
 1. Open the module :guilabel:`Manage Language Packs`
 
-   .. figure:: ../../Images/BackendLanguageModule.png
+   .. figure:: /Images/ManualScreenshots/AdminTools/ManageLanguage.png
       :alt: Open the backend language administration module
       :class: with-shadow
 
@@ -34,7 +34,7 @@ Load and update translation packages
 
 2. Click on :guilabel:`add language` and on the :guilabel:`+` next to your language
 
-   .. figure:: ../../Images/ManageLanguagePacksAddLanguage.png
+   .. figure:: /Images/ManualScreenshots/AdminTools/ManageLanguagePacksAddLanguage.png
       :alt: Open the backend language administration module
       :class: with-shadow
 
@@ -59,7 +59,7 @@ Change the Language in the Backend
 
 3. Hit the "Save" button in the docheader.
 
-.. figure:: ../../Images/BackendSettingsLanguage.png
+.. figure:: /Images/ManualScreenshots/BackendUsers/SettingsLanguage.png
    :alt: Changing the current user's interface language
    :class: with-shadow
 
@@ -77,7 +77,7 @@ Set a default language when creating a backend user
 A default language can also be set when creating a new backend
 user.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeUserDefaultLanguage.rst.txt
+.. include:: /Images/ManualScreenshots/BackendUsers/DefaultLanguage.rst.txt
 
 .. caution::
 

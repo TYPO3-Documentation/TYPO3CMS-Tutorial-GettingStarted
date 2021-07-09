@@ -12,13 +12,13 @@ screen.
 
 Click on the copy icon of the "Features" page:
 
-.. figure:: ../../Images/BackendCopyToClipboard.png
+.. figure:: /Images/ManualScreenshots/ListModule//Clipboard/CopyToClipboard.png
    :alt: Pointing at the copy icon
 
 
 Now scroll down and look at the clipboard:
 
-.. figure:: ../../Images/BackendSimpleClipboard.png
+.. figure:: /Images/ManualScreenshots/ListModule//Clipboard/SimpleClipboard.png
    :alt: The clipboard with the newly copied record
 
 

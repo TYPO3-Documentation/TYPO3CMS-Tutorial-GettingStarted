@@ -10,7 +10,7 @@ Setting up user permissions
 We will look into managing user permissions by editing the
 "Advanced editors" user group.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditAllowDeny.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditAllowDeny.rst.txt
 
 .. _general:
 
@@ -21,7 +21,7 @@ On the "General" tab you can edit the group's title and write a
 short description. As mentioned before, permissions from sub-groups
 will be inherited by the current group.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditGeneralTab.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditGeneralTab.rst.txt
 
 
 .. note::
@@ -55,7 +55,7 @@ The first field is used to define which modules members of the group
 should have access to. This will directly influence what appears
 in the module menu for backend users.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditModules.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditModules.rst.txt
 
 .. index:: pair: Permissions; Tables
 .. _tables:
@@ -68,7 +68,7 @@ The second field allows you to select the tables that the members of the
 groups are allowed to see ("Tables (listing)"). And the next field is
 the same but for the tables that can be modified ("Tables (modify)").
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditTables.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditTables.rst.txt
 
 
 .. index:: pair: Permissions; Page types
@@ -81,7 +81,7 @@ These fields can restrict which page types are available to members
 of the group. Explanations about the various page types are
 found in the :ref:`Editors Guide: <t3editors:pages-types>`.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditPageTypes.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditPageTypes.rst.txt
 
 
 .. index:: Permissions; Allowed exclude fields
@@ -96,13 +96,13 @@ as "excluded". Such fields will never be visible to backend users
 access to them. This field is about granting such access. It displays
 a list of all tables and their excluded fields.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditExcludeFields.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditExcludeFields.rst.txt
 
 
 Click on a table name to expand the list of its fields and make
 a selection of fields by checking some boxes.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditExcludeFieldsExpanded.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditExcludeFieldsExpanded.rst.txt
 
 
 .. _explicitly-allow-deny-field-values:
@@ -120,7 +120,7 @@ As with the list of excluded fields, this fields first appears
 with groups collapsed. You need to expand one group to start
 making changes.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditAllowDeny.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditAllowDeny.rst.txt
 
 .. note::
    You can change the behavior in the install tool by setting
@@ -136,7 +136,7 @@ In a multilingual web site, it is also possible to restrict users
 to a specific language or set of languages. This can be achieved using the last field
 of the "Access Lists" tab.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditLanguages.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditLanguages.rst.txt
 
 
 .. index::
@@ -166,7 +166,7 @@ only some parts of the page tree. Each mount corresponds to a page in
 the tree. The user will have access only to those pages and their sub-
 pages.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditDBMounts.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditDBMounts.rst.txt
 
 See also :ref:`Pages permissions <page-permissions>`.
 
@@ -185,7 +185,7 @@ File mounts are similar to DB mounts but instead are used for manage access to f
 The main difference is that file mount records must be defined by the administrator first.
 These are located in the root node:
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditFileMounts.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditFileMounts.rst.txt
 
 
 They can then be selected when editing a backend user group.
@@ -213,4 +213,4 @@ Giving access to file mounts is not the whole story. Specific operations
 on files and directories must be allowed. This is what the next field
 does. Choose either "Directory" or "Files" and start checking boxes.
 
-.. include:: /Includes/Images/BackendUser/RstIncludes/BeGroupEditFilePermissions.rst.txt
+.. include:: /Images/ManualScreenshots/BackendGroups/EditFilePermissions.rst.txt

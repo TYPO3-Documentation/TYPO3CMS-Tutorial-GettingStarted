@@ -14,7 +14,7 @@ pages like viewing, editing or deleting.
 
 This is managed using the **SYSTEM > Access** module:
 
-.. figure:: ../../Images/BackendAccessModule.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/Module.png
    :alt: The Access module with ownerships and permissions
 
 
@@ -26,7 +26,7 @@ To change a permission, simply click on the related icon and it
 will switch state. To change the owner or the group of a given
 page, click on the owner's or group's name and a small form appears.
 
-.. figure:: ../../Images/BackendAccessModuleChangeOwner.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/ModuleChangeOwner.png
    :alt: Changing a page's owner
 
 
@@ -36,7 +36,7 @@ on the home page by clicking on the "Congratulations" page in the
 page tree. Now click again on the "Congratulations" page in the
 *Access* module. You should see the following:
 
-.. figure:: ../../Images/BackendAccessModuleChangeRecursively.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/ModuleChangeRecursively.png
    :alt: Preparing for recursively changing the group on the whole page tree
 
 
@@ -50,5 +50,5 @@ This way both groups will have the same permissions on the
 page tree. However since they have different DB mounts, they
 will not have access to the same set of pages.
 
-.. figure:: ../../Images/BackendAccessModuleGroupChanged.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/ModuleGroupChanged.png
    :alt: The group has changed for all pages
