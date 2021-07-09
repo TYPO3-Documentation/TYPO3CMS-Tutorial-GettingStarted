@@ -9,7 +9,7 @@ Backend Users
 You can manage backend users using the **SYSTEM > Backend users**
 module.
 
-.. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersModule.rst.txt
+.. include:: /Images/ManualScreenshots/BackendUsers/BeUsersModule.rst.txt
 
 
 This module makes it possible to search and filter users. They
@@ -97,5 +97,5 @@ for a good exercise for changing user rights in the next chapters.
    User records can also be accessed using the **WEB > List** module
    and clicking on the root node (the one with the TYPO3 CMS logo).
 
-   .. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersList.rst.txt
+   .. include:: /Images/ManualScreenshots/BackendUsers/BeUsersList.rst.txt
 

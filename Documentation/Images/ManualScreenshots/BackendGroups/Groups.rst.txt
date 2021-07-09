@@ -1,6 +1,6 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Includes/Images/BackendUser/AutomaticScreenshots/BeUserGroups.png
+.. figure:: /Images/ManualScreenshots/BackendGroups/Groups.png
    :alt: Viewing groups in the Backend Users module
    :class: with-shadow
 
