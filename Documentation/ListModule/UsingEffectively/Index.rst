@@ -8,7 +8,7 @@ Using the list module effectively
 Select the **WEB > List** module and browse to the
 "Congratulations" page. You should see the following:
 
-.. figure:: /Images/ManualScreenshots/ListModuleModule.png
+.. figure:: /Images/ManualScreenshots/ListModule/Module.png
    :alt: A typical view from the List module
    :class: with-shadow
 
@@ -37,7 +37,7 @@ The list view offers several different action icons in the **Docheader**:
 
 In the **Content Area**, action icons are also available:
 
-.. figure:: /Images/ManualScreenshots/ListModuleModule2.png
+.. figure:: /Images/ManualScreenshots/ListModule/Module2.png
    :alt: A typical view from the List module
    :class: with-shadow
 
@@ -63,6 +63,6 @@ this next.
 If you plan to manage a multilingual web site, you will want to
 check the **"Localization view"** checkbox.
 
-.. figure:: /Images/ManualScreenshots/ListModuleModuleOptions.png
+.. figure:: /Images/ManualScreenshots/ListModule/ModuleOptions.png
    :alt: The viewing three options at the bottom of the List module screen
    :class: with-shadow
