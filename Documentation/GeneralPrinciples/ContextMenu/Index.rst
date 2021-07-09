@@ -17,11 +17,11 @@ what actions you are performing.
 
 For example, there's a contextual menu in the **WEB > List** view:
 
-.. figure:: ../../Images/BackendContextMenuListModule.png
+.. figure:: /Images/ManualScreenshots/ListModule/ContextMenu.png
    :alt: The contextual menu in the List
 
 or in the **FILE > Filelist** view:
 
-.. figure:: ../../Images/BackendContextMenuFileModule.png
+.. figure:: /Images/ManualScreenshots/FilelistModule/ContextMenu.png
    :alt: The contextual menu in the List
 

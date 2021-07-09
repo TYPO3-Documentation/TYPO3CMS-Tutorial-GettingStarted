@@ -9,7 +9,7 @@ Backend Users
 You can manage backend users using the **SYSTEM > Backend users**
 module.
 
-.. include:: /Images/BackendUsers/BeUsersModule.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersModule.rst.txt
 
 
 This module makes it possible to search and filter users. They
@@ -52,12 +52,12 @@ Simulate user
 The simplest way to check out another user (when one is an
 administrator) is to use the "simulate user" feature:
 
-.. include:: /Images/BackendUsers/BeUserSimulate.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/BeUserSimulate.rst.txt
 
 And here is what "simple\_editor" sees when accessing the
 TYPO3 CMS backend:
 
-.. figure:: ../../Images/BackendSimpleEditorUser.png
+.. figure:: /Images/ManualScreenshots/BackendUsers/SimpleEditorUser.png
    :alt: The backend view for the "simple\_editor"
    :class: with-shadow
 
@@ -70,7 +70,9 @@ To switch back to the admin account, click on the user's name
 in the top bar and click the "Exit" button (note that this button
 normally reads "Logout").
 
-.. include:: /Images/BackendUsers/BeUsersSimulateExit.rst.txt
+.. figure:: /Images/ManualScreenshots/BackendUsers/AdvancedEditorUser.png
+   :alt: The backend view for the "advanced\_editor"
+   :class: with-shadow
 
 
 .. _user-management-advanced-editor:
@@ -81,7 +83,7 @@ normally reads "Logout").
 Now try doing the same with the "advanced\_editor". You should
 see the following after switching user:
 
-.. figure:: ../../Images/BackendAdvancedEditorUser.png
+.. figure:: /Images/ManualScreenshots/BackendUsers/AdvancedEditorUser.png
    :alt: The backend view for the "advanced\_editor"
    :class: with-shadow
 
@@ -95,5 +97,5 @@ for a good exercise for changing user rights in the next chapters.
    User records can also be accessed using the **WEB > List** module
    and clicking on the root node (the one with the TYPO3 CMS logo).
 
-   .. include:: /Images/BackendUsers/BeUsersList.rst.txt
+   .. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersList.rst.txt
 

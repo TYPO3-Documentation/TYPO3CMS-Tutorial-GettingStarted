@@ -21,14 +21,14 @@ Step 1: Create a new group
 
 Let's create a new user group using the *Access* module.
 
-.. figure:: ../../Images/BackendAccessCreateNewGroup.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/CreateNewGroup.png
    :alt: Creating a new backend group from the Access module
 
 
 Start by entering the name ("Resource editors"), optionally
 a description and choose "All users" as sub-group.
 
-.. figure:: ../../Images/BackendAccessNewGroupGeneralTab.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/NewGroupGeneralTab.png
    :alt: Entering the general information about the new group
 
 
@@ -47,7 +47,7 @@ page as DB mount. To achieve that easily start typing "Res" in
 the wizard at the right-hand side of the field. It will display
 suggestions, from which you can select the "Resources" page.
 
-.. figure:: ../../Images/BackendAccessNewGroupDBMount.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/NewGroupDBMount.png
    :alt: Defining DB mounts using the suggest wizard
 
 
@@ -64,13 +64,13 @@ Step 2: Create the user
 Similarly to what we have done before, let's create a new
 user using the *Access* module.
 
-.. figure:: ../../Images/BackendAccessCreateNewUser.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/CreateNewUser.png
    :alt: Creating a new backend user from the Access module
 
 
 Enter the username, password, group membership:
 
-.. figure:: ../../Images/BackendAccessNewUserGeneralTab.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/NewUserGeneralTab.png
    :alt: Setting the base information for the new user
 
 
@@ -84,7 +84,7 @@ Enter the username, password, group membership:
 Now switch to the "Mounts and workspaces" tab
 to ensure that the "Mount from Groups" settings are set:
 
-.. figure:: ../../Images/BackendAccessNewUserMountFromGroups.png
+.. figure:: /Images/ManualScreenshots/BackendAccess/NewUserMountFromGroups.png
    :alt: Checking the "Mount from groups" setting
 
 
@@ -94,10 +94,10 @@ the group(s) the user belongs to and are not defined at user-level.
 Save and close the record. We will check the result of our work
 by using the simulate user feature we saw earlier.
 
-.. figure:: ../../Images/BackendAccessSimulateResourceEditor.png
+.. figure:: /Images/ManualScreenshots/BackendUsers/SimulateResourceEditor.png
    :alt: Let's simulate our new user!
 
 You should see the following:
 
-.. figure:: ../../Images/BackendResourceEditorUser.png
+.. figure:: /Images/ManualScreenshots/BackendUsers/ResourceEditorUser.png
    :alt: The backend as seen by Resource McEditor

@@ -35,7 +35,7 @@ a rich tool and this chapter provides only a brief overview.
 Moving to **ADMIN TOOLS > Extensions**, we get the following view
 (in non-Composer mode):
 
-.. figure:: ../Images/BackendExtensionManager.png
+.. figure:: /Images/ManualScreenshots/ExtensionManager/ExtensionManager.png
    :alt: TYPO3 CMS Extension Manager
    :class: with-shadow
 

@@ -35,7 +35,7 @@ Docheader (top)
    which will appear depending on what actions you are performing.
 
 
-.. figure:: ../../Images/BackendAreasOverview.png
+.. figure:: /Images/ManualScreenshots/BackendOverview/BackendAreasOverview.png
    :alt: Overview of the whole TYPO3 CMS backend
    :class: with-shadow
 

@@ -27,7 +27,7 @@ login, cache clearing, database entries (creation, update, deletion),
 settings changes, file actions and errors. A number of filters are
 available to help filter this data.
 
-.. figure:: ../../Images/BackendLogModule.png
+.. figure:: /Images/ManualScreenshots/Modules/LogModule.png
    :alt: The Log module and its many filters
    :class: with-shadow
 
@@ -42,18 +42,18 @@ DB check
 
    "DB check and :ref:`system-modules-configuration` are only available
    if the system extension "lowlevel" was installed and activated.
-   
+
    For Composer based systems (see also :ref:`t3install:extension-installation`):
-   
+
    .. code-block:: bash
-   
+
       composer req typo3/cms-lowlevel
 
 
 The *Database (DB) check* module offers four functions related
 to the database and its content.
 
-.. figure:: ../../Images/BackendDbCheckModule.png
+.. figure:: /Images/ManualScreenshots/Modules/DbCheckModule.png
    :alt: Overview of the DB check functions
    :class: with-shadow
 
@@ -89,7 +89,7 @@ you can discover their function as you dig deeper into
 TYPO3 CMS. Let's just mention that the `$GLOBALS['TYPO3_CONF_VARS']`
 contains global configuration values.
 
-.. figure:: ../../Images/BackendConfigurationModule.png
+.. figure:: /Images/ManualScreenshots/Modules/ConfigurationModule.png
    :alt: The Configuration module showing the global configuration array
    :class: with-shadow
 
@@ -105,5 +105,5 @@ about your TYPO3 CMS installation. It is recommended that you
 regularly check the "Status Report" as it will inform you
 about configuration errors, security issues, etc.
 
-.. figure:: ../../Images/BackendReportsModule.png
+.. figure:: /Images/ManualScreenshots/Modules/ReportsModule.png
    :alt: The Status Report of the Reports module

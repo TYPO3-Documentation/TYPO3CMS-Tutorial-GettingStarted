@@ -22,13 +22,13 @@ all the media associated with your TYPO3 web site.
 Managing files in the TYPO3 CMS
 ===============================
 
-Files including documents and images are managed in the 
+Files including documents and images are managed in the
 Filelist module. Similar to the **WEB > List** module,
 it displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the
 selected directory.
 
-.. figure:: ../Images/BackendFileModule.png
+.. figure:: /Images/ManualScreenshots/FilelistModule/FilelistModule.png
    :alt: The File module
    :class: with-shadow
 
@@ -55,7 +55,7 @@ Clipboard
 
 There's a clipboard just like in the *List* module.
 
-.. figure:: ../Images/BackendFileClipboard.png
+.. figure:: /Images/ManualScreenshots/FilelistModule/FileClipboard.png
    :alt: The File module's clipboard
    :class: with-shadow
 
@@ -73,13 +73,13 @@ Uploading new files
 You can upload files to a given folder by using the context menu
 or to the current directory by using the action icon in the docheader.
 
-.. figure:: ../Images/BackendFileUploadIcons.png
+.. figure:: /Images/ManualScreenshots/FilelistModule/FileUploadIcons.png
    :alt: Upload possibilities in the File module
 
 
 You will get to simple upload view:
 
-.. figure:: ../Images/BackendFileUpload.png
+.. figure:: /Images/ManualScreenshots/FilelistModule/FileUpload.png
    :alt: Upload possibilities in the File module
    :class: with-shadow
 

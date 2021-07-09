@@ -1,6 +1,6 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Images/BackendUsers/BeUserSimulate.png
+.. figure:: /Images/AutomaticScreenshots/BackendUsers/BeUserSimulate.png
    :alt: 'Simulate User' in backend user module
    :class: with-shadow
 

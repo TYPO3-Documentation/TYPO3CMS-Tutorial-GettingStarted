@@ -27,7 +27,7 @@ the arrow to the left of each page.
 
    Your page tree should look like this:
 
-   .. figure:: ../../Images/BackendPageTree.png
+   .. figure:: /Images/ManualScreenshots/PageTree/PageTree.png
       :alt: The page tree with the "Content Examples" page expanded
       :class: with-shadow
 
@@ -37,7 +37,7 @@ the arrow to the left of each page.
    To view the page in the frontend, click on the :guilabel:`View webpage`
    icon in the Docheader.
 
-   .. figure:: ../../Images/ViewWebpage.png
+   .. figure:: /Images/ManualScreenshots/PageModule/ViewWebpage.png
       :alt: View current page in the frontend
       :class: with-shadow
 
@@ -46,7 +46,7 @@ the arrow to the left of each page.
    Click on :guilabel:`CONTENT EXAMPLES` in the main menu on top and then
    select :guilabel:`Media` from the sub-menu:
 
-   .. figure:: ../../Images/FrontendPage.png
+   .. figure:: /Images/ManualScreenshots/Frontend/FrontendPage.png
       :alt: Frontend of the Introduction Package
       :class: with-shadow
 
@@ -61,7 +61,7 @@ Working with the page tree
 
 Remember the components of the backend from the :ref:`previous page <general-backend-structure>`?
 
-.. figure:: ../../Images/BackendAreasOverview.png
+.. figure:: /Images/ManualScreenshots/BackendOverview/BackendAreasOverview.png
    :alt: Overview of the whole TYPO3 CMS backend
    :scale: 50
    :class: with-shadow
@@ -75,8 +75,8 @@ Root page
    The top node with the TYPO3 logo is a special container which is used
    to store shared resources such as file mounts and backend user records.
 
-.. figure:: ../../Images/RootPage.png
-   :alt: Frontend of the Introduction Package
+.. figure:: /Images/ManualScreenshots/PageTree/RootPage.png
+   :alt: Root page of the Introduction Package
    :class: with-shadow
 
 Modules:
@@ -91,7 +91,7 @@ Context menu:
    1. A click on the page icon will open the context menu. 2. **Or**, you
    can right click the whole page title.
 
-   .. figure:: ../../Images/BackendContextMenu.png
+   .. figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
       :alt: Page tree with opened context menu
       :class: with-shadow
 
@@ -179,10 +179,10 @@ You can also create new pages using drag and drop.
 2. Drag and drop a "Standard" page to its desired location in the page tree.
 
 
-   .. figure:: ../../Images/PageTreeDragndop1.png
+   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop1.png
       :class: with-shadow
 
-   .. figure:: ../../Images/PageTreeDragndop2.png
+   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop2.png
       :class: with-shadow
 
 3. A new page has now been created at the desired location.
@@ -190,7 +190,7 @@ You can also create new pages using drag and drop.
    By default it will be called "[Default Title]" which can be changed
    right away by entering a new title.
 
-   .. figure:: ../../Images/PageTreeDragndop3.png
+   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop3.png
       :class: with-shadow
 
 
@@ -204,7 +204,7 @@ It is also possible to view a page without having to leave the backend. By selec
 backend users are able to preview individual pages and test them against various screen sizes,
 by accessing the drop-down menu at the top.
 
-.. figure:: ../../Images/BackendViewModule.png
+.. figure:: /Images/ManualScreenshots/Modules/ViewModule.png
    :alt: Viewing a page directly in the backend
    :class: with-shadow
 
@@ -218,7 +218,7 @@ Collapsing the page tree
 The page tree can be collapsed to gain screen space, by clicking on the second icon
 on the left in the top bar.
 
-.. figure:: ../../Images/BackendCollapsePageTree.png
+.. figure:: /Images/ManualScreenshots/PageTree/CollapsePageTree.png
    :alt: Click there to collapse or expand the page tree
    :class: with-shadow
 

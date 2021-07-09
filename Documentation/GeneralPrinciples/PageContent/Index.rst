@@ -18,7 +18,7 @@ can be arranged is the "Content Examples" section.
    In the backend, click on the arrow next to the "Content Examples" title
    to open the subtree.
 
-   .. image:: ../../Images/PageContent1.png
+   .. image:: /Images/ManualScreenshots/PageTree/PageContent1.png
       :class: with-shadow
 
 2. Next, do the same for the "Text" page, and then click on "Text in Columns"
@@ -31,7 +31,7 @@ Let's now compare both views.
 
 **Frontend:**
 
-.. figure:: ../../Images/TextInColumnsFrontend.png
+.. figure:: /Images/ManualScreenshots/Frontend/TextInColumnsFrontend.png
    :alt: Page content seen from the frontend
    :class: with-shadow
 
@@ -43,7 +43,7 @@ Let's now compare both views.
 For now we want to be in "Columns" mode. If that is not the case when you
 got to the Page module, please use the menu in the docheader to switch mode.
 
-.. figure:: ../../Images/PageModuleFunctions.png
+.. figure:: /Images/ManualScreenshots/PageModule/Functions.png
    :alt: Changing mode in the Page module
    :class: with-shadow
 
@@ -56,7 +56,7 @@ column in the backend is in the right column on your page, etc. Each
 content element on your page can be of a different type (like text or
 text & images) giving you a lot of flexibility.
 
-.. figure:: ../../Images/TextInColumnsBackend.png
+.. figure:: /Images/ManualScreenshots/ContentElements/TextInColumnsBackend.png
    :alt: Page content seen from the backend
    :class: with-shadow
 
@@ -65,7 +65,7 @@ text & images) giving you a lot of flexibility.
 The Page module shows a preview of each content element, together
 with some action icons. Here is a quick overview:
 
-.. figure:: ../../Images/ContentElementBackend.png
+.. figure:: /Images/ManualScreenshots/ContentElements/ContentElementBackend.png
    :alt: Content element preview and action icons
    :class: with-shadow
 

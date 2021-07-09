@@ -10,11 +10,11 @@
           },
           {
             "action": "setScreenshotsImagePath",
-            "path": "Images/BackendUsers"
+            "path": "Images/AutomaticScreenshots/BackendUsers"
           },
           {
             "action": "setScreenshotsRstPath",
-            "path": "Images/BackendUsers"
+            "path": "Images/AutomaticScreenshots/BackendUsers"
           },
           {
             "action": "see",
