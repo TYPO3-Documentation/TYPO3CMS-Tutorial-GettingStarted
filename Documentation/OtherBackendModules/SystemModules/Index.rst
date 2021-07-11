@@ -27,10 +27,7 @@ login, cache clearing, database entries (creation, update, deletion),
 settings changes, file actions and errors. A number of filters are
 available to help filter this data.
 
-.. figure:: /Images/ManualScreenshots/Modules/LogModule.png
-   :alt: The Log module and its many filters
-   :class: with-shadow
-
+.. include:: /Images/AutomaticScreenshots/Modules/LogModule.rst.txt
 
 .. index:: Modules; DB check
 .. _system-modules-dbcheck:
@@ -53,9 +50,7 @@ DB check
 The *Database (DB) check* module offers four functions related
 to the database and its content.
 
-.. figure:: /Images/ManualScreenshots/Modules/DbCheckModule.png
-   :alt: Overview of the DB check functions
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/Modules/DbCheckModule.rst.txt
 
 Record Statistics
   Shows a count of the various records in the database,
@@ -89,9 +84,7 @@ you can discover their function as you dig deeper into
 TYPO3 CMS. Let's just mention that the `$GLOBALS['TYPO3_CONF_VARS']`
 contains global configuration values.
 
-.. figure:: /Images/ManualScreenshots/Modules/ConfigurationModule.png
-   :alt: The Configuration module showing the global configuration array
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/Modules/ConfigurationModule.rst.txt
 
 
 .. index:: Modules; Reports
@@ -105,5 +98,4 @@ about your TYPO3 CMS installation. It is recommended that you
 regularly check the "Status Report" as it will inform you
 about configuration errors, security issues, etc.
 
-.. figure:: /Images/ManualScreenshots/Modules/ReportsModule.png
-   :alt: The Status Report of the Reports module
+.. include:: /Images/AutomaticScreenshots/Modules/ReportsModule.rst.txt

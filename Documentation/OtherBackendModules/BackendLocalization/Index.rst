@@ -26,19 +26,11 @@ Load and update translation packages
 
 1. Open the module :guilabel:`Manage Language Packs`
 
-   .. figure:: /Images/ManualScreenshots/AdminTools/ManageLanguage.png
-      :alt: Open the backend language administration module
-      :class: with-shadow
-
-      Open the backend language administration module
+   .. include:: /Images/AutomaticScreenshots/AdminTools/ManageLanguage.rst.txt
 
 2. Click on :guilabel:`add language` and on the :guilabel:`+` next to your language
 
-   .. figure:: /Images/ManualScreenshots/AdminTools/ManageLanguagePacksAddLanguage.png
-      :alt: Open the backend language administration module
-      :class: with-shadow
-
-      Open the backend language administration module
+   .. include:: /Images/AutomaticScreenshots/AdminTools/ManageLanguagePacksAddLanguage.rst.txt
 
 3. Click on "Update all" to update the activated languages.
 

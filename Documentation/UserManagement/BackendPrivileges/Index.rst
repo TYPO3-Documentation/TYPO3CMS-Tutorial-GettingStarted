@@ -40,13 +40,7 @@ Admin
 * admins have access to the **SYSTEM** module (including Access, Backend User,
   Log etc. modules)
 
-.. image:: /Images/ManualScreenshots/Modules/System.png
-   :class: with-shadow
-
-.. image:: /Images/ManualScreenshots/Modules/SystemOpen.png
-   :class: with-shadow
-
-
+.. include:: /Images/AutomaticScreenshots/Modules/System.rst.txt
 
 .. index::
    Backend users; System maintainers
@@ -64,11 +58,7 @@ configuration.
 Alternatively the website can be set into "Development" mode in the Install
 Tool. This will give all admin users system maintainer access.
 
-.. image:: /Images/ManualScreenshots/AdminTools/admin-tools.png
-   :class: with-shadow
-
-.. image:: /Images/ManualScreenshots/AdminTools/admin-tools-open.png
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/AdminTools/AdminTools.rst.txt
 
 System Maintainers are the only users who are able to see and access the Install Tool
 and the Extension Manager. These users are persisted within the

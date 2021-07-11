@@ -39,8 +39,7 @@ Even if you only use one language or only one site, it is recommended to setup
 the site configuration. You can find it in the backend under :guilabel:`SITE MANAGEMENT`:
 :guilabel:`Sites`.
 
-.. image:: /Images/ManualScreenshots/Modules/SiteManagement.png
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/Modules/SiteManagement.rst.txt
 
 
 .. index::

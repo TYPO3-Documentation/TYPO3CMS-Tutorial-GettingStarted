@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/Modules/DbCheckModule.png
+   :alt: Overview of the DB check functions
+   :class: with-shadow
+
+   Overview of the DB check functions
