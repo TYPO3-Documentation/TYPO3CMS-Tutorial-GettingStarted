@@ -19,10 +19,7 @@ which is where the TypoScript configuration is stored.
 
 Here is a brief view of the *Template* module:
 
-.. figure:: /Images/ManualScreenshots/Modules/TemplateModule.png
-   :alt: The Template module showing the hierarchy of TypoScript templates
-   :class: with-shadow
-
+.. include:: /Images/AutomaticScreenshots/Modules/TemplateModule.rst.txt
 
 Templating itself is covered by other tutorials:
 

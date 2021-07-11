@@ -1,0 +1,7 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/Modules/System.png
+   :alt: System Section of the modules menu
+   :class: with-shadow
+
+   System Section of the modules menu

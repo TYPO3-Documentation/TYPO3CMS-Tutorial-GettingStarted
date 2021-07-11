@@ -247,17 +247,17 @@
           },
           {"action": "click", "link": "Template"},
           {"action": "wait", "timeout":  "1"},
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Introduction Package",
+            "timeout": 5
+          },
           {
             "action": "makeScreenshotOfElement",
             "fileName": "TemplateModule",
             "captionText": "The Template module showing the hierarchy of TypoScript templates"
-          },
-          {"action": "click", "link": "Template"},
-          {"action": "wait", "timeout":  "1"},
-          {
-            "action": "makeScreenshotOfElement",
-            "fileName": "ViewModule",
-            "captionText": "Viewing a page directly in the backend"
           },
           {"action": "switchToMainFrame"},
           {"action": "click", "link": "button#web"},
@@ -366,6 +366,15 @@
             "timeout": 5
           },
           {
+            "action": "wait",
+            "timeout": 1
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 480
+          },
+          {
             "action": "makeScreenshotOfWindow",
             "fileName": "SimpleEditorUser",
             "captionText": "The backend view for the \"simple\\_editor\""
@@ -394,6 +403,9 @@
             "link": "typo3-backend-switch-user button.btn-danger"
           },
           {
+            "action": "switchToMainFrame"
+          },
+          {
             "action": "see",
             "text": "List"
           },
@@ -411,6 +423,11 @@
             "action": "switchToContentFrame"
           },
           {"action": "scrollModuleBodyTo", "toSelector": "#t3-table-be_users"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
           {
             "action": "makeScreenshotOfWindow",
             "fileName": "BeUsersList",
