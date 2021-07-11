@@ -1,8 +1,282 @@
 {
   "suites": {
+
     "Introduction": {
-      "screenshots": [
-        [
+      "screenshots": {
+        "_default": [
+          {"action": "resizeWindow", "width": 1024,"height": 768},
+          {"action": "setScreenshotsDocumentationPath", "path": "Documentation"},
+          {"action": "setScreenshotsImagePath","path": "Images/AutomaticScreenshots"},
+          {"action": "setScreenshotsRstPath","path": "Images/AutomaticScreenshots"},
+          {"action": "setCodeSnippetsTargetPath", "path": "CodeSnippets"}
+        ],
+
+        "Modules": [
+          {"include": "_default"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/AdminTools"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/AdminTools"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 768
+          },
+
+          {"comment": "Close all Module Sections"},
+          {"action": "click", "link": "button#web"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#site"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#file"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#system"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#tools"},
+          {"action": "wait", "timeout": "1"},
+
+          {"comment": "************************************"},
+          {"comment": "Modules Admin Tools"},
+          {"comment": "************************************"},
+
+          {"action": "click", "link": "button#tools"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "scrollModuleMenuTo", "toSelector":  "button#system"},
+          {
+            "action": "waitForText",
+            "text": "Extensions",
+            "timeout": 5
+          },
+          {"action": "click", "link": "Maintenance"},
+          {"action": "switchToContentFrame"},
+          {"action": "fillField", "field": "input#confirmationPassword", "value": "password"},
+          {"action": "click", "link": "Confirm"},
+          {"comment": "********************************************************"},
+          {"comment": "Maintenance Section of Admin Tool"},
+          {"comment": "********************************************************"},
+          {"action": "waitForText", "text": "Maintenance", "timeout": 5},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 512
+          },
+          {
+            "action": "wait",
+            "timeout": "1"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "AdminTools",
+            "altText": "Admin Tools",
+            "captionText": "The Admin Tools in the Module Section"
+          },
+          {"action":  "scrollModuleBodyTo", "toSelector":  "button[data-require='TYPO3/CMS/Install/Module/Maintenance/LanguagePacks']"},
+          {"action": "drawArrow", "selector": "button[data-require='TYPO3/CMS/Install/Module/Maintenance/LanguagePacks']", "position": "right-middle"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ManageLanguage",
+            "altText": "Manage language packs",
+            "captionText": "Open the backend language administration module"
+          },
+          {"action": "clearDrawings"},
+          {"action":  "Click", "link":  "Manage languages"},
+          {
+            "action": "waitForModalDialogInMainFrame"
+          },
+          {
+            "action": "click",
+            "link": "Add language"
+          },
+          {"action": "see", "text": "Afrikaans"},
+          {"action": "switchToMainFrame"},
+          {"action":  "drawBox", "selector":  ".t3js-languagePacks-addLanguage-toggle"},
+          {"action":  "drawBox", "selector":  "a[data-iso=af]"},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ManageLanguagePacksAddLanguage",
+            "altText": "Add a language",
+            "captionText": "Add the desired language"
+          },
+          {
+            "action": "click",
+            "link": "button.t3js-modal-close"
+          },
+          {"action": "clearDrawings"},
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#tools"},
+          {"action": "wait", "timeout": "1"},
+          {"comment": "************************************"},
+          {"comment": "Modules System"},
+          {"comment": "************************************"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 700
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#system"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "scrollModuleMenuTo", "toSelector":  "button#system"},
+          {
+            "action": "waitForText",
+            "text": "Configuration",
+            "timeout": 5
+          },
+          {"action": "click", "link": "Reports"},
+          {"action": "wait", "timeout":  "1"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "System",
+            "altText": "System Section of the modules menu",
+            "captionText": "System Section of the modules menu"
+          },
+          {
+            "action": "switchToContentFrame"
+          },
+          {"action": "click", "link": "Status Report"},
+          {
+            "action": "waitForText",
+            "text": "TYPO3 System",
+            "timeout": 5
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ReportsModule",
+            "altText": "The Status Report of the Reports module",
+            "captionText": "The Status Report of the Reports module"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "Configuration"},
+          {
+            "action": "switchToContentFrame"
+          },
+          {
+            "action": "waitForText",
+            "text": "Global Configuration",
+            "timeout": 5
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ConfigurationModule",
+            "altText": "The Configuration module showing the global configuration array",
+            "captionText": "The Configuration module showing the global configuration array"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "DB Check"},
+          {
+            "action": "switchToContentFrame"
+          },
+          {
+            "action": "waitForText",
+            "text": "Database integrity check",
+            "timeout": 5
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "DbCheckModule",
+            "altText": "Overview of the DB check functions",
+            "captionText": "Overview of the DB check functions"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "Log"},
+          {
+            "action": "switchToContentFrame"
+          },
+          {
+            "action": "waitForText",
+            "text": "Administration log",
+            "timeout": 5
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "LogModule",
+            "altText": "The Log module and its many filters",
+            "captionText": "The Log module and its many filters"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#system"},
+          {"action": "wait", "timeout": "1"},
+
+          {"comment": "************************************"},
+          {"comment": "Modules Site Management"},
+          {"comment": "************************************"},
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#site"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "scrollModuleMenuTo", "toSelector":  "button#site"},
+          {
+            "action": "waitForText",
+            "text": "Sites",
+            "timeout": 5
+          },
+          {"action": "click", "link": "Sites"},
+          {"action": "wait", "timeout":  "1"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "SiteManagement",
+            "captionText": "Site management section of the modules menu"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#site"},
+          {"action": "wait", "timeout": "1"},
+
+
+          {"comment": "************************************"},
+          {"comment": "Modules Web"},
+          {"comment": "************************************"},
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#web"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "scrollModuleMenuTo", "toSelector":  "button#web"},
+          {
+            "action": "waitForText",
+            "text": "Template",
+            "timeout": 5
+          },
+          {"action": "click", "link": "Template"},
+          {"action": "wait", "timeout":  "1"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "TemplateModule",
+            "captionText": "The Template module showing the hierarchy of TypoScript templates"
+          },
+          {"action": "click", "link": "Template"},
+          {"action": "wait", "timeout":  "1"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ViewModule",
+            "captionText": "Viewing a page directly in the backend"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "button#web"},
+          {"action": "wait", "timeout": "1"},
+
+          {"comment": "Open all Module Sections again"},
+          {"action": "click", "link": "button#web"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#site"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#file"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#system"},
+          {"action": "wait", "timeout": "1"},
+          {"action": "click", "link": "button#tools"},
+          {"action": "wait", "timeout": "1"}
+        ],
+        "BackendUsers": [
+          {"include": "_default"},
           {
             "action": "resizeWindow",
             "width": 1024,
@@ -143,7 +417,7 @@
             "captionText": "Viewing backend users in the List module"
           }
         ]
-      ]
+      }
     },
     "Styleguide": {
       "screenshots": {}
