@@ -1,7 +1,6 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Images/ManualScreenshots/BackendGroups/EditModules.png
-   :alt: Choosing modules for the backend user group
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditModules.png
    :class: with-shadow
 
    Choosing modules for the backend user group

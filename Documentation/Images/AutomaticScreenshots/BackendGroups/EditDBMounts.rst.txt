@@ -1,7 +1,6 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Images/ManualScreenshots/BackendGroups/EditDBMounts.png
-   :alt: Choosing DB mounts for the group
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditDBMounts.png
    :class: with-shadow
 
    Choosing DB mounts for the group

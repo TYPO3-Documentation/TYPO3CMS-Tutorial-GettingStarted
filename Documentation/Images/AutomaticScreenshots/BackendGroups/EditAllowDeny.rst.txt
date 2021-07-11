@@ -1,7 +1,6 @@
 .. Automatic screenshot: Remove this line if you want to manually change this file
 
-.. figure:: /Images/ManualScreenshots/BackendGroups/EditAllowDeny.png
-   :alt: Setting permissions for values of the content type field
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditAllowDeny.png
    :class: with-shadow
 
    Setting permissions for values of the content type field
