@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditPageTypes.png
+   :class: with-shadow
+
+   Restrict which page types are available to members of this group

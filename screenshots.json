@@ -1,7 +1,6 @@
 {
   "suites": {
-
-    "Introduction": {
+    "Core": {
       "screenshots": {
         "_default": [
           {"action": "resizeWindow", "width": 1024,"height": 768},
@@ -11,6 +10,209 @@
           {"action": "setCodeSnippetsTargetPath", "path": "CodeSnippets"}
         ],
 
+        "BackendGroups": [
+          {"include": "_default"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendGroups"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendGroups"
+          },
+          {"action": "setNavigationDefaultTable", "table": "be_groups"},
+          {"action": "setNavigationDefaultUid", "uid": 1},
+
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "explicit_allowdeny",
+            "fileName": "EditAllowDeny",
+            "captionText": "Setting permissions for values of the content type field"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "db_mountpoints",
+            "fileName": "EditDBMounts",
+            "captionText": "Choosing DB mounts for the group"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "non_exclude_fields",
+            "fileName": "EditExcludeFields",
+            "captionText": "The list of excluded fields in its default state (all tables collapsed)"
+          },
+          {"action": "cropScreenshot", "fileName": "EditExcludeFields", "height": 400},
+          {
+            "action": "goToField",
+            "fields": "non_exclude_fields"
+          },
+          {
+            "action": "click",
+            "link": "Backend Layout"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".form-section",
+            "fileName": "EditExcludeFieldsExpanded",
+            "captionText": "The same list with one table expanded"
+          },
+          {"action": "cropScreenshot", "fileName": "EditExcludeFieldsExpanded", "height": 400},
+          {
+            "action": "goToField",
+            "fields": "file_permissions"
+          },
+          {
+            "action": "click",
+            "link": "Directory"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".form-section",
+            "fileName": "EditFilePermissions",
+            "captionText": "Giving specific file operation permissions"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "file_mountpoints",
+            "fileName": "EditFileMounts",
+            "captionText": "List of all available file mounts"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "groupMods",
+            "fileName": "EditModules",
+            "captionText": "Choosing modules for the backend user group"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "pagetypes_select",
+            "fileName": "EditPageTypes",
+            "captionText": ""
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "pagetypes_select",
+            "fileName": "EditPageTypes",
+            "captionText": "Restrict which page types are available to members of this group"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "fields": "tables_select",
+            "fileName": "EditTables",
+            "captionText": "Select the tables that the members of this group are allowed to see",
+            "selector": ".formengine-field-item"
+          },
+          {"action": "cropScreenshot", "fileName": "EditTables", "height": 400},
+          {
+            "action": "goToRecord"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "EditGeneralTab",
+            "selector": ".module-body",
+            "captionText": "Content of the \"General\" tab when editing a backend user group"
+          },
+          {
+            "action": "amOnPage",
+            "page": "/typo3/module/system/BeuserTxBeuser?token=x&tx_beuser_system_beusertxbeuser[action]=groups&tx_beuser_system_beusertxbeuser[controller]=BackendUser"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "Groups",
+            "selector": ".module-body",
+            "captionText": "Viewing groups in the Backend Users module"
+          },
+          {
+            "action": "drawBox",
+            "selector": "tr:first-child a[title=edit]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "EditSettings",
+            "selector": ".module-body",
+            "captionText": "Edit the backend group's settings."
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "drawBox",
+            "selector": "tr:first-child a[data-dispatch-action=\"TYPO3.InfoWindow.showItem\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "GroupDetailButton",
+            "selector": ".module-body",
+            "captionText": "Viewing groups in the Backend Users module"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "reloadBackend"
+          }
+        ]
+      }
+    },
+    "Introduction": {
+      "screenshots": {
+        "_default": [
+          {"action": "resizeWindow", "width": 1024,"height": 768},
+          {"action": "setScreenshotsDocumentationPath", "path": "Documentation"},
+          {"action": "setScreenshotsImagePath","path": "Images/AutomaticScreenshots"},
+          {"action": "setScreenshotsRstPath","path": "Images/AutomaticScreenshots"},
+          {"action": "setCodeSnippetsTargetPath", "path": "CodeSnippets"}
+        ],
+        "BackendGroups": [
+          {"include": "_default"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendGroups"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendGroups"
+          },
+          {"action": "switchToMainFrame"},
+          {
+            "action": "click",
+            "link": "Backend Users"
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "selectOption",
+            "select": "select.t3-js-jumpMenuBox",
+            "option": "Backend user groups"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Group Listing",
+            "timeout": 5
+          },
+          {
+            "action": "click",
+            "link": "tr:first-child a[data-dispatch-action=\"TYPO3.InfoWindow.showItem\"]"
+          },
+          {
+            "action": "waitForModalDialogInMainFrame"
+          },
+          {
+            "action": "scrollModuleMenuToBottom"
+          },
+          {
+            "action": "wait",
+            "timeout": 1
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "GroupDetail",
+            "captionText": "Checking out which users are part of the group"
+          },
+          {
+            "action": "makeScreenshotOfField",
+            "table": "be_groups",
+            "uid": 1,
+            "fields": "allowed_languages",
+            "fileName": "EditLanguages",
+            "captionText": "Setting permissions for languages"
+          }
+        ],
         "Modules": [
           {"include": "_default"},
           {

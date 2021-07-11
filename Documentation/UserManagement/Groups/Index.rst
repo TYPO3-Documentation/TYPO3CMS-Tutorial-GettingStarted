@@ -17,7 +17,7 @@ groups.
 Backend groups can also be viewed using **SYSTEM > Backend users**
 module:
 
-.. include:: /Images/ManualScreenshots/BackendGroups/Groups.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendGroups/Groups.rst.txt
 
 
 We can see two groups that correspond to our users
