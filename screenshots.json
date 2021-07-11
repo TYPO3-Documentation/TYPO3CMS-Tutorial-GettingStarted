@@ -68,11 +68,11 @@
           },
           {
             "action": "drawBox",
-            "selector": "a[title=\"Switch to user\"]"
+            "selector": "button[title=\"Switch to user\"]"
           },
           {
             "action": "drawArrow",
-            "selector": "a[title=\"Switch to user\"]",
+            "selector": "button[title=\"Switch to user\"]",
             "position": "left-top"
           },
           {
@@ -84,14 +84,12 @@
           },
           {
             "action": "click",
-            "link": "a[title=\"Switch to user\"]"
+            "link": "button[title=\"Switch to user\"]"
           },
           {
-            "action": "switchToMainFrame"
-          },
-          {
-            "action": "see",
-            "text": "SU advanced-editor"
+            "action": "waitForText",
+            "text": "SU advanced-editor",
+            "timeout": 5
           },
           {
             "action": "makeScreenshotOfWindow",
@@ -99,12 +97,13 @@
             "captionText": "The backend view for the \"simple\\_editor\""
           },
           {
-            "action": "click",
-            "link": "SU advanced-editor"
+            "action": "waitForElement",
+            "element": ".su-user a",
+            "timeout": 5
           },
           {
-            "action": "see",
-            "text": "Exit"
+            "action": "click",
+            "link": ".su-user a"
           },
           {
             "action": "makeScreenshotOfWindow",
@@ -112,8 +111,13 @@
             "captionText": "Exiting the backend user simulation"
           },
           {
+            "action": "waitForElement",
+            "element": "typo3-backend-switch-user button.btn-danger",
+            "timeout": 5
+          },
+          {
             "action": "click",
-            "link": "Exit"
+            "link": "typo3-backend-switch-user button.btn-danger"
           },
           {
             "action": "see",
