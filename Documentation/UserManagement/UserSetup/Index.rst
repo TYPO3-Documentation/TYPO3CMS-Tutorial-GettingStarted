@@ -19,18 +19,16 @@ interesting, we will also create a new user group.
 Step 1: Create a new group
 ==========================
 
-Let's create a new user group using the *Access* module.
+.. todo:: This needs to be reviewed and rewritten
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/CreateNewGroup.png
-   :alt: Creating a new backend group from the Access module
+Let's create a new user group using the :guilabel:`Backend Users` module.
 
+.. include:: /Images/AutomaticScreenshots/BackendGroups/CreateNewGroup.rst.txt
 
 Start by entering the name ("Resource editors"), optionally
 a description and choose "All users" as sub-group.
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/NewGroupGeneralTab.png
-   :alt: Entering the general information about the new group
-
+.. include:: /Images/AutomaticScreenshots/BackendGroups/NewGroupGeneralTab.rst.txt
 
 Let's keep things simple for the further permissions. Try to do
 the following:
@@ -47,9 +45,7 @@ page as DB mount. To achieve that easily start typing "Res" in
 the wizard at the right-hand side of the field. It will display
 suggestions, from which you can select the "Resources" page.
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/NewGroupDBMount.png
-   :alt: Defining DB mounts using the suggest wizard
-
+.. include:: /Images/AutomaticScreenshots/BackendGroups/NewGroupDBMount.rst.txt
 
 Let's ignore all the rest. Use the "Save and close" action
 to get back to the group list.
@@ -62,16 +58,16 @@ Step 2: Create the user
 =======================
 
 Similarly to what we have done before, let's create a new
-user using the *Access* module.
+user using the :guilabel:`Backend User` module.
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/CreateNewUser.png
-   :alt: Creating a new backend user from the Access module
+.. include:: /Images/AutomaticScreenshots/BackendUsers/CreateNewUser.rst.txt
 
 
 Enter the username, password, group membership:
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/NewUserGeneralTab.png
-   :alt: Setting the base information for the new user
+.. include:: /Images/AutomaticScreenshots/BackendUsers/NewUserGeneralTab.rst.txt
+
+.. include:: /Images/AutomaticScreenshots/BackendUsers/NewUserGroups.rst.txt
 
 
 .. note::
@@ -84,8 +80,7 @@ Enter the username, password, group membership:
 Now switch to the "Mounts and workspaces" tab
 to ensure that the "Mount from Groups" settings are set:
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/NewUserMountFromGroups.png
-   :alt: Checking the "Mount from groups" setting
+.. include:: /Images/AutomaticScreenshots/BackendUsers/NewUserMountFromGroups.rst.txt
 
 
 This makes it so that the DB and File mounts are taken from

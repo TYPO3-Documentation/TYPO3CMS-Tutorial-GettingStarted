@@ -211,7 +211,8 @@
             "fields": "allowed_languages",
             "fileName": "EditLanguages",
             "captionText": "Setting permissions for languages"
-          }
+          },
+          {"action":  "reloadBackend"}
         ],
         "Modules": [
           {"include": "_default"},
@@ -230,6 +231,7 @@
           },
 
           {"comment": "Close all Module Sections"},
+          {"action": "switchToMainFrame"},
           {"action": "click", "link": "button#web"},
           {"action": "wait", "timeout": "1"},
           {"action": "click", "link": "button#site"},
@@ -314,13 +316,15 @@
           {"comment": "************************************"},
           {"comment": "Modules System"},
           {"comment": "************************************"},
+          {"comment": "Backend Groups"},
+          {"comment": "************************************"},
           {
             "action": "setScreenshotsImagePath",
-            "path": "Images/AutomaticScreenshots/Modules"
+            "path": "Images/AutomaticScreenshots/BackendGroups"
           },
           {
             "action": "setScreenshotsRstPath",
-            "path": "Images/AutomaticScreenshots/Modules"
+            "path": "Images/AutomaticScreenshots/BackendGroups"
           },
           {
             "action": "resizeWindow",
@@ -331,11 +335,250 @@
           {"action": "click", "link": "button#system"},
           {"action": "wait", "timeout": "1"},
           {"action": "scrollModuleMenuTo", "toSelector":  "button#system"},
+          {"action": "click", "link": "Backend Users"},
+
+          {"action": "switchToContentFrame"},
+          {
+            "action": "selectOption",
+            "select": "select.t3-js-jumpMenuBox",
+            "option": "Backend user groups"
+          },
           {
             "action": "waitForText",
-            "text": "Configuration",
+            "text": "Backend User Group Listing",
             "timeout": 5
           },
+          {
+            "action": "drawBox",
+            "selector": "a[title=\"Create new record\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "CreateNewGroup",
+            "captionText": "Creating a new backend group from the \"Backend Users\" module"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "click",
+            "link": "a[title=\"Create new record\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Create new",
+            "timeout": 5
+          },
+          {"action": "fillField", "field": "input[data-formengine-input-name*=\"title\"]", "value": "Resource editors"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "NewGroupGeneralTab",
+            "captionText": "Entering the general information about the new group"
+          },
+          {
+            "action": "click",
+            "link": "Mounts and Workspaces"
+          },
+          {"action": "fillField", "field": "input[data-fieldname=\"db_mountpoints\"]", "value": "File"},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "NewGroupDBMount",
+            "captionText": "Defining database mounts using the suggest wizard"
+          },
+          {"action": "cropScreenshot", "fileName": "NewGroupDBMount", "height": 400},
+          {
+            "action": "click",
+            "link": "button[name=\"_savedok\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Edit Backend usergroup",
+            "timeout": 5
+          },
+          {
+            "action": "click",
+            "link": "Close"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Group Listing",
+            "timeout": 5
+          },
+          {"comment": "Backend Users"},
+          {"comment": "************************************"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "selectOption",
+            "select": "select.t3-js-jumpMenuBox",
+            "option": "Backend users"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Listing",
+            "timeout": 5
+          },
+          {
+            "action": "drawBox",
+            "selector": "a[title=\"Create new record\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "CreateNewUser",
+            "captionText": "Creating a new backend user from the \"Backend Users\" module"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "click",
+            "link": "a[title=\"Create new record\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Create new",
+            "timeout": 5
+          },
+          {"action": "checkOption", "option": "input[data-formengine-input-name*=\"disable\"]"},
+          {"action": "fillField", "field": "input[data-formengine-input-name*=\"password\"]", "value": "password"},
+          {"action": "fillField", "field": "input[data-formengine-input-name*=\"username\"]", "value": "resource-editor"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "NewUserGeneralTab",
+            "captionText": "Setting the base information for the new user"
+          },
+          {"action": "scrollModuleBodyTo", "toSelector": "select[data-relatedfieldname*=\"usergroup\"]"},
+          {
+            "action": "selectOption",
+            "select": "select[data-relatedfieldname*=\"usergroup\"]",
+            "option": "4"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "NewUserGroups",
+            "captionText": "Selecting the user groups"
+          },
+          {"action": "scrollModuleBodyToTop"},
+
+          {
+            "action": "click",
+            "link": "Mounts and Workspaces"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "NewUserMountFromGroups",
+            "captionText": "Checking the \"Mount from groups\" setting"
+          },
+          {
+            "action": "click",
+            "link": "button[name=\"_savedok\"]"
+          },
+          {"comment": "Access module"},
+          {"comment": "************************************"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/AccessModule"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/AccessModule"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1424,
+            "height": 700
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "click", "link": "Access"},
+
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Permissions",
+            "timeout": 5
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "Content Examples"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Form elements",
+            "timeout": 5
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "AccessModule",
+            "captionText": "The \"Access\" module with ownerships and permissions"
+          },
+
+          {"action": "click", "link": "button.changeowner"},
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".table-fit",
+            "fileName": "AccessChangeOwner",
+            "captionText": "Changing a page's owner"
+          },
+          {"action": "click", "link": "Change permissions"},
+          {
+            "action": "waitForText",
+            "text": "Permissions: EDIT",
+            "timeout": 5
+          },
+          {
+            "action": "selectOption",
+            "select": "select#recursionLevel",
+            "option": {
+              "action": "grabTextFrom",
+              "cssOrXPathOrRegex": "select#recursionLevel option:last-child"
+            }
+          },
+          {
+            "action": "selectOption",
+            "select": "select[name*=\"[perms_userid]\"]",
+            "option": "-1"
+          },
+          {
+            "action": "selectOption",
+            "select": "select[name*=\"[perms_groupid]\"]",
+            "option": "All users"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "AccessChangeRecursively",
+            "captionText": "Preparing for recursively changing the group on the whole page tree"
+          },
+          {
+            "action": "click",
+            "link": "Save and close"
+          },
+          {
+            "action": "waitForElement",
+            "element": "#typo3-permissionList"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".table-fit",
+            "fileName": "AccessGroupChanged",
+            "captionText": "The group has changed for all pages"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 700
+          },
+          {"comment": "Other system module"},
+          {"comment": "************************************"},
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {"action": "switchToMainFrame"},
           {"action": "click", "link": "Reports"},
           {"action": "wait", "timeout":  "1"},
           {
@@ -344,9 +587,7 @@
             "altText": "System Section of the modules menu",
             "captionText": "System Section of the modules menu"
           },
-          {
-            "action": "switchToContentFrame"
-          },
+          {"action": "switchToContentFrame"},
           {"action": "click", "link": "Status Report"},
           {
             "action": "waitForText",
@@ -513,6 +754,12 @@
           {
             "action": "switchToContentFrame"
           },
+
+          {
+            "action": "selectOption",
+            "select": "select.t3-js-jumpMenuBox",
+            "option": "Backend users"
+          },
           {
             "action": "waitForText",
             "text": "Backend User Listing",
@@ -539,9 +786,7 @@
             "altText": "Screenshot of the Backend User Module",
             "captionText": "SYSTEM > Backend users"
           },
-          {
-            "action": "clearDrawings"
-          },
+          {"action": "clearDrawings"},
           {
             "action": "drawBox",
             "selector": "button[title=\"Switch to user\"]"
@@ -563,9 +808,12 @@
             "link": "button[title=\"Switch to user\"]"
           },
           {
+            "action": "switchToMainFrame"
+          },
+          {
             "action": "waitForText",
             "text": "SU advanced-editor",
-            "timeout": 5
+            "timeout": 30
           },
           {
             "action": "wait",
@@ -607,6 +855,8 @@
           {
             "action": "switchToMainFrame"
           },
+
+          {"action": "scrollModuleMenuTo", "toSelector": "#web"},
           {
             "action": "see",
             "text": "List"
