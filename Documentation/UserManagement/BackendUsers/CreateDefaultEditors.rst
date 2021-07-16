@@ -24,11 +24,7 @@ existing groups (created by the "Introduction Package").
 
 2. Click on the `+`: "Create new record"
 
-   .. figure:: /Images/ManualScreenshots/BackendUsers/CreateNewUser.png
-      :alt: Create a new editor
-      :class: with-shadow
-
-      Create a new backend user
+   .. include:: /Images/AutomaticScreenshots/BackendUsers/CreateNewUser.rst.txt
 
 3. Fill out some fields.
 
@@ -85,7 +81,7 @@ The group "Simple Editors" should have the page "Content Examples" set as
 
 8. Click Save
 
-.. figure:: /Images/ManualScreenshots/BackendAccess/GroupDbMount.png
+.. figure:: /Images/ManualScreenshots/BackendGroups/GroupDbMount.png
    :class: with-shadow
    :alt: Change DB Mount
 

@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/NewGroupGeneralTab.png
+   :class: with-shadow
+
+   Entering the general information about the new group
