@@ -193,7 +193,7 @@
             "action": "waitForModalDialogInMainFrame"
           },
           {
-            "action": "scrollModuleMenuToBottom"
+            "action": "scrollModalDialogFrameToBottom"
           },
           {
             "action": "wait",
@@ -784,7 +784,7 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "BeUsersModule",
             "altText": "Screenshot of the Backend User Module",
-            "captionText": "SYSTEM > Backend users"
+            "captionText": "System > Backend users"
           },
           {"action": "clearDrawings"},
           {
@@ -878,12 +878,120 @@
           {
             "action": "resizeWindow",
             "width": 1024,
-            "height": 768
+            "height": 780
           },
           {
             "action": "makeScreenshotOfWindow",
             "fileName": "BeUsersList",
             "captionText": "Viewing backend users in the List module"
+          }
+        ],
+        "CreateSimpleUser": [
+          {"comment":  "This block needs to be always last"},
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 500
+          },
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Backend Users')]"
+          },
+          {"action": "click", "link": "Backend Users"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 1024
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Backend User Listing"
+          },
+          {
+            "action": "click",
+            "link": "Create new record"
+          },
+          {
+            "action": "waitForText",
+            "text": "Create new Backend user"
+          },
+          {"action": "fillField", "field": "input[data-formengine-input-name*=\"password\"]", "value": "password"},
+          {"action": "fillField", "field": "input[data-formengine-input-name*=\"username\"]", "value": "lmueller"},
+
+          {
+            "action": "selectOption",
+            "select": "select[data-relatedfieldname*=\"usergroup\"]",
+            "option": "Simple editors"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "CreateNewUserSimpleEditor",
+            "selector": ".module",
+            "captionText": "Fill out fields for the new backend user"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "click",
+            "link": "Save"
+          },
+          {
+            "action": "waitForText",
+            "text": "Edit Backend user",
+            "timeout": 5
+          },
+          {
+            "action": "click",
+            "link": "Close"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Listing"
+          },
+          {"action": "drawBox", "selector": "a[title*=\"hide\"]"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "EditorUnhide",
+            "selector": "//tr[contains(., 'lmueller')]",
+            "captionText": "Activate editor"
+          }
+        ],
+        "ScreenshotsOfOtherUsers": [
+          {"comment":  "This block needs to be always last"},
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 500
           },
           {
             "action": "reloadBackend",
@@ -901,10 +1009,6 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "AdvancedEditorUser",
             "captionText": "The backend view for the \"advanced\\_editor\""
-          },
-          {
-            "action": "reloadBackend",
-            "role": "admin"
           }
         ]
       }

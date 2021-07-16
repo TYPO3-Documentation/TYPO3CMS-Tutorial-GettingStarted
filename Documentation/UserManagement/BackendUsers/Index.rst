@@ -70,9 +70,7 @@ To switch back to the admin account, click on the user's name
 in the top bar and click the "Exit" button (note that this button
 normally reads "Logout").
 
-.. figure:: /Images/ManualScreenshots/BackendUsers/AdvancedEditorUser.png
-   :alt: The backend view for the "advanced\_editor"
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendUsers/AdvancedEditorUser.rst.txt
 
 
 .. _user-management-advanced-editor:
@@ -83,9 +81,7 @@ normally reads "Logout").
 Now try doing the same with the "advanced\_editor". You should
 see the following after switching user:
 
-.. figure:: /Images/ManualScreenshots/BackendUsers/AdvancedEditorUser.png
-   :alt: The backend view for the "advanced\_editor"
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendUsers/AdvancedEditorUser.rst.txt
 
 The "advanced\_editor" is allowed to use more modules than
 "simple\_editor" but doesn't have any access to the page tree.

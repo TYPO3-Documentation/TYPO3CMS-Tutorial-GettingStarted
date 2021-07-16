@@ -28,22 +28,18 @@ existing groups (created by the "Introduction Package").
 
 3. Fill out some fields.
 
-   * **Username:** simple_editor
+   * **Username:** lmueller
    * **Password:** *choose some password*
    * **Group:** Select "Simple editors" in the "Available Items"
-   * **Name:** Simple Editor
+   * **Name:** Liese Mueller
 
-   .. figure:: /Images/ManualScreenshots/BackendUsers/CreateNewUserSimpleEditor.png
-      :alt: Fill out fields for the new backend user
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/BackendUsers/CreateNewUserSimpleEditor.rst.txt
 
 4. Press save (top)
 
 5. Activate the backend user
 
-   .. figure:: /Images/ManualScreenshots/BackendUsers/EditorUnhide.png
-      :alt: Activate editor
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/BackendUsers/EditorUnhide.rst.txt
 
 You have created a user with the already existing group
 "Simple editors".
