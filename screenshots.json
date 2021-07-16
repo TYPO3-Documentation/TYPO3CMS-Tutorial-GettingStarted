@@ -884,6 +884,27 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "BeUsersList",
             "captionText": "Viewing backend users in the List module"
+          },
+          {
+            "action": "reloadBackend",
+            "role": "advanced-editor"
+          },
+          {
+            "action": "see",
+            "text": "Page"
+          },
+          {
+            "action": "click",
+            "link": "Page"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "AdvancedEditorUser",
+            "captionText": "The backend view for the \"advanced\\_editor\""
+          },
+          {
+            "action": "reloadBackend",
+            "role": "admin"
           }
         ]
       }
