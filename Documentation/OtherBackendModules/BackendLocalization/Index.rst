@@ -51,9 +51,7 @@ Change the Language in the Backend
 
 3. Hit the "Save" button in the docheader.
 
-.. figure:: /Images/ManualScreenshots/BackendUsers/SettingsLanguage.png
-   :alt: Changing the current user's interface language
-   :class: with-shadow
+.. include:: Documentation/Images/AutomaticScreenshots/BackendUsers/SettingsLanguage.rst.txt
 
 The backend should update itself automatically
 but you may want to reload the page in the browser.
