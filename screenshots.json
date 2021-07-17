@@ -143,10 +143,7 @@
             "selector": ".module-body",
             "captionText": "Viewing groups in the Backend Users module"
           },
-          {"action": "clearDrawings"},
-          {
-            "action": "reloadBackend"
-          }
+          {"action": "clearDrawings"}
         ]
       }
     },
@@ -192,6 +189,8 @@
           {
             "action": "waitForModalDialogInMainFrame"
           },
+
+          {"action": "switchToModalDialogFrame"},
           {
             "action": "scrollModalDialogFrameToBottom"
           },
@@ -211,6 +210,25 @@
             "fields": "allowed_languages",
             "fileName": "EditLanguages",
             "captionText": "Setting permissions for languages"
+          },
+          {
+            "action": "goToRecord",
+            "table": "be_groups",
+            "uid": "1"
+          },
+          {
+            "action": "click",
+            "link": "Mounts and Workspaces"
+          },
+
+          {"action": "drawBadge", "selector": "//a[contains(., 'Mounts and Workspaces')]", "label": "3", "position": "right"},
+          {"action": "drawBadge", "selector": ".form-wizards-items-aside a.t3js-btn-removeoption", "label": "5", "position": "bottom"},
+          {"action": "drawBadge", "selector": ".form-wizards-items-aside a.t3js-element-browser", "label": "6", "position": "top"},
+          {"action": "drawBadge", "selector": "button[name=\"_savedok\"]", "label": "8", "position": "bottom"},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "GroupDbMount",
+            "captionText": "Change DB Mount"
           },
           {"action":  "reloadBackend"}
         ],
@@ -718,6 +736,49 @@
           {"action": "click", "link": "button#tools"},
           {"action": "wait", "timeout": "1"}
         ],
+        "UserSettings": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendUsers"
+          },
+          {
+            "action": "click",
+            "link": "#typo3-cms-backend-backend-toolbaritems-usertoolbaritem"
+          },
+          {
+            "action": "click",
+            "link": "#user_setup"
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "User Settings"
+          },
+          {
+            "action": "drawBox",
+            "selector": "//div[@class='form-section' and contains(., 'Language')]"
+          },
+          {"action": "switchToMainFrame"},
+          {
+            "action": "click",
+            "link": "#typo3-cms-backend-backend-toolbaritems-usertoolbaritem"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "SettingsLanguage",
+            "captionText": "Changing the current user's interface language"
+          }
+        ],
         "BackendUsers": [
           {"include": "_default"},
           {
@@ -754,7 +815,6 @@
           {
             "action": "switchToContentFrame"
           },
-
           {
             "action": "selectOption",
             "select": "select.t3-js-jumpMenuBox",
@@ -805,19 +865,15 @@
           },
           {
             "action": "click",
-            "link": "button[title=\"Switch to user\"]"
+            "link": "typo3-backend-switch-user[targetuser=\"2\"] button"
           },
           {
             "action": "switchToMainFrame"
           },
           {
             "action": "waitForText",
-            "text": "SU advanced-editor",
+            "text": "SU simple-editor",
             "timeout": 30
-          },
-          {
-            "action": "wait",
-            "timeout": 1
           },
           {
             "action": "resizeWindow",
@@ -878,7 +934,7 @@
           {
             "action": "resizeWindow",
             "width": 1024,
-            "height": 780
+            "height": 400
           },
           {
             "action": "makeScreenshotOfWindow",
@@ -887,7 +943,6 @@
           }
         ],
         "CreateSimpleUser": [
-          {"comment":  "This block needs to be always last"},
           {"include": "_default"},
           {
             "action": "resizeWindow",

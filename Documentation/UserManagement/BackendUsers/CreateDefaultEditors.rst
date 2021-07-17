@@ -77,11 +77,7 @@ The group "Simple Editors" should have the page "Content Examples" set as
 
 8. Click Save
 
-.. figure:: /Images/ManualScreenshots/BackendGroups/GroupDbMount.png
-   :class: with-shadow
-   :alt: Change DB Mount
-
-   Change DB Mount
+.. include:: /Images/AutomaticScreenshots/BackendGroups/GroupDbMount.rst.txt
 
 
 What did we just do?

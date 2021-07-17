@@ -9,7 +9,7 @@ Backend Users
 You can manage backend users using the **SYSTEM > Backend users**
 module.
 
-.. include:: /Images/ManualScreenshots/BackendUsers/BeUsersModule.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersModule.rst.txt
 
 
 This module makes it possible to search and filter users. They
@@ -57,9 +57,7 @@ administrator) is to use the "simulate user" feature:
 And here is what "simple\_editor" sees when accessing the
 TYPO3 CMS backend:
 
-.. figure:: /Images/ManualScreenshots/BackendUsers/SimpleEditorUser.png
-   :alt: The backend view for the "simple\_editor"
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendUsers/SimpleEditorUser.rst.txt
 
 
 As you can see, this user only has access to the "Page" module.
@@ -93,5 +91,5 @@ for a good exercise for changing user rights in the next chapters.
    User records can also be accessed using the **WEB > List** module
    and clicking on the root node (the one with the TYPO3 CMS logo).
 
-   .. include:: /Images/ManualScreenshots/BackendUsers/BeUsersList.rst.txt
+   .. include:: /Images/AutomaticScreenshots/BackendUsers/BeUsersList.rst.txt
 
