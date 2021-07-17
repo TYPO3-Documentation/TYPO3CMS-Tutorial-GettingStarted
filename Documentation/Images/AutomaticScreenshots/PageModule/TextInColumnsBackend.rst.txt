@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/PageModule/TextInColumnsBackend.png
+   :class: with-shadow
+
+   Page module in the "columns" mode
