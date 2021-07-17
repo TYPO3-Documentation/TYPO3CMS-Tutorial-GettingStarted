@@ -37,9 +37,7 @@ the arrow to the left of each page.
    To view the page in the frontend, click on the :guilabel:`View webpage`
    icon in the Docheader.
 
-   .. figure:: /Images/ManualScreenshots/PageModule/ViewWebpage.png
-      :alt: View current page in the frontend
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/PageModule/ViewWebpage.rst.txt
 
 4. Now take a look at the navigation in the frontend.
 

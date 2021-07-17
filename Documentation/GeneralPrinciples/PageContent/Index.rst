@@ -43,11 +43,7 @@ Let's now compare both views.
 For now we want to be in "Columns" mode. If that is not the case when you
 got to the Page module, please use the menu in the docheader to switch mode.
 
-.. figure:: /Images/ManualScreenshots/PageModule/Functions.png
-   :alt: Changing mode in the Page module
-   :class: with-shadow
-
-   Changing the mode to "Columns" mode
+.. include:: /Images/AutomaticScreenshots/PageModule/TextInColumnsBackend.rst.txt
 
 The order of the content elements on the web page is the
 same as the order of the elements in the backend. The content elements
@@ -56,20 +52,12 @@ column in the backend is in the right column on your page, etc. Each
 content element on your page can be of a different type (like text or
 text & images) giving you a lot of flexibility.
 
-.. figure:: /Images/ManualScreenshots/ContentElements/TextInColumnsBackend.png
-   :alt: Page content seen from the backend
-   :class: with-shadow
-
-   Content elements in the backend
+.. todo: Mention backend_layouts here?
 
 The Page module shows a preview of each content element, together
 with some action icons. Here is a quick overview:
 
-.. figure:: /Images/ManualScreenshots/ContentElements/ContentElementBackend.png
-   :alt: Content element preview and action icons
-   :class: with-shadow
-
-   Content element preview and action icons
+.. include:: /Images/AutomaticScreenshots/PageModule/ContentElementBackend.rst.txt
 
 
 #. **Insert** a new content element above the current one

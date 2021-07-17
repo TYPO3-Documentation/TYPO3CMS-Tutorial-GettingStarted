@@ -736,6 +736,131 @@
           {"action": "click", "link": "button#tools"},
           {"action": "wait", "timeout": "1"}
         ],
+        "ContentElements": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/PageModule"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/PageModule"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Page')]"},
+          {"action": "click", "link": "Page"},
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Startpage Teaser"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3js-toggle-new-content-element-wizard:first-child",
+            "label": "1",
+            "position": "right"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3js-contextmenutrigger",
+            "label": "2",
+            "position": "bottom"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3-page-ce-header-icons-right a:first-child",
+            "label": "3",
+            "position": "top"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3-page-ce-header-icons-right a[title=\"Hide\"]",
+            "label": "4",
+            "position": "top"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3-page-ce-header-icons-right a[title=\"Delete\"]",
+            "label": "5",
+            "position": "top"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .exampleContent strong",
+            "label": "6",
+            "position": "right"
+          },
+
+          {
+            "action": "drawBadge",
+            "selector": ".t3-page-column-20 .t3js-toggle-new-content-element-wizard:last-child",
+            "label": "7",
+            "position": "right"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ContentElementBackend",
+            "selector": ".t3-page-column-20",
+            "captionText": "Content element preview and action icons"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1400,
+            "height": 780
+          },
+          {
+            "action": "drawBox",
+            "selector": ".t3-js-jumpMenuBox"
+          },
+          {
+            "action": "drawArrow",
+            "selector": ".t3-js-jumpMenuBox"
+          },
+          {
+            "action": "drawBox",
+            "selector": ".t3-grid-cell"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "TextInColumnsBackend",
+            "selector": ".module",
+            "captionText": "Page module in the \"columns\" mode"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1400,
+            "height": 300
+          },
+          {
+            "action": "drawBox",
+            "selector": "a[title=\"View webpage\"]"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "a[title=\"View webpage\"]",
+            "label": "View Page",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ViewWebpage",
+            "captionText": "View current page in the frontend"
+          }
+        ],
         "UserSettings": [
           {"include": "_default"},
           {
