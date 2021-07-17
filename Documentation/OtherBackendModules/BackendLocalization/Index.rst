@@ -51,7 +51,7 @@ Change the Language in the Backend
 
 3. Hit the "Save" button in the docheader.
 
-.. include:: Documentation/Images/AutomaticScreenshots/BackendUsers/SettingsLanguage.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/SettingsLanguage.rst.txt
 
 The backend should update itself automatically
 but you may want to reload the page in the browser.
