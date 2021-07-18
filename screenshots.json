@@ -745,11 +745,11 @@
           },
           {
             "action": "setScreenshotsImagePath",
-            "path": "Images/AutomaticScreenshots/Modules/List"
+            "path": "Images/AutomaticScreenshots/ListModule"
           },
           {
             "action": "setScreenshotsRstPath",
-            "path": "Images/AutomaticScreenshots/Modules/List"
+            "path": "Images/AutomaticScreenshots/ListModule"
           },
           {"action": "switchToMainFrame"},
           {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'List')]"},
@@ -822,6 +822,46 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "ListModule",
             "captionText": "A typical view from the List module"
+          },
+          {"action": "clearDrawings"},
+
+          {
+            "action": "drawBox",
+            "selector": ".module-body"
+          },
+          {
+            "action": "drawBox",
+            "selector": ".t3js-entity:first-child .col-control"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".t3js-entity:first-child .col-control",
+            "label": "Action icons",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ListModuleContentArea",
+            "captionText": "The \"List\" module content area with its actions icons"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 780
+          },
+          {
+            "action": "click",
+            "link": ".t3js-entity:first-child .t3js-contextmenutrigger"
+          },
+          {
+            "action": "wait",
+            "timeout": 1
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ContextMenu",
+            "captionText": "The contextual menu in the  \"List\" module"
           }
         ],
         "InfoModule": [
@@ -882,7 +922,8 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "LocalizationOverview",
             "captionText": "Viewing translation status, two levels deep"
-          }
+          },
+          {"action": "clearDrawings"}
         ],
         "ExtensionManager": [
           {"include": "_default"},

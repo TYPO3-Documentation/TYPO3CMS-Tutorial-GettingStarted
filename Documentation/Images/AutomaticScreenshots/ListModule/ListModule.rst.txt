@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/ListModule.png
+   :class: with-shadow
+
+   A typical view from the List module
