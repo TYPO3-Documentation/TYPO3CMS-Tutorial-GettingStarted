@@ -17,8 +17,7 @@ what actions you are performing.
 
 For example, there's a contextual menu in the **WEB > List** view:
 
-.. figure:: /Images/ManualScreenshots/ListModule//ContextMenu.png
-   :alt: The contextual menu in the List
+.. include:: /Images/AutomaticScreenshots/ListModule/ContextMenu.rst.txt
 
 or in the **FILE > Filelist** view:
 

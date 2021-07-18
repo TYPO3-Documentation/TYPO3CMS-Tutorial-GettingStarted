@@ -7,6 +7,8 @@
 Mass editing
 ============
 
+.. todo: The enabling of additional collumns changed
+
 The list module makes it possible to display additional information
 about each record and gives you the ability edit several records with
 one action.

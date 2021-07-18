@@ -8,9 +8,7 @@ Using the list module effectively
 Select the **WEB > List** module and browse to the
 "Congratulations" page. You should see the following:
 
-.. figure:: /Images/ManualScreenshots/ListModule/Module.png
-   :alt: A typical view from the List module
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/ListModule/ListModule.rst.txt
 
 The list view displays a list of records stored on the
 current page, grouped by type. The name which appears for each record
@@ -37,9 +35,7 @@ The list view offers several different action icons in the **Docheader**:
 
 In the **Content Area**, action icons are also available:
 
-.. figure:: /Images/ManualScreenshots/ListModule/Module2.png
-   :alt: A typical view from the List module
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/ListModule/ListModuleContentArea.rst.txt
 
 
 #. Create a **new page record**
@@ -54,6 +50,8 @@ In the **Content Area**, action icons are also available:
 
    Lastly, the cut and paste icons.
 
+.. todo: the "Extended view" option does not exist anymore
+
 If you wish to have the list of icons expanded all the time, you can check the
 **"Extended view"** box at the very bottom of the view.
 
@@ -62,7 +60,3 @@ this next.
 
 If you plan to manage a multilingual web site, you will want to
 check the **"Localization view"** checkbox.
-
-.. figure:: /Images/ManualScreenshots/ListModule/ModuleOptions.png
-   :alt: The viewing three options at the bottom of the List module screen
-   :class: with-shadow
