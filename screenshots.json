@@ -736,6 +736,254 @@
           {"action": "click", "link": "button#tools"},
           {"action": "wait", "timeout": "1"}
         ],
+        "ListModule": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 400
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules/List"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules/List"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'List')]"},
+          {"action": "click", "link": "List"},
+          {
+            "action": "drawBox",
+            "selector": "#web_list"
+          },
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Congratulations"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-left a[title=\"Create new record\"]",
+            "label": "1",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-left a[title=\"View webpage\"]",
+            "label": "2",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-left a[title=\"Edit page properties\"]",
+            "label": "3",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-left a[title=\"Toggle search toolbar\"]",
+            "label": "4",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-right a[title=\"Clear cache for this page\"]",
+            "label": "5",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-right a[title=\"Reload\"]",
+            "label": "6",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-right a[title=\"Create internal note for this page\"]",
+            "label": "7",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-right #dropdownShortcutMenu",
+            "label": "8",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-column-right .help-link",
+            "label": "9",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ListModule",
+            "captionText": "A typical view from the List module"
+          }
+        ],
+        "InfoModule": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 780
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Info')]"},
+          {"action": "click", "link": "Info"},
+          {
+            "action": "drawBox",
+            "selector": "#web_info"
+          },
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Congratulations"
+          },
+          {
+            "action": "selectOption",
+            "select": "select.t3-js-jumpMenuBox",
+            "option": "Localization Overview"
+          },
+          {
+            "action": "waitForText",
+            "text": "Localization overview"
+          },
+          {
+            "action": "selectOption",
+            "select": "select[name=\"SET[depth]\"]",
+            "option": "2"
+          },
+          {
+            "action": "drawBox",
+            "selector": "select.t3-js-jumpMenuBox"
+          },
+          {
+            "action": "drawBox",
+            "selector": "select[name=\"SET[depth]\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Customize"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "LocalizationOverview",
+            "captionText": "Viewing translation status, two levels deep"
+          }
+        ],
+        "ExtensionManager": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 780
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Extensions')]"},
+          {"action": "click", "link": "Extensions"},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Installed Extensions"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(2)",
+            "label": "1",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(3)",
+            "label": "2",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(4)",
+            "label": "3",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(5)",
+            "label": "4",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(6)",
+            "label": "5",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(7)",
+            "label": "6",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#adminpanel td:nth-child(8)",
+            "label": "7",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ExtensionManager",
+            "captionText": "TYPO3 CMS Extension Manager"
+          }
+        ],
+        "Dashboard": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/Modules"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Dashboard')]"},
+          {"action": "click", "link": "Dashboard"},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "About TYPO3"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "Dashboard",
+            "captionText": "TYPO3 CMS Dashboard"
+          }
+        ],
         "ContentElements": [
           {"include": "_default"},
           {

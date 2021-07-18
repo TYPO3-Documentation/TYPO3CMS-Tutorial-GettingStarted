@@ -55,9 +55,7 @@ A user name and a password are always required to log into the backend.
 
    .. TODO: you see the Dashboard not the about module now...
 
-   .. figure:: /Images/ManualScreenshots/Dashboard/Dashboard.png
-      :alt: TYPO3 CMS Dashboard
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/Modules/Dashboard.rst.txt
 
 The current view is a list of all installed modules and their usage.
 It can be reached using the help menu in the top bar
