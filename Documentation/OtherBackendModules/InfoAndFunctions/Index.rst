@@ -15,6 +15,5 @@ you quickly identify which pages are translated and which are
 not. You can also so set how many levels down the page tree you
 wish to analyze.
 
-.. figure:: /Images/ManualScreenshots/Modules/Info/LocalizationOverview.png
-   :alt: Viewing translation status, two levels deep
+.. include:: /Images/AutomaticScreenshots/Modules/LocalizationOverview.rst.txt
 

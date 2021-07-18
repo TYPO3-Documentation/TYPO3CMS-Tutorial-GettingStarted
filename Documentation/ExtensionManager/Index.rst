@@ -35,9 +35,7 @@ a rich tool and this chapter provides only a brief overview.
 Moving to **ADMIN TOOLS > Extensions**, we get the following view
 (in non-Composer mode):
 
-.. figure:: /Images/ManualScreenshots/ExtensionManager/ExtensionManager.png
-   :alt: TYPO3 CMS Extension Manager
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/Modules/ExtensionManager.rst.txt
 
 It shows the "Installed extensions". The first action icon (1) can be used
 to activate an extension or deactivate it (deactivated extensions
