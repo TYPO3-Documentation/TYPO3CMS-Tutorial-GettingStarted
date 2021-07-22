@@ -21,6 +21,5 @@ For example, there's a contextual menu in the **WEB > List** view:
 
 or in the **FILE > Filelist** view:
 
-.. figure:: /Images/ManualScreenshots/FilelistModule/ContextMenu.png
-   :alt: The contextual menu in the List
+.. include:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.rst.txt
 

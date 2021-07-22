@@ -28,9 +28,7 @@ it displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the
 selected directory.
 
-.. figure:: /Images/ManualScreenshots/FilelistModule/FilelistModule.png
-   :alt: The File module
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/FilelistModule/FilelistModule.rst.txt
 
 For admin users, the folder displayed by default is called
 "fileadmin/ (auto-generated)" and corresponds to the
@@ -55,10 +53,7 @@ Clipboard
 
 There's a clipboard just like in the *List* module.
 
-.. figure:: /Images/ManualScreenshots/FilelistModule/FileClipboard.png
-   :alt: The File module's clipboard
-   :class: with-shadow
-
+.. include:: /Images/AutomaticScreenshots/FilelistModule/FileClipboard.rst.txt
 
 Using the action icons, files can be renamed or replaced
 (just hover over the icons and you will get a help text).
@@ -73,15 +68,7 @@ Uploading new files
 You can upload files to a given folder by using the context menu
 or to the current directory by using the action icon in the docheader.
 
-.. figure:: /Images/ManualScreenshots/FilelistModule/FileUploadIcons.png
-   :alt: Upload possibilities in the File module
-
-
-You will get to simple upload view:
-
-.. figure:: /Images/ManualScreenshots/FilelistModule/FileUpload.png
-   :alt: Upload possibilities in the File module
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/FilelistModule/FileUpload.rst.txt
 
 
 Next Steps

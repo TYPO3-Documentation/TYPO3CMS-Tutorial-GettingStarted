@@ -736,6 +736,137 @@
           {"action": "click", "link": "button#tools"},
           {"action": "wait", "timeout": "1"}
         ],
+        "FilelistModule": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 600
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/FilelistModule"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/FilelistModule"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'Filelist')]"},
+          {"action": "click", "link": "Filelist"},
+          {
+            "action": "drawBox",
+            "selector": "#file_FilelistList"
+          },
+          {"action": "openFileTreePath", "path": ["introduction", "images"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "fileadmin/"
+          },
+          {"action":  "wait", "timeout":  1},
+          {
+            "action": "drawBox",
+            "selector": ".float-end"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "FilelistModule",
+            "captionText": "A typical view from the The Filelist module"
+          },
+          {"action": "clearDrawings"},
+
+          {
+            "action": "drawBox",
+            "selector": ".t3js-drag-uploader-trigger"
+          },
+          {
+            "action": "click",
+            "link": "a.t3js-drag-uploader-trigger"
+          },
+          {
+            "action": "waitForText",
+            "text": "upload files"
+          },
+          {
+            "action": "drawBox",
+            "selector": ".dropzone"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "FileUpload",
+            "captionText": "Upload possibilities in the Filelist module"
+          },
+          {"action": "clearDrawings"},
+
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 780
+          },
+          {"action": "openFileTreePath", "path": ["introduction", "audio"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "audio"
+          },
+          {
+            "action": "scrollTo",
+            "selector": ".form-switch"
+          },
+          {
+            "action": "drawBox",
+            "selector": ".form-switch"
+          },
+          {"action": "checkOption", "option": "#checkClipBoard"},
+          {
+            "action": "waitForText",
+            "text": "single record mode"
+          },
+          {
+            "action": "click",
+            "link": "Clipboard #1"
+          },
+          {
+            "action": "waitForElement",
+            "element": "a.t3js-toggle-all-checkboxes"
+          },
+          {
+            "action": "click",
+            "link": "a.t3js-toggle-all-checkboxes"
+          },
+          {
+            "action": "click",
+            "link": "button[data-filelist-clipboard-cmd=\"setCB\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Remove item"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "FileClipboard",
+            "captionText": "The Filelist module's clipboard"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 500
+          },
+          {"action": "clearDrawings"},
+          {"action": "uncheckOption", "option": "#checkClipBoard"},
+          {"action": "wait", "timeout": 1},
+          {
+            "action": "click",
+            "link": ".filelist-main a.t3js-contextmenutrigger"
+          },
+          {"action": "wait", "timeout": 1},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ContextMenu",
+            "captionText": "The contextual menu in the Filelist"
+          }
+        ],
         "ListModule": [
           {"include": "_default"},
           {
