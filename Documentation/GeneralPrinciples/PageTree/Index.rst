@@ -82,7 +82,7 @@ Context menu:
    1. A click on the page icon will open the context menu. 2. **Or**, you
    can right click the whole page title.
 
-   .. include:: Documentation/Images/AutomaticScreenshots/PageTree/ContextMenu.rst.txt
+   .. include:: /Images/AutomaticScreenshots/PageTree/ContextMenu.rst.txt
 
 
 .. index:: Page tree; Context menu
