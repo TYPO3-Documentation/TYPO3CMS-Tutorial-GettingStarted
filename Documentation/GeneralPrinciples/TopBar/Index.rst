@@ -14,9 +14,7 @@ including the name of your site and also the version of TYPO3 it is currently ru
 .. include:: /Images/AutomaticScreenshots/BackendOverview/BackendTopBar.rst.txt
 
 #. To the left is the icon for **minimizing the Module Menu**.
-#. You already met the next icon on the left. It is for
-   :ref:`collapsing the page tree <collapse-page-tree>`.
-#. Moving on to the next icon, we have the **TYPO3 CMS logo**
+#. Next comes the **TYPO3 CMS logo**
    (which may have been modified by an extension).
    Then comes the **name of your site**. This is part of global
    configuration, which is described later.
@@ -26,6 +24,7 @@ including the name of your site and also the version of TYPO3 it is currently ru
 #. The lightning bolt icon opens the **Clear Cache** menu to flush the various
    caches that are used by TYPO3 CMS to improve performance.
    Caches are described in detail in TYPO3 Explained::ref:`t3coreapi:caching`.
+#. The document icon displays your **Open and Recently Used Documents**
 #. The question mark icon opens the **Help** menu, which gives
    you access to helper modules and additional support documentation.
 #. The next icon opens up a panel showing various information
