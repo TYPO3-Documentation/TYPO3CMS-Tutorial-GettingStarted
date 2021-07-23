@@ -57,10 +57,7 @@ Working with the page tree
 
 Remember the components of the backend from the :ref:`previous page <general-backend-structure>`?
 
-.. figure:: /Images/ManualScreenshots/BackendOverview/BackendAreasOverview.png
-   :alt: Overview of the whole TYPO3 CMS backend
-   :scale: 50
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.rst.txt
 
 We will now look at some components of the page tree a little more closely:
 
