@@ -27,9 +27,7 @@ the arrow to the left of each page.
 
    Your page tree should look like this:
 
-   .. figure:: /Images/ManualScreenshots/PageTree/PageTree.png
-      :alt: The page tree with the "Content Examples" page expanded
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/PageTree/PageTree.rst.txt
 
 
 3. View page in the frontend:
@@ -73,9 +71,7 @@ Root page
    The top node with the TYPO3 logo is a special container which is used
    to store shared resources such as file mounts and backend user records.
 
-.. figure:: /Images/ManualScreenshots/PageTree/RootPage.png
-   :alt: Root page of the Introduction Package
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/PageTree/RootPage.rst.txt
 
 Modules:
    Some modules make use of the page tree, but not all. The presence of the page tree
@@ -216,11 +212,7 @@ Collapsing the page tree
 The page tree can be collapsed to gain screen space, by clicking on the second icon
 on the left in the top bar.
 
-.. figure:: /Images/ManualScreenshots/PageTree/CollapsePageTree.png
-   :alt: Click there to collapse or expand the page tree
-   :class: with-shadow
-
-   Collapse or expand the page tree
+.. include:: /Images/AutomaticScreenshots/PageTree/CollapsePageTree.rst.txt
 
 
 .. index:: Pages; Edit
