@@ -57,10 +57,7 @@ Working with the page tree
 
 Remember the components of the backend from the :ref:`previous page <general-backend-structure>`?
 
-.. figure:: /Images/ManualScreenshots/BackendOverview/BackendAreasOverview.png
-   :alt: Overview of the whole TYPO3 CMS backend
-   :scale: 50
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.rst.txt
 
 We will now look at some components of the page tree a little more closely:
 
@@ -85,9 +82,7 @@ Context menu:
    1. A click on the page icon will open the context menu. 2. **Or**, you
    can right click the whole page title.
 
-   .. figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
-      :alt: Page tree with opened context menu
-      :class: with-shadow
+   .. include:: Documentation/Images/AutomaticScreenshots/PageTree/ContextMenu.rst.txt
 
 
 .. index:: Page tree; Context menu

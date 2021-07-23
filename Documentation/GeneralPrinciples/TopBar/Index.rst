@@ -11,11 +11,7 @@ The top bar features a set of menus that allow you to quickly carry out common a
 The top bar also contains specific information about your instance of TYPO3
 including the name of your site and also the version of TYPO3 it is currently running.
 
-.. figure:: /Images/ManualScreenshots/BackendOverview/BackendTopBar.png
-   :alt: The top bar with the flush cache menu open
-   :class: with-shadow
-
-   Backend top bar
+.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendTopBar.rst.txt
 
 #. To the left is the icon for **minimizing the Module Menu**.
 #. You already met the next icon on the left. It is for

@@ -1218,8 +1218,8 @@
           {"include": "_default"},
           {
             "action": "resizeWindow",
-            "width": 2048,
-            "height": 2048
+            "width": 1232,
+            "height": 780
           },
           {
             "action": "setScreenshotsImagePath",
@@ -1241,6 +1241,148 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "Dashboard",
             "captionText": "TYPO3 CMS Dashboard"
+          }
+        ],
+        "Overview": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 400
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/BackendOverview"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/BackendOverview"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuToTop"},
+          {"action": "click", "link": "Page"},
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {
+            "action": "drawBadge",
+            "selector": "typo3-backend-navigation-component-pagetree-toolbar",
+            "label": "Page tree",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#dashboard",
+            "label": "Module menu",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".toolbar",
+            "label": "Top bar",
+            "position": "left"
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Congratulations"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".module-docheader-bar-navigation",
+            "label": "Docheader",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".t3js-title-inlineedit",
+            "label": "Content area",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BackendAreasOverview",
+            "captionText": "Overview of the whole TYPO3 CMS backend"
+          },
+          {"action": "clearDrawings"},
+          {"action": "switchToMainFrame"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 150
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".topbar-button-modulemenu",
+            "label": "1",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".topbar-header-site-logo",
+            "label": "2",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-shortcuttoolbaritem",
+            "label": "3",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-clearcachetoolbaritem",
+            "label": "4",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-opendocs-backend-toolbaritems-opendocstoolbaritem",
+            "label": "5",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-helptoolbaritem",
+            "label": "6",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-systeminformationtoolbaritem",
+            "label": "7",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-usertoolbaritem",
+            "label": "8",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#typo3-cms-backend-backend-toolbaritems-livesearchtoolbaritem",
+            "label": "9",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BackendTopBar",
+            "captionText": "The top bar"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 300
+          },
+          { "action":  "click", "link":  "#typo3-cms-backend-backend-toolbaritems-helptoolbaritem a"},
+          {
+            "action": "waitForText",
+            "text": "TYPO3 Manual"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "HelpMenu",
+            "captionText": "Accessing the help menu from the top bar"
           }
         ],
         "ContentElements": [

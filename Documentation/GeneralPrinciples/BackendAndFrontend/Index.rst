@@ -61,6 +61,4 @@ The current view is a list of all installed modules and their usage.
 It can be reached using the help menu in the top bar
 and selecting :guilabel:`About TYPO3 CMS`.
 
-.. figure:: /Images/ManualScreenshots/BackendOverview/HelpMenu.png
-   :alt: Accessing the Help menu from the top bar
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendOverview/HelpMenu.rst.txt

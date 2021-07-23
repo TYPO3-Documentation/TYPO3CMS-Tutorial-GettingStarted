@@ -34,9 +34,6 @@ Docheader (top)
    It also features other information and a drop-down menu with further actions
    which will appear depending on what actions you are performing.
 
-
-.. figure:: /Images/ManualScreenshots/BackendOverview/BackendAreasOverview.png
-   :alt: Overview of the whole TYPO3 CMS backend
-   :class: with-shadow
+.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.rst.txt
 
 We will have a closer look at the individual parts in the next pages.
