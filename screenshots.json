@@ -867,6 +867,93 @@
             "captionText": "The contextual menu in the Filelist"
           }
         ],
+        "PageTree": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 600
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/PageTree"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/PageTree"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'List')]"},
+          {"action": "click", "link": "List"},
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+
+          {
+            "action": "drawBox",
+            "selector": "button.scaffold-content-navigation-switcher-close"
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Congratulations"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "CollapsePageTree",
+            "captionText": "Collapse or expand the page tree"
+          },
+          {"action": "cropScreenshot", "fileName": "CollapsePageTree", "height": 200},
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 500
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "Frontend User"]},
+          {"action": "clickWithRightButton", "cssOrXPath": "//*[@id='typo3-pagetree-treeContainer']//*[text()='Frontend User']/.."},
+          {"action": "waitForElement", "element": ".context-menu", "timeout": 1},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ContextMenu",
+            "captionText": "Page tree with opened context menu"
+          },
+          {"action": "clearDrawings"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "Content Examples"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Content Examples"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "PageContent1"
+          },
+
+          {"action": "switchToMainFrame"},
+          {
+            "action": "drawBox",
+            "selector": "typo3-backend-navigation-component-pagetree-tree"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "PageTree",
+            "captionText": "The page tree with the \"Content Examples\" page expanded"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 300
+          },
+          {"action": "openPageTreePath", "path": ["Congratulations"]},
+          {"action": "switchToContentFrame"},
+          {"action": "waitForText", "text": "Congratulations"},
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "RootPage",
+            "captionText": "Root page of the Introduction Package"
+          }
+        ],
         "ListModule": [
           {"include": "_default"},
           {

@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/PageTree/PageTree.png
+   :class: with-shadow
+
+   The page tree with the "Content Examples" page expanded

@@ -18,8 +18,7 @@ can be arranged is the "Content Examples" section.
    In the backend, click on the arrow next to the "Content Examples" title
    to open the subtree.
 
-   .. image:: /Images/ManualScreenshots/PageTree/PageContent1.png
-      :class: with-shadow
+   .. include:: /Images/AutomaticScreenshots/PageTree/PageContent1.rst.txt
 
 2. Next, do the same for the "Text" page, and then click on "Text in Columns"
 
