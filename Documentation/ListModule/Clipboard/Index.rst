@@ -12,14 +12,12 @@ screen.
 
 Click on the copy icon of the "Features" page:
 
-.. figure:: /Images/ManualScreenshots/ListModule//Clipboard/CopyToClipboard.png
-   :alt: Pointing at the copy icon
+.. include:: /Images/AutomaticScreenshots/ListModule/CopyToClipboard.rst.txt
 
 
 Now scroll down and look at the clipboard:
 
-.. figure:: /Images/ManualScreenshots/ListModule//Clipboard/SimpleClipboard.png
-   :alt: The clipboard with the newly copied record
+.. include:: /Images/AutomaticScreenshots/ListModule/SimpleClipboard.rst.txt
 
 
 Note how the clipboard registers the fact that we have chosen

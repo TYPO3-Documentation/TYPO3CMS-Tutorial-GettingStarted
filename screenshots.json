@@ -1080,6 +1080,166 @@
             "action": "makeScreenshotOfWindow",
             "fileName": "ContextMenu",
             "captionText": "The contextual menu in the  \"List\" module"
+          },
+          {"action": "clearDrawings"},
+          {"action": "switchToMainFrame"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "404"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "404"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 950
+          },
+          {
+            "action": "drawBox",
+            "selector": "tr.t3js-entity:first-child a[aria-label=\"Copy\"]"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "tr.t3js-entity:first-child a[aria-label=\"Copy\"]",
+            "label": "Copy to clipboard",
+            "position": "bottom"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "CopyToClipboard"
+          },
+          {
+            "action": "click",
+            "link": "tr.t3js-entity:first-child a[aria-label=\"Copy\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Remove item"
+          },
+          {
+            "action": "drawBox",
+            "selector": "#clipboard_form"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "SimpleClipboard"
+          },
+          {
+            "action": "click",
+            "link": "Clipboard #1"
+          },
+          {
+            "action": "wait",
+            "timeout": "1"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".col-clipboard .t3js-record-edit-multiple",
+            "label": "1",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".col-clipboard button[title=\"Delete marked\"]",
+            "label": "2",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".col-clipboard a[aria-label=\"Transfer the selection of records to clipboard\"]",
+            "label": "3",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".col-clipboard button.t3js-toggle-all-checkboxes",
+            "label": "4",
+            "position": "bottom"
+          },
+          {
+            "action": "drawBox",
+            "selector": "#clipboard_form tr:nth-child(3) td"
+          },
+          {
+            "action": "drawArrow",
+            "selector": "#clipboard_form tr:nth-child(3) td",
+            "position": "center-bottom"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "ActivateClipboardPad"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "click",
+            "link": ".col-clipboard button.t3js-toggle-all-checkboxes"
+          },
+          {
+            "action": "wait",
+            "timeout": "1"
+          },
+          {
+            "action": "click",
+            "link": ".col-clipboard a[aria-label=\"Transfer the selection of records to clipboard\"]"
+          },
+          {
+            "action": "waitForText",
+            "text": "Remove item"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": "#clipboard_form",
+            "fileName": "ClipboardWithMultipleItems",
+            "captionText": "Multiple items stored in the clipboard"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "Shared Content"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Shared Content"
+          },
+          {
+            "action": "drawBox",
+            "selector": "button[title=\"Paste in clipboard content\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "PasteClipboardContent",
+            "captionText": "The \"Paste into\" icon at the top of the list"
+          },
+          {
+            "action": "click",
+            "link": "button[title=\"Paste in clipboard content\"]"
+          },
+          {
+            "action": "waitForModalDialogInMainFrame"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 480
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "ClipboardWarning",
+            "captionText": "The dialog box for confirming the paste action"
+          },
+          {
+            "action": "clickButtonInModalDialog",
+            "buttonLink": "OK"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 950
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "MovedContentEmpyClipboard",
+            "captionText": "Moved records and empty clipboard"
           }
         ],
         "InfoModule": [
