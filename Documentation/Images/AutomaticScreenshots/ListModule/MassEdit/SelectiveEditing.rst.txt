@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/MassEdit/SelectiveEditing.png
+   :class: with-shadow
+
+   Selecting records for editing

@@ -954,6 +954,174 @@
             "captionText": "Root page of the Introduction Package"
           }
         ],
+        "ListModuleMassEdit": [
+          {"include": "_default"},
+          {
+            "action": "resizeWindow",
+            "width": 1232,
+            "height": 400
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/AutomaticScreenshots/ListModule/MassEdit"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/AutomaticScreenshots/ListModule/MassEdit"
+          },
+          {"action": "switchToMainFrame"},
+          {"action": "scrollModuleMenuTo", "toSelector": "//button[contains(., 'List')]"},
+          {"action": "click", "link": "List"},
+          {"action": "openPageTreePath", "path": ["Congratulations", "Customize"]},
+          {"action": "switchToContentFrame"},
+          {
+            "action": "waitForText",
+            "text": "Customize"
+          },
+          {
+            "action": "drawBox",
+            "selector": "button[title=\"Show columns for Page Content\"]"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ShowColumnsButton",
+            "captionText": "The Show Columns button"
+          },
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 680
+          },
+          {
+            "action": "click",
+            "link": "button[title=\"Show columns for Page Content\"]"
+          },
+          {"action": "waitForModalDialogInMainFrame"},
+          {"action": "scrollModalDialogBodyTo", "toSelector": "label[for=\"select-column-tt_content-CType\"]"},
+          {"action": "click", "link": "label[for=\"select-column-tt_content-CType\"]"},
+          {"action": "wait", "timeout": 1},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "ShowColumnsModal",
+            "captionText": "Choose the fields to be displayed and click \"Update\""
+          },
+          {"action": "clickButtonInModalDialog", "buttonLink": "Update"},
+
+          {
+            "action": "resizeWindow",
+            "width": 1500,
+            "height": 600
+          },
+          {"action": "switchToContentFrame"},
+          {
+            "action": "drawBox",
+            "selector": ".recordlist-heading .col:first-child a"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module-body",
+            "fileName": "RecordListWithAdditionalFields",
+            "captionText": "Click on the title to enable mass edit mode"
+          },
+          {
+            "action": "click",
+            "link": ".recordlist-heading .col:first-child a"
+          },
+          {"action": "waitForElement", "element": "button.t3js-record-edit-multiple"},
+          {
+            "action": "drawBox",
+            "selector": "button.t3js-record-edit-multiple"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "MassEditingEnabled",
+            "captionText": "Click one of these buttons to mass-edit the according columns"
+          },
+          {"action": "clearDrawings"},
+          {
+            "action": "drawBox",
+            "selector": "button[title=\"Edit the 'Header' field of the listed records\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module-body",
+            "fileName": "MassEditHeaderButton",
+            "captionText": "Click the button next to the Header column to mass edit the fields"
+          },
+          {
+            "action": "click",
+            "link": "button[title=\"Edit the 'Header' field of the listed records\"]"
+          },
+          {"action": "waitForText", "text": "Edit Page Content"},
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "MassEditHeader",
+            "captionText": "Changes will be applied to all fields"
+          },
+          {
+            "action": "click",
+            "link": "Close"
+          },
+          {"action": "waitForText", "text": "Show clipboard"},
+          {
+            "action": "drawBox",
+            "selector": "button[title=\"Edit all shown fields of the listed records\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module-body",
+            "fileName": "MassEditMultipleFieldsButton",
+            "captionText": "Click the button next to the Header column to mass edit the fields"
+          },
+          {
+            "action": "click",
+            "link":  "button[title=\"Edit all shown fields of the listed records\"]"
+          },
+          {"action": "waitForText", "text": "Edit Page Content"},
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "MassMultipleFields",
+            "captionText": "Changes will be applied to all fields"
+          },
+          {
+            "action": "click",
+            "link": "Close"
+          },
+          {"action": "waitForText", "text": "Show clipboard"},
+
+          {
+            "action": "resizeWindow",
+            "width": 1500,
+            "height": 1500
+          },
+          {
+            "action": "click",
+            "link":  "Clipboard #1"
+          },
+          {"action": "scrollModuleBodyToTop"},
+          {"action": "wait", "timeout": 1},
+          {
+            "action": "click",
+            "link": "tr.t3js-entity:nth-child(2) td.col-clipboard label.btn-checkbox"
+          },
+          {
+            "action": "click",
+            "link": "tr.t3js-entity:nth-child(3) td.col-clipboard label.btn-checkbox"
+          },
+          {
+            "action": "drawBox",
+            "selector": "button[title=\"Edit all shown fields of the listed records\"]"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "selector": ".module",
+            "fileName": "SelectiveEditing",
+            "captionText": "Selecting records for editing"
+          }
+        ],
         "ListModule": [
           {"include": "_default"},
           {
