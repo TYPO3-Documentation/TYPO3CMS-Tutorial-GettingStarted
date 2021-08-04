@@ -51,4 +51,7 @@ and adding content.
   SystemRequirements/Index
   Installation/Index
   Setup/Index
+  Troubleshooting/Index
+  Extensions/Index
+  IntroductionPackage/Index
   NextSteps/Index

@@ -2,9 +2,9 @@
 
 .. _deployment:
 
-=======================
-Deploying to Production
-=======================
+============
+Deploy TYPO3
+============
 
 This guide outlines the steps required to manually deploy TYPO3 and ensure the installation
 is secure and ready to be used in a production context. This guide also highlights a number of
@@ -37,8 +37,6 @@ General Deployment Steps
 
 Production Settings
 ===================
-
-.. todo:: figure out how to describe that AdditionalConfiguration allows setting additional configuration ;) or exclude LocalConfiguration from repository and create with deployment on live whatever.
 
 To ensure a secure installation of TYPO3 on a production server, the following settings need to be set:
 
