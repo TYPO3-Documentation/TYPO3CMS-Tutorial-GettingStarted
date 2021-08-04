@@ -3,9 +3,9 @@
 
 .. _concepts:
 
-========
-Concepts
-========
+==============
+TYPO3 Concepts
+==============
 
 The backend & frontend
 ======================
