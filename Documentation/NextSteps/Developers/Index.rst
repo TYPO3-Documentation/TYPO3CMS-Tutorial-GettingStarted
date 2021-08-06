@@ -25,9 +25,9 @@ in Extbase, the following resources are recommended:
    Note that currently, the online resource :ref:`t3extbasebook:start`
    may be partly outdated. The `TYPO3 Extbase and Fluid book, 3rd edition
    <https://www.extbase-book.org/>`__ by Michael Schams was just released,
-   so it should be up to date. 
+   so it should be up to date.
 
-You may also want to refer to the 
+You may also want to refer to the
 `Fluid ViewHelper reference <https://docs.typo3.org/typo3cms/ViewHelperReference/>`__
 once you work with Fluid.
 
@@ -80,7 +80,7 @@ for TYPO3.
 Extensions
 ==========
 
-You can also look at existing extensions to see how other developers 
+You can also look at existing extensions to see how other developers
 have built their extensions.
 
 All (publicly available) third party extensions are listed in the
@@ -129,7 +129,7 @@ Look at the Core Source-Code
 
 Of course, you can also look at the TYPO3 source code.
 
-For online browsing, you can use `GitHub <https://github.com/TYPO3/TYPO3.CMS/tree/9.5>`__.
+For online browsing, you can use `GitHub <https://github.com/typo3/typo3/tree/9.5>`__.
 
 Again, make sure to look in the correct branch for your version.
 
