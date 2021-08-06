@@ -147,7 +147,7 @@ Look at the Core source code
 
 Of course, you can also look at the TYPO3 source code.
 
-For online browsing, you can use `GitHub <https://github.com/TYPO3/TYPO3.CMS/tree/9.5>`__.
+For online browsing, you can use `GitHub <https://github.com/typo3/typo3/tree/9.5>`__.
 
 Again, make sure to look in the correct branch for your version.
 
