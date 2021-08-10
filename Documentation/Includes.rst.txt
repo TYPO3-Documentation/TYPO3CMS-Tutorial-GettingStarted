@@ -1,4 +1,4 @@
-﻿.. This is 'Includes.txt'. It is included at the very top of each and
+﻿.. This is 'Includes.rst.txt'. It is included at the very top of each and
    every ReST source file in THIS documentation project (= manual).
 
 .. role:: aspect (emphasis)
@@ -6,9 +6,6 @@
 .. role:: js(code)
 .. role:: php(code)
 .. role:: typoscript(code)
-.. role:: bash(code)
-.. role:: ddev(code)
-.. role:: powershell(code)
 
 .. role:: ts(typoscript)
    :class: typoscript

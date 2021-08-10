@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _system-requirements:
@@ -14,7 +14,7 @@ Composer is also required for local development.
 For up-to-date information about TYPO3's system requirements visit `get.typo3.org
 <https://get.typo3.org/version/10#system-requirements>`_.
 
-.. include:: PHP.rst
+.. include:: PHP.rst.txt
 
 Web Server
 ==========
@@ -23,20 +23,20 @@ Web Server
 
    .. tab:: Apache
 
-      .. include:: Apache.rst
+      .. include:: Apache.rst.txt
 
    .. tab:: NGINX
 
-      .. include:: NGINX.rst
+      .. include:: NGINX.rst.txt
 
    .. tab:: IIS
 
-      .. include:: IIS.rst
+      .. include:: IIS.rst.txt
 
 Database
 ========
 
-.. include:: Database.rst
+.. include:: Database.rst.txt
 
 Composer
 ========

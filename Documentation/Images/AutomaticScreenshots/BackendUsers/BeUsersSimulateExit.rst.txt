@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendUsers/BeUsersSimulateExit.png
+   :class: with-shadow
+
+   Exiting the backend user simulation

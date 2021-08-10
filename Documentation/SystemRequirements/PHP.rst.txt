@@ -1,7 +1,7 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
-.. _php:
+.. _systemrequirements_php:
 
 PHP
 ===
@@ -56,6 +56,7 @@ Required Database Extensions
 
       * pdo_mysql (recommended)
       * OR mysqli
+
       The InnoDB engine is required for MySQL and MariaDB instances.
 
    .. tab:: Postgres

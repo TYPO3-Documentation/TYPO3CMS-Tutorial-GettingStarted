@@ -1,4 +1,4 @@
-.. include:: Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _start:
@@ -55,3 +55,5 @@ and adding content.
   Extensions/Index
   IntroductionPackage/Index
   NextSteps/Index
+  Sitemap
+  Index

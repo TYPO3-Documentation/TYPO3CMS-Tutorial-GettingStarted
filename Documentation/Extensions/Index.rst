@@ -1,7 +1,7 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
-.. _index:
+.. _extensions_index:
 
 =======================
 Working With Extensions

@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditFilePermissions.png
+   :class: with-shadow
+
+   Giving specific file operation permissions
