@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditGeneralTab.png
+   :class: with-shadow
+
+   Content of the "General" tab when editing a backend user group

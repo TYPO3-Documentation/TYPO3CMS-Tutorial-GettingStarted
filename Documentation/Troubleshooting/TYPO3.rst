@@ -1,6 +1,6 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
-.. _typo3:
+.. _troubleshooting_typo3:
 
 =====
 TYPO3
@@ -11,18 +11,21 @@ Resetting Passwords
 
 
 Backend Administrative User Passwords
------------------------------------
+-------------------------------------
 
 When the password for a backend user needs to be reset, log into the backend with an
-alternative user and use the :guilabel:`System > Backend Users` tool to reset the users password. Note that only
-backend users with administrative rights can access the `Backend Users` tool to make this change.
+alternative user and use the :guilabel:`System > Backend Users` tool to reset
+the users password. Note that only backend users with administrative rights can
+access the `Backend Users` tool to make this change.
 
-If an alternative administrator account is not available or it doesn't have the appropriate access, the Install Tool can be accessed directly
+If an alternative administrator account is not available or it doesn't have the
+appropriate access, the Install Tool can be accessed directly
 using the following address to create a new administrative user::
 
    https://examle.com/typo3/install.php
 
-The Install Tool requires the "Installation Password" that would have been set when TYPO3 was installed.
+The Install Tool requires the "Installation Password" that would have been set
+when TYPO3 was installed.
 
 Once logged in to the Admin Tool go to :guilabel:`Maintenance > Create Administrative User`
 and select :guilabel:`Create Administrator`. In this dialogue you
@@ -43,7 +46,8 @@ Before editing this file, visit::
    https://examle.com/typo3/install.php
 
 
-Enter the new password into the dialogue box. As the new password is not correct, the following response will be returned::
+Enter the new password into the dialogue box. As the new password is not correct,
+the following response will be returned::
 
    "Given password does not match the install tool login password. Calculated hash:
    $argon2i$v=xyz"
@@ -67,10 +71,12 @@ array entry with the new hashed password::
 Debug Settings
 ==============
 
-During troubleshooting, in the :guilabel:`"Settings > Configuration Presets"` section of the Install
-Tool, under "Debug settings", the "Debug" preset can be change to show errors in the frontend.
+During troubleshooting, in the :guilabel:`"Settings > Configuration Presets"`
+section of the Install Tool, under "Debug settings", the "Debug" preset can be
+change to show errors in the frontend.
 
-The following TypoScript setting can also be added the the root template for the site to show additional debug information.
+The following TypoScript setting can also be added the the root template for
+the site to show additional debug information.
 This is particularly useful when debugging Fluid errors:
 
 .. code-block:: typoscript
@@ -99,13 +105,14 @@ Caching
 Cached Files in typo3temp/
 --------------------------
 
-TYPO3 generates temporary "cached" files and PHP scripts in :file:`<var-path>/cache/` (either
-`typo3temp/var/cache` or `var/cache` depending on the installation). You can remove the
-entire :file:`<var-path>/cache` directory at any time; the directory
-structure and all the caches will be re-written on the next time a visitor accesses the site.
+TYPO3 generates temporary "cached" files and PHP scripts in :file:`<var-path>/cache/`
+(either :file:`typo3temp/var/cache` or :file:`var/cache` depending on the installation).
+You can remove the entire :file:`<var-path>/cache` directory at any time; the directory
+structure and all the caches will be re-written on the next time a visitor
+accesses the site.
 
-A shortcut to remove these caches can be found in the Install Tool,
-under "Important Actions". This might be useful in the event your
+A shortcut to remove these caches can be found in the :guilabel:`Install Tool`,
+under :guilabel:`Important Actions`. This might be useful in the event your
 cache files become damaged and your system is not running correctly. The
 Install Tool won't load any of these caches or any extension, so it
 should be safe to use regardless of the corrupt state of the Caches.

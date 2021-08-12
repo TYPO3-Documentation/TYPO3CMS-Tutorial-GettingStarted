@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendGroups/EditFileMounts.png
+   :class: with-shadow
+
+   List of all available file mounts

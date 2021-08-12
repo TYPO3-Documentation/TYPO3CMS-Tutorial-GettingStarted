@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.png
+   :class: with-shadow
+
+   Overview of the whole TYPO3 CMS backend

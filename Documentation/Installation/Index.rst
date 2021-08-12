@@ -1,6 +1,6 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
-.. _index:
+.. _installation_index:
 
 ==================
 Installation Guide
@@ -23,5 +23,14 @@ a remote server.
 Legacy Installation Guide
 =========================
 
-Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
-Guide demonstrates how TYPO3 can be installed without using Composer.
+Looking to install TYPO3 the classic way? Whilst this method of installation is
+no longer recommended, the Legacy Installation Guide demonstrates how TYPO3 can
+be installed without using Composer.
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+
+   Install
+   DeployTYPO3
+   LegacyInstallation

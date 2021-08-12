@@ -1,0 +1,148 @@
+{
+  "suites": {
+    "Introduction": {
+      "screenshots": [
+        [
+          {
+            "action": "resizeWindow",
+            "width": 1024,
+            "height": 768
+          },
+          {
+            "action": "setScreenshotsImagePath",
+            "path": "Images/BackendUsers"
+          },
+          {
+            "action": "setScreenshotsRstPath",
+            "path": "Images/BackendUsers"
+          },
+          {
+            "action": "see",
+            "text": "Backend Users"
+          },
+          {
+            "action": "click",
+            "link": "Backend Users"
+          },
+          {
+            "action": "drawBox",
+            "selector": "#system_BeuserTxBeuser"
+          },
+          {
+            "action": "drawBadge",
+            "selector": "#system_BeuserTxBeuser",
+            "label": "1",
+            "position": "right"
+          },
+          {
+            "action": "switchToContentFrame"
+          },
+          {
+            "action": "waitForText",
+            "text": "Backend User Listing",
+            "timeout": 5
+          },
+          {
+            "action": "drawBox",
+            "selector": ".t3-js-jumpMenuBox"
+          },
+          {
+            "action": "drawArrow",
+            "selector": ".t3-js-jumpMenuBox",
+            "position": "right-bottom"
+          },
+          {
+            "action": "drawBadge",
+            "selector": ".t3-js-jumpMenuBox",
+            "label": "2",
+            "position": "right"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BeUsersModule",
+            "altText": "Screenshot of the Backend User Module",
+            "captionText": "SYSTEM > Backend users"
+          },
+          {
+            "action": "clearDrawings"
+          },
+          {
+            "action": "drawBox",
+            "selector": "a[title=\"Switch to user\"]"
+          },
+          {
+            "action": "drawArrow",
+            "selector": "a[title=\"Switch to user\"]",
+            "position": "left-top"
+          },
+          {
+            "action": "makeScreenshotOfElement",
+            "fileName": "BeUserSimulate",
+            "selector": "#typo3-backend-user-list",
+            "altText": "'Simulate User' in backend user module",
+            "captionText": "The last action icon lets us simulate another user"
+          },
+          {
+            "action": "click",
+            "link": "a[title=\"Switch to user\"]"
+          },
+          {
+            "action": "switchToMainFrame"
+          },
+          {
+            "action": "see",
+            "text": "SU editor"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "SimpleEditorUser",
+            "captionText": "The backend view for the \"simple\\_editor\""
+          },
+          {
+            "action": "click",
+            "link": "SU editor"
+          },
+          {
+            "action": "see",
+            "text": "Exit"
+          },
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BeUsersSimulateExit",
+            "captionText": "Exiting the backend user simulation"
+          },
+          {
+            "action": "click",
+            "link": "Exit"
+          },
+          {
+            "action": "see",
+            "text": "List"
+          },
+          {
+            "action": "click",
+            "link": "List"
+          },
+          {
+            "action": "click",
+            "link": "List"
+          },
+          {"action": "openPageTreePath", "path": []},
+
+          {
+            "action": "switchToContentFrame"
+          },
+          {"action": "scrollModuleBodyTo", "toSelector": "#t3-table-be_users"},
+          {
+            "action": "makeScreenshotOfWindow",
+            "fileName": "BeUsersList",
+            "captionText": "Viewing backend users in the List module"
+          }
+        ]
+      ]
+    },
+    "Styleguide": {
+      "screenshots": {}
+    }
+  }
+}
