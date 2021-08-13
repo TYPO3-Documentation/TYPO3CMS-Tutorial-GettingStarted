@@ -3,9 +3,9 @@
 
 .. _backendlanguages:
 
-
-Backend Languages
-=================
+=============================
+Changing The Backend Language
+=============================
 
 By default, TYPO3s backend is set to English with no additional languages available.
 

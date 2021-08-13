@@ -3,8 +3,9 @@
 
 .. _siterecords:
 
-Site Records
-============
+======================
+Creating A Site Record
+======================
 
 A single installation of TYPO3 can host multiple websites each with its own content, appearance and domain.
 

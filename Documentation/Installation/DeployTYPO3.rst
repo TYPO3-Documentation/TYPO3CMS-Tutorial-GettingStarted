@@ -1,10 +1,10 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
-.. _deployment:
+.. _deploytypo3:
 
-============
-Deploy TYPO3
-============
+===============
+Deploying TYPO3
+===============
 
 This guide outlines the steps required to manually deploy TYPO3 and ensure the installation
 is secure and ready to be used in a production context. This guide also highlights a number of

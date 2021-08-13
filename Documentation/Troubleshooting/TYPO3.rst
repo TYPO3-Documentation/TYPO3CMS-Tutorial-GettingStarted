@@ -9,6 +9,7 @@ TYPO3
 Resetting Passwords
 ===================
 
+.. _backend-admin-password:
 
 Backend Administrative User Passwords
 -------------------------------------
@@ -34,6 +35,8 @@ can create a new administrative user.
 Use this new administrator account to log into the TYPO3 backend. In the module
 :guilabel:`Backend Users` you can change the passwords of existing users,
 including administrators.
+
+.. _install-tool-password:
 
 Install Tool Password
 ---------------------
@@ -68,6 +71,8 @@ array entry with the new hashed password::
    if one exists. If you can still not log into the install tool check if
    there are errors in the logs when debugging is enabled.
 
+.. _debug-mode:
+
 Debug Settings
 ==============
 
@@ -98,6 +103,8 @@ Additionally, the following logs should be checked for additional information:
   Linux based system)
 * TYPO3 Administration log in :guilabel:`SYSTEM > Log` (in the backend)
 * TYPO3 logs writting by :ref:`Logging Framework <t3coreapi:logging>` in :file:`typo3temp/var/log`
+
+.. _troubleshooting-caching:
 
 Caching
 =======

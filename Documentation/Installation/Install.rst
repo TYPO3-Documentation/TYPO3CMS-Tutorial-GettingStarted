@@ -3,9 +3,9 @@
 
 .. _install:
 
-=============
-Install TYPO3
-=============
+================
+Installing TYPO3
+================
 
 Welcome to the TYPO3 installation guide. This guide covers each of the steps required to install TYPO3 using the dependency manager Composer.
 

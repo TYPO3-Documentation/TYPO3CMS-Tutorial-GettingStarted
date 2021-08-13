@@ -3,9 +3,9 @@
 
 .. _backendusers:
 
-=============
-Backend Users
-=============
+====================
+Adding Backend Users
+====================
 
 To create additional backend user records, navigate to :guilabel:`System > Backend Users`.
 

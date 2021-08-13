@@ -24,8 +24,8 @@ Developing The Sites Visual Appearance
 
 There are two main topics that cover templating in TYPO3, Fluid and Site packages.
 
-`Fluid Templating <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/Index.html>`__
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+`Fluid Templating <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/FluidTemplates/Index.html>`__
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Fluid is TYPO3’s templating engine. Fluid acts as the link between a project's
 static HTML templates and the content that is created in TYPO3’s backend.

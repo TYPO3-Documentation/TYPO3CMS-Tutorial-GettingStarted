@@ -1,6 +1,6 @@
 .. include:: /Includes.rst.txt
 
-.. _database:
+.. _troubleshooting_database:
 
 ========
 Database

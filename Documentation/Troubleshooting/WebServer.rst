@@ -12,7 +12,6 @@ Apache
 Some settings may require adjustment for TYPO3 to operate correctly This will vary depending on the host
 operating system and the version of Apache that is installed.
 
-.. _enable-necessary-modules:
 .. _enable-mod_rewrite:
 
 Enable mod_rewrite

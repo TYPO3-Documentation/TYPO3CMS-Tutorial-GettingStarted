@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _legacyinstallation:
@@ -8,7 +8,7 @@ Legacy Installation
 ===================
 
 This guide details how TYPO3 can be installed without using Composer. This method of installation
-is now considered out of date, users are strongly encouraged to use the Composer based :ref:`install-typo3`
+is now considered out of date, users are strongly encouraged to use the Composer based :ref:`install`
 
 Installing on a Unix Server
 ===========================

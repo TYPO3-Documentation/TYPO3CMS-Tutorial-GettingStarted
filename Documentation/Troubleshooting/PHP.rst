@@ -5,10 +5,10 @@
 PHP
 ===
 
-.. _install-tool:
+.. _php-modules:
 
-Install Tool
-------------
+Missing PHP Modules
+-------------------
 
 The "System Environment" section of the Install Tool provides detailed
 information about any missing PHP modules and any other settings that
