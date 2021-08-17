@@ -11,20 +11,21 @@ By default, TYPO3s backend is set to English with no additional languages availa
 
 To install an additional language pack and have it set as the default backend language for your user account:
 
-* Admin Tools > Maintenance > Manage Languages Packs
+* :guilabel:`Admin Tools > Maintenance > Manage Languages Packs`
 
 * Select "Add Language" and "Activate" the new language
 
-* Toolbar (top right) > User Avatar > User Settings
+* :guilabel:`Toolbar (top right) > User Avatar > User Settings`
 
-* Language > Select the new language > Save > Reload the browser
+* :guilabel:`Language > Select the new language > Save > Reload the browser`
 
 Note, this change only applies to your account.
 
-To change the backend language of another user:
+Change The Backend Language Of Another User
+-------------------------------------------
 
 * :guilabel:`System > Backend Users`
 
 * Select the user
 
-* User Interface Language > Select New language
+* :guilabel:`User Interface Language > Select New language`

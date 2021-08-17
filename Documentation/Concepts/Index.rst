@@ -26,7 +26,7 @@ Other tasks such as adding additional backend users and managing third party ext
 Access The Backend
 ------------------
 
-The backend can be accessed via 'example.com/typo3'.
+The backend can be accessed via `example.com/typo3`.
 
 By default, users are presented with the CMS's Overview Dashboard when they log in to the backend.
 

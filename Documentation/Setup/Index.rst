@@ -1,6 +1,6 @@
 .. include:: /Includes.rst.txt
 
-.. _index:
+.. _setup:
 
 =====
 Setup
