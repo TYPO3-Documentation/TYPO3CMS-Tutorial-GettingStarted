@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: backend, frontend, concepts
 
 .. _concepts:
 
@@ -18,6 +19,8 @@ who have been granted access. The frontend is what the visitor will see when bro
 Backend
 =======
 
+.. include:: ../Images/AutomaticScreenshots/Dashboard/Dashboard.rst.txt
+
 The backend's main role is to enable users to create and publish content for their site.
 
 The backend is also used to configure an installation of TYPO3. Domains, languages and other information that determines how a site behaves are managed via the backend.
@@ -27,6 +30,8 @@ Access The Backend
 ------------------
 
 The backend can be accessed via `example.com/typo3`.
+
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/loginScreen.rst.txt
 
 By default, users are presented with the CMS's Overview Dashboard when they log in to the backend.
 
@@ -43,6 +48,8 @@ The backend contains a range of modules that are grouped by task.
 
 -  The System group contains modules that allow administrators to manage access to the backend itself, view error logs and provide information specific to that installation.
 
+.. include:: ../Images/AutomaticScreenshots/Modules/ModuleBar.rst.txt
+
 Extensions
 ----------
 
@@ -52,6 +59,8 @@ that provide an entire suite of functionality such as the TYPO3 Blog Extension f
 
 Frontend
 ========
+
+.. include:: ../Images/AutomaticScreenshots/Frontend/IntroductionPackageHome.rst.txt
 
 The frontend combines the content created in the backend along with the installation's HTML templates to generate web pages.
 

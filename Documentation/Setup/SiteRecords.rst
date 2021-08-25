@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: site, domain configuration, languages
 
 .. _siterecords:
 
@@ -23,6 +24,8 @@ Site name, title and entry point
 
 :guilabel:`Site Management > Sites > "THING"`
 
+.. include:: ../Images/AutomaticScreenshots/Modules/SiteManagementEdit.rst.txt
+
 * **Root Page ID*** Points to the root page of the page tree for this site
 * **Site Identifier** Used internally, make this unique and only use alphanumeric characters (will also be the directory name of this site configuration)
 * **Website Title** Visible in the front end title tag
@@ -36,6 +39,8 @@ Configure the first/default language
 ++++++++++++++++++++++++++++++++++++
 
 :guilabel:`Site Management > Languages`
+
+.. include:: ../Images/AutomaticScreenshots/Modules/SiteManagementLanguages.rst.txt
 
 TYPO3 adds a "default" language to the site configuration during installation.
 

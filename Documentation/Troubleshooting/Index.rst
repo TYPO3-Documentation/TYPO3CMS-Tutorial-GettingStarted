@@ -1,5 +1,7 @@
 .. include:: /Includes.rst.txt
 
+.. index:: troubleshooting
+
 .. _troubleshooting_index:
 
 

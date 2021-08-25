@@ -1,5 +1,7 @@
 .. include:: /Includes.rst.txt
 
+.. index:: php requirements, php, windows, opcode cache
+
 .. _php:
 
 PHP

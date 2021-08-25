@@ -126,3 +126,4 @@ that explains how TYPO3 is installed.
   IntroductionPackage/Index
   NextSteps/Index
   Sitemap
+  genindex

@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: extensions, composer
 
 .. _extensions_index:
 
@@ -69,12 +70,6 @@ for example `for the extension news <https://extensions.typo3.org/extension/news
 
 Here, the package name is `georgringer/news`.
 
-.. figure:: ../Images/ter_news.png
-   :class: with-shadow
-   :alt: Detail view for extension "news"
-
-   Detail view for extension "news"
-
 Often the package name will be vendor + slash + extension key.
 However, if the extension key contains an underscore, it is replaced
 with a slash in the package name. Example for
@@ -102,18 +97,19 @@ or in the composer.json file of the extension, for example:
 
 :file:`public/typo3conf/ext/introduction/composer.json`:
 
-.. this is json but results in warnings if lex "json" is used
 
-.. code-block:: none
+.. code-block:: json
 
-   "require": {
-      "typo3/cms-core": "^9.5",
-      "typo3/cms-impexp": "^9.5",
-      "typo3/cms-form": "^9.5",
-      "typo3/cms-indexed-search": "^9.5",
-      "typo3/cms-felogin": "^9.5",
-      "bk2k/bootstrap-package": "^10.0"
-   },
+   {
+      "require": {
+         "typo3/cms-core": "^9.5",
+         "typo3/cms-impexp": "^9.5",
+         "typo3/cms-form": "^9.5",
+         "typo3/cms-indexed-search": "^9.5",
+         "typo3/cms-felogin": "^9.5",
+         "bk2k/bootstrap-package": "^10.0"
+      }
+   }
 
 Here, the package name is bk2k/bootstrap-package, but the extension key is bootstrap_package,
 as is explained in :ref:`find-out-composer-package-name`.
@@ -149,24 +145,9 @@ In the backend:
 
 1. Go to :guilabel:`"ADMIN TOOLS" > "Extensions"`
 2. In the Docheader, select :guilabel:`"Get Extensions"`
-
-   .. figure:: ../Images/em_extensions.png
-      :class: with-shadow
-      :alt: Select "Get Extensions" in Extension Manager
-
-      Select "Get Extensions" in Extension Manager
-
 3. Click :guilabel:`"Update now"`
 
    The button is on the top right.
-
-
-   .. figure:: ../Images/em_extensions_get.png
-      :class: with-shadow
-      :alt: Search for the extension and install
-
-      Search for the extension and install
-
 
 4. Enter the name of the extension in the search field
 5. Click on :guilabel:`"Go"`
@@ -214,9 +195,8 @@ extensions manually with :file:`PackageStates.php` as a last resort, see :ref:`u
 Uninstall / Deactivate Extension via TYPO3 Backend
 --------------------------------------------------
 
-.. figure:: ../Images/em-uninstall-extension.png
-   :class: with-shadow
-   :alt: Select "Deactivate" in Extension Manager
+.. include:: ../Images/AutomaticScreenshots/ExtensionManager/UninstallExtension.rst.txt
+
 
 Log into the TYPO3 Backend and open the Extension Manager ('Ext Manager'). From the menu choose 'Install extensions'.
 You get an overview about installed extensions.
@@ -234,10 +214,6 @@ the grey Extension Install Icon.
 
 Remove an Extension via the TYPO3 Backend
 --------------------------------------------------
-
-.. figure:: ../Images/em-remove-extension.png
-   :class: with-shadow
-   :alt: Select "Remove" in Extension Manager
 
 After successfully uninstalling an extension via the Extension Manager you can permanently remove the extension by
 clicking on the waste-basket symbol "Remove" beside the extensions entry in the Extension Manager.
@@ -266,28 +242,6 @@ Since LTS8 this can be done by removing the extensions configuration from the fi
 
 #. Remove the entry.
 
-It is no longer possible to remove an extension by setting :php:`'state' => 'inactive'` as was possible in LTS 6 and 7.
-
-In LTS 6 and 7 this can be done by editing the file :file:`PackageStates.php`
-
-.. rst-class:: bignums
-
-#. Open the file :file:`typo3conf/PackageStates.php`
-#. Search for your ext_key in the array.
-
-   .. code-block:: php
-
-      'ext_key' => [
-         'composerName' => '...',
-         'state' => 'active',
-         'packagePath' => '.../',
-         'suggestions' => [],
-      ],
-      ...
-
-#. Change :php:`'state' => 'active'` to :php:`'state' => 'inactive'`
-
-
 .. _remove-extension-manually:
 
 Removing an Extension Manually
@@ -303,7 +257,6 @@ Additional Information
 
 The following is independent of whether you install with Composer or without.
 
-
 .. _find-out-extension-key:
 
 Find out the Extension Key for an Extension
@@ -311,12 +264,6 @@ Find out the Extension Key for an Extension
 
 Again, go to the `Extension Repository <https://extensions.typo3.org/>`__,
 and search for the extension.
-
-.. figure:: ../Images/ter_news.png
-   :class: with-shadow
-   :alt: Detail view for extension "news"
-
-   Detail view for extension "news"
 
 The extension key is listed on the top. For the
 `extension news <https://extensions.typo3.org/extension/news/>`__,

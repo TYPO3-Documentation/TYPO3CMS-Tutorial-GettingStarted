@@ -1,5 +1,7 @@
 .. include:: /Includes.rst.txt
 
+.. index:: database, utf-8
+
 .. _troubleshooting_database:
 
 ========

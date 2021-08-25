@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: legacy installation
 
 .. _legacyinstallation:
 

@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/BackendUsers/NewUserGeneralTab.png
-   :class: with-shadow
-
-   Setting the base information for the new user

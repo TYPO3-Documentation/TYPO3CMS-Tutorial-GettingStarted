@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: system requirements, apache, nginx, database, mysql, sqlite
 
 .. _system-requirements:
 

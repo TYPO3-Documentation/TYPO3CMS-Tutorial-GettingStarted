@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/AccessModule/AccessChangeRecursively.png
-   :class: with-shadow
-
-   Preparing for recursively changing the group on the whole page tree

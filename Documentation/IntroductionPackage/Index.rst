@@ -65,8 +65,6 @@ The "Introduction Package" creates a number of pre-built pages within the page t
    Click on the :guilabel:`"View webpage"` icon (with an eye) to view the page
    in the frontend.
 
-.. image:: ../Images/ManualScreenshots/Frontend/FrontendPage.png
-
-
+.. include:: ../Images/AutomaticScreenshots/Frontend/IntroductionPackageHome.rst.txt
 
 

@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 
+.. index:: installation, deployment, requirements
 
 .. _install:
 
@@ -150,22 +151,14 @@ In the event that certain criteria aren't met, TYPO3 will display a list of issu
 
 Once changes have been made, TYPO3 can re-scan the host environment by reloading the page 'https://example-project-site.local/typo3/install.php'.
 
-.. figure:: images/1_install.png
-  :alt: TYPO3 Installation - Step 1
-  :class: with-shadow
-
-  TYPO3 Installation - Environment scan
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/Step1SystemEnvironment.rst.txt
 
 Select A Database
 -----------------
 
 Select a database connection driver and enter the credentials for the database.
 
-.. figure:: images/2_install.png
-  :alt: TYPO3 Installation - Step 2
-  :class: with-shadow
-
-  TYPO3 Installation - Select Database Connection
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/Step2DatabaseConnection.rst.txt
 
 TYPO3 can either connect to an existing empty database or create a new one.
 
@@ -174,13 +167,7 @@ The list of databases available is dependent on which database drivers are insta
 For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension 'pdo_mysql' is required.
 Once it's installed, 'MySQL Database' will be an available option.(Review)
 
-
-.. figure:: images/3_install.png
-  :alt: TYPO3 Installation - Step 3
-  :class: with-shadow
-
-  TYPO3 Installation - Select Database
-
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
 Create Administrative User & Set Site Name
 ------------------------------------------
@@ -189,11 +176,7 @@ An administrator account needs to be created to gain access to TYPO3's backend.
 
 An email address for this user can also be specified and a name can also be given.
 
-.. figure:: images/4_install.png
-  :alt: TYPO3 Installation - Step 4
-  :class: with-shadow
-
-  TYPO3 Installation - Specifying Credentials
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/Step4AdminUserSitename.rst.txt
 
 
 Initialise
@@ -204,12 +187,7 @@ it can go directly to the backend administrative interface.
 Beginners should select the first option and allow TYPO3 to create an empty starting page,
 this will also generate a site configuration file.
 
-.. figure:: images/5_install.png
-  :alt: TYPO3 Installation - Step 5
-  :class: with-shadow
-
-  TYPO3 Installation - Create an empty starting page
-
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/Step5LastStep.rst.txt
 
 Next Steps
 ----------

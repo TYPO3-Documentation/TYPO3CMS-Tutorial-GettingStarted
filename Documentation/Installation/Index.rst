@@ -1,5 +1,7 @@
 .. include:: /Includes.rst.txt
 
+.. index:: installation
+
 .. _installation_index:
 
 ============
