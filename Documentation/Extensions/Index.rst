@@ -26,7 +26,20 @@ Working With Extensions
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Managing Extensions (Legacy)<extensions_management>`
+            .. rubric:: :ref:`Installing Local Extensions<https://docs.typo3.org/m/typo3/tutorial-getting-started/m/en-us/Extensions/Management.html#installing-local-extensions>`
+
+         .. container:: card-body
+
+            Information on how to install local extensions including sitepackages and custom
+            extensions using Composer.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Managing Extensions - Legacy Guide<extensions_legacy_management>`
 
          .. container:: card-body
 
@@ -40,4 +53,5 @@ Working With Extensions
    :titlesonly:
 
    Management.rst
+   Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/m/en-us/Extensions/Management.html#installing-local-extensions>
    LegacyManagement.rst

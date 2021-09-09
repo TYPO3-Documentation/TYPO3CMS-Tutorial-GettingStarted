@@ -2,9 +2,9 @@
 
 .. _extensions_legacy_management:
 
-===================
-Legacy Installation
-===================
+==================================
+Managing Extensions - Legacy Guide
+==================================
 
 Installing an Extension using the Extension Manager
 ===================================================

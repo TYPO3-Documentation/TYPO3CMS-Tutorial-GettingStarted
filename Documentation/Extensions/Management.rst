@@ -2,9 +2,9 @@
 
 .. _extensions_management:
 
-=========================
-Installation & Management
-=========================
+===================
+Managing Extensions
+===================
 
 Both system extensions and third-party extensions are managed using Composer. Composer handles
 the installation of the extension and also installs any dependencies that may be
@@ -76,6 +76,39 @@ The composer command `remove` uninstalls an extension.
 
 The updated :file:`composer.lock` file needs to be committed to the version
 control system.
+
+.. _install_local_extensions_using_composer:
+
+Installing local extensions
+===========================
+
+Local extensions including sitepackages and custom extensions also need to be
+installed using Composer.
+
+Custom extensions should be placed in a dedicated, local directory: `documentroot/packages`.
+
+Once this directory exists, update the installations `composer.json` and add this directory
+as a new repository:
+
+.. code-block:: json
+
+     {
+         "repositories": [
+             {
+                 "type": "path",
+                 "url": "./packages/*/"
+             },
+         ],
+     }
+
+Then run `composer require` to the install the local extension:
+
+.. code-block:: shell
+
+   composer require vendor/my-local-extension
+
+By executing this command, Composer locates `my-local-extension` and then symlinks
+it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
 
 
 Additional information
