@@ -29,6 +29,23 @@ Troubleshooting
 
             *  :ref:`Caching<troubleshooting-caching>`
 
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`System Modules <system_modules>`
+
+         .. container:: card-body
+
+            *  :ref:`Log<system-modules-log>`
+
+            *  :ref:`DB Check<system-modules-dbcheck>`
+
+            *  :ref:`Configuration<system-modules-configuration>`
+
+            *  :ref:`Reports<system-modules-reports>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -79,6 +96,7 @@ Troubleshooting
    :titlesonly:
 
    TYPO3.rst
+   SystemModules.rst
    PHP.rst
    WebServer.rst
    Database.rst
