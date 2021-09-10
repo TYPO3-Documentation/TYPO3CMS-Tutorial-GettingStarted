@@ -42,6 +42,21 @@ Installation
 
          .. rst-class:: card-header h3
 
+            .. rubric:: :ref:`TYPO3 Release Integrity <release_integrity>`
+
+         .. container:: card-body
+
+            Every release of TYPO3 is electronically signed by the TYPO3 release team.
+            In addition, every TYPO3 package also contains a unique file hash that
+            can be used to ensure file integrity when downloading the release. This guide
+            details how these signatures can be checked and how file hashes can be compared.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
             .. rubric:: :ref:`Legacy Installation Guide <legacyinstallation>`
 
          .. container:: card-body
@@ -54,6 +69,7 @@ Installation
    :hidden:
    :titlesonly:
 
-   Install.rst
-   DeployTYPO3.rst
-   LegacyInstallation.rst
+   Install
+   DeployTYPO3
+   ReleaseIntegrity
+   LegacyInstallation
