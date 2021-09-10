@@ -37,16 +37,15 @@ To install the Introduction Package run the following command:
 
    composer require typo3/cms-introduction
 
+This command will download and activate the extension.
 
-Use the following commands to activate the extension(s) via the command line:
+Then run:
 
 .. code-block:: shell
 
-   ./vendor/bin/typo3 extension:activate bootstrap_package
-   ./vendor/bin/typo3 extension:activate introduction
+   extension:setup
 
-In this case, the Introduction Package depends on the Bootstrap Package
-(extension key: `bootstrap_package`), so both packages have to be activated.
+This will set up the extension ready for immediate use.
 
 .. _install-intro-first-steps:
 
