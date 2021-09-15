@@ -22,7 +22,7 @@ However, some additional information is required once TYPO3 is installed.
 Site name, title and entry point
 --------------------------------
 
-:guilabel:`Site Management > Sites > "THING"`
+:guilabel:`Site Management > Sites > Edit Site Record > General`
 
 .. include:: ../Images/AutomaticScreenshots/Modules/SiteManagementEdit.rst.txt
 
