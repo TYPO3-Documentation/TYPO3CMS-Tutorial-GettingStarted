@@ -1,7 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/Modules/ReportsModule.png
-   :alt: The Status Report of the Reports module
-   :class: with-shadow
-
-   The Status Report of the Reports module

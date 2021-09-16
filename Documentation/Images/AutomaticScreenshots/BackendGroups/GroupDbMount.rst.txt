@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/BackendGroups/GroupDbMount.png
-   :class: with-shadow
-
-   Change DB Mount

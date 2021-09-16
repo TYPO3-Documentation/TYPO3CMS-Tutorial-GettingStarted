@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/BackendUsers/CreateNewUser.png
-   :class: with-shadow
-
-   Creating a new backend user from the "Backend Users" module

@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/ListModule/ListModuleContentArea.png
-   :class: with-shadow
-
-   The "List" module content area with its actions icons

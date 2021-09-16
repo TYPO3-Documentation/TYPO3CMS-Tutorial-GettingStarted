@@ -1,7 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/AdminTools/AdminTools.png
-   :alt: Admin Tools
-   :class: with-shadow
-
-   The Admin Tools in the Module Section

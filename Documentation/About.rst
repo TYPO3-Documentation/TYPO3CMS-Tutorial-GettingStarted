@@ -1,9 +1,8 @@
-
 :orphan:
 
-.. this file is linked from Index.rst but not included in the menu
-
 .. include:: /Includes.rst.txt
+
+.. this file is linked from Index.rst but not included in the menu
 
 .. _about:
 .. _about-this-document:

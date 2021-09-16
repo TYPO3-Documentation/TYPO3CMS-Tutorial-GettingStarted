@@ -6,6 +6,8 @@
 .. role:: js(code)
 .. role:: php(code)
 .. role:: typoscript(code)
+.. role:: shell(code)
+   :class: shell
 
 .. role:: ts(typoscript)
    :class: typoscript

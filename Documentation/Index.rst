@@ -1,119 +1,129 @@
 .. include:: /Includes.rst.txt
-.. index:: Getting started
+
 .. _start:
 
-========================
-Getting started tutorial
-========================
+===============
+Getting Started
+===============
 
-:Version:
-      |release|
+Welcome to Getting Started, this guide features an introduction to TYPO3 that highlights some of its core concepts including the backend
+administrative interface.
 
-:Language:
-      en
+This guide also contains information on how to configure the host operating system and features a detailed installation guide
+that explains how TYPO3 is installed.
 
-:Copyright:
-      2004-2019
+.. container:: row m-0 p-0
 
-:Authors:
-      TYPO3 community (see :ref:`credits`)
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
-:License:
-      Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
+      .. container:: card px-0 h-100
 
-:Audience:
-      Newcomers, editors, integrators, administrators
+         .. rst-class:: card-header h3
 
-:Status:
-      needs review (Last reviewed for TYPO3 9.5.8 on July 22, 2019)
+            .. rubric:: :ref:`Concepts <Concepts>`
+
+         .. container:: card-body
+
+            Written for new users, this chapter introduces some of TYPO3s core concepts including the backend, TYPO3s administration interface.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`System Requirements <System-Requirements>`
+
+         .. container:: card-body
+
+            System requirements for the host operation system, including its web server and database and how they should be configured prior to installation.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Installation <Install>`
+
+         .. container:: card-body
+
+            The installation chapter provides detailed instructions about how to install TYPO3, it also contains information about how to deploy TYPO3 to a production environment.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Setup <Setup>`
+
+         .. container:: card-body
+
+            Setup aims to guide you through the next steps post installation. Such as adding domains, setting up additional users and configuring languages.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Troubleshooting <Troubleshooting>`
+
+         .. container:: card-body
+
+            Troubleshoot common issues that can occur during installation. The Troubleshooting chapter covers both TYPO3 CMS and the host environment including the web server, database and PHP.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Working With Extensions <extensions_index>`
+
+         .. container:: card-body
+
+            Discover how third-party extensions are installed and managed using Composer.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`The Introduction Package <introductionpackage_index>`
+
+         .. container:: card-body
+
+            The Introduction Package is a great place to start if you are looking to test drive TYPO3 and see a prebuilt site that contains
+            a range of example page templates and content.
 
 
-**TYPO3**
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
-The content of this document is related to TYPO3 CMS,
-a GNU/GPL CMS/Framework available from `typo3.org
-<https://typo3.org/>`_ .
+      .. container:: card px-0 h-100
 
+         .. rst-class:: card-header h3
 
-**About this tutorial:**
+            .. rubric:: :ref:`Next Steps <next-steps>`
 
-The official tutorial to discover the main features and concepts of TYPO3 CMS.
-It is based on the Introduction Package. :ref:`Read more ... <about>`
+         .. container:: card-body
 
-
-**Official documentation:**
-
-This document is included as part of the official TYPO3 documentation.
-
-If you find an error or something is missing, please:
-`Report a Problem <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/new>`__
-
-**Tutorial**
-
-This document is a tutorial. Tutorials provide step-by-step
-instructions specifically created to walk a beginner through a
-particular task from beginning to end. To facilitate effective
-learning, tutorials provide examples to illustrate the subjects they
-cover. In addition, tutorials provide guidance on how to avoid common
-pitfalls and highlight key concepts that should be remembered for
-future reference.
-
-**For Contributors**
-
-You are welcome to help in improving this guide. Just click on "Edit me on GitHub"
-on the top right to submit your change request.
-
-General information:
-
-* :ref:`Contribute (in "Writing Documentation") <h2document:docs-contribute>`
-* :ref:`Contact the Documentation Team <h2document:contact-us>`.
-
-Links for this manual:
-
-:ref:`linktargets` | `GitHub repository <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
-| `Issues <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
+            Next Steps provides an overview of tasks that can be carried out once TYPO3 is installed, such as creating templates and adding content.
 
 
 .. toctree::
-   :maxdepth: 2
-   :hidden:
+  :hidden:
+  :titlesonly:
 
-   Introduction/Index
-   Installation/Index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: EDITING
-   :hidden:
-
-   GeneralPrinciples/Index
-   ListModule/Index
-   FileModule/Index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: ADMINISTRATION
-   :hidden:
-
-   UserManagement/Index
-   ExtensionManager/Index
-   OtherBackendModules/InfoAndFunctions/Index
-   OtherBackendModules/BackendLocalization/Index
-   OtherBackendModules/SystemModules/Index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: TEMPLATING
-   :hidden:
-
-   Templating/Index
-
-.. toctree::
-   :maxdepth: 2
-   :caption: NEXT STEPS
-   :hidden:
-
-   NextSteps/Index
-   Sitemap
-   GenIndex
+  Concepts/Index
+  SystemRequirements/Index
+  Installation/Index
+  Setup/Index
+  Troubleshooting/Index
+  Extensions/Index
+  IntroductionPackage/Index
+  NextSteps/Index
+  Sitemap
+  genindex
