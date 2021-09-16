@@ -122,7 +122,7 @@ Access TYPO3 via a web browser
 ------------------------------
 
 TYPO3 can now be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
-redirect all requests to `/typo3/index.php` to complete the installation process.
+redirect all requests to `/typo3/install.php` to complete the installation process.
 
 .. tip::
 
