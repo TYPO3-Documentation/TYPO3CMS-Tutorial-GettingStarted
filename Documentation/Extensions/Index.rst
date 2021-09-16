@@ -53,5 +53,5 @@ Working With Extensions
    :titlesonly:
 
    Management.rst
-   Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/m/en-us/Extensions/Management.html#installing-local-extensions>
+   Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/master/en-us/Extensions/Management.html#installing-local-extensions>
    LegacyManagement.rst
