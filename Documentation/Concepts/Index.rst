@@ -31,7 +31,7 @@ Access The Backend
 
 The backend can be accessed via `example.com/typo3`.
 
-.. include:: ../Images/AutomaticScreenshots/QuickInstall/loginScreen.rst.txt
+.. include:: ../Images/AutomaticScreenshots/QuickInstall/LoginScreen.rst.txt
 
 By default, users are presented with the CMS's Overview Dashboard when they log in to the backend.
 
