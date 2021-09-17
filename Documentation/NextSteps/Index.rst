@@ -11,8 +11,8 @@ Next Steps and Further Reading
 Once TYPO3 is installed, it is now possible to start the process of developing
 the site's visual appearance and creating pages and content inside the CMS.
 
-`Building The Sites Structure And Adding Content <https://docs.typo3.org/m/typo3/tutorial-editors/10.4/en-us/>`__
-=================================================================================================================
+:ref:`Building The Sites Structure And Adding Content <t3editors:start>`
+========================================================================
 
 Using the Page tree - start to define the structure of your site by creating pages.
 
@@ -25,14 +25,14 @@ Developing The Sites Visual Appearance
 
 There are two main topics that cover templating in TYPO3, Fluid and Site packages.
 
-`Fluid Templating <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/FluidTemplates/Index.html>`__
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:ref:`Fluid Templating <t3sitepackage:fluid-templates>`
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Fluid is TYPO3’s templating engine. Fluid acts as the link between a project's
 static HTML templates and the content that is created in TYPO3’s backend.
 
-`Site Packages <https://docs.typo3.org/m/typo3/tutorial-sitepackage/master/en-us/Index.html>`__
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+:ref:`Site Packages <t3sitepackage:start>`
+++++++++++++++++++++++++++++++++++++++++++
 
 Site packages are a type of extension that act as a storage point for a projects
 frontend assets and any configuration files that extend or change
