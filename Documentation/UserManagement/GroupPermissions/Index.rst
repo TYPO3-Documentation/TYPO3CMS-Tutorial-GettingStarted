@@ -194,10 +194,9 @@ They can then be selected when editing a backend user group:
 
 .. note::
 
-   The definition of file mount records also depends on so-called
-   m
+   The definition of file mount records also depends on so-call
    file storages. This topic is covered in more detail in the
-   :ref:`File Abstraction Layer reference <t3fal:start>`.
+   :ref:`File Abstraction Layer chapter in the TYPO3 Explained Manual <t3coreapi:fal>`.
 
 In order to inherit these settings in assigned users, activate the checkbox
 "Mount from groups" for the "File Mounts" in the `be_users` record of this
