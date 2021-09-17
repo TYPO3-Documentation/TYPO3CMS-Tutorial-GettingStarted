@@ -12,13 +12,12 @@ Installation
 
 These are the steps you must perform:
 
-#. Make sure your system is setup as described in `in System Requirements <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/In-depth/SystemRequirements/Index.html#system-requirements>`_.
+#. Make sure your system is setup as described in :ref:`t3install:system-requirements`.
 #. Install base system: It is recommended to use Composer for installing as described in
-   `Installing TYPO3 via Composer <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/QuickInstall/Composer/Index.html>`_.
-   As an alternative, you can install
-   TYPO3 `without using Composer <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/QuickInstall/GetAndUnpack/Index.html>`_.
-#. After the base installation, you must follow these steps to `complete the installation <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/QuickInstall/TheInstallTool/Index.html>`_.
-#. `Install the Introduction Package <https://docs.typo3.org/m/typo3/guide-installation/10.4/en-us/QuickInstall/IntroductionPackage/Index.html>`_.
+   :ref:`t3install:install-via-composer`. As an alternative, you can install
+   TYPO3 without Composer: :ref:`t3install:get-and-unpack-the-typo3-package`.
+#. After the base installation, you must follow the steps in :ref:`t3install:the-install-tool`.
+#. :ref:`Install the Introduction Package <t3install:introduction-package>`.
    During installation, the Introduction Package will create several example pages and
    content, it will configure the web site and add a website template using the Bootstrap
    Package.
