@@ -68,7 +68,7 @@ that explains how TYPO3 is installed.
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Troubleshooting <Troubleshooting>`
+            .. rubric:: :ref:`Troubleshooting <troubleshooting_index>`
 
          .. container:: card-body
 
