@@ -35,6 +35,10 @@ Installing on a Unix Server
       ln -s typo3_src/index.php index.php
       ln -s typo3_src/typo3 typo3
 
+.. important::
+   Make sure to upload the whole TYPO3 source directory including the
+   :file:`vendor` directory, otherwise you will miss important dependencies.
+
 #. This will then create the following structure:
 
    .. code-block:: none
@@ -44,7 +48,6 @@ Installing on a Unix Server
     ├── ── typo3_src -> ../typo3_src-11.3.x/
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
-
 
 Installing on a Windows Server
 ==============================
