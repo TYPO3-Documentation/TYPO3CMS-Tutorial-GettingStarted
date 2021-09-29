@@ -29,7 +29,7 @@ Site name, title and entry point
 * **Root Page ID*** Points to the root page of the page tree for this site
 * **Site Identifier** Used internally, make this unique and only use alphanumeric characters (will also be the directory name of this site configuration)
 * **Website Title** Visible in the front end title tag
-* **Entry Point** Here we attach the fully qualified domain of our web site - https://example.com/
+* **Entry Point** Here we attach the fully qualified domain of our web site - :samp:`https://example.com/`
 * **Variant for the entry point** Used to configure for example the local web site domain (in development context)
 
 Languages
