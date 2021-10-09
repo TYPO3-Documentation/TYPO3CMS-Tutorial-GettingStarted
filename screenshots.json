@@ -169,7 +169,7 @@
             "action": "switchToMainFrame"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "//button[contains(., 'Dashboard')]"
+            "toSelector": "//a[contains(., 'Dashboard')]"
           }, {
             "action": "click",
             "link": "Dashboard"
@@ -270,7 +270,7 @@
             "captionText": "TYPO3 Backend Modules"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "button#site"
+            "toSelector": "#site"
           }, {
             "action": "waitForText",
             "text": "Sites",
@@ -311,7 +311,7 @@
             "comment": "********************************************************"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "button#system"
+            "toSelector": "#system"
           }, {
             "action": "waitForText",
             "text": "Maintenance",
@@ -411,7 +411,7 @@
             "path": "Images/AutomaticScreenshots/BackendUsers"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "//button[contains(., 'Backend Users')]"
+            "toSelector": "//a[contains(., 'Backend Users')]"
           }, {
             "action": "click",
             "link": "Backend Users"
@@ -512,7 +512,7 @@
             "action": "reloadBackend"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "button#system"
+            "toSelector": "#system"
           }, {
             "action": "waitForText",
             "text": "Maintenance",
@@ -590,7 +590,7 @@
             "action": "reloadBackend"
           }, {
             "action": "scrollModuleMenuTo",
-            "toSelector": "button#system"
+            "toSelector": "#system"
           }, {
             "action": "waitForText",
             "text": "Settings",
