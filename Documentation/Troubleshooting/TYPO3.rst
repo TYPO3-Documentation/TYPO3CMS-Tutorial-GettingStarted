@@ -111,10 +111,11 @@ This is particularly useful when debugging Fluid errors:
 
 Additionally, the following logs should be checked for additional information:
 
-* Webserver log files for general problems (e.g. :file:`/var/log/apache2` on
-  Linux based system)
-* TYPO3 Administration log in :guilabel:`SYSTEM > Log` (in the backend)
-* TYPO3 logs writting by :ref:`Logging Framework <t3coreapi:logging>` in :file:`typo3temp/var/log`
+*  Webserver log files for general problems (e.g. :file:`/var/log/apache2` or :file:`/var/log/httpd` on
+   Linux based systems)
+*  TYPO3 Administration log in :guilabel:`SYSTEM > Log` via TYPO3's backend.
+*  TYPO3 logs written by the :ref:`Logging Framework <t3coreapi:logging>` located in :file:`var/log` 
+   or :file:`typo3temp/var/log` depending on the installation setup.
 
 .. _troubleshooting-caching:
 
