@@ -34,7 +34,7 @@ General Deployment Steps
 
     To avoid conflicts between the local and the server's PHP version,
     the server's PHP version can be defined in the :file:`composer.json` file
-    (e.g. ``{"platform": {"php": "7.2"}}``), so `composer` will always check
+    (e.g. ``{"platform": {"php": "7.4.10"}}``), so `composer` will always check
     the correct dependencies.
 
 Production Settings
@@ -44,7 +44,7 @@ To ensure a secure installation of TYPO3 on a production server, the following s
 
 - :guilabel:`Admin Tools > Settings > Configuration Presets` The "Live" preset has to be chosen to make sure no debug output is displayed.
 - `HTTPS` should be used on production servers and :php:`$GLOBALS['TYPO3_CONF_VARS']['BE']['lockSSL']` should be set to `true`.
-- The `TYPO3_CONTEXT` environment variable should be set to production (can be verified on the top right in the TYPO3 backend :guilabel:`Application Information`).
+- The `TYPO3_CONTEXT` environment variable should be set to a main context of `Production` (can be verified on the top right in the TYPO3 backend :guilabel:`Application Information`). It should be used to select the appropriate `base variant` for the target system in the Site Configuration.
 
 Additionally, verify the :ref:`file permissions <t3coreapi:file-directory-permissions>` on the live system.
 
@@ -54,36 +54,53 @@ Deployment Automation
 
 A typical setup for deploying web applications consists of three different parts:
 
-- The local environment
-- The build or continuous integration server (for example Gitlab CI or Github Actions)
+- The local environment (for development)
+- The build environment (for reproducible builds). This can be a controlled local environment or a remote continuous integration server (for example Gitlab CI or Github Actions)
 - The live (production) environment
 
-To get an application from the local environment to the production system, the usage of a deployment tool and/or a continuous integration solution is recommended.
+To get an application from the local environment to the production system, the usage of a deployment tool and/or a continuous integration solution is recommended. This ensures that only version-controlled code is deployed and that builds are reproducible. Ideally setting a new release live will be an atomical operation and lead to no downtime. If there are errors in any of the deployment or test stages, most deployment tools will initiate an automatic "rollback" preventing that an erroneous build is released.
 
-The directory structure of a 'production' TYPO3 installation looks like this:
+One widely employed strategy is the "symlink-switching" approach:
+
+In that strategy, the webserver serves files from a virtual path :file:`releases/current/public` which consists of a symlink :file:`releases/current` pointing to the latest deployment ("release"). That symlink is switched after a new release has been successfully prepared.
+The latest deployment contains symlinks to folders that should be common among all releases (commonly called "shared folders").
+
+Usually the database is shared between releases and upgrade wizards and schema upgrades are run automatically before or 
+shortly after the new release has been set live.
+
+This is an exemplatory directory structure of a "symlink-switching" TYPO3 installation:
 
 .. code-block:: none
 
-    ├── shared
+    ├── shared/
     │    ├── fileadmin/
     │    ├── typo3temp/
     │    └── var/
-    ├── releases
-    │    ├── current -> ../release1 (symlink to current release)
-    │    └── release1
-    │        ├── public
-    │        │  ├── typo3conf
-    │        │  ├── typo3temp -> ../../../shared/typo3temp/ (symlink)
-    │        │  └── index.php
+    │        ├── var/charset/
+    │        ├── var/lock/
+    │        ├── var/log/
+    │        └── var/session/
+    ├── releases/
+    │    ├── current -> ./release1 (symlink to current release)
+    │    └── release1/
+    │        ├── public/ (webserver root, via releases/current/public)
+    │        │   ├── typo3conf/
+    │        │   ├── fileadmin -> ../../../shared/fileadmin/ (symlink)
+    │        │   └── index.php
+    │        ├── var/
+    │        |   ├── var/build/
+    │        |   ├── var/cache/
+    │        |   ├── var/charset -> ../../../shared/var/charset/ (symlink)
+    │        |   ├── var/labels/
+    │        |   ├── var/lock -> ../../../shared/var/lock/ (symlink)
+    │        |   ├── var/log -> ../../../shared/var/log/ (symlink)
+    │        |   └── var/session -> ../../../shared/var/session/ (symlink)
+    │        ├── vendor/
     │        ├── composer.json
-    │        ├── composer.lock
-    │        ├── var -> ../../shared/var/ (symlink)
-    │        └── vendor
-    └── public -> releases/current/public (web server root, symlink)
+    │        └── composer.lock
 
 
-The files in `shared` are shared between different releases of a web site. This is the place were assets (images, videos or PDFs) or generated
-images are stored and where log files can be found.
+The files in `shared` are shared between different releases of a web site.
 The `releases` directory contains the TYPO3 code that will change between the release of each version.
 
 When using a deployment tool this kind of directory structure is usually created automatically.
