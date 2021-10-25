@@ -74,7 +74,6 @@ This is an exemplatory directory structure of a "symlink-switching" TYPO3 instal
 
     ├── shared/
     │    ├── fileadmin/
-    │    ├── typo3temp/
     │    └── var/
     │        ├── var/charset/
     │        ├── var/lock/
