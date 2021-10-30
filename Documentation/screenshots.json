@@ -139,9 +139,6 @@
             "width": 1024,
             "height": 768
           }, {
-            "action": "setScreenshotsDocumentationPath",
-            "path": "Documentation"
-          }, {
             "action": "setScreenshotsImagePath",
             "path": "Images/AutomaticScreenshots"
           }, {
