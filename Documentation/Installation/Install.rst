@@ -91,7 +91,7 @@ Create an empty file (without any extension) called `FIRST_INSTALL` in the `/pub
 
        .. code-block:: bash
 
-         touch example-project-directory/FIRST_INSTALL
+         touch example-project-directory/public/FIRST_INSTALL
 
    .. group-tab:: powershell
 
