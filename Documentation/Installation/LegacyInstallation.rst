@@ -21,9 +21,9 @@ Installing on a Unix Server
 
    Ensure that the package is one level above the web server's document root.
 
-#. Unpack the :file:`typo3_src-11.3.x.tar.gz`::
+#. Unpack the :file:`typo3_src-11.5.x.tar.gz`::
 
-   /var/www/site/$ tar xzf typo3_src-11.3.x.tar.gz
+   /var/www/site/$ tar xzf typo3_src-11.5.x.tar.gz
 
    Note that the `x` in the extracted folder will be replaced with the latest bugfix version of TYPO3.
 
@@ -31,7 +31,7 @@ Installing on a Unix Server
 #. Create the following symlinks in the document root::
 
       cd public
-      ln -s ../typo3_src-11.3.x typo3_src
+      ln -s ../typo3_src-11.5.x typo3_src
       ln -s typo3_src/index.php index.php
       ln -s typo3_src/typo3 typo3
 
@@ -43,9 +43,9 @@ Installing on a Unix Server
 
    .. code-block:: none
 
-    ├── typo3_src-11.3.x/
+    ├── typo3_src-11.5.x/
     ├── public/
-    ├── ── typo3_src -> ../typo3_src-11.3.x/
+    ├── ── typo3_src -> ../typo3_src-11.5.x/
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
 
@@ -61,7 +61,7 @@ Installing on a Windows Server
 #. Use the shell to create the following symlinks in the document root::
 
       cd public
-      mklink /d typo3_src ..\typo3_src-11.3.x
+      mklink /d typo3_src ..\typo3_src-11.5.x
       mklink /d typo3 typo3_src\typo3
       mklink index.php typo3_src\index.php
 
@@ -69,9 +69,9 @@ Installing on a Windows Server
 
    .. code-block:: none
 
-    ├── typo3_src-11.3.x/
+    ├── typo3_src-11.5.x/
     ├── public/
-    ├── ── typo3_src -> ../typo3_src-11.3.x/
+    ├── ── typo3_src -> ../typo3_src-11.5.x/
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
 
