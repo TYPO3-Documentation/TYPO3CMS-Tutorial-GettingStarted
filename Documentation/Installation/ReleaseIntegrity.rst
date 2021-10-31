@@ -16,12 +16,12 @@ Release contents
 Every release of TYPO3 is made available with the following files:
 
 .. code-block:: bash
-   :caption: `TYPO3 CMS 11.4.0 <https://get.typo3.org/version/11#accordion-heading-zip>`_ release as an example
+   :caption: `TYPO3 CMS 11.5.1 <https://get.typo3.org/version/11#accordion-heading-zip>`_ release as an example
 
-   typo3_src-11.4.0.tar.gz
-   typo3_src-11.4.0.tar.gz.sig
-   typo3_src-11.4.0.zip
-   typo3_src-11.4.0.zip.sig
+   typo3_src-11.5.1.tar.gz
+   typo3_src-11.5.1.tar.gz.sig
+   typo3_src-11.5.1.zip
+   typo3_src-11.5.1.zip.sig
 
 * ``*.tar.gz`` and ``*.zip`` files are the actual release packages, containing
   the source code of TYPO3 CMS
@@ -38,20 +38,20 @@ The file hashes for each version are published on get.typo3.org and can be found
 on the corresponding release page, for example https://get.typo3.org/version/11#package-checksums contains:
 
 .. code-block:: bash
-   :caption: TYPO3 11.4.0 Checksums
+   :caption: TYPO3 11.5.1 Checksums
    :name: Checksums
 
    SHA256:
-   04452d0dcecccad9398fc01d29ea8ba812bec0e008a98821ea803c81e6b35a56 typo3_src-11.4.0.tar.gz
-   8eda6053861e6e76cb251cb9bbc3d7b155eceac3ed57937473bc071b20886735 typo3_src-11.4.0.zip
+   205d1879e05c75093a2c427f7f7cacb297ca841e491450b3577987e259ff6c5b typo3_src-11.5.1.tar.gz
+   e07b303405d182f4450fda4a7a7acdbe5080c22123d52f74ef5f2fbf78233a49 typo3_src-11.5.1.zip
 
    SHA1:
-   3d262e6df54b0d2b41c3336011a07848f59c1197 typo3_src-11.4.0.tar.gz
-   0ad10332be8369a05e7f4d6df1c4143581ccb4bf typo3_src-11.4.0.zip
+   aa88171cfb5aa9935b2a989f51e68b6d8eb6e5f0 typo3_src-11.5.1.tar.gz
+   3dbe9322015e1d5266d78c6c3ff40846f8a6492f typo3_src-11.5.1.zip
 
    MD5:
-   3f55041fa966447fe42a0602702232e6 typo3_src-11.4.0.tar.gz
-   a63f65db9f915a15d333ea29c0a3e903 typo3_src-11.4.0.zip
+   cda2a4494f6673e9251c265c9ef1c345 typo3_src-11.5.1.tar.gz
+   252583501d30bb5679305b58ed6e6f94 typo3_src-11.5.1.zip
 
 
 To verify file hashes, the hashes need to be generated locally for the packages
@@ -63,20 +63,20 @@ The following commands generate hashes for the `.tar.gz` and `.zip` packages:
 .. code-block:: bash
 
    ~$ shasum -a 256 typo3_src-*.tar.gz typo3_src-*.zip
-   04452d0dcecccad9398fc01d29ea8ba812bec0e008a98821ea803c81e6b35a56 typo3_src-11.4.0.tar.gz
-   8eda6053861e6e76cb251cb9bbc3d7b155eceac3ed57937473bc071b20886735 typo3_src-11.4.0.zip
+   205d1879e05c75093a2c427f7f7cacb297ca841e491450b3577987e259ff6c5b typo3_src-11.5.1.tar.gz
+   e07b303405d182f4450fda4a7a7acdbe5080c22123d52f74ef5f2fbf78233a49 typo3_src-11.5.1.zip
 
 .. code-block:: bash
 
    ~$ sha1sum -c typo3_src-*.tar.gz typo3_src-*.zip
-   3d262e6df54b0d2b41c3336011a07848f59c1197 typo3_src-11.4.0.tar.gz
-   0ad10332be8369a05e7f4d6df1c4143581ccb4bf typo3_src-11.4.0.zip
+   aa88171cfb5aa9935b2a989f51e68b6d8eb6e5f0 typo3_src-11.5.1.tar.gz
+   3dbe9322015e1d5266d78c6c3ff40846f8a6492f typo3_src-11.5.1.zip
 
 .. code-block:: bash
 
    ~$ md5sum typo3_src-*.tar.gz typo3_src-*.zip
-   3f55041fa966447fe42a0602702232e6 typo3_src-11.4.0.tar.gz
-   a63f65db9f915a15d333ea29c0a3e903 typo3_src-11.4.0.zip
+   cda2a4494f6673e9251c265c9ef1c345 typo3_src-11.5.1.tar.gz
+   252583501d30bb5679305b58ed6e6f94 typo3_src-11.5.1.zip
 
 These hashes must match the hashes published on get.typo3.org to ensure package integrity.
 
@@ -92,17 +92,18 @@ To validate these signatures `The GNU Privacy Guard`_ is recommend, however
 any `OpenPGP`_ compliant tool can also be used.
 
 The release packages are using a detached binary signature. This means that
-the file ``typo3_src-11.4.0.tar.gz`` has an additional signature file
-``typo3_src-11.4.0.tar.gz.sig`` which is the detached signature.
+the file ``typo3_src-11.5.1.tar.gz`` has an additional signature file
+``typo3_src-11.5.1.tar.gz.sig`` which is the detached signature.
 
 .. code-block:: bash
 
-   gpg --verify typo3_src-11.4.0.tar.gz.sig typo3_src-11.4.0.tar.gz
+   gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
 
 .. code-block:: none
 
-   gpg: Signature made Tue  7 Sep 08:12:37 2021 BST using RSA key ID E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
-   gpg: Can't check signature: public key not found
+   gpg: Signature made Tue Oct 12 12:20:19 2021 UTC
+   gpg:                using RSA key E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
+   gpg: Can't check signature: No public key
 
 The warning means that the public key ``E7ED29A70309A0D1AE34DA733304BBDBFA9613D1`` is not yet available on the
 local system and cannot be used to validate the signature. The public key can be
@@ -123,17 +124,17 @@ obtained by any key server - a popular one is `pgpkeys.mit.edu`_.
    gpg:               imported: 3  (RSA: 3)
 
 Once the public key has been imported, the previous command on verifying the
-signature of the ``typo3_src-11.4.0.tar.gz`` file can be repeated.
+signature of the ``typo3_src-11.5.1.tar.gz`` file can be repeated.
 
 .. code-block:: bash
 
-   gpg --verify typo3_src-11.4.0.tar.gz.sig typo3_src-11.4.0.tar.gz
+   gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
 
 .. code-block:: none
 
-   gpg: Signature made Tue  7 Sep 08:12:37 2021 BST
+   gpg: Signature made Tue Oct 12 12:20:19 2021 UTC
    gpg:                using RSA key E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
-   gpg: Good signature from "TYPO3 Release Team (RELEASE) <typo3cms@typo3.org>"
+   gpg: Good signature from "Benjamin Mack <benni@typo3.org>" [unknown]
    gpg: WARNING: This key is not certified with a trusted signature!
    gpg:          There is no indication that the signature belongs to the owner.
    Primary key fingerprint: E7ED 29A7 0309 A0D1 AE34  DA73 3304 BBDB FA96 13D1
@@ -169,18 +170,18 @@ Checking signatures on Git tags works similar to verifying the results using the
 
 .. code-block:: bash
 
-   git tag --verify v11.4.0
+   git tag --verify v11.5.1
 
 
 .. code-block:: none
 
-   object e4da4be7d06b36ef3abef1c82ec9f9a7f0d3dce0
+   object dcba2a7ce93eaef0ad025dc21fdeb85636d7b4f4
    type commit
-   tag v11.4.0
-   tagger Benni Mack <benni@typo3.org> 1630998676 +0200
+   tag v11.5.1
+   tagger Benni Mack <benni@typo3.org> 1634041135 +0200
 
-   Release of TYPO3 11.4.0
-   gpg: Signature made Tue Sep  7 09:11:16 2021 CEST
+   Release of TYPO3 11.5.1
+   gpg: Signature made Tue Oct 12 14:18:55 2021 CEST
    gpg: using RSA key E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
    gpg: Good signature from "Benjamin Mack <benni@typo3.org>"
 
@@ -188,15 +189,15 @@ The ``git show`` command on the name of the tag reveals more details.
 
 .. code-block:: bash
 
-   git show v11.4.0
+   git show v11.5.1
 
 .. code-block:: none
 
-tag v11.4.0
+   tag v11.5.1
    Tagger: Benni Mack <benni@typo3.org>
-   Date:   Tue Sep 7 09:11:16 2021 +0200
+   Date:   Tue Oct 12 14:17:52 2021 +0200
 
-   Release of TYPO3 11.4.0
+   Release of TYPO3 11.5.1
    -----BEGIN PGP SIGNATURE-----
    ...
    -----END PGP SIGNATURE-----
