@@ -80,6 +80,18 @@ that explains how TYPO3 is installed.
 
          .. rst-class:: card-header h3
 
+            .. rubric:: :ref:`Managing Backend Users <user-management>`
+
+         .. container:: card-body
+
+            Learn how to create users and configure their backend privileges.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
             .. rubric:: :ref:`Working With Extensions <extensions_index>`
 
          .. container:: card-body
@@ -123,6 +135,7 @@ that explains how TYPO3 is installed.
   Setup/Index
   Troubleshooting/Index
   Extensions/Index
+  UserManagement/Index
   IntroductionPackage/Index
   NextSteps/Index
   Sitemap
