@@ -43,4 +43,4 @@ Composer
 ========
 
 Composer is only required for **local** installations - see `https://getcomposer.org <https://getcomposer.org>`_ for further
-information.
+information. It is recommended to always use the latest available Composer version. TYPO3 11.5 LTS requires at least Composer version 2.1.0.
