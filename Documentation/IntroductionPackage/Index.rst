@@ -23,8 +23,6 @@ It also features examples of the different kinds page content that you
 typically see on a website, such as paragraphs of text, images, tables
 and navigation menus.
 
-Find more information in :ref:`introduction-package`.
-
 .. _installing-introduction-package-with-composer:
 .. _installing-distributions-wit-composer:
 

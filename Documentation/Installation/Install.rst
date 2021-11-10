@@ -22,7 +22,7 @@ Pre-installation Checklist
 --------------------------
 
 - Command line (CLI) access with the ability to create directories and symbolic links.
-- Access to :ref:`Composer <composer>` via the CLI (for local development)
+- Access to `Composer <https://getcomposer.org>`__ via the CLI (for local development)
 - Access to the web server's root directory
 - Database with appropriate credentials
 
