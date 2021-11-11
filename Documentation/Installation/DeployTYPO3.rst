@@ -46,7 +46,7 @@ To ensure a secure installation of TYPO3 on a production server, the following s
 - `HTTPS` should be used on production servers and :php:`$GLOBALS['TYPO3_CONF_VARS']['BE']['lockSSL']` should be set to `true`.
 - The `TYPO3_CONTEXT` environment variable should be set to a main context of `Production` (can be verified on the top right in the TYPO3 backend :guilabel:`Application Information`). It should be used to select the appropriate `base variant` for the target system in the Site Configuration.
 
-Additionally, verify the :ref:`file permissions <t3coreapi:file-directory-permissions>` on the live system.
+Additionally, verify the :ref:`file permissions <t3coreapi:security-file-directory-permissions>` on the live system.
 
 
 Deployment Automation
@@ -65,7 +65,7 @@ One widely employed strategy is the "symlink-switching" approach:
 In that strategy, the webserver serves files from a virtual path :file:`releases/current/public` which consists of a symlink :file:`releases/current` pointing to the latest deployment ("release"). That symlink is switched after a new release has been successfully prepared.
 The latest deployment contains symlinks to folders that should be common among all releases (commonly called "shared folders").
 
-Usually the database is shared between releases and upgrade wizards and schema upgrades are run automatically before or 
+Usually the database is shared between releases and upgrade wizards and schema upgrades are run automatically before or
 shortly after the new release has been set live.
 
 This is an exemplatory directory structure of a "symlink-switching" TYPO3 installation:
