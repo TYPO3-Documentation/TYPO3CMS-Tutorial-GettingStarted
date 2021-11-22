@@ -15,10 +15,10 @@ and a password are always required to log into the backend.
 
 To display the *frontend*, enter the URL of your web site
 in the address bar of your browser (e.g.
-`http://www.your-site.example.org/`).
+:samp:`https://example.org/`).
 
 The *backend* is accessed by adding `/typo3/` to your web site's
-URL (e.g `http://www.your-site.example.org/typo3/`)
+URL (e.g :samp:`https://example.org/typo3/`)
 A login page looking like this will be displayed:
 
 .. figure:: ../../Images/BackendLoginPage.png
