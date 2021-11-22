@@ -178,10 +178,10 @@ The following section contains examples for various deployment tools and how the
         set('web_path', 'public/');
 
         host('live')
-            ->hostname('production.example.com')
+            ->hostname('production.example.org')
             ->user('deploy')
             ->set('branch', 'master')
-            ->set('public_urls', ['https://production.example.com'])
+            ->set('public_urls', ['https://production.example.org'])
             ->set('deploy_path', '/home/www/example-project-directory/live');
 
 
@@ -214,7 +214,7 @@ The following section contains examples for various deployment tools and how the
               host_path: /srv/vhosts/target-path/site/mage
               releases: 3
               hosts:
-                - production.example.com
+                - production.example.org
               pre-deploy:
                 - exec: { cmd: "composer install --no-dev --no-progress --optimize-autoloader"}
               on-deploy:
