@@ -29,7 +29,7 @@ Other tasks such as adding additional backend users and managing third party ext
 Access The Backend
 ------------------
 
-The backend can be accessed via `example.com/typo3`.
+The backend can be accessed via :samp:`example.org/typo3`.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/LoginScreen.rst.txt
 
