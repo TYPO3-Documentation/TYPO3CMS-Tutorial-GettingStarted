@@ -14,10 +14,10 @@ Un nom d'utilisateur et un mot de passe sont toujours nécessaires
 pour ouvrir une session dans le backend.
 
 Pour afficher le *frontend*, entrez l'URL de votre site web dans
-la barre d'adresse de votre navigateur (par exemple `http://www.votre-site.example.org/`).
+la barre d'adresse de votre navigateur (par exemple :samp:`https://example.org/`).
 
 Le *backend* est accessible en ajoutant / typo3 / à l'URL de votre site Web
-(par exemple `http://www.votre-site.example.org/typo3/`)
+(par exemple :samp:`https://example.org/typo3/`)
 Une page de connexion ressemblant à ceci sera affichée :
 
 .. figure:: ../../Images/BackendLoginPage.png

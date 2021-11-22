@@ -8,12 +8,12 @@ Human readable URLs
 ^^^^^^^^^^^^^^^^^^^
 
 By default TYPO3 CMS identifies the page which should be delivered by the "?id"
-parameter. Just enter *http://www.your-site.example.org/index.php?id=33* to get
+parameter. Just enter :samp:`https://example.org/index.php?id=33` to get
 the "Overview" page of the Introduction Package.
 
 This is convenient but not good for visitors nor for proper referencing.
 Human-readable URLs are provided by extension "realurl" (others exist).
-Thus the above-mentioned URL becomes *http://www.your-site.example.org/content-examples/overview/*.
+Thus the above-mentioned URL becomes :samp:`https://example.org/content-examples/overview/`.
 
 This should work out of the box with the Introduction Package. If it does not
 you may want to deactivate human-readable URLs. The simplest way to achieve
