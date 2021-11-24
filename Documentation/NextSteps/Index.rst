@@ -47,7 +47,7 @@ Keep Security In Mind
 =====================
 
 Security is taken very seriously by the developers of TYPO3. The
-`TYPO3 Security Team <http://typo3.org/teams/security/>`_ manage all security
+`TYPO3 Security Team <https://typo3.org/teams/security/>`_ manage all security
 incidents. They review them and consider their impact. Security advisories
 are regularly published.
 

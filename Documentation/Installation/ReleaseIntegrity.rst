@@ -157,8 +157,8 @@ of currently used keys or access the https://get.typo3.org/KEYS file directly).
    sub   rsa4096 2010-06-22 [E]
 
 .. _Pretty Good Privacy: https://en.wikipedia.org/wiki/Pretty_Good_Privacy
-.. _The GNU Privacy Guard: http://www.gnupg.org/
-.. _OpenPGP: http://www.openpgp.org/
+.. _The GNU Privacy Guard: https://www.gnupg.org/
+.. _OpenPGP: https://www.openpgp.org/
 .. _pgpkeys.mit.edu: https://pgpkeys.mit.edu/
 
 
