@@ -33,9 +33,9 @@ A user name and a password are always required to log into the backend.
 .. rst-class:: bignums
 
 
-1. Enter URL with `/typo3` in your browser
+1. Enter URL with :samp:`/typo3` in your browser
 
-   The *backend* is accessed by adding `/typo3/` to your web site's
+   The *backend* is accessed by adding :samp:`/typo3/` to your web site's
    URL (e.g :samp:`https://example.org/typo3/`).
 
    A login page looking like this will be displayed:
