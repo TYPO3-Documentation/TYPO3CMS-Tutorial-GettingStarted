@@ -8,7 +8,7 @@ Gardez à l'esprit la sécurité
 =============================
 
 La sécurité est prise très au sérieux par les développeurs de TYPO3 CMS.
-`L'équipe de sécurité TYPO3 <http://typo3.org/teams/security/>`_
+`L'équipe de sécurité TYPO3 <https://typo3.org/community/teams/security/>`_
 gère les potentiels incidents de sécurité. Ils les examinent et
 considèrent leurs impacts. Des avis de sécurité sont régulièrement publiés.
 

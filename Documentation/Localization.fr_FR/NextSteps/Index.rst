@@ -8,7 +8,7 @@ Prochaines étapes
 =================
 
 TYPO3 CMS a beaucoup de documentation disponible sur le
-`site Web de documentation <https://docs.typo3.org/typo3cms/>`_.
+`site Web de documentation <https://docs.typo3.org/>`_.
 La documentation est divisée en plusieurs sections:
 
 1. Les `Tutoriaux & Guides <https://docs.typo3.org/Home/GuidesAndTutorials.html>`_ présentent
