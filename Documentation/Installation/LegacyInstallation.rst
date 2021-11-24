@@ -14,8 +14,7 @@ is now considered out of date, users are strongly encouraged to use the Composer
 Installing on a Unix Server
 ===========================
 
-#. Download TYPO3's source package from `https://get.typo3.org/
-   <https://get.typo3.org/>`_::
+#. Download TYPO3's source package from https://get.typo3.org/ ::
 
    /var/www/site/$ wget --content-disposition https://get.typo3.org/11
 
@@ -52,8 +51,8 @@ Installing on a Unix Server
 Installing on a Windows Server
 ==============================
 
-#. Download TYPO3's source package from `https://get.typo3.org/
-   <https://get.typo3.org/>`_ and extract the :file:`.zip` file on the web server.
+#. Download TYPO3's source package from https://get.typo3.org/
+   and extract the :file:`.zip` file on the web server.
 
    Ensure that the package is one level above the web server's document root.
 
