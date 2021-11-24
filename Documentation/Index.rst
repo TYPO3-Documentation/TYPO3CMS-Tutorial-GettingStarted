@@ -24,7 +24,7 @@ Getting Started Tutorial
 
 :License:
       Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
+      <https://www.opencontent.org/openpub/>`_
 
 
 The content of this document is related to TYPO3 CMS,

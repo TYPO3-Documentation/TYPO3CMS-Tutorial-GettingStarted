@@ -8,7 +8,7 @@ Keep Security in Mind
 =====================
 
 Security is taken very seriously by the developers of TYPO3 CMS. The
-`TYPO3 Security Team <http://typo3.org/teams/security/>`_ manages possible security
+`TYPO3 Security Team <https://typo3.org/community/teams/security/>`_ manages possible security
 incidents. They review them and consider their impact. Security advisories
 are regularly published.
 
