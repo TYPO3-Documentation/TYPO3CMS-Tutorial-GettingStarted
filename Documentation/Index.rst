@@ -21,7 +21,7 @@ Getting Started Tutorial
 
 :License:
       Open Publication License available from `www.opencontent.org/openpub/
-      <http://www.opencontent.org/openpub/>`_
+      <https://www.opencontent.org/openpub/>`_
 
 :Target Audience:
       Newcomers, editors, integrators, administrators
