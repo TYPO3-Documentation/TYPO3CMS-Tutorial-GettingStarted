@@ -26,7 +26,7 @@ Getting Started Tutorial
          `Documentation Team <https://typo3.org/community/teams/documentation>`__
 
 :License:
-         `Open Publication License <http://www.opencontent.org/openpub/>`_
+         `Open Publication License <https://www.opencontent.org/openpub/>`_
 
 Le contenu de ce document est lié à TYPO3 CMS,
 un CMS/Framework GNU/GPL disponible à cette url `www.typo3.org <https://typo3.org/>`_ .

@@ -14,7 +14,7 @@ Pré-requis
 
 Pour essayer le CMS TYPO3 vous avez besoin d'avoir un serveur Web entièrement configuré et prêt
 à l'emploi qui répond aux `exigences système minimales
-<http://typo3.org/typo3-cms/overview/requirements/>`_.
+<https://get.typo3.org/version/7#system-requirements>`_.
 
 Si vous ne disposez pas d'un serveur web et que vous exécutez un MS Windows
 sur votre ordinateur, vous pourriez vouloir essayer le `TYPO3Winstaller

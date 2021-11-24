@@ -62,4 +62,4 @@ Sinon, vous pouvez simplement signaler le problème en utilisant le bug tracker 
 Maintenir une documentation de haute qualité nécessite du temps et des efforts
 que l' équipe de documentation de TYPO3 apprécie toujours .
 Si vous voulez nous aider, merci de joindre la liste de diffusion / forum
-de la documentation (http://forum.typo3.org/index.php/f/44/).
+de la documentation (https://forum.typo3.org/index.php/f/44/).

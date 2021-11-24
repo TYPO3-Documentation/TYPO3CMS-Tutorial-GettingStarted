@@ -17,7 +17,7 @@ To display the *frontend*, enter the URL of your web site
 in the address bar of your browser (e.g.
 :samp:`https://example.org/`).
 
-The *backend* is accessed by adding `/typo3/` to your web site's
+The *backend* is accessed by adding :samp:`/typo3/` to your web site's
 URL (e.g :samp:`https://example.org/typo3/`)
 A login page looking like this will be displayed:
 
