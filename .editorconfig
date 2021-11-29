@@ -1,6 +1,6 @@
 # EditorConfig is awesome: http://EditorConfig.org
 #
-# master file for TYPO3 docs: https://github.com/TYPO3-Documentation/T3DocTeam/blob/master/.editorconfig
+# master file for TYPO3 docs: https://github.com/TYPO3-Documentation/T3DocTeam/blob/main/.editorconfig
 
 # top-most EditorConfig file
 root = false

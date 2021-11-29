@@ -180,7 +180,7 @@ The following section contains examples for various deployment tools and how the
         host('live')
             ->hostname('production.example.org')
             ->user('deploy')
-            ->set('branch', 'master')
+            ->set('branch', 'main')
             ->set('public_urls', ['https://production.example.org'])
             ->set('deploy_path', '/home/www/example-project-directory/live');
 
