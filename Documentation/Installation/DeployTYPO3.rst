@@ -45,6 +45,7 @@ To ensure a secure installation of TYPO3 on a production server, the following s
 - :guilabel:`Admin Tools > Settings > Configuration Presets` The "Live" preset has to be chosen to make sure no debug output is displayed.
 - `HTTPS` should be used on production servers and :php:`$GLOBALS['TYPO3_CONF_VARS']['BE']['lockSSL']` should be set to `true`.
 - The `TYPO3_CONTEXT` environment variable should be set to a main context of `Production` (can be verified on the top right in the TYPO3 backend :guilabel:`Application Information`). It should be used to select the appropriate `base variant` for the target system in the Site Configuration.
+- It is recommended to enfore HTTPS, e.g. by setting HSTS (Strict-Transport-Security header) in the Webserver configuration.
 
 Additionally, verify the :ref:`file permissions <t3coreapi:security-file-directory-permissions>` on the live system.
 
