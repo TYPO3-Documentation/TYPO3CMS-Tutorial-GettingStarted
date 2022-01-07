@@ -13,10 +13,11 @@ Welcome to the TYPO3 installation guide. This guide covers each of the steps req
 Installation And Deployment
 ---------------------------
 
-Composer should only ever be used to install TYPO3 on a local or development environment. By not using Composer in a live environment, the need to install
-dependencies are completely removed - reducing potential vectors for attack.
+Composer should only ever be used to install TYPO3 on a local or development environment.
+By **not using Composer** in a live environment there will be no need for installing
+dependencies - reducing potential vectors for attack.
 
-Once an installation is ready to go "live", it should then be moved or "deployed" to the live environment instead.
+Once an installation is ready to go "live", it should then be copied or "deployed" to the live environment instead.
 
 Pre-installation Checklist
 --------------------------
@@ -83,7 +84,7 @@ After this command has finished running, 'example-project-directory' will contai
 Verify Installation
 -------------------
 
-Create an empty file (without any extension) called `FIRST_INSTALL` in the `/public` directory:
+Create an empty file called `FIRST_INSTALL` in the `/public` directory:
 
 .. tabs::
 
@@ -122,7 +123,7 @@ Access TYPO3 via a web browser
 ------------------------------
 
 TYPO3 can now be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
-redirect all requests to `/typo3/install.php` to complete the installation process.
+redirects all requests to `/typo3/install.php` to complete the installation process.
 
 .. tip::
 
@@ -147,7 +148,7 @@ TYPO3 will now scan the host environment. During the scan TYPO3 will check the h
 
 If no issues are detected, the installation process can continue.
 
-In the event that certain criteria aren't met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
+In the event that certain criteria are not met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
 
 Once changes have been made, TYPO3 can re-scan the host environment by reloading the page 'https://example-project-site.local/typo3/install.php'.
 
@@ -165,7 +166,7 @@ TYPO3 can either connect to an existing empty database or create a new one.
 The list of databases available is dependent on which database drivers are installed on the host.
 
 For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension 'pdo_mysql' is required.
-Once it's installed, 'MySQL Database' will be an available option.(Review)
+Once it's installed, 'MySQL Database' will be an available option. (Review)
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
