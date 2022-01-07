@@ -105,9 +105,9 @@ Then run `composer require` to the install the local extension:
 
 .. code-block:: shell
 
-   composer require vendor/my-local-extension
+   composer require my-local-vendor/my-local-extension
 
-By executing this command, Composer locates `my-local-extension` and then symlinks
+By executing this command, Composer locates `my-local-vendor/my-local-extension` and then symlinks
 it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
 
 
