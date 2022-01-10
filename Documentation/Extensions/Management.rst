@@ -103,13 +103,13 @@ as a new repository:
          ],
      }
 
-Then run `composer require` to the install the local extension `my-local-extension` with vendor `vendor-name`:
+Then run `composer require` to the install the local extension `my-local-extension` with vendor `vendor`:
 
 .. code-block:: shell
 
-   composer require vendor-name/my-local-extension
+   composer require vendor/my-local-extension
 
-By executing this command, Composer locates `vendor-name/my-local-extension` and then symlinks
+By executing this command, Composer locates `vendor/my-local-extension` and then symlinks
 it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
 
 
