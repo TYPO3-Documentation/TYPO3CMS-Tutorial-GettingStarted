@@ -63,7 +63,7 @@ Execute Composer Create-Project
            ddev composer create "typo3/cms-base-distribution:^11"
 
 
-This command pulls down the latest release of TYPO3 and places it in the directory specified ``YourProjectDirectory``.
+This command pulls down the latest release of TYPO3 and places it in the :file:`example-project-directory`.
 
 After this command has finished running, :file:`example-project-directory` will contain the following structure:
 
