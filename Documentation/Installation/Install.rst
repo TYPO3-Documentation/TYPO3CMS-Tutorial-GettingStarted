@@ -149,7 +149,7 @@ If no issues are detected, the installation process can continue.
 
 In the event that certain criteria aren't met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
 
-Once changes have been made, TYPO3 can re-scan the host environment by reloading the page ``https://example-project-site.local/typo3/install.php``.
+Once changes have been made, TYPO3 can re-scan the host environment by reloading the page `https://example-project-site.local/typo3/install.php`.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step1SystemEnvironment.rst.txt
 
