@@ -89,7 +89,7 @@ Checking file signatures
 
 TYPO3 uses ``Pretty Good Privacy``_ to sign release packages and Git release tags.
 To validate these signatures `The GNU Privacy Guard`_ is recommend, however
-any ``OpenPGP``_ compliant tool can also be used.
+any `OpenPGP`_ compliant tool can also be used.
 
 The release packages are using a detached binary signature. This means that
 the file ``typo3_src-11.5.1.tar.gz`` has an additional signature file
