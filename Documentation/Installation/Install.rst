@@ -164,7 +164,7 @@ TYPO3 can either connect to an existing empty database or create a new one.
 
 The list of databases available is dependent on which database drivers are installed on the host.
 
-For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension ``pdo_mysql`` is required.
+For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension `pdo_mysql` is required.
 Once it's installed, ``MySQL Database`` will be an available option.(Review)
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
