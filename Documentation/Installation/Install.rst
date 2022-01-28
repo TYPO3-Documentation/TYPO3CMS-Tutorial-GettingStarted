@@ -65,7 +65,7 @@ Execute Composer Create-Project
 
 This command pulls down the latest release of TYPO3 and places it in the directory specified ``YourProjectDirectory``.
 
-After this command has finished running, ``example-project-directory`` will contain the following structure:
+After this command has finished running, :file:`example-project-directory` will contain the following structure:
 
 .. code-block:: none
 
