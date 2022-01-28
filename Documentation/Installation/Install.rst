@@ -63,9 +63,9 @@ Execute Composer Create-Project
            ddev composer create "typo3/cms-base-distribution:^11"
 
 
-This command pulls down the latest release of TYPO3 and places it in the directory specified 'YourProjectDirectory'.
+This command pulls down the latest release of TYPO3 and places it in the directory specified ``YourProjectDirectory``.
 
-After this command has finished running, 'example-project-directory' will contain the following structure:
+After this command has finished running, ``example-project-directory`` will contain the following structure:
 
 .. code-block:: none
 
@@ -149,7 +149,7 @@ If no issues are detected, the installation process can continue.
 
 In the event that certain criteria aren't met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
 
-Once changes have been made, TYPO3 can re-scan the host environment by reloading the page 'https://example-project-site.local/typo3/install.php'.
+Once changes have been made, TYPO3 can re-scan the host environment by reloading the page ``https://example-project-site.local/typo3/install.php``.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step1SystemEnvironment.rst.txt
 
@@ -164,8 +164,8 @@ TYPO3 can either connect to an existing empty database or create a new one.
 
 The list of databases available is dependent on which database drivers are installed on the host.
 
-For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension 'pdo_mysql' is required.
-Once it's installed, 'MySQL Database' will be an available option.(Review)
+For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension ``pdo_mysql`` is required.
+Once it's installed, ``MySQL Database`` will be an available option.(Review)
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
