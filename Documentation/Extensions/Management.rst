@@ -33,7 +33,9 @@ with a dash in the package name. For example:
 `Extension Builder <https://extensions.typo3.org/extension/extension_builder/>`__:
 
 * **extension key**: `extension_builder`
+* **vendor**: `friendsoftypo3`
 * **Composer package name**: `friendsoftypo3/extension-builder`
+
 
 
 Use :shell:`composer require` to install the extension
@@ -101,14 +103,16 @@ as a new repository:
          ],
      }
 
-Then run `composer require` to the install the local extension:
+Then run `composer require` to the install the local extension `my-local-extension` with vendor `vendor`:
 
 .. code-block:: shell
 
    composer require vendor/my-local-extension
 
-By executing this command, Composer locates `my-local-extension` and then symlinks
+By executing this command, Composer locates `vendor/my-local-extension` and then symlinks
 it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
+The setup from above defines that the extension is to be placed by composer into the folder `:file:packages/my-local-extension` 
+if it has not been already there.
 
 
 Additional information
