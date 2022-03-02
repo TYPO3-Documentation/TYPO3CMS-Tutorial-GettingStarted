@@ -8,15 +8,40 @@
 Installing TYPO3
 ================
 
-Welcome to the TYPO3 installation guide. This guide covers each of the steps required to install TYPO3 using the dependency manager Composer.
+Welcome to the TYPO3 installation guide. This guide covers each of the steps required 
+to install TYPO3 using the dependency manager Composer.
 
-Installation And Deployment
+Installation and deployment
 ---------------------------
 
-Composer should only ever be used to install TYPO3 on a local or development environment. By not using Composer in a live environment, the need to install
-dependencies are completely removed - reducing potential vectors for attack.
+It is recommended to not use Composer on a productive system to update and install 
+additional packages. Such changes should be made on a development system (locally in
+DDEV, on a non-productive part of the server, ...)
 
-Once an installation is ready to go "live", it should then be moved or "deployed" to the live environment instead.
+This way it can be prevented to install unwanted versions of packages. The files 
+:file:`composer.json` and :file:`composer.lock` can be kept under version controll
+and specify exactly what versions should be installed.
+
+Deployment to the productive system can be achieved by deploying these two 
+:file:`composer.*` files and calling 
+
+.. code-block:: sh
+   
+   composer install --no-dev
+ 
+.. warning:: 
+   Always use the :sh:`--no-dev` parameter to prevent installing packages marked as
+   "development only" to be deployed on the productive server.
+   
+Or by executing the above command on a development system or in a Docker container 
+in a deployment pipeline and then just transfer the following folders:
+
+.. code-block:: none
+
+   $ TYPO3 root directory
+   ├── webroot/typo3
+   ├── webroot/typo3conf
+   └── vendor
 
 Pre-installation Checklist
 --------------------------
@@ -83,7 +108,7 @@ After this command has finished running, :file:`example-project-directory` will 
 Verify Installation
 -------------------
 
-Create an empty file (without any extension) called `FIRST_INSTALL` in the `/public` directory:
+Create an empty file called `FIRST_INSTALL` in the `/public` directory:
 
 .. tabs::
 
@@ -122,7 +147,7 @@ Access TYPO3 via a web browser
 ------------------------------
 
 TYPO3 can now be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
-redirect all requests to `/typo3/install.php` to complete the installation process.
+redirects all requests to `/typo3/install.php` to complete the installation process.
 
 .. tip::
 
@@ -147,7 +172,7 @@ TYPO3 will now scan the host environment. During the scan TYPO3 will check the h
 
 If no issues are detected, the installation process can continue.
 
-In the event that certain criteria aren't met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
+In the event that certain criteria are not met, TYPO3 will display a list of issues it has detected accompanied by a resolution for each issue.
 
 Once changes have been made, TYPO3 can re-scan the host environment by reloading the page `https://example-project-site.local/typo3/install.php`.
 
@@ -164,8 +189,10 @@ TYPO3 can either connect to an existing empty database or create a new one.
 
 The list of databases available is dependent on which database drivers are installed on the host.
 
+
 For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension `pdo_mysql` is required.
-Once it's installed, :guilabel:`MySQL Database` will be an available option.(Review)
+Once it is installed, :guilabel:`MySQL Database` will be an available option.
+
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
