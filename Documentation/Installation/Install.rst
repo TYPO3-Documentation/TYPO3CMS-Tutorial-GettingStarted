@@ -19,18 +19,18 @@ additional packages. Such changes should be made on a development system (locall
 DDEV, on a non-productive part of the server, ...)
 
 This way it can be prevented to install unwanted versions of packages. The files 
-:file:`composer.json` and :file:`composer.lock` can be kept under version controll
+:file:`composer.json` and :file:`composer.lock` can be kept under version control
 and specify exactly what versions should be installed.
 
 Deployment to the productive system can be achieved by deploying these two 
 :file:`composer.*` files and calling 
 
-.. code-block:: sh
+.. code-block:: shell
    
    composer install --no-dev
  
 .. warning:: 
-   Always use the :sh:`--no-dev` parameter to prevent installing packages marked as
+   Always use the :shell:`--no-dev` parameter to prevent installing packages marked as
    "development only" to be deployed on the productive server.
    
 Or by executing the above command on a development system or in a Docker container 
