@@ -79,6 +79,7 @@ Execute Composer Create-Project
            cd example-project-directory
 
            # Tell DDEV to create a new project of type "typo3"
+           # 'docroot' MUST be 'public'
            ddev config  --project-type=typo3 --docroot=public --create-docroot
 
            # Start the ddev instance
