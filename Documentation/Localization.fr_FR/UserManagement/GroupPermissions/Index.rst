@@ -145,7 +145,7 @@ et du système de fichiers les membres du groupe peuvent exercer leurs droits.
 
 Ici nous allons seulement couvrir les montages.
 Des informations détaillées sur les espaces de travail
-peut être trouvées dans le :doc:`manuel lié à l'extension<workspaces:Index>`.
+peut être trouvées dans le :doc:`manuel lié à l'extension<ext_workspaces:Index>`.
 
 
 .. _db-mounts:

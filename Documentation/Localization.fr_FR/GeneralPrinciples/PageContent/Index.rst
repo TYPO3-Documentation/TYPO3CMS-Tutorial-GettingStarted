@@ -11,7 +11,7 @@ Voyons maintenant comment le contenu est structuré dans un site web TYPO3 CMS.
 Nous allons tout d'abord accéder à une page particulière:
 
 - dans le backend, cliquez sur la flèche droite de la page "Exemples de contenu"
-(à gauche du titre de page)
+  (à gauche du titre de page)
 
 - ensuite cliquez sur la page "Text and images"
 
