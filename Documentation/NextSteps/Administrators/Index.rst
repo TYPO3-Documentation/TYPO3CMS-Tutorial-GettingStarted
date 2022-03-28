@@ -31,7 +31,7 @@ which depends on and uses the
 `Bootstrap Package <https://extensions.typo3.org/extension/bootstrap_package/>`__ extension.
 
 The Introduction Package is a distribution. Find out more about distributions
-in "TYPO3 Explained": :ref:`t3api:distribution`.
+in "TYPO3 Explained": :ref:`t3coreapi:distribution`.
 
 The Introduction Package together with the Bootstrap Package provides
 a frontend layout based on bootstrap, adds configuration
@@ -42,7 +42,7 @@ custom theme for your own site.
 A good approach is to bundle everything for your site including a theme
 and configuration into a sitepackage.
 
-Read the :ref:`t3sitepackage8:start` (available since version 8.7) to learn how to do this.
+Read the :ref:`t3sitepackage:start` (available since version 8.7) to learn how to do this.
 
 Or watch this 3 part video series from the official TYPO3 YouTube channel:
 
@@ -58,7 +58,7 @@ Or watch this 3 part video series from the official TYPO3 YouTube channel:
 TypoScript
 ==========
 
-While the already mentioned :ref:`t3sitepackage8:start` (since v8.7) teaches you the TypoScript
+While the already mentioned :ref:`t3sitepackage:start` (since v8.7) teaches you the TypoScript
 you need to create a sitepackage, it is not a bad idea to get yourself a
 TypoScript introduction.
 

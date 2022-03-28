@@ -23,7 +23,7 @@ vous pouvez cliquer dessus et la vue actuelle sera sauvegardée dans cette liste
 
 L'icône en forme d'éclair ouvre le menu pour vider les différents caches utilisés par TYPO3 CMS
 afin d'améliorer les performances.
-Les caches sont décrits en détail dans les :ref:`APIs de base <t3api:caching>`.
+Les caches sont décrits en détail dans les :ref:`APIs de base <t3coreapi:caching>`.
 
 .. figure:: ../../Images/BackendTopbarHelp.png
    :alt: La barre supérieure avec le menu d'aide
