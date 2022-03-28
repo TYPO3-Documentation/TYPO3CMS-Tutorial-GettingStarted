@@ -45,7 +45,7 @@ DB Check
    "DB Check and :ref:`system-modules-configuration` are only available
    if the system extension "lowlevel" was installed and activated.
 
-   For Composer based systems (see also :ref:`t3install:extension-installation`):
+   For Composer based systems (see also :ref:`t3install:mig-composer-best-practices`):
 
    .. code-block:: bash
 
