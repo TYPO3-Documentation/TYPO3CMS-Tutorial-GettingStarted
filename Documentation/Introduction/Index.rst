@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _introduction:
@@ -73,7 +73,7 @@ From there you can hit the "Edit me on GitHub" button in the top right corner
 and submit a pull request via GitHub. Alternatively you can just file an issue
 using the bug tracker: https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues.
 
-You can also contact the Documentation Team directly in the 
+You can also contact the Documentation Team directly in the
 `Slack <https://my.typo3.org/about-mytypo3org/slack/>`__
 channel **#typo3-documentation**.
 
