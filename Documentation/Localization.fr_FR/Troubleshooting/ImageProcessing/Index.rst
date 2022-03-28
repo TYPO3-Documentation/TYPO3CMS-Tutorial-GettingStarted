@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _image-processing:
 .. _note-on-image-processing-in-typo:
