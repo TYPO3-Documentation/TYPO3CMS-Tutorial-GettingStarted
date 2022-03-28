@@ -1,89 +1,41 @@
 .. include:: Includes.txt
 
-
-.. _start:
-
-========================
-Getting Started Tutorial
-========================
+================================
+TYPO3 - Getting Started Tutorial
+================================
 
 :Version:
-      |release|
+   |release|
 
 :Language:
-      en
+   en
 
-:Copyright:
-      2004-2019
-
-:Authors:
-      TYPO3 community (see :ref:`credits`)
+:Author:
+   TYPO3 contributors
 
 :License:
-      Open Publication License available from `www.opencontent.org/openpub/
-      <https://www.opencontent.org/openpub/>`_
+   This document is published under the
+   `Open Publication License <https://www.opencontent.org/openpub/>`__.
 
-:Target Audience:
-      Newcomers, editors, integrators, administrators
+:Rendered:
+   |today|
 
-:Status:
-      ok - Tested and reviewed for TYPO3 9.5.8 on July 22, 2019
+----
 
+Welcome to Getting Started, this guide features an introduction to TYPO3 that
+highlights some of its core concepts including the backend administrative
+interface.
 
-**TYPO3**
+This guide also contains information on how to configure the host operating
+system and features a detailed installation guide that explains how TYPO3 is
+installed.
 
-The content of this document is related to TYPO3 CMS,
-a GNU/GPL CMS/Framework available from `typo3.org
-<https://typo3.org/>`_ .
+----
 
-
-**About this tutorial:**
-
-The official tutorial to discover the main features and concepts of TYPO3 CMS.
-It is based on the Introduction Package. :ref:`Read more ... <about>`
-
-
-**Official documentation:**
-
-This document is included as part of the official TYPO3 documentation.
-
-If you find an error or something is missing, please:
-`Report a Problem <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/new>`__
-
-**Tutorial**
-
-This document is a tutorial. Tutorials provide step-by-step
-instructions specifically created to walk a beginner through a
-particular task from beginning to end. To facilitate effective
-learning, tutorials provide examples to illustrate the subjects they
-cover. In addition, tutorials provide guidance on how to avoid common
-pitfalls and highlight key concepts that should be remembered for
-future reference.
-
-**For Contributors**
-
-You are welcome to help in improving this guide. Just click on "Edit me on GitHub"
-on the top right to submit your change request.
-
-General information:
-
-* :ref:`Contribute (in "Writing Documentation")  ➜  <h2document:docs-contribute>`
-* :ref:`Contact the Documentation Team ➜ <h2document:contact-us>`.
-
-Links for this manual:
-
-:ref:`linktargets` | `GitHub repository ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/>`__
-| `Issues ➜ <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues>`__
-
-
-**Sitemap:**
-
-:ref:`sitemap`
-
+**Table of Contents:**
 
 .. toctree::
    :maxdepth: 2
-   :hidden:
 
    Introduction/Index
    Installation/Index
@@ -91,7 +43,6 @@ Links for this manual:
 .. toctree::
    :maxdepth: 2
    :caption: EDITING
-   :hidden:
 
    GeneralPrinciples/Index
    ListModule/Index
@@ -100,7 +51,6 @@ Links for this manual:
 .. toctree::
    :maxdepth: 2
    :caption: ADMINISTRATION
-   :hidden:
 
    UserManagement/Index
    ExtensionManager/Index
@@ -111,21 +61,19 @@ Links for this manual:
 .. toctree::
    :maxdepth: 2
    :caption: TEMPLATING
-   :hidden:
 
    Templating/Index
 
 .. toctree::
    :maxdepth: 2
-   :caption: NEXT STEPS
-   :hidden:
 
    NextSteps/Index
-   Sitemap
+
+.. Meta Menu
 
 .. toctree::
-   :maxdepth: 1
-   :caption: ABOUT
    :hidden:
 
    About
+   Sitemap
+   genindex
