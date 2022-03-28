@@ -28,10 +28,10 @@ Here is a brief view of the *Template* module:
 
 Le Templating est couvert par d'autres tutoriels:
 
--  le :ref:`Tutoriel TypoScript en 45 minutes <t3ts45:start>` couvre les bases du TypoScript et
+-  le :doc:`Tutoriel TypoScript en 45 minutes <t3ts45:Index>` couvre les bases du TypoScript et
    comment générer du HTML lié aux pages et les éléments de contenu.
 
--  le :ref:`Tutoriel Templating <t3templating:start>` vous guide à travers l'intégration de modèles
+-  le :doc:`Tutoriel Templating <t3templating:Index>` vous guide à travers l'intégration de modèles
    HTML dans votre installation TYPO3 CMS utilisant TypoScript.
 
 .. _facts-about-templates-and-possibilities:

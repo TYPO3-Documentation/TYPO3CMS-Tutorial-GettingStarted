@@ -42,7 +42,7 @@ custom theme for your own site.
 A good approach is to bundle everything for your site including a theme
 and configuration into a sitepackage.
 
-Read the :ref:`t3sitepackage:start` (available since version 8.7) to learn how to do this.
+Read the :doc:`t3sitepackage:Index` (available since version 8.7) to learn how to do this.
 
 Or watch this 3 part video series from the official TYPO3 YouTube channel:
 
@@ -58,14 +58,14 @@ Or watch this 3 part video series from the official TYPO3 YouTube channel:
 TypoScript
 ==========
 
-While the already mentioned :ref:`t3sitepackage:start` (since v8.7) teaches you the TypoScript
+While the already mentioned :doc:`t3sitepackage:Index` (since v8.7) teaches you the TypoScript
 you need to create a sitepackage, it is not a bad idea to get yourself a
 TypoScript introduction.
 
-:ref:`TypoScript in 45 Minutes <t3ts45:start>` guides you through the
+:doc:`TypoScript in 45 Minutes <t3ts45:Index>` guides you through the
 basics of *TypoScript*.
 
-Use the :ref:`t3tsref:start` as a reference.
+Use the :doc:`t3tsref:Index` as a reference.
 
 Fluid
 =====

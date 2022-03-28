@@ -8,7 +8,7 @@ Les références
 ==============
 
 La référence TSconfig (Configuration Typoscript)
-  :ref:`La référence TSconfig <t3tsconfig:start>` couvre à la fois
+  :doc:`La référence TSconfig <t3tsconfig:Index>` couvre à la fois
   la *TSconfig des pages* et la *TSconfig des utilisateurs*,
   avec lesquelles vous êtes en mesure de changer en partie
   le comportement du backend.
@@ -17,7 +17,7 @@ La référence TSconfig (Configuration Typoscript)
   Cette référence explique quelles options sont disponibles dans TYPO3 CMS.
 
 La Référence TypoScript
-  Le :ref:`référence TypoScript <t3tsref:start>` décrit
+  Le :doc:`référence TypoScript <t3tsref:Index>` décrit
   les différentes fonctions et objets qui peuvent être utilisés
   pour configurer la sortie en **frontend**, y compris le gabarit complet
   de la page et le rendu individuel des éléments de contenu selon leur type.

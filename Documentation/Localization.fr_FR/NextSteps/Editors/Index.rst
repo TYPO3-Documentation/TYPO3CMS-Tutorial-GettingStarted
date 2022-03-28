@@ -7,7 +7,7 @@
 Tutoriel pour les éditeurs
 ==========================
 
-:ref:`Le Tutoriel pour les éditeurs <t3editors:start>`
+:doc:`Le Tutoriel pour les éditeurs <t3editors:Index>`
 explique comment ajouter ou modifier le contenu d'un site
 Web TYPO3 CMS existant. Il fournit les instructions les plus
 élémentaires étape par étape pour faire le travail.

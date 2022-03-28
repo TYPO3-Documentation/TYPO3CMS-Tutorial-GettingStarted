@@ -13,4 +13,4 @@ gère les potentiels incidents de sécurité. Ils les examinent et
 considèrent leurs impacts. Des avis de sécurité sont régulièrement publiés.
 
 Vous pouvez consulter plus d'informations sur la sécurité
-dans le :ref:`Guide de sécurité <t3security:start>`.
+dans le :doc:`Guide de sécurité <t3security:Index>`.

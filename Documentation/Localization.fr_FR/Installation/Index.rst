@@ -32,7 +32,7 @@ Installation du système de base TYPO3 CMS
 
 Vous devrez d'abord télécharger et installer le paquet TYPO3.
 Suivez les étapes indiquées dans la partie :ref:`Installation rapide <t3install:quick-installation>`
-du :ref:`Guide d'Installation et de mise à jour<t3install:start>`.
+du :doc:`Guide d'Installation et de mise à jour<t3install:Index>`.
 
 A l'étape 6, choisir de télécharger la liste des distributions.
 Voir ci-dessous.
