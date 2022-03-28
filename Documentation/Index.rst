@@ -74,5 +74,6 @@ installed.
 .. toctree::
    :hidden:
 
+   About
    Sitemap
    genindex
