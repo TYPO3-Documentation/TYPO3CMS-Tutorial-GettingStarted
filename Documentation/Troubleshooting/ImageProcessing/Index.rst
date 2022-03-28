@@ -13,6 +13,6 @@ it could that neither ImageMagick nor GraphicsMagic are installed on your
 server or that your installation is not properly configured.
 
 For more help on the topic, please refer to the
-:ref:`Installation Guide <t3install:start>`.
+:doc:`Installation Guide <t3install:Index>`.
 
 You could also ask for help in the `installation forums <https://forum.typo3.org/index.php/i/6/>`_.

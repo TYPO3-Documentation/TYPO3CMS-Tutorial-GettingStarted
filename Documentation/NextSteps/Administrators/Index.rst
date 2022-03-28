@@ -42,7 +42,7 @@ custom theme for your own site.
 A good approach is to bundle everything for your site including a theme
 and configuration into a sitepackage.
 
-Read the :ref:`t3sitepackage:start` to learn how to do this.
+Read the :doc:`t3sitepackage:Index` to learn how to do this.
 
 Or watch this 3 part video series from the official TYPO3 YouTube channel:
 
@@ -58,11 +58,11 @@ Or watch this 3 part video series from the official TYPO3 YouTube channel:
 TypoScript
 ==========
 
-While the already mentioned :ref:`t3sitepackage:start` teaches you the TypoScript
+While the already mentioned :doc:`t3sitepackage:Index` teaches you the TypoScript
 you need to create a sitepackage, it is not a bad idea to get yourself a
 TypoScript introduction.
 
-:ref:`TypoScript in 45 Minutes <t3ts45:start>` guides you through the
+:doc:`TypoScript in 45 Minutes <t3ts45:Index>` guides you through the
 basics of *TypoScript*.
 
 Use the `TypoScript Reference <https://docs.typo3.org/typo3cms/TyposcriptReference/8.7/>`
@@ -71,7 +71,7 @@ Use the `TypoScript Reference <https://docs.typo3.org/typo3cms/TyposcriptReferen
 Fluid
 =====
 
-In the :ref:`t3sitepackage:start` you will also have acquired a working knowledge
+In the :doc:`t3sitepackage:Index` you will also have acquired a working knowledge
 of Fluid, the templating engine. To learn more about Fluid, you may want to
 use the following resources:
 
@@ -79,7 +79,7 @@ use the following resources:
   used independently to TYPO3, it is developed outside of the TYPO3 project. This
   is the start page of the Fluid project.
 * :ref:`t3extbasebook:fluid` in the "Extbase / Fluid Book"
-* :ref:`t3viewhelper:start`
+* :doc:`t3viewhelper:Index`
 
 References
 ==========
