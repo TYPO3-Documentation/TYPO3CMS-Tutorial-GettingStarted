@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _introduction:
@@ -32,10 +32,10 @@ Selecting The Right Version Of This Tutorial
 
 .. tip:: Make sure the version of TYPO3 you are using matches the same revision of this tutorial
 
-   If you are using a different version of TYPO3, you can 
+   If you are using a different version of TYPO3, you can
    `select the appropriate revision of this tutorial <https://docs.typo3.org/Tips/UsingThisSite/Index.html#version-selector>`_
    that matches your installation by
-   finding the **Release** drop-down, located at the top left of 
+   finding the **Release** drop-down, located at the top left of
    this tutorials' navigation menu.
 
 How to Read This Tutorial

@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _system-modules:
@@ -40,11 +40,11 @@ DB Check
 
    "DB Check and :ref:`system-modules-configuration` are only available
    if the system extension "lowlevel" was installed and activated.
-   
+
    For Composer based systems (see also :ref:`t3install:extension-installation`):
-   
+
    .. code-block:: bash
-   
+
       composer req typo3/cms-lowlevel
 
 
