@@ -31,7 +31,7 @@ which depends on and uses the
 `Bootstrap Package <https://extensions.typo3.org/extension/bootstrap_package/>`__ extension.
 
 The Introduction Package is a distribution. Find out more about distributions
-in "TYPO3 Explained": :ref:`t3api:distribution`.
+in "TYPO3 Explained": :ref:`t3coreapi:distribution`.
 
 The Introduction Package together with the Bootstrap Package provides
 a frontend layout based on bootstrap, adds configuration

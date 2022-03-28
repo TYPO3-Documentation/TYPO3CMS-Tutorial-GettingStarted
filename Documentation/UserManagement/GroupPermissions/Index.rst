@@ -146,7 +146,7 @@ which part of the page tree and the file system the members of
 the group may exert their rights.
 
 We will cover only mounts here. Detailed information about
-workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
+workspaces can be found in the :ref:`related extension manual <ext_workspaces:start>`.
 
 
 .. _db-mounts:
