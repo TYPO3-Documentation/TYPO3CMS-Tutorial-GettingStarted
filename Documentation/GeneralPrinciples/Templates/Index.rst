@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _templates:
@@ -15,7 +15,7 @@ In TYPO3, this job is achieved using *templates* which can
 be seen as a kind of configuration language called *TypoScript*.
 
 The **WEB > Template** module provides an overview of the
-TypoScript configuration and allows to work with "template records", 
+TypoScript configuration and allows to work with "template records",
 which is where the TypoScript configuration is stored.
 
 Here is a brief view of the *Template* module:

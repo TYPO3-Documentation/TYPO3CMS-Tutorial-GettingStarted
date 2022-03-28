@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _file-module:
 .. _the-file-module:
@@ -18,7 +18,7 @@ all the media associated with your TYPO3 web site.
 Managing Files in TYPO3 CMS
 ===========================
 
-Files including documents and images are managed in the 
+Files including documents and images are managed in the
 Filelist module. Similar to the **WEB > List** module,
 it displays a navigation tree, which corresponds to the file
 structure on the server, and a list of all files for the

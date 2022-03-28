@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _using-the-list-module-effectively:
 
@@ -61,7 +61,7 @@ If you wish to have the list of icons expanded all the time, you can check the
 Also make sure that the **"Show clipboard"** box is checked, as we will explore
 this next.
 
-If you plan to manage a multilingual web site, you will want to 
+If you plan to manage a multilingual web site, you will want to
 check the **"Localization view"** checkbox.
 
 .. figure:: ../../Images/BackendListModuleOptions.png
