@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _groups:
@@ -25,7 +25,7 @@ module:
 We can see two groups that correspond to our users
 ("simple" and "advanced").
 
-To find out what group each user is a member of, select the 
+To find out what group each user is a member of, select the
 "information" action icon. A pop-up will open with detailed
 information about the group. Scroll down until you find the
 "References to this item:" section. This shows the list of backend

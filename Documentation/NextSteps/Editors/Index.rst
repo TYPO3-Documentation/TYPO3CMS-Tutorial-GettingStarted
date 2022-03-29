@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _next-steps-editors:
@@ -10,7 +10,7 @@ For Editors
 Tutorial for Editors
 ====================
 
-The :ref:`t3editors:start` explains how to add and amend content on an existing TYPO3 based website.
+The :doc:`t3editors:Index` explains how to add and amend content on an existing TYPO3 based website.
 It provides simple, step-by-step instructions that allows you to being using TYPO3 quickly.
 
 Video

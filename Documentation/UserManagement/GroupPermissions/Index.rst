@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _permissions:
@@ -123,12 +123,11 @@ making changes.
 
 .. figure:: ../../Images/BackendBackendGroupEditAllowDeny.png
    :alt: Setting permissions for values of the content type field
-   
+
 .. note::
 
    You can change the behavior in the install tool by setting
-   :ref:`[BE][explicitADmode]<t3coreapi:globals-typo3-conf-vars-be-explicitadmode>` 
-   to :php:`explicitDeny`.
+   :php:`[BE][explicitADmode]` to :php:`explicitDeny`.
 
 Limit to Languages
 ------------------
@@ -146,12 +145,12 @@ of the "Access Lists" tab.
 Mounts and Workspaces
 =====================
 
-The next tab contains very important fields which define 
+The next tab contains very important fields which define
 which parts of the page tree and the file system the members of
 the group may exert their rights over.
 
 We will cover only mounts here. Detailed information about
-workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
+workspaces can be found in the :doc:`related extension manual <ext_workspaces:Index>`.
 
 
 .. _db-mounts:
@@ -179,7 +178,7 @@ user. This record can be found in the "List" module on the root page and in the
 File Mounts
 -----------
 
-File mounts are similar to DB mounts but instead are used for manage access to files. 
+File mounts are similar to DB mounts but instead are used for manage access to files.
 The main difference is that file mount records must be defined by the administrator first.
 These are located in the root node:
 
