@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _next-steps-security:
@@ -12,4 +12,4 @@ Security is taken very seriously by the developers of TYPO3 CMS. The
 incidents. They review them and consider their impact. Security advisories
 are regularly published.
 
-More information about security can be found in :ref:`t3security:start`.
+More information about security can be found in :doc:`t3security:Index`.

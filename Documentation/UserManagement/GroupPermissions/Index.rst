@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _permissions:
@@ -146,7 +146,7 @@ which part of the page tree and the file system the members of
 the group may exert their rights.
 
 We will cover only mounts here. Detailed information about
-workspaces can be found in the :ref:`related extension manual <workspaces:start>`.
+workspaces can be found in the :doc:`related extension manual <ext_workspaces:Index>`.
 
 
 .. _db-mounts:
@@ -192,7 +192,7 @@ They can then simply be selected when editing a backend user group:
    The definition of file mount records also depends on so-called
    m
    file storages. This topic is covered in more detail in the
-   :ref:`File Abstraction Layer reference <t3fal:start>`.
+   :doc:`File Abstraction Layer reference <t3fal:Index>`.
 
 In order to inherit these settings in assigned users, activate the checkbox
 "Mount from groups" for the "File Mounts" in the `be_users` record of this

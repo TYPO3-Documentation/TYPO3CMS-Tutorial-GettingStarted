@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _next-steps-editors:
@@ -13,7 +13,7 @@ Introductions
 Tutorial for Editors
 --------------------
 
-The :ref:`t3editors:start` explains how to add or change content on an existing website in TYPO3 CMS.
+The :doc:`t3editors:Index` explains how to add or change content on an existing website in TYPO3 CMS.
 It provides the most basic step-by-step instructions to get the job
 done. This is very likely the next step that you want to take.
 
