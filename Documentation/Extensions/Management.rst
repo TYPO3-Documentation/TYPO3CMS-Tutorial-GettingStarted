@@ -36,8 +36,8 @@ with a dash in the package name. For example:
 * **Composer package name**: `friendsoftypo3/extension-builder`
 
 
-Use :shell:`composer require` to install the extension
-------------------------------------------------------
+Use :bash:`composer require` to install the extension
+-----------------------------------------------------
 
 .. code-block:: shell
 

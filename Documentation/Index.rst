@@ -1,16 +1,36 @@
 .. include:: /Includes.rst.txt
 
-.. _start:
+================================
+TYPO3 - Getting Started Tutorial
+================================
 
-===============
-Getting Started
-===============
+:Version:
+   |release|
 
-Welcome to Getting Started, this guide features an introduction to TYPO3 that highlights some of its core concepts including the backend
-administrative interface.
+:Language:
+   en
 
-This guide also contains information on how to configure the host operating system and features a detailed installation guide
-that explains how TYPO3 is installed.
+:Author:
+   TYPO3 contributors
+
+:License:
+   This document is published under the
+   `Open Publication License <https://www.opencontent.org/openpub/>`__.
+
+:Rendered:
+   |today|
+
+----
+
+Welcome to Getting Started, this guide features an introduction to TYPO3 that
+highlights some of its core concepts including the backend administrative
+interface.
+
+This guide also contains information on how to configure the host operating
+system and features a detailed installation guide that explains how TYPO3 is
+installed.
+
+----
 
 .. container:: row m-0 p-0
 
@@ -124,6 +144,7 @@ that explains how TYPO3 is installed.
 
             Next Steps provides an overview of tasks that can be carried out once TYPO3 is installed, such as creating templates and adding content.
 
+.. Table of Contents
 
 .. toctree::
   :hidden:
@@ -138,5 +159,11 @@ that explains how TYPO3 is installed.
   UserManagement/Index
   IntroductionPackage/Index
   NextSteps/Index
-  Sitemap
-  genindex
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
+   Sitemap
+   genindex

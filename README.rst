@@ -1,16 +1,9 @@
-\|
-`Contribute (to this manual) <CONTRIBUTING.md>`__  \|
-`Help & Support (TYPO3 documentation) <https://docs.typo3.org/typo3cms/HowToDocument/HowToGetHelp.html>`__ \|
-`Help & Support (TYPO3) <https://typo3.org/help>`__ \|
-
 ================================
 TYPO3 - Getting Started Tutorial
 ================================
 
-This is the "Getting Started Tutorial" for TYPO3. It is part of the official TYPO3 documentation
+This tutorial features an introduction to TYPO3 and highlights some of the key
+concepts, including installation and the backend administration interface.
 
-:Read online: https://docs.typo3.org/typo3cms/GettingStartedTutorial/
 :Repository:  https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted
-
-
-
+:Read online: https://docs.typo3.org/m/typo3/tutorial-getting-started/11.5/en-us/
