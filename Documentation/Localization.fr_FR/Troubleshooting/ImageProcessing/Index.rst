@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 .. _image-processing:
 .. _note-on-image-processing-in-typo:
@@ -14,7 +14,7 @@ ni ImageMagick ni GraphicsMagic ne soient installés sur votre serveur
 ou que votre installation ne soit pas correctement configurée.
 
 Pour plus de détails sur le sujet,
-merci de consulter le :ref:`Guide d'installation <t3install:start>`.
+merci de consulter le :doc:`Guide d'installation <t3install:Index>`.
 
 Vous pouvez également demander de l'aide sur
 les `forums d'installation <https://forum.typo3.org/index.php/i/6/>`_.

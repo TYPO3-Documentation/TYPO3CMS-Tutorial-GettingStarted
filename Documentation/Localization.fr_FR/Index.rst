@@ -1,67 +1,71 @@
-.. include:: Includes.txt
+.. include:: /Includes.rst.txt
 
-
-.. _start:
-
-========================
-Getting Started Tutorial
-========================
+=============================
+TYPO3 - Tutoriel de démarrage
+=============================
 
 :Version:
-         7 LTS
+   |release|
 
-:Language:
-         fr
+:Langue:
+   fr
 
-:Description:
-         Le tutoriel officiel pour découvrir les principaux concepts et fonctionnalités de TYPO3 CMS. Il s'appuie sur l'Introduction Package.
+:Auteur:
+   TYPO3 contributeurs
 
-:Keywords:
-         forBeginners, forEditors, forAdmins
+:Licence:
+   Ce document est publié sous la
+   `Open Publication License <https://www.opencontent.org/openpub/>`__.
 
-:Copyright:
-         Depuis 2004
+:Généré:
+   |today|
 
-:Author:
-         `Documentation Team <https://typo3.org/community/teams/documentation>`__
+----
 
-:License:
-         `Open Publication License <https://www.opencontent.org/openpub/>`_
+Bienvenue dans la section Démarrage, ce guide présente une introduction à TYPO3
+qui met en évidence certains de ses concepts fondamentaux, notamment l'interface
+d'administration backend.
 
-Le contenu de ce document est lié à TYPO3 CMS,
-un CMS/Framework GNU/GPL disponible à cette url `www.typo3.org <https://typo3.org/>`_ .
+Ce guide contient également des informations sur la façon de configurer le
+système d'exploitation hôte et présente un guide d'installation détaillé qui
+explique comment TYPO3 est installé.
 
-**Documentation officielle**
+----
 
-Ce document fait partie de la documentation officielle de TYPO3.
-Il a été approuvé par l' équipe de documentation TYPO3 suite à un
-processus de vérification par pairs. Les informations destinées aux lecteurs dans ce document devant être précises - merci de signaler les erreurs à l'équipe de Documentation ( documentation@typo3.org ).
-Les documents officiels sont tenues à jour selon les capacités de l'équipe de documentation.
-
-
-**Tutoriel**
-
-Ce document est un tutoriel. Les tutoriels sont conçus sous forme d'instructions spécifiquement créées pour mener étape par étape un débutant du début à la fin d'une tâche particulière. Pour faciliter un apprentissage efficace, les tutoriels fournissent des exemples pour illustrer les sujets qu'ils
-couvrent. En outre, les tutoriels fournissent des indications sur la façon d'éviter les pièges communs
-et mettre l'accent sur les concepts clés dont il faut se rappeler pour la suite .
-
-
-:ref:`Table des matières (Sitemap) <sitemap>`
+**Sommaire:**
 
 .. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :hidden:
-   :glob:
+   :maxdepth: 2
 
    Introduction/Index
    Installation/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: EDITING
+
    GeneralPrinciples/Index
    ListModule/Index
    FileModule/Index
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ADMINISTRATION
+
    ExtensionManager/Index
    UserManagement/Index
    OtherBackendModules/Index
    Troubleshooting/Index
+
+.. toctree::
+   :maxdepth: 2
+
    NextSteps/Index
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
    Sitemap
+   genindex

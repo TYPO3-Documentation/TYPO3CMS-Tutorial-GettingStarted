@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _templates:
@@ -28,10 +28,10 @@ Here is a brief view of the *Template* module:
 
 Templating itself is covered by other tutorials:
 
-- the :ref:`TypoScript in 45 minutes Tutorial <t3ts45:start>` covers the basics of TypoScript
+- the :doc:`TypoScript in 45 minutes Tutorial <t3ts45:Index>` covers the basics of TypoScript
   and how to relate pages and content elements to an actual HTML output.
 
-- the :ref:`Templating Tutorial <t3templating:start>` guides you through the actual integration
+- the :doc:`Templating Tutorial <t3templating:Index>` guides you through the actual integration
   of HTML models into your TYPO3 CMS installation using TypoScript.
 
 

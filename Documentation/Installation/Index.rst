@@ -1,4 +1,4 @@
-.. include:: ../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _installation:
@@ -27,7 +27,7 @@ Installing TYPO3 CMS Base System
 ================================
 
 First you will need to download and install the TYPO3 CMS Package.
-Follow the steps provided in the :ref:`t3install:start`.
+Follow the steps provided in the :doc:`t3install:Index`.
 
 Specifically, these are the steps you must perform:
 

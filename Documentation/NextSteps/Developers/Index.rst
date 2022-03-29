@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _next-steps-developers:
@@ -22,8 +22,8 @@ these resources:
 Understanding TYPO3
 ===================
 
-* :ref:`t3api:extension-architecture` (latest)
-* :ref:`t3api:api-overview` (latest)
+* :ref:`t3coreapi:extension-architecture` (latest)
+* :ref:`t3coreapi:api-overview` (latest)
 
 References
 ==========

@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _permissions:
@@ -145,7 +145,7 @@ et du système de fichiers les membres du groupe peuvent exercer leurs droits.
 
 Ici nous allons seulement couvrir les montages.
 Des informations détaillées sur les espaces de travail
-peut être trouvées dans le :ref:`manuel lié à l'extension<workspaces:start>`.
+peut être trouvées dans le :doc:`manuel lié à l'extension<ext_workspaces:Index>`.
 
 
 .. _db-mounts:
@@ -188,7 +188,7 @@ lors de l'édition d'un groupe d'utilisateurs backend :
 
    La définition des montages de fichiers dépend aussi de ce qu'on appelle
    les dossier de stockage de fichiers. Ce sujet est abordé plus en détail
-   dans la référence de :ref:`la couche d'abstraction de fichiers<t3fal:start>`.
+   dans la référence de :doc:`la couche d'abstraction de fichiers<t3fal:Index>`.
 
 .. _file-permissions:
 
