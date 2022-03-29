@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _templates:
@@ -15,7 +15,7 @@ In TYPO3, this job is achieved using *templates* which can
 be seen as a kind of configuration language called *TypoScript*.
 
 The **WEB > Template** module provides an overview of the
-TypoScript configuration and allows to work with "template records", 
+TypoScript configuration and allows to work with "template records",
 which is where the TypoScript configuration is stored.
 
 Here is a brief view of the *Template* module:
@@ -27,10 +27,10 @@ Here is a brief view of the *Template* module:
 
 Templating itself is covered by other tutorials:
 
-- the :ref:`TypoScript in 45 minutes Tutorial <t3ts45:start>` covers the basics of TypoScript
+- the :doc:`TypoScript in 45 minutes Tutorial <t3ts45:Index>` covers the basics of TypoScript
   and how to relate pages and content elements to an actual HTML output.
 
-- the :ref:`t3sitepackage:start` and the :ref:`Templating Tutorial <t3templating:start>` guides you
+- the :doc:`t3sitepackage:Index` and the :doc:`Templating Tutorial <t3templating:Index>` guides you
   through the actual integration
   of HTML models into your TYPO3 CMS installation using TypoScript.
 

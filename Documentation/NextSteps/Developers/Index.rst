@@ -1,4 +1,4 @@
-.. include:: ../../Includes.txt
+.. include:: /Includes.rst.txt
 
 
 .. _next-steps-developers:
@@ -19,10 +19,10 @@ in Extbase, the following resources are recommended:
 * book: `Michael Schams: "TYPO3 Extbase: Modern Extension
   Development for TYPO3 CMS with Extbase & Fluid"
   <https://www.extbase-book.org/>`__ (3rd edition for TYPO3 9, not official documentation)
-* online resource: :ref:`t3extbasebook:start` (official documentation, but partly outdated)
+* online resource: :doc:`t3extbasebook:Index` (official documentation, but partly outdated)
 
 .. important::
-   Note that currently, the online resource :ref:`t3extbasebook:start`
+   Note that currently, the online resource :doc:`t3extbasebook:Index`
    may be partly outdated. The `TYPO3 Extbase and Fluid book, 3rd edition
    <https://www.extbase-book.org/>`__ by Michael Schams was just released,
    so it should be up to date.
