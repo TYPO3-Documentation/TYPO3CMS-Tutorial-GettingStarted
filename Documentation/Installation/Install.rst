@@ -8,32 +8,32 @@
 Installing TYPO3
 ================
 
-Welcome to the TYPO3 installation guide. This guide covers each of the steps required 
+Welcome to the TYPO3 installation guide. This guide covers each of the steps required
 to install TYPO3 using the dependency manager Composer.
 
 Installation and deployment
 ---------------------------
 
-It is recommended to not use Composer on a productive system to update and install 
+It is recommended to not use Composer on a productive system to update and install
 additional packages. Such changes should be made on a development system (locally in
 DDEV, on a non-productive part of the server, ...)
 
-This way it can be prevented to install unwanted versions of packages. The files 
+This way it can be prevented to install unwanted versions of packages. The files
 :file:`composer.json` and :file:`composer.lock` can be kept under version control
 and specify exactly what versions should be installed.
 
-Deployment to the productive system can be achieved by deploying these two 
-:file:`composer.*` files and calling 
+Deployment to the productive system can be achieved by deploying these two
+:file:`composer.*` files and calling
 
 .. code-block:: shell
-   
+
    composer install --no-dev
- 
-.. warning:: 
-   Always use the :shell:`--no-dev` parameter to prevent installing packages marked as
+
+.. warning::
+   Always use the :bash:`--no-dev` parameter to prevent installing packages marked as
    "development only" to be deployed on the productive server.
-   
-Or by executing the above command on a development system or in a Docker container 
+
+Or by executing the above command on a development system or in a Docker container
 in a deployment pipeline and then just transfer the following folders:
 
 .. code-block:: none
