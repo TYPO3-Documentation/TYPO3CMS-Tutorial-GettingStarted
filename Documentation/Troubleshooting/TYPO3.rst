@@ -22,7 +22,7 @@ the password. Note that only backend users with administrative rights can
 access the `Backend Users` tool to make this change.
 
 If an alternative administrator account is not available or it doesn't have the
-appropriate access, access the Install Tool directly
+appropriate access, open the Install Tool directly
 using the following address to create a new administrative user::
 
    https://examle.com/typo3/install.php
