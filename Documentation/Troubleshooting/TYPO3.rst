@@ -92,7 +92,7 @@ changed to show errors in the frontend.
 
 .. include:: ../Images/AutomaticScreenshots/DebugSettings/DebugSettings.rst.txt
 
-The following TypoScript setting can also be added into the root template for
+The following TypoScript setting can also be added to the root template for
 the site to show additional debugging information.
 This is particularly useful when debugging Fluid errors:
 
