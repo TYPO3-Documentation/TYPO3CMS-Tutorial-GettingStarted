@@ -33,7 +33,7 @@ when TYPO3 was installed.
 .. include:: ../Images/AutomaticScreenshots/InstallTool/InstallToolPassword.rst.txt
 
 Once logged in to the Admin Tool go to :guilabel:`Maintenance > Create Administrative User`
-and select :guilabel:`Create Administrator`. In this dialog box you
+and select :guilabel:`Create Administrator`. Here you
 can create a new administrative user.
 
 .. include:: ../Images/AutomaticScreenshots/BackendUsers/CreateAdministrator.rst.txt
