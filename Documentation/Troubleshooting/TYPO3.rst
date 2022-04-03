@@ -16,7 +16,8 @@ Resetting Passwords
 Backend Administrator Password
 ------------------------------
 
-When the password for a backend user needs to be reset, log into the backend as a different user and use the :guilabel:`System > Backend Users` tool to reset
+When the password for a backend user needs to be reset, log into the backend as a
+different user and use the :guilabel:`System > Backend Users` tool to reset
 the password. Note that only backend users with administrative rights can
 access the `Backend Users` tool to make this change.
 
