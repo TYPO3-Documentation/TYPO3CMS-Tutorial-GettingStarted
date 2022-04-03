@@ -145,7 +145,7 @@ you will find::
 
 These files contain all :file:`ext\_tables.php` and
 :file:`ext\_localconf.php` files of the installed extensions
-concatenated in the order that they are loaded. Therefore including one of
+concatenated in their loading order. Therefore including one of
 these files would be the same as including potentially hundreds of PHP
 files and should improve performance.
 
