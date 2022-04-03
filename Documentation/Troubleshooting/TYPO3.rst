@@ -106,7 +106,7 @@ This is particularly useful when debugging Fluid errors:
 
 .. important::
 
-   Once debugging has been completed, make sure you remove any debug Typoscript and
+   Once debugging has been completed, remove any debug TypoScript and
    set Debug back to 'Live'.
 
 Additionally, the following logs should be checked for additional information:
