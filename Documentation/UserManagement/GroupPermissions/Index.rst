@@ -229,4 +229,4 @@ all categories are available.
 
 The category mounts only affect which categories can be attached to records. In
 the list module all categories can be seen if the user has access to the folder
-where the :sql:`sys_category` records are stored.
+where the `sys_category` records are stored.
