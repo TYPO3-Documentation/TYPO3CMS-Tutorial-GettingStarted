@@ -215,3 +215,18 @@ does. Choose either "Directory" or "Files" and start checking boxes.
 
 .. figure:: ../../Images/ManualScreenshots/UserManagement/BackendBackendGroupEditFilePermissions.png
    :alt: Giving specific file operation permissions
+
+
+.. _category-permissions:
+
+Category mounts
+---------------
+
+It is possible to limit the categories that a user can attach to a database
+record by choosing the allowed categories in the field
+:guilabel:`Category mount`. If no category is selected in the category mount,
+all categories are available.
+
+The category mounts only affect which categories can be attached to records. In
+the list module all categories can be seen if the user has access to the folder
+where the `sys_category` records are stored.
