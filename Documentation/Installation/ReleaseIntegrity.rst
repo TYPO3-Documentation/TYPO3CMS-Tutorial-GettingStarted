@@ -61,20 +61,23 @@ To generate the hashes locally, one of the following command-line tools ``md5sum
 The following commands generate hashes for the `.tar.gz` and `.zip` packages:
 
 .. code-block:: bash
+   :caption: ~$
 
-   ~$ shasum -a 256 typo3_src-*.tar.gz typo3_src-*.zip
+   shasum -a 256 typo3_src-*.tar.gz typo3_src-*.zip
    205d1879e05c75093a2c427f7f7cacb297ca841e491450b3577987e259ff6c5b typo3_src-11.5.1.tar.gz
    e07b303405d182f4450fda4a7a7acdbe5080c22123d52f74ef5f2fbf78233a49 typo3_src-11.5.1.zip
 
 .. code-block:: bash
+   :caption: ~$
 
-   ~$ sha1sum -c typo3_src-*.tar.gz typo3_src-*.zip
+   sha1sum -c typo3_src-*.tar.gz typo3_src-*.zip
    aa88171cfb5aa9935b2a989f51e68b6d8eb6e5f0 typo3_src-11.5.1.tar.gz
    3dbe9322015e1d5266d78c6c3ff40846f8a6492f typo3_src-11.5.1.zip
 
 .. code-block:: bash
+   :caption: ~$
 
-   ~$ md5sum typo3_src-*.tar.gz typo3_src-*.zip
+   md5sum typo3_src-*.tar.gz typo3_src-*.zip
    cda2a4494f6673e9251c265c9ef1c345 typo3_src-11.5.1.tar.gz
    252583501d30bb5679305b58ed6e6f94 typo3_src-11.5.1.zip
 
@@ -96,6 +99,7 @@ the file ``typo3_src-11.5.1.tar.gz`` has an additional signature file
 ``typo3_src-11.5.1.tar.gz.sig`` which is the detached signature.
 
 .. code-block:: bash
+   :caption: ~$
 
    gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
 
@@ -110,6 +114,7 @@ local system and cannot be used to validate the signature. The public key can be
 obtained by any key server - a popular one is `pgpkeys.mit.edu`_.
 
 .. code-block:: bash
+   :caption: ~$
 
    wget -qO- https://get.typo3.org/KEYS | gpg --import
 
@@ -127,6 +132,7 @@ Once the public key has been imported, the previous command on verifying the
 signature of the ``typo3_src-11.5.1.tar.gz`` file can be repeated.
 
 .. code-block:: bash
+   :caption: ~$
 
    gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
 
@@ -146,6 +152,7 @@ this case the correct one for TYPO3 CMS release packages (see below for a list
 of currently used keys or access the https://get.typo3.org/KEYS file directly).
 
 .. code-block:: bash
+   :caption: ~$
 
    gpg --fingerprint E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
 
@@ -169,6 +176,7 @@ Checking signatures on Git tags works similar to verifying the results using the
 ``gpg`` tool, but with using the ``git tag --verify`` command directly.
 
 .. code-block:: bash
+   :caption: ~$
 
    git tag --verify v11.5.1
 
@@ -188,6 +196,7 @@ Checking signatures on Git tags works similar to verifying the results using the
 The ``git show`` command on the name of the tag reveals more details.
 
 .. code-block:: bash
+   :caption: ~$
 
    git show v11.5.1
 
@@ -218,14 +227,19 @@ Public Keys
 You can download the used public keys from `get.typo3.org.keys`_
 
 * TYPO3 Release Team <typo3cms@typo3.org>
+
    + 4096 bit RSA key
    + Key ID `0x9B9CB92E59BC94C4`_
    + Fingerprint ``7AF5 1AAA DED9 D002 4F89  B06B 9B9C B92E 59BC 94C4``
+
 * Benni Mack <benni@typo3.org>
+
    + 4096 bit RSA key
    + Key ID `0x3304BBDBFA9613D1`_
    + Fingerprint ``E7ED 29A7 0309 A0D1 AE34  DA73 3304 BBDB FA96 13D1``
+
 * Oliver Hader <oliver@typo3.org>
+
    + 4096 bit RSA key
    + Key ID `0xC19FAFD699012A5A`_, subkey of `0xA36E4D1F16490937`_
    + Fingerprint ``0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937``

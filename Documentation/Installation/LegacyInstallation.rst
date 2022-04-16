@@ -15,20 +15,30 @@ Installing on a Unix Server
 ===========================
 
 #. Download TYPO3's source package from `https://get.typo3.org/
-   <https://get.typo3.org/>`_::
+   <https://get.typo3.org/>`_:
 
-   /var/www/site/$ wget --content-disposition https://get.typo3.org/11
+   .. code-block:: bash
+      :caption: /var/www/site/$
+
+      wget --content-disposition https://get.typo3.org/11
 
    Ensure that the package is one level above the web server's document root.
 
-#. Unpack the :file:`typo3_src-11.5.x.tar.gz`::
+#. Unpack the :file:`typo3_src-11.5.x.tar.gz`:
 
-   /var/www/site/$ tar xzf typo3_src-11.5.x.tar.gz
+   .. code-block:: bash
+      :caption: /var/www/site/$
+
+      tar xzf typo3_src-11.5.x.tar.gz
 
    Note that the `x` in the extracted folder will be replaced with the latest bugfix version of TYPO3.
 
 
-#. Create the following symlinks in the document root::
+#. Create the following symlinks in the document root:
+
+
+   .. code-block:: bash
+      :caption: /var/www/site/$
 
       cd public
       ln -s ../typo3_src-11.5.x typo3_src
@@ -58,7 +68,10 @@ Installing on a Windows Server
    Ensure that the package is one level above the web server's document root.
 
 
-#. Use the shell to create the following symlinks in the document root::
+#. Use the shell to create the following symlinks in the document root:
+
+   .. code-block:: bash
+      :caption: /var/www/site/$
 
       cd public
       mklink /d typo3_src ..\typo3_src-11.5.x

@@ -104,6 +104,7 @@ Since LTS8 this can be done by removing the extensions configuration from the fi
 #. Search for your ext_key in the array.
 
    .. code-block:: php
+      :caption: typo3conf/PackageStates.php
 
       'ext_key' => [
             'packagePath' => 'typo3conf/ext/ext_key/',

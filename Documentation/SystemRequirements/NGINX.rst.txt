@@ -10,6 +10,7 @@ to be created within the applications own configuration directory.
 Example NGINX configuration file:
 
 .. code-block:: nginx
+   :caption: /etc/nginx/conf.d/nginx.conf
 
    # Compressing resource files will save bandwidth and so improve loading speed especially for users
    # with slower internet connections. TYPO3 can compress the .js and .css files for you.
@@ -82,7 +83,7 @@ Example NGINX configuration file:
    location / {
        try_files $uri $uri/ /index.php$is_args$args;
    }
-   
+
    location = /typo3 {
        rewrite ^ /typo3/;
    }

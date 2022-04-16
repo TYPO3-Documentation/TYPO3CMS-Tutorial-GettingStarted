@@ -23,7 +23,9 @@ access the `Backend Users` tool to make this change.
 
 If an alternative administrator account is not available or it doesn't have the
 appropriate access, the Install Tool can be accessed directly
-using the following address to create a new administrative user::
+using the following address to create a new administrative user:
+
+.. code-block:: none
 
    https://examle.com/typo3/install.php
 
@@ -52,13 +54,18 @@ Install Tool Password
 Write access to :file:`typo3conf/LocalConfiguration.php` is required to reset the
 Install Tool password.
 
-Before editing this file, visit::
+Before editing this file, visit:
+
+.. code-block:: none
 
    https://examle.com/typo3/install.php
 
 
 Enter the new password into the dialogue box. As the new password is not correct,
-the following response will be returned::
+the following response will be returned:
+
+.. code-block:: none
+   :caption: Example Output
 
    "Given password does not match the install tool login password. Calculated hash:
    $argon2i$v=xyz"
@@ -66,7 +73,10 @@ the following response will be returned::
 Copy this hash including the :php:`$argon2i` part and any trailing dots.
 
 Then edit :file:`typo3conf/LocalConfiguration.php` and replace the following
-array entry with the new hashed password::
+array entry with the new hashed password:
+
+.. code-block:: php
+   :caption: typo3conf/LocalConfiguration.php
 
    'BE' => [
       'installToolPassword' => '$argon2i$v=xyz',
@@ -114,7 +124,7 @@ Additionally, the following logs should be checked for additional information:
 *  Webserver log files for general problems (e.g. :file:`/var/log/apache2` or :file:`/var/log/httpd` on
    Linux based systems)
 *  TYPO3 Administration log in :guilabel:`SYSTEM > Log` via TYPO3's backend.
-*  TYPO3 logs written by the :ref:`Logging Framework <t3coreapi:logging>` located in :file:`var/log` 
+*  TYPO3 logs written by the :ref:`Logging Framework <t3coreapi:logging>` located in :file:`var/log`
    or :file:`typo3temp/var/log` depending on the installation setup.
 
 .. _troubleshooting-caching:
@@ -138,7 +148,10 @@ Install Tool won't load any of these caches or any extension, so it
 should be safe to use regardless of the corrupt state of the Caches.
 
 Amongst other caches, under :file:`<var-path>/cache/code/core/`
-you will find::
+you will find:
+
+.. code-block:: bash
+   :caption: <var-path>/cache/code/core/
 
    -rw-rw----   1 www-data   www-data   61555  2014-03-26 16:28   ext_localconf_8b0519db6112697cceedb50296df89b0ce04ff70.php
    -rw-rw----   1 www-data   www-data   81995  2014-03-26 16:28   ext_tables_c3638687920118a92ab652cbf23a9ca69d4a6469.php

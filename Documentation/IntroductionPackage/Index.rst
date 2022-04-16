@@ -32,6 +32,7 @@ Installing The Introduction Package
 To install the Introduction Package run the following command:
 
 .. code-block:: shell
+   :caption: ~$
 
    composer require typo3/cms-introduction
 
@@ -40,6 +41,7 @@ This command will download and activate the extension.
 Then run:
 
 .. code-block:: shell
+   :caption: ~$
 
    extension:setup
 
