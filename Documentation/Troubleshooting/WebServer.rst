@@ -29,8 +29,11 @@ for "speaking URLs") and you might receive 404 (page not found) errors.
    documentation for your operating system distribution.
 
 For example, the modules can be
-enabled by editing your http.conf file, locating the required modules
-and removing the preceding hash symbol::
+enabled by editing your :file:`http.conf` file, locating the required modules
+and removing the preceding hash symbol:
+
+.. code-block:: none
+   :caption: http.conf
 
    #LoadModule expires_module modules/mod_expires.so
    #LoadModule rewrite_module modules/mod_rewrite.so
@@ -48,7 +51,10 @@ render.
 
 This problem is caused by the value of ThreadStackSize, which on
 Windows systems by default is set too low. To fix this, add the
-following lines at the end of your httpd.conf file::
+following lines at the end of your :file:`httpd.conf` file:
+
+.. code-block:: none
+   :caption: http.conf
 
    <IfModule mpm_winnt_module>
      ThreadStackSize 8388608

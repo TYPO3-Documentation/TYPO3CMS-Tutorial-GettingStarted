@@ -18,12 +18,18 @@ may not be configured correctly.
 
 For example, the PHP extensions openssl and fileinfo must be enabled. This can
 be achieved by adding (or uncommenting) the following lines in the [PHP]
-section of your php.ini file::
+section of your :file:`php.ini` file:
+
+.. code-block:: none
+   :caption: php.ini
 
    extension=fileinfo.so
    extension=openssl.so
 
-On a Windows-based server, these are the extension files::
+On a Windows-based server, these are the extension files:
+
+.. code-block:: none
+   :caption: php.ini
 
    extension=php_fileinfo.dll
    extension=php_openssl.dll

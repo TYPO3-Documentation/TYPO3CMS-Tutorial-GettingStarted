@@ -32,6 +32,7 @@ DB Check
    To install this system extension:
 
    .. code-block:: bash
+      :caption: ~$
 
       composer req typo3/cms-lowlevel
 

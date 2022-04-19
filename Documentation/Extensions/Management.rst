@@ -41,15 +41,18 @@ with a dash in the package name. For example:
 Use :bash:`composer require` to install the extension
 -----------------------------------------------------
 
-.. code-block:: shell
+.. code-block:: bash
+   :caption: /var/www/site/$
 
-  composer require <packagename>
+   composer require <packagename>
 
 To install the news extension:
 
-.. code-block:: shell
 
-  composer require georgringer/news
+.. code-block:: bash
+   :caption: /var/www/site/$
+
+   composer require georgringer/news
 
 This will add the extension requirement to the installations :file:`composer.json`
 and install the extension.
@@ -59,7 +62,8 @@ Whilst the extension is installed and activated automatically, it still needs to
 Setup the extension
 -------------------
 
-.. code-block:: shell
+.. code-block:: bash
+   :caption: /var/www/site/$
 
    ./vendor/bin/typo3 extension:setup
 
@@ -72,7 +76,8 @@ Uninstalling extensions
 
 The composer command `remove` uninstalls an extension.
 
-.. code-block:: shell
+.. code-block:: bash
+   :caption: /var/www/site/$
 
    composer remove georgringer/news
 
@@ -92,7 +97,9 @@ Custom extensions should be placed in a dedicated, local directory: `documentroo
 Once this directory exists, update the installations `composer.json` and add this directory
 as a new repository:
 
-.. code-block:: json
+
+.. code-block:: bash
+   :caption: /var/www/site/composer.json
 
      {
          "repositories": [
@@ -105,7 +112,9 @@ as a new repository:
 
 Then run `composer require` to the install the local extension `my-local-extension` with vendor `vendor`:
 
-.. code-block:: shell
+
+.. code-block:: bash
+   :caption: /var/www/site/$
 
    composer require vendor/my-local-extension
 

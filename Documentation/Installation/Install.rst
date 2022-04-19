@@ -25,7 +25,8 @@ and specify exactly what versions should be installed.
 Deployment to the productive system can be achieved by deploying these two
 :file:`composer.*` files and calling
 
-.. code-block:: shell
+.. code-block:: bash
+   :caption: /var/www/site/$
 
    composer install --no-dev
 
@@ -58,35 +59,38 @@ Execute Composer Create-Project
 
    .. group-tab:: bash
 
-       .. code-block:: bash
+      .. code-block:: bash
+         :caption: /var/www/site/$
 
          composer create-project typo3/cms-base-distribution:^11 example-project-directory
 
    .. group-tab:: powershell
 
-       .. code-block:: powershell
+      .. code-block:: powershell
+         :caption: /var/www/site/$
 
          composer create-project "typo3/cms-base-distribution:^11" example-project-directory
 
    .. group-tab:: ddev
 
-       .. code-block:: bash
+      .. code-block:: bash
+         :caption: /var/www/site/$
 
-           # Create a directory for your project
-           mkdir example-project-directory
+         # Create a directory for your project
+         mkdir example-project-directory
 
-           # Go into that directory
-           cd example-project-directory
+         # Go into that directory
+         cd example-project-directory
 
-           # Tell DDEV to create a new project of type "typo3"
-           # 'docroot' MUST be 'public'
-           ddev config  --project-type=typo3 --docroot=public --create-docroot
+         # Tell DDEV to create a new project of type "typo3"
+         # 'docroot' MUST be 'public'
+         ddev config  --project-type=typo3 --docroot=public --create-docroot
 
-           # Start the ddev instance
-           ddev start
+         # Start the ddev instance
+         ddev start
 
-           # Fetch a basic TYPO3 installation and its' dependencies
-           ddev composer create "typo3/cms-base-distribution:^11"
+         # Fetch a basic TYPO3 installation and its' dependencies
+         ddev composer create "typo3/cms-base-distribution:^11"
 
 
 This command pulls down the latest release of TYPO3 and places it in the :file:`example-project-directory`.
@@ -115,19 +119,22 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
 
    .. group-tab:: bash
 
-       .. code-block:: bash
+      .. code-block:: bash
+         :caption: /var/www/site/$
 
          touch example-project-directory/public/FIRST_INSTALL
 
    .. group-tab:: powershell
 
-       .. code-block:: powershell
+      .. code-block:: powershell
+         :caption: /var/www/site/$
 
          echo $null >> public/FIRST_INSTALL
 
    .. group-tab:: ddev
 
-       .. code-block:: bash
+      .. code-block:: bash
+         :caption: /var/www/site/$
 
          ddev exec touch public/FIRST_INSTALL
 
