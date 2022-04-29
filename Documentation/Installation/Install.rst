@@ -149,7 +149,7 @@ Access TYPO3 via a web browser
 
 After you configured your web server to point ot the `public` directory of your project,
 TYPO3 can be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
-redirect all requests to :samp:`/typo3/install.php` to complete the installation process.
+redirects all requests to :samp:`/typo3/install.php` to complete the installation process.
 
 .. tip::
 
