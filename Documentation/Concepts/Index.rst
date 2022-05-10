@@ -13,45 +13,58 @@ The backend & frontend
 
 TYPO3 is separated into two parts, the backend and the frontend.
 
+.. figure:: /Images/Illustrations/backend_frontend.png
+
 The backend is the administrative side of the CMS, it is only accessible to users
 who have been granted access. The frontend is what the visitor will see when browsing the site.
 
 Backend
 =======
 
-.. include:: ../Images/AutomaticScreenshots/Dashboard/Dashboard.rst.txt
+.. figure:: /Images/Illustrations/backend.png
 
 The backend's main role is to enable users to create and publish content for their site.
 
 The backend is also used to configure an installation of TYPO3. Domains, languages and other information that determines how a site behaves are managed via the backend.
 Other tasks such as adding additional backend users and managing third party extensions are also handled in the backend.
 
-Access The Backend
-------------------
+Accessing The Backend
+---------------------
 
 The backend can be accessed via :samp:`example.org/typo3`.
 
-.. include:: ../Images/AutomaticScreenshots/QuickInstall/LoginScreen.rst.txt
+.. figure:: /Images/Illustrations/backend_login.png
 
 By default, users are presented with the CMS's Overview Dashboard when they log in to the backend.
 
 Backend Modules
 ---------------
 
-The backend contains a range of modules that are grouped by task.
+.. container:: row
 
--  The Web group contains a set of modules that handle the creation and management of both pages and content.
+   .. container:: col-md-4
 
--  Site Management handles the setup of a site. From this module it is possible to specify the site name, assign domains and select what languages are to be used.
+        .. figure:: /Images/Illustrations/backend_module.png
 
--  Admin Tools features a collection of administrative modules that enable you to perform various maintenance and upgrade tasks. This module also contains the Extension manager, allowing you to enable and disable any third-party extensions that are currently installed.
+   .. container:: col-md-8
 
--  The System group contains modules that allow administrators to manage access to the backend itself, view error logs and provide information specific to that installation.
+      The backend contains a range of modules that are grouped by task. User access rights determine what modules are visible to users when they
+      are logged into the backend.
 
-.. include:: ../Images/AutomaticScreenshots/Modules/ModuleBar.rst.txt
+      - The Web group contains a set of modules that handle the creation and management of both pages and content.
+
+      - Site Management handles the setup of a site. From this module it is possible to specify the site name, assign domains and select what languages are to be used.
+
+      - Filelist provides a convenient way to view and manage files including documents, images and videos.
+
+      - Admin Tools features a collection of administrative modules that enable you to perform various maintenance and upgrade tasks. This module also contains the Extension manager, allowing you to enable and disable any third-party extensions that are currently installed.
+
+      - The System group contains modules that allow administrators to manage access to the backend itself, view error logs and provide information specific to that installation.
 
 Extensions
 ----------
+
+.. figure:: /Images/Illustrations/extensions.png
 
 Developed by the community, Extensions provide a range of solutions that help extend TYPO3. Extensions come in many forms from small extensions that carry out specific tasks to larger Extensions
 that provide an entire suite of functionality such as the TYPO3 Blog Extension for example.
@@ -60,7 +73,7 @@ that provide an entire suite of functionality such as the TYPO3 Blog Extension f
 Frontend
 ========
 
-.. include:: ../Images/AutomaticScreenshots/Frontend/IntroductionPackageHome.rst.txt
+.. figure:: /Images/Illustrations/frontend.png
 
 The frontend combines the content created in the backend along with the installation's HTML templates to generate web pages.
 
