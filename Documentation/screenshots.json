@@ -578,25 +578,6 @@
             "captionText": "Choose the debug preset"
           }
         ],
-        "Frontend": [
-          {
-            "include": "_default"
-          }, {
-            "action": "setScreenshotsImagePath",
-            "path": "Images/AutomaticScreenshots/Frontend"
-          }, {
-            "action": "setScreenshotsRstPath",
-            "path": "Images/AutomaticScreenshots/Frontend"
-          }, {
-            "action": "resizeWindow",
-            "width": 1024,
-            "height": 2048
-          }, {
-            "action": "amOnPage",
-            "page": "/?id=1"
-          }
-        ],
-
         "InstallToolLogin": [
           {
             "include": "_default"
