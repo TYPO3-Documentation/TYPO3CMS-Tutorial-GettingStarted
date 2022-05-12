@@ -196,11 +196,6 @@
             "width": 1232,
             "height": 1024
           }, {
-            "action": "makeScreenshotOfElement",
-            "selector": ".scaffold-modulemenu",
-            "fileName": "ModuleBar",
-            "captionText": "TYPO3 Backend Modules"
-          }, {
             "action": "scrollModuleMenuTo",
             "toSelector": "#site"
           }, {
