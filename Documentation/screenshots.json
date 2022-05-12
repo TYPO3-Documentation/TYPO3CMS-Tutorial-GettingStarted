@@ -122,11 +122,6 @@
         }, {
           "action": "waitForText",
           "text": "Login"
-        }, {
-          "action": "makeScreenshotOfElement",
-          "selector": ".typo3-login",
-          "fileName": "LoginScreen",
-          "captionText": "TYPO3 Login Screen after installation"
         }
         ]
       ]
@@ -147,66 +142,6 @@
           }, {
             "action": "setCodeSnippetsTargetPath",
             "path": "CodeSnippets"
-          }
-        ],
-        "Dashboard": [
-          {
-            "include": "_default"
-          }, {
-            "action": "resizeWindow",
-            "width": 1232,
-            "height": 780
-          }, {
-            "action": "setScreenshotsImagePath",
-            "path": "Images/AutomaticScreenshots/Dashboard"
-          }, {
-            "action": "setScreenshotsRstPath",
-            "path": "Images/AutomaticScreenshots/Dashboard"
-          }, {
-            "action": "switchToMainFrame"
-          }, {
-            "action": "scrollModuleMenuTo",
-            "toSelector": "//a[contains(., 'Dashboard')]"
-          }, {
-            "action": "click",
-            "link": "Dashboard"
-          }, {
-            "action": "switchToContentFrame"
-          }, {
-            "action": "click",
-            "link": "[data-modal-title='Delete dashboard']"
-          }, {
-            "action": "waitForModalDialogInMainFrame"
-          }, {
-            "action": "clickButtonInModalDialog",
-            "buttonLink": "Yes, delete it"
-          }, {
-            "action": "switchToContentFrame"
-          }, {
-            "action": "click",
-            "link": "[title='Add widget']"
-          }, {
-            "action": "waitForModalDialogInMainFrame"
-          }, {
-            "action": "waitForElement",
-            "element": ".dashboard-modal-item-block"
-          }, {
-            "action": "click",
-            "link": ".dashboard-modal-item-block"
-          }, {
-            "action": "wait",
-            "timeout": "0.2"
-          }, {
-            "action": "switchToContentFrame"
-          }, {
-            "action": "waitForText",
-            "text": "About TYPO3"
-          }, {
-            "action": "makeScreenshotOfWindow",
-            "fileName": "Dashboard",
-            "captionText": "TYPO3 CMS Dashboard"
-          }, {
-            "action": "switchToMainFrame"
           }
         ],
         "UserSettings": [
@@ -260,11 +195,6 @@
             "action": "resizeWindow",
             "width": 1232,
             "height": 1024
-          }, {
-            "action": "makeScreenshotOfElement",
-            "selector": ".scaffold-modulemenu",
-            "fileName": "ModuleBar",
-            "captionText": "TYPO3 Backend Modules"
           }, {
             "action": "scrollModuleMenuTo",
             "toSelector": "#site"
@@ -643,29 +573,6 @@
             "captionText": "Choose the debug preset"
           }
         ],
-        "Frontend": [
-          {
-            "include": "_default"
-          }, {
-            "action": "setScreenshotsImagePath",
-            "path": "Images/AutomaticScreenshots/Frontend"
-          }, {
-            "action": "setScreenshotsRstPath",
-            "path": "Images/AutomaticScreenshots/Frontend"
-          }, {
-            "action": "resizeWindow",
-            "width": 1024,
-            "height": 2048
-          }, {
-            "action": "amOnPage",
-            "page": "/?id=1"
-          }, {
-            "action": "makeScreenshotOfWindow",
-            "fileName": "IntroductionPackageHome",
-            "captionText": "TYPO3 Introduction Package Home Page"
-          }
-        ],
-
         "InstallToolLogin": [
           {
             "include": "_default"
