@@ -31,7 +31,7 @@ Deployment to the productive system can be achieved by deploying these two
    composer install --no-dev
 
 .. warning::
-   Always use the :bash:`--no-dev` parameter to prevent installing packages marked as
+   Always use the `--no-dev <https://getcomposer.org/doc/03-cli.md#install-i>`__ option to prevent installing packages marked as
    "development only" to be deployed on the productive server.
 
 Or by executing the above command on a development system or in a Docker container
