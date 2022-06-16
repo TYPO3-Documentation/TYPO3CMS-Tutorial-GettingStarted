@@ -4,24 +4,6 @@
 TYPO3 - Getting Started Tutorial
 ================================
 
-:Version:
-   |release|
-
-:Language:
-   en
-
-:Author:
-   TYPO3 contributors
-
-:License:
-   This document is published under the
-   `Open Publication License <https://www.opencontent.org/openpub/>`__.
-
-:Rendered:
-   |today|
-
-----
-
 Welcome to Getting Started, this guide features an introduction to TYPO3 that
 highlights some of its core concepts including the backend administrative
 interface.
@@ -143,6 +125,24 @@ installed.
          .. container:: card-body
 
             Next Steps provides an overview of tasks that can be carried out once TYPO3 is installed, such as creating templates and adding content.
+
+----
+
+:Version:
+   |release|
+
+:Language:
+   en
+
+:Author:
+   TYPO3 contributors
+
+:License:
+   This document is published under the
+   `Open Publication License <https://www.opencontent.org/openpub/>`__.
+
+:Rendered:
+   |today|
 
 .. Table of Contents
 
