@@ -18,9 +18,6 @@ mod_alias:
 mod_authz_core:
    Block access to specific files and directories
 
-mod_autoindex:
-   Used for disabling directory listings
-
 mod_deflate:
    Used for compression and performance.
 
