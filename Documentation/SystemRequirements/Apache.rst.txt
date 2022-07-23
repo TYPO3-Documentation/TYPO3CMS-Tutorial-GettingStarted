@@ -10,7 +10,12 @@ During the initial installation, TYPO3's default :file:`.htaccess` file is copie
 
 **Apache Modules**
 
-The following Apache modules are required:
+The following Apache modules are required. The list is based on what is used in
+the default TYPO3
+`.htaccess <https://github.com/TYPO3/typo3/blob/main/typo3/sysext/install/Resources/Private/FolderStructureTemplateFiles/root-htaccess>`__.
+In some cases, it is not a "hard" requirement, but is strongly recommended for
+security or performance reasons, but you can also handle the desired outcome
+in a different way with a different module.
 
 mod_alias:
    Block access to vcs directories
