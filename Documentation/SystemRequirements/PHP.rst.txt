@@ -64,11 +64,6 @@ Required Database Extensions
       * pdo_pgsql
       * postgresql
 
-   .. tab:: SQLServer
-
-     * pdo_sqlsrv
-     * sqlsrv
-
    .. tab:: SQLite
 
      * sqlite
