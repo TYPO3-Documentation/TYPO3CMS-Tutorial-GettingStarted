@@ -31,19 +31,49 @@ Installing The Introduction Package
 
 To install the Introduction Package run the following command:
 
-.. code-block:: shell
-   :caption: ~$
+.. tabs::
 
-   composer require typo3/cms-introduction
+   .. group-tab:: bash
+
+       .. code-block:: bash
+
+         composer require typo3/cms-introduction
+
+   .. group-tab:: powershell
+
+       .. code-block:: powershell
+
+         composer require typo3/cms-introduction
+
+   .. group-tab:: ddev
+
+       .. code-block:: bash
+
+         ddev composer require typo3/cms-introduction
 
 This command will download and activate the extension.
 
 Then run:
 
-.. code-block:: shell
-   :caption: ~$
+.. tabs::
 
-   extension:setup
+   .. group-tab:: bash
+
+       .. code-block:: bash
+
+         vendor/bin/typo3 extension:setup
+
+   .. group-tab:: powershell
+
+       .. code-block:: powershell
+
+         vendor/bin/typo3 extension:setup
+
+   .. group-tab:: ddev
+
+       .. code-block:: bash
+
+         ddev typo3 extension:setup
 
 This will set up the extension ready for immediate use.
 
