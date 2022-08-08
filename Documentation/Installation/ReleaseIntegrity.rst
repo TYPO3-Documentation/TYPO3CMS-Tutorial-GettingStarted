@@ -38,7 +38,7 @@ The file hashes for each version are published on get.typo3.org and can be found
 on the corresponding release page, for example https://get.typo3.org/version/11#package-checksums contains:
 
 .. code-block:: bash
-   :caption: TYPO3 11.5.1 Checksums
+   :caption: TYPO3 v11.5.1 Checksums
    :name: Checksums
 
    SHA256:
