@@ -27,7 +27,7 @@ We are currently working on optimizing the rendering. Due to this, there
 was an issue with rendering the translation. The translated version still
 exists in a separate branch **fr** and only needs to be reactivated once
 the issues with rendering have been solved and the French branch has been
-reviewed for TYPO3 9.
+reviewed for TYPO3 v9.
 
 
 .. _status:
