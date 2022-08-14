@@ -23,7 +23,6 @@ The following settings control the maximum upload file size:
 
 * `upload_max_filesize` set to 10M to allow uploads of 10MB
 
-
 Required Extensions
 -------------------
 
@@ -46,6 +45,111 @@ Depending on the use case, the following extensions may also be required:
 * **zlib** (TYPO3 uses zlib for output compression)
 * **openssl** (OpenSSL is required for sending SMTP mails over an encrypted channel endpoint)
 * **intl** (when using unicode-based filesystems)
+
+Opcache settings
+----------------
+
+It is recommended to enable opcache and tune the settings for optimal
+performance. Most settings will already have a good default value, but
+the settings will also depend on number of scripts, available memory etc.
+
+.. warning::
+
+   Opcache must be adapted to your specific needs. Some of the settings which
+   improve performance should not be activated for TYPO3 or come with a risk.
+   The following information has been put together carefully but it is recommended
+   to double-check the given recommendations regularly. Please help and contribute
+   to this page if you find something which is not correct!
+
+   In particular, the following are not recommended for TYPO3:
+
+   *  opcache.save_comments=0
+
+We add information which is TYPO3 specific for some of the settings but will not
+cover all settings. Please refer to the
+`official PHP documentation <https://www.php.net/manual/en/opcache.configuration.php>`__
+as well.
+
+.. code-block:: ini
+   :caption: php.ini
+
+   opcache.enable=1
+   opcache.revalidate_freq=30
+   opcache.revalidate_path=0
+
+.. confval:: opcache.enable
+
+   :Default: =1
+   :Faster: =1
+   :Recommended: =1
+
+   Enable opcache.
+
+.. confval:: opcache.save_comments
+
+   :Default: =1
+   :Faster: =0
+   :Risk: =0 has high risk
+   :Recommended: =1
+
+   Setting this to 0 may improve performance but some parts of TYPO3
+   (e.g. Extbase) rely on information in phpdoc comments which would no longer
+   work.
+
+.. confval:: opcache.use_cwd
+
+   :Default: =1
+   :Faster: =0
+   :Risk: =0 has high risk
+   :Recommended: =1
+
+   Setting the value to 0 may cause problems in some applications because files
+   with the same name may get mixed up due to the complete path of the file not
+   being stored as key. TYPO3 mostly works with absolute paths so this would
+   have no advantage anyway.
+
+.. confval:: opcache.validate_timestamps
+
+   :Default: =1
+   :Faster: =0
+   :Risks: =0 has high risk
+   :Recommended: =1
+
+   While setting this to 0 may speed up performance, you **must** make sure to
+   flush opcache whenever changes are made to the PHP scripts or they will not
+   be updated in opcache. This can be achieved by using a proper deployment
+   pipeline. Additionally, some files can be added to the blacklist
+   (opcache.blacklist_filename).
+
+.. confval:: opcache.revalidate_freq
+
+   :Default: =2
+   :Faster: higher
+   :Risks: higher has higher risk
+   :Recommended: =30
+
+   Setting this to a high value may improve performance but have a similar
+   effect as setting validate_timestamps to 0.
+
+.. confval:: opcache.revalidate_path
+
+   :Default: =1
+   :Faster: =0
+   :Risks: =0 may have a risk
+   :Recommended: =0
+
+   Setting this value to 0 should be safe with TYPO3. This may be a problem if
+   relative path names are used to load scripts (and the same file exists several
+   times in the include path).
+
+.. confval:: opcache.max_accelerated_files
+
+   :Default: 10000
+   :Faster: (specify as many files / keys as are available)
+   :Recommended: 10000
+
+   The default setting should be enough for TYPO3, but this depends if there
+   are more scripts which should be cached in the system.
 
 Required Database Extensions
 ----------------------------
