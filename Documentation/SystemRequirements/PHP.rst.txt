@@ -17,7 +17,7 @@ The following settings need to be set to at least this minimum for PHP:
    ; memory_limit >= 256MB
    memory_limit=256M
 
-   ; max_execution_time: >= 240 seconds
+   ; max_execution_time >= 240 seconds
    max_execution_time=240
 
    `max_input_vars` >= 1500
