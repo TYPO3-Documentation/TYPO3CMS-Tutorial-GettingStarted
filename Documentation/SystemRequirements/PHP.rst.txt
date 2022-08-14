@@ -59,7 +59,7 @@ the settings will also depend on number of scripts, available memory etc.
    improve performance should not be activated for TYPO3 or come with a risk.
    The following information has been put together carefully but it is recommended
    to double-check the given recommendations regularly. Please help and contribute
-   to this page if you find something which is not correct!
+   to this page if you find something which can be improved!
 
    In particular, the following is not recommended for TYPO3:
 
