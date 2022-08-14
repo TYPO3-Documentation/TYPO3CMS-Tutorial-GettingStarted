@@ -79,18 +79,15 @@ as well.
 
 .. confval:: opcache.enable
 
-   :Default: =1
-   :Faster: =1
-   :Recommended: =1
+   :Default: 1
+   :Recommended: 1
 
    Enable opcache.
 
 .. confval:: opcache.save_comments
 
-   :Default: =1
-   :Faster: =0
-   :Risk: =0 has high risk
-   :Recommended: =1
+   :Default: 1
+   :Recommended: 1
 
    Setting this to 0 may improve performance but some parts of TYPO3
    (e.g. Extbase) rely on information in phpdoc comments which would no longer
@@ -98,10 +95,8 @@ as well.
 
 .. confval:: opcache.use_cwd
 
-   :Default: =1
-   :Faster: =0
-   :Risk: =0 has high risk
-   :Recommended: =1
+   :Default: 1
+   :Recommended: 1
 
    Setting the value to 0 may cause problems in some applications because files
    with the same name may get mixed up due to the complete path of the file not
@@ -110,10 +105,8 @@ as well.
 
 .. confval:: opcache.validate_timestamps
 
-   :Default: =1
-   :Faster: =0
-   :Risks: =0 has high risk
-   :Recommended: =1
+   :Default: 1
+   :Recommended: 1
 
    While setting this to 0 may speed up performance, you **must** make sure to
    flush opcache whenever changes are made to the PHP scripts or they will not
@@ -123,20 +116,16 @@ as well.
 
 .. confval:: opcache.revalidate_freq
 
-   :Default: =2
-   :Faster: higher
-   :Risks: higher has higher risk
-   :Recommended: =30
+   :Default: 2
+   :Recommended: 30
 
    Setting this to a high value may improve performance but have a similar
    effect as setting validate_timestamps to 0.
 
 .. confval:: opcache.revalidate_path
 
-   :Default: =1
-   :Faster: =0
-   :Risks: =0 may have a risk
-   :Recommended: =0
+   :Default: 1
+   :Recommended: 0
 
    Setting this value to 0 should be safe with TYPO3. This may be a problem if
    relative path names are used to load scripts (and the same file exists several
@@ -145,7 +134,6 @@ as well.
 .. confval:: opcache.max_accelerated_files
 
    :Default: 10000
-   :Faster: (specify as many files / keys as are available)
    :Recommended: 10000
 
    The default setting should be enough for TYPO3, but this depends if there
