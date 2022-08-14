@@ -29,10 +29,8 @@ adapted if necessary):
 .. code-block:: ini
    :caption: php.ini
 
-   ; post_max_size = 10M (to allow uploads of 10MB)
+   ; To allow uploads of a maximum of 10 MB
    post_max_size = 10M
-
-   ; upload_max_filesize = 10M (to allow uploads of 10MB)
    upload_max_filesize = 10M
 
 
