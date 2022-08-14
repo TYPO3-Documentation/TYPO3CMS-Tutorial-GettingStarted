@@ -20,7 +20,7 @@ The following settings need to be set to at least this minimum for PHP:
    ; max_execution_time >= 240 seconds
    max_execution_time=240
 
-   `max_input_vars` >= 1500
+   ; max_input_vars >= 1500
    max_input_vars=1500
 
 The following settings control the maximum upload file size (and should be
