@@ -61,7 +61,7 @@ the settings will also depend on number of scripts, available memory etc.
    to double-check the given recommendations regularly. Please help and contribute
    to this page if you find something which is not correct!
 
-   In particular, the following are not recommended for TYPO3:
+   In particular, the following is not recommended for TYPO3:
 
    *  opcache.save_comments=0
 
