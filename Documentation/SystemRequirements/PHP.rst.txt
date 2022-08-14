@@ -9,19 +9,31 @@ PHP
 Configure
 ---------
 
-The following settings need to be set in the installations :file:`php.ini`
+The following settings need to be set to at least this minimum for PHP:
 
-* `memory_limit` set to a minimum of 256MB
+.. code-block:: ini
+   :caption: php.ini
 
-* `max_execution_time` set to a minimum 240 seconds
+   ; memory_limit >= 256MB
+   memory_limit=256M
 
-* `max_input_vars` set to a minimum 1500
+   ; max_execution_time: >= 240 seconds
+   max_execution_time=240
 
-The following settings control the maximum upload file size:
+   `max_input_vars` >= 1500
+   max_input_vars=1500
 
-* `post_max_size` set to 10M to allow uploads of 10MB
+The following settings control the maximum upload file size (and should be
+adapted if necessary):
 
-* `upload_max_filesize` set to 10M to allow uploads of 10MB
+.. code-block:: ini
+   :caption: php.ini
+
+   ; post_max_size = 10M (to allow uploads of 10MB)
+   post_max_size = 10M
+
+   ; upload_max_filesize = 10M (to allow uploads of 10MB)
+   upload_max_filesize = 10M
 
 
 Required Extensions
