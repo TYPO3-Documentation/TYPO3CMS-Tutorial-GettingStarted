@@ -9,7 +9,7 @@ PHP
 Configure
 ---------
 
-The following settings need to be set to at least this minimum for PHP:
+The following settings need to be set in the installations :file:`php.ini`
 
 .. code-block:: ini
    :caption: php.ini
