@@ -24,26 +24,25 @@ Pre-installation Checklist
 Execute Composer Create-Project
 -------------------------------
 
+At the root level of your web server, execute the following command:
+
 .. tabs::
 
    .. group-tab:: bash
 
       .. code-block:: bash
-         :caption: /var/www/site/$
 
          composer create-project typo3/cms-base-distribution:^11 example-project-directory
 
    .. group-tab:: powershell
 
       .. code-block:: powershell
-         :caption: /var/www/site/$
 
          composer create-project "typo3/cms-base-distribution:^11" example-project-directory
 
    .. group-tab:: ddev
 
       .. code-block:: bash
-         :caption: /var/www/site/$
 
          # Create a directory for your project
          mkdir example-project-directory
@@ -89,21 +88,18 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
    .. group-tab:: bash
 
       .. code-block:: bash
-         :caption: /var/www/site/$
 
          touch example-project-directory/public/FIRST_INSTALL
 
    .. group-tab:: powershell
 
       .. code-block:: powershell
-         :caption: /var/www/site/$
 
          echo $null >> public/FIRST_INSTALL
 
    .. group-tab:: ddev
 
       .. code-block:: bash
-         :caption: /var/www/site/$
 
          ddev exec touch public/FIRST_INSTALL
 
