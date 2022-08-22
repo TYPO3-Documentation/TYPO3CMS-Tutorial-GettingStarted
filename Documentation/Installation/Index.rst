@@ -64,6 +64,18 @@ Installation
             Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
             Guide demonstrates how TYPO3 can be installed without using Composer.
 
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
+            .. rubric:: :ref:`Tuning TYPO3 <TuneTYPO3>`
+
+         .. container:: card-body
+
+            This chapter contains information on how to configure and optimize the infrastructure running TYPO3.
+
 
 .. toctree::
    :hidden:
@@ -71,5 +83,6 @@ Installation
 
    Install
    DeployTYPO3
+   TuneTYPO3
    ReleaseIntegrity
    LegacyInstallation
