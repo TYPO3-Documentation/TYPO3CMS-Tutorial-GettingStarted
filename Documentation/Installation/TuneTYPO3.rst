@@ -32,7 +32,7 @@ Enabling OPcache
 Tuning OPcache
 --------------
 
-Below is list of OPcache features with information on how they can impact TYPO3's performance.
+Below is list a of OPcache features with information on how they can impact TYPO3's performance.
 
 .. confval:: opcache.save_comments
 
