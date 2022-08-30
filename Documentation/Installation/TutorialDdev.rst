@@ -64,7 +64,7 @@ Install TYPO3 in DDEV
 
             Project name (t3example):
 
-            Docroot Location (current directory):public
+            Docroot Location (current directory): public
 
             Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
 
