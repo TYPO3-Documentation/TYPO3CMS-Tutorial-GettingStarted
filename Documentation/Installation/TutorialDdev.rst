@@ -16,7 +16,7 @@ DDEV, Docker and Composer.
 .. contents::
    :local:
 
-Preparations to install DDev
+Preparations to install DDEV
 ============================
 
 Do the following steps if DDEV is not installed on your system yet:
