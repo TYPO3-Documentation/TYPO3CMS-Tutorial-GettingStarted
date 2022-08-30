@@ -127,7 +127,7 @@ Install TYPO3 in DDEV
 
     b.  Or via GUI:
 
-        #.  Create a file called FIRST_INSTALL in your webroot
+        #.  Create a file called :file:`FIRST_INSTALL` in your webroot
 
             ..  code-block:: bash
 
