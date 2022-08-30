@@ -118,7 +118,7 @@ Install TYPO3 in DDEV
             ddev typo3cms install:setup
 
         When prompted enter a username and password for you main admin user
-        (who is also system maintainer).
+        (who is also :ref:`system maintainer <system-maintainer>`).
 
         And enter a name for the site that will be displayed in the backend.
 
