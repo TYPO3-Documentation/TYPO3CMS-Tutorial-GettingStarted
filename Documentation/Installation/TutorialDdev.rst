@@ -13,10 +13,13 @@ DDEV, Docker and Composer.
 
 ..  youtube:: HW7J3G1SqZw
 
+.. contents::
+   :local:
+
 Preparations to install DDev
 ============================
 
-Do the following steps if DDev is not installed on your system yet:
+Do the following steps if DDEV is not installed on your system yet:
 
 ..  rst-class:: bignums-xxl
 
@@ -38,6 +41,8 @@ Do the following steps if DDev is not installed on your system yet:
 Install TYPO3 in DDEV
 =====================
 
+..  rst-class:: bignums-xxl
+
 #.  Create a directory to install your TYPO3 in
 
     ..  code-block:: bash
@@ -47,27 +52,29 @@ Install TYPO3 in DDEV
 
 #.  Create a preconfigured DDEV project
 
-    By answering the prompt (easier to do by heart):
+    .. rst-class:: bignums-warning
 
-    ..  code-block:: bash
+    a.  By answering the prompt (easier to do by heart):
 
-        ddev config
+        ..  code-block:: bash
 
-        # Give the following answers when prompted:
+            ddev config
 
-        Project name (t3example):
+            # Give the following answers when prompted:
 
-        Docroot Location (current directory):public
+            Project name (t3example):
 
-        Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
+            Docroot Location (current directory):public
 
-        Project Type [php, typo3, ...] (php): typo3
+            Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
 
-    Or by supplying the parameters (easier to do automatically):
+            Project Type [php, typo3, ...] (php): typo3
 
-    ..  code-block:: bash
+    b.  Or by supplying the parameters (easier to do automatically):
 
-        ddev config  --project-type=typo3 --docroot=public --create-docroot
+        ..  code-block:: bash
+
+            ddev config  --project-type=typo3 --docroot=public --create-docroot
 
     project-type
         Should always be "typo3"
@@ -102,33 +109,35 @@ Install TYPO3 in DDEV
 
 #.  Run the install tool setup
 
-    You can do this from console:
+    .. rst-class:: bignums-warning
 
-    ..  code-block:: bash
-
-        ddev typo3cms install:setup
-
-    When prompted enter a username and password for you main admin user
-    (who is also system maintainer).
-
-    And enter a name for the site that will be displayed in the backend.
-
-    You can set up a very basic site :bash:`site` displaying "Hello World"
-    or just do nothing :bash:`no`.
-
-    Or via GUI:
-
-    #.  Create a file called FIRST_INSTALL in your webroot
+    a.  You can do this from console:
 
         ..  code-block:: bash
 
-            ddev exec touch public/FIRST_INSTALL
+            ddev typo3cms install:setup
 
-    #.  Open the installer
+        When prompted enter a username and password for you main admin user
+        (who is also system maintainer).
 
-        ..  code-block:: bash
+        And enter a name for the site that will be displayed in the backend.
 
-            ddev launch typo3/install.php
+        You can set up a very basic site :bash:`site` displaying "Hello World"
+        or just do nothing :bash:`no`.
+
+    b.  Or via GUI:
+
+        #.  Create a file called FIRST_INSTALL in your webroot
+
+            ..  code-block:: bash
+
+                ddev exec touch public/FIRST_INSTALL
+
+        #.  Open the installer
+
+            ..  code-block:: bash
+
+                ddev launch typo3/install.php
 
 #.  Go to the TYPO3 backend:
 
@@ -157,7 +166,7 @@ What about sending mails?
 =========================
 
 DDEV preconfigured the :file:`public/typo3conf/AdditionalConfiguration.php`
-to fake sending mails. you cann see what mails have been send here:
+to fake sending mails. You can see what mails have been send here:
 
 ..  code-block:: bash
 
