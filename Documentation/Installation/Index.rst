@@ -29,6 +29,19 @@ Installation
 
          .. rst-class:: card-header h3
 
+            .. rubric:: :ref:`Tutorial: Locally install TYPO3 with ddev <installation-ddev-tutorial>`
+
+         .. container:: card-body
+
+            We show you how to install TYPO3 on a local machine utilizing
+            DDev, Docker and Composer.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
             .. rubric:: :ref:`Deploying TYPO3 <DeployTYPO3>`
 
          .. container:: card-body
@@ -82,6 +95,7 @@ Installation
    :titlesonly:
 
    Install
+   TutorialDdev
    DeployTYPO3
    TuneTYPO3
    ReleaseIntegrity
