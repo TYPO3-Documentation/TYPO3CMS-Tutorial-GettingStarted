@@ -183,7 +183,7 @@ If you want to all projects from running on DDEV you can call:
 
 The projects will stay configured and the database persisted.
 
-If you want to delete the project you just deleted you can delete it by
+If you want to delete the project you just created you can delete it by
 calling the following in your new projects root folder:
 
 ..  code-block:: bash
