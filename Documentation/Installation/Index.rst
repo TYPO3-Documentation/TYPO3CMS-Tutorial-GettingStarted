@@ -34,7 +34,7 @@ Installation
          .. container:: card-body
 
             We show you how to install TYPO3 on a local machine utilizing
-            DDev, Docker and Composer.
+            DDEV, Docker and Composer.
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
