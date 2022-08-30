@@ -175,7 +175,7 @@ to fake sending mails. You can see what mails have been send here:
 How do I get rid of that project now?
 =====================================
 
-If you want to all projects from running on DDEV you can call:
+If you want to stop all projects from running on DDEV you can call:
 
 ..  code-block:: bash
 
