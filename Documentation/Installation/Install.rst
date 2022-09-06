@@ -64,11 +64,6 @@ At the root level of your web server, execute the following command:
 This command pulls down the latest release of TYPO3 and places it in the
 :file:`example-project-directory`.
 
-..  hint::
-    We also provide a step-by-step tutorial on how to :ref:`Install TYPO3
-    on DDEV <installation-ddev-tutorial>`. This tutorial also includes
-    a video.
-
 After this command has finished running, :file:`example-project-directory`
 will contain the following structure:
 
@@ -201,3 +196,9 @@ Next Steps
 ----------
 
 Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
+
+Using DDEV
+----------
+
+We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`. 
+This tutorial also includes a video.
