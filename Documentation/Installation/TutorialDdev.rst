@@ -148,7 +148,7 @@ During the installation setup process TYPO3 created all the tables it needed. If
 Sending E-Mail
 --------------
 
-DDEV modified :file:`public/typo3conf/AdditionalConfiguration.php`
+DDEV creates :file:`public/typo3conf/AdditionalConfiguration.php`
 to fake sending mails. You can see what mails have been sent here:
 
 ..  code-block:: bash
@@ -164,7 +164,7 @@ If you want to stop all projects from running you can call:
 
     ddev poweroff
 
-The projects will stay configured and the database will be persisted.
+The projects will stay configured and databases will be persisted.
 
 Deleting a DDEV Instance
 ------------------------
