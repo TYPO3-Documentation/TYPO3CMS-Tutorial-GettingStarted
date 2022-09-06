@@ -29,12 +29,12 @@ Installation
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Tutorial: Locally install TYPO3 with ddev <installation-ddev-tutorial>`
+            .. rubric:: :ref:`Deploying TYPO3 <DeployTYPO3>`
 
          .. container:: card-body
 
-            We show you how to install TYPO3 on a local machine utilizing
-            DDEV, Docker and Composer.
+            The deployment guide highlights some of solutions available that can help automate the process of deploying TYPO3 to
+            a remote server.
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -42,12 +42,11 @@ Installation
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Deploying TYPO3 <DeployTYPO3>`
+            .. rubric:: :ref:`Tuning TYPO3 <TuneTYPO3>`
 
          .. container:: card-body
 
-            The deployment guide highlights some of solutions available that can help automate the process of deploying TYPO3 to
-            a remote server.
+            This chapter contains information on how to configure and optimize the infrastructure running TYPO3.
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -70,12 +69,13 @@ Installation
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Legacy Installation Guide <legacyinstallation>`
+            .. rubric:: :ref:`Installing TYPO3 With DDEV <installation-ddev-tutorial>`
 
          .. container:: card-body
 
-            Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
-            Guide demonstrates how TYPO3 can be installed without using Composer.
+            This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
+
+
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -83,20 +83,20 @@ Installation
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Tuning TYPO3 <TuneTYPO3>`
+            .. rubric:: :ref:`Legacy Installation Guide <legacyinstallation>`
 
          .. container:: card-body
 
-            This chapter contains information on how to configure and optimize the infrastructure running TYPO3.
-
+            Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
+            Guide demonstrates how TYPO3 can be installed without using Composer.
 
 .. toctree::
    :hidden:
    :titlesonly:
 
    Install
-   TutorialDdev
    DeployTYPO3
    TuneTYPO3
    ReleaseIntegrity
+   TutorialDdev
    LegacyInstallation

@@ -4,184 +4,170 @@
 
 .. _installation-ddev-tutorial:
 
-=============================================
-Tutorial "Installing TYPO3 v11 LTS with DDEV"
-=============================================
+==========================
+Installing TYPO3 with DDEV
+==========================
 
-We show you step-by-step how to install TYPO3 on a local machine utilizing
-DDEV, Docker and Composer.
+This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
+
+DDEV is used for local development only.
 
 ..  youtube:: HW7J3G1SqZw
 
-.. contents::
-   :local:
+Pre-Installation Checklist
+--------------------------
 
-Preparations to install DDEV
-============================
+#. **Install Docker** - Visit `docker.com <https://www.docker.com/>`__ to download and install the recommended version of Docker for your operating system.
 
-Do the following steps if DDEV is not installed on your system yet:
+#.  **Install DDEV** - Follow the `DDEV installation guide <https://ddev.readthedocs.io/en/stable/>`__ to install DDEV.
 
-..  rst-class:: bignums-xxl
+DDEV and Docker need to be installed on your local machine before TYPO3 can be installed. If you need help installing DDEV, support can be found on the `DDEV Discord server <https://discord.gg/kDvSFBSZfs>`__.
 
-#.  Install Docker
+Create the Installation Directory
+---------------------------------
 
-    Go to `the Docker website <https://www.docker.com/>`__ and install the
-    version of Docker recommended for your operation system.
+Create an empty directory to install TYPO3 in and then change into that directory:
 
-#.  Install DDEV
+..  code-block:: bash
 
-    Follow the steps at `Get Started with
-    DDEV <https://ddev.readthedocs.io/en/stable/>`__ for your operation
-    system.
+    mkdir t3example
+    cd t3example
 
-..  hint::
-    If you need help installing DDEV, go to the
-    `DDEV Discord server <https://discord.gg/kDvSFBSZfs>`__.
+Create a new DDEV Project
+-------------------------
 
-Install TYPO3 in DDEV
-=====================
+The `ddev config` command will prompt for information about your project. TYPO3 is in the list
+of preconfigured projects.
 
-..  rst-class:: bignums-xxl
+..  code-block:: bash
 
-#.  Create a directory to install your TYPO3 in
+    ddev config
 
-    ..  code-block:: bash
+    # Give the following answers when prompted:
 
-        mkdir t3example
-        cd t3example
+    Project name (t3example):
 
-#.  Create a preconfigured DDEV project
+    Docroot Location (current directory): public
 
-    .. rst-class:: bignums-warning
+    Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
 
-    a.  By answering the prompt (easier to do by heart):
+    Project Type [php, typo3, ...] (php): typo3
 
-        ..  code-block:: bash
+project-type
+    Should always be "typo3"
 
-            ddev config
+docroot
+    Is the folder in which all files that have to be reached by
+    the browser. This folder is commonly called :file:`public`.
 
-            # Give the following answers when prompted:
+create-docroot
+    As the directory does not exist yet, this allows DDEV to create it for you.
 
-            Project name (t3example):
+Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
-            Docroot Location (current directory): public
+..  code-block:: bash
 
-            Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
+    ddev config  --project-type=typo3 --docroot=public --create-docroot
 
-            Project Type [php, typo3, ...] (php): typo3
+Start the project
+-----------------
 
-    b.  Or by supplying the parameters (easier to do automatically):
+..  code-block:: bash
 
-        ..  code-block:: bash
+    ddev start
 
-            ddev config  --project-type=typo3 --docroot=public --create-docroot
+The webserver is now running but TYPO3 is not installed.
 
-    project-type
-        Should always be "typo3"
+Install TYPO3
+-------------
 
-    docroot
-        Is the folder in which all files that have to be reached by
-        the browser. This folder is commonly called :file:`public`.
+..  code-block:: bash
 
-    create-docroot
-        As the directory does not exist yet allow DDEV to create it for you.
+    ddev composer create "typo3/cms-base-distribution:^11"
 
-#.  Start the project
+As we just created the project and have no, answer yes
+when prompted if it is ok to overwrite files in this directory.
 
-    ..  code-block:: bash
+You now have a **Composer-based TYPO3 installation**.
 
-        ddev start
+Run the Installation Setup Tool
+-------------------------------
 
-    Now the webserver is running but TYPO3 is not installed yet.
+Via the Console
+~~~~~~~~~~~~~~~
 
-#.  Install a basic installation of TYPO3
+..  code-block:: bash
 
-    ..  code-block:: bash
+    ddev typo3cms install:setup
 
-        ddev composer create "typo3/cms-base-distribution:^11"
+When prompted enter a username and password for you main admin user
+(they will also be a :ref:`system maintainer <system-maintainer>`).
 
-    As we just created the project and have no data there yet, answer yes
-    when prompted if it is ok to overwrite most files in this directory.
+Enter a name for the site that will be displayed in the backend.
 
-    ..  note::
-        You now have a **Composer-based TYPO3 installation**. In case anyone
-        asks you.
+You can set up a basic site :bash:`site` displaying "Hello World"
+or have an empty installation by selecting :bash:`no`.
 
-#.  Run the install tool setup
+Via the GUI:
+~~~~~~~~~~~~
 
-    .. rst-class:: bignums-warning
+Create a file called :file:`FIRST_INSTALL` in your webroot
 
-    a.  You can do this from console:
+..  code-block:: bash
 
-        ..  code-block:: bash
+    ddev exec touch public/FIRST_INSTALL
 
-            ddev typo3cms install:setup
+Open the installer
 
-        When prompted enter a username and password for you main admin user
-        (who is also :ref:`system maintainer <system-maintainer>`).
+..  code-block:: bash
 
-        And enter a name for the site that will be displayed in the backend.
+    ddev launch typo3/install.php
 
-        You can set up a very basic site :bash:`site` displaying "Hello World"
-        or just do nothing :bash:`no`.
+Go to the TYPO3 backend:
 
-    b.  Or via GUI:
+..  code-block:: bash
 
-        #.  Create a file called :file:`FIRST_INSTALL` in your webroot
+    ddev launch typo3
 
-            ..  code-block:: bash
-
-                ddev exec touch public/FIRST_INSTALL
-
-        #.  Open the installer
-
-            ..  code-block:: bash
-
-                ddev launch typo3/install.php
-
-#.  Go to the TYPO3 backend:
-
-    ..  code-block:: bash
-
-        ddev launch typo3
-
-    And login with the credentials you just created.
+And login with the credentials you just provided.
 
 
-What about the database?
-========================
+Managing the Database
+---------------------
 
 Upon calling :bash:`ddev config` DDEV automatically created a database for
-you. DDEV also created a file :file:`public/typo3conf/AdditionalConfiguration.php`
-in which it stored the credentials for you.
+you. DDEV also created a file called :file:`public/typo3conf/AdditionalConfiguration.php`
+in which it stored the database credentials for you.
 
-During the installation setup process TYPO3 created all the tables needed by
-default. If you want to have a look at the database, you can find it here:
+During the installation setup process TYPO3 created all the tables it needed. If you want to have a look at the database, you can run the following command:
 
 ..  code-block:: bash
 
     ddev launch -p
 
-What about sending mails?
-=========================
+Sending E-Mail
+--------------
 
-DDEV preconfigured the :file:`public/typo3conf/AdditionalConfiguration.php`
-to fake sending mails. You can see what mails have been send here:
+DDEV modified :file:`public/typo3conf/AdditionalConfiguration.php`
+to fake sending mails. You can see what mails have been sent here:
 
 ..  code-block:: bash
 
     ddev launch -m
 
-How do I get rid of that project now?
-=====================================
+Stopping a DDEV Instance
+------------------------
 
-If you want to stop all projects from running on DDEV you can call:
+If you want to stop all projects from running you can call:
 
 ..  code-block:: bash
 
     ddev poweroff
 
-The projects will stay configured and the database persisted.
+The projects will stay configured and the database will be persisted.
+
+Deleting a DDEV Instance
+------------------------
 
 If you want to delete the project you just created you can delete it by
 calling the following command in your new projects root folder:
@@ -190,7 +176,6 @@ calling the following command in your new projects root folder:
 
      ddev delete --omit-snapshot
 
-..  attention::
-    This will remove all containers from the project and delete the database.
+This will remove all containers from the project and delete the database.
 
-Afterwards you can safely delete the projects root folder.
+Afterwards you can safely delete the project's root folder.
