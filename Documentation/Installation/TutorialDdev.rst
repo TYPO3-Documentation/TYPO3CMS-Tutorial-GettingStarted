@@ -169,7 +169,7 @@ The projects will stay configured and databases will be persisted.
 Deleting a DDEV Instance
 ------------------------
 
-If you want to delete the project you just created you can delete it by
+If you want to delete the project you just created you can remove it by
 calling the following command in your new projects root folder:
 
 ..  code-block:: bash
