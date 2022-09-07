@@ -59,9 +59,11 @@ Execute Composer Create-Project
            ddev composer create "typo3/cms-base-distribution:^11"
 
 
-This command pulls down the latest release of TYPO3 and places it in the directory specified 'YourProjectDirectory'.
+This command pulls down the latest release of TYPO3 and places it in the
+:file:`example-project-directory`.
 
-After this command has finished running, 'example-project-directory' will contain the following structure:
+After this command has finished running, :file:`example-project-directory`
+will contain the following structure:
 
 .. code-block:: none
 
@@ -190,3 +192,9 @@ Next Steps
 ----------
 
 Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
+
+Using DDEV
+----------
+
+We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`. 
+This tutorial also includes a video.
