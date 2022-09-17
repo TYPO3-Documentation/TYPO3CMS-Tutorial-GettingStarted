@@ -55,8 +55,11 @@ Execute Composer Create-Project
            # Start the ddev instance
            ddev start
 
-           # Fetch a basic TYPO3 installation and its' dependencies
-           ddev composer create "typo3/cms-base-distribution:^11"
+           # Fetch a basic TYPO3 installation composer.json
+           ddev composer create "typo3/cms-base-distribution" --no-install -y
+           
+           # And do the installation
+           ddev composer install
 
 
 This command pulls down the latest release of TYPO3 and places it in the
