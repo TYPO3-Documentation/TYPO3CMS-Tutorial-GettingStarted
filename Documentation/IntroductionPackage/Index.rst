@@ -53,30 +53,6 @@ To install the Introduction Package run the following command:
 
 This command will download and activate the extension.
 
-Then run:
-
-.. tabs::
-
-   .. group-tab:: bash
-
-       .. code-block:: bash
-
-         vendor/bin/typo3 extension:setup
-
-   .. group-tab:: powershell
-
-       .. code-block:: powershell
-
-         vendor/bin/typo3 extension:setup
-
-   .. group-tab:: ddev
-
-       .. code-block:: bash
-
-         ddev typo3 extension:setup
-
-This will set up the extension ready for immediate use.
-
 .. _install-intro-first-steps:
 
 First steps with the Introduction Package
