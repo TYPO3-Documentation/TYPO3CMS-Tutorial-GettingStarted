@@ -33,6 +33,22 @@ adapted if necessary):
    post_max_size = 10M
    upload_max_filesize = 10M
 
+Opcache
+-------
+
+It is recommended to enable Opcache for performance reasons. The `default
+settings <https://www.php.net/manual/en/opcache.configuration.php>`__ can be
+used for TYPO3.
+
+If TYPO3 features are used which require PHPDoc blocks (e.g. :ref:`Extbase
+annotations <extbase-annotations>`), **save_comments** MUST be enabled. If in
+doubt, enable it:
+
+.. code-block:: ini
+   :caption: php.ini
+
+   opcache.save_comments = 1
+
 
 Required Extensions
 -------------------

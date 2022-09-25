@@ -42,18 +42,6 @@ Installation
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Tuning TYPO3 <TuneTYPO3>`
-
-         .. container:: card-body
-
-            This chapter contains information on how to configure and optimize the infrastructure running TYPO3.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
             .. rubric:: :ref:`TYPO3 Release Integrity <release_integrity>`
 
          .. container:: card-body
