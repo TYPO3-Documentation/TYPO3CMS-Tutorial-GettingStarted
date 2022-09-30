@@ -25,7 +25,7 @@ If an alternative administrator account is not available or it doesn't have the
 appropriate access, open the Install Tool directly
 using the following address to create a new administrative user::
 
-   https://examle.com/typo3/install.php
+   https://example.com/typo3/install.php
 
 The Install Tool requires the "Installation Password" that would have been set
 when TYPO3 was installed.
@@ -54,7 +54,7 @@ Install Tool password.
 
 Before editing this file, visit::
 
-   https://examle.com/typo3/install.php
+   https://example.com/typo3/install.php
 
 
 Enter the new password in the dialog box. As the new password is not correct,
