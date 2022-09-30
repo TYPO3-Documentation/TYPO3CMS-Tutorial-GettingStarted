@@ -9,7 +9,7 @@ Installing TYPO3
 ================
 
 Welcome to the TYPO3 installation guide. This guide covers each of the steps required
-to install TYPO3 using Composer. Note that Composer should only be used to install TYPO3 on a local or development environment.
+to install TYPO3 using Composer.
 
 For more information on how to deploy TYPO3 to a live environment, visit the :ref:`deploying TYPO3 <DeployTYPO3>` chapter.
 
