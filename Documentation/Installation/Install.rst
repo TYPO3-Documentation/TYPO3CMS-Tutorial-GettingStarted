@@ -9,12 +9,9 @@ Installing TYPO3
 ================
 
 Welcome to the TYPO3 installation guide. This guide covers each of the steps required
-to install TYPO3 using Composer. 
+to install TYPO3 using Composer.
 
-It is considered best practice to  install TYPO3 on a 
-development environment first and then use a deployment process. For more information on how 
-to deploy TYPO3 to a live environment, visit the 
-:ref:`deploying TYPO3 <DeployTYPO3>` chapter.
+For more information on how to deploy TYPO3 to a live environment, visit the :ref:`deploying TYPO3 <DeployTYPO3>` chapter.
 
 Pre-installation Checklist
 --------------------------
