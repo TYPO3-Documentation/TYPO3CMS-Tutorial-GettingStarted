@@ -26,19 +26,24 @@ Execute Composer Create-Project
 
 At the root level of your web server, execute the following command:
 
+..  note::
+    The script here installs the latest TYPO3 v12.0. If you are looking for installation
+    instructions on the latest stable release, TYPO3 v11 LTS go to the :ref:`TYPO3 v11
+    Installation instructions <t3start11:install>`.
+
 .. tabs::
 
    .. group-tab:: bash
 
       .. code-block:: bash
 
-         composer create-project typo3/cms-base-distribution:^11 example-project-directory
+         composer create-project typo3/cms-base-distribution:^12 example-project-directory
 
    .. group-tab:: powershell
 
       .. code-block:: powershell
 
-         composer create-project "typo3/cms-base-distribution:^11" example-project-directory
+         composer create-project "typo3/cms-base-distribution:^12" example-project-directory
 
    .. group-tab:: ddev
 
@@ -51,14 +56,11 @@ At the root level of your web server, execute the following command:
          cd example-project-directory
 
          # Tell DDEV to create a new project of type "typo3"
-         # 'docroot' MUST be 'public'
-         ddev config  --project-type=typo3 --docroot=public --create-docroot
-
-         # Start the ddev instance
-         ddev start
+         # 'docroot' MUST be 'public' PHP 8.1 is required by TYPO3 v12
+         ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
 
          # Fetch a basic TYPO3 installation and its' dependencies
-         ddev composer create "typo3/cms-base-distribution:^11"
+         ddev composer create "typo3/cms-base-distribution:^12"
 
 
 This command pulls down the latest release of TYPO3 and places it in the
@@ -200,5 +202,5 @@ Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
 Using DDEV
 ----------
 
-We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`. 
+We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`.
 This tutorial also includes a video.
