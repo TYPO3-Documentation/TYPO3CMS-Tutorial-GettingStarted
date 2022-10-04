@@ -28,7 +28,7 @@ At the root level of your web server, execute the following command:
 
 ..  note::
     The script here installs the latest TYPO3 v12.0. If you are looking for installation
-    instructions on the latest stable release, TYPO3 v11 LTS go to the :ref:`TYPO3 v11
+    instructions on the recent long-term release, TYPO3 v11 LTS go to the :ref:`TYPO3 v11
     Installation instructions <t3start11:install>`.
 
 .. tabs::
