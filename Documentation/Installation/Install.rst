@@ -24,12 +24,11 @@ Pre-installation Checklist
 Execute Composer Create-Project
 -------------------------------
 
-At the root level of your web server, execute the following command:
+The following script will install TYPO3 v12.0 which is the latest release of the CMS. If you wish to
+install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
+Installation instructions <t3start11:install>`.
 
-..  note::
-    The script here installs the latest TYPO3 v12.0. If you are looking for installation
-    instructions on the recent long-term release, TYPO3 v11 LTS go to the :ref:`TYPO3 v11
-    Installation instructions <t3start11:install>`.
+At the root level of your web server, execute the following command:
 
 .. tabs::
 
