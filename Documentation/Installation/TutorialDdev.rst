@@ -12,6 +12,10 @@ This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker a
 
 DDEV is used for local development only.
 
+The scripts used in this guide will install TYPO3 v12.0 which is the latest release of the CMS. If you wish to
+install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
+Installation instructions <t3start11:install>`.
+
 ..  youtube:: HW7J3G1SqZw
 
 Pre-Installation Checklist
@@ -41,7 +45,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config
+    ddev config --php-version 8.1
 
     # Give the following answers when prompted:
 
@@ -67,7 +71,7 @@ Alternatively you can skip the prompt by supplying all of the required parameter
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --create-docroot
+    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
 
 Start the project
 -----------------
@@ -83,7 +87,7 @@ Install TYPO3
 
 ..  code-block:: bash
 
-    ddev composer create "typo3/cms-base-distribution:^11"
+    ddev composer create "typo3/cms-base-distribution:^12"
 
 As we just created the project and have no, answer yes
 when prompted if it is ok to overwrite files in this directory.
@@ -92,24 +96,6 @@ You now have a **Composer-based TYPO3 installation**.
 
 Run the Installation Setup Tool
 -------------------------------
-
-Via the Console
-~~~~~~~~~~~~~~~
-
-..  code-block:: bash
-
-    ddev typo3cms install:setup
-
-When prompted enter a username and password for you main admin user
-(they will also be a :ref:`system maintainer <system-maintainer>`).
-
-Enter a name for the site that will be displayed in the backend.
-
-You can set up a basic site :bash:`site` displaying "Hello World"
-or have an empty installation by selecting :bash:`no`.
-
-Via the GUI:
-~~~~~~~~~~~~
 
 Create a file called :file:`FIRST_INSTALL` in your webroot
 
