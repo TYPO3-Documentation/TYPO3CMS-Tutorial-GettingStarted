@@ -51,8 +51,9 @@ including administrators.
 Install Tool Password
 ---------------------
 
-Write access to :file:`typo3conf/LocalConfiguration.php` is required to reset the
-Install Tool password.
+Write access to :file:`config/system/settings.php` (in legacy installations
+:file:`typo3conf/system/settings.php`) is required to reset the
+:guilabel:`Install Tool` password.
 
 Before editing this file, visit:
 
@@ -72,22 +73,23 @@ the following response will be returned:
 
 Copy this hash including the :php:`$argon2i` part and any trailing dots.
 
-Then edit :file:`typo3conf/LocalConfiguration.php` and replace the following
+Then edit :file:`config/system/settings.php` and replace the following
 array entry with the new hashed password:
 
 .. code-block:: php
-   :caption: typo3conf/LocalConfiguration.php
+   :caption: config/system/settings.php
 
    'BE' => [
       'installToolPassword' => '$argon2i$v=xyz',
    ],
 
-.. note::
+..  note::
 
-   If the new install tool password does not work, check if it gets overridden
-   later in the LocalConfiguration.php or in the AdditionalConfiguration.php
-   if one exists. If you can still not log into the install tool check if
-   there are errors in the logs when debugging is enabled.
+    If the new install tool password does not work, check if it gets overridden
+    later in the file :file:`config/system/settings.php` or in the
+    file :file:`config/system/additional.php`
+    if one exists. If you can still not log into the install tool check if
+    there are errors in the logs when debugging is enabled.
 
 .. _debug-mode:
 
