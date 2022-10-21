@@ -135,7 +135,7 @@ If you want to have a look at the database, you can run the following command:
 Sending E-Mail
 --------------
 
-DDEV creates :file:`public/typo3conf/AdditionalConfiguration.php`
+DDEV creates :file:`config/system/additional.php`
 to fake sending mails. You can see what mails have been sent here:
 
 ..  code-block:: bash
