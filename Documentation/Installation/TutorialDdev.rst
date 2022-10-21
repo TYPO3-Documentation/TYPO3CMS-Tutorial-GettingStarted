@@ -122,10 +122,11 @@ Managing the Database
 ---------------------
 
 Upon calling :bash:`ddev config` DDEV automatically created a database for
-you. DDEV also created a file called :file:`public/typo3conf/AdditionalConfiguration.php`
+you. DDEV also created a file called :file:`config/system/additional.php`
 in which it stored the database credentials for you.
 
-During the installation setup process TYPO3 created all the tables it needed. If you want to have a look at the database, you can run the following command:
+During the installation setup process TYPO3 created all the tables it needed.
+If you want to have a look at the database, you can run the following command:
 
 ..  code-block:: bash
 
@@ -134,7 +135,7 @@ During the installation setup process TYPO3 created all the tables it needed. If
 Sending E-Mail
 --------------
 
-DDEV creates :file:`public/typo3conf/AdditionalConfiguration.php`
+DDEV creates :file:`config/system/additional.php`
 to fake sending mails. You can see what mails have been sent here:
 
 ..  code-block:: bash

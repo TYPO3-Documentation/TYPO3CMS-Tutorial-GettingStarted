@@ -142,7 +142,7 @@ The following section contains examples for various deployment tools and how the
                  'packages/**.sass'
              ])
              ->setOption(TYPO3\Surf\Task\TYPO3\CMS\FlushCachesTask::class . '[arguments]', [])
-             ->addSymlink($application->getOption('webDirectory') . '/typo3conf/LocalConfiguration.php', '../../../../shared/Configuration/LocalConfiguration.php')
+             ->addSymlink($application->getOption('webDirectory') . '/config/system/settings.php', '../../../../shared/Configuration/settings.php')
              ->addNode($node);
 
              $deployment

@@ -64,8 +64,9 @@ Tool. This will give all admin users system maintainer access.
 .. image:: ../../Images/ManualScreenshots/UserManagement/admin-tools-open.png
    :class: with-shadow
 
-System Maintainers are the only users who are able to see and access the Install Tool
-and the Extension Manager. These users are persisted within the
-:file:`LocalConfiguration.php` as :php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['systemMaintainers']`.
+System Maintainers are the only users who are able to see and access the
+:guilabel:`Admin Tools` and the :guilabel:`Extension Manager`. These users are
+persisted within the :file:`config/system/settings.php` as
+:php:`$GLOBALS['TYPO3_CONF_VARS']['SYS']['systemMaintainers']`.
 
 
