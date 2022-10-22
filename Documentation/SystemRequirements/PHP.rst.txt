@@ -47,6 +47,7 @@ Required Extensions
 * **SPL**
 * **standard**
 * **mbstring**
+* **intl**
 
 Depending on the use case, the following extensions may also be required:
 
@@ -55,7 +56,6 @@ Depending on the use case, the following extensions may also be required:
 * **zip** (TYPO3 uses zip to extract language archives as well as extracting and archiving extensions)
 * **zlib** (TYPO3 uses zlib for output compression)
 * **openssl** (OpenSSL is required for sending SMTP mails over an encrypted channel endpoint)
-* **intl** (when using unicode-based filesystems)
 
 Required Database Extensions
 ----------------------------
