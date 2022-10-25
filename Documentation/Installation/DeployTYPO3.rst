@@ -176,7 +176,7 @@ The following section contains examples for various deployment tools and how the
          require_once(__DIR__ . '/vendor/sourcebroker/deployer-loader/autoload.php');
          new \SourceBroker\DeployerExtendedTypo3\Loader();
 
-         set('repository', 'git@github.com:sourcebrokergit/t3base10.git');
+         set('repository', 'git@github.com:youraccount/yourproject.git');
          set('bin/php', '/home/www/example-project-directory/.bin/php');
          set('web_path', 'public/');
 
