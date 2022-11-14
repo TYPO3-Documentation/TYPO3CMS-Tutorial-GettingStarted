@@ -42,4 +42,4 @@ Configure the first/default language
 
 .. include:: ../Images/AutomaticScreenshots/Modules/SiteManagementLanguages.rst.txt
 
-TYPO3 adds a "default" language to the site configuration during installation. Of course the default language can be change. You can add additional languages for the site if you need to.
+After TYPO3 is installed, you can create languages for your first site configuration. You can add additional languages for the site if you need to.
