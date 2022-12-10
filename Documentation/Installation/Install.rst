@@ -14,7 +14,7 @@ to install TYPO3 using Composer.
 For more information on how to deploy TYPO3 to a live environment, visit the :ref:`deploying TYPO3 <DeployTYPO3>` chapter.
 
 Pre-installation Checklist
---------------------------
+==========================
 
 - Command line (CLI) access with the ability to create directories and symbolic links.
 - Access to `Composer <https://getcomposer.org>`__ via the CLI (for local development)
@@ -22,7 +22,7 @@ Pre-installation Checklist
 - Database with appropriate credentials
 
 Execute Composer Create-Project
--------------------------------
+===============================
 
 The following script will install TYPO3 v12.0 which is the latest release of the CMS. If you wish to
 install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
@@ -30,36 +30,52 @@ Installation instructions <t3start11:install>`.
 
 At the root level of your web server, execute the following command:
 
-.. tabs::
+..  tabs::
 
-   .. group-tab:: bash
+    ..  group-tab:: bash
 
-      .. code-block:: bash
+        ..  code-block:: bash
 
-         composer create-project typo3/cms-base-distribution:^12 example-project-directory
+            composer create-project typo3/cms-base-distribution:^12 example-project-directory
 
-   .. group-tab:: powershell
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
+            ./vendor/bin/typo3 setup
 
-      .. code-block:: powershell
+    ..  group-tab:: powershell
 
-         composer create-project "typo3/cms-base-distribution:^12" example-project-directory
+        ..  code-block:: powershell
 
-   .. group-tab:: ddev
+            composer create-project "typo3/cms-base-distribution:^12" example-project-directory
 
-      .. code-block:: bash
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
+            ./vendor/bin/typo3 setup
 
-         # Create a directory for your project
-         mkdir example-project-directory
+    ..  group-tab:: ddev
 
-         # Go into that directory
-         cd example-project-directory
+        ..  code-block:: bash
 
-         # Tell DDEV to create a new project of type "typo3"
-         # 'docroot' MUST be 'public' PHP 8.1 is required by TYPO3 v12
-         ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
+            # Create a directory for your project
+            mkdir example-project-directory
 
-         # Fetch a basic TYPO3 installation and its' dependencies
-         ddev composer create "typo3/cms-base-distribution:^12"
+            # Go into that directory
+            cd example-project-directory
+
+            # Tell DDEV to create a new project of type "typo3"
+            # 'docroot' MUST be 'public' PHP 8.1 is required by TYPO3 v12
+            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
+
+            # Fetch a basic TYPO3 installation and its' dependencies
+            ddev composer create "typo3/cms-base-distribution:^12"
+
+            # Depending on your DDEV version the configuration file may have been
+            # created in an outdated location, you can move it with
+            mkdir -p config/system/ && mv  public/typo3conf/AdditionalConfiguration.php $_/additional.php
+
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
+            ddev exec ./vendor/bin/typo3 setup
 
 
 This command pulls down the latest release of TYPO3 and places it in the
@@ -81,8 +97,40 @@ will contain the following structure:
     └── vendor
 
 
-Verify Installation
--------------------
+Run the setup process
+=====================
+
+Setup TYPO3 in the console
+--------------------------
+
+..  versionadded:: 12.1
+    Starting with TYPO3 12.1 a new CLI command `setup` is introduced as
+    an alternative to the existing GUI based web installer.
+
+Interactive / guided setup (questions/answers):
+
+..  tabs::
+
+    ..  group-tab:: bash
+
+        ..  code-block:: bash
+
+            ./vendor/bin/typo3 setup
+
+    ..  group-tab:: powershell
+
+        ..  code-block:: powershell
+
+            ./vendor/bin/typo3 setup
+
+    ..  group-tab:: ddev
+
+        ..  code-block:: bash
+
+            ddev exec ./vendor/bin/typo3 setup
+
+Or use the GUI installer in the browser
+---------------------------------------
 
 Create an empty file called `FIRST_INSTALL` in the `/public` directory:
 
@@ -107,7 +155,6 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
          ddev exec touch public/FIRST_INSTALL
 
 .. code-block:: none
-
     .
     ├── .gitignore
     ├── composer.json
@@ -120,7 +167,7 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
     └── vendor
 
 Access TYPO3 via a web browser
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After you have configured your web server to point ot the `public` directory of your project,
 TYPO3 can be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
@@ -138,7 +185,7 @@ redirects all requests to :samp:`/typo3/install.php` to complete the installatio
 
 
 Scan Environment
-----------------
+~~~~~~~~~~~~~~~~
 
 TYPO3 will now scan the host environment. During the scan TYPO3 will check the host system for the following:
 
@@ -155,8 +202,8 @@ Once changes have been made, TYPO3 can re-scan the host environment by reloading
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step1SystemEnvironment.rst.txt
 
-Select A Database
------------------
+Select a Database
+~~~~~~~~~~~~~~~~~
 
 Select a database connection driver and enter the credentials for the database.
 
@@ -174,14 +221,13 @@ Once it is installed, :guilabel:`MySQL Database` will be an available option.
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
 Create Administrative User & Set Site Name
-------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 An administrator account needs to be created to gain access to TYPO3's backend.
 
 An email address for this user can also be specified and a name can also be given.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step4AdminUserSitename.rst.txt
-
 
 Initialise
 -----------

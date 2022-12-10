@@ -21,7 +21,7 @@ Installation instructions <t3start11:install>`.
 Pre-Installation Checklist
 --------------------------
 
-#. **Install Docker** - Visit `docker.com <https://www.docker.com/>`__ to download and install the recommended version of Docker for your operating system.
+#.  **Install Docker** - Visit `docker.com <https://www.docker.com/>`__ to download and install the recommended version of Docker for your operating system.
 
 #.  **Install DDEV** - Follow the `DDEV installation guide <https://ddev.readthedocs.io/en/stable/>`__ to install DDEV.
 
@@ -96,6 +96,22 @@ You now have a **Composer-based TYPO3 installation**.
 
 Run the Installation Setup Tool
 -------------------------------
+
+Setup TYPO3 in the console
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+..  versionadded:: 12.1
+    Starting with TYPO3 12.1 a new CLI command `setup` is introduced as
+    an alternative to the existing GUI based web installer.
+
+Interactive / guided setup (questions/answers):
+
+..  code-block:: bash
+
+    ddev exec ./vendor/bin/typo3 setup
+
+Setup TYPO3 with the 1,2,3 Install Tool in the browser
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create a file called :file:`FIRST_INSTALL` in your webroot
 
