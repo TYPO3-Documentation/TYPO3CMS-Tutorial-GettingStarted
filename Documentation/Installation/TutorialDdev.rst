@@ -102,7 +102,7 @@ Setup TYPO3 in the console
 
 ..  versionadded:: 12.1
     Starting with TYPO3 12.1 a new CLI command `setup` is introduced as
-    an alternative to the existing GUI based web installer.
+    an alternative to the existing GUI-based web installer.
 
 Interactive / guided setup (questions/answers):
 
