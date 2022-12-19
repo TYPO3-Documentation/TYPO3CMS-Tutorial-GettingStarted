@@ -26,7 +26,7 @@ Execute Composer Create-Project
 
 The following script will install TYPO3 v12 which is the latest release of the CMS. If you wish to
 install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
-Installation instructions <t3start11:install>`.
+Installation guide <t3start11:install>`.
 
 At the root level of your web server, execute the following command:
 
