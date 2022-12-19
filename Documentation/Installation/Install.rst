@@ -24,9 +24,9 @@ Pre-installation Checklist
 Execute Composer Create-Project
 ===============================
 
-The following script will install TYPO3 v12.0 which is the latest release of the CMS. If you wish to
+The following script will install TYPO3 v12 which is the latest release of the CMS. If you wish to
 install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
-Installation instructions <t3start11:install>`.
+Installation guide <t3start11:install>`.
 
 At the root level of your web server, execute the following command:
 
@@ -104,7 +104,8 @@ Setup TYPO3 in the console
 --------------------------
 
 ..  versionadded:: 12.1
-    Starting with TYPO3 12.1 a new CLI command `setup` is introduced as
+    Starting with TYPO3 v12.1 a new :ref:`CLI command
+    <t3coreapi:symfony-console-commands>` `setup` is introduced as
     an alternative to the existing GUI-based web installer.
 
 Interactive / guided setup (questions/answers):
