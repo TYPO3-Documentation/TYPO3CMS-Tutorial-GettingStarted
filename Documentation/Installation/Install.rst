@@ -230,6 +230,10 @@ An email address for this user can also be specified and a name can also be give
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step4AdminUserSitename.rst.txt
 
+..  note::
+    The password must comply with the configured
+    :ref:`password policy <t3coreapi:password-policies>`.
+
 Initialise
 -----------
 
