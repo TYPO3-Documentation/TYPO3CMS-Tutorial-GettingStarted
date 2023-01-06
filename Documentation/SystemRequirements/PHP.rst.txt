@@ -43,7 +43,6 @@ Required Extensions
 * **session**
 * **xml**
 * **filter**
-* **hash**
 * **SPL**
 * **standard**
 * **mbstring**
