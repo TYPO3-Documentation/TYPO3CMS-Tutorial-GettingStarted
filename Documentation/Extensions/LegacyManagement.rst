@@ -68,7 +68,7 @@ Uninstall / Deactivate Extension via TYPO3 Backend
 .. include:: ../Images/AutomaticScreenshots/ExtensionManager/UninstallExtension.rst.txt
 
 
-Log into the TYPO3 Backend and open the Extension Manager ('Ext Manager'). From the menu choose 'Install extensions'.
+Log into the TYPO3 Backend and open the Extension Manager ('Ext Manager'). From the menu choose 'Installed extensions'.
 You get an overview about installed extensions.
 
 On the left side you see an icon, which shows the status of each extension, and what you can do:
