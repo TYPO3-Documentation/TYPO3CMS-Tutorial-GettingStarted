@@ -45,6 +45,7 @@ Required Extensions
 * **filter**
 * **SPL**
 * **standard**
+* **tokenizer**
 * **mbstring**
 * **intl**
 
