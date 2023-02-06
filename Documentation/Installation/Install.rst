@@ -56,7 +56,7 @@ Execute Composer Create-Project
            ddev start
 
            # Fetch a basic TYPO3 installation composer.json
-           ddev composer create "typo3/cms-base-distribution" --no-install -y
+           ddev composer create "typo3/cms-base-distribution:^11" --no-install -y
            
            # And do the installation
            ddev composer install
