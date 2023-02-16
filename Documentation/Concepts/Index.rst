@@ -30,7 +30,7 @@ their site.
 The backend is also used to configure a TYPO3 installation. Domains,
 languages and other information that determine how a site behaves are managed
 via the backend. Tasks such as adding backend users and
-managing third party extensions also take place in the backend.
+managing third-party extensions also take place in the backend.
 
 Accessing The Backend
 ---------------------
