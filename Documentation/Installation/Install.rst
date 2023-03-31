@@ -170,7 +170,7 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
 Access TYPO3 via a web browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-After you have configured your web server to point ot the `public` directory of your project,
+After you have configured your web server to point at the `public` directory of your project,
 TYPO3 can be accessed via a web browser. When accessing a new site for the first time, TYPO3 automatically
 redirects all requests to :samp:`/typo3/install.php` to complete the installation process.
 
@@ -214,10 +214,8 @@ TYPO3 can either connect to an existing empty database or create a new one.
 
 The list of databases available is dependent on which database drivers are installed on the host.
 
-
-For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension `pdo_mysql` is required.
-Once it is installed, :guilabel:`MySQL Database` will be an available option.
-
+For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension 'pdo_mysql' is required.
+Once it's installed, :guilabel:`MySQL Database` will be available as an option.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
@@ -226,7 +224,7 @@ Create Administrative User & Set Site Name
 
 An administrator account needs to be created to gain access to TYPO3's backend.
 
-An email address for this user can also be specified and a name can also be given.
+An email address for this user can also be specified and a name can be given.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step4AdminUserSitename.rst.txt
 
@@ -237,20 +235,20 @@ An email address for this user can also be specified and a name can also be give
 Initialise
 -----------
 
-TYPO3 offers two options for initialisation: Creating an empty starting page or
+TYPO3 offers two options for initialisation: creating an empty starting page or
 it can go directly to the backend administrative interface.
-Beginners should select the first option and allow TYPO3 to create an empty starting page,
-this will also generate a site configuration file.
+Beginners should select the first option and allow TYPO3 to create an empty starting page.
+This will also generate a site configuration file.
 
 .. include:: ../Images/AutomaticScreenshots/QuickInstall/Step5LastStep.rst.txt
 
 Next Steps
 ----------
 
-Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
+Now that installation is complete, TYPO3 can be :ref:`configured <setup>`.
 
 Using DDEV
 ----------
 
 We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`.
-This tutorial also includes a video.
+The tutorial also includes a video.
