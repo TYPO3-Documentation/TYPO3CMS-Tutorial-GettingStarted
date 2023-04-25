@@ -20,16 +20,16 @@ Installing on a Unix Server
    .. code-block:: bash
       :caption: /var/www/site/$
 
-      wget --content-disposition https://get.typo3.org/11
+      wget --content-disposition https://get.typo3.org/12
 
    Ensure that the package is one level above the web server's document root.
 
-#. Unpack the :file:`typo3_src-11.5.x.tar.gz`:
+#. Unpack the :file:`typo3_src-12.4.x.tar.gz`:
 
    .. code-block:: bash
       :caption: /var/www/site/$
 
-      tar xzf typo3_src-11.5.x.tar.gz
+      tar xzf typo3_src-12.4.x.tar.gz
 
    Note that the `x` in the extracted folder will be replaced with the latest bugfix version of TYPO3.
 
@@ -41,7 +41,7 @@ Installing on a Unix Server
       :caption: /var/www/site/$
 
       cd public
-      ln -s ../typo3_src-11.5.x typo3_src
+      ln -s ../typo3_src-12.4.x typo3_src
       ln -s typo3_src/index.php index.php
       ln -s typo3_src/typo3 typo3
 
@@ -53,9 +53,9 @@ Installing on a Unix Server
 
    .. code-block:: none
 
-    ├── typo3_src-11.5.x/
+    ├── typo3_src-12.4.x/
     ├── public/
-    ├── ── typo3_src -> ../typo3_src-11.5.x/
+    ├── ── typo3_src -> ../typo3_src-12.4.x/
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
 
@@ -74,7 +74,7 @@ Installing on a Windows Server
       :caption: /var/www/site/$
 
       cd public
-      mklink /d typo3_src ..\typo3_src-11.5.x
+      mklink /d typo3_src ..\typo3_src-12.4.x
       mklink /d typo3 typo3_src\typo3
       mklink index.php typo3_src\index.php
 
@@ -82,9 +82,9 @@ Installing on a Windows Server
 
    .. code-block:: none
 
-    ├── typo3_src-11.5.x/
+    ├── typo3_src-12.4.x/
     ├── public/
-    ├── ── typo3_src -> ../typo3_src-11.5.x/
+    ├── ── typo3_src -> ../typo3_src-12.4.x/
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
 

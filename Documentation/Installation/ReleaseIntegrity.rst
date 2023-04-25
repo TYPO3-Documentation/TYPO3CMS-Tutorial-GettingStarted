@@ -16,12 +16,12 @@ Release contents
 Every release of TYPO3 is made available with the following files:
 
 .. code-block:: bash
-   :caption: `TYPO3 CMS 11.5.1 <https://get.typo3.org/version/11#accordion-heading-zip>`_ release as an example
+   :caption: `TYPO3 CMS 12.4.0 <https://get.typo3.org/version/12#accordion-zip>`_ release as an example
 
-   typo3_src-11.5.1.tar.gz
-   typo3_src-11.5.1.tar.gz.sig
-   typo3_src-11.5.1.zip
-   typo3_src-11.5.1.zip.sig
+   typo3_src-12.4.0.tar.gz
+   typo3_src-12.4.0.tar.gz.sig
+   typo3_src-12.4.0.zip
+   typo3_src-12.4.0.zip.sig
 
 * ``*.tar.gz`` and ``*.zip`` files are the actual release packages, containing
   the source code of TYPO3 CMS
@@ -35,23 +35,23 @@ correctly on the local system. TYPO3 uses cryptographic hash methods including `
 and `SHA2-256`_.
 
 The file hashes for each version are published on get.typo3.org and can be found
-on the corresponding release page, for example https://get.typo3.org/version/11#package-checksums contains:
+on the corresponding release page, for example https://get.typo3.org/version/12#package-checksums contains:
 
 .. code-block:: bash
-   :caption: TYPO3 v11.5.1 Checksums
+   :caption: TYPO3 v12.4.0 Checksums
    :name: Checksums
 
    SHA256:
-   205d1879e05c75093a2c427f7f7cacb297ca841e491450b3577987e259ff6c5b typo3_src-11.5.1.tar.gz
-   e07b303405d182f4450fda4a7a7acdbe5080c22123d52f74ef5f2fbf78233a49 typo3_src-11.5.1.zip
+   4a6fb6b1d3fa203934e0b83558355baf3b2c2829b03608d06ca39baedf1cd519 typo3_src-12.4.0.tar.gz
+   0f68660831e9f98c23f051466360f9e170b906d7ceb627c7fb293c5e78e38b7a typo3_src-12.4.0.zip
 
    SHA1:
-   aa88171cfb5aa9935b2a989f51e68b6d8eb6e5f0 typo3_src-11.5.1.tar.gz
-   3dbe9322015e1d5266d78c6c3ff40846f8a6492f typo3_src-11.5.1.zip
+   d08323db3ba1cf81d1ce9352353c14d9f9e5f8b6 typo3_src-12.4.0.tar.gz
+   b0a1502ad0f21fde7340b8cf37b376165fe60160 typo3_src-12.4.0.zip
 
    MD5:
-   cda2a4494f6673e9251c265c9ef1c345 typo3_src-11.5.1.tar.gz
-   252583501d30bb5679305b58ed6e6f94 typo3_src-11.5.1.zip
+   8d10e26af95d596f8a105773d63c1152 typo3_src-12.4.0.tar.gz
+   761b14e2932ae2e195a5ee6527afb925 typo3_src-12.4.0.zip
 
 
 To verify file hashes, the hashes need to be generated locally for the packages
@@ -64,8 +64,8 @@ The following commands generate hashes for the `.tar.gz` and `.zip` packages:
    :caption: ~$
 
    shasum -a 256 typo3_src-*.tar.gz typo3_src-*.zip
-   205d1879e05c75093a2c427f7f7cacb297ca841e491450b3577987e259ff6c5b typo3_src-11.5.1.tar.gz
-   e07b303405d182f4450fda4a7a7acdbe5080c22123d52f74ef5f2fbf78233a49 typo3_src-11.5.1.zip
+   4a6fb6b1d3fa203934e0b83558355baf3b2c2829b03608d06ca39baedf1cd519  typo3_src-12.4.0.tar.gz
+   0f68660831e9f98c23f051466360f9e170b906d7ceb627c7fb293c5e78e38b7a  typo3_src-12.4.0.zip
 
 .. code-block:: bash
    :caption: ~$
@@ -78,8 +78,8 @@ The following commands generate hashes for the `.tar.gz` and `.zip` packages:
    :caption: ~$
 
    md5sum typo3_src-*.tar.gz typo3_src-*.zip
-   cda2a4494f6673e9251c265c9ef1c345 typo3_src-11.5.1.tar.gz
-   252583501d30bb5679305b58ed6e6f94 typo3_src-11.5.1.zip
+   8d10e26af95d596f8a105773d63c1152  typo3_src-12.4.0.tar.gz
+   761b14e2932ae2e195a5ee6527afb925  typo3_src-12.4.0.zip
 
 These hashes must match the hashes published on get.typo3.org to ensure package integrity.
 
@@ -95,19 +95,19 @@ To validate these signatures `The GNU Privacy Guard`_ is recommend, however
 any `OpenPGP`_ compliant tool can also be used.
 
 The release packages are using a detached binary signature. This means that
-the file ``typo3_src-11.5.1.tar.gz`` has an additional signature file
-``typo3_src-11.5.1.tar.gz.sig`` which is the detached signature.
+the file ``typo3_src-12.4.0.tar.gz`` has an additional signature file
+``typo3_src-12.4.0.tar.gz.sig`` which is the detached signature.
 
 .. code-block:: bash
    :caption: ~$
 
-   gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
+   gpg --verify typo3_src-12.4.0.tar.gz.sig typo3_src-12.4.0.tar.gz
 
 .. code-block:: none
 
-   gpg: Signature made Tue Oct 12 12:20:19 2021 UTC
+   gpg: Signature made Tue 25 Apr 07:03:26 2023 BST
    gpg:                using RSA key E7ED29A70309A0D1AE34DA733304BBDBFA9613D1
-   gpg: Can't check signature: No public key
+   gpg: WARNING: This key is not certified with a trusted signature!
 
 The warning means that the public key ``E7ED29A70309A0D1AE34DA733304BBDBFA9613D1`` is not yet available on the
 local system and cannot be used to validate the signature. The public key can be
@@ -129,12 +129,12 @@ obtained by any key server - a popular one is `pgpkeys.mit.edu`_.
    gpg:               imported: 3  (RSA: 3)
 
 Once the public key has been imported, the previous command on verifying the
-signature of the ``typo3_src-11.5.1.tar.gz`` file can be repeated.
+signature of the ``typo3_src-12.4.0.tar.gz`` file can be repeated.
 
 .. code-block:: bash
    :caption: ~$
 
-   gpg --verify typo3_src-11.5.1.tar.gz.sig typo3_src-11.5.1.tar.gz
+   gpg --verify typo3_src-12.4.0.tar.gz.sig typo3_src-12.4.0.tar.gz
 
 .. code-block:: none
 
