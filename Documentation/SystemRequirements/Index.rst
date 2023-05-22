@@ -12,6 +12,8 @@ TYPO3 requires a web server running PHP and access to a database.
 
 Composer is also required for local development.
 
+If you want TYPO3 to automatically carry out image processing – for example scaling or cropping – you will need GraphicsMagick (version 1.3 or newer) or ImageMagick (version 6 or newer) installed on the server. (GraphicsMagick should be preferred.)
+
 For up-to-date information about TYPO3's system requirements visit `get.typo3.org
 <https://get.typo3.org/version/#system-requirements>`_.
 
