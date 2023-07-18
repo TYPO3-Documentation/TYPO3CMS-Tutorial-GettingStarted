@@ -66,6 +66,9 @@ At the root level of your web server, execute the following command:
             # 'docroot' MUST be 'public' PHP 8.1 is required by TYPO3 v12
             ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
 
+            # Start the server
+            ddev start
+
             # Fetch a basic TYPO3 installation and its' dependencies
             ddev composer create "typo3/cms-base-distribution:^12"
 
