@@ -36,7 +36,7 @@ At the root level of your web server, execute the following command:
 
         ..  code-block:: bash
 
-            composer create-project typo3/cms-base-distribution:^12 example-project-directory
+            composer create-project typo3/cms-base-distribution example-project-directory "^12"
 
             # Use console command to run the install process
             # or use the Install Tool GUI (See below)
