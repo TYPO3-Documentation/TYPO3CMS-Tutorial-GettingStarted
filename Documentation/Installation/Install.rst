@@ -30,7 +30,7 @@ Execute Composer Create-Project
 
        .. code-block:: bash
 
-         composer create-project typo3/cms-base-distribution:^11 example-project-directory
+          composer create-project typo3/cms-base-distribution example-project-directory "^11"
 
    .. group-tab:: powershell
 
@@ -57,7 +57,7 @@ Execute Composer Create-Project
 
            # Fetch a basic TYPO3 installation composer.json
            ddev composer create "typo3/cms-base-distribution:^11" --no-install -y
-           
+
            # And do the installation
            ddev composer install
 
@@ -199,5 +199,5 @@ Now that installation is complete, TYPO3 can be :ref:`configured <setup>`.
 Using DDEV
 ----------
 
-We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`. 
+We also provide a step-by-step tutorial on how to :ref:`Install TYPO3 using DDEV <installation-ddev-tutorial>`.
 The tutorial also includes a video.
