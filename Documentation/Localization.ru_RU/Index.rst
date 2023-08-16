@@ -1,4 +1,4 @@
-.. include:: /Includes.rst.txt
+.. include:: /Localization.ru_RU/Includes.rst.txt
 ..  _start:
 
 ================================
