@@ -131,48 +131,44 @@ create-docroot
 Управление базой данных
 ---------------------
 
-Upon calling :bash:`ddev config` DDEV automatically created a database for
-you. DDEV also created a file called :file:`config/system/additional.php`
-in which it stored the database credentials for you.
+При вызове команды :bash:`ddev config` DDEV автоматически создал для вас базу данных. DDEV также создал файл :file:`config/system/additional.php`, в котором сохранил учетные данные базы данных.
 
-During the installation setup process TYPO3 created all the tables it needed.
-If you want to have a look at the database, you can run the following command:
+В процессе установки TYPO3 создала все необходимые таблицы. Если вы хотите взглянуть на базу данных, то можно выполнить следующую команду:
 
 ..  code-block:: bash
 
     ddev launch -p
 
-Sending E-Mail
+Отправка E-Mail
 --------------
 
-DDEV creates :file:`config/system/additional.php`
-to fake sending mails. You can see what mails have been sent here:
+DDEV создает :файл:`config/system/additional.php`
+для имитации отправки писем. Посмотреть отправленные письма можно здесь:
 
 ..  code-block:: bash
 
     ddev launch -m
 
-Stopping a DDEV Instance
+Остановка экземпляра DDEV
 ------------------------
 
-If you want to stop all projects from running you can call:
+Если необходимо остановить выполнение всех проектов, можно вызвать команду:
 
 ..  code-block:: bash
 
     ddev poweroff
 
-The projects will stay configured and databases will be persisted.
+Проекты останутся настроенными, а базы данных сохранены.
 
-Deleting a DDEV Instance
+Удаление экземпляра DDEV
 ------------------------
 
-If you want to delete the project you just created you can remove it by
-calling the following command in your new projects root folder:
+Если вы решите удалить только что созданный проект, можно выполнить следующую команду в корневой папке нового проекта:
 
 ..  code-block:: bash
 
      ddev delete --omit-snapshot
 
-This will remove all containers from the project and delete the database.
+При этом из проекта будут удалены все контейнеры и удалена база данных.
 
-Afterwards you can safely delete the project's root folder.
+После этого можно смело удалять корневую папку проекта.
