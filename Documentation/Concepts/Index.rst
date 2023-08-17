@@ -58,7 +58,7 @@ Backend Modules
       -  :guilabel:`Site Management` is for the setup of a site. Here it is possible to
          specify the site name, assign domains and select languages.
 
-      -  Filelist is for viewing and managing files including
+      -  :guilabel:`Filelist` is for viewing and managing files including
          documents, images and videos.
 
       -  Admin Tools are administrative modules for maintenance and performing
