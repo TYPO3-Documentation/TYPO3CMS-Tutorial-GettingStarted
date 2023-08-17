@@ -97,4 +97,5 @@ tags. The three tags are:
 -  A tag that generates the main navigation menu.
 -  A tag to insert the company logo.
 
-Site assets, such as HTML, CSS and JavaScript, are stored in a site package.
+Site assets, such as HTML, CSS and JavaScript, are stored in a
+:ref:`site package <t3sitepackage:introduction>`.
