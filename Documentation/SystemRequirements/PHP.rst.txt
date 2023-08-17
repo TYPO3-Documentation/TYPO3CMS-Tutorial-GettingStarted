@@ -45,7 +45,6 @@ Required Extensions
 * **filter**
 * **SPL**
 * **standard**
-* **mbstring**
 
 Depending on the use case, the following extensions may also be required:
 
