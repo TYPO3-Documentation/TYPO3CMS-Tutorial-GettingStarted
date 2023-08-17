@@ -52,7 +52,7 @@ Backend Modules
       The backend contains modules that are grouped by task. Which modules a
       user sees depends on the access rights that have been given to them.
 
-      -  The Web group contains a set of modules for the creation and
+      -  The :guilabel:`Web` group contains a set of modules for the creation and
          management of pages and content.
 
       -  Site Management is for the setup of a site. Here it is possible to
