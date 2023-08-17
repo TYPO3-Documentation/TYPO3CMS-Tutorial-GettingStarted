@@ -65,7 +65,7 @@ Backend Modules
          upgrades. One module is the Extension manager for enabling/disabling
          third-party extensions.
 
-      -  System is where administrators control access to the backend, view
+      -  :guilabel:`System` is where administrators control access to the backend, view
          error logs and provide information specific to the installation.
 
 Extensions
