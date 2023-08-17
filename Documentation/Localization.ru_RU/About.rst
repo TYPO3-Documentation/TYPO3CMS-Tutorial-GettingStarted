@@ -13,7 +13,7 @@
 
 Этот документ знакомит новых пользователей с TYPO3, ее основными функциями и даёт общее представление о настройке и администрированию CMS.
 
-Upon completing this tutorial, you should have a better understanding about how the CMS is installed, how the backend is administered and how you begin creating templates. По завершению знакомства с этим руководством, вы научитесь устанавливать CMS, получите представление об администрировании системы из интерфейса управления (backend) и создании шаблонов страниц сайта.
+По завершению знакомства с этим руководством, вы научитесь устанавливать CMS, получите представление об администрировании системы из интерфейса управления (backend) и создании шаблонов страниц сайта.
 
 Перевод на французский
 ======================
@@ -42,7 +42,7 @@ Upon completing this tutorial, you should have a better understanding about how 
 Благодарность
 =============
 
-This manual was originally written by Kasper Skårhøj and adapted to TYPO3 CMS 4.5 LTS by Philipp Gampe, Martin Holtz, Susanne Moog and François Suter. It was revised and updated to version 6.2 LTS by Guido Haase, to version 7 LTS by Francois Suter and to version 9.5 LTS by Sybille Peters. Tom Warwick made several language improvements on the 9.5 branch for better readability. Данное руководство изначально было написано Каспером Скорёем и адаптировано для TYPO3 CMS версии 4.5 LTS Филиппом Гампе, Мартином Хольцем, Сюзанной Моог и Франсуа Сутером. Затем было пересмотрен и обновлена до версии 6.2 LTS Гвидо Хаазе, до версии 7 LTS Франсуа Сутером, и до версии 9.5 LTS Сибиллой Петерс. Том Уорвик внес в ветку 9.5 несколько языковых улучшений для повышения удобочитаемости.
+Данное руководство изначально было написано Каспером Скорёем и адаптировано для TYPO3 CMS версии 4.5 LTS Филиппом Гампе, Мартином Хольцем, Сюзанной Моог и Франсуа Сутером. Затем было пересмотрен и обновлена до версии 6.2 LTS Гвидо Хаазе, до версии 7 LTS Франсуа Сутером, и до версии 9.5 LTS Сибиллой Петерс. Том Уорвик внес в ветку 9.5 несколько языковых улучшений для повышения удобочитаемости.
 
 Поскольку документация TYPO3 теперь может редактироваться совместно всем сообществом TYPO3, целый ряд других людей внесли свой вклад и улучшили это руководство. Вы можете ознакомиться со `списком всех соавторов на GitHub
 <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/graphs/contributors>`__.
