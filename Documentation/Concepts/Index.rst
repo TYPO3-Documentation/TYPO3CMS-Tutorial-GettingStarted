@@ -55,7 +55,7 @@ Backend Modules
       -  The :guilabel:`Web` group contains a set of modules for the creation and
          management of pages and content.
 
-      -  Site Management is for the setup of a site. Here it is possible to
+      -  :guilabel:`Site Management` is for the setup of a site. Here it is possible to
          specify the site name, assign domains and select languages.
 
       -  Filelist is for viewing and managing files including
