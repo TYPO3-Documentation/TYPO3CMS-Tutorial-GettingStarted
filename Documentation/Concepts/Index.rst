@@ -61,7 +61,7 @@ Backend Modules
       -  :guilabel:`Filelist` is for viewing and managing files including
          documents, images and videos.
 
-      -  Admin Tools are administrative modules for maintenance and performing
+      -  :guilabel:`Admin Tools` are administrative modules for maintenance and performing
          upgrades. One module is the Extension manager for enabling/disabling
          third-party extensions.
 
