@@ -5,16 +5,15 @@
 .. _legacyinstallation:
 
 ===================
-Legacy Installation
+Традиционная установка
 ===================
 
-This guide details how TYPO3 can be installed without using Composer. This method of installation
-is now considered out of date, users are strongly encouraged to use the Composer based :ref:`install`
+В данном руководстве подробно описано, как можно установить TYPO3 без использования Composer. Этот способ установки в настоящее время считается устаревшим, пользователям настоятельно рекомендуется использовать установку с помощью Composer :ref:`install`.
 
-Installing on a Unix Server
+Установка на Unix-сервер
 ===========================
 
-#. Download TYPO3's source package from `https://get.typo3.org/
+#. Загрузите исходный пакет TYPO3 с сайта `https://get.typo3.org/
    <https://get.typo3.org/>`_:
 
    .. code-block:: bash
@@ -22,19 +21,19 @@ Installing on a Unix Server
 
       wget --content-disposition https://get.typo3.org/11
 
-   Ensure that the package is one level above the web server's document root.
+   Убедитесь, что пакет находится на один уровень выше корня документа веб-сервера.
 
-#. Unpack the :file:`typo3_src-12.4.x.tar.gz`:
+#. Распакуйте :file:`typo3_src-12.4.x.tar.gz`:
 
    .. code-block:: bash
       :caption: /var/www/site/$
 
       tar xzf typo3_src-12.4.x.tar.gz
 
-   Note that the `x` in the extracted folder will be replaced with the latest bugfix version of TYPO3.
+   Обратите внимание, что `x` в извлеченной папке будет заменен на последнюю обновленную версию TYPO3.
 
 
-#. Create the following symlinks in the document root:
+#. Создайте в корне документа следующие симлинки:
 
 
    .. code-block:: bash
@@ -46,10 +45,9 @@ Installing on a Unix Server
       ln -s typo3_src/typo3 typo3
 
 .. important::
-   Make sure to upload the whole TYPO3 source directory including the
-   :file:`vendor` directory, otherwise you will miss important dependencies.
+   Обязательно загрузите весь каталог с исходным кодом TYPO3, включая каталог :file:`vendor`, иначе вы упустите важные зависимости.
 
-#. This will then create the following structure:
+#. В результате образуется следующая структура:
 
    .. code-block:: none
 
@@ -59,16 +57,15 @@ Installing on a Unix Server
     ├── ── typo3 -> typo3_src/typo3/
     ├── ── index.php -> typo3_src/index.php
 
-Installing on a Windows Server
+Установка на сервер Windows
 ==============================
 
-#. Download TYPO3's source package from `https://get.typo3.org/
-   <https://get.typo3.org/>`_ and extract the :file:`.zip` file on the web server.
+#. Загрузите исходный пакет TYPO3 с сайта `https://get.typo3.org/ <https://get.typo3.org/>`_ и распакуйте файл :file:`.zip` на веб-сервере.
 
-   Ensure that the package is one level above the web server's document root.
+   Убедитесь, что пакет находится на один уровень выше корня документа веб-сервера.
 
 
-#. Use the shell to create the following symlinks in the document root:
+#. С помощью оболочки создайте в корне документа следующие симлинки:
 
    .. code-block:: bash
       :caption: /var/www/site/$
@@ -78,7 +75,7 @@ Installing on a Windows Server
       mklink /d typo3 typo3_src\typo3
       mklink index.php typo3_src\index.php
 
-#. This will then create the following structure:
+#. В результате образуется следующая структура:
 
    .. code-block:: none
 
@@ -89,8 +86,7 @@ Installing on a Windows Server
     ├── ── index.php -> typo3_src/index.php
 
 
-Completing The Installation
+Завершение установки
 ===========================
 
-After the source package has been extracted and the symlinks created,
-visit the Access TYPO3 via web browser to complete the installation.
+После извлечения исходного пакета и создания симлинков перейдите на страницу Access TYPO3 через веб-браузер для завершения установки.
