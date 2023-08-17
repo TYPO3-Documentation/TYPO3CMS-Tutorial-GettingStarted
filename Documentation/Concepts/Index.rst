@@ -11,36 +11,32 @@ TYPO3 Concepts
 The backend & frontend
 ======================
 
-TYPO3 is separated into two parts, the backend and the frontend.
+TYPO3 has two parts: the backend and the frontend.
 
 .. figure:: /Images/Illustrations/backend_frontend.png
 
-The backend is the administrative side of the CMS, it is only accessible to
-users who have been granted access. The frontend is what the visitor will see
-when browsing the site.
+The backend is the administrative side of the CMS. It is only accessible to
+users who have been granted the correct access. The frontend is what the visitor
+sees when browsing the site.
 
 Backend
 =======
 
 .. figure:: /Images/Illustrations/backend.png
 
-The backend's main role is to enable users to create and publish content for
-their site.
+The backend is where users create and publish content for their site. It is also
+where TYPO3 installations are configured. This includes setting domains and
+languages, adding backend users and managing third-party extensions.
 
-The backend is also used to configure a TYPO3 installation. Domains,
-languages and other information that determine how a site behaves are managed
-via the backend. Tasks such as adding backend users and
-managing third-party extensions also take place in the backend.
 
 Accessing The Backend
 ---------------------
 
-The backend can be accessed via :samp:`example.org/typo3`.
+The backend is accessed via the url (insert your domain) :samp:`example.org/typo3`.
 
 .. figure:: /Images/Illustrations/backend_login.png
 
-By default, users see the CMS's Overview Dashboard when they log
-in to the backend.
+When a user logs into the backend they see the dashboard (by default).
 
 Backend Modules
 ---------------
@@ -53,37 +49,34 @@ Backend Modules
 
    .. container:: col-md-8
 
-      The backend contains a range of modules that are grouped by task. User
-      access rights determine what modules are visible to users when they log into the backend.
+      The backend contains modules that are grouped by task. Which modules a
+      user sees depends on the access rights that have been given to them.
 
-      -  The Web group contains a set of modules that handle the creation and
-         management of both pages and content.
+      -  The :guilabel:`Web` group contains a set of modules for the creation and
+         management of pages and content.
 
-      -  Site Management handles the setup of a site. From this module it is
-         possible to specify the site name, assign domains and select
-         languages.
+      -  :guilabel:`Site Management` is for the setup of a site. Here it is possible to
+         specify the site name, assign domains and select languages.
 
-      -  Filelist provides a convenient way to view and manage files, including
+      -  :guilabel:`Filelist` is for viewing and managing files including
          documents, images and videos.
 
-      -  Admin Tools features a collection of administrative modules so that
-         you can perform various maintenance and upgrade tasks. This module also
-         contains the Extension manager, where you can enable and disable any
+      -  :guilabel:`Admin Tools` are administrative modules for maintenance and performing
+         upgrades. One module is the Extension manager for enabling/disabling
          third-party extensions.
 
-      -  The System group contains modules that allow administrators to manage
-         access to the backend, view error logs and provide information
-         specific to that installation.
+      -  :guilabel:`System` is where administrators control access to the backend, view
+         error logs and provide information specific to the installation.
 
 Extensions
 ----------
 
 .. figure:: /Images/Illustrations/extensions.png
 
-Developed by the community, extensions provide a range of solutions that help
-extend TYPO3. Extensions come in many forms - from small extensions that carry out
-specific tasks to larger extensions that provide an entire suite of
-functionality such as the TYPO3 Blog Extension.
+Extensions are pieces of software developed by the TYPO3 community that extend
+the functionality of a TYPO3 installation. Extensions come in many forms
+- from small extensions that carry out specific tasks to larger extensions that
+provide an entire suite of functionality, e.g. the TYPO3 Blog Extension.
 
 
 Frontend
@@ -91,20 +84,18 @@ Frontend
 
 .. figure:: /Images/Illustrations/frontend.png
 
-The frontend combines the content created in the backend along with the
-installation's HTML templates to generate web pages.
+The frontend consists of web pages generated from content created in
+the backend combined with Fluid templates in the installation. The Fluid
+templating engine provides the glue between the content and the templates.
 
-To achieve this, TYPO3 uses the Fluid templating engine that acts as the glue
-between user generated content and design templates.
+A typical Fluid template contains HTML to structure the page and Fluid tags that
+perform tasks on the page. For example, a simple web page that features a
+navigation menu, a block of text and a company logo will contain three Fluid
+tags. The three tags are:
 
-A typical Fluid template will contain HTML that defines the structure of the
-page and Fluid tags that perform various tasks.
+-  A tag to insert a content element that contains the block of text.
+-  A tag that generates the main navigation menu.
+-  A tag to insert the company logo.
 
-For example a simple web page that features a navigation menu, a block of text
-and a company logo will contain three Fluid tags.
-
--  A tag to insert the content element that contains the block of text.
--  Another that generates the main navigation menu.
--  A third tag to insert the company logo.
-
-Site assets, such as HTML, CSS and JavaScript, are stored in a site package.
+Site assets, such as HTML, CSS and JavaScript, are stored in a
+:ref:`site package <t3sitepackage:introduction>`.
