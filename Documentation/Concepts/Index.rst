@@ -36,7 +36,7 @@ The backend is accessed via the url (insert your domain) :samp:`example.org/typo
 
 .. figure:: /Images/Illustrations/backend_login.png
 
-When a user logs into the backend they see the CMS Dashboard (by default).
+When a user logs into the backend they see the dashboard (by default).
 
 Backend Modules
 ---------------
