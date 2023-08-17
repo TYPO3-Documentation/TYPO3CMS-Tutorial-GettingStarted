@@ -85,7 +85,7 @@ Frontend
 .. figure:: /Images/Illustrations/frontend.png
 
 The frontend consists of web pages generated from content created in
-the backend combined with Fluid templates in the installation. A Fluid
+the backend combined with Fluid templates in the installation. The Fluid
 templating engine provides the glue between the content and the templates.
 
 A typical Fluid template contains HTML to structure the page and Fluid tags that
