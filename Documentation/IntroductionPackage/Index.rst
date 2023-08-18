@@ -51,7 +51,19 @@ To install the Introduction Package run the following command:
 
          ddev composer require typo3/cms-introduction
 
-This command will download and activate the extension.
+Since TYPO3 11.5 it is essential to setup the extension afterwards by running
+the following command:
+
+.. tabs::
+
+   .. group-tab:: bash
+
+       .. code-block:: bash
+
+         composer exec typo3 extension:setup
+
+For older core versions go to the backend extension manager and activate the
+extension in "Installed Extensions".
 
 .. _install-intro-first-steps:
 
