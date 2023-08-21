@@ -25,8 +25,8 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "EnableFirstInstall",
-          "altText": "Success message after download",
-          "captionText": "Success message after download"
+          "altText": "Сообщение об успешном завершении загрузки",
+          "captionText": "Сообщение об успешном завершении загрузки"
         }, {
           "action": "writeFileToTypo3PublicPath",
           "filePath": "FIRST_INSTALL"
@@ -39,7 +39,7 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "Step1SystemEnvironment",
-          "captionText": "Install Tool in 1-2-3 mode, first step."
+          "captionText": "Инструмент установки / Install Tool в режиме 1-2-3, первый шаг"
         }, {
           "action": "click",
           "link": ".btn-success"
@@ -62,7 +62,7 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "Step2DatabaseConnection",
-          "captionText": "Install Tool in 1-2-3 mode, second step."
+          "captionText": "Инструмент установки / Install Tool в режиме 1-2-3, второй шаг"
         }, {
           "action": "click",
           "link": ".btn-success"
@@ -77,7 +77,7 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "Step3ChooseDb",
-          "captionText": "Install Tool in 1-2-3 mode, third step."
+          "captionText": "Инструмент установки / Install Tool в режиме 1-2-3, третий шаг"
         }, {
           "action": "click",
           "link": ".btn-success"
@@ -104,7 +104,7 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "Step4AdminUserSitename",
-          "captionText": "Install Tool in 1-2-3 mode, forth step."
+          "captionText": "Инструмент установки / Install Tool в режиме 1-2-3, четвертый шаг"
         }, {
           "action": "click",
           "link": ".btn-success"
@@ -115,7 +115,7 @@
           "action": "makeScreenshotOfElement",
           "selector": ".typo3-install-content",
           "fileName": "Step5LastStep",
-          "captionText": "Install Tool in 1-2-3 mode, fifth step."
+          "captionText": "Инструмент установки / Install Tool в режиме 1-2-3, пятый шаг"
         }, {
           "action": "click",
           "link": ".btn-success"
@@ -179,7 +179,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "SettingsLanguage",
-            "captionText": "Changing the current user's interface language"
+            "captionText": "Изменение языка интерфейса текущего пользователя"
           }
         ],
         "Modules": [
@@ -211,7 +211,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "SiteManagement",
-            "captionText": "Site management section of the modules menu"
+            "captionText": "Раздел управления сайтом в меню модулей"
           }, {
             "action": "switchToContentFrame"
           }, {
@@ -220,14 +220,14 @@
           }, {
             "action": "makeScreenshotOfElement",
             "fileName": "SiteManagementEdit",
-            "captionText": "Site Management: Edit Site"
+            "captionText": "Управление сайтом: Редактирование сайта"
           }, {
             "action": "click",
             "link": "Languages"
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "SiteManagementLanguages",
-            "captionText": "Site Management: Edit Languages"
+            "captionText": "Управление сайтом: Редактирование языков"
           }, {
             "action": "switchToMainFrame"
           }, {
@@ -276,8 +276,8 @@
           }, {
             "action": "makeScreenshotOfElement",
             "fileName": "ManageLanguage",
-            "altText": "Manage language packs",
-            "captionText": "Open the backend language administration module"
+            "altText": "Управление языковыми пакетами",
+            "captionText": "Откройте модуль управления языками внутреннего интерфейса"
           }, {
             "action": "clearDrawings"
           }, {
@@ -302,8 +302,8 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "ManageLanguagePacksAddLanguage",
-            "altText": "Add a language",
-            "captionText": "Add the desired language"
+            "altText": "Добавление языка",
+            "captionText": "Добавление нужного языка"
           }, {
             "action": "click",
             "link": "a[data-iso=af]"
@@ -315,7 +315,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "ManageLanguagePacksAddLanguageAddSuccess",
-            "altText": "A language has been added"
+            "altText": "Добавлен язык"
           }, {
             "action": "click",
             "link": "button.t3js-modal-close"
@@ -350,7 +350,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "BackendUserListing",
-            "captionText": "Backend User Listing"
+            "captionText": "Список пользователей внутреннего интерфейса"
           }, {
             "action": "click",
             "link": "Create new record"
@@ -378,7 +378,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "CreateNewUserSimpleEditor",
-            "captionText": "Fill out fields for the new backend user"
+            "captionText": "Заполнение полей для нового пользователя внутреннего интерфейса"
           }, {
             "action": "selectOption",
             "select": "select[data-relatedfieldname*=\"usergroup\"]",
@@ -402,7 +402,7 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "SwitchUserLanguage",
-            "captionText": "Change interface language for a backend user"
+            "captionText": "Изменение языка для пользователя внутреннего интерфейса"
           }, {
             "action": "clearDrawings"
           }, {
@@ -418,8 +418,8 @@
             "action": "makeScreenshotOfElement",
             "fileName": "EditorUnhide",
             "selector": "//tr[contains(., 'jlpicard')]",
-            "altText": "Activate editor in list",
-            "captionText": "Activate editor"
+            "altText": "Активация редактора в списке",
+            "captionText": "Активация редактора"
           }
         ],
         "CreateAdministratorViaMaintenance": [
@@ -477,8 +477,8 @@
             "action": "makeScreenshotOfElement",
             "selector": ".module",
             "fileName": "CreateAdministrator",
-            "altText": "Button to create an administrator",
-            "captionText": "Create a new administrative user"
+            "altText": "Кнопка для создания администратора",
+            "captionText": "Создание нового пользователя-администратора"
           }, {
             "action": "clearDrawings"
           }, {
@@ -496,8 +496,8 @@
             "action": "makeScreenshotOfElement",
             "selector": ".modal-content",
             "fileName": "CreateAdministratorForm",
-            "altText": "Form to create an administrator",
-            "captionText": "Fill in the fields for the new administrative user"
+            "altText": "Форма для создания пользователя-администратора",
+            "captionText": "Заполнение полей для нового пользователя-администратора"
           }
         ],
         "Debug": [
@@ -544,8 +544,8 @@
             "action": "makeScreenshotOfElement",
             "selector": ".module",
             "fileName": "ConfigurationPresets",
-            "altText": "Configuration Presets Card",
-            "captionText": "Choose a configuration preset"
+            "altText": "Карточка предустановок конфигурации",
+            "captionText": "Выбор предустановки конфигурации"
           }, {
             "action": "clearDrawings"
           }, {
@@ -569,8 +569,8 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "DebugSettings",
-            "altText": "Debug Presets",
-            "captionText": "Choose the debug preset"
+            "altText": "Предустановки отладки",
+            "captionText": "Выберите предварительную настройку отладки"
           }
         ],
         "InstallToolLogin": [
@@ -596,8 +596,8 @@
           }, {
             "action": "makeScreenshotOfWindow",
             "fileName": "InstallToolPassword",
-            "altText": "The install tool login",
-            "captionText": "Enter the install tool password"
+            "altText": "Вход в инструмент установки / install tool",
+            "captionText": "Ввод пароля программы установки /  install tool"
           }
         ]
       }
