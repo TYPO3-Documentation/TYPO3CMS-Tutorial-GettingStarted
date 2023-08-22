@@ -21,13 +21,13 @@
 
          .. container:: card-body
 
-            *  :ref:`Reset Backend Administrative User Passwords<backend-admin-password>`
+            *  :ref:`Сброс паролей администраторов внутреннего интерфейса<backend-admin-password>`
 
-            *  :ref:`Reset The Install Tool Password<install-tool-password>`
+            *  :ref:`Сброс пароля программы установки Install Tool<install-tool-password>`
 
-            *  :ref:`Enabling Debug Mode<debug-mode>`
+            *  :ref:`Включение режима отладки<debug-mode>`
 
-            *  :ref:`Caching<troubleshooting-caching>`
+            *  :ref:`Кэширование<troubleshooting-caching>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -39,13 +39,13 @@
 
          .. container:: card-body
 
-            *  :ref:`Log<system-modules-log>`
+            *  :ref:`Журнал действий<system-modules-log>`
 
-            *  :ref:`DB Check<system-modules-dbcheck>`
+            *  :ref:`Проверка БД<system-modules-dbcheck>`
 
-            *  :ref:`Configuration<system-modules-configuration>`
+            *  :ref:`Конфигурация<system-modules-configuration>`
 
-            *  :ref:`Reports<system-modules-reports>`
+            *  :ref:`Отчёты<system-modules-reports>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -57,11 +57,11 @@
 
          .. container:: card-body
 
-            *  :ref:`PHP Modules<php-modules>`
+            *  :ref:`Модули PHP<php-modules>`
 
-            *  :ref:`PHP Caches, Extension Classes<php-caches-extension-classes-etc>`
+            *  :ref:`PHP кэши, классы расширений<php-caches-extension-classes-etc>`
 
-            *  :ref:`Opcode cache messages<php-troubleshooting_opcode>`
+            *  :ref:`Сообщения кэша Opcode<php-troubleshooting_opcode>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -73,9 +73,9 @@
 
          .. container:: card-body
 
-            *  :ref:`Apache - enable mod_rewrite<enable-mod_rewrite>`
+            *  :ref:`Apache - включение mod_rewrite<enable-mod_rewrite>`
 
-            *  :ref:`Apache - adjust ThreadStackSize (Windows)<adjust-threadstacksize-on-windows>`
+            *  :ref:`Apache - настройка ThreadStackSize (Windows)<adjust-threadstacksize-on-windows>`
 
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
@@ -88,7 +88,7 @@
 
          .. container:: card-body
 
-            *  :ref:`MySQL - character sets<character-sets>`
+            *  :ref:`MySQL - наборы символов (кодировка)<character-sets>`
 
 
 .. toctree::
