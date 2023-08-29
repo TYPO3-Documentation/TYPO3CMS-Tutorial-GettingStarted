@@ -83,3 +83,9 @@ user.
    language if that user has already logged in at least once, as
    the language is kept in the user preferences. Such users will
    need to update their language themselves.
+
+
+..  seealso::
+    Configure :yaml:`typo3Language` to use custom languages in the frontend,
+    see :ref:`sitehandling-addinglanguages` for details.
+
