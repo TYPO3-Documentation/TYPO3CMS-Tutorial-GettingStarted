@@ -54,6 +54,7 @@ Depending on the use case, the following extensions may also be required:
 * **zlib** (TYPO3 uses zlib for output compression)
 * **openssl** (OpenSSL is required for sending SMTP mails over an encrypted channel endpoint)
 * **intl** (when using unicode-based filesystems)
+* **mbstring** (optional, but a huge performance boost compared to the polyfill which is used otherwise)
 
 Required Database Extensions
 ----------------------------
