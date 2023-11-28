@@ -38,19 +38,11 @@ At the root level of your web server, execute the following command:
 
             composer create-project typo3/cms-base-distribution example-project-directory "^12"
 
-            # Use console command to run the install process
-            # or use the Install Tool GUI (See below)
-            ./vendor/bin/typo3 setup
-
     ..  group-tab:: powershell
 
         ..  code-block:: powershell
 
             composer create-project "typo3/cms-base-distribution:^12" example-project-directory
-
-            # Use console command to run the install process
-            # or use the Install Tool GUI (See below)
-            ./vendor/bin/typo3 setup
 
     ..  group-tab:: ddev
 
@@ -119,12 +111,16 @@ Interactive / guided setup (questions/answers):
 
         ..  code-block:: bash
 
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
             ./vendor/bin/typo3 setup
 
     ..  group-tab:: powershell
 
         ..  code-block:: powershell
 
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
             ./vendor/bin/typo3 setup
 
     ..  group-tab:: ddev
