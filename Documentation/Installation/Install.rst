@@ -68,10 +68,6 @@ At the root level of your web server, execute the following command:
             # created in an outdated location, you can move it with
             mkdir -p config/system/ && mv  public/typo3conf/AdditionalConfiguration.php $_/additional.php
 
-            # Use console command to run the install process
-            # or use the Install Tool GUI (See below)
-            ddev exec ./vendor/bin/typo3 setup
-
 
 This command pulls down the latest release of TYPO3 and places it in the
 :file:`example-project-directory`.
@@ -127,6 +123,8 @@ Interactive / guided setup (questions/answers):
 
         ..  code-block:: bash
 
+            # Use console command to run the install process
+            # or use the Install Tool GUI (See below)
             ddev exec ./vendor/bin/typo3 setup
 
 Or use the GUI installer in the browser
