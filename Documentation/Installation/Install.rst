@@ -64,10 +64,6 @@ At the root level of your web server, execute the following command:
             # Fetch a basic TYPO3 installation and its' dependencies
             ddev composer create "typo3/cms-base-distribution:^12"
 
-            # Depending on your DDEV version the configuration file may have been
-            # created in an outdated location, you can move it with
-            mkdir -p config/system/ && mv  public/typo3conf/AdditionalConfiguration.php $_/additional.php
-
 
 This command pulls down the latest release of TYPO3 and places it in the
 :file:`example-project-directory`.
