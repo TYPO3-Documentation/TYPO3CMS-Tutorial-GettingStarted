@@ -24,6 +24,8 @@ Pre-installation Checklist
 Execute Composer Create-Project
 -------------------------------
 
+Execute this Composer command in the web server's root directory.
+
 .. tabs::
 
    .. group-tab:: bash
