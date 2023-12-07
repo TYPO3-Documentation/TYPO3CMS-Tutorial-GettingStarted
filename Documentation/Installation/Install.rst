@@ -32,7 +32,7 @@ Create the project with Composer
 ================================
 
 The following command will install TYPO3 v12. If you want to install another
-version of TYPO3 use the version selector on the left side.
+version of TYPO3 find documentation by using the version selector on the left side of this page.
 
 At the root level of your web server, execute the following command:
 
