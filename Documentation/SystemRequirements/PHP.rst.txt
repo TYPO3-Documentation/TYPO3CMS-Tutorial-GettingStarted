@@ -38,8 +38,6 @@ Required Extensions
 -------------------
 
 * **pdo**
-* **json**
-* **pcre >= 8.38**
 * **session**
 * **xml**
 * **filter**
