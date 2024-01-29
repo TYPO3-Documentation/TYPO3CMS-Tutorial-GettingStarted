@@ -20,7 +20,7 @@ Installing on a Unix Server
    .. code-block:: bash
       :caption: /var/www/site/$
 
-      wget --content-disposition https://get.typo3.org/11
+      wget --content-disposition https://get.typo3.org/12
 
    Ensure that the package is one level above the web server's document root.
 
