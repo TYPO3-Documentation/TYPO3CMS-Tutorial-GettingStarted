@@ -31,8 +31,16 @@ Pre-installation checklist
 Create the project with Composer
 ================================
 
-The following command will install TYPO3 v12. If you want to install another
+The following command will install TYPO3 v13. If you want to install another
 version of TYPO3 find documentation by using the version selector on the left side of this page.
+
+..  note::
+    TYPO3 v13.0 upgraded the Doctrine DBAL dependency. The stable release will
+    be released slightly after v13.0.0 and therefore it is raised to a release
+    candidate for now. This will be changed to 4.0 after a release is out. As an
+    intermediate solution it is required to use
+    :bash:`composer require "doctrine/dbal":"4.0.0-RC2@rc"` or lower the
+    `minimum-stability` in the project's :file:`composer.json` file.
 
 At the root level of your web server, execute the following command:
 
@@ -42,13 +50,13 @@ At the root level of your web server, execute the following command:
 
         ..  code-block:: bash
 
-            composer create-project typo3/cms-base-distribution example-project-directory "^12"
+            composer create-project typo3/cms-base-distribution example-project-directory "^13"
 
     ..  group-tab:: powershell
 
         ..  code-block:: powershell
 
-            composer create-project "typo3/cms-base-distribution:^12" example-project-directory
+            composer create-project "typo3/cms-base-distribution:^13" example-project-directory
 
     ..  group-tab:: ddev
 
@@ -62,14 +70,14 @@ At the root level of your web server, execute the following command:
 
             # Tell DDEV to create a new project of type "typo3"
             # 'docroot' MUST be set to 'public'
-            # At least PHP 8.1 is required by TYPO3 v12. Adapt the PHP version to your needs.
-            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
+            # At least PHP 8.2 is required by TYPO3 v13. Adapt the PHP version to your needs.
+            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
 
             # Start the server
             ddev start
 
             # Fetch a basic TYPO3 installation and its dependencies
-            ddev composer create "typo3/cms-base-distribution:^12"
+            ddev composer create "typo3/cms-base-distribution:^13"
 
 
 This command pulls down the latest release of the given TYPO3 version and places
