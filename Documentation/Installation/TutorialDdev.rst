@@ -12,9 +12,9 @@ This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker a
 
 DDEV is used for local development only.
 
-The scripts used in this guide will install TYPO3 v12.0 which is the latest release of the CMS. If you wish to
-install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v11
-Installation instructions <t3start11:install>`.
+The scripts used in this guide will install TYPO3 v13.0 which is the latest release of the CMS. If you wish to
+install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v12
+Installation instructions <t3start12:install>`.
 
 ..  youtube:: HW7J3G1SqZw
 
@@ -45,7 +45,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config --php-version 8.1
+    ddev config --php-version 8.2
 
     # Give the following answers when prompted:
 
@@ -71,7 +71,7 @@ Alternatively you can skip the prompt by supplying all of the required parameter
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
+    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
 
 Start the project
 -----------------
@@ -87,7 +87,7 @@ Install TYPO3
 
 ..  code-block:: bash
 
-    ddev composer create "typo3/cms-base-distribution:^12"
+    ddev composer create "typo3/cms-base-distribution:^13"
 
 As we just created the project and have no, answer yes
 when prompted if it is ok to overwrite files in this directory.
