@@ -14,7 +14,7 @@ Setup
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Creating A Site Record<siterecords>`
+            .. rubric:: :ref:`Creating A Site Record <siterecords>`
 
          .. container:: card-body
 

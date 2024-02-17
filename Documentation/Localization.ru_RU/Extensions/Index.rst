@@ -14,7 +14,7 @@
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Управление расширениями<extensions_management>`
+            .. rubric:: :ref:`Управление расширениями <extensions_management>`
 
          .. container:: card-body
 
@@ -38,7 +38,7 @@
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Управление расширениями - традиционное руководство<extensions_legacy_management>`
+            .. rubric:: :ref:`Управление расширениями - традиционное руководство <extensions_legacy_management>`
 
          .. container:: card-body
 

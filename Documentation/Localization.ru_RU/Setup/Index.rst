@@ -14,7 +14,7 @@
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Создание записи для сайта / Site Record<siterecords>`
+            .. rubric:: :ref:`Создание записи для сайта / Site Record <siterecords>`
 
          .. container:: card-body
 
