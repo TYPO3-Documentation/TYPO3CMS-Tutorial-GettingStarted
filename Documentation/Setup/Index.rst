@@ -38,7 +38,7 @@ Setup
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Changing The Backend Language<backendlanguages>`
+            .. rubric:: :ref:`Changing The Backend Language <backendlanguages>`
 
          .. container:: card-body
 
