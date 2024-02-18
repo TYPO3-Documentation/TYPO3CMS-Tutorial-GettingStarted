@@ -50,6 +50,6 @@ Setup
    :hidden:
    :titlesonly:
 
-   SiteRecords.rst
-   BackendUsers.rst
-   BackendLanguages.rst
+   SiteRecords
+   BackendUsers
+   BackendLanguages
