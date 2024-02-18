@@ -73,7 +73,7 @@ Troubleshooting
 
          .. container:: card-body
 
-            *  :ref:`Apache - enable mod_rewrite<enable-mod_rewrite>`
+            *  :ref:`Apache - enable mod_rewrite <enable-mod_rewrite>`
 
             *  :ref:`Apache - adjust ThreadStackSize (Windows) <adjust-threadstacksize-on-windows>`
 
