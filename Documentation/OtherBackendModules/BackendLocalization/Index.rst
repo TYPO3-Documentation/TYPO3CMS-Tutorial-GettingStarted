@@ -87,5 +87,5 @@ user.
 
 ..  seealso::
     Configure :yaml:`typo3Language` to use custom languages in the frontend,
-    see :ref:`sitehandling-addinglanguages` for details.
+    see :ref:`t3coreapi:sitehandling-addinglanguages` for details.
 
