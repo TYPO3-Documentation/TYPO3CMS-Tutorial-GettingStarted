@@ -6,7 +6,14 @@
 >
     <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
            edit-on-github="TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
-           edit-on-github-branch="documentation-draft" />
+           edit-on-github-branch="documentation-draft"
+           typo3-core-preferred="main"
+           interlink-shortcode="t3start"
+           project-home="https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/"
+           project-contact="https://typo3.slack.com/archives/C028JEPJL"
+           project-repository="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
+           project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues"
+    />
     <project
             title="Getting Started"
             version="draft"
@@ -14,10 +21,7 @@
             copyright="since 2012 by the TYPO3 contributors"
     />
     <inventory id="t3start11" url="https://docs.typo3.org/m/typo3/tutorial-getting-started/11.5/en-us/" />
-    <inventory id="t3coreapi" url="https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/" />
-    <inventory id="t3editors" url="https://docs.typo3.org/m/typo3/tutorial-editors/main/en-us/" />
-    <inventory id="t3sitepackage" url="https://docs.typo3.org/m/typo3/tutorial-sitepackage/main/en-us/" />
-    <inventory id="ext_workspaces" url="https://docs.typo3.org/c/typo3/cms-workspaces/main/en-us/" />
+    <inventory id="t3start12" url="https://docs.typo3.org/m/typo3/tutorial-getting-started/12.4/en-us/" />
     <inventory id="ext_surf" url="https://docs.typo3.org/other/typo3/surf/main/en-us/" />
 
 </guides>
