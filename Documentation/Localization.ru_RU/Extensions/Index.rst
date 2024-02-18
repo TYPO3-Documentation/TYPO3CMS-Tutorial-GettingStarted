@@ -49,6 +49,6 @@
    :hidden:
    :titlesonly:
 
-   Management.rst
+   Management
    Установка локальных расширений <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
-   LegacyManagement.rst
+   LegacyManagement

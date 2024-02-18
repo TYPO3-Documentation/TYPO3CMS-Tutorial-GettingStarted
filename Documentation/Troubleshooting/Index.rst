@@ -95,8 +95,8 @@ Troubleshooting
    :hidden:
    :titlesonly:
 
-   TYPO3.rst
-   SystemModules.rst
-   PHP.rst
-   WebServer.rst
-   Database.rst
+   TYPO3
+   SystemModules
+   PHP
+   WebServer
+   Database
