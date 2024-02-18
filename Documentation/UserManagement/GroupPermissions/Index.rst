@@ -127,7 +127,7 @@ making changes.
 .. note::
 
    You can change the behavior in the install tool by setting
-   :ref:`[BE][explicitADmode]<t3coreapi:typo3ConfVars_be_explicitADmode>`
+   :ref:`[BE][explicitADmode] <t3coreapi:typo3ConfVars_be_explicitADmode>`
    to :php:`explicitDeny`.
 
 Limit to Languages

@@ -14,7 +14,7 @@ Working With Extensions
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Managing Extensions<extensions_management>`
+            .. rubric:: :ref:`Managing Extensions <extensions_management>`
 
          .. container:: card-body
 
@@ -39,7 +39,7 @@ Working With Extensions
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Managing Extensions - Legacy Guide<extensions_legacy_management>`
+            .. rubric:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
 
          .. container:: card-body
 

@@ -21,13 +21,13 @@ Troubleshooting
 
          .. container:: card-body
 
-            *  :ref:`Reset Backend Administrative User Passwords<backend-admin-password>`
+            *  :ref:`Reset Backend Administrative User Passwords <backend-admin-password>`
 
-            *  :ref:`Reset The Install Tool Password<install-tool-password>`
+            *  :ref:`Reset The Install Tool Password <install-tool-password>`
 
-            *  :ref:`Enabling Debug Mode<debug-mode>`
+            *  :ref:`Enabling Debug Mode <debug-mode>`
 
-            *  :ref:`Caching<troubleshooting-caching>`
+            *  :ref:`Caching <troubleshooting-caching>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -39,13 +39,13 @@ Troubleshooting
 
          .. container:: card-body
 
-            *  :ref:`Log<system-modules-log>`
+            *  :ref:`Log <system-modules-log>`
 
-            *  :ref:`DB Check<system-modules-dbcheck>`
+            *  :ref:`DB Check <system-modules-dbcheck>`
 
-            *  :ref:`Configuration<system-modules-configuration>`
+            *  :ref:`Configuration <system-modules-configuration>`
 
-            *  :ref:`Reports<system-modules-reports>`
+            *  :ref:`Reports <system-modules-reports>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -57,11 +57,11 @@ Troubleshooting
 
          .. container:: card-body
 
-            *  :ref:`PHP Modules<php-modules>`
+            *  :ref:`PHP Modules <php-modules>`
 
-            *  :ref:`PHP Caches, Extension Classes<php-caches-extension-classes-etc>`
+            *  :ref:`PHP Caches, Extension Classes <php-caches-extension-classes-etc>`
 
-            *  :ref:`Opcode cache messages<php-troubleshooting_opcode>`
+            *  :ref:`Opcode cache messages <php-troubleshooting_opcode>`
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
 
@@ -69,13 +69,13 @@ Troubleshooting
 
          .. rst-class:: card-header h3
 
-            .. rubric:: :ref:`Web server<webserver>`
+            .. rubric:: :ref:`Web server <webserver>`
 
          .. container:: card-body
 
             *  :ref:`Apache - enable mod_rewrite<enable-mod_rewrite>`
 
-            *  :ref:`Apache - adjust ThreadStackSize (Windows)<adjust-threadstacksize-on-windows>`
+            *  :ref:`Apache - adjust ThreadStackSize (Windows) <adjust-threadstacksize-on-windows>`
 
 
    .. container:: col-md-6 pl-0 pr-3 py-3 m-0
@@ -88,7 +88,7 @@ Troubleshooting
 
          .. container:: card-body
 
-            *  :ref:`MySQL - character sets<character-sets>`
+            *  :ref:`MySQL - character sets <character-sets>`
 
 
 .. toctree::
