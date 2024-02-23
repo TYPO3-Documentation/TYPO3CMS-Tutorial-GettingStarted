@@ -6,7 +6,7 @@
 >
     <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
            edit-on-github="TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
-           edit-on-github-branch="documentation-draft"
+           edit-on-github-branch="main"
            typo3-core-preferred="main"
            interlink-shortcode="t3start"
            project-home="https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/"
@@ -16,7 +16,7 @@
     />
     <project
             title="Getting Started"
-            version="draft"
+            version="main"
             release="main"
             copyright="since 2012 by the TYPO3 contributors"
     />
