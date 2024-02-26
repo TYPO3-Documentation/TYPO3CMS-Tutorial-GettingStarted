@@ -95,6 +95,18 @@ installed.
 
          .. rst-class:: card-header h3
 
+            .. rubric:: :ref:`Permissions Management <permissions-management>`
+
+         .. container:: card-body
+
+            Learn how to effectively structure and manage backend user groups and permissions.
+
+   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+
+      .. container:: card px-0 h-100
+
+         .. rst-class:: card-header h3
+
             .. rubric:: :ref:`Working With Extensions <extensions_index>`
 
          .. container:: card-body
@@ -140,6 +152,7 @@ installed.
   Troubleshooting/Index
   Extensions/Index
   UserManagement/Index
+  PermissionsManagement/Index
   IntroductionPackage/Index
   NextSteps/Index
 
