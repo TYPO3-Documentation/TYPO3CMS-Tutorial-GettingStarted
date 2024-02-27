@@ -105,4 +105,5 @@ the naming convention for backend groups later on.
    :titlesonly:
    :glob:
 
-    SettingUpBackendGroups/Index
+   GeneralRecommendations/Index
+   SettingUpBackendGroups/Index
