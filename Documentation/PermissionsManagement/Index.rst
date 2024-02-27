@@ -23,19 +23,19 @@ to different parts of the system. This solution works well for both small
 and large projects, allowing for detailed setting of permissions for various
 user roles, each with different levels of access.
 
-The access options in the TYPO3 backend were split into multiple areas.
+The access options in the TYPO3 backend are split into different areas.
 They can be configured at the levels of users and groups. Access can be set up
-for specific modules and pages, database mounts, file storages, content elements,
-and even individual fields within content elements.
+for specific modules and pages, database mounts, file storage, content elements,
+and also individual fields within content elements.
 
-It's crucial to emphasize the importance of a thorough initial setup for
-permissions management. Skipping this foundational step can introduce complex
+A well-thought out initial setup is particularly important for 
+permissions management. Skipping this step can introduce complex
 issues as your project expands. As time passes, managing access levels can turn
 into a challenging and time-consuming task. In extreme situations, you might find
-yourself needing to overhaul your permissions setup entirely. Moreover, improperly
-planned permissions could lead to a risky workaround: granting administrative
-privileges to users who shouldn't have them, though it may seem like a quick fix.
-This approach compromises security and deviates from best practices.
+yourself needing to overhaul your permissions setup entirely. Moreover, improper
+permission setup could lead to a risky workaround: granting administrative
+privileges to users who shouldn't have them, even though it may seem like a quick fix at the time.
+This approach compromises security and deviates from best practice.
 
 .. note::
 
@@ -55,7 +55,7 @@ What access options can be set within TYPO3?
 ============================================
 
 Access options in TYPO3 are categorized into several distinct groups.
-For a more detailed exploration, you can refer to the :ref:`Access Control Options <t3coreapi:access-options>`
+For a more detailed exploration, refer to the :ref:`Access Control Options <t3coreapi:access-options>`
 documentation page. However, here's a quick overview to give you an idea
 of what to consider when configuring permissions in the backend.
 
@@ -81,7 +81,7 @@ Access lists
 Mounts
     **Database Mounts** - Specifies which parts of the pages tree are accessible to the user.
 
-    **File Mounts** - Specify accessible folders within storages for users
+    **File Mounts** - Specify accessible folders within storage for users
 
     **Category Mounts** - Specify which sections of the system's categories tree are accessible to the user
 
