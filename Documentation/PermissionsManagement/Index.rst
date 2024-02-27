@@ -28,7 +28,7 @@ They can be configured at the levels of users and groups. Access can be set up
 for specific modules and pages, database mounts, file storage, content elements,
 and also individual fields within content elements.
 
-A well-thought out initial setup is particularly important for 
+A well-thought out initial setup is particularly important for
 permissions management. Skipping this step can introduce complex
 issues as your project expands. As time passes, managing access levels can turn
 into a challenging and time-consuming task. In extreme situations, you might find
@@ -50,6 +50,8 @@ for permissions. Therefore, please consider this document as a compilation
 of recommended practices and guidelines that could be beneficial in managing
 permissions within the TYPO3 backend. However, remember that these recommendations
 are adaptable and can be tailored to suit your specific requirements.
+
+.. _available-acl-options:
 
 What access options can be set within TYPO3?
 ============================================
@@ -103,3 +105,4 @@ the naming convention for backend groups later on.
    :titlesonly:
    :glob:
 
+    SettingUpBackendGroups/Index
