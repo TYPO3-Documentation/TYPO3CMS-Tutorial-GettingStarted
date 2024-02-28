@@ -73,7 +73,7 @@ This hierarchical setup ensures that role groups can effectively grant users
 the precise set of permissions needed to perform their designated roles, such as editing.
 
 By utilizing this structure, TYPO3 allows for a clear and organized approach
-to managing access rights, ensuring users have just the permissions they need,
+to managing access rights, ensuring users have the permissions they need,
 nothing more, nothing less.
 
 .. note::
