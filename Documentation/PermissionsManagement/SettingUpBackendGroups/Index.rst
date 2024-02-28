@@ -82,7 +82,7 @@ nothing more, nothing less.
 
 .. _naming-convention:
 
-Implementing a naming convention for simplified group management
+Implementing naming conventions for easy group management
 ================================================================
 
 TYPO3 currently lacks the feature to categorize backend user groups by context
