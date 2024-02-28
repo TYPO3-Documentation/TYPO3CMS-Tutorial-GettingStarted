@@ -188,7 +188,7 @@ Limit to languages
 **LANGUAGE_** or **L_**
     Examples: *L_all*, *L_english_german*, *L_en_pl_de*
 
-    Specifies the list of languages available for managing content. Keep in mind
+    Specifies the languages available for managing content. Keep in mind
     that you would have to have access to the source language when creating the translation.
 
 This method guarantees dedicated group prefixes for Pages access, Database Mounts,
