@@ -78,7 +78,7 @@ nothing more, nothing less.
 
 .. note::
     Role groups inherit permissions from subgroups and should not have any
-    access configured directly on themselves.
+    permissions configured directly on themselves.
 
 .. _naming-convention:
 
