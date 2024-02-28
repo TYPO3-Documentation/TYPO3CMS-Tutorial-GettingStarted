@@ -167,7 +167,7 @@ Access Control Lists
 **ACCESS_CONTROL** or **ACL_**
     Examples: *ACL_content_elements*, *ACL_news*, *ACL_news_extended*, *ACL_module_reports*
 
-    These groups will constitute the largest segment among all, defining granular
+    These groups are the largest, defining granular
     access to content elements, plugins, modules, fields and more.
 
 .. _file-operations:
