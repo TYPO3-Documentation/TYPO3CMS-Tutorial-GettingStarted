@@ -57,7 +57,7 @@ Therefore, a group can be seen as an independent unit that provides complete
 access to a specific part of the system and can be integrated later with other units (groups).
 
 .. note::
-    Consider an Access Control List (ACL) group as a standalone, complete set of
+    An Access Control List (ACL) group can be seen as a standalone, complete set of
     permissions tailored to a specific element(s), designed to fulfill its defined
     scope or purpose (editing/managing Articles or Products).
 
