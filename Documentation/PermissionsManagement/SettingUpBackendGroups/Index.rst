@@ -24,12 +24,11 @@ that will assist in configuring groups later on. Read more to discover the detai
 System groups
 =============
 
-System groups will be those from the lowest level of permissions without which
-other groups like :ref:`Access Control List (ACL) <_acl-groups>`
-and :ref:`Role <_role_groups>` groups will not work.
-They enable access to individual pages based on user and group IDs, allow
-the definition of accessible sections of the pages or categories tree for users,
-and determine access to files and folders within storages (via File Mounts).
+System groups have the lowest level of permissions without which other groups
+like :ref:`Access Control List (ACL) <_acl-groups>` and :ref:`Role <_role_groups>`
+groups will not work. They enable access to individual pages based on user
+and group IDs, allow definition of accessible sections of pages and categories
+tree for users, and determine access to files and folders within storages (via File Mounts).
 System groups are likely to be the ones you modify the least often.
 
 .. note::
@@ -40,17 +39,14 @@ System groups are likely to be the ones you modify the least often.
 Access Control List (ACL) groups
 ================================
 
-Access Control List (ACL) groups will form the largest set of groups, used to
+Access Control List (ACL) groups are the largest set of groups, used to
 set detailed permissions for elements like modules, dashboard widgets, tables
 for listing and editing, and specific fields in backend forms.
 
-It's crucial to configure the ACL group in such a way that it grants all
-the necessary permissions for managing a specific element. For instance,
-let's consider a custom record type (like Article, Product etc.), which
-is displayed by custom plugins. Users responsible for managing these records
-on the site should have the capability to list existing news items, create
-new records, and access them, either through a dedicated custom backend module
-or the List module. With this in mind, we should ensure such a group has access to:
+Ensure ACL groups grant essential permissions for specific elements management.
+For example, users managing custom record types (e.g., Article, Product) should list,
+create, and access records, possibly via a custom backend module or the List module.
+It's crucial to equip such a group with access to:
 
 * Listing and modifying the table of a records
 * Editing all necessary fields within the record to align with this group's purpose
@@ -71,11 +67,11 @@ Role groups as aggregators of specific role permissions
 =======================================================
 
 Backend role groups in TYPO3 are designed to correspond to the specific roles
-users fulfill, such as editor, proofreader, etc. These groups inherit permissions
-from other assigned groups rather than having direct accesses assigned to them.
-Instead, they accumulate permissions exclusively through the inheritance from subgroups.
+users fulfill, such as editor, proofreader, etc. These groups accumulate
+permissions exclusively through the inheritance from subgroups.
 This hierarchical setup ensures that role groups can effectively grant users
 the precise set of permissions needed to perform their designated roles, such as editing.
+
 By utilizing this structure, TYPO3 allows for a clear and organized approach
 to managing access rights, ensuring users have just the permissions they need,
 nothing more, nothing less.
@@ -89,21 +85,16 @@ nothing more, nothing less.
 Implementing a naming convention for simplified group management
 ================================================================
 
-At the moment TYPO3 does not allow grouping backend user groups by some context
-or their purpose. Instead when they are listed (for example in the backend user
-edit form, where we can assign them to the user) they appear sorted by their
-names (ascending). From one side this might be good as you can quickly find
-what you are looking for. On the other hand if you will have a lot of groups
-defined, and you will try to quickly find and select/assign some of them
-to the user, it might be challenging to scroll over a large list.
+TYPO3 currently lacks the feature to categorize backend user groups by context
+or purpose, sorting them alphabetically instead. While helpful for quick searches,
+this becomes cumbersome with many groups, when it is required to identify them
+by their purpose or scope.
 
-The situation might be even worse if there is more than 1 administrator responsible
-for group and user permissions management. If there won’t be some conventions
-used to name such groups which all administrators follow, then they might find it
-difficult to figure out what given group is responsible for.
+The situation could worsen with multiple administrators managing group and user
+permissions. Without naming conventions for groups that all administrators adhere to,
+it may become challenging to identify the responsibilities of each group.
 
-As mentioned in one of the previous chapters, which detailed various
-:ref:`Access Control Options in TYPO3 <_available_acl_options>`,
+As detailed in the :ref:`Access Control Options in TYPO3 <_available_acl_options>` chapter,
 these options can be categorized into types like access lists, mounts, page permissions,
 etc. This categorization can also aid in organizing backend user groups.
 Let’s explore how implementing prefixes in group names can help streamline their organization.
@@ -194,18 +185,16 @@ File Operations
 Limit to languages
 ------------------
 
-**LANGUAGE_**
+**LANGUAGE_** or **L_**
     Examples: *L_all*, *L_english_german*, *L_en_pl_de*
 
     Specifies the list of languages available for managing content. Keep in mind
     that you would have to have access to the source language when creating the translation.
 
-
-As you can see we now have dedicated groups prefixes for Pages access,
-Database Mounts, File Mounts, File Operations, Category Mounts and access
-to modules, tables, widgets, languages etc. Remember, these are just examples,
-and you could — and should — tailor them to meet your specific needs.
-Each group name should be simple and self explaining (tell what permissions it contains).
+This method guarantees dedicated group prefixes for Pages access, Database Mounts,
+File Mounts, File Operations, Category Mounts, and module, table, widget,
+and language access. These examples are customizable to fit specific needs.
+Ensure each group name is straightforward and indicative of its permissions.
 
 .. figure:: ../../Images/ManualScreenshots/PermissionsManagement/PermissionsManagementPrefixedGroupName.png
    :alt: Prefixed group names
@@ -216,24 +205,30 @@ Each group name should be simple and self explaining (tell what permissions it c
     Use prefixes or other naming conventions which will allow you to easily
     distinguish backend user groups by their purpose.
 
-Here’s a useful tip for those managing backend groups in your project.
-If you’re implementing naming conventions for groups, you likely have documentation
-detailing these guidelines. Instead of directing your colleagues to consult
-the documentation for this information, consider extending the TCA for
-the be_groups and be_users tables (and potentially others where the group
-selection box appears). You can add a field description that outlines
-the naming conventions and prefixes used. This approach ensures that anyone
-modifying backend group inheritance or assignments will have immediate access
-to explanations of the naming conventions directly within the interface.
+.. _describe-naming-conventions-in-tca:
+
+Describe the naming conventions in the TCA
+==========================================
+
+For those managing backend groups, if you've adopted naming conventions, consider
+adding a field description in the TCA for be_groups, be_users, and related tables,
+detailing these conventions instead of referencing separate documentation.
+This ensures immediate visibility of the naming rules for anyone modifying group
+inheritance or assignments.
 
 .. code-block:: php
    :caption: Add description to a form field through TCA
 
-   $GLOBALS['TCA']['be_users']['columns']['usergroup']['description'] = 'Prefixes: R_ - Role, PG_ - Page Group, DBM_ - Database Mount, FM_ - File Mount, FO_ - File Operations, CM_ - Category Mount, ACL_ - Access Control';
+   $GLOBALS['TCA']['be_users']['columns']['usergroup']['description'] =
+    'Prefixes: R_ - Role, PG_ - Page Group, DBM_ - Database Mount, FM_ - File Mount,' .
+    'FO_ - File Operations, CM_ - Category Mount, ACL_ - Access Control';
 
 This code demonstrates the assignment of a static description for the usergroup
 field in the backend user form. However, you should place it in a translation
 file and retrieve it from there for better flexibility and localization support.
+
+Use the Notes field to describe the purpose of the group
+========================================================
 
 Another good practice for managing backend groups is to clearly describe
 the purpose or scope of each group. This can be done using the Description
