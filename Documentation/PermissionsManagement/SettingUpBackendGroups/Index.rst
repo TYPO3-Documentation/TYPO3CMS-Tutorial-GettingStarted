@@ -49,7 +49,7 @@ create, and access records, possibly via a custom backend module or the List mod
 It's crucial to equip such a group with access to:
 
 * Listing and modifying the table of a records
-* Editing all necessary fields within the record to align with this group's purpose
+* Editing fields within the record that align with this group's purpose
 * Accessing the core List module or custom module for records management
 * If there are relations from this record, for example, to files, it should also permit uploading, selecting, and processing these files
 
