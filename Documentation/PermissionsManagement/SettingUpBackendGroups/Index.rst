@@ -63,7 +63,7 @@ access to a specific part of the system and can be integrated later with other u
 
 .. _role-groups:
 
-Role groups as aggregators of specific role permissions
+Role groups as an aggregation of specific role permissions
 =======================================================
 
 Backend role groups in TYPO3 are designed to correspond to the specific roles
