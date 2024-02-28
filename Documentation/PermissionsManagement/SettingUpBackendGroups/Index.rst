@@ -202,7 +202,7 @@ Ensure each group name is straightforward and indicative of its permissions.
    Prefixing group names makes them more organized and easier to search within forms
 
 .. note::
-    Use prefixes or other naming conventions which will allow you to easily
+    Use prefixes or another naming convention to easily
     distinguish backend user groups by their purpose.
 
 .. _describe-naming-conventions-in-tca:
