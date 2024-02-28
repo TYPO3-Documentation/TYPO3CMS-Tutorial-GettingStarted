@@ -53,7 +53,7 @@ It's crucial to equip such a group with access to:
 * Accessing the core List module or custom module for records management
 * If there are relations from this record, for example, to files, it should also permit uploading, selecting, and processing these files
 
-Therefore, consider such a group as an independent unit that provides complete
+Therefore, a group can be seen as an independent unit that provides complete
 access to a specific part of the system and can be integrated later with other units (groups).
 
 .. note::
