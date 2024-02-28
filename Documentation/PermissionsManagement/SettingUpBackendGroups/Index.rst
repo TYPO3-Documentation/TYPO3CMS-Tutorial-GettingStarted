@@ -120,7 +120,7 @@ Page Group
     Examples: *PG_website_a*, *PG_website_a_blog*, *PG_website_b*, *PG_website_b_gallery*
 
     Grants permissions to all pages in the pages tree for a given site or only
-    selected branches of pages in such a tree.
+selected branches of pages in the tree.
 
     Those groups will be assigned directly to the pages (see Page Permissions
     for more details) following the TSConfig or the Access Module configuration.
