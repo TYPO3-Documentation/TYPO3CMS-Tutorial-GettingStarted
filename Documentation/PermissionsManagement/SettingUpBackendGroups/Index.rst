@@ -147,7 +147,7 @@ File Mount
 **FILE_MOUNT_** or **FM_**
     Examples: *FM_website_a*, *FM_website_a_blog*, *FM_website_b*, *FM_website_b_gallery*, *FM_shared*
 
-    Grants access to the selected folders (File Mounts) within file storages.
+   Grants access to the selected folders (File Mounts) within file storage.
 
 .. _category-mount:
 
