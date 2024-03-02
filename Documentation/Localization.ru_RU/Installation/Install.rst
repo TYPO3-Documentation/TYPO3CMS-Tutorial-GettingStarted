@@ -24,7 +24,9 @@
 Выполнить Composer Create-Project
 =================================
 
-Приведенный ниже сценарий устанавливает TYPO3 v12, которая является последней версией CMS. Если вы хотите установить версию TYPO3 с долгосрочной поддержкой (LTS), обратитесь к :ref:`TYPO3 v11 Руководство по установке <t3start11:install>`.
+Приведенный ниже сценарий устанавливает TYPO3 v13, которая является последней версией CMS.
+Если вы хотите установить другую версию TYPO3, найдите документацию с помощью
+селектора версий в левой части этой страницы.
 
 На корневом уровне веб-сервера выполните следующую команду:
 
@@ -34,7 +36,7 @@
 
         ..  code-block:: bash
 
-            composer create-project typo3/cms-base-distribution example-project-directory "^12"
+            composer create-project typo3/cms-base-distribution example-project-directory "^13"
 
             # Use console command to run the install process
             # or use the Install Tool GUI (See below)
@@ -44,7 +46,7 @@
 
         ..  code-block:: powershell
 
-            composer create-project "typo3/cms-base-distribution:^12" example-project-directory
+            composer create-project "typo3/cms-base-distribution:^13" example-project-directory
 
             # Use console command to run the install process
             # or use the Install Tool GUI (See below)
@@ -61,14 +63,14 @@
             cd example-project-directory
 
             # Tell DDEV to create a new project of type "typo3"
-            # 'docroot' MUST be 'public' PHP 8.1 is required by TYPO3 v12
-            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.1
+            # 'docroot' MUST be 'public' PHP 8.2 is required by TYPO3 v13
+            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
 
             # Start the server
             ddev start
 
             # Fetch a basic TYPO3 installation and its' dependencies
-            ddev composer create "typo3/cms-base-distribution:^12"
+            ddev composer create "typo3/cms-base-distribution:^13"
 
             # Depending on your DDEV version the configuration file may have been
             # created in an outdated location, you can move it with
