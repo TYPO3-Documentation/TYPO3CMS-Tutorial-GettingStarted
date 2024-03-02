@@ -34,14 +34,6 @@ Create the project with Composer
 The following command will install TYPO3 v13. If you want to install another
 version of TYPO3 find documentation by using the version selector on the left side of this page.
 
-..  note::
-    TYPO3 v13.0 upgraded the Doctrine DBAL dependency. The stable release will
-    be released slightly after v13.0.0 and therefore it is raised to a release
-    candidate for now. This will be changed to 4.0 after a release is out. As an
-    intermediate solution it is required to use
-    :bash:`composer require "doctrine/dbal":"4.0.0-RC2@rc"` or lower the
-    `minimum-stability` in the project's :file:`composer.json` file.
-
 At the root level of your web server, execute the following command:
 
 ..  tabs::
