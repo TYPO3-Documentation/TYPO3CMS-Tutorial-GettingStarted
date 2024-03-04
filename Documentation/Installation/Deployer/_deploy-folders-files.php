@@ -31,7 +31,6 @@ set('writable_dirs', [
 
 // Hosts
 
-
 // Hooks
 
 after('deploy:failed', 'deploy:unlock');
