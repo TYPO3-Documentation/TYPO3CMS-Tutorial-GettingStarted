@@ -1,4 +1,5 @@
 <?php
+
 use TYPO3\CMS\Core\Core\Environment;
 
 defined('TYPO3') or die();

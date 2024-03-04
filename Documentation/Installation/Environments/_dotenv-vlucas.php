@@ -1,4 +1,5 @@
 <?php
+
 use Dotenv\Dotenv;
 use Dotenv\Exception\InvalidPathException;
 use TYPO3\CMS\Core\Core\Environment;
