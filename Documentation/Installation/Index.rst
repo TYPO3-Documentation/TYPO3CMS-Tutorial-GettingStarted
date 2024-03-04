@@ -96,6 +96,7 @@ Installation
 
    Install
    TutorialDdev
+   EnvironmentConfiguration
    TuneTYPO3
    DeployTYPO3
    LegacyInstallation
