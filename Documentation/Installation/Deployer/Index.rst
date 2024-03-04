@@ -8,7 +8,7 @@
 Deployer
 ========
 
-`Deployer <https://deployer.org>`__ is an alternative deployment tool
+`Deployer <https://deployer.org>`__ is a deployment tool
 written in PHP. A full description about how to get deployer running
 for TYPO3 can be found at https://t3terminal.com/blog/typo3-deploy/
 
