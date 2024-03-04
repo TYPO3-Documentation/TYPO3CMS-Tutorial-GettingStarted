@@ -24,6 +24,10 @@ Installing on a Unix Server
 
    Ensure that the package is one level above the web server's document root.
 
+   .. note::
+      Make sure to check the :ref:`release_integrity` of the downloaded files.
+
+
 #. Unpack the :file:`typo3_src-13.x.y.tar.gz`:
 
    .. code-block:: bash
@@ -46,9 +50,9 @@ Installing on a Unix Server
       ln -s typo3_src/index.php index.php
       ln -s typo3_src/typo3 typo3
 
-.. important::
-   Make sure to upload the whole TYPO3 source directory including the
-   :file:`vendor` directory, otherwise you will miss important dependencies.
+   .. important::
+      Make sure to upload the whole TYPO3 source directory including the
+      :file:`vendor` directory, otherwise you will miss important dependencies.
 
 #. This will then create the following structure:
 
@@ -95,3 +99,9 @@ Completing The Installation
 
 After the source package has been extracted and the symlinks created,
 visit the Access TYPO3 via web browser to complete the installation.
+
+.. toctree::
+   :hidden:
+   :titlesonly:
+
+   ReleaseIntegrity
