@@ -1,6 +1,6 @@
 <?php
-/** @var \TYPO3\Surf\Domain\Model\Deployment $deployment */
 
+/** @var \TYPO3\Surf\Domain\Model\Deployment $deployment */
 $node = new \TYPO3\Surf\Domain\Model\Node('my.node.com');
 $node
     ->setHostname($node->getName())
@@ -20,7 +20,7 @@ $application
         '.ddev',
         '.git',
         $application->getOption('webDirectory') . '/fileadmin',
-        'packages/**.sass'
+        'packages/**.sass',
     ])
     ->setOption(TYPO3\Surf\Task\TYPO3\CMS\FlushCachesTask::class . '[arguments]', [])
     ->addSymlink($application->getOption('webDirectory') . '/config/system/settings.php', '../../../../shared/Configuration/settings.php')
@@ -35,26 +35,27 @@ $deployment
                 ->beforeTask(
                     \TYPO3\Surf\Task\TYPO3\CMS\SetUpExtensionsTask::class,
                     \TYPO3\Surf\Task\TYPO3\CMS\CompareDatabaseTask::class,
-                    $application
+                    $application,
                 )
                 ->beforeStage(
                     'transfer',
                     \TYPO3\Surf\Task\Php\WebOpcacheResetCreateScriptTask::class,
-                    $application
+                    $application,
                 )
-                ->afterStage('switch',
+                ->afterStage(
+                    'switch',
                     \TYPO3\Surf\Task\Php\WebOpcacheResetExecuteTask::class,
-                    $application
+                    $application,
                 )
                 // CreatePackageStatesTask is done by post-autoload-dump script and can be removed
                 // https://github.com/TYPO3/TYPO3.CMS.BaseDistribution/blob/9.x/composer.json#L38
                 ->removeTask(
                     \TYPO3\Surf\Task\TYPO3\CMS\CreatePackageStatesTask::class,
-                    $application
+                    $application,
                 )
                 ->removeTask(
                     \TYPO3\Surf\Task\TYPO3\CMS\CopyConfigurationTask::class,
-                    $application
+                    $application,
                 );
-        }
+        },
     );

@@ -1,0 +1,45 @@
+name: Tests
+
+on: [ push, pull_request ]
+
+jobs:
+  lint:
+    name: Lint PHP files
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php:
+          - '8.2'
+          - '8.3'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP version
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+
+      - name: Lint PHP
+        run: find . -type f -name '*.php' ! -path "./.Build/*" -print0 | xargs -0 -n1 -P4 php -l -n | (! grep -v "No syntax errors detected" )
+
+  code-quality:
+    name: Code quality
+    runs-on: ubuntu-latest
+    env:
+      php: '8.2'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup PHP version
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php-versions }}
+
+      - name: Install testing system
+        run: composer update --no-progress --prefer-dist --optimize-autoloader
+
+      - name: Check PHP coding standards
+        run: |
+          make check-php
