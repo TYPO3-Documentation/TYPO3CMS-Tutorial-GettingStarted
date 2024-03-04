@@ -12,7 +12,7 @@ the automated release process. SHA2-256, SHA1 and MD5 hashes are also generated
 for these files.
 
 Release contents
-----------------
+================
 
 Every release of TYPO3 is made available with the following files:
 
@@ -30,7 +30,7 @@ Every release of TYPO3 is made available with the following files:
     package file
 
 Checking file hashes
---------------------
+====================
 
 File hashes are used to check that a downloaded file was transferred and stored
 correctly on the local system. TYPO3 uses cryptographic hash methods including `MD5`_
@@ -92,7 +92,7 @@ These hashes must match the hashes published on get.typo3.org to ensure package 
 
 
 Checking file signatures
-------------------------
+========================
 
 TYPO3 uses `Pretty Good Privacy`_ to sign release packages and Git release tags.
 To validate these signatures `The GNU Privacy Guard`_ is recommend, however
@@ -178,7 +178,7 @@ of currently used keys or access the https://get.typo3.org/KEYS file directly).
 
 
 Checking tag signature
-----------------------
+======================
 
 Checking signatures on Git tags works similar to verifying the results using the
 :bash:`gpg` tool, but with using the :bash:`git tag --verify` command directly.
@@ -224,8 +224,8 @@ The :bash:`git show` command on the name of the tag reveals more details.
 
 
 
-Public Keys
------------
+Public keys
+===========
 
 ..  note::
     Starting in June 2017, TYPO3 releases have been cryptographically signed by the
