@@ -21,9 +21,9 @@ These can be managed via the same installation by applying different values
 for configuration options.
 
 The configuration options can be managed either by an :file:`.env` file or just
-simple :file:`.php` files. Each environment would load the specific
-:file:`.env/.php` file, which is usually bound to an
-:ref:`Application context <t3coreapi:application-context>` (`Development`,
+simple PHP files. Each environment would load the specific
+:file:`.env`/PHP file, which is usually bound to an
+:ref:`application context <t3coreapi:application-context>` (`Development`,
 `Production`).
 
 For example, using a :file:`.env` file in your project root, you can define several
@@ -39,7 +39,7 @@ process. The best place for this is inside :file:`system/additional.php` (see
 
 ..  literalinclude:: Environments/_additional.php
     :language: php
-    :caption: <config>/system/additional.php
+    :caption: config/system/additional.php
 
 Each environment would have its own :file:`.env` file, which is only stored on
 the corresponding target system. The development environment file could
@@ -64,7 +64,7 @@ Examples of well-suited configuration options:
 * Settings, Tokens and URLs to additional services (Redis, Solr, ...)
 
 ..  note::
-    Note that the URL of your environment must be configured through
+    The URL of your environment must be configured through
     :ref:`site configuration <t3coreapi:sitehandling>` variables, and
     those can actually refer to environment variables as outlined in
     :ref:`t3coreapi:sitehandling-using-env-vars`.
@@ -116,11 +116,11 @@ This has two nice benefits:
 
 *   You can even set the `TYPO3_CONTEXT` application context environment variable
     through an :file:`.env` file, and no longer need to specify that in your webserver
-    configuration (e.g. via `.htaccess` or VirtualHost-Configuration).
+    configuration (for example, via :file:`.htaccess` or virtual host configuration).
 *   You do not need to add and maintain such loading code to your :file:`additional.php`
     file.
 
-The drawback is that you'll have an additional dependency on another package, and
+The drawback is that you will have an additional dependency on another package, and
 glue code that is outside of your own implementation.
 
 .. _environment-phpconfig:
@@ -130,7 +130,7 @@ Plain PHP configuration files
 
 If the concept of requiring a specific file format and their loader dependencies
 seems like too much overhead for you, something similar can be achieved
-by including environment-specific :php:`.php` files
+by including environment-specific PHP files
 
 For example, you can create a custom file like :file:`system/environment.php` that
 will only be placed on your specific target server (and not be kept in your versioning
@@ -138,14 +138,14 @@ control system).
 
 ..  literalinclude:: Environments/_environment.php
     :language: php
-    :caption: <config>/system/environment.php
+    :caption: config/system/environment.php
 
 This file would also need to be loaded through the additional configuration
 workflow:
 
 ..  literalinclude:: Environments/_additional-native.php
     :language: php
-    :caption: <config>/system/additional.php
+    :caption: config/system/additional.php
 
 You can of course move such a file to a special :file:`Shared/Data/` directory
 (see :ref:`deploytypo3`), as long as you take care the file is outside
@@ -162,12 +162,12 @@ be applied to every environment of yours, and that is not managed through
 
 ..  tip::
     You can utilize the defined TYPO3
-    :ref:`Application context <t3coreapi:application-context>` to dynamically load
+    :ref:`application context <t3coreapi:application-context>` to dynamically load
     (and enhance) context-specific configuration files, like:
 
     ..  literalinclude:: Environments/_additional-context.php
         :language: php
-        :caption: <config>/system/additional.php
+        :caption: config/system/additional.php
 
 
 .. _environment-production-settings:
