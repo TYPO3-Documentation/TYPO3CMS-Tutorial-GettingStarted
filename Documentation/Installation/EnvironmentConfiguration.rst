@@ -27,7 +27,7 @@ The configuration options can be managed either by an :file:`.env` file or just
 simple :file:`.php` files. Each environment would load the specific
 :file:`.env/.php` file, which is usually bound to an
 :ref:`Application context <t3coreapi:application-context>` (`Development`,
-`Staging`, `Production`).
+`Production`).
 
 For example, using a :file:`.env` file in your project root, you can define several
 variables:
