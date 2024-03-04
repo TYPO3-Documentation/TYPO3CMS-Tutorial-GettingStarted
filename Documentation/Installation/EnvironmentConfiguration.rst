@@ -8,9 +8,6 @@
 Configuring environments
 ========================
 
-..  todo: Enhancements
-
-
 A TYPO3 instance is often used in different contexts that can adapt to your
 custom needs:
 
@@ -80,10 +77,9 @@ The following sections describe this implementation process in depth.
 ===================
 
 A central advantage of :file:`.env` files is that environment variables can
-also be set in CLI context or injected via Continuous Integration/Deploment
-(CI/CD) systems (GitLab/GitHub) or even Webserver configuration. A central place
-for environment-specific configuration, which many other applications refer to
-(and is easy to locate) is also a best practice.
+also be set in CLI context or injected via Continuous Integration/Deployment
+(CI/CD) systems (GitLab/GitHub) or even Webserver configuration. It is also
+helpful to have a central place for environment-specific configuration.
 
 To let your TYPO3 configuration parse keys and values stored of such a file,
 you need a library like https://github.com/symfony/dotenv/ or
