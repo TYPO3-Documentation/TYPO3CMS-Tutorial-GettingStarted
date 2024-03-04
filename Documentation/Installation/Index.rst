@@ -95,8 +95,8 @@ Installation
    :titlesonly:
 
    Install
-   DeployTYPO3
-   TuneTYPO3
-   ReleaseIntegrity
    TutorialDdev
+   TuneTYPO3
+   DeployTYPO3
    LegacyInstallation
+   ReleaseIntegrity
