@@ -85,8 +85,7 @@ To let your TYPO3 configuration parse keys and values stored of such a file,
 you need a library like https://github.com/symfony/dotenv/ or
 https://github.com/vlucas/phpdotenv/ and parse it in your :file:`system/additional.php`
 
-You can require these libraries through Packagist/Composer or by including the dependency
-in your project manually (legacy installation).
+You can require these libraries through Packagist/Composer.
 
 Example for `symfony/dotenv`:
 
@@ -100,8 +99,8 @@ Example for `vlucas/phpdotenv`:
     :language: php
     :caption: <config>/system/additional.php
 
-Once this code has loaded the :php:`$_ENV` variables from the specified file,
-you can access contents of the variables anywhere you need.
+Once this code has loaded the content from the :file:`.env` file into :php:`$_ENV`
+variabless, you can access contents of the variables anywhere you need.
 
 .. _environment-helhum-dotenv:
 
@@ -141,7 +140,7 @@ control system).
     :caption: config/system/environment.php
 
 This file would also need to be loaded through the additional configuration
-workflow:
+workflow (which can be kept in your versioning control system):
 
 ..  literalinclude:: Environments/_additional-native.php
     :language: php
@@ -159,15 +158,6 @@ be applied to every environment of yours, and that is not managed through
     The file :file:`settings.php` is used by TYPO3 to store changes made through
     the GUI of the backend. :file:`additional.php` always has the higher
     priority, so configuration values there will overwrite the GUI configuration.
-
-..  tip::
-    You can utilize the defined TYPO3
-    :ref:`application context <t3coreapi:application-context>` to dynamically load
-    (and enhance) context-specific configuration files, like:
-
-    ..  literalinclude:: Environments/_additional-context.php
-        :language: php
-        :caption: config/system/additional.php
 
 
 .. _environment-production-settings:
