@@ -7,8 +7,9 @@ TYPO3 release integrity
 =======================
 
 TYPO3 release packages (the downloadable tarballs and zip files) as well as
-Git tags are signed using PGP signatures during the automated release process.
-SHA2-256, SHA1 and MD5 hashes are also generated for these files.
+Git tags are signed using :abbr:`PGP (Pretty Good Privacy)` signatures during
+the automated release process. SHA2-256, SHA1 and MD5 hashes are also generated
+for these files.
 
 Release contents
 ----------------
@@ -23,9 +24,10 @@ Every release of TYPO3 is made available with the following files:
     typo3_src-12.4.11.zip
     typo3_src-12.4.11.zip.sig
 
-*   ``*.tar.gz`` and ``*.zip`` files are the actual release packages, containing
-    the source code of TYPO3 CMS
-*   ``*.sig`` files contain the corresponding signatures for each release package file
+*   :file:`*.tar.gz` and :file:`*.zip` files are the actual release packages,
+    containing the source code of TYPO3
+*   :file:`*.sig` files contain the corresponding signatures for each release
+    package file
 
 Checking file hashes
 --------------------
@@ -56,9 +58,11 @@ on the corresponding release page, for example https://get.typo3.org/version/12#
 
 To verify file hashes, the hashes need to be generated locally for the packages
 downloaded and then compared to the published hashes on get.typo3.org.
-To generate the hashes locally, one of the following command-line tools ``md5sum``, ``sha1sum`` or ``shasum`` needs to be used.
+To generate the hashes locally, one of the following command line tools
+:bash:`md5sum`, :bash:`sha1sum` or :bash:`shasum` needs to be used.
 
-The following commands generate hashes for the `.tar.gz` and `.zip` packages:
+The following commands generate hashes for the :file:`.tar.gz` and :file:`.zip`
+packages:
 
 ..  code-block:: bash
     :caption: ~$
@@ -95,8 +99,8 @@ To validate these signatures `The GNU Privacy Guard`_ is recommend, however
 any `OpenPGP`_ compliant tool can also be used.
 
 The release packages are using a detached binary signature. This means that
-the file ``typo3_src-12.4.11.tar.gz`` has an additional signature file
-``typo3_src-12.4.11.tar.gz.sig`` which is the detached signature.
+the file :file:`typo3_src-12.4.11.tar.gz` has an additional signature file
+:file:`typo3_src-12.4.11.tar.gz.sig` which is the detached signature.
 
 ..  code-block:: bash
     :caption: ~$
@@ -129,7 +133,7 @@ obtained by any key server - a popular one is `pgpkeys.mit.edu`_.
     gpg:               imported: 3  (RSA: 3)
 
 Once the public key has been imported, the previous command on verifying the
-signature of the ``typo3_src-12.4.11.tar.gz`` file can be repeated.
+signature of the :file:`typo3_src-12.4.11.tar.gz` file can be repeated.
 
 ..  code-block:: bash
     :caption: ~$
@@ -149,7 +153,7 @@ signature of the ``typo3_src-12.4.11.tar.gz`` file can be repeated.
 
 The new warning is expected since everybody could have created the public key
 and uploaded it to the key server. The important point here is to validate the key
-fingerprint ``0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937`` which is in
+fingerprint `0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937` which is in
 this case the correct one for TYPO3 CMS release packages (see below for a list
 of currently used keys or access the https://get.typo3.org/KEYS file directly).
 
@@ -177,7 +181,7 @@ Checking tag signature
 ----------------------
 
 Checking signatures on Git tags works similar to verifying the results using the
-``gpg`` tool, but with using the ``git tag --verify`` command directly.
+:bash:`gpg` tool, but with using the :bash:`git tag --verify` command directly.
 
 ..  code-block:: bash
     :caption: ~$
@@ -200,7 +204,7 @@ Checking signatures on Git tags works similar to verifying the results using the
     Primary key fingerprint: 0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937
          Subkey fingerprint: 2B1F 3D58 AEEF B6A7 EE32  41A0 C19F AFD6 9901 2A5A
 
-The ``git show`` command on the name of the tag reveals more details.
+The :bash:`git show` command on the name of the tag reveals more details.
 
 ..  code-block:: bash
     :caption: ~$
@@ -225,10 +229,10 @@ Public Keys
 
 ..  note::
     Starting in June 2017, TYPO3 releases have been cryptographically signed by the
-    ``TYPO3 Release Team <typo3cms@typo3.org>`` with a dedicated public key.
+    `TYPO3 Release Team <typo3cms@typo3.org>` with a dedicated public key.
     Since July 2017 releases are signed by individual members of the TYPO3
-    Release Team directly, namely ``Benni Mack <benni@typo3.org>`` and
-    ``Oliver Hader <oliver@typo3.org>``.
+    Release Team directly, namely `Benni Mack <benni@typo3.org>` and
+    `Oliver Hader <oliver@typo3.org>`.
 
 You can download the used public keys from `get.typo3.org.keys`_
 
@@ -236,19 +240,19 @@ You can download the used public keys from `get.typo3.org.keys`_
 
     *   4096 bit RSA key
     *   Key ID `0x9B9CB92E59BC94C4`_
-    *   Fingerprint ``7AF5 1AAA DED9 D002 4F89  B06B 9B9C B92E 59BC 94C4``
+    *   Fingerprint `7AF5 1AAA DED9 D002 4F89  B06B 9B9C B92E 59BC 94C4`
 
 *   Benni Mack <benni@typo3.org>
 
     *   4096 bit RSA key
     *   Key ID `0x3304BBDBFA9613D1`_
-    *   Fingerprint ``E7ED 29A7 0309 A0D1 AE34  DA73 3304 BBDB FA96 13D1``
+    *   Fingerprint `E7ED 29A7 0309 A0D1 AE34  DA73 3304 BBDB FA96 13D1`
 
 *   Oliver Hader <oliver@typo3.org>
 
     *   4096 bit RSA key
     *   Key ID `0xC19FAFD699012A5A`_, subkey of `0xA36E4D1F16490937`_
-    *   Fingerprint ``0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937``
+    *   Fingerprint `0C4E 4936 2CFA CA0B BFCE  5D16 A36E 4D1F 1649 0937`
 
 
 .. _0x9B9CB92E59BC94C4: https://pgpkeys.mit.edu/pks/lookup?search=0x9B9CB92E59BC94C4
