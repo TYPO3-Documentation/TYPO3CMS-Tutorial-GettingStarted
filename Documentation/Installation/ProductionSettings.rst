@@ -15,6 +15,7 @@ To ensure a secure installation of TYPO3 on a production server, the following s
 
   ..  code-block:: php
       :caption: config/system/additional.php | typo3conf/system/additional.php
+
       $GLOBALS['TYPO3_CONF_VARS']['SYS']['displayErrors'] = '0';
       $GLOBALS['TYPO3_CONF_VARS']['SYS']['sqlDebug'] = '0';
       $GLOBALS['TYPO3_CONF_VARS']['FE']['debug'] = '0';

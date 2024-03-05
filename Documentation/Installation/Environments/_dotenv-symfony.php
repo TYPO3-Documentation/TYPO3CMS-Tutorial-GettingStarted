@@ -1,10 +1,7 @@
 <?php
 
 use Symfony\Component\Dotenv\Dotenv;
+use TYPO3\CMS\Core\Core\Environment;
 
-try {
-    $dotenv = new Dotenv();
-    $dotenv->load(TYPO3\CMS\Core\Core\Environment::getProjectPath() . '/.env');
-} catch (Exception $e) {
-    // If no ".env" file is found, configuration can still be functional.
-}
+$dotenv = new Dotenv();
+$dotenv->load(Environment::getProjectPath() . '/.env');
