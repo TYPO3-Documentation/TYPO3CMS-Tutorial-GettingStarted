@@ -107,3 +107,6 @@ the naming convention for backend groups later on.
 
    GeneralRecommendations/Index
    SettingUpBackendGroups/Index
+   ExampleConfiguration/Index
+   PermissionsSynchronization/Index
+   GroupsInheritance/Index
