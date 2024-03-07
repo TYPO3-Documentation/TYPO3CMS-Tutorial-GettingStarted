@@ -61,7 +61,7 @@ Examples of well-suited configuration options:
 * :ref:`t3coreapi:typo3ConfVars_mail`
 * :ref:`t3coreapi:typo3ConfVars_sys_encryptionKey`
 * :ref:`t3coreapi:security-install-tool`
-* Settings, Tokens and URLs to additional services (Redis, Solr, ...)
+* Settings, tokens and URLs to additional services (Redis, Solr, third-party systems, ...)
 
 ..  note::
     The URL of your environment must be configured through
@@ -83,7 +83,7 @@ helpful to have a central place for environment-specific configuration.
 
 To let your TYPO3 configuration parse keys and values stored of such a file,
 you need a library like https://github.com/symfony/dotenv/ or
-https://github.com/vlucas/phpdotenv/ and parse it in your :file:`system/additional.php`
+https://github.com/vlucas/phpdotenv/, and parse it in your :file:`system/additional.php`
 
 You can require these libraries through Packagist/Composer.
 
@@ -91,16 +91,16 @@ Example for `symfony/dotenv`:
 
 ..  literalinclude:: Environments/_dotenv-symfony.php
     :language: php
-    :caption: <config>/system/additional.php
+    :caption: config/system/additional.php
 
 Example for `vlucas/phpdotenv`:
 
 ..  literalinclude:: Environments/_dotenv-vlucas.php
     :language: php
-    :caption: <config>/system/additional.php
+    :caption: config/system/additional.php
 
 Once this code has loaded the content from the :file:`.env` file into :php:`$_ENV`
-variabless, you can access contents of the variables anywhere you need.
+variables, you can access contents of the variables anywhere you need.
 
 .. _environment-helhum-dotenv:
 
@@ -129,7 +129,7 @@ Plain PHP configuration files
 
 If the concept of requiring a specific file format and their loader dependencies
 seems like too much overhead for you, something similar can be achieved
-by including environment-specific PHP files
+by including environment-specific PHP files.
 
 For example, you can create a custom file like :file:`system/environment.php` that
 will only be placed on your specific target server (and not be kept in your versioning
@@ -146,7 +146,7 @@ workflow (which can be kept in your versioning control system):
     :language: php
     :caption: config/system/additional.php
 
-You can of course move such a file to a special :file:`Shared/Data/` directory
+Of course, you can move such a file to a special :file:`Shared/Data/` directory
 (see :ref:`deploytypo3`), as long as you take care the file is outside
 your public web root directory scope.
 
