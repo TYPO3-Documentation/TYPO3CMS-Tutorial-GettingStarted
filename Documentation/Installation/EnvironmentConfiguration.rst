@@ -48,9 +48,9 @@ in your project.
 
 ..  todo: Should we have a distinct "Versioning" chapter?
 
-It is not recommended to store these :file:`.env` files in your version control
-system (e.g. Git). The main reason is that these files usually hold credentials
-or other sensitive information.
+It is not recommended to store the actual :file:`.env` file in your version control
+system (e.g. Git), only an example without sensitive information. The main reason
+is that these files usually hold credentials or other sensitive information.
 
 You should only store environment-specific configuration values in such a
 configuration file. Do not use this to manage all the TYPO3 configuration options.
@@ -77,11 +77,12 @@ The following sections describe this implementation process in depth.
 ===================
 
 A central advantage of :file:`.env` files is that environment variables can
-also be set in CLI context or injected via Continuous Integration/Deployment
-(CI/CD) systems (GitLab/GitHub) or even Webserver configuration. It is also
-helpful to have a central place for environment-specific configuration.
+also be set in :ref:`t3coreapi:cli-mode` CLI context or injected via
+Continuous Integration/Deployment (CI/CD) systems (GitLab/GitHub) or even
+webserver configuration. It is also helpful to have a central place for
+environment-specific configuration.
 
-To let your TYPO3 configuration parse keys and values stored of such a file,
+To let your TYPO3 configuration parse keys and values stored in such a file,
 you need a library like https://github.com/symfony/dotenv/ or
 https://github.com/vlucas/phpdotenv/, and parse it in your :file:`system/additional.php`
 
