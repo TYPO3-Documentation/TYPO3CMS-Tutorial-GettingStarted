@@ -25,7 +25,7 @@ Installation
 
 It is recommended to install Deployer either as a separate project or in a
 sub-folder of your project, for example :file:`<project-root>/deployment/`. This
-omits dependency problems with your project's dependencies.
+avoids dependency problems with the dependencies of your project.
 
 ..  code-block:: bash
 
