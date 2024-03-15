@@ -64,7 +64,7 @@
 
             # Tell DDEV to create a new project of type "typo3"
             # 'docroot' MUST be 'public' PHP 8.2 is required by TYPO3 v13
-            ddev config --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
+            ddev config --project-type=typo3 --docroot=public --php-version 8.2
 
             # Start the server
             ddev start
