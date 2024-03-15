@@ -53,8 +53,6 @@ of preconfigured projects.
 
     Docroot Location (current directory): public
 
-    Create docroot at /home/myuser/projects/t3/t3example/public? [Y/n] (yes): Y
-
     Project Type [php, typo3, ...] (php): typo3
 
 project-type
@@ -63,9 +61,6 @@ project-type
 docroot
     Is the folder in which all files that have to be reached by
     the browser. This folder is commonly called :file:`public`.
-
-create-docroot
-    As the directory does not exist yet, this allows DDEV to create it for you.
 
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
