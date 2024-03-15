@@ -60,14 +60,11 @@ project-type
 docroot
     Это папка, в которой хранятся все файлы, до которых должен добраться браузер. Эта папка обычно называется :file:`public`.
 
-create-docroot
-    Поскольку каталог еще не существует, можно позволить DDEV создать его за вас.
-
 В качестве альтернативы можно пропустить приглашение, указав все необходимые параметры в одной команде:
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
+    ddev config  --project-type=typo3 --docroot=public --php-version 8.2
 
 Запуск проекта
 -----------------
