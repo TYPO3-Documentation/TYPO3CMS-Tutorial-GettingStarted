@@ -71,7 +71,7 @@ Alternatively you can skip the prompt by supplying all of the required parameter
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --create-docroot --php-version 8.2
+    ddev config  --project-type=typo3 --docroot=public --php-version 8.2
 
 Start the project
 -----------------
