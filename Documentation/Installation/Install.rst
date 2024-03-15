@@ -52,7 +52,7 @@ Execute this Composer command in the web server's root directory.
 
            # Tell DDEV to create a new project of type "typo3"
            # 'docroot' MUST be 'public'
-           ddev config  --project-type=typo3 --docroot=public --create-docroot
+           ddev config  --project-type=typo3 --docroot=public
 
            # Start the ddev instance
            ddev start
