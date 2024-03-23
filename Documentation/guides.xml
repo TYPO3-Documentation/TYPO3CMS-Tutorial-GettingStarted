@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<guides
+        xmlns="https://www.phpdoc.org/guides"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://www.phpdoc.org/guides vendor/phpdocumentor/guides-cli/resources/schema/guides.xsd"
+>
+    <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
+           edit-on-github="TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
+           edit-on-github-branch="12.4"
+           typo3-core-preferred="main"
+           interlink-shortcode="t3start"
+           project-home="https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/"
+           project-contact="https://typo3.slack.com/archives/C028JEPJL"
+           project-repository="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
+           project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues"
+    />
+    <project
+            title="Getting Started"
+            version="12.4"
+            release="12.4"
+            copyright="since 2012 by the TYPO3 contributors"
+    />
+    <inventory id="t3start11" url="https://docs.typo3.org/m/typo3/tutorial-getting-started/11.5/en-us/" />
+    <inventory id="ext_surf" url="https://docs.typo3.org/other/typo3/surf/main/en-us/" />
+
+</guides>
