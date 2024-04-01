@@ -35,6 +35,12 @@ The backend is also used to configure a TYPO3 installation. Domains, languages a
 
 По умолчанию при входе в систему пользователи видят панель Общие сведения о CMS.
 
+..  note::
+    Since TYPO3 v13, a custom entry point for the TYPO3 backend can be
+    customized. If the path :samp:`/typo3` does not work, consult the
+    project's documentation or ask your administrator for the correct backend
+    URL.
+
 Модули внутреннего интерфейса
 -----------------------------
 
