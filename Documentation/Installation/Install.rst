@@ -76,7 +76,8 @@ This command pulls down the latest release of the given TYPO3 version and places
 it in the :file:`example-project-directory/`.
 
 After this command has finished running, the :file:`example-project-directory/`
-folder contains the following structure:
+folder contains the following files and folders, where :file:`var/` 
+is added after the first login into the TYPO3 backend:
 
 ..  code-block:: text
 
