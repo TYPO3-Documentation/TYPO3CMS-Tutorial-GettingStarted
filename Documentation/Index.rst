@@ -180,4 +180,3 @@ installed.
    :hidden:
 
    Sitemap
-   genindex
