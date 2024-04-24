@@ -32,11 +32,11 @@ installed.
 
     ..  card:: System requirements
 
-        System requirements for the host operation system, including its web
+        System requirements for the host operating system, including it's web
         server and database and how they should be configured prior to
         installation.
 
-        ..  card-footer:: :ref:`Go to the System Requirements <System-Requirements>`
+        ..  card-footer:: :ref:`Inspect the System requirements <System-Requirements>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Installation
@@ -45,7 +45,7 @@ installed.
         install TYPO3, it also contains information about how to deploy TYPO3
         to a production environment.
 
-        ..  card-footer:: :ref:`Install TYPO3 <Install>`
+        ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Setup
