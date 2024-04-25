@@ -1,4 +1,4 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 ..  _start:
 
 ================================
@@ -15,146 +15,115 @@ installed.
 
 ----
 
-.. container:: row m-0 p-0
+..  card-grid::
+    :columns: 1
+    :columns-md: 2
+    :gap: 4
+    :class: pb-4
+    :card-height: 100
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: Concepts
 
-      .. container:: card px-0 h-100
+        Written for new users, this chapter introduces some of TYPO3's core
+        concepts including the backend, TYPO3's administration interface.
 
-         .. rst-class:: card-header h3
+        ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
+            :button-style: btn btn-secondary stretched-link
 
-            .. rubric:: :ref:`Concepts <Concepts>`
+    ..  card:: System requirements
 
-         .. container:: card-body
+        System requirements for the host operating system, including it's web
+        server and database and how they should be configured prior to
+        installation.
 
-            Written for new users, this chapter introduces some of TYPO3s core concepts including the backend, TYPO3s administration interface.
+        ..  card-footer:: :ref:`Inspect the System requirements <System-Requirements>`
+            :button-style: btn btn-secondary stretched-link
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: Installation
 
-      .. container:: card px-0 h-100
+        The installation chapter provides detailed instructions about how to
+        install TYPO3, it also contains information about how to deploy TYPO3
+        to a production environment.
 
-         .. rst-class:: card-header h3
+        ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
+            :button-style: btn btn-secondary stretched-link
 
-            .. rubric:: :ref:`System Requirements <System-Requirements>`
+    ..  card:: Setup
 
-         .. container:: card-body
+        Setup aims to guide you through the next steps post installation.
+        Such as adding domains, setting up additional users and configuring
+        languages.
 
-            System requirements for the host operation system, including its web server and database and how they should be configured prior to installation.
+        ..  card-footer:: :ref:`Setup TYPO3 after installation <Setup>`
+            :button-style: btn btn-secondary stretched-link
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: Troubleshooting
 
-      .. container:: card px-0 h-100
+        Troubleshoot common issues that can occur during installation. The
+        troubleshooting chapter covers both TYPO3 CMS and the host environment
+        including the web server, database and PHP.
 
-         .. rst-class:: card-header h3
+        ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
+            :button-style: btn btn-secondary stretched-link
 
-            .. rubric:: :ref:`Installation <Install>`
+    ..  card:: Managing backend users
 
-         .. container:: card-body
+        Learn how to create users and configure their backend privileges.
 
-            The installation chapter provides detailed instructions about how to install TYPO3, it also contains information about how to deploy TYPO3 to a production environment.
+        ..  card-footer:: :ref:`Manage backend users <user-management>`
+            :button-style: btn btn-secondary stretched-link
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: Permissions management
 
-      .. container:: card px-0 h-100
+        Learn how to effectively structure and manage backend user groups and permissions.
 
-         .. rst-class:: card-header h3
+        ..  card-footer:: :ref:`Manage permissions and user groups <permissions-management>`
+            :button-style: btn btn-secondary stretched-link
 
-            .. rubric:: :ref:`Setup <Setup>`
+    ..  card:: Working with extensions
 
-         .. container:: card-body
+        Discover how third-party extensions are installed and managed using
+        Composer.
 
-            Setup aims to guide you through the next steps post installation. Such as adding domains, setting up additional users and configuring languages.
+        ..  card-footer:: :ref:`Install and manage extensions <extensions_index>`
+            :button-style: btn btn-secondary stretched-link
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: The "Introduction Package"
 
-      .. container:: card px-0 h-100
+        The "Introduction Package" is a great place to start if you are looking
+        to test drive TYPO3 and see a prebuilt site that contains
+        a range of example page templates and content.
 
-         .. rst-class:: card-header h3
+        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
+            :button-style: btn btn-secondary stretched-link
 
-            .. rubric:: :ref:`Troubleshooting <troubleshooting_index>`
+    ..  card:: Next steps
 
-         .. container:: card-body
+        Next steps provides an overview of tasks that can be carried out once
+        TYPO3 is installed, such as creating templates and adding content.
 
-            Troubleshoot common issues that can occur during installation. The Troubleshooting chapter covers both TYPO3 CMS and the host environment including the web server, database and PHP.
+        ..  card-footer:: :ref:`Learn how to add content and create templates <next-steps>`
+            :button-style: btn btn-secondary stretched-link
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+..  toctree::
+    :hidden:
+    :titlesonly:
 
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`Managing Backend Users <user-management>`
-
-         .. container:: card-body
-
-            Learn how to create users and configure their backend privileges.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`Permissions Management <permissions-management>`
-
-         .. container:: card-body
-
-            Learn how to effectively structure and manage backend user groups and permissions.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`Working With Extensions <extensions_index>`
-
-         .. container:: card-body
-
-            Discover how third-party extensions are installed and managed using Composer.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`The Introduction Package <introductionpackage_index>`
-
-         .. container:: card-body
-
-            The Introduction Package is a great place to start if you are looking to test drive TYPO3 and see a prebuilt site that contains
-            a range of example page templates and content.
-
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`Next Steps <next-steps>`
-
-         .. container:: card-body
-
-            Next Steps provides an overview of tasks that can be carried out once TYPO3 is installed, such as creating templates and adding content.
-
-.. Table of Contents
-
-.. toctree::
-  :hidden:
-  :titlesonly:
-
-  Concepts/Index
-  SystemRequirements/Index
-  Installation/Index
-  Setup/Index
-  Troubleshooting/Index
-  Extensions/Index
-  UserManagement/Index
-  PermissionsManagement/Index
-  IntroductionPackage/Index
-  NextSteps/Index
+    Concepts/Index
+    SystemRequirements/Index
+    Installation/Index
+    Setup/Index
+    Troubleshooting/Index
+    Extensions/Index
+    UserManagement/Index
+    PermissionsManagement/Index
+    IntroductionPackage/Index
+    NextSteps/Index
+
+..  toctree::
+    :hidden:
+
+    Sitemap
 
 ----
 
@@ -173,10 +142,3 @@ installed.
 
 :Rendered:
    |today|
-
-.. Meta Menu
-
-.. toctree::
-   :hidden:
-
-   Sitemap
