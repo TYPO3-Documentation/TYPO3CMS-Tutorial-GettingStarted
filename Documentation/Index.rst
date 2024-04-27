@@ -5,13 +5,12 @@
 TYPO3 - Getting Started Tutorial
 ================================
 
-Welcome to Getting Started, this guide features an introduction to TYPO3 that
-highlights some of its core concepts including the backend administrative
+Welcome to Getting Started. This guide is an introduction to TYPO3 and
+highlights some of the core concepts, including the backend administrative
 interface.
 
 This guide also contains information on how to configure the host operating
-system and features a detailed installation guide that explains how TYPO3 is
-installed.
+system and detailed information on how to install TYPO3.
 
 ----
 
@@ -25,14 +24,14 @@ installed.
     ..  card:: Concepts
 
         Written for new users, this chapter introduces some of TYPO3's core
-        concepts including the backend, TYPO3's administration interface.
+        concepts, including the backend - TYPO3's administration interface.
 
         ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: System requirements
 
-        System requirements for the host operating system, including it's web
+        System requirements for the host operating system, including its web
         server and database and how they should be configured prior to
         installation.
 
@@ -41,8 +40,8 @@ installed.
 
     ..  card:: Installation
 
-        The installation chapter provides detailed instructions about how to
-        install TYPO3, it also contains information about how to deploy TYPO3
+        The installation chapter provides detailed instructions on how to
+        install TYPO3. It also contains information about how to deploy TYPO3
         to a production environment.
 
         ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
@@ -50,8 +49,8 @@ installed.
 
     ..  card:: Setup
 
-        Setup aims to guide you through the next steps post installation.
-        Such as adding domains, setting up additional users and configuring
+        Setup aims to guide you through the next steps post installation,
+        such as adding domains, setting up additional users and configuring
         languages.
 
         ..  card-footer:: :ref:`Setup TYPO3 after installation <Setup>`
@@ -60,7 +59,7 @@ installed.
     ..  card:: Troubleshooting
 
         Troubleshoot common issues that can occur during installation. The
-        troubleshooting chapter covers both TYPO3 CMS and the host environment
+        troubleshooting chapter covers both TYPO3 CMS and the host environment,
         including the web server, database and PHP.
 
         ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
