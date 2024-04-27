@@ -128,7 +128,7 @@ Additional Information
 
 The following is independent of whether you install with Composer or without.
 
-.. _find-out-extension-key:
+.. _find-out-extension-key-legacy:
 
 Find out the Extension Key for an Extension
 -------------------------------------------
