@@ -10,8 +10,8 @@ Legacy Installation
 
 ..  warning::
     This guide details how TYPO3 can be installed without using Composer. This method of installation
-    is now considered **out of date**, users are strongly encouraged to use the 
-    :ref:`Composer-based installation instructions <t3start:Installation/Install#install>`.
+    is now considered **out of date**, users are strongly encouraged to use the
+    :ref:`Composer-based installation instructions <install>`.
 
 Installing on a Unix Server
 ===========================
@@ -100,8 +100,8 @@ Completing The Installation
 ===========================
 
 After the source package has been extracted and the symlinks created, continue from the
-:doc:`Access TYPO3 via a web browser <t3start:Installation/Install#access-typo3-via-a-web-browser>` 
-section of the :ref:`instructions for installing TYPO3 using Composer <t3start:Installation/Install#install>` to 
+:ref:`Access TYPO3 via a web browser <install-access-typo3-via-a-web-browser>`
+section of the :ref:`instructions for installing TYPO3 using Composer <install>` to
 complete the installation.
 
 .. toctree::
