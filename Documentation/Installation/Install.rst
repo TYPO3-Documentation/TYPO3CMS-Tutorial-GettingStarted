@@ -121,6 +121,8 @@ Create an empty file called `FIRST_INSTALL` in the `/public` directory:
     ├── var
     └── vendor
 
+..  _install-access-typo3-via-a-web-browser:
+
 Access TYPO3 via a web browser
 ------------------------------
 
