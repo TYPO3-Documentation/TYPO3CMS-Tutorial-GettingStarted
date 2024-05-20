@@ -103,7 +103,7 @@ Interactive / guided setup (questions/answers):
 
 ..  code-block:: bash
 
-    ddev exec ./vendor/bin/typo3 setup
+    ddev typo3 setup
 
 Setup TYPO3 with the 1,2,3 Install Tool in the browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -124,7 +124,7 @@ Go to the TYPO3 backend:
 
 ..  code-block:: bash
 
-    ddev launch typo3
+    ddev launch /typo3
 
 And login with the credentials you just provided.
 
@@ -135,13 +135,6 @@ Managing the Database
 Upon calling :bash:`ddev config` DDEV automatically created a database for
 you. DDEV also created a file called :file:`config/system/additional.php`
 in which it stored the database credentials for you.
-
-During the installation setup process TYPO3 created all the tables it needed.
-If you want to have a look at the database, you can run the following command:
-
-..  code-block:: bash
-
-    ddev launch -p
 
 Sending E-Mail
 --------------
