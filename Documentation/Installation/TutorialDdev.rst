@@ -45,7 +45,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config
+    ddev config --php-version 8.2
 
     # Give the following answers when prompted:
 
@@ -60,13 +60,13 @@ project-type
 
 docroot
     Is the folder containing files that have to be reached by
-    the webserver. It has the key `index.php` file in it. This folder is commonly called :file:`public`.
+    the webserver. It contains the vital entry point :file:`index.php`. The folder is commonly called :file:`public`.
 
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public
+    ddev config  --project-type=typo3 --docroot=public --php-version 8.2
 
 Start the project
 -----------------
