@@ -55,8 +55,8 @@ project-type
     Should always be "typo3"
 
 docroot
-    Is the folder in which all files that have to be reached by
-    the browser. This folder is commonly called :file:`public`.
+    Is the folder containing files that have to be reached by
+    the webserver. It contains the vital entry point :file:`index.php`. The folder is commonly called :file:`public`.
 
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
@@ -71,7 +71,7 @@ Start the project
 
     ddev start
 
-The webserver is now running but TYPO3 is not installed.
+The webserver is now running but TYPO3 is not yet installed.
 
 Install TYPO3
 -------------
@@ -79,9 +79,6 @@ Install TYPO3
 ..  code-block:: bash
 
     ddev composer create "typo3/cms-base-distribution:^12"
-
-As we just created the project and have no, answer yes
-when prompted if it is ok to overwrite files in this directory.
 
 You now have a **Composer-based TYPO3 installation**.
 
@@ -99,7 +96,7 @@ Interactive / guided setup (questions/answers):
 
 ..  code-block:: bash
 
-    ddev exec ./vendor/bin/typo3 setup
+    ddev typo3 setup
 
 Setup TYPO3 with the 1,2,3 Install Tool in the browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,13 +111,13 @@ Open the installer
 
 ..  code-block:: bash
 
-    ddev launch typo3/install.php
+    ddev launch /typo3/install.php
 
 Go to the TYPO3 backend:
 
 ..  code-block:: bash
 
-    ddev launch typo3
+    ddev launch /typo3
 
 And login with the credentials you just provided.
 
@@ -128,22 +125,17 @@ And login with the credentials you just provided.
 Managing the Database
 ---------------------
 
-Upon calling :bash:`ddev config` DDEV automatically created a database for
-you. DDEV also created a file called :file:`config/system/additional.php`
-in which it stored the database credentials for you.
+:bash:`ddev start` automatically created a database for
+you. DDEV also created the file :file:`config/system/additional.php`
+in which it configured the database credentials for you.
 
-During the installation setup process TYPO3 created all the tables it needed.
-If you want to have a look at the database, you can run the following command:
-
-..  code-block:: bash
-
-    ddev launch -p
+Many database browsers, including phpMyAdmin, are available to let you browse the database, see `Database GUIs <https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis/>__`
 
 Sending E-Mail
 --------------
 
-DDEV creates :file:`config/system/additional.php`
-to fake sending mails. You can see what mails have been sent here:
+DDEV creates configuration in :file:`config/system/additional.php`
+to capture sent mails. You can see what mails have been sent here:
 
 ..  code-block:: bash
 
@@ -173,3 +165,8 @@ calling the following command in your new projects root folder:
 This will remove all containers from the project and delete the database.
 
 Afterwards you can safely delete the project's root folder.
+
+DDEV Documentation
+------------------
+
+You will want to visit `DDEV's documentation <https://ddev.readthedocs.io/>__`, which also has a `TYPO3 Quick Start <https://ddev.readthedocs.io/en/stable/users/quickstart/#typo3/>__` which parallels this one.
