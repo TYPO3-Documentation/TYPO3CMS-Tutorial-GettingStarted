@@ -29,7 +29,7 @@ General Deployment Steps
 .. note::
 
     The :bash:`composer install` command should not be run on the live environment.
-    Ideally, :bash:`composer` should only run locally or on a dedicated deployment machine,
+    Ideally, Composer should only run locally or on a dedicated deployment machine,
     to allow testing before going live.
 
     To avoid conflicts between the local and the server's PHP version,
