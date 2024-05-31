@@ -34,7 +34,7 @@ General Deployment Steps
 
     To avoid conflicts between the local and the server's PHP version,
     the server's PHP version can be defined in the :file:`composer.json` file
-    (e.g. ``{"platform": {"php": "7.4.10"}}``), so :bash:`composer` will always check
+    (e.g. ``{"platform": {"php": "7.4.10"}}``), so Composer will always check
     the correct dependencies.
 
 Deployment Automation
