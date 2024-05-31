@@ -21,20 +21,20 @@ General Deployment Steps
 ========================
 
 -  Build the local environment (installing everything necessary for the website)
--  Run `composer install --no-dev` to install without development dependencies
+-  Run :bash:`composer install --no-dev` to install without development dependencies
 -  Copy files to the production server
 -  Copy the database to the production server
 -  Clearing the caches
 
 .. note::
 
-    The `composer install` command should not be run on the live environment.
-    Ideally, `composer` should only run locally or on a dedicated deployment machine,
+    The :bash:`composer install` command should not be run on the live environment.
+    Ideally, :bash:`composer` should only run locally or on a dedicated deployment machine,
     to allow testing before going live.
 
     To avoid conflicts between the local and the server's PHP version,
     the server's PHP version can be defined in the :file:`composer.json` file
-    (e.g. ``{"platform": {"php": "7.4.10"}}``), so `composer` will always check
+    (e.g. ``{"platform": {"php": "7.4.10"}}``), so :bash:`composer` will always check
     the correct dependencies.
 
 Deployment Automation
