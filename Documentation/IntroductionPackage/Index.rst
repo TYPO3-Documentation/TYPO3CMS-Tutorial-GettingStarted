@@ -11,11 +11,10 @@ If you are using TYPO3 for the first time you may want to
 see a working example of the CMS before you start work on
 your own project.
 
-The `Official Introduction Package
-<https://extensions.typo3.org/extension/introduction/>`__ showcases many of
+The Official Introduction Package :composer:`typo3/cms-introduction`
+showcases many of
 TYPO3's capabilities and gives you the ability to try them first hand.
-The Introduction Package utilizes the `bootstrap_package extension
-<https://extensions.typo3.org/extension/bootstrap_package/>`__
+The Introduction Package utilizes the extension :composer:`bk2k/bootstrap-package`
 to generate multiple responsive HTML templates that you can select and try
 out.
 

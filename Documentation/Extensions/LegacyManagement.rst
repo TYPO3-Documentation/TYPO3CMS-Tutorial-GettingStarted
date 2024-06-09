@@ -136,9 +136,8 @@ Find out the Extension Key for an Extension
 Again, go to the `Extension Repository <https://extensions.typo3.org/>`__,
 and search for the extension.
 
-The extension key is listed on the top. For the
-`extension news <https://extensions.typo3.org/extension/news/>`__,
-the extension key is `news`.
+The extension key is listed on the top. For the extension
+:t3ext:`news`, the extension key is `news`.
 
 You can also see the extension key in your file system in the directory
 :file:`public/typo3conf/ext/`. The directory name of the extension is the
