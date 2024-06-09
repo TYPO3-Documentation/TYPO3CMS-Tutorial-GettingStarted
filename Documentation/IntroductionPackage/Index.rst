@@ -50,9 +50,6 @@ To install the Introduction Package run the following command:
 
          ddev composer require typo3/cms-introduction
 
-..  versionadded:: 11.5
-    The extension can be set up afterwards by running the following command:
-
 .. tabs::
 
    .. group-tab:: Composer-based installation

@@ -12,7 +12,7 @@ This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker a
 
 DDEV is used for local development only.
 
-The scripts used in this guide will install TYPO3 v13.0 which is the latest release of the CMS. If you wish to
+The scripts used in this guide will install TYPO3 v13.1 which is the latest release of the CMS. If you wish to
 install the long term support (LTS) release of TYPO3, visit the :ref:`TYPO3 v12
 Installation instructions <t3start12:install>`.
 
