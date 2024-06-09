@@ -6,52 +6,33 @@
 Working With Extensions
 =======================
 
-.. container:: row m-0 p-0
+..  card-grid::
+    :columns: 1
+    :columns-md: 2
+    :gap: 4
+    :class: pb-4
+    :card-height: 100
 
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
+    ..  card:: :ref:`Managing Extensions <extensions_management>`
 
-      .. container:: card px-0 h-100
+        Information on how to find, install and manage extensions using Composer.
 
-         .. rst-class:: card-header h3
+    ..  card:: :ref:`Installing local extensions <install_local_extensions_using_composer>`
 
-            .. rubric:: :ref:`Managing Extensions <extensions_management>`
+        Information on how to install local extensions including site packages and custom
+        extensions using Composer.
 
-         .. container:: card-body
+    ..  card:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
 
-            Information on how to find, install and manage extensions using Composer.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: `Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>`_
-
-         .. container:: card-body
-
-            Information on how to install local extensions including sitepackages and custom
-            extensions using Composer.
-
-   .. container:: col-md-6 pl-0 pr-3 py-3 m-0
-
-      .. container:: card px-0 h-100
-
-         .. rst-class:: card-header h3
-
-            .. rubric:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
-
-         .. container:: card-body
-
-            This guide contains information on how to manage extensions using the
-            TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
-            This method of managing extensions is now deprecated.
+        This guide contains information on how to manage extensions using the
+        TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
+        This method of managing extensions is now deprecated.
 
 
-.. toctree::
-   :hidden:
-   :titlesonly:
+..  toctree::
+    :hidden:
+    :titlesonly:
 
-   Management
-   Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
-   LegacyManagement
+    Management
+    Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
+    LegacyManagement
