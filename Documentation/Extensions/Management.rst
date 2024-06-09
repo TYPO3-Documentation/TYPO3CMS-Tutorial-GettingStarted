@@ -24,18 +24,20 @@ and search for the extension.
 On the extension page , under :guilabel:`"Composer support"`,
 will be the Composer command required to install that extension.
 
-For example, the `news extension <https://extensions.typo3.org/extension/news/>`__
-has the package name `georgringer/news`.
+For example, the extension :t3ext:`news`
+has the package name :composer:`georgringer/news`.
 
 Typically the package name will be vendor + slash + extension key.
 However, if the extension key contains an underscore, it is replaced
 with a dash in the package name. For example:
-`Extension Builder <https://extensions.typo3.org/extension/extension_builder/>`__:
+:t3ext:`extension_builder`:
 
-* **extension key**: `extension_builder`
-* **vendor**: `friendsoftypo3`
-* **Composer package name**: `friendsoftypo3/extension-builder`
-
+extension key
+    `extension_builder`
+vendor
+    `friendsoftypo3`
+Composer package name
+    :composer:`friendsoftypo3/extension-builder`
 
 
 Use :bash:`composer require` to install the extension
@@ -132,13 +134,26 @@ Additional information
 Find out the extension key for an extension
 -------------------------------------------
 
-For any installed extension, the extension key can be found by looking at the
-file system into the directory :file:`public/typo3conf/ext/`.
-The directory name of the extension is the same as the extension key.
+The extension key of an extension can be found in its :file:`composer.json`.
 
-Before installing an extension, the extension key can be found on its' page in the
+..  code-block:: json
+    :caption: EXT:blog_example/composer.json
+    :emphasize-lines: 7
+
+    {
+        "name": "t3docs/blog-example",
+        "type": "typo3-cms-extension",
+        "..": "...",
+        "extra": {
+            "typo3/cms": {
+                "extension-key": "blog_example",
+            }
+        }
+    }
+
+
+Before installing an extension, the extension key can be found on its page in the
 `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__.
 
-The extension key is listed on the top. For the
-`extension news <https://extensions.typo3.org/extension/news/>`__,
-the extension key is `news`.
+The extension key is listed on the top. For the extension
+:t3ext:`news`, the extension key is `news`.
