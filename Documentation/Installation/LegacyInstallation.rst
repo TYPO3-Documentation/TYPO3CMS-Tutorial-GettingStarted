@@ -54,17 +54,18 @@ Installing on a Unix Server
 
    .. important::
       Make sure to upload the whole TYPO3 source directory including the
-      :file:`vendor` directory, otherwise you will miss important dependencies.
+      :path:`vendor` directory, otherwise you will miss important dependencies.
 
 #. This will then create the following structure:
 
-   .. code-block:: none
+..  directory-tree::
 
-    ├── typo3_src-13.x.y/
-    ├── public/
-    ├── ── typo3_src -> ../typo3_src-13.x.y/
-    ├── ── typo3 -> typo3_src/typo3/
-    ├── ── index.php -> typo3_src/index.php
+    *   :path:`typo3_src-13.x.y/`
+    *   :path:`public/`
+
+        *   :path:`typo3_src -> ../typo3_src-13.x.y/`
+        *   :path:`typo3 -> typo3_src/typo3/`
+        *   :file:`index.php -> typo3_src/index.php`
 
 Installing on a Windows Server
 ==============================
@@ -87,13 +88,14 @@ Installing on a Windows Server
 
 #. This will then create the following structure:
 
-   .. code-block:: none
+    ..  directory-tree::
 
-    ├── typo3_src-13.x.y/
-    ├── public/
-    ├── ── typo3_src -> ../typo3_src-13.x.y/
-    ├── ── typo3 -> typo3_src/typo3/
-    ├── ── index.php -> typo3_src/index.php
+        *   :path:`typo3_src-13.x.y/`
+        *   :path:`public/`
+
+            *   :path:`typo3_src -> ../typo3_src-13.x.y/`
+            *   :path:`typo3 -> typo3_src/typo3/`
+            *   :file:`index.php -> typo3_src/index.php`
 
 
 Completing The Installation

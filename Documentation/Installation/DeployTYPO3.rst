@@ -1,8 +1,8 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. index:: deployment, composer, production setup
+..  index:: deployment, composer, production setup
 
-.. _deploytypo3:
+..  _deploytypo3:
 
 ===============
 Deploying TYPO3
@@ -20,11 +20,11 @@ necessary.
 General Deployment Steps
 ========================
 
--  Build the local environment (installing everything necessary for the website)
--  Run :bash:`composer install --no-dev` to install without development dependencies
--  Copy files to the production server
--  Copy the database to the production server
--  Clearing the caches
+*   Build the local environment (installing everything necessary for the website)
+*   Run :bash:`composer install --no-dev` to install without development dependencies
+*   Copy files to the production server
+*   Copy the database to the production server
+*   Clearing the caches
 
 .. note::
 
@@ -34,7 +34,7 @@ General Deployment Steps
 
     To avoid conflicts between the local and the server's PHP version,
     the server's PHP version can be defined in the :file:`composer.json` file
-    (e.g. ``{"platform": {"php": "7.4.10"}}``), so Composer will always check
+    (e.g. ``{"platform": {"php": "8.2"}}``), so Composer will always check
     the correct dependencies.
 
 Deployment Automation
@@ -42,15 +42,15 @@ Deployment Automation
 
 A typical setup for deploying web applications consists of three different parts:
 
-- The local environment (for development)
-- The build environment (for reproducible builds). This can be a controlled local environment or a remote continuous integration server (for example Gitlab CI or Github Actions)
-- The live (production) environment
+*   The local environment (for development)
+*   The build environment (for reproducible builds). This can be a controlled local environment or a remote continuous integration server (for example Gitlab CI or Github Actions)
+*   The live (production) environment
 
 To get an application from the local environment to the production system, the usage of a deployment tool and/or a continuous integration solution is recommended. This ensures that only version-controlled code is deployed and that builds are reproducible. Ideally setting a new release live will be an atomical operation and lead to no downtime. If there are errors in any of the deployment or test stages, most deployment tools will initiate an automatic "rollback" preventing that an erroneous build is released.
 
 One widely employed strategy is the "symlink-switching" approach:
 
-In that strategy, the webserver serves files from a virtual path :file:`releases/current/public` which consists of a symlink :file:`releases/current` pointing to the latest deployment ("release"). That symlink is switched after a new release has been successfully prepared.
+In that strategy, the webserver serves files from a virtual path :path:`releases/current/public` which consists of a symlink :path:`releases/current` pointing to the latest deployment ("release"). That symlink is switched after a new release has been successfully prepared.
 The latest deployment contains symlinks to folders that should be common among all releases (commonly called "shared folders").
 
 Usually the database is shared between releases and upgrade wizards and schema upgrades are run automatically before or
@@ -58,37 +58,46 @@ shortly after the new release has been set live.
 
 This is an exemplatory directory structure of a "symlink-switching" TYPO3 installation:
 
-.. code-block:: none
+..  directory-tree::
 
-    ├── shared/
-    │    ├── fileadmin/
-    │    └── var/
-    │        ├── var/charset/
-    │        ├── var/lock/
-    │        ├── var/log/
-    │        └── var/session/
-    ├── releases/
-    │    ├── current -> ./release1 (symlink to current release)
-    │    └── release1/
-    │        ├── public/ (webserver root, via releases/current/public)
-    │        │   ├── typo3conf/
-    │        │   ├── fileadmin -> ../../../shared/fileadmin/ (symlink)
-    │        │   └── index.php
-    │        ├── var/
-    │        |   ├── var/build/
-    │        |   ├── var/cache/
-    │        |   ├── var/charset -> ../../../shared/var/charset/ (symlink)
-    │        |   ├── var/labels/
-    │        |   ├── var/lock -> ../../../shared/var/lock/ (symlink)
-    │        |   ├── var/log -> ../../../shared/var/log/ (symlink)
-    │        |   └── var/session -> ../../../shared/var/session/ (symlink)
-    │        ├── vendor/
-    │        ├── composer.json
-    │        └── composer.lock
+    *   :path:`shared`
+
+        *   :path:`fileadmin`
+        *   :path:`var`
+
+            *   :path:`charset`
+            *   :path:`lock`
+            *   :path:`log`
+            *   :path:`session`
+
+    *   :path:`releases`
+
+        *   :path:`current -> ./release1` (symlink to current release)
+        *   :path:`release1`
+
+            *   :path:`public` (webserver root, via releases/current/public)
+
+                *   :path:`typo3conf`
+                *   :path:`fileadmin -> ../../../shared/fileadmin` (symlink)
+                *   :file:`index.php`
+
+            *   :path:`var`
+
+                *   :path:`build`
+                *   :path:`cache`
+                *   :path:`charset -> ../../../shared/var/charset` (symlink)
+                *   :path:`labels`
+                *   :path:`lock -> ../../../shared/var/lock` (symlink)
+                *   :path:`log -> ../../../shared/var/log` (symlink)
+                *   :path:`session -> ../../../shared/var/session` (symlink)
+
+            *   :path:`vendor`
+            *   :file:`composer.json`
+            *   :file:`composer.lock`
 
 
-The files in `shared` are shared between different releases of a web site.
-The `releases` directory contains the TYPO3 code that will change between the release of each version.
+The files in :path:`shared` are shared between different releases of a web site.
+The :path:`releases` directory contains the TYPO3 code that will change between the release of each version.
 
 When using a deployment tool this kind of directory structure is usually created automatically.
 

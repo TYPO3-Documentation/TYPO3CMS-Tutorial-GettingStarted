@@ -76,20 +76,19 @@ This command pulls down the latest release of the given TYPO3 version and places
 it in the :file:`example-project-directory/`.
 
 After this command has finished running, the :file:`example-project-directory/`
-folder contains the following files and folders, where :file:`var/` 
+folder contains the following files and folders, where :file:`var/`
 is added after the first login into the TYPO3 backend:
 
-..  code-block:: text
+..  directory-tree::
 
-    .
-    ├── .gitignore
-    ├── composer.json
-    ├── composer.lock
-    ├── LICENSE
-    ├── public
-    ├── README.md
-    ├── var
-    └── vendor
+    *   :path:`public`
+    *   :path:`var`
+    *   :path:`vendor`
+    *   :file:`.gitignore`
+    *   :file:`composer.json`
+    *   :file:`composer.lock`
+    *   :file:`LICENSE`
+    *   :file:`README.md`
 
 
 Run the setup process
@@ -156,18 +155,20 @@ Create an empty file called `FIRST_INSTALL` in the `public/` directory:
 
             ddev exec touch public/FIRST_INSTALL
 
-..  code-block:: text
 
-    .
-    ├── .gitignore
-    ├── composer.json
-    ├── composer.lock
-    ├── LICENSE
-    ├── public
-        └── FIRST_INSTALL
-    ├── README.md
-    ├── var
-    └── vendor
+..  directory-tree::
+
+    *   :path:`public`
+
+        *   :file:`FIRST_INSTALL`
+
+    *   :path:`var`
+    *   :path:`vendor`
+    *   :file:`.gitignore`
+    *   :file:`composer.json`
+    *   :file:`composer.lock`
+    *   :file:`LICENSE`
+    *   :file:`README.md`
 
 ..  _install-access-typo3-via-a-web-browser:
 
