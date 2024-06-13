@@ -71,6 +71,12 @@ At the root level of your web server, execute the following command:
             # Fetch a basic TYPO3 installation and its dependencies
             ddev composer create "typo3/cms-base-distribution:^13"
 
+..  tip::
+    The command `composer create-project` expect a completely empty directory. Do not open the project in an
+    IDE like PhpStorm before the commands have been executed. IDEs will usually create a hidden folder like 
+    :path:`.idea` that will cause an error message with the `composer create-project` command. 
+    `ddev composer create` also works on non-empty paths.
+
 
 This command pulls down the latest release of the given TYPO3 version and places
 it in the :file:`example-project-directory/`.
