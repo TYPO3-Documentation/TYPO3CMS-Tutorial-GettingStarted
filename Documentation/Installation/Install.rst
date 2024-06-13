@@ -72,7 +72,7 @@ At the root level of your web server, execute the following command:
             ddev composer create "typo3/cms-base-distribution:^12"
 
 ..  tip::
-    The commands above expect a completely empty directory. Do not open the project in an
+    The command `composer create-project` expect a completely empty directory. Do not open the project in an
     IDE like PhpStorm before the commands have been executed. IDEs will usually create a hidden folder like 
     :path:`.idea` that will cause an error message with the `composer create-project` command.
 
