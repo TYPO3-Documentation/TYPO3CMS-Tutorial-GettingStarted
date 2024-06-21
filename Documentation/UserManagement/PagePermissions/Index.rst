@@ -1,21 +1,23 @@
 .. include:: /Includes.rst.txt
 
-
 .. _page-permissions:
 
 ================
-Page Permissions
+Page permissions
 ================
+
+..  versionchanged:: 13.2
+    The module to handle page permissions has been renamed from
+    :guilabel:`Access` to :guilabel:`Permissions`.
 
 :ref:`DB mounts <db-mounts>` are not the whole story about access to pages.
 Users and groups also need to have rights to perform operations on the
 pages like viewing, editing or deleting.
 
-This is managed using the **SYSTEM > Access** module:
+This is managed using the :guilabel:`System > Permissions` module:
 
 .. figure:: ../../Images/ManualScreenshots/UserManagement/BackendAccessModule.png
-   :alt: The Access module with ownerships and permissions
-
+   :alt: The "Permissions" module with ownerships and permissions
 
 Every page has an owner, who is a user, and also a group
 membership. Rights can be assigned to the owner, to the group
@@ -28,16 +30,14 @@ page, click on the owner's or group's name and a small form appears.
 .. figure:: ../../Images/ManualScreenshots/UserManagement/BackendAccessModuleChangeOwner.png
    :alt: Changing a page's owner
 
-
 It is also possible to change owner, group and permissions
 recursively, even for the whole page tree. Let's place ourselves
 on the home page by clicking on the "Congratulations" page in the
 page tree. Now click again on the "Congratulations" page in the
-*Access* module. You should see the following:
+:guilabel:`Permissions` module. You should see the following:
 
 .. figure:: ../../Images/ManualScreenshots/UserManagement/BackendAccessModuleChangeRecursively.png
    :alt: Preparing for recursively changing the group on the whole page tree
-
 
 By choosing "All users" as group and then "Set recursively 3 levels"
 in the "Depth" dropdown, we will assign **all** the pages in the
