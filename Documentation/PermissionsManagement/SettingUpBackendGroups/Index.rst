@@ -123,7 +123,7 @@ Page Group
     selected branches of pages in the tree.
 
     Those groups will be assigned directly to the pages (see Page Permissions
-    for more details) following the TSConfig or the Access Module configuration.
+    for more details) following the TSConfig or the :guilabel:`Permissions` module configuration.
 
 .. _database-mount:
 
