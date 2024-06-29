@@ -11,17 +11,20 @@ Configure
 
 The following settings need to be set in the installations :file:`php.ini`
 
-.. code-block:: ini
-   :caption: php.ini
+..  code-block:: ini
+    :caption: php.ini
 
-   ; memory_limit >= 256MB
-   memory_limit=256M
+    ; memory_limit >= 256MB
+    memory_limit=256M
 
-   ; max_execution_time >= 240 seconds
-   max_execution_time=240
+    ; max_execution_time >= 240 seconds
+    max_execution_time=240
 
-   ; max_input_vars >= 1500
-   max_input_vars=1500
+    ; max_input_vars >= 1500
+    max_input_vars=1500
+
+    ; PHP JIT compiler must be activated. Needed for proper Fluid parsing
+    pcre.jit=1
 
 The following settings control the maximum upload file size (and should be
 adapted if necessary):
