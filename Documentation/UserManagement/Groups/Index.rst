@@ -36,7 +36,7 @@ pre-configured backend user groups without touching the TYPO3 backend.
 
             vendor/bin/typo3 setup:begroups:default
 
-   ..   group-tab:: Legacy installation
+    ..   group-tab:: Legacy installation
 
         ..  code-block:: bash
 
@@ -55,13 +55,13 @@ possible to specify the groups:
             vendor/typo3 setup:begroups:default --groups Editor
             vendor/typo3 setup:begroups:default --groups "Advanced Editor"
 
-   ..  group-tab:: Legacy installation
+    ..  group-tab:: Legacy installation
 
-       ..  code-block:: bash
+        ..  code-block:: bash
 
-           typo3/sysext/core/bin/typo3 setup:begroups:default --groups Both
-           typo3/sysext/core/bin/typo3 setup:begroups:default --groups Editor
-           typo3/sysext/core/bin/typo3 setup:begroups:default --groups "Advanced Editor"
+            typo3/sysext/core/bin/typo3 setup:begroups:default --groups Both
+            typo3/sysext/core/bin/typo3 setup:begroups:default --groups Editor
+            typo3/sysext/core/bin/typo3 setup:begroups:default --groups "Advanced Editor"
 
 ..  note::
 
