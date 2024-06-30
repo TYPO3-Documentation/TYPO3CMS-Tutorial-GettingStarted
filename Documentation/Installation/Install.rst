@@ -73,8 +73,8 @@ At the root level of your web server, execute the following command:
 
 ..  tip::
     The command `composer create-project` expect a completely empty directory. Do not open the project in an
-    IDE like PhpStorm before the commands have been executed. IDEs will usually create a hidden folder like 
-    :path:`.idea` that will cause an error message with the `composer create-project` command. 
+    IDE like PhpStorm before the commands have been executed. IDEs will usually create a hidden folder like
+    :path:`.idea` that will cause an error message with the `composer create-project` command.
     `ddev composer create` also works on non-empty paths.
 
 
@@ -258,6 +258,10 @@ TYPO3 offers two options for initialization: creating an empty starting page or
 it can go directly to the backend administrative interface. Beginners should
 select the first option and allow TYPO3 to create an empty starting page.
 This will also generate a site configuration file.
+
+It is also possible to create basic backend user groups from the presets.
+You can also create them later on via console command
+:ref:`setup:begroups:default <groups-console>` or :ref:`manually <groups-module>`.
 
 ..  include:: ../Images/AutomaticScreenshots/QuickInstall/Step5LastStep.rst.txt
 
