@@ -32,15 +32,15 @@ using the following address to create a new administrative user:
 The Install Tool requires the "Installation Password" that would have been set
 when TYPO3 was installed.
 
-.. include:: ../Images/AutomaticScreenshots/InstallTool/InstallToolPassword.rst.txt
+.. include:: /Images/AutomaticScreenshots/InstallTool/InstallToolPassword.rst.txt
 
 Once logged in to the Admin Tool go to :guilabel:`Maintenance > Create Administrative User`
 and select :guilabel:`Create Administrator`. In this dialogue you
 can create a new administrative user.
 
-.. include:: ../Images/AutomaticScreenshots/BackendUsers/CreateAdministrator.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/CreateAdministrator.rst.txt
 
-.. include:: ../Images/AutomaticScreenshots/BackendUsers/CreateAdministratorForm.rst.txt
+.. include:: /Images/AutomaticScreenshots/BackendUsers/CreateAdministratorForm.rst.txt
 
 Use this new administrator account to log into the TYPO3 backend. In the module
 :guilabel:`Backend Users` you can change the passwords of existing users,
