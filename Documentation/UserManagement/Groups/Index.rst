@@ -16,7 +16,7 @@ This chapter provides a quick overview of backend user groups.
 In the next chapter we will look at changing user permissions using
 groups.
 
-.. _groups-console:
+..  _groups-console:
 
 Console command to create backend user groups from presets
 ==========================================================
