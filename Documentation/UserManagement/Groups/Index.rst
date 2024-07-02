@@ -70,7 +70,7 @@ possible to specify the groups:
     the backend module). It is limited to creating two pre-configured backend
     user groups with permission presets applied.
 
-.. _groups-module:
+..  _groups-module:
 
 Using the "Backend Users" module
 ================================
