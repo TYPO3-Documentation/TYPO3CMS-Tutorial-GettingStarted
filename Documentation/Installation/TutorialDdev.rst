@@ -51,12 +51,16 @@ of preconfigured projects.
 
     Project Type [php, typo3, ...] (php): typo3
 
-project-type
+Docroot Location
+    Is the folder containing files that have to be reached by
+    the webserver. It contains the vital entry point :file:`index.php`. The folder is commonly called :file:`public`.
+
+Project Type
     Should always be "typo3"
 
-docroot
-    Is the folder in which all files that have to be reached by
-    the browser. This folder is commonly called :file:`public`.
+..  note::
+    The PHP version (:yaml:`php_version`) should be set manually to the required
+    version in :file:`.ddev/config.yaml`.
 
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
