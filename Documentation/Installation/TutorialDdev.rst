@@ -41,7 +41,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config --php-version 8.1
+    ddev config
 
     # Give the following answers when prompted:
 
@@ -51,12 +51,16 @@ of preconfigured projects.
 
     Project Type [php, typo3, ...] (php): typo3
 
-project-type
-    Should always be "typo3"
-
-docroot
+Docroot Location
     Is the folder containing files that have to be reached by
     the webserver. It contains the vital entry point :file:`index.php`. The folder is commonly called :file:`public`.
+
+Project Type
+    Should always be "typo3"
+
+..  note::
+    The PHP version (:yaml:`php_version`) should be set manually to the required
+    version in :file:`.ddev/config.yaml`.
 
 Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
 
