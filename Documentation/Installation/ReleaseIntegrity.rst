@@ -232,8 +232,8 @@ You can download the used public keys from `get.typo3.org.keys`_
 
 ...............................
 
-.. _0x9B9CB92E59BC94C4: https://pgpkeys.mit.edu/pks/lookup?search=0x9B9CB92E59BC94C4
-.. _0x3304BBDBFA9613D1: https://pgpkeys.mit.edu/pks/lookup?search=0x3304BBDBFA9613D1
-.. _0xC19FAFD699012A5A: https://pgpkeys.mit.edu/pks/lookup?search=0xC19FAFD699012A5A
-.. _0xA36E4D1F16490937: https://pgpkeys.mit.edu/pks/lookup?search=0xA36E4D1F16490937
+.. _0x9B9CB92E59BC94C4: https://keys.openpgp.org/search?q=9B9CB92E59BC94C4
+.. _0x3304BBDBFA9613D1: https://keys.openpgp.org/search?q=3304BBDBFA9613D1
+.. _0xC19FAFD699012A5A: https://keys.openpgp.org/search?q=C19FAFD699012A5A
+.. _0xA36E4D1F16490937: https://keys.openpgp.org/search?q=A36E4D1F16490937
 .. _get.typo3.org.keys: https://get.typo3.org/KEYS
