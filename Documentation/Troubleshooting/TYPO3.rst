@@ -104,13 +104,14 @@ change to show errors in the frontend.
 
 .. include:: ../Images/AutomaticScreenshots/DebugSettings/DebugSettings.rst.txt
 
-The following TypoScript setting can also be added the the root template for
+The following TypoScript setting can also be added to the root TypoScript for
 the site to show additional debug information.
 This is particularly useful when debugging Fluid errors:
 
-.. code-block:: typoscript
+..  code-block:: typoscript
+    :caption: config/sites/my_site/setup.typoscript
 
-   config.contentObjectExceptionHandler = 0
+    config.contentObjectExceptionHandler = 0
 
 .. seealso::
 
