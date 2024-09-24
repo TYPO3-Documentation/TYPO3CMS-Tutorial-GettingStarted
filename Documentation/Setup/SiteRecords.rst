@@ -2,11 +2,12 @@
 
 .. index:: site, domain configuration, languages
 
+.. _siteconfiguration:
 .. _siterecords:
 
-======================
-Creating A Site Record
-======================
+=============================
+Creating a site configuration
+=============================
 
 A single installation of TYPO3 can host multiple websites each with its own content, appearance and domain.
 
