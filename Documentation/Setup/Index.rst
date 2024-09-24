@@ -18,6 +18,10 @@ Setup
         Once TYPO3 is installed, the default Site record needs to be configured
         before content and templates can be added.
 
+    ..  card:: :ref:`Settings <siterecords>`
+
+        Learn where to apply settings for your system.
+
     ..  card:: :ref:`Adding Backend Users <backendusers>`
 
         Create additional backend users that will have access to TYPO3's
@@ -33,5 +37,6 @@ Setup
     :titlesonly:
 
     SiteRecords
+    Settings
     BackendUsers
     BackendLanguages
