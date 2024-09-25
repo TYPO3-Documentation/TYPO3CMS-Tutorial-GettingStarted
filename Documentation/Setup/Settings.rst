@@ -109,7 +109,7 @@ The following optional Core extensions offer site settings:
 *   :composer:`typo3/cms-indexed-search`:
     :ref:`Settings of the site set "Indexed Search" <typo3/cms-indexed-search:site-set-settings>`.
     Used to display a search box and offer basic indexing of a page without need
-    for a solr core as would be required by :composer:`apache-solr-for-typo3/solr`.
+    for a Solr core as would be required by :composer:`apache-solr-for-typo3/solr`.
 *   :composer:`typo3/cms-seo`:
     :ref:`Site sets settings of EXT:seo <typo3/cms-seo:configuration-site-set-settings>`.
     Used to improve meta tags, page titles and a provides a XML sitemap.
