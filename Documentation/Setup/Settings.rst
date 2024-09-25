@@ -78,7 +78,7 @@ Find detailed information in :ref:`TYPO3 Explained, Site handling <t3coreapi:sit
 Site settings
 -------------
 
-..  versionchanged:: 13.3
+..  versionadded:: 13.3
     Starting with TYPO3 v13.3 site settings can also be edited in the site
     settings editor.
 
