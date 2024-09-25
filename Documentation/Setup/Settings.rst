@@ -117,7 +117,7 @@ The following optional Core extensions offer site settings:
 You can define custom site settings in your site package:
 :ref:`TYPO3 Sitepackage Tutorial <t3sitepackage:start>`.
 
-..  todo: link to the site settings page once it is written.
+..  todo: link to the site settings page  in the sitepackage tutorial once it is written.
 
 Find detailed information on the topic also in
 :ref:`TYPO3 Explained, Site settings <t3coreapi:sitehandling-settings>`.
