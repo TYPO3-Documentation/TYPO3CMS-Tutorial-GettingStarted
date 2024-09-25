@@ -78,14 +78,48 @@ Find detailed information in :ref:`TYPO3 Explained, Site handling <t3coreapi:sit
 Site settings
 -------------
 
-..  versionadded:: 12.0
-    Starting with TYPO3 v12 site settings can be saved in a file called
-    :file:`config/sites/my-site/settings.yaml`.
+..  versionadded:: 13.3
+    Starting with TYPO3 v13.3 site settings can also be edited in the site
+    settings editor.
 
-Settings that only affect one site can be made in file
-:file:`config/sites/my-site/settings.yaml`. If that is necessary we will refer
-to this file in the documentation and authors of third party extensions might
-also refer you to it. Find detailed information in
+You can edit site settings in the module :guilabel:`Site Management > Settings`.
+Changes are written to file :file:`config/sites/my-site/settings.yaml`. If you
+keep this file under version control you must commit and push the changes made
+to this file.
+
+..  figure:: /Images/ManualScreenshots/SiteManagement/SiteSettingsOverview.png
+    :alt: Screenshot of the Site Settings Overview
+
+    You can find all sites in the settings module. If editable settings are available there is a button "Edit Settings"
+
+You can find more information about this editor in
+:ref:`TYPO3 Explained, Site settings editor <t3coreapi:site-settings-editor>`.
+
+If site settings are available refer to the documentation of the extension
+offering them.
+
+The following optional Core extensions offer site settings:
+
+*   :composer:`typo3/cms-fluid-styled-content`:
+    :ref:`Site set "Fluid Styled Content" <typo3/cms-fluid-styled-content:site-set-fluid-styled-content>`.
+    Commonly used in projects that do not depend on :composer:`bk2k/bootstrap-package`.
+*   :composer:`typo3/cms-felogin`:
+    :ref:`Settings for the "Frontend Login" site set <typo3/cms-felogin:configuration-site-set-settings>`.
+    Used to offer a login for frontend users.
+*   :composer:`typo3/cms-indexed-search`:
+    :ref:`Settings of the site set "Indexed Search" <typo3/cms-indexed-search:site-set-settings>`.
+    Used to display a search box and offer basic indexing of a page without need
+    for a Solr core as would be required by :composer:`apache-solr-for-typo3/solr`.
+*   :composer:`typo3/cms-seo`:
+    :ref:`Site sets settings of EXT:seo <typo3/cms-seo:configuration-site-set-settings>`.
+    Used to improve meta tags, page titles and a provides a XML sitemap.
+
+You can define custom site settings in your site package:
+:ref:`TYPO3 Sitepackage Tutorial <t3sitepackage:start>`.
+
+..  todo: link to the site settings page  in the sitepackage tutorial once it is written.
+
+Find detailed information on the topic also in
 :ref:`TYPO3 Explained, Site settings <t3coreapi:sitehandling-settings>`.
 
 ..  _settings_typoscript:
