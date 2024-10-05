@@ -132,6 +132,9 @@ Setup TYPO3 with the 1,2,3 Install Tool in the browser
 
 Create a file called :file:`FIRST_INSTALL` in your webroot
 
+..  code-block:: bash
+    ddev exec touch public/FIRST_INSTALL
+
 Open the installer
 
 ..  code-block:: bash
