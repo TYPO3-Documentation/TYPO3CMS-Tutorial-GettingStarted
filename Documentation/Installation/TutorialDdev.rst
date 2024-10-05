@@ -102,14 +102,31 @@ Interactive / guided setup (questions/answers):
 
     ddev typo3 setup
 
+When prompted give the following answers to work with the default DDEV configuration:
+
+..  code-block:: bash
+
+    Which web server is used?
+    > apache
+
+    Database driver?
+    > mysqli
+
+    Enter the database "username" [default: db] ? db
+
+    Enter the database "password" ? db
+
+    Enter the database "port" [default: 3306] ? 3306
+
+    Enter the database "host" [default: db] ? db
+
+    Select which database to use:
+    > db
+
 Setup TYPO3 with the 1,2,3 Install Tool in the browser
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Create a file called :file:`FIRST_INSTALL` in your webroot
-
-..  code-block:: bash
-
-    ddev exec touch public/FIRST_INSTALL
 
 Open the installer
 
