@@ -44,7 +44,7 @@ have one. You can learn how to create a site package in the
 :ref:`TYPO3 Sitepackage Tutorial <t3sitepackage:start>`.
 
 ..  figure:: NewSitePage1.png
-    :alt: Screenshot of the tab "General" of a newly create site configuration
+    :alt: Screenshot of the tab "General" of a newly created site configuration
 
     Enter the basic data and choose the site set
 
@@ -52,7 +52,7 @@ Since our set already depends on the set of fluid_styled_content, it is
 not necessary to choose that set here.
 
 ..  figure:: NewSitePageLanguage.png
-    :alt: Screenshot of the tab "Languages" of a newly create site configuration
+    :alt: Screenshot of the tab "Languages" of a newly created site configuration
 
     Create a language for your site by selecting it from the list of presets
 
