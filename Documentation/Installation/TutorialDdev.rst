@@ -41,7 +41,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config
+    ddev config --php-version 8.3
 
     # Give the following answers when prompted:
 
@@ -66,7 +66,7 @@ Alternatively you can skip the prompt by supplying all of the required parameter
 
 ..  code-block:: bash
 
-    ddev config  --project-type=typo3 --docroot=public --php-version 8.1
+    ddev config  --project-type=typo3 --docroot=public --php-version 8.3
 
 Start the project
 -----------------
