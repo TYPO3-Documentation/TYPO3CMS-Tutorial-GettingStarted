@@ -7,7 +7,7 @@
              project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues"
              edit-on-github-branch="12.4"
              edit-on-github="TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
-             typo3-core-preferred="stable"
+             typo3-core-preferred="12.4"
              interlink-shortcode="t3start"
   />
   <project title="Getting Started"
