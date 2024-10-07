@@ -47,6 +47,13 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Site management
+
+        Learn how to manage settings for the complete website.
+
+        ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Setup
 
         Setup aims to guide you through the next steps post installation,
@@ -111,6 +118,7 @@ system and detailed information on how to install TYPO3.
     Concepts/Index
     SystemRequirements/Index
     Installation/Index
+    SiteManagement/Index
     Setup/Index
     Troubleshooting/Index
     Extensions/Index
