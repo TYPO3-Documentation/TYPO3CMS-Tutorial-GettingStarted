@@ -1,0 +1,14 @@
+base: 'https://example-typo3131.ddev.site'
+languages:
+  -
+    title: English
+    enabled: true
+    locale: en_US
+    hreflang: ''
+    base: /en/
+    websiteTitle: ''
+    navigationTitle: English
+    flag: en-us-gb
+    languageId: 0
+rootPageId: 7
+websiteTitle: 'My example page'
