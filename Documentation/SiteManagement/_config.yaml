@@ -1,6 +1,4 @@
 base: 'https://example-typo3131.ddev.site'
-dependencies:
-  - t3docs/site-package
 languages:
   -
     title: English
