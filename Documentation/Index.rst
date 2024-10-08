@@ -54,6 +54,14 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: TypoScript introduction
+
+        TypoScript is the basic configuration language used to configure the
+        frontend output of a page in TYPO3.
+
+        ..  card-footer:: :ref:`Create a minimal page created by pure TypoScript <typoscript>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Setup
 
         Setup aims to guide you through the next steps post installation,
@@ -118,6 +126,7 @@ system and detailed information on how to install TYPO3.
     Concepts/Index
     SystemRequirements/Index
     Installation/Index
+    TypoScript/Index
     SiteManagement/Index
     Setup/Index
     Troubleshooting/Index
