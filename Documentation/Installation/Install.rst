@@ -229,12 +229,12 @@ Select a database connection driver and enter the credentials for the database.
 
 TYPO3 can either connect to an existing empty database or create a new one.
 
-The list of databases available is dependent on which database drivers are
-installed on the host.
+The list of databases available is dependent on which database drivers are installed on the host.
 
-For example, if an instance of TYPO3 is intended to be used with a MySQL/MariaDB
-database then the PHP extension "pdo_mysql" is required. Once it is installed,
-:guilabel:`MySQL Database` will be available as an option.
+
+For example, if an instance of TYPO3 is intended to be used with a MySQL database then the PHP extension `pdo_mysql` is required.
+Once it is installed, :guilabel:`MySQL Database` will be available as an option.
+
 
 ..  include:: ../Images/AutomaticScreenshots/QuickInstall/Step3ChooseDb.rst.txt
 
@@ -254,8 +254,10 @@ An email address for this user can also be specified and a name can be given.
 Initialize
 ----------
 
-TYPO3 offers two options for initialization: creating an empty starting page or
-it can go directly to the backend administrative interface. Beginners should
+TYPO3 offers two options for initialisation: creating an empty starting page or
+it can go directly to the backend administrative interface.
+
+Beginners should
 select the first option and allow TYPO3 to create an empty starting page.
 This will also generate a site configuration file.
 
@@ -268,7 +270,7 @@ You can also create them later on via console command
 Next steps
 ----------
 
-Now that the installation is complete, TYPO3 can be :ref:`configured <setup>`.
+Now that installation is complete, TYPO3 can be :ref:`configured <setup>`.
 
 Using DDEV
 ----------
