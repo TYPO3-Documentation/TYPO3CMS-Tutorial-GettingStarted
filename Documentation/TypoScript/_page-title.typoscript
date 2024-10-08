@@ -1,0 +1,13 @@
+page = PAGE
+page {
+    5 = TEXT
+    5 {
+        stdWrap.field = title
+        stdWrap.wrap = <h1>|</h1>
+    }
+    10 = TEXT
+    10 {
+        value = Hello, world.
+        stdWrap.wrap = <p>|</p>
+    }
+}
