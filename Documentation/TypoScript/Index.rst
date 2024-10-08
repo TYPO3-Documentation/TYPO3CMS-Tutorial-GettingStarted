@@ -7,7 +7,7 @@
 A minimal page created by pure TypoScript
 =========================================
 
-TypoScript is the basic configuration script used to configure the frontend
+TypoScript is the basic configuration language used to configure the frontend
 output of a page in TYPO3.
 
 You can find detailed information about

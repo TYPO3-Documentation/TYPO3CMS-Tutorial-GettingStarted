@@ -56,7 +56,7 @@ system and detailed information on how to install TYPO3.
 
     ..  card:: TypoScript introduction
 
-        TypoScript is the basic configuration script used to configure the
+        TypoScript is the basic configuration language used to configure the
         frontend output of a page in TYPO3.
 
         ..  card-footer:: :ref:`Create a minimal page created by pure TypoScript <typoscript>`
