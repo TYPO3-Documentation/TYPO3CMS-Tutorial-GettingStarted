@@ -118,7 +118,7 @@ Wrap "Hello, world." in p-tags
 6.  We use the :confval:`stdWrap <t3tsref:text-stdwrap>` property of the TEXT
     object to configure the :ref:`stdWrap <t3tsref:stdwrap>` function.
 
-    In this function we use option wrap :confval:`wrap <t3tsref:stdwrap-wrap>`.
+    In this function we use the option wrap :confval:`wrap <t3tsref:stdwrap-wrap>`.
     It surrounds the current content of the TEXT object as set in line 5 with
     the value defined here. The pipe `|` character is replaced with the text.
 
@@ -149,19 +149,19 @@ Display the title of the current page on top
 3.  We assign a second content object (also called "cObject") of type
     :ref:`TEXT <t3tsref:cobj-text>` to
     :confval:`index number 5 <t3tsref:page-array>` of `page`. As the index is
-    smaller then the index 10 of the TEXT object containing the text
-    "Hello World" it is displayed before the other object.
-4.  Use the :ref:`block syntax <t3coreapi:typoscript-syntax-syntax-curly-brackets>`
+    smaller than the index 10 of the TEXT object containing the text
+    "Hello World", it is displayed before the other object.
+4.  Uses the :ref:`block syntax <t3coreapi:typoscript-syntax-syntax-curly-brackets>`
     to apply properties to the TEXT object.
-5.  Use the stdWrap property :confval:`field <t3tsref:stdwrap-field>` to fetch
+5.  Uses the stdWrap property :confval:`field <t3tsref:stdwrap-field>` to fetch
     the field `title` from the :ref:`database record <t3coreapi:database-records>`
     of the current page.
-6.  Use the stdWrap property :confval:`wrap <t3tsref:stdwrap-wrap>` to wrap the
+6.  Uses the stdWrap property :confval:`wrap <t3tsref:stdwrap-wrap>` to wrap the
     current string fetched in line 5 in :html:`<h1>` tags.
 
 ..  note::
     The order in which the content objects are defined in the TypoScript file
-    do not matter. They are output from the smallest index to the largest.
+    does not matter. They are output from the smallest index to the largest.
     Therefore the following would give you the same output:
 
     ..  literalinclude:: _page-title_reverse.typoscript
