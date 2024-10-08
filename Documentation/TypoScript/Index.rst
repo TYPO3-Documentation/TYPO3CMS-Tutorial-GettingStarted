@@ -50,6 +50,8 @@ containing your :ref:`site configuration <site-configuration>`.
 #.  Assigns the value `Hello, world.` to the `value` property of the TEXT
     cObject stored in path `page.10`.
 
+..  todo: Link to page how to clear cache once https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/425 is resolved
+
 Clear all caches via the following console command or the button in the backend:
 
 ..  code-block:: bash
