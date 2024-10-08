@@ -1,0 +1,7 @@
+# Create the frontend output of the page
+page = PAGE
+page {
+    # Show a text with value "Hello world."
+    10 = TEXT
+    10.value = Hello, world.
+}
