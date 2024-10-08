@@ -12,7 +12,7 @@ output of a page in TYPO3.
 
 You can find detailed information about
 :ref:`TypoScript <t3coreapi:typoscript-syntax-syntax>` and its syntax in
-the reference "TYPO3 explained".
+the reference "TYPO3 Explained".
 
 The semantics of TypoScript settings are listed in the
 :ref:`TypoScript Reference <t3tsref:start>`.
@@ -26,7 +26,7 @@ The semantics of TypoScript settings are listed in the
     The site set can be used as
     :ref:`TypoScript provider <t3coreapi:site-sets-typoscript>`. It is not
     necessary to use a TypoScript record as is explained in tutorials for
-    TYPO3 versions 12,4 and below.
+    TYPO3 versions 12.4 and below.
 
 Put the following TypoScript in a file called :file:`setup.typoscript` within
 your :ref:`Site set <t3coreapi:site-sets>`. The site set is the folder
@@ -67,7 +67,7 @@ Resulting web page
 ==================
 
 Here is the resulting web page HTML source for both the TypoScript-only and
-the Fluid based implementations. Notice how TYPO3 has added default markup
+the Fluid-based implementations. Notice how TYPO3 has added default markup
 around the single line of content:
 
 ..  literalinclude:: _minimal-output.html
