@@ -5,18 +5,18 @@
 Webroot and assets
 ==================
 
-In TYPO3 files that must be displayed directly in the web browser, may - for
-security reasons - only be placed in certain directories.
+In TYPO3 files that are displayed in the web browser, must - for
+security reasons - be placed in certain directories.
 
-In standard Composer-based installation, as this tutorial assumes you have, the webroot
+In a standard Composer-based installation, which this tutorial assumes you have, the webroot
 of the server points to directory :directory:`public`. Read more about this folder:
 :ref:`TYPO3 Explained, folder "public/" <t3coreapi:directory-public>`. Files
-placed outside this folder cannot be called directly by the web browser.
+placed outside of this folder cannot be called directly by the web browser.
 
-There are roughly 3 types of files tha must be accessed directly by the browser:
+There are 3 types of files that must be accessed directly by the browser:
 
 *   :ref:`Media and downloads <media>`: Images, Videos and Audio used within the content and
-    manged by editors. Downloads like PDF files, Excel sheets etc.
+    managed by editors. Downloads like PDF files, Excel sheets etc.
 *   :ref:`Assets <assets>`: Including CSS, JavaScript, fonts, images and icons used for design purposes.
 *   Technical files managed by Composer and TYPO3, including the `index.php` as
     Entry point, automatically generated assets and scaled versions of images.
@@ -26,7 +26,7 @@ There are roughly 3 types of files tha must be accessed directly by the browser:
 Media and downloads
 ===================
 
-Media and download **must** be stored in the so called fileadmin. In standard
+Media and downloads **must** be stored in fileadmin. In standard
 Composer-based installations, as we assume you have here, they are stored in
 :path:`public/fileadmin/`.
 
@@ -39,11 +39,11 @@ Files in the fileadmin are managed by the
 They can be uploaded, moved and deleted in the backend module
 :guilabel:`File > Filelist` by administrators and
 depending on the :ref:`permissions <permissions-management>`
-by the editors of the site.
+by editors.
 
 ..  warning::
-    For security reasons do not store any templates, scripts or assets in this
-    directory. Use a :ref:`site package <t3sitepackage:start>` to store them in
+    For security reasons, do not store any templates, scripts or assets in this
+    directory. Store them in a :ref:`site package <t3sitepackage:start>`
     :ref:`assets`.
 
 .. _assets:
@@ -54,7 +54,7 @@ Assets in extensions and site package
 Assets usually include CSS files, JavaScript and images / icons used for design
 purposes.
 
-Within an extension, including a site package they can only be placed in folder
+Within an extension, including a site package, they can only be placed in folder
 :path:`Resources/Public` and subfolders of this folder.
 
 During Composer installation the :path:`Resources/Public` directories of all
