@@ -129,6 +129,7 @@ system and detailed information on how to install TYPO3.
     TypoScript/Index
     SiteManagement/Index
     Setup/Index
+    Assets/Index
     Troubleshooting/Index
     Extensions/Index
     UserManagement/Index
