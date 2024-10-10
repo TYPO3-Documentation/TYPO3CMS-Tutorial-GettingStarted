@@ -27,7 +27,7 @@ permissions.
     :glob:
 
     BackendUsers
-    BackendLanguage
+    BackendLanguages
     BackendPrivileges/Index
     BackendUsers/Index
     Groups/Index
