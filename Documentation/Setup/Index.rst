@@ -38,5 +38,3 @@ Setup
 
     SiteRecords
     Settings
-    BackendUsers
-    BackendLanguages
