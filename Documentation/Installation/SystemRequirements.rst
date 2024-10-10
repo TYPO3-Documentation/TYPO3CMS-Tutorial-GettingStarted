@@ -21,7 +21,7 @@ the server. (GraphicsMagick is preferable.)
 For up-to-date information about TYPO3's system requirements visit `get.typo3.org
 <https://get.typo3.org/version/#system-requirements>`_.
 
-..  include:: PHP.rst.txt
+..  include:: SystemRequirements/PHP.rst.txt
 
 Web Server
 ==========
@@ -30,20 +30,20 @@ Web Server
 
     ..  tab:: Apache
 
-        ..  include:: Apache.rst.txt
+        ..  include:: SystemRequirements/Apache.rst.txt
 
     ..  tab:: NGINX
 
-        ..  include:: NGINX.rst.txt
+        ..  include:: SystemRequirements/NGINX.rst.txt
 
     ..  tab:: IIS
 
-        ..  include:: IIS.rst.txt
+        ..  include:: SystemRequirements/IIS.rst.txt
 
 Database
 ========
 
-..  include:: Database.rst.txt
+..  include:: SystemRequirements/Database.rst.txt
 
 Composer
 ========

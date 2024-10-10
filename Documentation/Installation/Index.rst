@@ -15,6 +15,11 @@ Installation
     :class: pb-4
     :card-height: 100
 
+    ..  card:: :ref:`System Requirements <system-requirements>`
+
+        The Installation Guide covers everything needed to install TYPO3. Including a preinstallation
+        checklist and a detailed walk through that details every step of the installation process.
+
     ..  card:: :ref:`Installing TYPO3 <install>`
 
         The Installation Guide covers everything needed to install TYPO3. Including a preinstallation
@@ -49,6 +54,7 @@ Installation
     :hidden:
     :titlesonly:
 
+    SystemRequirements
     Install
     TutorialDdev
     EnvironmentConfiguration

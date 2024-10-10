@@ -29,15 +29,6 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: System requirements
-
-        System requirements for the host operating system, including its web
-        server and database and how they should be configured prior to
-        installation.
-
-        ..  card-footer:: :ref:`Inspect the System requirements <System-Requirements>`
-            :button-style: btn btn-secondary stretched-link
-
     ..  card:: Installation
 
         The installation chapter provides detailed instructions on how to
@@ -63,27 +54,12 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Setup TYPO3 after installation <Setup>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Troubleshooting
+    ..  card:: Create a Sitepackage
 
-        Troubleshoot common issues that can occur during installation. The
-        troubleshooting chapter covers both TYPO3 CMS and the host environment,
-        including the web server, database and PHP.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+        sed diam nonumy eirmod tempor invidunt ut
 
-        ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Managing backend users
-
-        Learn how to create users and configure their backend privileges.
-
-        ..  card-footer:: :ref:`Manage backend users <user-management>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Permissions management
-
-        Learn how to effectively structure and manage backend user groups and permissions.
-
-        ..  card-footer:: :ref:`Manage permissions and user groups <permissions-management>`
+        ..  card-footer:: :ref:`Create a Sitepackage <sitepackage>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Working with extensions
@@ -94,6 +70,16 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Install and manage extensions <extensions_index>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Troubleshooting
+
+        Troubleshoot common issues that can occur during installation. The
+        troubleshooting chapter covers both TYPO3 CMS and the host environment,
+        including the web server, database and PHP.
+
+        ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
+            :button-style: btn btn-secondary stretched-link
+
+
     ..  card:: The "Introduction Package"
 
         The "Introduction Package" is a great place to start if you are looking
@@ -101,6 +87,13 @@ system and detailed information on how to install TYPO3.
         a range of example page templates and content.
 
         ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Updates
+
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+
+        ..  card-footer:: :ref:`Updates <updates>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Next steps
@@ -116,15 +109,14 @@ system and detailed information on how to install TYPO3.
     :titlesonly:
 
     Concepts/Index
-    SystemRequirements/Index
     Installation/Index
     SiteManagement/Index
     Setup/Index
     Troubleshooting/Index
+    Sitepackage/Index
     Extensions/Index
-    UserManagement/Index
-    PermissionsManagement/Index
     IntroductionPackage/Index
+    Updates/Index
     NextSteps/Index
 
 ..  toctree::
