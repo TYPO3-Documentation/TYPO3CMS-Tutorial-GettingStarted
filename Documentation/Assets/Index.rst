@@ -15,7 +15,7 @@ placed outside of this folder cannot be called directly by the web browser.
 
 There are 3 types of files that must be accessed directly by the browser:
 
-*   :ref:`Media and downloads <media>`: Images, Videos and Audio used within the content and
+*   :ref:`Media and downloads <media>`: Images, videos and audio files used within the content and
     managed by editors. Downloads like PDF files, Excel sheets etc.
 *   :ref:`Assets <assets>`: Including CSS, JavaScript, fonts, images and icons used for design purposes.
 *   Technical files managed by Composer and TYPO3, including the `index.php` as
@@ -33,12 +33,12 @@ Composer-based installations, as we assume you have here, they are stored in
 Read more about this folder:
 :ref:`TYPO3 Explained, folder "public/fileadmin/" <t3coreapi:directory-public-fileadmin>`.
 
-Files in the fileadmin are managed by the
+Files in the fileadmin directory are managed by the
 :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>`.
 
 They can be uploaded, moved and deleted in the backend module
 :guilabel:`File > Filelist` by administrators and
-depending on the :ref:`permissions <permissions-management>`
+depending on :ref:`permissions <permissions-management>`,
 by editors.
 
 ..  warning::
