@@ -8,6 +8,8 @@
 Adding Backend Users
 ====================
 
+..  todo: Remove Duplicate content and Consolidate with page "Backend Users"
+
 To create additional backend user records, navigate to :guilabel:`System > Backend Users`.
 
 Here a list of all current backend users will be displayed.
