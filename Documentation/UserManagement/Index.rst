@@ -23,14 +23,16 @@ Working with frontend users is discussed in the :ref:`Editors Guide <t3editors:f
 We will now look at backend users and how to set up groups and
 permissions.
 
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+..  toctree::
+    :maxdepth: 5
+    :titlesonly:
+    :glob:
 
-   BackendPrivileges/Index
-   BackendUsers/Index
-   Groups/Index
-   GroupPermissions/Index
-   PagePermissions/Index
-   UserSetup/Index
+    BackendPrivileges/Index
+    BackendUsers/Index
+    Groups/Index
+    GroupPermissions/Index
+    PagePermissions/Index
+    UserSetup/Index
+    BackendUsers
+    BackendLanguages
