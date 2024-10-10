@@ -1,6 +1,7 @@
 ..  include:: /Includes.rst.txt
 
 ..  _setup:
+..  _first-project:
 
 ===================
 First project setup
@@ -27,7 +28,7 @@ First project setup
     :titlesonly:
 
     RootPage
-    SiteRecords
+    SiteManagement/Index
     Settings
     BootstrapPackage
     SitePackage

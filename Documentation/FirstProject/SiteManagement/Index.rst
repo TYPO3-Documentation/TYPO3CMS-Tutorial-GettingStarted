@@ -1,5 +1,7 @@
 ..  include:: /Includes.rst.txt
 
+.. _siteconfiguration:
+.. _siterecords:
 ..  _site-management:
 
 ===============

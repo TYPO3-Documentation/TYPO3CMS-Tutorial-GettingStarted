@@ -1,5 +1,5 @@
 ..  include:: /Includes.rst.txt
-..  _bootstrap package:
+..  _root-page:
 
 ==================
 Create a root page
