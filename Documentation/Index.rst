@@ -38,13 +38,6 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Site management
-
-        Learn how to manage settings for the complete website.
-
-        ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
-            :button-style: btn btn-secondary stretched-link
-
     ..  card:: First project setup
 
         Setup aims to guide you through the next steps post installation,
@@ -54,7 +47,7 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Set up your first project after installation <first-project>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Create a Sitepackage
+    ..  card:: Create a site package
 
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
         sed diam nonumy eirmod tempor invidunt ut
@@ -77,16 +70,6 @@ system and detailed information on how to install TYPO3.
         including the web server, database and PHP.
 
         ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
-            :button-style: btn btn-secondary stretched-link
-
-
-    ..  card:: The "Introduction Package"
-
-        The "Introduction Package" is a great place to start if you are looking
-        to test drive TYPO3 and see a prebuilt site that contains
-        a range of example page templates and content.
-
-        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Updates

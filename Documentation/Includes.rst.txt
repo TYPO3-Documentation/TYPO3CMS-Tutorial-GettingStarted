@@ -5,4 +5,4 @@
 
     This a draft version of this guide. Many pages are empty.
 
-    Head over to https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/ for the life version.
+    Head over to https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/ for the live version.
