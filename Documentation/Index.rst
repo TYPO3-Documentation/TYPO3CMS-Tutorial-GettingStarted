@@ -110,12 +110,10 @@ system and detailed information on how to install TYPO3.
 
     Concepts/Index
     Installation/Index
-    SiteManagement/Index
     FirstProject/Index
     Troubleshooting/Index
     Sitepackage/Index
     Extensions/Index
-    IntroductionPackage/Index
     Updates/Index
     NextSteps/Index
 
