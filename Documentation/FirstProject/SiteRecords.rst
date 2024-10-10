@@ -1,9 +1,9 @@
+:orphan:
 .. include:: /Includes.rst.txt
 
 .. index:: site, domain configuration, languages
 
-.. _siteconfiguration:
-.. _siterecords:
+..  todo: Consolidate with Site Management See: https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/431
 
 =============================
 Creating a site configuration

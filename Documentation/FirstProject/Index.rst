@@ -28,7 +28,7 @@ First project setup
     :titlesonly:
 
     RootPage
-    SiteRecords
+    SiteManagement/Index
     Settings
     BootstrapPackage
     SitePackage
