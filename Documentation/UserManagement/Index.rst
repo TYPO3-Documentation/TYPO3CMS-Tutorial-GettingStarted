@@ -21,6 +21,23 @@ Working with frontend users is discussed in the :ref:`Editors Guide <t3editors:f
 We will now look at backend users and how to set up groups and
 permissions.
 
+..  card-grid::
+    :columns: 1
+    :columns-md: 2
+    :gap: 4
+    :class: pb-4
+    :card-height: 100
+
+    ..  card:: :ref:`Adding Backend Users <backendusers>`
+
+        Create additional backend users that will have access to TYPO3's
+        backend interface.
+
+    ..  card:: :ref:`Changing The Backend Language <backendlanguages>`
+
+        Setup additional backend languages in TYPO3 allowing users to select
+        an alternative language to use in the backend.
+
 ..  toctree::
     :maxdepth: 5
     :titlesonly:
