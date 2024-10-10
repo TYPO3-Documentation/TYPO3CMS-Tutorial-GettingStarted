@@ -30,10 +30,6 @@ Installation
         The deployment guide highlights some of solutions available that can help automate the process of deploying TYPO3 to
         a remote server.
 
-    ..  card:: :ref:`Tuning TYPO3 <TuneTYPO3>`
-
-        This chapter contains information on how to configure and optimize the infrastructure running TYPO3.
-
     ..  card:: :ref:`TYPO3 Release Integrity <release_integrity>`
 
         Every release of TYPO3 is electronically signed by the TYPO3 release team.
@@ -45,11 +41,6 @@ Installation
 
         This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
 
-    ..  card:: :ref:`Legacy Installation Guide <legacyinstallation>`
-
-        Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
-        Guide demonstrates how TYPO3 can be installed without using Composer.
-
 ..  toctree::
     :hidden:
     :titlesonly:
@@ -59,6 +50,3 @@ Installation
     TutorialDdev
     EnvironmentConfiguration
     ProductionSettings
-    TuneTYPO3
-    DeployTYPO3
-    LegacyInstallation
