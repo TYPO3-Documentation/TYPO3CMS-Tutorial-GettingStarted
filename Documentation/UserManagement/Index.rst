@@ -34,5 +34,4 @@ permissions.
     GroupPermissions/Index
     PagePermissions/Index
     UserSetup/Index
-    BackendUsers
     BackendLanguages
