@@ -31,4 +31,5 @@ First project setup
     SiteManagement/Index
     Settings
     BootstrapPackage
+    IntroductionPackage
     SitePackage

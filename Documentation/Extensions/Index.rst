@@ -1,3 +1,4 @@
+:navigation-title: Extensions
 .. include:: /Includes.rst.txt
 
 .. _extensions_index:

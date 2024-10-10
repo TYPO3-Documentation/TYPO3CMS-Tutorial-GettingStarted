@@ -1,3 +1,5 @@
+:navigation-title: Next steps
+
 .. include:: /Includes.rst.txt
 
 .. index:: fluid, templating, site package
