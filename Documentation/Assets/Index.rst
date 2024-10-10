@@ -48,7 +48,7 @@ by editors.
 
 .. _assets:
 
-Assets in extensions and site package
+Assets in extensions and site packages
 =====================================
 
 Assets usually include CSS files, JavaScript and images / icons used for design
