@@ -15,6 +15,12 @@ Installation
     :class: pb-4
     :card-height: 100
 
+    ..  card:: :ref:`System requirements <system-requirements>`
+
+        System requirements for the host operating system, including its web
+        server and database and how they should be configured prior to
+        installation.
+
     ..  card:: :ref:`Installing TYPO3 <install>`
 
         The Installation Guide covers everything needed to install TYPO3. Including a preinstallation
@@ -49,6 +55,7 @@ Installation
     :hidden:
     :titlesonly:
 
+    SystemRequirements/Index
     Install
     TutorialDdev
     EnvironmentConfiguration
