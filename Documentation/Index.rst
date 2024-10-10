@@ -29,12 +29,6 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: System requirements
-
-        System requirements for the host operating system, including its web
-        server and database and how they should be configured prior to
-        installation.
-
         ..  card-footer:: :ref:`Inspect the System requirements <System-Requirements>`
             :button-style: btn btn-secondary stretched-link
 
@@ -124,7 +118,6 @@ system and detailed information on how to install TYPO3.
     :titlesonly:
 
     Concepts/Index
-    SystemRequirements/Index
     Installation/Index
     TypoScript/Index
     SiteManagement/Index
