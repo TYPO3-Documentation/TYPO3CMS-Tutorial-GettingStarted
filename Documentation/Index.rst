@@ -45,13 +45,13 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Setup
+    ..  card:: First project setup
 
         Setup aims to guide you through the next steps post installation,
         such as adding domains, setting up additional users and configuring
         languages.
 
-        ..  card-footer:: :ref:`Setup TYPO3 after installation <Setup>`
+        ..  card-footer:: :ref:`Set up your first project after installation <first-project>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Create a Sitepackage
@@ -111,7 +111,7 @@ system and detailed information on how to install TYPO3.
     Concepts/Index
     Installation/Index
     SiteManagement/Index
-    Setup/Index
+    FirstProject/Index
     Troubleshooting/Index
     Sitepackage/Index
     Extensions/Index

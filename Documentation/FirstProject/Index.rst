@@ -1,10 +1,11 @@
 ..  include:: /Includes.rst.txt
 
 ..  _setup:
+..  _first-project:
 
-=====
-Setup
-=====
+===================
+First project setup
+===================
 
 ..  card-grid::
     :columns: 1
@@ -22,21 +23,12 @@ Setup
 
         Learn where to apply settings for your system.
 
-    ..  card:: :ref:`Adding Backend Users <backendusers>`
-
-        Create additional backend users that will have access to TYPO3's
-        backend interface.
-
-    ..  card:: :ref:`Changing The Backend Language <backendlanguages>`
-
-        Setup additional backend languages in TYPO3 allowing users to select
-        an alternative language to use in the backend.
-
 ..  toctree::
     :hidden:
     :titlesonly:
 
+    RootPage
     SiteRecords
     Settings
-    BackendUsers
-    BackendLanguages
+    BootstrapPackage
+    SitePackage
