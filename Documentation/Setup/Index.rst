@@ -20,7 +20,7 @@ Setup
 
     ..  card:: :ref:`Settings <siterecords>`
 
-        Learn where to apply settings for your system.
+        Learn where to apply settings for your system. ajfadshjskd
 
 ..  toctree::
     :hidden:
