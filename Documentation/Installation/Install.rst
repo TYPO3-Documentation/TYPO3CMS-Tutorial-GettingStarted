@@ -266,7 +266,7 @@ This will also generate a site configuration file.
 Next steps
 ----------
 
-Now that installation is complete, TYPO3 can be :ref:`configured <setup>`.
+Now that installation is complete, TYPO3 can be :ref:`configured <create-first-project>`.
 
 Using DDEV
 ----------
