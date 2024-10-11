@@ -270,7 +270,7 @@ You can also create them later on via console command
 Next steps
 ----------
 
-Now that installation is complete, TYPO3 can be :ref:`configured <create-first-project>`.
+Now that installation is complete, TYPO3 can be :ref:`configured <first-project-setup>`.
 
 Using DDEV
 ----------
