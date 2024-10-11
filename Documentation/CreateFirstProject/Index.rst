@@ -1,10 +1,10 @@
 ..  include:: /Includes.rst.txt
 
-..  _setup:
+..  _create-first-project:
 
-=====
-Setup
-=====
+====================
+Create first project
+====================
 
 ..  card-grid::
     :columns: 1
