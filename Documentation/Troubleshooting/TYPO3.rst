@@ -52,7 +52,7 @@ Install Tool Password
 ---------------------
 
 Write access to :file:`config/system/settings.php` (in legacy installations
-:file:`typo3conf/system/settings.php`) is required to reset the
+:file:`typo3conf/ext/LocalConfiguration.php`) is required to reset the
 :guilabel:`Install Tool` password.
 
 Before editing this file, visit:
