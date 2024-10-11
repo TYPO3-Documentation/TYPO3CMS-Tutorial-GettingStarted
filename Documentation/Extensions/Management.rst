@@ -120,9 +120,8 @@ Then run `composer require` to the install the local extension `my-local-extensi
 
    composer require vendor/my-local-extension:@dev
 
-By executing this command, Composer locates `vendor/my-local-extension` and then symlinks
-it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
-The setup from above defines that the extension is to be placed by composer into the folder `:file:packages/my-local-extension`
+By executing this command, Composer locates `vendor/my-local-extension` once `composer install` is executed.
+The setup from above defines that the extension is to be placed by composer into the folder :file:`packages/my-local-extension`
 if it has not been already there.
 
 
