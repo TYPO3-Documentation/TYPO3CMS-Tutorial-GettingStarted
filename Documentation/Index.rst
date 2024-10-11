@@ -58,7 +58,7 @@ system and detailed information on how to install TYPO3.
 
     ..  card:: First project setup
 
-        The chapter “first project setup” helps you to go through the next steps
+        The chapter "first project setup" helps you to go through the next steps
         after the installation, such as creating a site record.
 
         ..  card-footer:: :ref:`Setup TYPO3 after installation <first-project-setup>`
