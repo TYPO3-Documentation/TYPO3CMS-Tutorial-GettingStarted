@@ -56,13 +56,13 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Create a minimal page created by pure TypoScript <typoscript>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Create first project
+    ..  card:: First project setup
 
         Setup aims to guide you through the next steps post installation,
         such as adding domains, setting up additional users and configuring
         languages.
 
-        ..  card-footer:: :ref:`Setup TYPO3 after installation <create-first-project>`
+        ..  card-footer:: :ref:`Setup TYPO3 after installation <first-project-setup>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Troubleshooting
@@ -121,7 +121,7 @@ system and detailed information on how to install TYPO3.
     Installation/Index
     TypoScript/Index
     SiteManagement/Index
-    CreateFirstProject/Index
+    FirstProject/Index
     Assets/Index
     Troubleshooting/Index
     Extensions/Index
