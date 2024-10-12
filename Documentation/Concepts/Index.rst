@@ -8,6 +8,14 @@
 TYPO3 Concepts
 ==============
 
+..  toctree::
+    :caption: Topics
+    :glob:
+    :titlesonly:
+
+    */Index
+    *
+
 The backend & frontend
 ======================
 
