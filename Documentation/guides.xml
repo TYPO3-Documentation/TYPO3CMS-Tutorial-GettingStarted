@@ -6,18 +6,18 @@
 >
     <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
            edit-on-github="TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
-           edit-on-github-branch="main"
-           typo3-core-preferred="main"
+           edit-on-github-branch="13.4"
+           typo3-core-preferred="13.4"
            interlink-shortcode="t3start"
-           project-home="https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/"
+           project-home="https://docs.typo3.org/m/typo3/tutorial-getting-started/13.4/en-us/"
            project-contact="https://typo3.slack.com/archives/C028JEPJL"
            project-repository="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
            project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues"
     />
     <project
             title="Getting Started"
-            version="main"
-            release="main"
+            version="13.4"
+            release="13.4"
             copyright="since 2012 by the TYPO3 contributors"
     />
     <inventory id="t3start12" url="https://docs.typo3.org/m/typo3/tutorial-getting-started/12.4/en-us/" />
