@@ -14,6 +14,10 @@ First project setup
     :class: pb-4
     :card-height: 100
 
+    ..  card:: :ref:`Creating a root page <create-root-page>`
+
+        Learn where to apply settings for your system.
+
     ..  card:: :ref:`Creating A Site Record <siterecords>`
 
         Once TYPO3 is installed, the default Site record needs to be configured
@@ -23,9 +27,12 @@ First project setup
 
         Learn where to apply settings for your system.
 
+
+
 ..  toctree::
     :hidden:
     :titlesonly:
 
+    CreateRootPage
     SiteRecords
     Settings
