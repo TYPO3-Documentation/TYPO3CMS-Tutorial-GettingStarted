@@ -1,5 +1,6 @@
 ..  include:: /Includes.rst.txt
 
+..  _setup:
 ..  _first-project-setup:
 
 ===================
