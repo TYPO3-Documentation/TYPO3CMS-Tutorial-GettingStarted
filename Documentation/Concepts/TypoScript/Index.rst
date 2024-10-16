@@ -1,4 +1,4 @@
-:navigation-title: TypoScript introduction
+:navigation-title: TypoScript
 ..  include:: /Includes.rst.txt
 
 ..  _typoscript:
