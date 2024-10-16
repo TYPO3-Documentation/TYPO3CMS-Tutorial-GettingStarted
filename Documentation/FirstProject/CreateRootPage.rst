@@ -1,3 +1,4 @@
+:navigation-title: Root page
 ..  include:: /Includes.rst.txt
 
 .. index:: site, domain configuration, languages
@@ -22,7 +23,7 @@ you will learn how to create a root page in TYPO3 v13.
 ..  rst-class:: bignums-xxl
 #.  Access the Page module
 
-    Once you log into the TYPO3 backend, locate the Page module on the left-hand
+    Once you log into the TYPO3 backend, locate the :guilabel:`Web > Page` module on the left-hand
     side of the screen. Click on the Page module to open the page tree.
 
     .. figure:: /Images/ManualScreenshots/CreateRootPage/PageModule.png
