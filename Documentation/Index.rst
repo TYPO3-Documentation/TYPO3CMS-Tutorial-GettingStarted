@@ -41,13 +41,6 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Site management
-
-        Learn how to manage settings for the complete website.
-
-        ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
-            :button-style: btn btn-secondary stretched-link
-
     ..  card:: First project setup
 
         The chapter "first project setup" helps you to go through the next steps
@@ -110,7 +103,6 @@ system and detailed information on how to install TYPO3.
 
     Concepts/Index
     Installation/Index
-    SiteManagement/Index
     FirstProject/Index
     Assets/Index
     Troubleshooting/Index

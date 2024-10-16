@@ -6,6 +6,8 @@
 Site Management
 ===============
 
+.. _siteconfiguration:
+.. _siterecords:
 ..  _site-configuration:
 
 Create a new site configuration
