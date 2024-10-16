@@ -13,25 +13,33 @@ First project setup
     :class: pb-4
     :card-height: 100
 
-    ..  card:: :ref:`Creating a root page <create-root-page>`
+    ..  card:: :ref:`Root page <create-root-page>`
 
-        Learn where to apply settings for your system.
+        Learn how to create the first page, the so called root page.
+        It will be your future home page.
 
-    ..  card:: :ref:`Creating A Site Record <siterecords>`
+        ..  card-footer:: :ref:`Create a root page <site-configuration>`
+            :button-style: btn btn-secondary stretched-link
 
-        Once TYPO3 is installed, the default Site record needs to be configured
-        before content and templates can be added.
+    ..  card:: :ref:`Create a new site configuration <site-configuration>`
+
+        Create a site configuration defining side wide information like
+        title, root path and default language.
+
+        ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
+            :button-style: btn btn-secondary stretched-link
 
     ..  card:: :ref:`Settings <siterecords>`
 
         Learn where to apply settings for your system.
 
-
+        ..  card-footer:: :ref:`Manage settings <settings>`
+            :button-style: btn btn-secondary stretched-link
 
 ..  toctree::
     :hidden:
     :titlesonly:
 
     CreateRootPage
-    SiteRecords
+    SiteManagement/Index
     Settings
