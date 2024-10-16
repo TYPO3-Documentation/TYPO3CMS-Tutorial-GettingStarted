@@ -20,10 +20,10 @@ you will learn how to create a root page in TYPO3 v13.
     *   You are familiar with the basic layout of the TYPO3 backend.
 
 ..  rst-class:: bignums-xxl
-#.  Access the Page Module
+#.  Access the Page module
 
     Once you log into the TYPO3 backend, locate the Page module on the left-hand
-    side of the screen. Click on the "Page" module to open the page tree.
+    side of the screen. Click on the Page module to open the page tree.
 
     .. figure:: /Images/ManualScreenshots/CreateRootPage/PageModule.png
 
@@ -61,12 +61,3 @@ you will learn how to create a root page in TYPO3 v13.
     Once you have filled in the necessary information and selected the
     "Use as Root Page" option, click the Save button at the top of the form.
     Your new root page will now appear in the page tree on the left.
-
-
-
-
-
-
-
-
-
