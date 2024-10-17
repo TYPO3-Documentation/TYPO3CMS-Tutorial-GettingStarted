@@ -29,6 +29,16 @@ First project setup
         ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
             :button-style: btn btn-secondary stretched-link
 
+
+    ..  card:: The "Introduction Package"
+
+        The "Introduction Package" is a great place to start if you are looking
+        to test drive TYPO3 and see a prebuilt site that contains
+        a range of example page templates and content.
+
+        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: :ref:`Settings <siterecords>`
 
         Learn where to apply settings for your system.
@@ -42,4 +52,5 @@ First project setup
 
     CreateRootPage
     SiteManagement/Index
+    IntroductionPackage/Index
     Settings
