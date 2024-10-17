@@ -38,7 +38,7 @@ Files in the fileadmin directory are managed by the
 
 They can be uploaded, moved and deleted in the backend module
 :guilabel:`File > Filelist` by administrators and
-depending on :ref:`permissions <permissions-management>`,
+depending on :ref:`permissions <t3coreapi:permissions-management>`,
 by editors.
 
 ..  warning::

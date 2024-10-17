@@ -261,10 +261,6 @@ Beginners should
 select the first option and allow TYPO3 to create an empty starting page.
 This will also generate a site configuration file.
 
-It is also possible to create basic backend user groups from the presets.
-You can also create them later on via console command
-:ref:`setup:begroups:default <groups-console>` or :ref:`manually <groups-module>`.
-
 ..  include:: ../Images/AutomaticScreenshots/QuickInstall/Step5LastStep.rst.txt
 
 Next steps
