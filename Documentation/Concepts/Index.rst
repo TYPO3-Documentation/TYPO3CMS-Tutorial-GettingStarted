@@ -30,6 +30,14 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Quick introduction to Fluid <fluid-templates>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Webroot and assets
+
+        In TYPO3 files that are displayed in the web browser, must - for
+        security reasons - be placed in certain directories.
+
+        ..  card-footer:: :ref:`Webroot and assets - where to put public files <webroot>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :caption: Topics
     :glob:
@@ -38,6 +46,7 @@ TYPO3 Concepts
 
     TypoScript/Index
     Fluid/Index
+    Assets/Index
     */Index
     *
 

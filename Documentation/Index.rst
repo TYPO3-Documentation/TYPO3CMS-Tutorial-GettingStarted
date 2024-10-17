@@ -81,7 +81,6 @@ system and detailed information on how to install TYPO3.
     Concepts/Index
     Installation/Index
     FirstProject/Index
-    Assets/Index
     Troubleshooting/Index
     Extensions/Index
     NextSteps/Index
