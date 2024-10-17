@@ -58,20 +58,6 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Managing backend users
-
-        Learn how to create users and configure their backend privileges.
-
-        ..  card-footer:: :ref:`Manage backend users <user-management>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Permissions management
-
-        Learn how to effectively structure and manage backend user groups and permissions.
-
-        ..  card-footer:: :ref:`Manage permissions and user groups <permissions-management>`
-            :button-style: btn btn-secondary stretched-link
-
     ..  card:: Working with extensions
 
         Discover how third-party extensions are installed and managed using
@@ -107,8 +93,6 @@ system and detailed information on how to install TYPO3.
     Assets/Index
     Troubleshooting/Index
     Extensions/Index
-    UserManagement/Index
-    PermissionsManagement/Index
     IntroductionPackage/Index
     NextSteps/Index
 
