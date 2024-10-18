@@ -30,6 +30,8 @@ For example, when you create a new content element or extend an existing one,
 you define the fields using TCA in the Configuration/TCA directory of your extension.
 TYPO3 then uses this configuration to build the backend interface for editors.
 
+..  _tca-more-information:
+
 Where to find more information
 ==============================
 
