@@ -30,6 +30,14 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Quick introduction to Fluid <fluid-templates>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: TCA
+
+        The Table Configuration Array (TCA) defines how database records are
+        displayed and managed in the TYPO3 backend.
+
+        ..  card-footer:: :ref:`Quick introduction to TCA <tca>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Webroot and assets
 
         In TYPO3 files that are displayed in the web browser, must - for
@@ -38,23 +46,6 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Webroot and assets - where to put public files <webroot>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Backend
-
-        The backend in TYPO3 is the administrative interface where users
-        manage content, configure settings, and control the overall
-        structure and functionality of the website.
-
-        ..  card-footer:: :ref:`Backend <backend>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Frontend
-
-        The frontend in TYPO3 refers to the part of the website that visitors
-        see and interact with, including all visual elements and
-        content displayed in the browser.
-
-        ..  card-footer:: :ref:`Frontend <frontend>`
-            :button-style: btn btn-secondary stretched-link
 
 ..  toctree::
     :caption: Topics
@@ -64,6 +55,7 @@ TYPO3 Concepts
 
     TypoScript/Index
     Fluid/Index
+    TCA/Index
     Assets/Index
     Backend/Index
     Frontend/Index
