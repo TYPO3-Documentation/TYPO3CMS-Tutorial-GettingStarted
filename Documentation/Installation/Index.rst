@@ -73,5 +73,5 @@ Advanced installation topics
 
     ..  card:: :ref:`Tuning TYPO3 <t3coreapi:TuneTYPO3>`
 
-        This chapter contains information on how to configure and optimize the
+        This chapter in TYPO3 Explained contains information on how to configure and optimize the
         infrastructure running TYPO3.
