@@ -32,8 +32,10 @@ TYPO3 Concepts
 
     ..  card:: TCA
 
-        The Table Configuration Array (TCA) defines how database records are
-        displayed and managed in the TYPO3 backend.
+        TCA (Table Configuration Array) in TYPO3 is a configuration system that
+        defines the structure, behavior, and appearance of database tables and
+        their fields in the backend, impacting how data is stored, validated,
+        and displayed.
 
         ..  card-footer:: :ref:`Quick introduction to TCA <tca>`
             :button-style: btn btn-secondary stretched-link
