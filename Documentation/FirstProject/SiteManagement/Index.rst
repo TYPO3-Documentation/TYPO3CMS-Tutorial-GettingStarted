@@ -13,11 +13,8 @@ Site Management
 Create a new site configuration
 ===============================
 
-Before creating a site configuration, you should have created the root page of
+Before creating a site configuration, you should have :ref:`created the root page <t3start:create-root-page>` of
 your site in the page tree.
-
-..  todo: Link to "How to create a root page", once https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues/421
-    is resolved.
 
 The site configuration is stored in a file called
 :file:`config/sites/my_site/config.yaml`. For your convenience, you can
