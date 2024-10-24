@@ -38,6 +38,20 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Webroot and assets - where to put public files <webroot>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Backend
+
+        XXXXX
+
+        ..  card-footer:: :ref:`Backend <backend>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Frontend
+
+        XXXXX
+
+        ..  card-footer:: :ref:`Frontend <frontend>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :caption: Topics
     :glob:
@@ -47,6 +61,8 @@ TYPO3 Concepts
     TypoScript/Index
     Fluid/Index
     Assets/Index
+    Backend/Index
+    Frontend/Index
     */Index
     *
 
@@ -128,24 +144,3 @@ the functionality of a TYPO3 installation. Extensions come in many forms
 - from small extensions that carry out specific tasks to larger extensions that
 provide an entire suite of functionality, e.g. the TYPO3 Blog Extension.
 
-
-Frontend
-========
-
-.. figure:: /Images/Illustrations/frontend.png
-
-The frontend consists of web pages generated from content created in
-the backend combined with Fluid templates in the installation. The Fluid
-templating engine provides the glue between the content and the templates.
-
-A typical Fluid template contains HTML to structure the page and Fluid tags that
-perform tasks on the page. For example, a simple web page that features a
-navigation menu, a block of text and a company logo will contain three Fluid
-tags. The three tags are:
-
--  A tag to insert a content element that contains the block of text.
--  A tag that generates the main navigation menu.
--  A tag to insert the company logo.
-
-Site assets, such as HTML, CSS and JavaScript, are stored in a
-:ref:`site package <t3sitepackage:introduction>`.
