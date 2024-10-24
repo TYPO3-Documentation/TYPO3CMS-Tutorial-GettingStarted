@@ -40,14 +40,18 @@ TYPO3 Concepts
 
     ..  card:: Backend
 
-        XXXXX
+        The backend in TYPO3 is the administrative interface where users
+        manage content, configure settings, and control the overall
+        structure and functionality of the website.
 
         ..  card-footer:: :ref:`Backend <backend>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Frontend
 
-        XXXXX
+        The frontend in TYPO3 refers to the part of the website that visitors
+        see and interact with, including all visual elements and
+        content displayed in the browser.
 
         ..  card-footer:: :ref:`Frontend <frontend>`
             :button-style: btn btn-secondary stretched-link
