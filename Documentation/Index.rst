@@ -29,7 +29,7 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
-        ..  card-footer:: :ref:`Inspect the System requirements <System-Requirements>`
+        ..  card-footer:: :ref:`Learn more about TYPO3 Concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Installation
