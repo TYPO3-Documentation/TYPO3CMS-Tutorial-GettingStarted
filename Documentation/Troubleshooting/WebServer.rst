@@ -1,61 +1,50 @@
-.. include:: /Includes.rst.txt
+:navigation-title: Server & administration
+..  include:: /Includes.rst.txt
 
-.. index:: apache
+.. _troubleshooting-webserver:
 
-.. _webserver:
+========================================================
+Troubleshooting Server and administration related topics
+========================================================
 
-==========
-Web Server
-==========
+You can find detailed information on the following topics in TYPO3 Explained:
 
-Apache
-======
+..  card-grid::
+    :columns: 1
+    :columns-md: 2
+    :gap: 4
+    :class: pb-4
+    :card-height: 100
 
-Some settings may require adjustment for TYPO3 to operate correctly This will vary depending on the host
-operating system and the version of Apache that is installed.
+    ..  card:: :ref:`TYPO3 <t3coreapi:troubleshooting-typo3>`
 
-.. _enable-mod_rewrite:
-
-Enable mod_rewrite
-------------------
-
-If mod_rewrite is not enabled, the URL handling will not work
-properly (specifically the mapping of the URLs TYPO3 uses internally
-for "speaking URLs") and you might receive 404 (page not found) errors.
-
-.. tip::
-
-   How Apache modules are enabled, depends on your system. Check the
-   documentation for your operating system distribution.
-
-For example, the modules can be
-enabled by editing your :file:`http.conf` file, locating the required modules
-and removing the preceding hash symbol:
-
-.. code-block:: none
-   :caption: http.conf
-
-   #LoadModule expires_module modules/mod_expires.so
-   #LoadModule rewrite_module modules/mod_rewrite.so
+        *   :ref:`Reset Backend Administrative User Passwords <t3coreapi:troubleshooting-backend-admin-password>`
+        *   :ref:`Reset The Install Tool Password <t3coreapi:troubleshooting-install-tool-password>`
+        *   :ref:`Enabling Debug Mode <t3coreapi:troubleshooting-debug-mode>`
+        *   :ref:`Caching <t3coreapi:troubleshooting-caching>`
 
 
-After making any changes to the Apache configuration, the service must be restarted.
+    ..  card:: :ref:`System Modules <t3coreapi:troubleshooting-system_modules>`
 
-.. _adjust-threadstacksize-on-windows:
+        *   :ref:`Log <t3coreapi:troubleshooting-system-modules-log>`
+        *   :ref:`DB Check <t3coreapi:troubleshooting-system-modules-dbcheck>`
+        *   :ref:`Configuration <t3coreapi:troubleshooting-system-modules-configuration>`
+        *   :ref:`Reports <t3coreapi:troubleshooting-system-modules-reports>`
 
-Adjust ThreadStackSize on Windows
----------------------------------
 
-If you are running TYPO3 on Windows, the extension manager might not
-render.
+    ..  card:: :ref:`PHP <t3coreapi:troubleshooting-php>`
 
-This problem is caused by the value of ThreadStackSize, which on
-Windows systems by default is set too low. To fix this, add the
-following lines at the end of your :file:`httpd.conf` file:
+        *   :ref:`PHP Modules <t3coreapi:troubleshooting-php-modules>`
+        *   :ref:`PHP Caches, Extension Classes <t3coreapi:troubleshooting-php-caches-extension-classes-etc>`
+        *   :ref:`Opcode cache messages <t3coreapi:troubleshooting-php-troubleshooting_opcode>`
 
-.. code-block:: none
-   :caption: http.conf
 
-   <IfModule mpm_winnt_module>
-     ThreadStackSize 8388608
-   </IfModule>
+    ..  card:: :ref:`Web server <troubleshooting-webserver>`
+
+        *   :ref:`Apache - enable mod_rewrite <t3coreapi:troubleshooting-enable-mod_rewrite>`
+        *   :ref:`Apache - adjust ThreadStackSize (Windows) <t3coreapi:troubleshooting-adjust-threadstacksize-on-windows>`
+
+
+    ..  card:: :ref:`Database <t3coreapi:troubleshooting-database>`
+
+        *   :ref:`MySQL - character sets <t3coreapi:troubleshooting-character-sets>`
