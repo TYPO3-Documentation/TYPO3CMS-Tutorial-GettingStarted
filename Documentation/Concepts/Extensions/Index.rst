@@ -1,10 +1,11 @@
 :navigation-title: Extensions
 ..  include:: /Includes.rst.txt
 
-..  _extensions:
+..  _concepts-extensions:
 
+==========
 Extensions
-----------
+==========
 
 .. figure:: /Images/Illustrations/extensions.png
 
