@@ -15,6 +15,10 @@ Troubleshooting
     :class: pb-4
     :card-height: 100
 
+    ..  card:: :ref:`Backend login troubleshooting <troubleshooting-webserver>`
+
+        Have a look at common problems during backend login.
+
     ..  card:: :ref:`Server and administration <troubleshooting-webserver>`
 
         Troubleshooting server and administration related topics.
@@ -23,4 +27,5 @@ Troubleshooting
     :hidden:
     :titlesonly:
 
+    BackendLogin
     WebServer
