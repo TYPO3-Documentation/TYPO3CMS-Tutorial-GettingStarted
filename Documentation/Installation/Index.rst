@@ -54,11 +54,6 @@ Installation
 
         This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
 
-    ..  card:: :ref:`Legacy Installation Guide <legacyinstallation>`
-
-        Looking to install TYPO3 the classic way? Whilst this method of installation is no longer recommended, the Legacy Installation
-        Guide demonstrates how TYPO3 can be installed without using Composer.
-
 ..  _installation_advanced:
 
 Advanced installation topics
