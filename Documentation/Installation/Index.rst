@@ -16,9 +16,7 @@ Installation
     Install
     TutorialDdev
     EnvironmentConfiguration
-    ProductionSettings
     DeployTYPO3
-    LegacyInstallation
 
 ..  card-grid::
     :columns: 1
@@ -42,13 +40,6 @@ Installation
 
         The deployment guide highlights some of solutions available that can help automate the process of deploying TYPO3 to
         a remote server.
-
-    ..  card:: :ref:`TYPO3 Release Integrity <release_integrity>`
-
-        Every release of TYPO3 is electronically signed by the TYPO3 release team.
-        In addition, every TYPO3 package also contains a unique file hash that
-        can be used to ensure file integrity when downloading the release. This guide
-        details how these signatures can be checked and how file hashes can be compared.
 
     ..  card:: :ref:`Installing TYPO3 With DDEV <installation-ddev-tutorial>`
 
