@@ -54,7 +54,7 @@ TYPO3 Concepts
         functionality of the CMS, allowing you to add custom features or
         tools to your website.
 
-        ..  card-footer:: :ref:`Extensions <extensions>`
+        ..  card-footer:: :ref:`Extensions <concepts-extensions>`
             :button-style: btn btn-secondary stretched-link
 
 ..  toctree::
