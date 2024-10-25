@@ -60,7 +60,7 @@ yourself.
 Access denied before or after login
 ===================================
 
-*   If the line above contains "Access denied." or a similar string that sting will
+*   If the line above contains "Access denied." or a similar string that string will
     be output and the login page contains nothing else:
 
     ..  code-block:: diff
