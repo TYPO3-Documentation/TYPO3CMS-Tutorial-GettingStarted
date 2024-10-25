@@ -14,9 +14,8 @@ Installation
 
     SystemRequirements/Index
     Install
-    TutorialDdev
-    EnvironmentConfiguration
     DeployTYPO3
+    EnvironmentConfiguration
 
 ..  card-grid::
     :columns: 1
@@ -33,17 +32,13 @@ Installation
 
     ..  card:: :ref:`Installing TYPO3 <install>`
 
-        The Installation Guide covers everything needed to install TYPO3. Including a preinstallation
-        checklist and a detailed walk through that details every step of the installation process.
+        This is a step-by-step guide detailing how to install TYPO3 for local
+        development using DDEV, Docker and Composer.
 
     ..  card:: :ref:`Deploying TYPO3 <DeployTYPO3>`
 
-        The deployment guide highlights some of solutions available that can help automate the process of deploying TYPO3 to
-        a remote server.
-
-    ..  card:: :ref:`Installing TYPO3 With DDEV <installation-ddev-tutorial>`
-
-        This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
+        After you have installed TYPO3 locally, learn how to move your result
+        to a web server.
 
 ..  _installation_advanced:
 
