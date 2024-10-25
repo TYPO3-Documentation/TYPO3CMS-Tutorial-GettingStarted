@@ -70,6 +70,7 @@ TYPO3 Concepts
     Backend/Index
     Frontend/Index
     Extensions/Index
+    Cache/Index
     */Index
     *
 
