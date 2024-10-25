@@ -21,7 +21,7 @@ reducing the load on the server and speeding up the response time for users.
 .. _how-to-clear-cache:
 
 How to clear caches in TYPO3?
--------------------------
+-----------------------------
 
 When you update content or make configuration changes, TYPO3 sometimes needs a
 cache refresh to reflect these updates on the live site.
