@@ -61,9 +61,10 @@ Options:
 
         If not specified, podman will be used if available. Otherwise, docker is used.
 
-    -p <8.2|8.3|8.4>
+    -p <8.1|8.2|8.3|8.4>
         Specifies the PHP minor version to be used
-            - 8.2: (default) use PHP 8.2
+            - 8.1: (default) use PHP 8.1
+            - 8.2: use PHP 8.2
             - 8.3: use PHP 8.3
             - 8.4: use PHP 8.4
     -n
@@ -79,7 +80,7 @@ Options:
         Show this help.
 
 Examples:
-    # Run unit tests using PHP 8.2
+    # Run unit tests using PHP 8.1
     ./Build/Scripts/runTests.sh
 EOF
 }
@@ -92,7 +93,7 @@ fi
 
 # Option defaults
 TEST_SUITE="cgl"
-PHP_VERSION="8.2"
+PHP_VERSION="8.1"
 PHP_XDEBUG_ON=0
 PHP_XDEBUG_PORT=9003
 CGLCHECK_DRY_RUN=0
@@ -120,7 +121,7 @@ while getopts "b:s:p:xy:nhu" OPT; do
             ;;
         p)
             PHP_VERSION=${OPTARG}
-            if ! [[ ${PHP_VERSION} =~ ^(8.2|8.3|8.4)$ ]]; then
+            if ! [[ ${PHP_VERSION} =~ ^(8.1|8.2|8.3|8.4)$ ]]; then
                 INVALID_OPTIONS+=("p ${OPTARG}")
             fi
             ;;

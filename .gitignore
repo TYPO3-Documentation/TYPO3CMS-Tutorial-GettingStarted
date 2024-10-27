@@ -24,3 +24,4 @@ nbproject
 Documentation-GENERATED-temp/
 /composer.json.testing
 /.Build/
+/composer.lock
