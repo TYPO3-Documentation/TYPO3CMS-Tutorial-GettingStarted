@@ -42,7 +42,7 @@ Installation
 
     ..  card:: :ref:`Application context <application-context>`
 
-        Use the TYPO3 application context to manage different settings for
+        Use the TYPO3 application context to manage settings for
         development and production.
 
 ..  _installation_advanced:
