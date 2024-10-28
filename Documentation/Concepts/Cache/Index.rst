@@ -10,7 +10,7 @@ Cache
 .. _what-is-caching:
 
 What is Caching in TYPO3?
--------------------------
+=========================
 
 Caching is a process TYPO3 uses to temporarily store content and data to help
 your website load faster and perform efficiently. Instead of regenerating
@@ -21,7 +21,7 @@ reducing the load on the server and speeding up the response time for users.
 .. _how-to-clear-cache:
 
 How to clear caches in TYPO3?
------------------------------
+=============================
 
 When you update content or make configuration changes, TYPO3 sometimes needs a
 cache refresh to reflect these updates on the live site.
@@ -51,7 +51,7 @@ Here are the main ways to clear caches in TYPO3 13:
 .. _when-to-clear-cache:
 
 When should you clear Caches?
------------------------------
+=============================
 
 *   If new content, images or text doesn't show up right away.
 *   When adjusting templates, extensions or system settings.
