@@ -44,7 +44,7 @@ Setting the application context
 ===============================
 
 If the application context is not set it is `Production` by default so that you
-production server you have to do nothing.
+don't have to do anything on the production server.
 
 ..  todo: Link to application context in TYPO3 explained, once that chapter is written
 
