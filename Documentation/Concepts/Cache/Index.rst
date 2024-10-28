@@ -9,7 +9,7 @@ Cache
 
 .. _what-is-caching:
 
-What is Caching in TYPO3?
+What is caching in TYPO3?
 =========================
 
 Caching is a process TYPO3 uses to temporarily store content and data to help
@@ -29,7 +29,7 @@ Here are the main ways to clear caches in TYPO3 13:
 
 *   Clearing Cache in the backend:
 
-    *   In the Backend, look for the Clear Cache icon, which resembles a
+    *   In the Backend, look for the Clear cache icon, which resembles a
         lightning bolt. You can find this in the top toolbar.
 
         .. figure:: /Images/ManualScreenshots/ClearCache/Toolbar.png
@@ -39,7 +39,7 @@ Here are the main ways to clear caches in TYPO3 13:
         clear all caches. This will refresh everything, including caches
         that aren't typically cleared through the backend toolbar.backend
 
-*   Clearing Caches via Command Line
+*   Clearing caches via Command Line
 
     For advanced users or developers, caches can also be cleared from
     the command line:
@@ -50,7 +50,7 @@ Here are the main ways to clear caches in TYPO3 13:
 
 .. _when-to-clear-cache:
 
-When should you clear Caches?
+When should you clear caches?
 =============================
 
 *   If new content, images or text doesn't show up right away.
