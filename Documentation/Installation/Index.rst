@@ -15,7 +15,7 @@ Installation
     SystemRequirements/Index
     Install
     DeployTYPO3
-    EnvironmentConfiguration
+    ApplicationContext
 
 ..  card-grid::
     :columns: 1
@@ -39,6 +39,11 @@ Installation
 
         After you have installed TYPO3 locally, learn how to move your result
         to a web server.
+
+    ..  card:: :ref:`Application context <application-context>`
+
+        Use the TYPO3 application context to manage settings for
+        development and production.
 
 ..  _installation_advanced:
 
