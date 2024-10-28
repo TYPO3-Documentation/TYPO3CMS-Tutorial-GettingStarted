@@ -110,7 +110,7 @@ You can now include this file in your
 
 The following steps are needed for a secure production context:
 
-*   :ref:`Generate a unique encryption key <t3coreapi:security-encryption-key-generate>`
+*   :ref:`Generate a unique encryption key <t3coreapi:security-encryption-key>`
     and put it in `$customChanges['SYS']['encryptionKey']` in your
     :file:`config/system/credentials.php`.
 *   Choose a new install tool password and put its hash into

@@ -3,6 +3,7 @@
 ..  index:: deployment, composer, production setup
 
 ..  _deploytypo3:
+..  _deployment:
 
 ===============
 Deploying TYPO3
