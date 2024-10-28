@@ -66,6 +66,13 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Cache <cache>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Prject Structure
+
+        XXXXX
+
+        ..  card-footer:: :ref:`Project Structure <>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :caption: Topics
     :glob:
@@ -79,7 +86,6 @@ TYPO3 Concepts
     Backend/Index
     Frontend/Index
     Extensions/Index
-    Cache/Index
     */Index
     *
 
