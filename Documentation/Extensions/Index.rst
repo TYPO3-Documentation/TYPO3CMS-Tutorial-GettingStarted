@@ -28,6 +28,10 @@ Working With Extensions
         TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
         This method of managing extensions is now deprecated.
 
+    ..  card:: :ref:`Create your own extension <create-own-extension>`
+
+        This guide contains information on how to create your own extension.
+
 
 ..  toctree::
     :hidden:
@@ -36,3 +40,4 @@ Working With Extensions
     Management
     Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
     LegacyManagement
+    CreateOwnExtension
