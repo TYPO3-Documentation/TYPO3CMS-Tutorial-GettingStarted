@@ -22,12 +22,6 @@ Working With Extensions
         Information on how to install local extensions including site packages and custom
         extensions using Composer.
 
-    ..  card:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
-
-        This guide contains information on how to manage extensions using the
-        TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
-        This method of managing extensions is now deprecated.
-
 
 ..  toctree::
     :hidden:
@@ -35,4 +29,3 @@ Working With Extensions
 
     Management
     Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
-    LegacyManagement
