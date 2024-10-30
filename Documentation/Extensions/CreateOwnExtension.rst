@@ -59,12 +59,12 @@ Basic steps to create an extension
 *   Implement the desired features
 
     Add the necessary PHP classes, TypoScript configuration and templates
-    that will bring your extension´s functionality to life.
+    that will bring your extension's functionality to life.
 
 *   Register the extension in TYPO3
 
     Register your extension so TYPO3 can recognize it. This includes adding it
-    to your instance´s configuration.
+    to your instance's configuration.
 
 *   Test and refine
 
