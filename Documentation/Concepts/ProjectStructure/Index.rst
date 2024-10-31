@@ -7,12 +7,9 @@
 Project structure
 =================
 
-The following introduction refers to a composer-based installation.
+The following introduction refers to a Composer-based installation.
 Please note that this is only a brief overview.
 For more information see :ref:`here <t3coreapi:directory-structure>`.
-
-Project Structure
-=================
 
 ..  directory-tree::
     :level: 2
