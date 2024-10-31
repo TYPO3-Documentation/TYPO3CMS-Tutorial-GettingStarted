@@ -68,9 +68,9 @@ TYPO3 Concepts
 
     ..  card:: Prject Structure
 
-        XXXXX
+        This chapter describes the structure of a TYPO3 project.
 
-        ..  card-footer:: :ref:`Project Structure <>`
+        ..  card-footer:: :ref:`Project Structure <project-structure>`
             :button-style: btn btn-secondary stretched-link
 
 ..  toctree::
