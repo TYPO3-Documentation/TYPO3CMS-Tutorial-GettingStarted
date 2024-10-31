@@ -66,7 +66,7 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Cache <cache>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Prject Structure
+    ..  card:: Project Structure
 
         This chapter describes the structure of a TYPO3 project.
 
