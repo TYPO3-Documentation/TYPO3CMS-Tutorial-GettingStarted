@@ -4,7 +4,7 @@
 ..  _project-structure:
 
 =================
-Project Structure
+Project structure
 =================
 
 The following introduction refers to a composer-based installation.
