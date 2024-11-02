@@ -10,11 +10,13 @@ A minimal page created by pure TypoScript
 TypoScript is the basic configuration language used to configure the frontend
 output of a page in TYPO3.
 
-You can find detailed information about
-:ref:`TypoScript <t3coreapi:typoscript-syntax-syntax>` and its syntax in
-the reference "TYPO3 Explained".
+Learn more about TypoScript in
+:ref:`Getting started: A quick introduction into TypoScript <t3tsref:guide>` in
+the :ref:`TypoScript Reference <t3tsref:start>`.
 
-The semantics of TypoScript settings are listed in the
+You can find detailed information about the
+:ref:`TypoScript Syntax<t3tsref:typoscript-syntax>` and a listing of all objects
+and with their properties and functions in the
 :ref:`TypoScript Reference <t3tsref:start>`.
 
 ..  _typoscript-hello-world:
@@ -37,11 +39,11 @@ containing your :ref:`site configuration <site-configuration>`.
     :linenos:
 
 #.  Is a comment. See the Syntax of comments in TypoScript:
-    :ref:`Comments <t3coreapi:typoscript-syntax-syntax-comment-blocks>`.
+    :ref:`Comments <t3tsref:typoscript-syntax-syntax-comment-blocks>`.
 #.  Assigns a top level object of type :ref:`PAGE <t3tsref:object-type-page>`
     to a variable called `page`.
 #.  The `page` gets more options in this block. See the
-    :ref:`Blocks in the TypoScript syntax <t3coreapi:typoscript-syntax-syntax-curly-brackets>`.
+    :ref:`Blocks in the TypoScript syntax <t3tsref:typoscript-syntax-syntax-curly-brackets>`.
 #.  Another comment.
 #.  Assigns a content object (also called "cObject") of type
     :ref:`TEXT <t3tsref:cobj-text>` to
@@ -114,7 +116,7 @@ Wrap "Hello, world." in p-tags
 
 4.  As we now have several options for :ref:`TEXT <t3tsref:cobj-text>` object
     with path `page.10`, we switch to the
-    :ref:`block syntax <t3coreapi:typoscript-syntax-syntax-curly-brackets>` here.
+    :ref:`block syntax <t3tsref:typoscript-syntax-syntax-curly-brackets>` here.
 5.  Assign the text to the :confval:`value <t3tsref:text-value>` property of
     the TEXT object.
 6.  We use the :confval:`stdWrap <t3tsref:text-stdwrap>` property of the TEXT
@@ -153,7 +155,7 @@ Display the title of the current page on top
     :confval:`index number 5 <t3tsref:page-array>` of `page`. As the index is
     smaller than the index 10 of the TEXT object containing the text
     "Hello World", it is displayed before the other object.
-4.  Uses the :ref:`block syntax <t3coreapi:typoscript-syntax-syntax-curly-brackets>`
+4.  Uses the :ref:`block syntax <t3tsref:typoscript-syntax-syntax-curly-brackets>`
     to apply properties to the TEXT object.
 5.  Uses the stdWrap property :confval:`field <t3tsref:stdwrap-field>` to fetch
     the field `title` from the :ref:`database record <t3coreapi:database-records>`
@@ -168,5 +170,3 @@ Display the title of the current page on top
 
     ..  literalinclude:: _page-title_reverse.typoscript
         :caption: config/sites/main/setup.typoscript
-
-.. todo: Add more basic TypoScript examples
