@@ -32,6 +32,10 @@ Working With Extensions
 
         This guide contains information on how to create your own extension.
 
+    ..  card:: :ref:`Recommended extensions <recommended-extensions>`
+
+        Lorem Ipsum
+
 
 ..  toctree::
     :hidden:
@@ -41,3 +45,5 @@ Working With Extensions
     Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
     LegacyManagement
     CreateOwnExtension
+    RecommendedExtensions
+
