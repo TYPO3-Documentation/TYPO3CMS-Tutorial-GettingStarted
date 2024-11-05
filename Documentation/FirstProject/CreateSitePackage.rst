@@ -24,11 +24,11 @@ To create a site package, you have two main options:
     :ref:`TYPO3 site package tutorial <t3sitepackage:start>`.
 
 *   Using the `Sitepackage-Builder <https://www.sitepackagebuilder.com/>`__:
-    If you are looking for a faster start,
-    the Sitepackage-Builder is a handy tool. It builds on the
-    `Bootstrap Package <https://www.bootstrap-package.com/>`__
-    and provides a pre-configured setup with Bootstrap-based layouts and
-    elements, which you can further customize.
+    If you are looking for a faster start, the Sitepackage-Builder is a
+    handy tool. You can choose whether your site package should be based on
+    the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
+    :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
+
 
 .. _pros-and-cons-of-sitepackage-builder:
 
@@ -38,13 +38,9 @@ Pros and cons of using the Sitepackage-Builder
 Pros:
 
 *   The Sitepackage-Builder is particularly useful for beginners or projects
-    that need a quick start. Since it's built on the Bootstrap framework,
-    it includes a wide range of ready-to-use, responsive components that can
-    save development time.
-
+    that need a quick start.
 Cons:
 
-*   Using a Bootstrap-based package may limit customization flexibility,
-    especially if your design requirements don't align with Bootstrap's
-    structure. For highly customized or non-Bootstrap designs,
-    a manual sitepackage might offer more freedom.
+*   A large number of unnecessary, mostly empty files are being generated.
+*   Depending on your prior knowledge you use code that you might not fully
+    understand.
