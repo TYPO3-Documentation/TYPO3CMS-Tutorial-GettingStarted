@@ -13,14 +13,13 @@ Working With Extensions
     :class: pb-4
     :card-height: 100
 
-    ..  card:: :ref:`Managing Extensions <extensions_management>`
+    ..  card:: :ref:`How to find extensions <how-to-find-extensions>`
 
-        Information on how to find, install and manage extensions using Composer.
+        Information on how to find extensions and what to consider when choosing.
 
-    ..  card:: :ref:`Installing local extensions <install_local_extensions_using_composer>`
+    ..  card:: :ref:`Installing Extensions <installing-extensions>`
 
-        Information on how to install local extensions including site packages and custom
-        extensions using Composer.
+        Information on how to install extensions using Composer.
 
     ..  card:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
 
@@ -37,7 +36,7 @@ Working With Extensions
     :hidden:
     :titlesonly:
 
-    Management
-    Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
+    HowToFindExtensions
+    InstallingExtensions
     LegacyManagement
     CreateOwnExtension
