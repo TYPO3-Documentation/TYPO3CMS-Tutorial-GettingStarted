@@ -46,6 +46,13 @@ First project setup
         ..  card-footer:: :ref:`Manage settings <settings>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: :ref:`Creating a site package <creating-a-site-package>`
+
+        Next steps after setting up your first project.
+
+        ..  card-footer:: :ref:`Creating a site package <creating-a-site-package>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :hidden:
     :titlesonly:
@@ -54,3 +61,4 @@ First project setup
     SiteManagement/Index
     IntroductionPackage/Index
     Settings
+    CreateSitePackage
