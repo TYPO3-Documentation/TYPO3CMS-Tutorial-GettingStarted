@@ -31,5 +31,4 @@ Working With Extensions
 
     HowToFindExtensions
     InstallingExtensions
-    LegacyManagement
     CreateOwnExtension
