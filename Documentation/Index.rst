@@ -79,6 +79,13 @@ system and detailed information on how to install TYPO3.
         ..  card-footer:: :ref:`Learn how to add content and create templates <next-steps>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Glossary
+
+        Here you get an overview of important terms in TYPO3.
+
+        ..  card-footer:: :ref:`See the glossary <getting-started-glossary-index>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :hidden:
     :titlesonly:
@@ -90,6 +97,7 @@ system and detailed information on how to install TYPO3.
     Troubleshooting/Index
     Extensions/Index
     NextSteps/Index
+    Glossary/Index
 
 ..  toctree::
     :hidden:
