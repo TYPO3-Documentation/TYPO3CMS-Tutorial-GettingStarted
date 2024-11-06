@@ -9,7 +9,7 @@ Recommended Extensions
 Here's a selection of recommended extensions that provide essential features,
 streamlined workflows, and powerful enhancements for TYPO3 development.
 
-*   TYPO3 console: `helhum/typo3-console <https://extensions.typo3.org/extension/typo3_console>`__
+*   TYPO3 console: :t3ext:`typo3_console`
 
     TYPO3 Console is a powerful command-line tool that simplifies many backend
     tasks for TYPO3. It allows developers to efficiently manage caches,
@@ -23,27 +23,27 @@ streamlined workflows, and powerful enhancements for TYPO3 development.
     require unique, structured content elements that are easy for editors to
     use and manage.
 
-*   News Management: `georgringer/news <https://extensions.typo3.org/extension/news>`__
+*   News Management: :t3ext:`news`
 
     The News extension is a feature-rich solution for managing news articles
     and blog posts within TYPO3. It offers a comprehensive set of tools for
     categorizing, tagging, and displaying news content, making it perfect for
     content-heavy sites.
 
-*   Content Blocks: `friendsoftypo3/contentBlocks <https://extensions.typo3.org/extension/content_blocks>`__
+*   Content Blocks: :t3ext:`content_blocks`
 
     Content Blocks enables the creation of reusable content elements that can be
     added to pages in a modular way. This extension is beneficial for sites
     requiring flexible, component-based design, and simplifies content
     structuring for editors.
 
-*   Containers: `b13/container <https://extensions.typo3.org/extension/container>`__
+*   Containers: :t3ext:`container`
 
     The Container extension offers a grid layout system, allowing developers to
     group multiple content elements into a container. This helps organize page
     layouts more flexibly, especially useful for responsive or complex designs.
 
-*   Enterprise Search Integration: `apache-solr-for-typo3/solr <https://extensions.typo3.org/extension/solr>`__
+*   Enterprise Search Integration: :t3ext:`solr`
 
     Apache Solr for TYPO3 provides a powerful, scalable search solution for
     TYPO3 sites. Leveraging Apache Solr, this extension enables advanced search

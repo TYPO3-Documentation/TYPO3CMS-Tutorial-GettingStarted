@@ -34,7 +34,7 @@ Working With Extensions
 
     ..  card:: :ref:`Recommended extensions <recommended-extensions>`
 
-        Lorem Ipsum
+        An overview of recommended extensions.
 
 
 ..  toctree::
