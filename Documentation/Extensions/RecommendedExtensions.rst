@@ -55,7 +55,7 @@ streamlined workflows, and powerful enhancements for TYPO3 development.
     The Indexed Search extension provides an out-of-the-box search feature for
     TYPO3. It is straightforward to set up and integrates well with TYPO3's
     core, making it a great solution for sites that require basic search
-    without additional configurations.
+    without additional configuration.
 
 *   Elasticsearch Integration: `elasticsearch/elasticsearch <https://packagist.org/packages/elasticsearch/elasticsearch>`__
 
