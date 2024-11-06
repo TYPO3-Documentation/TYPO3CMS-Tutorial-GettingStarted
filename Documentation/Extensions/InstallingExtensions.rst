@@ -1,19 +1,16 @@
 .. include:: /Includes.rst.txt
 
-.. _extensions_management:
+.. _installing-extensions:
 
-===================
-Managing Extensions
-===================
+=====================
+Installing extensions
+=====================
 
 Both system extensions and third-party extensions are managed using Composer. Composer handles
 the installation of the extension and also installs any dependencies that may be
 required. Composer is also used to uninstall extensions.
 
 .. _install-extension-with-composer:
-
-Installing extensions
-=====================
 
 Find the Composer package name for an extension
 -----------------------------------------------
