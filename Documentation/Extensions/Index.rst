@@ -13,37 +13,27 @@ Working With Extensions
     :class: pb-4
     :card-height: 100
 
-    ..  card:: :ref:`Managing Extensions <extensions_management>`
+    ..  card:: :ref:`How to find extensions <how-to-find-extensions>`
 
-        Information on how to find, install and manage extensions using Composer.
+        Information on how to find extensions and what to consider when choosing.
 
-    ..  card:: :ref:`Installing local extensions <install_local_extensions_using_composer>`
+    ..  card:: :ref:`Installing Extensions <installing-extensions>`
 
-        Information on how to install local extensions including site packages and custom
-        extensions using Composer.
-
-    ..  card:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
-
-        This guide contains information on how to manage extensions using the
-        TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
-        This method of managing extensions is now deprecated.
-
-    ..  card:: :ref:`Create your own extension <create-own-extension>`
-
-        This guide contains information on how to create your own extension.
+        Information on how to install extensions using Composer.
 
     ..  card:: :ref:`Recommended extensions <recommended-extensions>`
 
         An overview of recommended extensions.
 
+    ..  card:: :ref:`Create your own extension <create-own-extension>`
+
+        This guide contains information on how to create your own extension.
 
 ..  toctree::
     :hidden:
     :titlesonly:
 
-    Management
-    Installing Local Extensions <https://docs.typo3.org/m/typo3/tutorial-getting-started/main/en-us/Extensions/Management.html#installing-local-extensions>
-    LegacyManagement
-    CreateOwnExtension
+    HowToFindExtensions
+    InstallingExtensions
     RecommendedExtensions
-
+    CreateOwnExtension
