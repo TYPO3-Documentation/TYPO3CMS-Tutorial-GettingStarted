@@ -3,7 +3,7 @@
 .. _installing-extensions:
 
 =====================
-Installing Extensions
+Installing extensions
 =====================
 
 Both system extensions and third-party extensions are managed using Composer. Composer handles
