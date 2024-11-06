@@ -12,7 +12,7 @@ to find the necessary information.
 
 #.  `TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__
 
-    The TYPO3 Extension Repository (TER) is online platform, that hosts
+    The TYPO3 Extension Repository (TER) is an online platform, that hosts
     thousands of extensions created by the TYPO3 Community.
     Here you can:
 
