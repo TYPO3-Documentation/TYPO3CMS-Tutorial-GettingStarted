@@ -71,5 +71,5 @@ and integrates well into your TYPO3 setup. Here are a few key factors to conside
 *   Customizability and flexibility:
 
     If you have specific needs, ensure that the extension is flexible enough to
-    be customized or configured as required. Some extensions provide hooks or
+    be customized or configured as required. Some extensions provide PSR-14 events or
     APIs, which are beneficial for custom development.
