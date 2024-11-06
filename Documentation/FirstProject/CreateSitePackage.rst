@@ -39,6 +39,7 @@ Pros:
 
 *   The Sitepackage-Builder is particularly useful for beginners or projects
     that need a quick start.
+
 Cons:
 
 *   A large number of unnecessary, mostly empty files are being generated.
