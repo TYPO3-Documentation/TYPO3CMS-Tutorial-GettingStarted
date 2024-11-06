@@ -47,7 +47,7 @@ streamlined workflows, and powerful enhancements for TYPO3 development.
 
     Apache Solr for TYPO3 provides a powerful, scalable search solution for
     TYPO3 sites. Leveraging Apache Solr, this extension enables advanced search
-    functionalities and is ideal for large or data-intensive projects where
+    functionality and is ideal for large or data-intensive projects where
     high-performance search is required.
 
 *   Built-in TYPO3 Search: `typo3/cms-indexed-search <https://packagist.org/packages/typo3/cms-indexed-search>`__
