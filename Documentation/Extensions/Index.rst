@@ -21,16 +21,9 @@ Working With Extensions
 
         Information on how to install extensions using Composer.
 
-    ..  card:: :ref:`Managing Extensions - Legacy Guide <extensions_legacy_management>`
-
-        This guide contains information on how to manage extensions using the
-        TYPO3 backend and the TYPO3 Extension Repository (TER) without Composer.
-        This method of managing extensions is now deprecated.
-
     ..  card:: :ref:`Create your own extension <create-own-extension>`
 
         This guide contains information on how to create your own extension.
-
 
 ..  toctree::
     :hidden:
@@ -38,5 +31,4 @@ Working With Extensions
 
     HowToFindExtensions
     InstallingExtensions
-    LegacyManagement
     CreateOwnExtension
