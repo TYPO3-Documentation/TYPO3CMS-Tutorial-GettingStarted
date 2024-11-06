@@ -32,7 +32,7 @@ streamlined workflows, and powerful enhancements for TYPO3 development.
 
 *   Content Blocks: :t3ext:`content_blocks`
 
-    Content Blocks enables the creation of reusable content elements that can be
+    Content Blocks enable the creation of reusable content elements that can be
     added to pages in a modular way. This extension is beneficial for sites
     requiring flexible, component-based design, and simplifies content
     structuring for editors.
