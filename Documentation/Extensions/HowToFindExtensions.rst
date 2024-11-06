@@ -24,10 +24,10 @@ to find the necessary information.
 
     Packagist serves as the default package repository for PHP packages using Composer,
     including TYPO3 extensions. You can search for TYPO3 extensions on Packagist
-    by entering relevant keywords. Many TYPO3 extensions are available via Composer,
-    which allows for easier dependency management and installation. This is
-    particularly useful for developers looking to integrate extensions into
-    their projects.
+    by entering relevant keywords or filter for extensions to narrow down your
+    results. Many TYPO3 extensions are available via Composer, which allows for
+    easier dependency management and installation. This is particularly useful
+    for developers looking to integrate extensions into their projects.
 
 
 ..  _tips-for-choosing-extensions:
