@@ -30,7 +30,7 @@ To create a site package, you have two main options:
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
 
 
-.. _pros-and-cons-of-sitepackage-builder:
+..  _pros-and-cons-of-sitepackage-builder:
 
 Pros and cons of using the Sitepackage-Builder
 ==============================================
