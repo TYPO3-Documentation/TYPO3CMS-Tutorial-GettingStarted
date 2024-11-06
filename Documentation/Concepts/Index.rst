@@ -57,6 +57,22 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Extensions <concepts-extensions>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: Cache
+
+        The TYPO3 cache temporarily stores website data to improve loading
+        speed and reduce server load by delivering saved versions
+        of content to visitors.
+
+        ..  card-footer:: :ref:`Cache <cache>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Project Structure
+
+        This chapter describes the structure of a TYPO3 project.
+
+        ..  card-footer:: :ref:`Project Structure <project-structure>`
+            :button-style: btn btn-secondary stretched-link
+
 ..  toctree::
     :caption: Topics
     :glob:
