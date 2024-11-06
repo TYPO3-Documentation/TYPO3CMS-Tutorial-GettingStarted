@@ -32,7 +32,7 @@ to find the necessary information.
 
 ..  _tips-for-choosing-extensions:
 
-Tips for Choosing the right TYPO3 Extension
+Tips for choosing the right TYPO3 extension
 ===========================================
 
 Selecting the right extension is essential for ensuring that it meets your needs
