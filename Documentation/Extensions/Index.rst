@@ -31,7 +31,6 @@ Working With Extensions
 
         This guide contains information on how to create your own extension.
 
-
 ..  toctree::
     :hidden:
     :titlesonly:
