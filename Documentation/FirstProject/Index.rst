@@ -13,6 +13,15 @@ First project setup
     :class: pb-4
     :card-height: 100
 
+    ..  card:: The "Introduction Package"
+
+        The "Introduction Package" is a great place to start if you are looking
+        to test drive TYPO3 and see a prebuilt site that contains
+        a range of example page templates and content.
+
+        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: :ref:`Root page <create-root-page>`
 
         Learn how to create the first page, the so called root page.
@@ -27,16 +36,6 @@ First project setup
         title, root path and default language.
 
         ..  card-footer:: :ref:`Create a site configuration <site-configuration>`
-            :button-style: btn btn-secondary stretched-link
-
-
-    ..  card:: The "Introduction Package"
-
-        The "Introduction Package" is a great place to start if you are looking
-        to test drive TYPO3 and see a prebuilt site that contains
-        a range of example page templates and content.
-
-        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: :ref:`Settings <siterecords>`
@@ -57,8 +56,8 @@ First project setup
     :hidden:
     :titlesonly:
 
+    IntroductionPackage/Index
     CreateRootPage
     SiteManagement/Index
-    IntroductionPackage/Index
     Settings
     CreateSitePackage
