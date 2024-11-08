@@ -11,13 +11,18 @@ Glossary
 **Apache**: `Apache httpd <https://en.wikipedia.org/wiki/Apache_HTTP_Server>`__ is one
 of the options you can choose as a web server. Others are Nginx, Microsoft IIS and Caddy Server (`see system requirements <https://get.typo3.org/version/13#system-requirements>`__).
 
-**Admin Tools**:
+**Admin Tools**: Admin tools are a group of backend modules.
+These include maintaining the installation, adjusting settings, executing upgrade wizards,
+checking environment information and setting up extensions.
 
 **Admin User**:
 
-**Assets**:
+**Assets**: Assets are media resources such as images, videos and documents that are uploaded and managed in the TYPO3 system.
+Also, extensions can include assets which can be referred to in the frontend, like specific icons or JavaScript libraries.
 
-**Application context**:
+**Application context**: In TYPO3, Application Context specifies the environment
+(e.g., Development, Production) the site is running in, adjusting settings like debugging or
+performance optimization accordingly. This helps tailor TYPO3 behavior for each stage of deployment.
 
 **B**
 
@@ -31,7 +36,8 @@ of the options you can choose as a web server. Others are Nginx, Microsoft IIS a
 
 **Class**: In PHP
 
-**Cache**:
+**Cache**: Caches are used to improve website performance by storing frequently
+accessed data. TYPO3 has multiple caches for various performance relevant areas in both for the frontend and backend.
 
 **cObject**:
 
@@ -44,6 +50,10 @@ of the options you can choose as a web server. Others are Nginx, Microsoft IIS a
 **CMS**:
 
 **Content Security Policy**:
+
+**CType**: CType refers to Content Type and is a database column field in a very
+important database table called "tt_content", where all the content elements are stored.
+This column defines the name of the specific content element, and influences how it is displayed in the backend and frontend.
 
 **D**
 
