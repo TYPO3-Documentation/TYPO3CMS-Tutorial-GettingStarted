@@ -15,6 +15,49 @@ TYPO3 Concepts
     :class: pb-4
     :card-height: 100
 
+    ..  card:: Backend
+
+        The backend in TYPO3 is the administrative interface where users
+        manage content, configure settings, and control the overall
+        structure and functionality of the website.
+
+        ..  card-footer:: :ref:`Backend <backend>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Frontend
+
+        The frontend in TYPO3 refers to the part of the website that visitors
+        see and interact with, including all visual elements and
+        content displayed in the browser.
+
+        ..  card-footer:: :ref:`Frontend <frontend>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Project Structure
+
+        This chapter describes the structure of a TYPO3 project.
+
+        ..  card-footer:: :ref:`Project Structure <project-structure>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Extensions
+
+        An extension in TYPO3 is an add-on module that enhances the core
+        functionality of the CMS, allowing you to add custom features or
+        tools to your website.
+
+        ..  card-footer:: :ref:`Extensions <concepts-extensions>`
+            :button-style: btn btn-secondary stretched-link
+
+    ..  card:: Cache
+
+        The TYPO3 cache temporarily stores website data to improve loading
+        speed and reduce server load by delivering saved versions
+        of content to visitors.
+
+        ..  card-footer:: :ref:`Cache <cache>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: TypoScript
 
         TypoScript is the basic configuration language used to configure the
@@ -48,30 +91,6 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Webroot and assets - where to put public files <webroot>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: Extensions
-
-        An extension in TYPO3 is an add-on module that enhances the core
-        functionality of the CMS, allowing you to add custom features or
-        tools to your website.
-
-        ..  card-footer:: :ref:`Extensions <concepts-extensions>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Cache
-
-        The TYPO3 cache temporarily stores website data to improve loading
-        speed and reduce server load by delivering saved versions
-        of content to visitors.
-
-        ..  card-footer:: :ref:`Cache <cache>`
-            :button-style: btn btn-secondary stretched-link
-
-    ..  card:: Project Structure
-
-        This chapter describes the structure of a TYPO3 project.
-
-        ..  card-footer:: :ref:`Project Structure <project-structure>`
-            :button-style: btn btn-secondary stretched-link
 
 ..  toctree::
     :caption: Topics
@@ -79,13 +98,15 @@ TYPO3 Concepts
     :titlesonly:
     :hidden:
 
+    Backend/Index
+    Frontend/Index
+    ProjectStructure/Index
+    Extensions/Index
+    Cache/Index
     TypoScript/Index
     Fluid/Index
     TCA/Index
     Assets/Index
-    Backend/Index
-    Frontend/Index
-    Extensions/Index
     */Index
     *
 
