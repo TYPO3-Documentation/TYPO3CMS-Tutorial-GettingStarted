@@ -28,6 +28,7 @@ Working With Extensions
     ..  card:: :ref:`Recommended extensions <recommended-extensions>`
 
         An overview of recommended extensions.
+        
 ..  toctree::
     :hidden:
     :titlesonly:
