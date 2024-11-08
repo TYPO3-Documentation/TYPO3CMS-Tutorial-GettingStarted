@@ -21,19 +21,18 @@ Working With Extensions
 
         Information on how to install extensions using Composer.
 
-    ..  card:: :ref:`Recommended extensions <recommended-extensions>`
-
-        An overview of recommended extensions.
-
     ..  card:: :ref:`Create your own extension <create-own-extension>`
 
         This guide contains information on how to create your own extension.
 
+    ..  card:: :ref:`Recommended extensions <recommended-extensions>`
+
+        An overview of recommended extensions.
 ..  toctree::
     :hidden:
     :titlesonly:
 
     HowToFindExtensions
     InstallingExtensions
-    RecommendedExtensions
     CreateOwnExtension
+    RecommendedExtensions
