@@ -16,8 +16,8 @@ These extensions are called a :ref:`site package <creating-a-site-package>`.
 
 ..  _concepts-extensions-composer:
 
-Extension vs Composer package
-=============================
+Extensions are Composer packages
+================================
 
 If you have worked with other PHP based projects you have probably run across
 `Composer packages <https://dev.to/joemoses33/create-a-composer-package-how-to-29kn>`__.
