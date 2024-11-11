@@ -15,7 +15,7 @@ Troubleshooting
     :class: pb-4
     :card-height: 100
 
-    ..  card:: :ref:`Backend login troubleshooting <troubleshooting-webserver>`
+    ..  card:: :ref:`Backend login <troubleshooting-backend-login>`
 
         Have a look at common problems during backend login.
 
