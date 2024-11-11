@@ -46,7 +46,7 @@ the following data:
         }
     }
 
-In order to be used the Extension needs to be
+In order to be used the Extension should be
 :ref:`installed via Composer <installing-extensions>`.
 
 There is a legacy way to
@@ -61,7 +61,7 @@ is also not covered here.
 Extension vs plugin
 ===================
 
-A TYPO3 extension is a similar concept to what is called a "Plugin" in Wordpress.
+A TYPO3 extension is a similar concept to what is called a "Plugin" in WordPress.
 
 In TYPO3 a **plugin** is a **content element** that can be inserted into one or
 all pages, typically providing dynamic or interactive functionality.
@@ -82,9 +82,9 @@ Types of extensions
 
 Internally the TYPO3 Core consists of mandatory and optional **system extensions**
 each of them is a Composer package. All mandatory system extensions and a few
-recommended once will be automatically installed during the
+recommended ones will be automatically installed during the
 :ref:`Installation <t3start:installation-ddev-tutorial>`. Optional system
-extensions can be installed via Composer.
+extensions can be installed via Composer or the Extension Manager in classic mode
 
 **Third party extensions** offer additional functionality. Find commonly used
 extensions in the list of
