@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. _installing-extensions:
+..  _installing-extensions:
 
 =====================
 Installing extensions
@@ -10,7 +10,7 @@ Both system extensions and third-party extensions are managed using Composer. Co
 the installation of the extension and also installs any dependencies that may be
 required. Composer is also used to uninstall extensions.
 
-.. _install-extension-with-composer:
+..  _install-extension-with-composer:
 
 Find the Composer package name for an extension
 -----------------------------------------------
@@ -37,53 +37,58 @@ Composer package name
     :composer:`friendsoftypo3/extension-builder`
 
 
+..  _installing-extensions-require:
+
 Use :bash:`composer require` to install the extension
 -----------------------------------------------------
 
-.. code-block:: bash
-   :caption: /var/www/site/$
+..  code-block:: bash
+    :caption: /var/www/site/$
 
-   composer require <packagename>
+    ddev composer require <packagename>
 
 To install the news extension:
 
+..  code-block:: bash
+    :caption: /var/www/site/$
 
-.. code-block:: bash
-   :caption: /var/www/site/$
-
-   composer require georgringer/news
+    ddev composer require georgringer/news
 
 This will add the extension requirement to the installations :file:`composer.json`
 and install the extension.
 
 Whilst the extension is installed and activated automatically, it still needs to be set up before it can be used:
 
+..  _installing-extensions-setup:
+
 Setup the extension
 -------------------
 
-.. code-block:: bash
-   :caption: /var/www/site/$
+..  code-block:: bash
+    :caption: /var/www/site/$
 
-   ./vendor/bin/typo3 extension:setup
+    ddev typo3 extension:setup
 
 The extension setup command takes care of executing additional installation procedures, such as database migrations and
 clearing caches if necessary. The extension setup command is not specific to a single extension but instead looks at the overall
 state and executes all necessary steps.
+
+..  _uninstalling-extensions:
 
 Uninstalling extensions
 =======================
 
 The composer command `remove` uninstalls an extension.
 
-.. code-block:: bash
-   :caption: /var/www/site/$
+..  code-block:: bash
+    :caption: /var/www/site/$
 
-   composer remove georgringer/news
+    ddev composer remove georgringer/news
 
 The updated :file:`composer.lock` file needs to be committed to the version
 control system.
 
-.. _install_local_extensions_using_composer:
+..  _install_local_extensions_using_composer:
 
 Installing local extensions
 ===========================
@@ -97,8 +102,8 @@ Once this directory exists, update the installations `composer.json` and add thi
 as a new repository:
 
 
-.. code-block:: bash
-   :caption: /var/www/site/composer.json
+..  code-block:: bash
+    :caption: /var/www/site/composer.json
 
      {
          "repositories": [
@@ -112,21 +117,22 @@ as a new repository:
 Then run `composer require` to the install the local extension `my-local-extension` with vendor `vendor`:
 
 
-.. code-block:: bash
-   :caption: /var/www/site/$
+..  code-block:: bash
+    :caption: /var/www/site/$
 
-   composer require vendor/my-local-extension:@dev
+    ddev composer require vendor/my-local-extension:@dev
 
 By executing this command, Composer locates `vendor/my-local-extension` and then symlinks
 it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
 The setup from above defines that the extension is to be placed by composer into the folder `:file:packages/my-local-extension`
 if it has not been already there.
 
+..  _installing-extensions-additional:
 
 Additional information
 ======================
 
-.. _find-out-extension-key:
+..  _find-out-extension-key:
 
 Find out the extension key for an extension
 -------------------------------------------

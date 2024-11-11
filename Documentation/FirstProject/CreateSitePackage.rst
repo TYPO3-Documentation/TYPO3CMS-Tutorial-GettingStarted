@@ -1,10 +1,11 @@
+:navigation-title: Site package
 ..  include:: /Includes.rst.txt
 
 ..  _creating-a-site-package:
 
-=======================
-Creating a site package
-=======================
+======================================================
+Site package - extend or provide a theme for your site
+======================================================
 
 The next step is to create a site package. In TYPO3, a site package is a
 structured package that organizes the layout, design, and essential

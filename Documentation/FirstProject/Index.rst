@@ -23,6 +23,13 @@ First project setup
         ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: :ref:`Site package - extend or provide a theme for your site <creating-a-site-package>`
+
+        Next steps after setting up your first project.
+
+        ..  card-footer:: :ref:`Creating a site package <creating-a-site-package>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: :ref:`Root page <create-root-page>`
 
         Learn how to create the first page, the so called root page.
@@ -46,19 +53,12 @@ First project setup
         ..  card-footer:: :ref:`Manage settings <settings>`
             :button-style: btn btn-secondary stretched-link
 
-    ..  card:: :ref:`Creating a site package <creating-a-site-package>`
-
-        Next steps after setting up your first project.
-
-        ..  card-footer:: :ref:`Creating a site package <creating-a-site-package>`
-            :button-style: btn btn-secondary stretched-link
-
 ..  toctree::
     :hidden:
     :titlesonly:
 
     IntroductionPackage/Index
+    CreateSitePackage
     CreateRootPage
     SiteManagement/Index
     Settings
-    CreateSitePackage
