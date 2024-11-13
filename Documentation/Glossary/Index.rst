@@ -5,6 +5,7 @@
 
 .. todo: Note for contributing
 .. todo: Links for further information
+.. todo: Add missing descriptions
 
 ========
 Glossary
@@ -32,14 +33,16 @@ performance optimization accordingly. This helps tailor TYPO3 behavior for each 
 
 **Backend**: The backend is the administrative interface for editors and administrators.
 
-**Block syntax**: In TypoScript
+**Block syntax**: In TypoScript you can use the block syntax to enhance readability of your code.
 
 **Bootstrap**: Bootstrap is a popular, beginner-friendly framework for building responsive, mobile-first
 websites using pre-designed HTML, CSS, and JavaScript components.
 
 **C**
 
-**Class**: In PHP
+**Class**: In PHP we can define classes located in the directory
+EXT:my_extension/Classes. If the namespace is correct they will be loaded
+automatically.
 
 **Cache**: Caches are used to improve website performance by storing frequently
 accessed data. TYPO3 has multiple caches for various performance relevant areas in both for the frontend and backend.
@@ -47,7 +50,8 @@ accessed data. TYPO3 has multiple caches for various performance relevant areas 
 **cObject**: A cObject (content object) is a core concept used to render different types of content on a website,
 allowing developers to define and control how content elements like text, images, and menus are displayed.
 
-**Character Set**:
+**Character Set**: A `character set <https://www.w3.org/International/getting-started/characters.en.html>`__
+is a collection of letters and symbols used in a writing system.
 
 **Composer**: Composer is a tool used in TYPO3 to easily install, update, and manage extensions and libraries,
 making it simpler to handle dependencies and keep the system up to date.
@@ -57,9 +61,14 @@ making it simpler to handle dependencies and keep the system up to date.
 **CMS**: A CMS, or Content Management System, is software like TYPO3 that allows users to create, edit,
 and manage website content without needing to code, making it easier to maintain and update websites.
 
-**Content Security Policy**: Content Security Policy (CSP) is a security feature in TYPO3 that helps protect your
-website from attacks by controlling which resources (like scripts, styles, or images) are allowed to load, reducing
-the risk of malicious content being injected.
+**Content Security Policy**: The idea of Content Security Policy (CSP) is to
+make the frontend and backend more secure from attacks by restricting the rules
+what a user of the website or the TYPO3 backend can do. CSP is a W3C standard
+valid for everyone. In TYPO3 there exists a backend module that is in charge
+of this additional security feature. CSP helps to protect your website from
+attacks by controlling which resources (like scripts, styles, or images) are
+allowed to load, reducing the risk of malicious content being injected. To
+configure CSP go to :ref:`Content Security Policy <t3coreapi:content-security-policy>`.
 
 **CType**: CType refers to Content Type and is a database column field in a very
 important database table called 'tt_content', where all the content elements are stored.
@@ -112,20 +121,28 @@ for further details.
 **Fileadmin**: Fileadmin is a folder structure where you can organize and manage all the files, such as images,
 documents, and media, that are used on your website.
 
-**Filelist**:
+**Filelist**: The filelist is a backend module where you can upload files and
+manage your uploaded files.
 
 **FAL**: :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>` is a system that manages and organizes media files, allowing you to
 easily store, access, and use files across the entire website in a standardized way.
 
 **Frontend**: The frontend is the publicly accessible part of the website.
 
-**Frontend login**:
+**Frontend login**: You can also implement a frontend login on your website. To
+implement this you can use the system extension felogin provided by TYPO3.
 
-**Fluid styled content extension**:
+**Fluid styled content extension**: The fluid styled content extension is a
+system extension provided by TYPO3 that gives you default content elements,
+palettes and backend fields. That is the reason why you just can use bodytext,
+image and assets without having to make a database compare.
 
 **G**
 
-**Global TYPO3 variables**:
+**Global TYPO3 variables**: In TYPO3 exists a global TYPO3 configuration array
+($GLOBALS) where you can declare :ref:`global settings/variables <t3coreapi:typo3ConfVars>`
+for your TYPO3 instance. There are many different options. For example: BE -
+backend configuration, DB - database connections and many more.
 
 **H**
 
@@ -143,7 +160,10 @@ allows administrators to configure and manage the TYPO3 system, including databa
 
 **L**
 
-**Local development**:
+**Local development**: It is common practice to develop locally on your local
+machine first. Later when you are sure about your website you can think about
+deployment and setting up a production environment with better performance and
+Content Security Policy settings.
 
 **Local extension**:
 
@@ -255,7 +275,13 @@ as the starting points for building and organizing the structure and content of 
 **Testing**: Testing involves checking the functionality, performance, and security of a website or extension to ensure
 everything works as expected before deployment or during updates.
 
-**TSconfig**:
+**TSconfig**: In TYPO3 you can manage the appearance of the TYPO3 backend with
+TSconfig files. You can manage page related appearance, backend user related
+appearances and backend user group appearances. You can use
+:ref:`TSconfig Reference <t3tsconfig:start>` as a overall reference to look up
+all possible settings that you can make using TSconfig. Normally you write all
+your settings in TSconfig files like
+EXT:my_extension/Configuration/Sets/MyExtension/page.tsconfig.
 
 **U**
 
