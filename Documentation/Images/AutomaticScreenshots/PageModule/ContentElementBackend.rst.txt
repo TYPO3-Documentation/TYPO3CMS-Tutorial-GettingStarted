@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/PageModule/ContentElementBackend.png
+   :class: with-shadow
+
+   Content element preview and action icons

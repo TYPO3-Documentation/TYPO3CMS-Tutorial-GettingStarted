@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/MassEdit/ShowColumnsButton.png
+   :class: with-shadow
+
+   The Show Columns button

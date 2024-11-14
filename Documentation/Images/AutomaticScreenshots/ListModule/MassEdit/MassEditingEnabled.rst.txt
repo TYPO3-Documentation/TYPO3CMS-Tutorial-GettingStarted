@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/MassEdit/MassEditingEnabled.png
+   :class: with-shadow
+
+   Click one of these buttons to mass-edit the according columns

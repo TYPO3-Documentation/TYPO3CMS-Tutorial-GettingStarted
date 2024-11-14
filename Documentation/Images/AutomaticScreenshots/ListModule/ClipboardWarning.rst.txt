@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/ClipboardWarning.png
+   :class: with-shadow
+
+   The dialog box for confirming the paste action
