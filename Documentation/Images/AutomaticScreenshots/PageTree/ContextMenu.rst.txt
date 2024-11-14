@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/PageTree/ContextMenu.png
+   :class: with-shadow
+
+   Page tree with opened context menu

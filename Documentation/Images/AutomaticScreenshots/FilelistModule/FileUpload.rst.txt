@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/FilelistModule/FileUpload.png
+   :class: with-shadow
+
+   Upload possibilities in the Filelist module
