@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/PageModule/ViewWebpage.png
+   :class: with-shadow
+
+   View current page in the frontend
