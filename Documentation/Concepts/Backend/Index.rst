@@ -7,13 +7,16 @@
 Backend
 =======
 
-The backend is the administrative side of the CMS. It is only accessible to
-users who have been granted the correct access. The :ref:`frontend` is what the visitor
-sees when browsing the site.
+.. figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
+   :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
 
-The backend is where users create and publish content for their site. It is also
-where TYPO3 installations are configured. This includes setting domains and
-languages, adding backend users and managing third-party extensions.
+   Overview of the whole TYPO3 backend, see also :ref:`general-backend-structure`
+
+The backend is the administrative side of the CMS, accessible only to users
+with the correct permissions. It allows users to create and publish content,
+configure the site (like settings, domains, languages), manage backend users,
+and handle third-party extensions. The :ref:`frontend` is what visitors
+see when browsing the site.
 
 ..  toctree::
     :maxdepth: 1
