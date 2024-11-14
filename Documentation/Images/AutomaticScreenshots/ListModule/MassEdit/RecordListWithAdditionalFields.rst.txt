@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/ListModule/MassEdit/RecordListWithAdditionalFields.png
+   :class: with-shadow
+
+   Click on the title to enable mass edit mode
