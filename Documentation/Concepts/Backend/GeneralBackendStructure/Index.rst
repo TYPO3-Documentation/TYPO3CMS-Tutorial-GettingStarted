@@ -29,7 +29,7 @@ Module menu (2)
     This can be used to browse through and select pages.
 
 Docheader (4) and Content area (5)
-    The content in these areas depend on which backend module is currently
+    The content in these areas depends on which backend module is currently
     opened.
 
 ..  toctree:: The backend structure in depth
