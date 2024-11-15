@@ -6,25 +6,86 @@
 The list module
 ===============
 
-The list module is a useful tool that allows you to browse through
-each page or folder within your site and view all of the records that
-are stored within it. The List Module also gives you the ability to
-create and manage records that don't have a dedicated Module.
+Almost all data stored in the database is represented as a
+:ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.
 
-Sub pages, content elements and news stories are examples of the different
-kinds of records that can be stored on any given page.
+The :guilabel:`Web > List` module can be used to view, edit, search and
+export database records.
 
-For example, a typical page would consist of several content elements that
-contain text and images. By using the list module, you can see every content element
-stored on that page, even if its set to hidden.
+How to use the List module effectively for managing database records is
+described in-depth in
+:ref:`Editors Guide, Using the list module <t3editors:using-the-list-module-effectively>`.
 
+For example there is a :ref:`Mass editing mode <t3editors:selective-editing>` and
+a :ref:`The clipboard <t3editors:clipboard>`.
 
-.. toctree::
-   :maxdepth: 5
-   :titlesonly:
-   :glob:
+.. _list-module-tca:
 
-   UsingEffectively/Index
-   Clipboard/Index
-   AdvancedClipboard/Index
-   MassEditing/Index
+Display of database records in the list-module
+==============================================
+
+How a database record type is displayed int the list module is determined by
+:ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
+globally Tsconfig can be included on a per-site or per-page level.
+
+..  todo: Link tsconfig once article exists in concepts.
+
+Here are some examples of what you might want to change in the list module:
+
+.. _list-module-mod-hideTables:
+
+Hide tables in the List module
+------------------------------
+
+The TSconfig properties in section :ref:`web_list <t3tsconfig:pageweblist>`
+can be used to influence display and functionality of the List module.
+
+For example you can hide the records of certain tables:
+
+..  code-block:: typoscript
+    :caption: EXT:site_package/Configuration/page.tsconfig
+
+    mod.web_list {
+        hideTables := addToList(tx_my_table,tx_my_table2)
+    }
+
+We use the :ref:`Value modifications with ":="
+syntax <t3tsref:typoscript-syntax-syntax-value-modification>` to preserve values
+that where set by another extension.
+
+.. _list-module-disableHideAtCopy:
+
+Disable hide and prepend at copy
+--------------------------------
+
+By default copied database records are inserted hidden and with `(copy X)`
+appended to their label. You can disable this default behaviour by
+setting :ref:`disablePrependAtCopy <t3tsconfig:pagetcemaintables-disableprependatcopy>`
+and :ref:`disableHideAtCopy <t3tsconfig:pagetcemaintables-disablehideatcopy>` for
+the affected table belonging to the record:
+
+..  code-block:: typoscript
+    :caption: EXT:site_package/Configuration/page.tsconfig
+
+    TCEMAIN.table.tx_my_table {
+       disablePrependAtCopy = 1
+       disableHideAtCopy = 1
+    }
+
+.. _list-module-TCAdefaults:
+
+Define defaults for certain fields
+----------------------------------
+
+You can override the :confval:`default (TCA reference) <t3tca:input-default>`
+set globally in :ref:`tca` by setting a custom default value in TSconfig
+:ref:`TCAdefaults <t3tsconfig:pageTsTcaDefaults>`:
+
+..  code-block:: typoscript
+    :caption: EXT:site_package/Configuration/page.tsconfig
+
+    # Do not hide newly created pages by default
+    TCAdefaults.pages.hidden = 0
+
+    # Set the author of a news to "Anonymous"
+    TCAdefaults.tx_news_domain_model_news.author = Anonymous
