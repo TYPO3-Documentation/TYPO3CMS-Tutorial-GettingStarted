@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/ListModule/MassEdit/MassEditMultipleFieldsButton.png
-   :class: with-shadow
-
-   Click the button next to the Header column to mass edit the fields
