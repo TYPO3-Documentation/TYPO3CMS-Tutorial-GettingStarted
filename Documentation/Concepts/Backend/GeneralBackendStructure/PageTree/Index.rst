@@ -6,8 +6,6 @@
 Page tree
 =========
 
-.. sectionauthor:: name <email>
-
 The page tree represents the hierarchical structure of your site and its pages. In
 most cases this corresponds exactly to the navigation structure
 of your web site. The page tree can be expanded by clicking
@@ -54,10 +52,6 @@ page in the frontend corresponds to the entries beneath "Content Examples" in th
 
 Working with the page tree
 ==========================
-
-Remember the components of the backend from the :ref:`previous page <general-backend-structure>`?
-
-.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.rst.txt
 
 We will now look at some components of the page tree a little more closely:
 
