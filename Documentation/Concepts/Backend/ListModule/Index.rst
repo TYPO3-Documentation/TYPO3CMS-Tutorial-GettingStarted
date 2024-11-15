@@ -21,7 +21,7 @@ a :ref:`The clipboard <t3editors:clipboard>`.
 
 .. _list-module-tca:
 
-Display of database records in the list-module
+Display of database records in the List module
 ==============================================
 
 How a database record type is displayed int the list module is determined by
