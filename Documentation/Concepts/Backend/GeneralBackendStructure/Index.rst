@@ -1,8 +1,5 @@
+:navigation-title: Structure
 .. include:: /Includes.rst.txt
-.. index::
-   Backend
-   Modules
-.. _docheader:
 .. _general-backend-structure:
 
 =========================
@@ -11,34 +8,31 @@ General backend structure
 
 Here is a complete overview of the backend interface and its structure.
 
+.. figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
+   :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
+
+   Overview of the whole TYPO3 CMS backend
+
 Situated in the center left of page is the
 *page tree* and to its right the (main) *content area*.
 
-Top bar (top)
-   This gives you access to your user settings, logout, search
-   etc.
+:ref:`Top bar <top-bar>` (1)
+    This gives you access to your user settings, logout, search
+    etc.
 
-Module menu (left)
-   This is the main menu of the TYPO3 CMS backend. It is divided
-   into main modules (:guilabel:`WEB`, :guilabel:`FILE`, etc.) and
-   their sub-modules.
+Module menu (2)
+    This is the main menu of the TYPO3 CMS backend. It is divided
+    into main modules (:guilabel:`WEB`, :guilabel:`FILE`, etc.) and
+    their sub-modules.
 
-Page tree (middle)
-   This can be used to browse through and select pages.
+:ref:`Page tree <page-tree>` (3)
+    This can be used to browse through and select pages.
 
-Content area (right)
-   This is where you can edit pages and content elements.
+Docheader (4) and Content area (5)
+    The content in these areas depends on which backend module is currently
+    opened.
 
-Docheader (top)
-   The *docheader* contains contextual icons including close, save and preview.
-   It also features other information and a drop-down menu with further actions
-   which will appear depending on what actions you are performing.
-
-.. include:: /Images/AutomaticScreenshots/BackendOverview/BackendAreasOverview.rst.txt
-
-We will have a closer look at the individual parts in the next pages.
-
-..  toctree::
+..  toctree:: The backend structure in depth
     :maxdepth: 1
     :titlesonly:
 
