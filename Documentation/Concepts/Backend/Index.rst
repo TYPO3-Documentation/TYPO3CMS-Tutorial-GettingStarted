@@ -28,6 +28,7 @@ see when browsing the site.
     ListModule/Index
     FileModule/Index
     InfoModule/Index
+    AdminTools/Index
     SystemModules/Index
 
 ..  _backend modules:
