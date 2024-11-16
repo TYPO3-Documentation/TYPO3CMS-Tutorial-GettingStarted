@@ -92,6 +92,13 @@ Install TYPO3
 
 You now have a **Composer-based TYPO3 installation**.
 
+..  note::
+    The command above installs a typical set of functionality.
+
+    The official `Composer Helper <https://get.typo3.org/misc/composer/helper>`__
+    at Get TYPO3 supports you to generate commands for a full TYPO3 installation
+    with all optional system extensions included.
+
 Run the Installation Setup Tool
 -------------------------------
 
