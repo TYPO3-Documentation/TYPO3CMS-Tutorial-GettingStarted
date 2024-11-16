@@ -9,22 +9,22 @@ The list module
 Almost all data stored in the database is represented as a
 :ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.
 
-The :guilabel:`Web > List` module can be used to view, edit, search and
-export database records.
+The respective backend module called :guilabel:`Web > List` module can be 
+used to view, edit, search and export database records.
 
 How to use the List module effectively for managing database records is
 described in-depth in
 :ref:`Editors Guide, Using the list module <t3editors:using-the-list-module-effectively>`.
 
 For example there is a :ref:`Mass editing mode <t3editors:selective-editing>` and
-a :ref:`The clipboard <t3editors:clipboard>`.
+a :ref:`clipboard <t3editors:clipboard>`.
 
 .. _list-module-tca:
 
 Display of database records in the List module
 ==============================================
 
-How a database record type is displayed int the list module is determined by
+How a database record type is displayed in the list module is determined by
 :ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
 globally Tsconfig can be included on a per-site or per-page level.
 
@@ -40,7 +40,7 @@ Hide tables in the List module
 The TSconfig properties in section :ref:`web_list <t3tsconfig:pageweblist>`
 can be used to influence display and functionality of the List module.
 
-For example you can hide the records of certain tables:
+For example you can hide the records of certain tables visible in the List module with:
 
 ..  code-block:: typoscript
     :caption: EXT:site_package/Configuration/page.tsconfig
@@ -49,9 +49,7 @@ For example you can hide the records of certain tables:
         hideTables := addToList(tx_my_table,tx_my_table2)
     }
 
-We use the :ref:`Value modifications with ":="
-syntax <t3tsref:typoscript-syntax-syntax-value-modification>` to preserve values
-that where set by another extension.
+We use the :ref:`operator ":=" <t3tsref:typoscript-syntax-syntax-value-modification>` to add tables to a list that we want to hide.
 
 .. _list-module-disableHideAtCopy:
 
@@ -62,7 +60,7 @@ By default copied database records are inserted hidden and with `(copy X)`
 appended to their label. You can disable this default behaviour by
 setting :ref:`disablePrependAtCopy <t3tsconfig:pagetcemaintables-disableprependatcopy>`
 and :ref:`disableHideAtCopy <t3tsconfig:pagetcemaintables-disablehideatcopy>` for
-the affected table belonging to the record:
+the affected table belonging to the record to true like so:
 
 ..  code-block:: typoscript
     :caption: EXT:site_package/Configuration/page.tsconfig
@@ -78,7 +76,7 @@ Define defaults for certain fields
 ----------------------------------
 
 You can override the :confval:`default (TCA reference) <t3tca:input-default>`
-set globally in :ref:`tca` by setting a custom default value in TSconfig
+set globally in the :ref:`tca` by setting a custom default value in TSconfig
 :ref:`TCAdefaults <t3tsconfig:pageTsTcaDefaults>`:
 
 ..  code-block:: typoscript
