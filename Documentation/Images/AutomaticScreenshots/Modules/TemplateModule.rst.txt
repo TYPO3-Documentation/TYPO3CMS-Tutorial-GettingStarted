@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/Modules/TemplateModule.png
-   :class: with-shadow
-
-   The Template module showing the hierarchy of TypoScript templates
