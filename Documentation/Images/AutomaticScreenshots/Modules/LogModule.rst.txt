@@ -1,7 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/Modules/LogModule.png
-   :alt: The Log module and its many filters
-   :class: with-shadow
-
-   The Log module and its many filters
