@@ -77,6 +77,8 @@ around the single line of content:
 ..  literalinclude:: _minimal-output.html
     :caption: Example frontend output
 
+..  _typoscript-active-debug:
+
 Debug the TypoScript in the backend module "Active TypoScript"
 ==============================================================
 
