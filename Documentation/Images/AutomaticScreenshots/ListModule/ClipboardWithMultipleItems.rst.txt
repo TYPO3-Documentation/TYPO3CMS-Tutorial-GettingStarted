@@ -1,6 +1,0 @@
-.. Automatic screenshot: Remove this line if you want to manually change this file
-
-.. figure:: /Images/AutomaticScreenshots/ListModule/ClipboardWithMultipleItems.png
-   :class: with-shadow
-
-   Multiple items stored in the clipboard
