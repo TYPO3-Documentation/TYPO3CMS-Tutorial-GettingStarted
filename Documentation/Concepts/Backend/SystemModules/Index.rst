@@ -6,7 +6,8 @@
 System modules
 ==============
 
-The backend modules in group system are only available to backend users with
+System modules are backend modules in the group "System" 
+and they are only available to backend users with
 admin permissions.
 
 Some modules are only available when you have an optional system extension
@@ -20,8 +21,12 @@ full TYPO3 install, see `https://get.typo3.org/misc/composer/helper`__.
 Permissions
 ===========
 
+In TYPO3, you can grant permissions to backend users. 
+At first, a newly created backend user without any administrative 
+privileges has no access to neither the page module nor the 
+pages in the backend.    
 The module :guilabel:`System > Permissions` can be used to view or edit
-backend user permissions for pages in the backend.
+these backend user permissions for pages in the backend.
 
 See also TYPO3 Explained,
 :ref:`Permissions management <t3coreapi:permissions-management>`.
@@ -58,7 +63,7 @@ Webhooks (optional)
 This module is only available if the system extension
 :composer:`typo3/cms-webhooks` is installed. This extension handles **outgoing**
 webhooks to TYPO3. It also provides a corresponding backend module to manage
-webhook records in the TYPO3.
+webhook records in TYPO3.
 
 Unfortunately this extension is not documented at the time of writing.
 
