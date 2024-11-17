@@ -70,7 +70,7 @@ extensions. You need basic knowledge on :ref:`tca`, :ref:`typoscript`, and
 :ref:`templating with Fluid <fluid-templates>`. You have to use PHP for some
 basic configurations but need no in-depth knowledge of programming.
 
-See :ref:`Create a custom content element type <t3coreapi:adding-your-own-content-elements>`
+See :ref:`create a custom content element type <t3coreapi:adding-your-own-content-elements>`.
 
 .. _page-plugins:
 
@@ -85,11 +85,11 @@ plugins for a wide range of functionality. For example plugins to display news:
 :composer:`wsr/myleaflet`, event management with registration:
 :composer:`derhansen/sf-event-mgt-contentelements` and many more.
 
-Chapter :ref:`how-to-find-extensions` covers searching for suitable extensions.
+The chapter :ref:`how-to-find-extensions` covers searching for suitable extensions.
 
 Usually a PHP class called a "controller" manages
 the functionality and display of the plugin. To create a custom plugin you
-need some experience in PHP programming, dealing with databases etc.
+need some experience in PHP programming and dealing with databases etc.
 
 ..  note::
     In TYPO3 a plugin is a special type of content element that can be added to
