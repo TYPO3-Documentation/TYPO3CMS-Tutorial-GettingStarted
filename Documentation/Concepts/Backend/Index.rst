@@ -27,6 +27,7 @@ see when browsing the site.
     PageModule/Index
     ListModule/Index
     FileModule/Index
+    SiteManagement/Index
     InfoModule/Index
     AdminTools/Index
     SystemModules/Index
