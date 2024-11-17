@@ -23,8 +23,8 @@ Within the Page module there can be one or more areas (also called columns)
 in which content can be added. The columns to be displayed in the backend
 are defined via page TSconfig in a so-called backend layout, sometimes also
 called page layout. The site package tutorial describes how page layouts
-can be configured and used: :ref:`Page layouts with page
-TSconfig <t3sitepackage:content-mapping-backend-layout>`.
+can be configured and used: :doc:`Page layouts with page
+TSconfig <t3sitepackage:ContentMapping/Index#define-the-backend-layouts>`.
 
 The topic is also covered in-depth in the TSconfig Reference,
 chapter :ref:`Backend layouts <t3tsconfig:backend-layouts>`.
