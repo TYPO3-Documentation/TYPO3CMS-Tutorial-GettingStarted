@@ -1,72 +1,99 @@
+:navigation-title: Page module
 .. include:: /Includes.rst.txt
 .. _page-content:
 
-============
-Pages module
-============
+==============================
+"Page" backend module in TYPO3
+==============================
 
-Site content can be structured in many ways.
+The :guilabel:`Web > Page` module is used by the editors of the site to add
+and modify content elements on the page.
 
-A good place to start exploring different ways content
-can be arranged is the "Content Examples" section.
+The Editors Guide, chapter :ref:`Content Elements <t3editors:content-elements>`,
+covers practical topics on how to work with content.
 
-.. rst-class:: bignums
+..  contents:: Topics related to the page module
 
-1. Expand the page "Content Examples"
+.. _page-layout:
 
-   In the backend, click on the arrow next to the "Content Examples" title
-   to open the subtree.
+Page layout / backend layout
+============================
 
-   .. include:: /Images/AutomaticScreenshots/PageTree/PageContent1.rst.txt
+Within the Page module there can be one or more areas (also called columns)
+in which content can be added. The columns to be displayed in the backend
+are defined via page TSconfig in a so-called backend layout, sometimes also
+called page layout. The site package tutorial describes how page layouts
+can be configured and used: :ref:`Page layouts with page
+TSconfig <t3sitepackage:content-mapping-backend-layout>`.
 
-2. Next, do the same for the "Text" page, and then click on "Text in Columns"
+The topic is also covered in-depth in the TSconfig Reference,
+chapter :ref:`Backend layouts <t3tsconfig:backend-layouts>`.
 
-3. Use the context menu to show the "Text in Columns" page in the frontend.
+.. _page-new-content:
 
-   Select :guilabel:`"Show"`
+The "New Page Content" wizard
+=============================
 
-Let's now compare both views.
+..  figure:: /Images/ManualScreenshots/Backend/NewPageContentWizard.png
+    :alt: Screenshot of a "New page content" wizard in a standard TYPO3 installation
 
-**Frontend:**
+    The "New page content" wizard
 
-.. figure:: /Images/ManualScreenshots/Frontend/TextInColumnsFrontend.png
-   :alt: Page content seen from the frontend
-   :class: with-shadow
+When an editor adds a new content element to the page the "New Page Content"
+wizard is displayed. Available :ref:`content elements <page-content-elements>` and
+:ref:`plugins <page-plugins>` are ordered into groups.
 
-   Page content as seen in the frontend
+You can use the page TSconfig setting
+:ref:`mod.wizard.newContentElement.wizardItems <t3tsconfig:pagenewcontentelementwizard>`
+to hide or edit content elements displayed here. For example you can hide the
+"HTML" content element supplied by :composer:`typo3/cms-fluid-styled-content`:
 
+..  code-block:: typoscript
+    :caption: EXT:site_package/Configuration/page.tsconfig
 
-**Backend:**
+    mod.wizards.newContentElement.wizardItems {
+        special.removeItems := addToList(html)
+    }
 
-For now we want to be in "Columns" mode. If that is not the case when you
-got to the Page module, please use the menu in the docheader to switch mode.
+.. _page-content-elements:
 
-.. include:: /Images/AutomaticScreenshots/PageModule/TextInColumnsBackend.rst.txt
+Content elements
+================
 
-The order of the content elements on the web page is the
-same as the order of the elements in the backend. The content elements
-are stored in columns, content that is in the right
-column in the backend is in the right column on your page, etc. Each
-content element on your page can be of a different type (like text or
-text & images) giving you a lot of flexibility.
+You can use the community extension :composer:`friendsoftypo3/content-blocks` to
+define additional content elements. Many third party extensions like
+:composer:`bk2k/bootstrap-package` offer pre-defined content elements or, like
+:composer:`georgringer/news` :ref:`plugins <page-plugins>`.
 
-.. todo: Mention backend_layouts here?
+New content elements can also be created without relying on third party
+extensions. You need basic knowledge on :ref:`tca`, :ref:`typoscript`, and
+:ref:`templating with Fluid <fluid-templates>`. You have to use PHP for some
+basic configurations but need no in-depth knowledge of programming.
 
-The Page module shows a preview of each content element, together
-with some action icons. Here is a quick overview:
+See :ref:`create a custom content element type <t3coreapi:adding-your-own-content-elements>`.
 
-.. include:: /Images/AutomaticScreenshots/PageModule/ContentElementBackend.rst.txt
+.. _page-plugins:
 
+Plugins
+=======
 
-#. **Insert** a new content element above the current one
-#. An **icon** representing the type of content element
-   (hovering over it will show its id)
-#. **Edit** the content element
-#. **Hide/show** the content element
-#. **Delete** content element
-#. A **preview** of the element's content (will vary depending on the type)
-#. **Insert** a new content element below the current one
+A plugin is a special kind of content element. It typically provides dynamic or
+interactive functionality. Many third party extensions offer ready to use
+plugins for a wide range of functionality. For example plugins to display news:
+:composer:`georgringer/news`, plugins to perform searches:
+:composer:`apache-solr-for-typo3/solr`, to display Open Street maps:
+:composer:`wsr/myleaflet`, event management with registration:
+:composer:`derhansen/sf-event-mgt-contentelements` and many more.
 
+The chapter :ref:`how-to-find-extensions` covers searching for suitable extensions.
 
-Modifying existing content or adding new content is covered in the
-:ref:`Editors Tutorial <t3editors:content-elements>`.
+Usually a PHP class called a "controller" manages
+the functionality and display of the plugin. To create a custom plugin you
+need some experience in PHP programming and dealing with databases etc.
+
+..  note::
+    In TYPO3 a plugin is a special type of content element that can be added to
+    a page to provide complex functionality.
+
+    Other content management systems like wordpress use the word "plugin" to
+    describe what we call an :ref:`extension <concepts-extensions>` in TYPO3.
