@@ -1,2 +1,19 @@
 ﻿..  this file can be used to include information on the top of each page
 ..  for example to add a hint for outdated versions
+
+..  attention::
+
+    We are revising the Getting Started guide for TYPO3 versions 12 and 13
+    (currently identical to the main branch for 14). Your feedback is essential
+    to help us make it even better!
+
+    You can contribute by:
+
+    *   Filling out this short
+        `survey <https://docs.google.com/forms/d/e/1FAIpQLSdA6zZk_I851np5SFxqWT0fptAgNexsRLWQyVFef7FLrG_b6Q/viewform>`_
+        to share your thoughts.
+    *   Joining the conversation in our Slack channel, **#typo3-documentation**.
+    *   Reporting any errors you find using the **"Report an issue"** button.
+
+    Thank you for helping us improve the guide!
+
