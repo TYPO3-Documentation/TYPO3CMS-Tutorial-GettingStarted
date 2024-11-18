@@ -15,29 +15,92 @@ Fluid templates
 Quick Introduction to Fluid
 ===========================
 
-Like many other templating engines, Fluid reads *template files*,
-processes them and replaces certain variables and specific tags with dynamic
-content. The result is a fully working website with a clean and valid HTML
-output. Dynamic elements are automatically updated as required. Navigation
-menus are a typical example for this type of content. A menu exists on all
-pages across the entire website. Whenever pages are added, deleted or renamed,
-the menu items change.
+TYPO3 uses a template engine to generate the necessary HTML
+markup for a website. The template engine provides data from
+the backend, such as content or menu structures, which can
+then be formatted with HTML.
 
-Fluid takes modern templating a step further. By using *ViewHelpers*,
-developers can implement complex functionality and therefore extend the
-original functionality of Fluid to their heart's content. ViewHelpers are built
-in the programming language PHP. Having said that, website integrators or
-editors are not required to learn or understand these (this is the
-responsibility of a software developer). Integrators only need to **apply**
-them -- and this is as easy as adding an HTML tag such as :html:`<image.../>` to an
-HTML file.
+TYPO3's template engine of choice is called Fluid. Fluid's
+syntax is inspired by the syntax of HTML or XML documents,
+so it should already be familiar for users that already know
+HTML.
 
-More than 80 ViewHelpers are shipped with the TYPO3 core already. They enable
-integrators and web developers to use translations of variables, generate forms
-and dynamic links, resize images, embed other HTML files and even implement
-logical functions such as :html:`if ... then ... else ...`. An overview of the
-available ViewHelpers and how to apply them can be found in the
-:doc:`Fluid ViewHelper reference <t3viewhelper:Index>`.
+While Fluid is extendable by PHP developers, knowing any
+PHP is not necessary to write templates for TYPO3. However,
+Fluid comes with its own syntax rules, which need to be
+obeyed when writing templates.
+
+..  _fluid-basics:
+
+Fluid Basics
+============
+
+Accessing Variables
+-------------------
+
+An integral part of Fluid are variables. This is the data
+that is provided by the backend to be used inside your
+template. You can access variables like this:
+
+..  code-block:: xml
+
+    <h1>{myHeadline}</h1>
+
+
+If a variable contains subitems, these can be accessed
+with the dot syntax:
+
+..  code-block:: xml
+
+    <p>{myVariable.mySubItem}</p>
+
+Modifying Variables
+-------------------
+
+You can also do some basic math operations:
+
+..  code-block:: xml
+
+    {myNumber + 5}
+
+
+If you need to modify the provided data even more, you
+can use so-called ViewHelpers. These are functions that
+take some input values, perform operations on those
+values and then output the result. The following example
+converts a variable to uppercase:
+
+..  code-block:: xml
+
+    <f:format.case mode="upper">{myText}</f:format.case>
+
+If you want to perform multiple operations on one variable
+or if your templates become more complex, you might also
+want to use :ref:`Fluid's inline notation <t3coreapi:fluid-inline-notation>`.
+
+Using Control Structures
+------------------------
+
+ViewHelpers are also used for so-called control structures.
+If you want to add a condition to your template, you can
+use the `<f:if>` ViewHelper:
+
+..  code-block:: xml
+
+    <f:if condition="{myVariable} == 'hello'">
+        The variable is "hello".
+    </f:if>
+
+You can also use the `<f:for>` ViewHelper to loop over an
+array:
+
+..  code-block:: xml
+
+    <ul>
+        <f:for each="{myList}" as="myItem">
+            <li>This item is {myItem}.</li>
+        </f:for>
+    </ul>
 
 
 ..  _ft-directory-structure:
@@ -45,121 +108,79 @@ available ViewHelpers and how to apply them can be found in the
 Directory structure
 ===================
 
-Fluid requires a specific directory structure to store the template files. If
-you are working through this tutorial now, this is a perfect time to create the
-first set of folders of the site package extension. The initial directory can
-be named :file:`site_package/`, which we assume is located on your local
-machine. You can also choose a different name such as "site_example" or
-"site_clientname", but this tutorial uses "site_package".
-
-The aforementioned folders for Fluid are all located as sub-directories of a
-folder called :file:`Resources/`. Therefore, create the directory structure as
-listed below.
+Nowadays, Fluid templates in TYPO3 are always part of an
+extension. As they are neither PHP code nor configuration files
+and don't need to be accessed by end users, they are placed in the
+`Resources/Private/` subfolder.
 
 ..  directory-tree::
-    :level: 4
+    :level: 6
     :show-file-icons: true
 
-    *   EXT:my_sitepackage
+    *   my_sitepackage
 
         *   Resources
 
             *   Private
 
-                *   Language
-
                 *   Templates
 
                     *   Layouts
 
+                        * DefaultLayout.html
+
                     *   Pages
+
+                        * MyPage.html
 
                     *   Partials
 
-            *   Public
+                        * MyPartial.html
 
-                *   Css
 
-                *   Images
-
-                *   JavaScript
-
-                *   StaticTemplate
-
-The :file:`Public/` directory branch is self-explanatory: it contains folders
-such as :file:`Css/`, :file:`Images/`, :file:`JavaScript/` and
-:file:`StaticTemplate/`. All files in these folders will be delivered to the
-user (website visitors) *as they are*. These are **static** files which are not
-modified by TYPO3 at all before they are sent to the user.
-
-The :file:`Private/` directory with its two sub-folders :file:`Language/` and
-:file:`Templates/` in contrast, requires some explanation.
+There are conventions about the exact location of template files.
+However, be aware that these paths might vary slightly between
+projects or extensions as they can be configured individually.
 
 ..  _fluid-templates-folders-under-private:
 
-Folders under 'Private/'
-------------------------
+Templates, Layouts and Partials
+-------------------------------
 
-..  _fluid-templates-folders-under-private-templates-layouts:
+..  uml::
+    :caption: Fluid template structure
 
-Templates/Layouts
-~~~~~~~~~~~~~~~~~
-HTML files, which build the overall *layout* of the website, are stored in the
-:file:`Layouts/` folder. Typically this is only **one** construct for all
-pages across the entire website. Pages can have different layouts of course,
-but *page layouts* do not belong into the :file:`Layouts/` directory. They are
-stored in the :file:`Templates/Pages/` directory (see below). In other words, the
-:file:`Layouts/` directory should contain the global layout for the entire website
-with elements which appear on all pages (e.g. the company logo, navigation
-menu, footer area, etc.). This is the skeleton of your website.
+    frame layout as "Templates/Layouts/DefaultLayout.html" {
+        frame page as "Templates/Pages/MyPage.html" {
+            rectangle partial [
+                <b>Templates/Partials/MyPartial.html</b>
+                (reusable code snippet)
+            ]
+        }
+    }
 
-..  _fluid-templates-folders-under-private-templates-pages:
 
-Templates/Pages
-~~~~~~~~~~~~~~~
-The most important fact about HTML files in the :file:`Templates/Pages` directory
-has been described above already: this folder contains layouts, which are page-
-specific. Due to the fact that a website usually consists of a number of pages
-and some pages possibly show a different layout than others (e.g. number of
-columns), the :file:`Templates/Pages/` directory may contain one or multiple HTML files.
+Fluid knows three different types of template files: **Templates**,
+**Layouts** and **Partials**. Templates are always the starting point
+and thus are always required, while both Partials and Layouts are optional.
+However, these can be very helpful to improve the structure of
+your templates and can avoid duplicate code, which makes
+maintenance much easier.
 
-..  _fluid-templates-folders-under-private-templates-partials:
+**Layouts** are a flexible method to reuse HTML markup that should wrap
+around multiple template files. You could for example extract your
+header and footer markup to a layout file and only keep the content
+in-between in your template. Layouts automatically have access to all
+variables defined within the template.
 
-Templates/Partials
-~~~~~~~~~~~~~~~~~~
-The directory called :file:`Partials/` may contain small
-snippets of HTML template files. "Partials" are similar to templates, but their
-purpose is to represent small units, which are perfect to fulfil recurring
-tasks. A good example of a partial is a specially styled box with content that
-may appear on several pages. If this box would be part of a page layout, it
-would be implemented in one or more HTML files inside the :file:`Templates/Pages/`
-directory. If an adjustment of the box is required at one point in the future,
-this would mean that several template files need to be updated. However, if we
-store the HTML code of the box as a small HTML snippet into the :file:`Partials/`
-directory, we can include this snippet at several places. An adjustment only
-requires an update of the partial and therefore in one file only.
-
-The use of partials is optional, whereas files in the :file:`Layouts/` and
-:file:`Templates/Pages` directories are mandatory for a typical sitepackage
-extension.
-
-The sitepackage extension described in this tutorial focuses on the
-implementation of pages, rather than specific content elements.
-
-..  _fluid-templates-folders-under-private-language:
-
-Language
-~~~~~~~~
-The directory :file:`Language/` may contain :file:`.xlf` files that are used for
-the localization of labels and text strings (frontend as well as backend) by
-TYPO3. This topic is not strictly related to the Fluid template engine and is
-documented in section
-:ref:`Internationalization and Localization <t3coreapi:internationalization>`.
+**Partials** are an easy way to abstract and reuse code snippets in
+your templates. They don't have access to all template variables, instead
+the required variables need to be provided to the partial when it is used.
 
 ..  _fluid-in-depth:
 
 Fluid in depth
-================
+==============
 
 ..  card-grid::
     :columns: 1
