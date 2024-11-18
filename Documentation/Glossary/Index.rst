@@ -22,20 +22,20 @@ checking environment information and setting up extensions.
 
 **Admin User**:
 
-**Assets**: Assets are media resources such as images, videos and documents that are uploaded and managed in TYPO3 system.
+**Assets**: :ref:`Assets <t3start:webroot>` are media resources such as images, videos and documents that are uploaded and managed in TYPO3 system.
 Also, extensions can include assets which used in the frontend, like icons or JavaScript libraries.
 
-**Application context**: In TYPO3, the Application Context is the environment
+**Application context**: In TYPO3, the :ref:`Application Context <t3coreapi:application-context>` is the environment
 (e.g., Development, Production) the site is running in, which sets things like debugging or
 performance optimization accordingly. This helps tailor TYPO3 behavior for each stage of deployment.
 
 **B**
 
-**Backend**: The backend is the administrative interface for editors and administrators.
+**Backend**: The :ref:`backend <t3start:backend>` is the administrative interface for editors and administrators.
 
 **Block syntax**: In TypoScript you can use block syntax to enhance the readability of your code.
 
-**Bootstrap**: Bootstrap is a popular, beginner-friendly framework for building responsive, mobile-first
+**Bootstrap**: `Bootstrap <https://getbootstrap.com/>`__ is a popular, beginner-friendly framework for building responsive, mobile-first
 websites using pre-designed HTML, CSS, and JavaScript components.
 
 **C**
@@ -44,16 +44,16 @@ websites using pre-designed HTML, CSS, and JavaScript components.
 EXT:my_extension/Classes. If the namespace is correct they will be loaded
 automatically.
 
-**Cache**: Caches are used to improve website performance by storing frequently
+**Cache**: :ref:`Caches <t3start:cache>` are used to improve website performance by storing frequently
 accessed data. TYPO3 has multiple caches for various performance-relevant areas in both the frontend and backend.
 
-**cObject**: A cObject (content object) is a core concept used to render content types on a website,
+**cObject**: A :ref:`cObject (content object) <t3tsref:cobject>` is a core concept used to render content types on a website,
 allowing developers to define and control how content elements like text, images, and menus are displayed.
 
 **Character Set**: A `character set <https://www.w3.org/International/getting-started/characters.en.html>`__
 is a collection of letters and symbols used in a writing system.
 
-**Composer**: Composer is a tool used in TYPO3 to install, update, and manage extensions and libraries,
+**Composer**: `Composer <https://getcomposer.org/>`__ is a tool used in TYPO3 to install, update, and manage extensions and libraries,
 making it simple to handle dependencies and keep the system up to date.
 
 **Compression**: In TypoScript you can compress css and js files.
@@ -83,13 +83,13 @@ allowing the system to retrieve and display data dynamically on the site.
 **Documentation**: Documentation consists of detailed guides and instructions to help users and developers understand,
 set up, and customize TYPO3, making it easier to work with the system effectively.
 
-**Docker**: Docker is a tool that runs TYPO3 in a consistent and isolated environment by packaging it with all its
+**Docker**: `Docker <https://www.docker.com/>`__ is a tool that runs TYPO3 in a consistent and isolated environment by packaging it with all its
 dependencies, making setup, deployment, and development easier and more reliable.
 
-**DDEV**: DDEV is a local development tool that simplifies setting up a TYPO3 environment on your computer, making it
+**DDEV**: `DDEV <https://ddev.com/>`__ is a local development tool that simplifies setting up a TYPO3 environment on your computer, making it
 easy to start developing, testing, and managing TYPO3 projects without complex configuration.
 
-**Deployment**: Deployment refers to the process of transferring your website’s code, content, and settings from a
+**Deployment**: :ref:`Deployment <t3start:deployment>` refers to the process of transferring your website’s code, content, and settings from a
 development environment to a live server, making it accessible to users online.
 
 **Debug mode**: Debug Mode is a feature that helps developers find and fix errors by showing detailed information
@@ -105,7 +105,7 @@ fixing issues, and ensuring everything works smoothly for users and administrato
 **Editor**: An editor is a user who creates and manages content on a website, such as adding text, images, and links,
 without needing technical or coding knowledge.
 
-**Extension**: An extension is an add-on that provides additional features or functionality to a website,
+**Extension**: An :ref:`extension <t3start:concepts-extensions>` is an add-on that provides additional features or functionality to a website,
 allowing you to customize and expand what TYPO3 can do.
 
 **Extension Configuration**:
@@ -129,7 +129,7 @@ manage your uploaded files.
 system that manages and organizes media files, allowing you to easily store,
 access, and use files across the entire website in a standardized way.
 
-**Frontend**: The frontend is the publicly accessible part of a website.
+**Frontend**: The :ref:`frontend <t3start:frontend>` is the publicly accessible part of a website.
 
 **Frontend login**: You can implement a frontend login on your website. To
 implement this use the system extension felogin provided by TYPO3.
@@ -227,7 +227,7 @@ navigation.
 other media that are used on a website, which are stored and managed through the
 File Abstraction Layer (FAL) for easy access and organization.
 
-**Root page**: The Root Page is the top-level page in the Page Tree, serving as
+**Root page**: The :ref:`Root Page <t3start:create-root-page>` is the top-level page in the Page Tree, serving as
 the starting point for a website's structure and is the foundation for the site's
 overall configuration and settings.
 
