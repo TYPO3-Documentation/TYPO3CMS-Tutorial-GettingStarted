@@ -7,6 +7,9 @@
 Fluid templates
 ===============
 
+..  contents::
+    :caption: Content on this page
+    
 ..  _quick-introduction-to-fluid:
 
 Quick Introduction to Fluid
