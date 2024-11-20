@@ -27,7 +27,7 @@ can be configured and used: :ref:`Page layouts with page
 TSconfig <t3sitepackage:content-mapping-backend-layout>`.
 
 The topic is also covered in-depth in the TSconfig Reference,
-chapter :ref:`Backend layouts <t3tsconfig:backend-layouts>`.
+chapter :ref:`Backend layouts <t3tsref:backend-layouts>`.
 
 .. _page-new-content:
 
@@ -44,7 +44,7 @@ wizard is displayed. Available :ref:`content elements <page-content-elements>` a
 :ref:`plugins <page-plugins>` are ordered into groups.
 
 You can use the page TSconfig setting
-:ref:`mod.wizard.newContentElement.wizardItems <t3tsconfig:pagenewcontentelementwizard>`
+:ref:`mod.wizard.newContentElement.wizardItems <t3tsref:pagenewcontentelementwizard>`
 to hide or edit content elements displayed here. For example you can hide the
 "HTML" content element supplied by :composer:`typo3/cms-fluid-styled-content`:
 
