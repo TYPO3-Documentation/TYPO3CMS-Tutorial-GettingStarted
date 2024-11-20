@@ -126,6 +126,6 @@ See also the complete :ref:`TypoScript Reference <t3tsref:start>`.
 Page wide backend settings: Page TSconfig
 =========================================
 
-Read more about this in :ref:`Setting page TSconfig <t3tsconfig:setting-page-tsconfig>`.
+Read more about this in :ref:`Setting page TSconfig <t3tsref:setting-page-tsconfig>`.
 
 ..  todo: Add screenshots, mention the module etc?
