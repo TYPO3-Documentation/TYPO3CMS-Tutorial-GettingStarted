@@ -9,7 +9,7 @@ The list module
 Almost all data stored in the database is represented as a
 :ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.
 
-The respective backend module called :guilabel:`Web > List` module can be 
+The respective backend module called :guilabel:`Web > List` module can be
 used to view, edit, search and export database records.
 
 How to use the List module effectively for managing database records is
@@ -37,7 +37,7 @@ Here are some examples of what you might want to change in the list module:
 Hide tables in the List module
 ------------------------------
 
-The TSconfig properties in section :ref:`web_list <t3tsconfig:pageweblist>`
+The TSconfig properties in section :ref:`web_list <t3tsref:pageweblist>`
 can be used to influence display and functionality of the List module.
 
 For example you can hide the records of certain tables visible in the List module with:
@@ -58,8 +58,8 @@ Disable hide and prepend at copy
 
 By default copied database records are inserted hidden and with `(copy X)`
 appended to their label. You can disable this default behaviour by
-setting :ref:`disablePrependAtCopy <t3tsconfig:pagetcemaintables-disableprependatcopy>`
-and :ref:`disableHideAtCopy <t3tsconfig:pagetcemaintables-disablehideatcopy>` for
+setting :ref:`disablePrependAtCopy <t3tsref:pagetcemaintables-disableprependatcopy>`
+and :ref:`disableHideAtCopy <t3tsref:pagetcemaintables-disablehideatcopy>` for
 the affected table belonging to the record to true like so:
 
 ..  code-block:: typoscript
@@ -77,7 +77,7 @@ Define defaults for certain fields
 
 You can override the :confval:`default (TCA reference) <t3tca:input-default>`
 set globally in the :ref:`tca` by setting a custom default value in TSconfig
-:ref:`TCAdefaults <t3tsconfig:pageTsTcaDefaults>`:
+:ref:`TCAdefaults <t3tsref:pageTsTcaDefaults>`:
 
 ..  code-block:: typoscript
     :caption: EXT:site_package/Configuration/page.tsconfig
