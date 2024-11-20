@@ -120,7 +120,7 @@ When prompted give the following answers to work with the default DDEV configura
 ..  code-block:: bash
 
     Which web server is used?
-    > apache
+    > other
 
     Database driver?
     > mysqli
