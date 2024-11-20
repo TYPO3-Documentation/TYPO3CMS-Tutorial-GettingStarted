@@ -45,11 +45,11 @@ the sources from which TSconfig is being loaded are different.
 In this Guide we assume that you load page TSconfig via the the site set of your
 site package. The TSconfig Reference gives you an overview of all possible
 strategies to set page TSconfig:
-:ref:`Setting page TSconfig <t3tsconfig:setting-page-tsconfig>`.
+:ref:`Setting page TSconfig <t3tsref:setting-page-tsconfig>`.
 
 And to make confusion perfect there is also user TSconfig, which is loaded on a
-per user basis: :ref:`Setting user TSconfig <t3tsconfig:setting-user-tsconfig>`
+per user basis: :ref:`Setting user TSconfig <t3tsref:setting-user-tsconfig>`
 and can override page TSconfig:
-:ref:`Overriding page TSconfig in user TSconfig <t3tsconfig:pageoverridingpagetsconfigwithusertsconfig>`
+:ref:`Overriding page TSconfig in user TSconfig <t3tsref:pageoverridingpagetsconfigwithusertsconfig>`
 
 These topics are beyond the scope of this Guide however.
