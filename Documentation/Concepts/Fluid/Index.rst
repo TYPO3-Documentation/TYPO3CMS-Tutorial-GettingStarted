@@ -35,6 +35,8 @@ obeyed when writing templates.
 Fluid Basics
 ============
 
+..  _fluid-basics-accessing-variables:
+
 Accessing Variables
 -------------------
 
@@ -53,6 +55,8 @@ with the dot syntax:
 ..  code-block:: xml
 
     <p>{myVariable.mySubItem}</p>
+
+..  _fluid-basics-modifying-variables:
 
 Modifying Variables
 -------------------
@@ -77,6 +81,8 @@ converts a variable to uppercase:
 If you want to perform multiple operations on one variable
 or if your templates become more complex, you might also
 want to use :ref:`Fluid's inline notation <t3coreapi:fluid-inline-notation>`.
+
+..  _fluid-basics-control-structures:
 
 Using Control Structures
 ------------------------
