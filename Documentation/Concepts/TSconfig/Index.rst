@@ -3,17 +3,16 @@
 
 ..  _tsconfig:
 
-=====
+========
 TSConfig
-=====
+========
 
 There are two types of TSconfig: user TSconfig and page TSconfig.
 
 ..  _concepts_user_tsconfig:
 
-=====
 User TSconfig
-=====
+=============
 
 User TSconfig is a set of configuration values that affect backend users. They can
 be set at the user level or at the backend user group level (then affecting all
@@ -26,9 +25,8 @@ frontend and not the backend).
 
 ..  _concepts_page_tsconfig:
 
-=====
 Page TSconfig
-=====
+=============
 
 Page TSconfig is a set of configuration values that affect pages.  It is set at
 the page level and affects that page and all the pages below it in the tree. The
