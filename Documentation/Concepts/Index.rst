@@ -66,6 +66,14 @@ TYPO3 Concepts
         ..  card-footer:: :ref:`Create a minimal page created by pure TypoScript <typoscript>`
             :button-style: btn btn-secondary stretched-link
 
+    ..  card:: TSconfig
+
+        TSconfig is a configuration language used to configure the
+        TYPO3 backend. It has the same syntax as TypoScript.
+
+        ..  card-footer:: :ref:`TSconfig <tsconfig>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Fluid templating
 
         Fluid is the standard templating engine that is used with TYPO3.
@@ -104,6 +112,7 @@ TYPO3 Concepts
     Extensions/Index
     Cache/Index
     TypoScript/Index
+    TSconfig/Index
     Fluid/Index
     TCA/Index
     Assets/Index
