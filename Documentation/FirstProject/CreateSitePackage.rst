@@ -30,7 +30,7 @@ To create a site package, you have two main options:
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
     
     Fill in the fields in the form, download the site package and save it
-    in the :guilabel:`packages` directory. Then require the site package using composer:
+    in the :path:`packages` directory. Then require the site package using Composer:
 
     ..  code-block:: bash
 
