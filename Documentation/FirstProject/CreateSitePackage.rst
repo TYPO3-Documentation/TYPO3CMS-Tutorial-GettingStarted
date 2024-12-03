@@ -28,6 +28,7 @@ To create a site package, you have two main options:
     handy tool. You can choose whether your site package should be based on
     the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
+    
     Fill in the fields in the form, download the site package and save it
     in the :guilabel:`packages` directory. Then require the site package using composer:
 
