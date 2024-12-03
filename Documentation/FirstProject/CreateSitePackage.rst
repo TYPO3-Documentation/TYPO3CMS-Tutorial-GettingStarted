@@ -23,12 +23,26 @@ To create a site package, you have two main options:
     the detailed instructions int the
     :ref:`TYPO3 site package tutorial <t3sitepackage:start>`.
 
-*   Using the `Sitepackage-Builder <https://www.sitepackagebuilder.com/>`__:
+*   Using the `Sitepackage-Builder <https://get.typo3.org/sitepackage/new//>`__:
     If you are looking for a faster start, the Sitepackage-Builder is a
     handy tool. You can choose whether your site package should be based on
     the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
+    
+    Fill in the fields in the form, download the site package and save it
+    in the :path:`packages` directory. Then require the site package using Composer:
 
+    ..  code-block:: bash
+
+        composer require vendor\sitepackagename
+
+    and include the sets in your `site configuration <https://docs.typo3.org/permalink/t3start:site-configuration>`_.
+
+    ..  figure:: /Images/ManualScreenshots/CreateSitePackage/SitePackageBuilder.png
+        :alt: Screenshot of the site package builder at get.typo3.org demonstrating the installation steps
+       
+       Click on "Composer-based TYPO3 installation" for the commands to install the site package
+   
 
 ..  _pros-and-cons-of-sitepackage-builder:
 
