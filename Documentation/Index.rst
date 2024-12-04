@@ -83,6 +83,7 @@ system and detailed information on how to install TYPO3.
     :hidden:
     :titlesonly:
 
+    Prerequisites/Index
     Concepts/Index
     Installation/Index
     FirstProject/Index
