@@ -21,15 +21,20 @@ system and detailed information on how to install TYPO3.
     :class: pb-4
     :card-height: 100
 
+    ..  card:: Prerequisites
+
+        In this section we mention the prerequisites that you need before
+        you start with this tutorial.
+
+        ..  card-footer:: :ref:`See the prerequisites <Prerequisites>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Concepts
 
         Written for new users, this chapter introduces some of TYPO3's core
         concepts, including the backend - TYPO3's administration interface.
 
         ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
-            :button-style: btn btn-secondary stretched-link
-
-        ..  card-footer:: :ref:`Learn more about TYPO3 Concepts <Concepts>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Installation
@@ -78,6 +83,7 @@ system and detailed information on how to install TYPO3.
     :hidden:
     :titlesonly:
 
+    Prerequisites/Index
     Concepts/Index
     Installation/Index
     FirstProject/Index
