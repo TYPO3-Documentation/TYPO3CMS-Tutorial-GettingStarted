@@ -26,13 +26,6 @@ Development
 Content elements
 ================
 
-*   Custom content elements: :composer:`mask/mask`
-
-    Mask is an extension that lets developers create custom content elements
-    with ease, directly from the TYPO3 backend. This is ideal for projects that
-    require unique, structured content elements that are easy for editors to
-    use and manage.
-
 *   Content Blocks: :composer:`friendsoftypo3/content-blocks`
 
     Content Blocks enable the creation of reusable content elements that can be
