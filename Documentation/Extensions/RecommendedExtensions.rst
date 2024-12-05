@@ -56,10 +56,3 @@ streamlined workflows, and powerful enhancements for TYPO3 development.
     TYPO3. It is straightforward to set up and integrates well with TYPO3's
     core, making it a great solution for sites that require basic search
     without additional configuration.
-
-*   Elasticsearch Integration: :composer:`elasticsearch/elasticsearch`
-
-    Elasticsearch integration for TYPO3 provides a connection to the
-    Elasticsearch engine, known for its high-speed search capabilities and
-    scalability. This extension is ideal for large-scale websites or
-    applications that demand robust search functionality.
