@@ -13,15 +13,7 @@ your computer.
 This TYPO3 tutorial assumes that the reader has some basic knowledge in the following areas:
 
 *   `HTML, CSS and JavaScript <https://www.w3schools.com/html/default.asp>`__
-*   `PHP <https://www.w3schools.com/php/default.asp>`__
-*   Basic CLI Commands
-
-..  _roadmap:
-
-What you will learn in this tutorial
-====================================
-
-
+*   `Basic Command Line Interface (CLI) Commands <https://www.w3schools.com/whatis/whatis_cli.asp>`__
 
 ..  _composer_cheat_sheat:
 
@@ -32,42 +24,54 @@ Composer is a powerful tool for managing dependencies in PHP projects, including
 TYPO3. Here you will find an overview of the four most important commands with a
 simple explanation of what they do.
 
-#.  composer require
+..  _composer_require:
 
-    ..  code-block:: bash
+composer require
+----------------
 
-        composer require vendor/extension-name
+..  code-block:: bash
 
-    It installs a new package (e.g. a TYPO3 extension) and automatically adds it to your :guilabel:`composer.json`.
-    Composer determines the appropriate version based on your current configuration.
-    All required dependencies for the package are also installed.
+    composer require vendor/extension-name
 
-#.  composer remove
+It installs a new package (e.g. a TYPO3 extension) and automatically adds it to your :guilabel:`composer.json`.
+Composer determines the appropriate version based on your current configuration.
+All required dependencies for the package are also installed.
 
-    ..  code-block:: bash
+..  _composer_remove:
 
-        composer remove vendor/extension-name
+composer remove
+---------------
 
-    Uninstalls an existing package from your project.
-    Removes the entry from :guilabel:`composer.json` and deletes related files from the
-    :guilabel:`vendor` folder.
-    Removes unused dependencies that were only required fro the removed package.
+..  code-block:: bash
 
-#.  composer install
+    composer remove vendor/extension-name
 
-    ..  code-block:: bash
+Uninstalls an existing package from your project.
+Removes the entry from :guilabel:`composer.json` and deletes related files from the
+:guilabel:`vendor` folder.
+Removes unused dependencies that were only required fro the removed package.
 
-        composer install
+..  _composer_install:
 
-    It installs exactly the versions specified in the :guilabel:`composer.lock` file.
+composer install
+----------------
 
-#.  composer update
+..  code-block:: bash
 
-    ..  code-block:: bash
+    composer install
 
-        composer update
+It installs exactly the versions specified in the :guilabel:`composer.lock` file.
 
-    It updates all installed packages to their latest version, as allowed by the version constraints in :guilabel:`composer.json`.
-    The :guilabel:`composer.lock` file, which records the exact package versions, is updated.
-    Downloads the updated packages to the :guilabel:`vendor` folder.
+..  _composer_update:
+
+composer update
+---------------
+
+..  code-block:: bash
+
+    composer update
+
+It updates all installed packages to their latest version, as allowed by the version constraints in :guilabel:`composer.json`.
+The :guilabel:`composer.lock` file, which records the exact package versions, is updated.
+Downloads the updated packages to the :guilabel:`vendor` folder.
 
