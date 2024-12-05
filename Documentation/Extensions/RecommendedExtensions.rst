@@ -9,7 +9,7 @@ Recommended Extensions
 Here's a selection of recommended extensions that provide essential features,
 streamlined workflows, and powerful enhancements for TYPO3 development.
 
-.. _development-extensions:
+..  _development-extensions:
 
 Development
 ===========
@@ -21,7 +21,7 @@ Development
     extensions and system maintenance from the command line, making it an
     essential tool for automated workflows.
 
-.. _content-elements:
+..  _content-elements:
 
 Content elements
 ================
@@ -46,7 +46,7 @@ Content elements
     group multiple content elements into a container. This helps organize page
     layouts more flexibly, especially useful for responsive or complex designs.
 
-.. _news-extension:
+..  _news-extension:
 
 News
 ====
