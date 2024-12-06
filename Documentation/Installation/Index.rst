@@ -13,6 +13,7 @@ Installation
     :titlesonly:
 
     SystemRequirements/Index
+    Version
     Install
     DeployTYPO3
     ApplicationContext
@@ -29,6 +30,11 @@ Installation
         System requirements for the host operating system, including its web
         server and database and how they should be configured prior to
         installation.
+
+    ..  card:: :ref:`Version <typo3-version>`
+
+        This chapter helps you choose the best TYPO3 version to start with and
+        provides resources for getting it.
 
     ..  card:: :ref:`Installing TYPO3 <install>`
 
