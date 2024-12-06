@@ -7,6 +7,11 @@
 First project setup
 ===================
 
+In this chapter you will:
+
+*   create a new site and set up its basic structure
+*   create and integrate a custom site package
+
 ..  card-grid::
     :columns: 1
     :columns-md: 2
