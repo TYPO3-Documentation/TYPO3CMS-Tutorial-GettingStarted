@@ -8,40 +8,53 @@
 Next Steps and Further Reading
 ==============================
 
-Once TYPO3 is installed, it is now possible to start the process of developing
-the site's visual appearance and creating pages and content inside the CMS.
+After learning the basics of TYPO3, you're ready to dive into advanced topics and best practices.
+This section provides an overview of the next steps to deepen your TYPO3 expertise and ensure
+your projects are professional and sustainable.
 
-:doc:`Building The Sites Structure And Adding Content <t3editors:Index>`
-========================================================================
+..  _next-steps-testing:
 
-Using the Page tree - start to define the structure of your site by creating pages.
+Testing in TYPO3: Unit and Functional Test
+==========================================
 
-Pages can exist in various forms and can also be nested inside one and other.
+Testing ensures that changes to your code do not cause unexpected side effects and that your TYPO3 installation remains reliable.
+TYPO3 offers robust tools for Unit and Functional Testing.
 
-Once the page structure exists content can now be added to the pages.
+See `here <https://docs.typo3.org/permalink/t3coreapi:testing>`_ for more information.
 
-Developing The Sites Visual Appearance
-======================================
+..  _next-steps-codings-guidelines:
 
-There are two main topics that cover templating in TYPO3, Fluid and Site packages.
+Coding Guidelines
+=================
 
-:ref:`Fluid Templating <t3sitepackage:fluid-templates>`
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Following coding guidelines (CGL) ensures your code is consistent, readable and maintaineble.
+TYPO3 adheres to strict standards for PHP, TypoScript and JavaScript.
 
-Fluid is TYPO3’s templating engine. Fluid acts as the link between a project's
-static HTML templates and the content that is created in TYPO3’s backend.
+More information about CGL can be found `here <https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/CodingGuidelines/Index.html>`_.
 
-:doc:`Site Packages <t3sitepackage:Index>`
-++++++++++++++++++++++++++++++++++++++++++
+..  _next-steps-rte-config:
 
-Site packages are a type of extension that act as a storage point for a projects
-frontend assets and any configuration files that extend or change
-the behaviour of a TYPO3 installation.
+Rich Text Editor Configuration
+==============================
 
-Before the development of a sites visual appearance or "theme" can start, a Site
-package needs to be created in order to store frontend assets such as
-Fluid/HTML,CSS,Javascript files. Once they are located within a Site package they
-can then be loaded by TYPO3 to render the frontend.
+The Rich Text Editor (RTE) in TYPO3 enables content creation and editing in the
+backend. Custom configurations can improve usability and consistency.
+It can be configured using `TypoScript <https://docs.typo3.org/permalink/t3tsref:guide>`_
+and :doc:`YAML <t3coreapi:Configuration/Yaml/Index#yaml>`.
+
+You can find more information `here <https://daniel-siepmann.de/typo3-rte-for-input-fields.html>`__.
+
+..  _next-steps-multilanguage:
+
+Multilanguage Handling
+======================
+
+TYPO3 provides powerful tools for multilingual websites.
+See here for further information.
+
+For more details see :ref:`here <t3editors:languages>`.
+
+..  _next-steps-security:
 
 Keep Security In Mind
 =====================
@@ -53,3 +66,13 @@ are regularly published.
 
 More information about security can be found in the
 :ref:`t3coreapi:security`.
+
+..  _next-steps-contributing:
+
+Contributing
+============
+
+Giving back to the TYPO3 community is a great way to grow as a developer and
+ensure TYPO3 continues to evolve.
+
+Look here for more information about `contributing <https://typo3.org/community/contribute>`_
