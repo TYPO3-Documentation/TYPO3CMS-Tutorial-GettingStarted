@@ -57,23 +57,6 @@ path with the following content:
 ..  literalinclude:: _ApplicationContext/_docker-compose.context.yaml
     :caption: [project root]/.ddev/docker-compose.context.yaml
 
-..  Hint::
-    Starting from `Docker Compose 1.27.0`, the version attribute in `docker-compose.context.yaml` 
-    files has been deprecated and is no longer required. Docker Compose now automatically 
-    selects the appropriate version based on the configuration and features used in your file.
-
-
-Example (If you're using Docker Compose 1.27.0 or newer)
-
-..  code-block:: bash
-
-    services:
-      web:
-        environment:
-          - TYPO3_CONTEXT=Development/Local
-
-.. _development-settings:
-
 Restart DDEV using
 
 ..  code-block:: bash
