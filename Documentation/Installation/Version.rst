@@ -3,7 +3,7 @@
 .. _typo3-version:
 
 ================================
-TYPO3 Version and which to start
+TYPO3 version and which to start
 ================================
 
 To get started with TYPO3, it’s recommended to use the latest Long-Term Support
