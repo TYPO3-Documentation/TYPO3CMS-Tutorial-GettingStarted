@@ -97,3 +97,24 @@ need some experience in PHP programming and dealing with databases etc.
 
     Other content management systems like wordpress use the word "plugin" to
     describe what we call an :ref:`extension <concepts-extensions>` in TYPO3.
+
+..  _preview-page:
+
+How to preview a page
+=====================
+
+The preview function in TYPO3 allows you to check pages before publishing them.
+
+#.  Preview from the Page Module
+
+    *   You can preview the page by clicking on the desired page in the page
+        tree. Click the ´show´ icon. The page will open in a new tab.
+
+    ..  figure:: /Images/ManualScreenshots/Backend/previewMenue.png
+
+#.  Preview button in the top bar
+
+    *   You can preview the page via clicking the button in the top bar right
+        next to the saving button.
+
+    ..  figure:: /Images/ManualScreenshots/Backend/previewButton.png
