@@ -107,14 +107,14 @@ The preview function in TYPO3 allows you to check pages before publishing them.
 
 #.  Preview from the Page Module
 
-    *   You can preview the page by clicking on the desired page in the page
-        tree. Click the ´show´ icon. The page will open in a new tab.
+    *   You can preview a page by clicking the page icon of the desired page in
+        the page tree. Click the ´show´ icon in the appearing context menu.
+        The page will open in a new tab.
 
     ..  figure:: /Images/ManualScreenshots/Backend/previewMenue.png
 
 #.  Preview button in the top bar
 
-    *   You can preview the page via clicking the button in the top bar right
-        next to the saving button.
+    *   You can preview the page via clicking the button in the top bar.
 
     ..  figure:: /Images/ManualScreenshots/Backend/previewButton.png
