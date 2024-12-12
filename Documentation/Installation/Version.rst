@@ -1,6 +1,6 @@
 :navigation-title: TYPO3 Version
-.. include:: /Includes.rst.txt
-.. _typo3-version:
+..  include:: /Includes.rst.txt
+..  _typo3-version:
 
 ================================
 TYPO3 version and which to start
