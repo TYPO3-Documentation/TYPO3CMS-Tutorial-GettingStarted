@@ -6,7 +6,7 @@
 TYPO3 version and which to start
 ================================
 
-To get started with TYPO3, it’s recommended to use the latest Long-Term Support
+To get started with TYPO3, it’s recommended to use the latest Long Term Support
 (LTS) version. LTS versions are stable, widely used and supported for an extended
 period, making them ideal for beginners and production environments.
 
