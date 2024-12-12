@@ -14,10 +14,8 @@ Maintaining TYPO3
 When and why should we perform TYPO3 updates?
 =============================================
 
-With the newest version of TYPO3 the TYPO3 core developers present you the best
-version of TYPO3 CMS currently available on the market. It has the newest security features and the
-most amount of useful features. That is why you should always want to have your
-TYPO3 instances on the newest version possible. Another advantage is that you get free security fixes.
+With the newest version of TYPO3 you receive free bugfixes and free security patches
+for at least three years from the time of the first LTS minor (for example v13.1) release.
 
 In TYPO3 however, we follow a specific cycle which usually takes 1.5 years long. Every
 1 and a half year a new TYPO3 version occurs. You can follow the cycle `here <https://typo3.org/cms/roadmap>`__.
@@ -36,8 +34,20 @@ bugs - so it is the **bug fixing phase**. The light orange area corresponds to t
 you want to get further bugfixes you have to book an
 `extended support <https://typo3.com/services/extended-support-elts>`__ which usually costs money.
 
-In the following we look a bit deeper into the types of updates. Otherwise, when you feel safe with the concepts you
-can use the :ref:`Upgrade Guide <t3coreapi:upgrading>` as a general or later reference to perform updates.
+Before we look a bit deeper into the :ref:`types of updates <getting-started-major-minor-patchlevel-updates>`
+we summaries how a TYPO3 user should act with respect to TYPO3 updates:
+
+* When a new major LTS version is released, users **should** focus on updating to this version as soon as possible.
+* When a new minor version is released, users **must** update to the new minor version, since the previous minor version is **not** supported any more.
+* When a new patch level version is released, users should always update to the new version, because it contains important bugfixes and security fixes (if announced). Here you find the `security advisories <https://typo3.org/help/security-advisories>`__.
+
+Additionally, users should take care of updated extensions on a regular schedule
+in order to use the most recent versions.
+
+When you feel safe with the concepts of TYPO3 updates you can in general use
+this :ref:`Upgrade Guide <t3coreapi:upgrading>`.
+
+Now we explain the types of updates.
 
 ..  _getting-started-major-minor-patchlevel-updates:
 
@@ -100,35 +110,17 @@ information we refer to the :ref:`Patch/Bugfix update guide<t3coreapi:minor>`.
 Extension updates
 =================
 
-In a TYPO3 instance you have usually have third party extensions installed. When you update your TYPO3 version you
+In a TYPO3 instance you have usually third party extensions installed. When you update your TYPO3 version you
 have to update the third party extensions too. In the **TYPO3 Extension Repository (TER)** you can enter the name of
 that extension and get information about supported TYPO3 versions. You find the TER `here <https://extensions.typo3.org/>`__.
-You will recognize that some extension developers stopped developing their extension further. We recommend that you only
-use third party extensions that are still supported.
+Some extension authors prefer to only publish their extensions on `packagist <https://packagist.org/packages/typo3/>`__.
+When the extension does not exist for the current TYPO3 version you can create an
+issue or search for an alternative extension offering the same functionality.
+For example the `gridelements extension<https://extensions.typo3.org/extension/gridelements>`__
+was replaced by the `container extension<https://extensions.typo3.org/extension/container>`__, both
+having equal functionalities.
 
 Useful commands to simplify the updates of extensions can be found in the :ref:`Upgrade extensions guide <t3coreapi:upgradingextensions>`.
-
-..  _getting-started-cronjobs:
-
-Cron jobs
-=========
-
-You can use cron jobs to do tasks that occur repeated. The backend module called
-:ref:`TYPO3 Scheduler <typo3/cms-scheduler:start>` can be used to perform a cronjob that you defined previously.
-In your terminal you can type
-
-
-..  code-block:: shell
-    :caption: Create or open the crontab
-
-    crontab -e
-
-to create a new job on unix-like operating systems. In :ref:`Setting up the cron job <typo3/cms-scheduler:cron-job>` you can
-see how this works. Normally you have to define the time interval in which the job should be performed frequently. To
-test your pattern you can insert it `here <https://crontab.guru/>`__ and test if it performs like you expect. When you
-are not familiar with cron jobs we refer to https://en.wikipedia.org/wiki/Cron. With a cron job you can for example
-create a fal cleanup or a sys history cleanup.
-
 
 ..  _getting-started-deprecations:
 
@@ -153,21 +145,8 @@ the scope in which you want to perform deprecation replacements. For both extens
 exist can find the respective deprecation. Here is an overview about the
 `existing rector rules <https://github.com/sabbelasichon/typo3-rector/blob/main/docs/all_rectors_overview.md>`__.
 When a rule is missing you can't find the deprecation. Check `here <https://getrector.com/find-rule>`__ if your desired
-rector rule exists already. When you feel able to create your own rector or fractor rule and want to publish it to the
-TYPO3 community, everyone using these tools would be happy to profit from your effort.
-
-..  _getting-started-logfile-rotations:
-
-Log file rotations
-==================
-
-
-..  _getting-started-sys-log:
-
-Sys log
-=======
-
-We have to take care of sys_log errors.
+rector rule exists already.  If you feel able to create your own rector or fractor rule and want to share it with the TYPO3
+community, everyone using these tools would be happy to benefit from your efforts.
 
 ..  _getting-started-language-updates:
 
@@ -176,4 +155,4 @@ Language updates
 
 After a TYPO3 update you have to update your translations. We refer to the article
 :ref:`Update backend translations <t3coreapi:update_backend_translation>`. You have to update the language packs that
-you are using.
+you are using after each TYPO3 update.
