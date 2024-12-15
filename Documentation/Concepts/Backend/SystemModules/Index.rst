@@ -6,7 +6,7 @@
 System modules
 ==============
 
-System modules are backend modules in the group "System" 
+System modules are backend modules in the group "System"
 and they are only available to backend users with
 admin permissions.
 
@@ -21,10 +21,10 @@ full TYPO3 install, see `https://get.typo3.org/misc/composer/helper`__.
 Permissions
 ===========
 
-In TYPO3, you can grant permissions to backend users. 
-At first, a newly created backend user without any administrative 
-privileges has no access to neither the page module nor the 
-pages in the backend.    
+In TYPO3, you can grant permissions to backend users.
+At first, a newly created backend user without any administrative
+privileges has no access to neither the page module nor the
+pages in the backend.
 The module :guilabel:`System > Permissions` can be used to view or edit
 these backend user permissions for pages in the backend.
 
@@ -78,6 +78,27 @@ This module is only available if the system extension
 The Scheduler supports one-time or periodic execution of tasks that can be
 delivered by any extension. It has its own manual:
 :ref:`TYPO3 Scheduler <typo3/cms-scheduler:start>`.
+
+..  _system-modules-scheduler-cronjobs:
+
+Cron jobs in Scheduler
+----------------------
+
+The backend module called :ref:`TYPO3 Scheduler <typo3/cms-scheduler:start>` can
+be used to perform a cron job that you defined previously. In your terminal you
+can type
+
+..  code-block:: shell
+    :caption: Create or open the crontab
+
+    crontab -e
+
+to create a new job on unix-like operating systems. In
+:ref:`Setting up the cron job <typo3/cms-scheduler:cron-job>` you can see how
+this works. Normally you have to define the time or a time interval in which the
+job should be performed once or frequently. To test your pattern you can insert
+it `here <https://crontab.guru/>`__ and test if it performs like you expect.
+When you are not familiar with cron jobs we refer to https://en.wikipedia.org/wiki/Cron.
 
 .. _system-modules-dbcheck:
 
