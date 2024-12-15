@@ -103,7 +103,7 @@ Glossary
         easy to start developing, testing, and managing TYPO3 projects without complex configuration.
 
     Deployment
-        :ref:`Deployment <t3start:deployment>` refers to the process of transferring your website’s code, content, and settings from a
+        :ref:`Deployment <deployment>` refers to the process of transferring your website’s code, content, and settings from a
         development environment to a live server, making it accessible to users online.
 
     Debug mode
