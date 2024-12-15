@@ -85,7 +85,8 @@ Cron jobs in Scheduler
 ----------------------
 
 The backend module called :ref:`TYPO3 Scheduler <typo3/cms-scheduler:start>` can
-be used to perform a cron job that you defined previously. In your terminal you
+be used to perform a task that you defined previously in the scheduler.
+The scheduler can be triggered by a cron job. In your terminal you
 can type
 
 ..  code-block:: shell
