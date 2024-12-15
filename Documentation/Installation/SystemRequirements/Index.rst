@@ -8,7 +8,7 @@
 System requirements
 ===================
 
-For up-to-date information about TYPO3's system requirements visit `get.typo3.org
-<https://get.typo3.org/version/#system-requirements>`_.
+You will need a webserver, an up-to-date version of PHP and an SQL database. See
+here which versions of TYPO3 are current and their requirements
+`get.typo3.org <https://get.typo3.org/version/#system-requirements>`_.
 
-..  todo: Add more basic information
