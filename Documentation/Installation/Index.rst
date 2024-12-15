@@ -17,6 +17,7 @@ Installation
     Install
     DeployTYPO3
     ApplicationContext
+    Updates/Index
 
 ..  card-grid::
     :columns: 1
@@ -40,6 +41,11 @@ Installation
 
         This is a step-by-step guide detailing how to install TYPO3 for local
         development using DDEV, Docker and Composer.
+
+    ..  card:: :ref:`TYPO3 Updates <getting-started-typo3-updates>`
+
+        Here we explain the cycle of TYPO3 updates, and show you why and when
+        a TYPO3 update is useful.
 
     ..  card:: :ref:`Deploying TYPO3 <DeployTYPO3>`
 
