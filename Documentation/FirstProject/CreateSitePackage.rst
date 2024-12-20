@@ -28,7 +28,7 @@ To create a site package, you have two main options:
     handy tool. You can choose whether your site package should be based on
     the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
-    
+
     Fill in the fields in the form, download the site package and save it
     in the :path:`packages` directory. Then require the site package using Composer:
 
@@ -40,9 +40,9 @@ To create a site package, you have two main options:
 
     ..  figure:: /Images/ManualScreenshots/CreateSitePackage/SitePackageBuilder.png
         :alt: Screenshot of the site package builder at get.typo3.org demonstrating the installation steps
-       
+
        Click on "Composer-based TYPO3 installation" for the commands to install the site package
-   
+
 
 ..  _pros-and-cons-of-sitepackage-builder:
 
