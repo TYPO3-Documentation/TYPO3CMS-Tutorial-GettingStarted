@@ -53,5 +53,3 @@ Since TYPO3 documentation can now be edited by the TYPO3 community collaborative
 a number of other people have made changes and improved this tutorial. You can see
 the `list of contributors on GitHub
 <https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/graphs/contributors>`__.
-
-
