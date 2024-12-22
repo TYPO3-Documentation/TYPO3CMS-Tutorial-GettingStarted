@@ -16,4 +16,3 @@ not. You can also so set how many levels down the page tree you
 wish to analyze.
 
 .. include:: /Images/AutomaticScreenshots/Modules/LocalizationOverview.rst.txt
-
