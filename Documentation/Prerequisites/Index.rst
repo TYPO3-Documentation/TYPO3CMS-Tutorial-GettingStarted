@@ -74,4 +74,3 @@ composer update
 It updates all installed packages to their latest version, as allowed by the version constraints in :guilabel:`composer.json`.
 The :guilabel:`composer.lock` file, which records the exact package versions, is updated.
 Downloads the updated packages to the :guilabel:`vendor` folder.
-
