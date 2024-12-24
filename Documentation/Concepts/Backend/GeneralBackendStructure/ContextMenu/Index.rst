@@ -22,4 +22,3 @@ For example, there's a contextual menu in the **WEB > List** view:
 or in the **FILE > Filelist** view:
 
 .. include:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.rst.txt
-

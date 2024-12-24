@@ -118,10 +118,3 @@ TYPO3 Concepts
     Assets/Index
     */Index
     *
-
-
-
-
-
-
-
