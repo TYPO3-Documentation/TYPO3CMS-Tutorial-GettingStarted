@@ -16,6 +16,9 @@ DDEV is used for local development only.
 
 ..  youtube:: HW7J3G1SqZw
 
+..  note::
+    Like TYPO3, DDEV is open source software that exists because of the generosity of community members and sponsors. Read more about `how to support DDEV <https://ddev.com/support-ddev/>`__.
+
 Pre-Installation Checklist
 --------------------------
 
