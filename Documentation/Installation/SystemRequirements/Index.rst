@@ -14,5 +14,5 @@ here which versions of TYPO3 are current and their requirements
 
 ..  seealso::
     Advanced information on which PHP configuration and extensions are required and suggested,
-    how to configure the webserver and database etc can be found in 
+    how to configure the webserver and database etc can be found in
     `TYPO3 Explained, System Requirements <https://docs.typo3.org/permalink/t3coreapi:system-requirements>`_.
