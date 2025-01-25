@@ -11,6 +11,10 @@ The following errors can happen during backend login:
 
 ..  contents::
 
+..  tip::
+    `Creating a TYPO3 backend administrator <https://docs.typo3.org/permalink/t3start:backend-users-admin-creation>`_
+    is a solution if you lost the password or user name of your administrator account.
+
 ..  _troubleshooting-login-reload:
 
 Login page reloads without error
@@ -31,7 +35,7 @@ Login page reloads without error
 ===========================
 
 *   Check if the username and password are correct.
-*   Try to create a :ref:`new administrative user <t3coreapi:troubleshooting-backend-admin-password>`
+*   Try to `Create a new backend administrator <https://docs.typo3.org/permalink/t3start:backend-users-admin-creation>`_
     and use that one.
 
 ..  _troubleshooting-login-white-screen:
