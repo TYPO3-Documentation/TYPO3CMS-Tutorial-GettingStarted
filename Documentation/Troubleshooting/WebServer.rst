@@ -18,7 +18,7 @@ You can find detailed information on the following topics in TYPO3 Explained:
 
     ..  card:: :ref:`TYPO3 <t3coreapi:troubleshooting-typo3>`
 
-        *   :ref:`Reset Backend Administrative User Passwords <t3coreapi:troubleshooting-backend-admin-password>`
+        *   `Creating a TYPO3 backend administrator <https://docs.typo3.org/permalink/t3start:backend-users-admin-creation>`_
         *   :ref:`Reset The Install Tool Password <t3coreapi:troubleshooting-install-tool-password>`
         *   :ref:`Enabling Debug Mode <t3coreapi:troubleshooting-debug-mode>`
         *   :ref:`Caching <t3coreapi:troubleshooting-caching>`
