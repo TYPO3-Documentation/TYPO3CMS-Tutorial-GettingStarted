@@ -215,8 +215,8 @@ Glossary
 
     Partial
         A partial is a small or large HTML code snippet that can be used
-        often and in multiple places. Here we
-        :ref:`split up the template into partials <t3sitepackage:partials>`.
+        often and in multiple places. Here we explain it within
+        :ref:`the page layout file <t3sitepackage:the-page-layout-file>`.
 
     Public
 
