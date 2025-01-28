@@ -67,7 +67,7 @@ also be a system maintainer, answer yes during the prompt.
 Using the backend module "Backend Users" to create admins
 ---------------------------------------------------------
 
-The first administrator got created for you during installation
+The first administrator got created for you during
 `Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_.
 
 When you log into the backend (See `Backend login <https://docs.typo3.org/permalink/t3start:backend-login>`_)
