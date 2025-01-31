@@ -14,7 +14,6 @@ The Editors Guide describes how to
 Do not store :ref:`assets <assets>` needed for your theme here. Store these in
 the folder :path:`Resources/Public` of your :ref:`site package <creating-a-site-package>`
 or another :ref:`extension <create-own-extension>`.
-leuchtfeuer/secure-downloads
 
 .. _file-module-fileadmin:
 
