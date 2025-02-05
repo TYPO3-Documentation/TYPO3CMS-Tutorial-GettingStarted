@@ -33,8 +33,8 @@ TCA is used to:
     field to only accept numeric values or enforce a specific character limit.
 *   TCA supports defining relationships between tables, such as one-to-one, one-to-many, and many-to-many relations.
     It manages how records from related tables are linked and displayed in the backend.
-*   TCA, you can control which fields and records are editable, based on user roles and permissions.
-*   Extend existing tables and create new ones with custom field definitions
+*   TCA handles which fields and records are editable, based on user roles and permissions.
+*   TCA extends existing tables and creates new ones with custom field definitions
 
 For example, when you create a new content element or extend an existing one,
 you define the fields using TCA in the Configuration/TCA directory of your extension.
