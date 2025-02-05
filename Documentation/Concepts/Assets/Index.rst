@@ -54,11 +54,11 @@ Assets in extensions and site packages
 Assets usually include CSS files, JavaScript and images / icons used for design
 purposes.
 
-Within an extension, including a site package, they can only be placed in folder
-:path:`Resources/Public` and subfolders of this folder.
+Within an extension, including a site package, they can only be placed in the
+:path:`Resources/Public` folder and subfolders of this folder.
 
 During Composer installation the :path:`Resources/Public` directories of all
-installed extensions are symlinked into the webroot, folder :path:`public/_assets`.
+installed extensions are symlinked into the :path:`public/_assets` webroot folder.
 For security reasons the folders in :path:`public/_assets` have hashed names.
 
 ..  note::
