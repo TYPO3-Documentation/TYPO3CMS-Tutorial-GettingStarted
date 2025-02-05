@@ -13,5 +13,5 @@ API.
 This module handles
 :ref:`Reporting of violations of the Content Security
 Policy <t3coreapi:content-security-policy-reporting>`. It is always available
-but can only be:ref:`accessed via the backend <t3start:admin-tools-access>`,
+but can only be :ref:`accessed via the backend <t3start:admin-tools-access>`,
 not the Install Tool.
