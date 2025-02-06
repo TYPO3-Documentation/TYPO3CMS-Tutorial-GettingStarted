@@ -41,3 +41,7 @@ backend.
 
         Create personal administrator accounts and mange them. Grant
         System Maintainer permissions to administrators.
+
+    ..  card:: `Backend Groups <https://docs.typo3.org/permalink/t3start:backend-users-groups>`_
+
+        Use backend user groups to manage permissions of your editors.
