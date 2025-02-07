@@ -124,7 +124,7 @@ Wrap "Hello, world." in p-tags
 6.  We use the :confval:`stdWrap <t3tsref:text-stdwrap>` property of the TEXT
     object to configure the :ref:`stdWrap <t3tsref:stdwrap>` function.
 
-    In this function we use the option wrap :confval:`wrap <t3tsref:stdwrap-wrap>`.
+    In this function we use the option :confval:`wrap <t3tsref:stdwrap-wrap>`.
     It surrounds the current content of the TEXT object as set in line 5 with
     the value defined here. The pipe `|` character is replaced by the text that corresponds to the value property.
 
