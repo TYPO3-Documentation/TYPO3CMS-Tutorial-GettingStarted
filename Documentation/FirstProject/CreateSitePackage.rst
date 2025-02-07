@@ -20,7 +20,7 @@ How to create a site package
 To create a site package, you have two main options:
 
 *   Manual creation: For full control over your project's setup, you can follow
-    the detailed instructions int the
+    the detailed instructions in the
     :ref:`TYPO3 site package tutorial <t3sitepackage:start>`.
 
 *   Using the `Sitepackage-Builder <https://get.typo3.org/sitepackage/new//>`__:
