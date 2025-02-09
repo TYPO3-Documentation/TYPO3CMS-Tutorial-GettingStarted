@@ -51,18 +51,18 @@ Grant access to the user_upload folder (file mounts)
 
 The :ref:`automatically created user groups <backend-users-groups-quick>` from
 the previous step have access to the :guilabel:`Filelist` module, however, as
-file mount is created automatically they will only see an error message:
+file mount is created automatically, they will only see an error message:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/MissingFolderPermissions.png
     :alt: Error message: Missing folder permissions. You have no access to the folder "1:/user_upload/".
 
     Error message when a user with the auto-generated groups opens the Filelist module
 
-Unless your users or their groups have at least one file mount they will, not be
+Unless your users or their groups have at least one file mount they will not be
 able to upload files including images.
 
-To create a file mount go to the backend module :guilabel:`File > Filelist`
-then choose folder in for which you want to create a file mount.
+To create a file mount, go to the backend module :guilabel:`File > Filelist`
+then choose the folder in which you want to create a file mount.
 
 Right click on the folder in the directory tree and choose "New Filemount"
 from the context menu:
@@ -75,8 +75,8 @@ from the context menu:
 Then go to the module :guilabel:`System > Backend Users`, choose "Backend user
 groups" from the dropdown in the module header and edit the group of your users.
 
-In tab "Mounts and Workspaces", select field "File Mounts" choose the newly
-created file mount on the right to add it to the left side. After saving
+In tab "Mounts and Workspaces", select field "File Mounts", choose the newly
+created file mount on the right to add it to the left side. After saving,
 backend users belonging to that group should be able to upload files.
 
 ..  _backend-users-groups-manual:
@@ -89,7 +89,7 @@ in the Backend User module, refer to
 `Setting up User Permissions <https://docs.typo3.org/permalink/t3coreapi:setting-up-user-permissions>`_.
 
 ..  note::
-    Incomplete backend permissions can lead to strange behaviour and even
+    Incomplete backend permissions can lead to strange behaviour and
     exceptions in the backend. Simulate a backend user and test their permissions
     thoroughly.
 
@@ -99,16 +99,16 @@ Backend user groups and page permissions
 ========================================
 
 Similar to a UNIX file system where each file belongs to exactly one user and
-group each page in the page tree also belongs to one user (usually the one who
+group, each page in the page tree also belongs to one user (usually the one who
 created it) and one group (the first group of that user).
 
-This can lead to problems because administrators often belong to no user group
-and then the created pages will also belong to no group.
+This can lead to problems because administrators often do not belong to a user group
+and then the created pages will also not belong to a group.
 
 This leads to the situation that even though your editor has the right to see
 the page tree "Backend user group > Mounts and Workspaces > DB Mounts" and they
-have the other necessary permissions they still cannot see any pages because the
-root page was create by an administrator and belongs to no group.
+have the other necessary permissions, they still cannot see any pages because the
+root page was created by an administrator and does not belong to a group.
 
 You can fix such page permissions recursively in the module :guilabel:`System >
 Permissions`.
@@ -139,14 +139,14 @@ Technical details
 =================
 
 Backend user groups and their permissions are stored in the database table
-:sql:`be_groups`. At the time of writing there is no official solutions for
-deployable backend user rights. You can however use the export / import module
+:sql:`be_groups`. At the time of writing there are no official solutions for
+deployable backend user rights. You can, however, use the export / import module
 to export and import backend user groups.
 
 Backend user groups are database records that are stored on the virtual root
-page (uid=0). They can therefore also be viewed an edited in the list module.
+page (uid=0). They can therefore also be viewed and edited in the list module.
 
 Backend user groups can inherit from one or several other user groups. In such
 a setting it is possible to grant additional permissions of the parent user
-group. It is however not possible to reduce the permissions of the parent user
+group. It is, however, not possible to reduce the permissions of the parent user
 group.
