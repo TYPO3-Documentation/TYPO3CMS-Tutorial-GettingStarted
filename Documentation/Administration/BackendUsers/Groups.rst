@@ -38,11 +38,11 @@ These two user groups can be auto-created by the following TYPO3 console command
 
             vendor/bin/typo3 setup:begroups:default -g Both
 
-There is as of date now way to create these groups using the backend or install
+There is, as of date now, a way to create these groups using the backend or install
 tool API (See open issue https://forge.typo3.org/issues/106098 ).
 
 The `TYPO3 Editors Guide <https://docs.typo3.org/permalink/t3editors:start>`_
-expects that your user belongs to one of these two groups with some additions.
+expects that your user belongs to one of these two groups, with some additions.
 
 ..  _backend-users-groups-upload:
 
@@ -50,7 +50,7 @@ Grant access to the user_upload folder (file mounts)
 ====================================================
 
 The :ref:`automatically created user groups <backend-users-groups-quick>` from
-the previous step have access to the :guilabel:`Filelist` module, however as
+the previous step have access to the :guilabel:`Filelist` module, however, as
 file mount is created automatically they will only see an error message:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/MissingFolderPermissions.png
