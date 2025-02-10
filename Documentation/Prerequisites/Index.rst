@@ -49,7 +49,7 @@ composer remove
 Uninstalls an existing package from your project.
 Removes the entry from :guilabel:`composer.json` and deletes related files from the
 :guilabel:`vendor` folder.
-Removes unused dependencies that were only required fro the removed package.
+Removes unused dependencies that were only required for the removed package.
 
 ..  _composer_install:
 
