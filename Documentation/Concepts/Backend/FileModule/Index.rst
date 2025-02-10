@@ -47,12 +47,12 @@ All media and download files managed in the Filelist module are managed via
 an abstraction layer. You can find the documentation of this layer in TYPO3
 Explained, chapter :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>`.
 
-On uploading, each file get a unique identifier assigned to
+On uploading, each file gets a unique identifier assigned to
 it. This identifier is used to link to files and also to attach meta data to
 them.
 
 This allows your editors to rename and move files without breaking the frontend.
-It also allows to test weather a file is still being used on deletion and to
+It also allows to test whether a file is still being used on deletion and to
 automatically delete unused media if desired.
 
 However you can only use the full power of the FAL if you do not link directly
