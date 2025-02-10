@@ -35,7 +35,7 @@ you want to get further bugfixes you have to book an
 `extended support <https://typo3.com/services/extended-support-elts>`__ which usually costs money.
 
 Before we look a bit deeper into the :ref:`types of updates <getting-started-major-minor-patchlevel-updates>`
-we summaries how a TYPO3 user should act with respect to TYPO3 updates:
+we summarize how a TYPO3 user should act with respect to TYPO3 updates:
 
 * When a new major LTS version is released, users **should** focus on updating to this version as soon as possible.
 * When a new minor version is released, users **must** update to the new minor version, since the previous minor version is **not** supported any more.
