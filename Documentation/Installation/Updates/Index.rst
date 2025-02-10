@@ -88,7 +88,7 @@ Minor updates
 -------------
 
 Minor changes - `11.*.2`: For example 11.5 has new functionalities compared to
-11.4. The version 11.5 is compatible with 11. So withing a version like major
+11.4. The version 11.5 is compatible with 11. So within a version like major
 11 the steps do not lead to breaking changes. For example in version 13.3
 compared to version 13.2 a new
 :ref:`Feature: #101252 - Introduce ErrorHandler for 403 errors with redirect option <changelog:feature-101252-1715447531>`
