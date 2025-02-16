@@ -60,8 +60,8 @@ you will learn how to create a root page in TYPO3 v13.
 #.  Save the page
 
     Once you have filled in the necessary information and selected the
-    "Use as Root Page" option, click the Save button at the top of the form.
-    Your new root page will now appear in the page tree on the left.
+    "Use as Root Page" option, click the "Save" button at the top of the
+    form. Your new root page will now appear in the page tree on the left.
 
     ..  note::
     By default, a newly created page is disabled. You need to enable it to
