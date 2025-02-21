@@ -64,7 +64,7 @@ you will learn how to create a root page in TYPO3 v13.
     form. Your new root page will now appear in the page tree on the left.
 
     ..  note::
-    By default, a newly created page is disabled. You need to enable it to
-    make the page publicly visible.
+        By default, a newly created page is disabled. You need to enable it to
+        make the page publicly visible.
 
    ..  todo: Add screenshots, and explain the "disabled"/"page visibility" behavior and settings?
