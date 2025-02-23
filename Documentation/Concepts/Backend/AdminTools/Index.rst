@@ -58,7 +58,7 @@ write access to the file. You can create it like this on:
 
     touch config/ENABLE_INSTALL_TOOL
 
-See also :confval:`TYPO3 Explained, ENABLE_INSTALL_TOOL <t3coreapi:flag-file-enable-install-tool>`.
+See also :ref:`TYPO3 Explained, ENABLE_INSTALL_TOOL <t3coreapi:file-config-enable-install-tool>`.
 
 You **must** now enter the Install Tool password. If you do not know the install
 tool password you can generate a new one by entering the desired password.
@@ -74,7 +74,7 @@ Open file :file:`config/system/settings.php` and adjust the Install tool
 password like so:
 
 ..  code-block:: diff
-    :caption: config/system/settings.php (Diference)
+    :caption: config/system/settings.php (Difference)
 
      <?php
      return [
