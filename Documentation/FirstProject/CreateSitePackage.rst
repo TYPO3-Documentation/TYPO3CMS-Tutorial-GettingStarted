@@ -23,9 +23,9 @@ To create a site package, you have two main options:
     the detailed instructions in the
     :ref:`TYPO3 site package tutorial <t3sitepackage:start>`.
 
-*   Using the `Sitepackage-Builder <https://get.typo3.org/sitepackage/new//>`__:
-    If you are looking for a faster start, the Sitepackage-Builder is a
-    handy tool. You can choose whether your site package should be based on
+*   Using the `Site Package Builder <https://get.typo3.org/sitepackage/new//>`__:
+    If you are looking for a faster start, TYPO3's official Site Package Builder
+    is a handy tool. You can choose whether your site package should be based on
     the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
     :ref:`fluid_styled_content <typo3/cms-fluid-styled-content:introduction>`.
 
@@ -46,16 +46,16 @@ To create a site package, you have two main options:
 
 ..  _pros-and-cons-of-sitepackage-builder:
 
-Pros and cons of using the Sitepackage-Builder
-==============================================
+Pros and cons of using the Site Package Builder
+===============================================
 
 Pros:
 
-*   The Sitepackage-Builder is particularly useful for beginners or projects
+*   The Site Package Builder is particularly useful for beginners or projects
     that need a quick start.
 
 Cons:
 
-*   A large number of unnecessary, mostly empty files are being generated.
-*   Depending on your prior knowledge you use code that you might not fully
-    understand.
+*   A large number of unnecessary, mostly empty files are generated.
+*   Depending on your prior knowledge, you may use code that you
+    do not fully understand.

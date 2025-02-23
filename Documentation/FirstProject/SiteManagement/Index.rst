@@ -47,7 +47,7 @@ have one. You can learn how to create a site package in the
 
     Enter the basic data and choose the site set
 
-Since our set already depends on the set of fluid_styled_content, it is
+Since our set already depends on the set of `fluid_styled_content`, it is
 not necessary to choose that set here.
 
 ..  figure:: NewSitePageLanguage.png
