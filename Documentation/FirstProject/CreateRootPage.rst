@@ -66,4 +66,3 @@ you will learn how to create a root page in TYPO3 v13.
     ..  note::
         By default, a newly created page is disabled. You need to enable it to
         make the page publicly visible.
-
