@@ -50,15 +50,7 @@ of preconfigured projects.
 
 ..  code-block:: bash
 
-    ddev config --php-version 8.3
-
-    # Give the following answers when prompted:
-
-    Project name (t3example):
-
-    Docroot Location (current directory): public
-
-    Project Type [php, typo3, ...] (php): typo3
+    ddev config --php-version 8.3 --docroot public --project-type typo3
 
 Docroot Location
     Is the folder containing files that have to be reached by
@@ -70,12 +62,6 @@ Project Type
 ..  note::
     The PHP version (:yaml:`php_version`) should be set manually to the required
     version in :file:`.ddev/config.yaml`.
-
-Alternatively you can skip the prompt by supplying all of the required parameters in a single command:
-
-..  code-block:: bash
-
-    ddev config  --project-type=typo3 --docroot=public --php-version 8.3
 
 Start the project
 -----------------
