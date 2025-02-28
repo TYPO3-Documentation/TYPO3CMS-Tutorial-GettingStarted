@@ -40,7 +40,7 @@ Rich Text Editor Configuration
 The Rich Text Editor (RTE) in TYPO3 enables content creation and editing in the
 backend. Custom configurations can improve usability and consistency.
 It can be configured using `TypoScript <https://docs.typo3.org/permalink/t3tsref:guide>`_
-and :doc:`YAML <t3coreapi:Configuration/Yaml/Index#yaml>`.
+and `YAML <https://docs.typo3.org/permalink/t3coreapi:config-overview-yaml>`_.
 
 You can find more information `here <https://daniel-siepmann.de/typo3-rte-for-input-fields.html>`__.
 
