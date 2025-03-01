@@ -102,12 +102,12 @@ Site management: Trouble shooting
         :name: site-trouble-set-invalid
         :header-level: 2
 
-        If a set or one of its dependencies get corrupted after it was already
-        added to a site configuration, an error box is displayed in the table
-        listing the configurations.
+        If a set or one of its dependencies becomes corrupted after it has
+        already been added to a site configuration, an error box appears in
+        the table of configurations.
 
         ..  figure:: /FirstProject/SiteManagement/InvalidDependency.png
-            :alt: Screenshot the site configuration module with a site set having an error message "This site depends on invalid site sets"
+            :alt: Screenshot of the site configuration module with a site set that displays the error message "This site depends on invalid site sets".
 
         This can happen for example when you uninstall an extension on which
         your site package depends. In this case install the extension again or
@@ -170,7 +170,6 @@ Site management: Trouble shooting
 
         Fix or delete the affected site configuration by editing the file, for
         example :file:`config/sites/my-site/config.yaml`.
-
 
     ..  accordion-item:: No pages found
         :name: site-trouble-no-pages
