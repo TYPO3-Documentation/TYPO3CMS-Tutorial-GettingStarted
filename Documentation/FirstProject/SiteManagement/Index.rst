@@ -65,9 +65,9 @@ the reference "TYPO3 Explained".
 
 After saving, a new file should be created in your project:
 
-.. literalinclude:: _config.yaml
-   :language: yaml
-   :caption: config/sites/example_site/config.yaml
+..  literalinclude:: _config.yaml
+    :language: yaml
+    :caption: config/sites/example_site/config.yaml
 
 ..  _site-management-trouble:
 
