@@ -196,4 +196,3 @@ Site management: Trouble shooting
             :alt: Option "Use as Root Page" in the page properties.
 
             At least one root page is required before you can create a site configuration.
-
