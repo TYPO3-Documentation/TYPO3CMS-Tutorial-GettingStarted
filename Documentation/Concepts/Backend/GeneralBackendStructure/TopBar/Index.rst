@@ -18,9 +18,9 @@ including the name of your site and also the version of TYPO3 it is currently ru
    (which may have been modified by an extension).
    Then comes the **name of your site**. This is part of global
    configuration, which is described later.
-#. The star icon will open a list of **Bookmarks**. Every time
-   you see this icon in the TYPO3 backend, you can click on it
-   and the current view will get saved to this list of bookmarks.
+#. The star icon will open a list of **Bookmarks**. You can add one  on any page
+   in the backend by clicking the share icon in the DocHeader and selecting "Create
+   a bookmark to this record" in the dropdown.
 #. The lightning bolt icon opens the **Clear Cache** menu to flush the various
    caches that are used by TYPO3 CMS to improve performance.
    Caches are described in detail in TYPO3 Explained::ref:`t3coreapi:caching`.
