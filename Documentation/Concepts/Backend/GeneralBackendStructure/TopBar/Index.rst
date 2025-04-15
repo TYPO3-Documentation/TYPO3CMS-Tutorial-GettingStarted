@@ -18,7 +18,7 @@ including the name of your site and also the version of TYPO3 it is currently ru
    (which may have been modified by an extension).
    Then comes the **name of your site**. This is part of global
    configuration, which is described later.
-#. The star icon will open a list of **Bookmarks**. You can add one  on any page
+#. The star icon will open a list of **Bookmarks**. You can add one on any page
    in the backend by clicking the share icon in the DocHeader and selecting "Create
    a bookmark to this record" in the dropdown.
 #. The lightning bolt icon opens the **Clear Cache** menu to flush the various
