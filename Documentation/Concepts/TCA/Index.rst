@@ -49,5 +49,5 @@ To learn more about TCA and how to use it in your TYPO3 projects, you can refer 
 TYPO3 documentation:
 
 *   :ref:`TYPO3 TCA Reference <t3tca:introduction>`
-*   :ref:`Database records <t3coreapi:database-records>`
-*   :doc:`Relations <t3coreapi:ExtensionArchitecture/Extbase/Reference/Domain/Model#relations>`
+*   `Database records <https://docs.typo3.org/permalink/t3coreapi:database-records>`_
+*   `Relations between Extbase models <https://docs.typo3.org/permalink/t3coreapi:extbase-model-relations>`_
