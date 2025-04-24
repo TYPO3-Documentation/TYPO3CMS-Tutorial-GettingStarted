@@ -206,6 +206,6 @@ Afterwards you can safely delete the project's root folder.
 DDEV Documentation
 ------------------
 
-You will want to visit `DDEV's documentation <https://ddev.readthedocs.io/>__`,
-which also has a `TYPO3 Quick Start <https://ddev.readthedocs.io/en/stable/users/quickstart/#typo3/>__`
+You will want to visit `DDEV's documentation <https://ddev.readthedocs.io/>`_,
+which also has a `TYPO3 Quick Start <https://ddev.readthedocs.io/en/stable/users/quickstart/#typo3/>`_
 which parallels this one.
