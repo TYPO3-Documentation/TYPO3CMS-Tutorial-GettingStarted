@@ -166,7 +166,7 @@ Managing the Database
 you. DDEV also created the file :file:`config/system/additional.php`
 in which it configured the database credentials for you.
 
-Many database browsers, including phpMyAdmin, are available to let you browse the database, see `Database GUIs <https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis/>__`
+Many database browsers, including phpMyAdmin, are available to let you browse the database, see `Database GUIs <https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis/>`__
 
 Sending E-Mail
 --------------
