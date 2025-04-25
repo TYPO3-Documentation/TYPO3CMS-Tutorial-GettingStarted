@@ -33,7 +33,7 @@ In this chapter you will:
         Learn how to create the first page, the so called root page.
         It will be your future home page.
 
-        ..  card-footer:: :ref:`Create a root page <site-configuration>`
+        ..  card-footer:: :ref:`Create a root page <create-root-page>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: :ref:`Create a new site configuration <site-configuration>`
