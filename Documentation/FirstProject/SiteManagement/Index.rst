@@ -15,6 +15,12 @@ Site Management
 Create a new site configuration
 ===============================
 
+..  attention::
+    You can skip this step if you have already :ref:`created the root page <t3start:create-root-page>` 
+    in the root of the page tree. This will automatically generate a site 
+    configuration named after your page. Click the name of the page in the
+    list of site configurations to :ref:`edit the site configuration <t3start:edit-site-configuration>`.
+
 Before creating a site configuration, you should have :ref:`created the root page <t3start:create-root-page>` of
 your site in the page tree.
 
@@ -31,7 +37,13 @@ page to create a site configuration for it.
 
     Create a new site configuration
 
-In the next step, you can enter some basic information about the site.
+
+..  _edit-site-configuration:
+
+Edit the site configuration
+===========================
+
+You can now enter some basic information about the site.
 
 The site identifier can be arbitrary, so we use "example_site" here. The
 entry point should be a URL pointing to the web root. In this example, it is
