@@ -1,9 +1,9 @@
 :navigation-title: Root page
 ..  include:: /Includes.rst.txt
 
-.. index:: site, domain configuration, languages
+..  index:: site, domain configuration, languages
 
-.. _create-root-page:
+..  _create-root-page:
 
 =========================
 How to create a root page
@@ -14,55 +14,114 @@ It serves as the top-level page in the page tree and is essential for
 configuring the site and making it available to users. In this tutorial,
 you will learn how to create a root page in TYPO3 v13.
 
-..  note::
+..  admonition:: Prerequisites
+
     *   You have TYPO3 :ref:`installed <t3start:installation-ddev-tutorial>`
         and can log into the backend.
     *   You have access to the Page module and permission to create pages.
-    *   You are familiar with the basic layout of the TYPO3 backend.
+    *   You are familiar with the basic layout of the TYPO3
+        `Backend <https://docs.typo3.org/permalink/t3start:backend>`_.
 
-..  rst-class:: bignums-xxl
-#.  Access the Page module
+..  contents:: Steps to create a root package
 
-    Once you log into the TYPO3 backend, locate the :guilabel:`Web > Page` module on the left-hand
-    side of the screen. Click on the Page module to open the page tree.
+..  _create-root-page-new-page:
 
-    .. figure:: /Images/ManualScreenshots/CreateRootPage/PageModule.png
+Create a new page on root level
+===============================
 
-#.  Create a new root page
+Once you log into the TYPO3 backend, locate the :guilabel:`Web > Page` module on the left-hand
+side of the screen. Click on the Page module to open the page tree.
 
-    *   In the page tree, right-click on the "root level" or the top node of the page
-        tree (if no pages exist yet, this will likely be labeled as "site" or similar).
-        A context menu will appear.
+..  figure:: /Images/ManualScreenshots/CreateRootPage/CreateNewPage.png
+    :alt: The "Page" module in the TYPO3 backend with a context menu to create a new page
 
-    *   From the context menu, select "New". This will open a form for creating a new
-        page.
+*   In the page tree, right-click on the "root level" or the top node of the page
+    tree (if no pages exist yet, this will likely be labeled as "site" or similar).
+    A context menu will appear.
 
-    .. figure:: /Images/ManualScreenshots/CreateRootPage/CreateNewPage.png
+*   From the context menu, select "New". This will open a form for creating a new
+    page.
 
-    *   Alternatively, you can select a new page from the menu above the
-        page tree using drag & drop and place it in the page tree.
+..  _create-root-page-configure:
 
-    .. figure:: /Images/ManualScreenshots/CreateRootPage/PageMenu.png
+Configure the newly created page
+================================
 
+Now, you need to configure the new page:
 
-#.  Set the page type to root
+*   In the form that appears, give your new page a name.
+    This will be the label of your root page in the page tree.
 
-    Now, you need to configure the new page:
+*   Under the :guilabel:`Behavior` tab, look for the checkbox called
+    "Use as Root Page". Ensure this is checked.
 
-    *   In the form that appears, give your new page a name.
-        This will be the label of your root page in the page tree.
+..  figure:: /Images/ManualScreenshots/CreateRootPage/SetRootPage.png
+    :alt: Page properties, tab "Behaviour", highlighting the "Use as root page"
 
-    *   Under the :guilabel:`Behaviour` tab, look for the checkbox called
-        "Use as Root Page". Ensure this is checked.
+..  _create-root-page-save:
 
-    .. figure:: /Images/ManualScreenshots/CreateRootPage/SetRootPage.png
+Save the page
+=============
 
-#.  Save the page
+Once you have filled in the necessary information and selected the
+"Use as Root Page" option, click the "Save" button at the top of the
+form. Your new root page will now appear in the page tree on the left.
+The page is only visible in the Backend at this point
 
-    Once you have filled in the necessary information and selected the
-    "Use as Root Page" option, click the "Save" button at the top of the
-    form. Your new root page will now appear in the page tree on the left.
+..  figure:: /Images/ManualScreenshots/CreateRootPage/PageCreated.png
+    :alt: Backend module "Page" with a newly created but still disabled root page
 
-    ..  note::
-        By default, a newly created page is disabled. You need to enable it to
-        make the page publicly visible.
+    The root page is disabled, therefore it is marked with the red icon.
+    You can enable it in the context menu.
+
+..  _create-root-page-site:
+
+Configure the site
+==================
+
+All sites must have a `site configuration <https://docs.typo3.org/permalink/t3start:site-management>`_.
+If you have created a new page in the root of the page tree, the site configuration has been
+created automatically and you can edit it:
+
+..  figure:: /Images/ManualScreenshots/CreateRootPage/AutogeneratedSiteConfig.png
+    :alt: The auto-generated site of a new root page viewed in the "Sites" module
+
+    You can find the auto-generated site configuration for your root page in the module :guilabel:`Site Management > Sites`
+
+..  _create-root-page-site-package:
+
+Create a site package for the theme
+===================================
+
+The site needs a theme, also known as a "site package" in the TYPO3 world. Learn more about 
+`creating a site package <https://docs.typo3.org/permalink/t3start:creating-a-site-package>`_.
+
+..  admonition:: Trouble shooting
+
+    TYPO3 does not come with a default theme. You will have to install
+    or create a site package. If your site does not have a theme configured,
+    you will see a message like the the one below when trying to display 
+    the page in the frontend:
+
+    ..  figure:: /Images/ManualScreenshots/CreateRootPage/NoTypoScriptFound.png
+        :alt: Error message: No TypoScript record found!
+
+        Error message when no site package is installed or configured
+
+    *   `How to create a site package <https://docs.typo3.org/permalink/t3start:how-to-create-a-site-package>`_
+    *   `Troubleshooting "No TypoScript found!" <https://docs.typo3.org/permalink/t3tsref:guide-troubleshooting>`_
+    *   The `Introduction Package <https://docs.typo3.org/permalink/t3start:introductionpackage-index>`_
+        includes a ready-to-use theme and example content.
+
+..  _create-root-page-enable:
+
+Enable the page when you are ready
+==================================
+
+:guilabel:`Enable` the page as newly created pages are hidden by default.
+
+..  figure:: /Images/ManualScreenshots/CreateRootPage/EnablePage.png
+    :alt: A disabled root page and its context menu
+
+    Right click on the newly created page and chose `Enable` from the context menu. The red icon should disappear.
+
