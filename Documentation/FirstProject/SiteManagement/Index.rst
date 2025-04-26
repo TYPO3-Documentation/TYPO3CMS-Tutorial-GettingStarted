@@ -16,8 +16,8 @@ Create a new site configuration
 ===============================
 
 ..  attention::
-    You can skip this step if you have already :ref:`created the root page <t3start:create-root-page>` 
-    in the root of the page tree. This will automatically generate a site 
+    You can skip this step if you have already :ref:`created the root page <t3start:create-root-page>`
+    in the root of the page tree. This will automatically generate a site
     configuration named after your page. Click the name of the page in the
     list of site configurations to :ref:`edit the site configuration <t3start:edit-site-configuration>`.
 
