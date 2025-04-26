@@ -115,8 +115,8 @@ The site needs a theme, also known as a "site package" in the TYPO3 world. Learn
 
 ..  _create-root-page-enable:
 
-Enable the page once ready
-==========================
+Enable the page when you are ready
+==================================
 
 :guilabel:`Enable` the page as newly created pages are hidden by default.
 
