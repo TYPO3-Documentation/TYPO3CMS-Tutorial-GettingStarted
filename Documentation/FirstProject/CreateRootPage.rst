@@ -93,14 +93,14 @@ created automatically and you can edit it:
 Create a site package for the theme
 ===================================
 
-The site needs a theme, also known as a "site package" in the TYPO3 world. Learn more about 
+The site needs a theme, also known as a "site package" in the TYPO3 world. Learn more about
 `creating a site package <https://docs.typo3.org/permalink/t3start:creating-a-site-package>`_.
 
 ..  admonition:: Trouble shooting
 
     TYPO3 does not come with a default theme. You will have to install
     or create a site package. If your site does not have a theme configured,
-    you will see a message like the the one below when trying to display 
+    you will see a message like the the one below when trying to display
     the page in the frontend:
 
     ..  figure:: /Images/ManualScreenshots/CreateRootPage/NoTypoScriptFound.png
@@ -124,4 +124,3 @@ Enable the page when you are ready
     :alt: A disabled root page and its context menu
 
     Right click on the newly created page and chose `Enable` from the context menu. The red icon should disappear.
-
