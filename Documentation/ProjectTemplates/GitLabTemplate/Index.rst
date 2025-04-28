@@ -43,7 +43,7 @@ Fill in project details
 Clone the project
 =================
 
-Clone the project to your local maschine. You can download the SSH link from
+Clone the project to your local machine. You can download the SSH link from
 the :guilabel:`Code` dropdown:
 
 ..  figure:: GitClone.png
