@@ -145,4 +145,3 @@ Directory structure of the project
     *   :file:`package-lock.json` contains the information which exact versions
         of npm packages are installed.
     *   :file:`vite.config.js` predefined vite configuration
-
