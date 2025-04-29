@@ -7,10 +7,11 @@
 First project setup
 ===================
 
-In this chapter you will:
+This chapter demonstrates how to create your first small project in an empty
+`TYPO3 Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_.
 
-*   create a new site and set up its basic structure
-*   create and integrate a custom site package
+Instead of following this chapter you can use a
+`Project template for a quick start <https://docs.typo3.org/permalink/t3start:project-templates>`_.
 
 ..  card-grid::
     :columns: 1
@@ -18,15 +19,6 @@ In this chapter you will:
     :gap: 4
     :class: pb-4
     :card-height: 100
-
-    ..  card:: The "Introduction Package"
-
-        The "Introduction Package" is a great place to start if you are looking
-        to test drive TYPO3 and see a prebuilt site that contains
-        a range of example page templates and content.
-
-        ..  card-footer:: :ref:`Set up a prebuild site <introductionpackage_index>`
-            :button-style: btn btn-secondary stretched-link
 
     ..  card:: :ref:`Root page <create-root-page>`
 
@@ -62,7 +54,6 @@ In this chapter you will:
     :hidden:
     :titlesonly:
 
-    IntroductionPackage/Index
     CreateRootPage
     SiteManagement/Index
     Settings

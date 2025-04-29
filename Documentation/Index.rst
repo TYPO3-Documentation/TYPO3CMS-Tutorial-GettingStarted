@@ -94,6 +94,7 @@ system and detailed information on how to install TYPO3.
     Concepts/Index
     Installation/Index
     FirstProject/Index
+    ProjectTemplates/Index
     Administration/Index
     Troubleshooting/Index
     Extensions/Index
