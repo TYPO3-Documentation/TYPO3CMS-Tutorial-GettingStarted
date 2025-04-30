@@ -40,7 +40,7 @@ TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
     mkdir my_project && cd my_project
 
     # Initialize DDEV project
-    ddev config --php-version 8.3 --docroot public --project-type typo3
+    ddev config --php-version 8.4 --docroot public --project-type typo3
 
     # Start DDEV
     ddev start
@@ -106,7 +106,7 @@ TYPO3 is included in the list of preconfigured project types.
 
 ..  code-block:: bash
 
-    ddev config --php-version 8.3 --docroot public --project-type typo3
+    ddev config --php-version 8.4 --docroot public --project-type typo3
 
 Docroot Location
     The docroot is the folder containing the files accessible to the webserver,
