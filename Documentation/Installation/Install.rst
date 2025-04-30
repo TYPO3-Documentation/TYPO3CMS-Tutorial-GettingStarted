@@ -12,7 +12,7 @@ This guide provides step-by-step instructions for installing TYPO3 using DDEV
 and Composer.
 
 If DDEV is not yet installed on your local machine, see
-`Installing and Using DDEV <https://docs.typo3.org/permalink/t3start:ddev>`_.
+`Installing and using DDEV <https://docs.typo3.org/permalink/t3start:ddev>`_.
 
 DDEV is intended for local development only.
 To deploy your TYPO3 site to a production server, see:
