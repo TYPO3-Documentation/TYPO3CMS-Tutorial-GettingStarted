@@ -3,73 +3,141 @@
 ..  index:: installation, deployment, requirements
 
 ..  _install:
-..  _install-access-typo3-via-a-web-browser:
-.. _installation-ddev-tutorial:
 
 ==========================
 Installing TYPO3 with DDEV
 ==========================
 
-This is a step-by-step guide detailing how to install TYPO3 using DDEV, Docker and Composer.
+This guide provides step-by-step instructions for installing TYPO3 using DDEV
+and Composer.
 
-DDEV is used for local development only.
+If DDEV is not yet installed on your local machine, see
+`Installing and using DDEV <https://docs.typo3.org/permalink/t3start:ddev>`_.
+
+DDEV is intended for local development only.
+To deploy your TYPO3 site to a production server, see:
+`Deploying TYPO3 <https://docs.typo3.org/permalink/t3start:deployment>`_.
+
+Throughout the Getting Started Tutorial, we assume that you are running TYPO3
+locally with DDEV and have installed it using Composer.
+
+For an overview of alternative installation methods, see the
+`TYPO3 installation overview in the TYPO3 Explained manual <https://docs.typo3.org/permalink/t3coreapi:installation-index>`_.
+
+..  contents:: Table of contents
+
+..  _install-quick:
+
+Quick Start: TYPO3 Installation with DDEV
+==========================================
+
+The following commands will create a new TYPO3 project, initialize DDEV, install
+TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
+
+..  code-block:: bash
+
+    # Create project directory
+    mkdir my_project && cd my_project
+
+    # Initialize DDEV project
+    ddev config --php-version 8.4 --docroot public --project-type typo3
+
+    # Start DDEV
+    ddev start
+
+    # Install TYPO3 via Composer
+    ddev composer create "typo3/cms-base-distribution:^13"
+
+    # Run TYPO3 CLI setup (database credentials are pre-filled)
+    ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db
+
+    # Open the Backend login in a browser
+    ddev launch /typo3/
+
+Next steps: `TYPO3 setup on first installation <https://docs.typo3.org/permalink/t3start:typo3-setup>`_
+
+..  note::
+    The directory that you run these commands in must be empty.
+    Do not initialize Git or open the folder in an IDE before running the
+    commands, as these may create files in the directory (for example hidden files).
+
+..  _installation-ddev-tutorial:
+
+Step-by-step: TYPO3 Installation with DDEV
+==========================================
+
+..  _installation-video:
+
+Video: Installing TYPO3 with DDEV
+----------------------------------
+
+The video demonstrates how to install TYPO3 v11 LTS with DDEV.
+
+Although TYPO3 v11 is outdated, the installation process is largely
+the same for newer versions.
 
 ..  youtube:: HW7J3G1SqZw
 
-..  note::
-    Like TYPO3, DDEV is open source software that exists because of the generosity of community members and sponsors. Read more about `how to support DDEV <https://ddev.com/support-ddev/>`__.
+..  _installation-empty-directory:
 
-Pre-Installation Checklist
+Create the installation directory
+----------------------------------
+
+Create an empty directory for your TYPO3 project and change into it:
+
+..  code-block:: bash
+
+    mkdir my_project
+    cd my_project
+
+..  note::
+    The directory where you run the following commands must be empty.
+
+    Do not initialize Git or open the folder in an IDE before running the
+    commands, as these may create files in the directory (for example hidden files).
+
+..  _installation-ddev-project:
+
+Create a New DDEV Project
 --------------------------
 
-#.  **Install Docker** - Visit `docker.com <https://www.docker.com/>`__ to download and install the recommended version of Docker for your operating system.
-
-#.  **Install DDEV** - Follow the `DDEV installation guide <https://ddev.readthedocs.io/en/stable/>`__ to install DDEV.
-
-DDEV and Docker need to be installed on your local machine before TYPO3 can be installed. If you need help installing DDEV, support can be found on the `DDEV Discord server <https://discord.gg/kDvSFBSZfs>`__.
-
-Create the Installation Directory
----------------------------------
-
-Create an empty directory to install TYPO3 in and then change into that directory:
+Initialize a new DDEV project. The ``ddev config`` command will prompt you for details of your setup.
+TYPO3 is included in the list of preconfigured project types.
 
 ..  code-block:: bash
 
-    mkdir t3example
-    cd t3example
-
-Create a new DDEV Project
--------------------------
-
-The `ddev config` command will prompt for information about your project. TYPO3 is in the list
-of preconfigured projects.
-
-..  code-block:: bash
-
-    ddev config --php-version 8.3 --docroot public --project-type typo3
+    ddev config --php-version 8.4 --docroot public --project-type typo3
 
 Docroot Location
-    Is the folder containing files that have to be reached by
-    the webserver. It contains the vital entry point :file:`index.php`. The folder is commonly called :file:`public`.
+    The docroot is the folder containing the files accessible to the webserver,
+    including the entry point :file:`index.php`. It is commonly named `public`.
+
+    Do not change the docroot during this installation process. You
+    can change it later if necessary, however most guides assume your docroot is
+    called `public`.
 
 Project Type
-    Should always be "typo3"
+    Always set the project type to `typo3`.
 
-..  note::
-    The PHP version (:yaml:`php_version`) should be set manually to the required
-    version in :file:`.ddev/config.yaml`.
+..  _installation-ddev-start:
 
-Start the project
------------------
+Start the DDEV
+--------------
+
+Start the DDEV project:
 
 ..  code-block:: bash
 
     ddev start
 
-The webserver is now running but TYPO3 is not yet installed.
+The webserver environment is now running, but TYPO3 is not yet installed.
+
+..  _installation-typo3:
 
 Install TYPO3
 -------------
+
+Install TYPO3 using Composer:
 
 ..  code-block:: bash
 
@@ -77,121 +145,27 @@ Install TYPO3
 
 You now have a **Composer-based TYPO3 installation**.
 
-..  note::
-    The command above installs a typical set of functionality.
+Directory structure after composer installation
+-----------------------------------------------
 
-    The official `Composer Helper <https://get.typo3.org/misc/composer/helper>`__
-    at Get TYPO3 supports you to generate commands for a full TYPO3 installation
-    with all optional system extensions included.
-
-Run the Installation Setup Tool
--------------------------------
-
-Setup TYPO3 in the console
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-..  versionadded:: 12.1
-    Starting with TYPO3 12.1 a new CLI command `setup` is introduced as
-    an alternative to the existing GUI-based web installer.
-
-Interactive / guided setup (questions/answers):
+At this point, your project folder should contain the following files and directories:
 
 ..  code-block:: bash
 
-    ddev typo3 setup
+    ~/projects/typo3/sites/my_project$ ls -a
+    composer.json  composer.lock  config  .ddev  .gitignore  LICENSE  packages  public  README.md  vendor
 
-When prompted give the following answers to work with the default DDEV configuration:
+Additional folders like :directory:`var` and subfolders like
+:directory:`config/sites` will be created during the setup process.
 
-..  code-block:: bash
+..  _installation-setup:
 
-    Which web server is used?
-    > other
+Next steps: Setup TYPO3
+-----------------------
 
-    Database driver?
-    > mysqli
+At this point, important files and folders are still missing, and your database
+does not yet contain any tables.
 
-    Enter the database "username" [default: db] ? db
-
-    Enter the database "password" ? db
-
-    Enter the database "port" [default: 3306] ? 3306
-
-    Enter the database "host" [default: db] ? db
-
-    Select which database to use:
-    > db
-
-Setup TYPO3 with the 1,2,3 Install Tool in the browser
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Create a file called :file:`FIRST_INSTALL` in your webroot
-
-..  code-block:: bash
-
-    ddev exec touch public/FIRST_INSTALL
-
-Open the installer
-
-..  code-block:: bash
-
-    ddev launch /typo3/install.php
-
-Go to the TYPO3 backend:
-
-..  code-block:: bash
-
-    ddev launch /typo3
-
-And login with the credentials you just provided.
-
-
-Managing the Database
----------------------
-
-:bash:`ddev start` automatically created a database for
-you. DDEV also created the file :file:`config/system/additional.php`
-in which it configured the database credentials for you.
-
-Many database browsers, including phpMyAdmin, are available to let you browse the database, see `Database GUIs <https://ddev.readthedocs.io/en/stable/users/usage/database-management/#database-guis/>`__
-
-Sending E-Mail
---------------
-
-DDEV creates configuration in :file:`config/system/additional.php`
-to capture sent mails. You can see what mails have been sent here:
-
-..  code-block:: bash
-
-    ddev launch -m
-
-Stopping a DDEV Instance
-------------------------
-
-If you want to stop all projects from running you can call:
-
-..  code-block:: bash
-
-    ddev poweroff
-
-The projects will stay configured and databases will be persisted.
-
-Deleting a DDEV Instance
-------------------------
-
-If you want to delete the project you just created you can remove it by
-calling the following command in your new projects root folder:
-
-..  code-block:: bash
-
-     ddev delete --omit-snapshot
-
-This will remove all containers from the project and delete the database.
-
-Afterwards you can safely delete the project's root folder.
-
-DDEV Documentation
-------------------
-
-You will want to visit `DDEV's documentation <https://ddev.readthedocs.io/>`_,
-which also has a `TYPO3 Quick Start <https://ddev.readthedocs.io/en/stable/users/quickstart/#typo3/>`_
-which parallels this one.
+All of these will be created during the setup process.
+For detailed instructions, see:
+`TYPO3 setup on first installation <https://docs.typo3.org/permalink/t3start:typo3-setup>`_
