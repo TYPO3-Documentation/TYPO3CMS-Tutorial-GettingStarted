@@ -7,8 +7,8 @@
 TYPO3 setup on first installation
 =================================
 
-Depending on your preference, you can set up TYPO3 either via a console command
-or by using the web-based Install Tool.
+You can set up TYPO3 either via a console command or by using the web-based
+Install Tool.
 
 ..  contents::
     :local:
@@ -77,8 +77,8 @@ After completing the setup, TYPO3 will run in the "Production" application
 context by default.
 
 For local development, it is recommended to switch to the "Development/DDEV"
-context to enable better error reporting, debugging features, and developer-friendly
-behavior.
+context for better error reporting, debugging features, and developer-friendly
+features.
 
  Edit your :file:`.ddev/config.yaml` and add:
 

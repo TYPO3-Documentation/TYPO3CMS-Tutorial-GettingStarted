@@ -7,19 +7,19 @@
 Installing and using DDEV
 =========================
 
-DDEV is a powerful, flexible tool for local TYPO3 development. It automates
+DDEV is a powerful tool for local TYPO3 development. It automates
 the setup of PHP, database, webserver, and other services using Docker, making
-local development easy, fast, and consistent across all platforms.
+local development easy, fast, and consistent across platforms.
 
 This guide assumes that you are setting up TYPO3 locally using DDEV.
 For deploying TYPO3 to a live server, see
 `Deploying TYPO3 <https://docs.typo3.org/permalink/t3start:deployment>`_.
 
-Some hosting providers also offer services that support hosting DDEV projects,
+Some hosting providers also host DDEV projects,
 allowing you to develop locally and deploy seamlessly.
 
 ..  note::
-    Like TYPO3, DDEV is open source software that exists because of the
+    Like TYPO3, DDEV is open source software that only exists due to the
     generosity of community members and sponsors. Read more about
     `how to support DDEV <https://ddev.com/support-ddev/>`__.
 
@@ -48,7 +48,7 @@ instructions:
 `Installing DDEV <https://ddev.readthedocs.io/en/stable/users/install/ddev-installation/>`_
 
 This page covers installation for macOS, Linux, Windows, and WSL, and is kept
-up-to-date with the latest supported methods.
+up-to-date.
 
 ..  _ddev-check-installation:
 
@@ -95,8 +95,8 @@ Managing the database
 ======================
 
 Running :bash:`ddev start` automatically creates a database for you.
-DDEV also creates the file :file:`config/system/additional.php`, where it
-configures the database credentials.
+DDEV also creates the file :file:`config/system/additional.php`, containing the
+database credentials.
 
 You can access your database using any local database client.
 
@@ -106,7 +106,7 @@ On Windows, you can quickly open the database in HeidiSQL:
 
     ddev heidisql
 
-Other popular database clients include TablePlus, Sequel Ace, or DBeaver.
+Other popular database clients include TablePlus, Sequel Ace, and DBeaver.
 
 For more details, see the DDEV documentation on
 `Database GUIs
@@ -114,7 +114,7 @@ For more details, see the DDEV documentation on
 
 ..  _ddev-sending-email:
 
-Sending e-mail
+Sending emails
 ==============
 
 DDEV captures outgoing mails and stores them for review.

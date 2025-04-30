@@ -8,14 +8,14 @@ Prepare / Install local TYPO3 project
 =====================================
 
 Setting up your local TYPO3 project requires a few simple steps.
-This chapter guides you through preparing your development environment,
+This chapter will guide you through preparing your development environment,
 installing TYPO3, and getting ready to build your first website.
 
-The rest of the Getting Started guide assumes that TYPO3 was installed locally
-using DDEV and Composer as described here.
+The rest of the Getting Started guide assumes that TYPO3 has been installed locally
+using DDEV and Composer, as described here.
 
-If you prefer a different installation method (for example, manual installation
-on a server), see the full
+If you prefer a to use a different installation method (for example, manual
+installation on a server), see the full
 `TYPO3 installation guide <https://docs.typo3.org/permalink/t3coreapi:installation-index>`_.
 
 ..  toctree::
@@ -40,7 +40,7 @@ on a server), see the full
 
     ..  card:: :ref:`Using DDEV <ddev>`
 
-        Learn how to install, update, and manage DDEV for running your TYPO3
+        Learn how to install, update, and manage DDEV to run your TYPO3
         projects locally.
 
     ..  card:: :ref:`Installing TYPO3 with DDEV <install>`
@@ -50,7 +50,7 @@ on a server), see the full
 
     ..  card:: :ref:`Setting up TYPO3 after installation <typo3-setup>`
 
-        Complete the TYPO3 setup by creating an admin user and configuring
+        Complete TYPO3 setup by creating an admin user and configuring
         initial options.
 
     ..  card:: :ref:`Choosing a TYPO3 version <typo3-version>`
@@ -81,12 +81,12 @@ Advanced installation topics
 
     ..  card:: :ref:`Application context <application-context>`
 
-        Use TYPO3's application context to manage different settings for
+        Use the TYPO3 application context to manage different settings for
         development, testing, and production.
 
     ..  card:: `System Requirements <https://docs.typo3.org/permalink/t3coreapi:system-requirements>`_
 
-        If you install TYPO3 manually or deploy to a production server, check
+        If you want to install TYPO3 manually or deploy to a production server, check
         the full system requirements for PHP, database, and web server.
 
     ..  card:: `Tuning TYPO3 <https://docs.typo3.org/permalink/t3coreapi:tunetypo3>`_

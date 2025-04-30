@@ -11,7 +11,7 @@ Installing TYPO3 with DDEV
 This guide provides step-by-step instructions for installing TYPO3 using DDEV
 and Composer.
 
-If DDEV is not installed on your local machine yet, see
+If DDEV is not yet installed on your local machine, see
 `Installing and Using DDEV <https://docs.typo3.org/permalink/t3start:ddev>`_.
 
 DDEV is intended for local development only.
@@ -19,7 +19,7 @@ To deploy your TYPO3 site to a production server, see:
 `Deploying TYPO3 <https://docs.typo3.org/permalink/t3start:deployment>`_.
 
 Throughout the Getting Started Tutorial, we assume that you are running TYPO3
-locally with DDEV and have installed it using Composer, as described below.
+locally with DDEV and have installed it using Composer.
 
 For an overview of alternative installation methods, see the
 `TYPO3 installation overview in the TYPO3 Explained manual <https://docs.typo3.org/permalink/t3coreapi:installation-index>`_.
@@ -31,7 +31,7 @@ For an overview of alternative installation methods, see the
 Quick Start: TYPO3 Installation with DDEV
 ==========================================
 
-The following commands create a new TYPO3 project, initialize DDEV, install
+The following commands will create a new TYPO3 project, initialize DDEV, install
 TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
 
 ..  code-block:: bash
@@ -57,10 +57,9 @@ TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
 Next steps: `TYPO3 setup on first installation <https://docs.typo3.org/permalink/t3start:typo3-setup>`_
 
 ..  note::
-    The directory where you run these commands must be initially empty.
+    The directory that you run these commands in must be empty.
     Do not initialize Git or open the folder in an IDE before running the
-    commands, as both actions may create hidden files and cause the directory
-    to become non-empty.
+    commands, as these may create files in the directory (for example hidden files).
 
 ..  _installation-ddev-tutorial:
 
@@ -74,7 +73,7 @@ Video: Installing TYPO3 with DDEV
 
 The video demonstrates how to install TYPO3 v11 LTS with DDEV.
 
-Although TYPO3 v11 is outdated, the installation process remains largely
+Although TYPO3 v11 is outdated, the installation process is largely
 the same for newer versions.
 
 ..  youtube:: HW7J3G1SqZw
@@ -92,18 +91,17 @@ Create an empty directory for your TYPO3 project and change into it:
     cd my_project
 
 ..  note::
-    The directory where you run the following commands must be initially empty.
+    The directory where you run the following commands must be empty.
 
     Do not initialize Git or open the folder in an IDE before running the
-    commands, as both actions may create hidden files and cause the directory
-    to become non-empty.
+    commands, as these may create files in the directory (for example hidden files).
 
 ..  _installation-ddev-project:
 
 Create a New DDEV Project
 --------------------------
 
-Initialize a new DDEV project. The ``ddev config`` command will prompt for details about your setup.
+Initialize a new DDEV project. The ``ddev config`` command will prompt you for details of your setup.
 TYPO3 is included in the list of preconfigured project types.
 
 ..  code-block:: bash
@@ -114,8 +112,8 @@ Docroot Location
     The docroot is the folder containing the files accessible to the webserver,
     including the entry point :file:`index.php`. It is commonly named `public`.
 
-    Do not change the docroot during this installation process. It is possible
-    to change it later if necessary, however most guides assume your docroot is
+    Do not change the docroot during this installation process. You
+    can change it later if necessary, however most guides assume your docroot is
     called `public`.
 
 Project Type
