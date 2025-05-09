@@ -64,7 +64,7 @@ It installs exactly the versions specified in the :guilabel:`composer.lock` file
 
 ..  _composer_update:
 
-composer update
+Composer update
 ---------------
 
 ..  code-block:: bash
