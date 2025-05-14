@@ -93,15 +93,15 @@ This step automatically creates several files that should be added to git:
 
     $ git add .
 
-    :file:`composer.lock`
-        This file contains the information which exact versions of PHP packages
-        are installed.
-    :file:`package-lock.json`
-        This file contains the information which exact versions of npm packages
-        are installed.
-    :file:`config/sites/`
-        Contains configuration and settings of the site that was created during
-        setup.
+:file:`composer.lock`
+    This file contains the information which exact versions of PHP packages
+    are installed.
+:file:`package-lock.json`
+    This file contains the information which exact versions of npm packages
+    are installed.
+:file:`config/sites/`
+    Contains configuration and settings of the site that was created during
+    setup.
 
 ..  _gitlab-template-login:
 
