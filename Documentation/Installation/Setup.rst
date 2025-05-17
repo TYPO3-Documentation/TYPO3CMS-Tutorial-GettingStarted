@@ -80,7 +80,7 @@ For local development, it is recommended to switch to the "Development/DDEV"
 context for better error reporting, debugging features, and developer-friendly
 features.
 
- Edit your :file:`.ddev/config.yaml` and add:
+Edit your :file:`.ddev/config.yaml` and add:
 
 ..  code-block:: yaml
     :caption: .ddev/config.yaml
