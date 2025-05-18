@@ -85,7 +85,7 @@ Edit your :file:`.ddev/config.yaml` and add:
 ..  code-block:: yaml
     :caption: .ddev/config.yaml
 
-    environment:
+    web_environment:
       - TYPO3_CONTEXT=Development/DDEV
 
 Restart DDEV to apply the changes:
