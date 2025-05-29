@@ -58,7 +58,7 @@ Then clone the repository:
     git clone git@gitlab.com:linawolf/getting-started-with-the-gitlab-template.git
 
 ..  note::
-    You need an `SSH key (GitLab docu) <https://docs.gitlab.com/user/ssh/>` to
+    You need an `SSH key (GitLab docu) <https://docs.gitlab.com/user/ssh/>`_ to
     do this.
 
 ..  _gitlab-template-setup:
