@@ -26,8 +26,9 @@ installation on a server), see the full
     Install
     Setup
     Version
-    Updates/Index
+    Hosting
     DeployTYPO3
+    Updates/Index
     ApplicationContext
     SystemRequirements/Index
 
