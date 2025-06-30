@@ -6,6 +6,8 @@
 PHP
 ===
 
+TYPO3 v11 is compatible with PHP Version 7.4, 8.0, 8.1, 8.2 and 8.3. 
+
 Configure
 ---------
 
