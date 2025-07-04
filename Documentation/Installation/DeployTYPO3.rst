@@ -1,7 +1,7 @@
 ..  include:: /Includes.rst.txt
 ..  index:: deployment, composer, production setup
 
-..  _DeployTYPO3:
+..  _deploytypo3:
 ..  _deployment:
 
 ===============
