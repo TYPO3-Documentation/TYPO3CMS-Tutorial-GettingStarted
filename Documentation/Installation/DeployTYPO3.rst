@@ -74,4 +74,4 @@ Automatic deployment
 ====================
 
 There are multiple tools that can be used to automate deployment. Read more
-about it: :ref:`TYPO3 Explained, automatic deployment <t3coreapi:deployment-automatic>`.
+about it: :ref:`TYPO3 Explained, automatic deployment <t3coreapi:automated-deployment>`.
