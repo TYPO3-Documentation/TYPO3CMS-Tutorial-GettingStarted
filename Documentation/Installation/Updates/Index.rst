@@ -111,7 +111,7 @@ Extension updates
 =================
 
 In a TYPO3 instance you have usually third party extensions installed. When you update your TYPO3 version, you
-have to update the third-party extensions too. In the **`TYPO3 Extension Repository (TER) <https://extensions.typo3.org/>`__**
+have to update the third-party extensions too. In the **TER**, `TYPO3 Extension Repository <https://extensions.typo3.org/>`__,
 you can enter the name of that extension and get information about supported TYPO3 versions.
 Some extension authors prefer to only publish their extensions on `packagist <https://packagist.org/packages/typo3/>`__.
 When the extension does not exist for the current TYPO3 version you can create an
