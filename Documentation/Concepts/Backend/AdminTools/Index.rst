@@ -60,10 +60,37 @@ write access to the file. You can create it like this on:
 
 See also :ref:`TYPO3 Explained, ENABLE_INSTALL_TOOL <t3coreapi:file-config-enable-install-tool>`.
 
-You **must** now enter the Install Tool password. If you do not know the install
-tool password you can generate a new one by entering the desired password.
+You **must** now enter the Install Tool password.
 
-Copy the calculated hash:
+..  versionadded:: 14.0
+    You can now set a new Install Tool password using the console command
+    `vendor/bin/typo3 install:password:set <https://docs.typo3.org/permalink/t3coreapi:console-command-install-password-set>`_.
+
+You can set a new Install Tool password using the console command (recommended)
+`vendor/bin/typo3 install:password:set <https://docs.typo3.org/permalink/t3coreapi:console-command-install-password-set>`_:
+
+..  tabs::
+
+    ..   group-tab:: Composer-mode
+
+        ..  code-block:: bash
+
+            vendor/bin/typo3 install:password:set
+
+    ..  group-tab:: Classic mode
+
+        ..  code-block:: bash
+
+            typo3/sysext/core/bin/typo3 install:password:set
+
+    ..  group-tab:: DDEV
+
+        ..  code-block:: bash
+
+            ddev typo3 install:password:set
+
+Or you can also set a new password by entering the desired password on the
+Install Tool login page, then copy the calculated hash:
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/InstallToolHash.png
     :alt: Screenshot demonstrating copying the calculated hash in the install tool
