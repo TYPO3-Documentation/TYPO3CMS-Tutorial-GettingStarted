@@ -66,9 +66,6 @@ You **must** now enter the Install Tool password.
     You can now set a new Install Tool password using the console command
     `vendor/bin/typo3 install:password:set <https://docs.typo3.org/permalink/t3coreapi:console-command-install-password-set>`_.
 
-You can set a new Install Tool password using the console command (recommended)
-`vendor/bin/typo3 install:password:set <https://docs.typo3.org/permalink/t3coreapi:console-command-install-password-set>`_:
-
 ..  tabs::
 
     ..   group-tab:: Composer-mode
@@ -89,8 +86,8 @@ You can set a new Install Tool password using the console command (recommended)
 
             ddev typo3 install:password:set
 
-Or you can also set a new password by entering the desired password on the
-Install Tool login page, then copy the calculated hash:
+Or you can set a new password by entering your desired password on the
+Install Tool login page, then copying the calculated hash:
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/InstallToolHash.png
     :alt: Screenshot demonstrating copying the calculated hash in the install tool
