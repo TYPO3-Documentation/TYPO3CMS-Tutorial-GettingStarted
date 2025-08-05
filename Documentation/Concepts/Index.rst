@@ -63,7 +63,7 @@ TYPO3 Concepts
         TypoScript is the basic configuration language used to configure the
         frontend output of a page in TYPO3.
 
-        ..  card-footer:: :ref:`Create a minimal page created by pure TypoScript <typoscript>`
+        ..  card-footer:: :ref:`Create a minimal page using just TypoScript <typoscript>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: TSconfig
