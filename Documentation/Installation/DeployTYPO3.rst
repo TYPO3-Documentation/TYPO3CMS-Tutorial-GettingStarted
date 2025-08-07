@@ -29,6 +29,7 @@ There can be several problems with this strategy:
     of downtime.
 *   A TYPO3 installation depends on symlinks. Make sure these symlinks are
     preserved during copying and or compressing files.
+*   For further information regarding the deployment of locally developed sites read the chapter about `Initial deployment <https://docs.typo3.org/permalink/t3coreapi:manual-deployment-initial>`_
 
 ..  _deployment-git-composer:
 
