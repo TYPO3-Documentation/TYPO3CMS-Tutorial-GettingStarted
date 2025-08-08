@@ -8,6 +8,29 @@
 Deploying TYPO3
 ===============
 
+..  _deployment-copy-files:
+
+Build locally and copy all files and symlinks to the server
+===========================================================
+
+*   Build the local environment (installing everything necessary for the website)
+*   Run :bash:`composer install --no-dev` to install without development dependencies
+*   Copy files to the production server
+*   Copy the database to the production server
+*   Compare the database
+*   Fix file permissions
+*   Clear caches
+
+..  todo: Link these steps once documented
+
+There can be several problems with this strategy:
+
+*   Copying files or unzipping files can be slow, there can be several minutes
+    of downtime.
+*   A TYPO3 installation depends on symlinks. Make sure these symlinks are
+    preserved during copying and or compressing files.
+*   For further information regarding the deployment of locally developed sites read the chapter about `Initial deployment <https://docs.typo3.org/permalink/t3coreapi:manual-deployment-initial>`_
+
 ..  _deployment-git-composer:
 
 Using Git and Composer on the webserver
@@ -45,28 +68,6 @@ decide not to do it:
 
 Some of these problems can be fixed by using a symlink strategy where one
 directory is running on production and another one is being updated.
-
-..  _deployment-copy-files:
-
-Build locally and copy all files and symlinks to the server
-===========================================================
-
-*   Build the local environment (installing everything necessary for the website)
-*   Run :bash:`composer install --no-dev` to install without development dependencies
-*   Copy files to the production server
-*   Copy the database to the production server
-*   Compare the database
-*   Fix file permissions
-*   Clear caches
-
-..  todo: Link these steps once documented
-
-There can be several problems with this strategy:
-
-*   Copying files or unzipping files can be slow, there can be several minutes
-    of downtime.
-*   A TYPO3 installation depends on symlinks. Make sure these symlinks are
-    preserved during copying and or compressing files.
 
 ..  _deployment-automatic:
 
