@@ -27,7 +27,9 @@ Login page reloads without error
 *   Check the cookies configuration in TYPO3: Ensure that cookie-related
     settings (:confval:`sessionTimeout <t3coreapi:globals-typo3-conf-vars-be-sessiontimeout>`,
     :confval:`cookieDomain <t3coreapi:globals-typo3-conf-vars-be-cookiedomain>`)
-    are correct and not causing session issues.
+    are correct and not causing session issues. Additionally, if 
+    `$GLOBALS[TYPO3_CONF_VARS][BE][cookieSameSite]  <https://docs.typo3.org/permalink/t3coreapi:confval-globals-typo3-conf-vars-be-cookiesamesite>`_
+    is set to "none", this only works HTTPS.
 
 ..  _troubleshooting-login-invalid:
 
