@@ -29,7 +29,7 @@ Login page reloads without error
     :confval:`cookieDomain <t3coreapi:globals-typo3-conf-vars-be-cookiedomain>`)
     are correct and not causing session issues. Additionally, if 
     `$GLOBALS[TYPO3_CONF_VARS][BE][cookieSameSite]  <https://docs.typo3.org/permalink/t3coreapi:confval-globals-typo3-conf-vars-be-cookiesamesite>`_
-    is set to "none", this only works HTTPS.
+    is set to "none", a login will only work on HTTPS connections.
 
 ..  _troubleshooting-login-invalid:
 
