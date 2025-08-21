@@ -138,8 +138,8 @@ page related functions. Here is what these options do:
   - **More options ... > Import**: Opens the import tool and preselects the selected
     page
 
-- **Disable**: Disables the page (so it isn't accessible from the frontend
-  anymore)
+- **Enable** or **Disable**: Enables or disables the page depending on its current state. 
+  Disabled pages can be edited as normal, but are not accessible from the frontend.
 
 - **Delete**: Deletes the page
 
