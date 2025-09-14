@@ -46,7 +46,7 @@ TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
     ddev start
 
     # Install TYPO3 via Composer
-    ddev composer create "typo3/cms-base-distribution:^13"
+    ddev composer create-project "typo3/cms-base-distribution:^13"
 
     # Run TYPO3 CLI setup (database credentials are pre-filled)
     ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db
