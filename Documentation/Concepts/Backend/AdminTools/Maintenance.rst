@@ -67,3 +67,25 @@ You can also create a new backend user from the console:
 
 and from the module :guilabel:`System > Backend Users`. The latter cannot
 grant system maintainer rights but is available to all admins.
+
+..  _admin-tools-maintenance-reference-index:
+
+Check and Update Reference Index
+================================
+
+..  versionchanged:: 14.0
+    This tool has been moved here from module :guilabel:`System > DB Check`.
+
+TYPO3 keeps a record of relations between all records.
+This may get out of sync when certain operations are performed
+without the strict context of the backend. It is therefore
+useful to update this index regularly.
+
+You can also use the following console command:
+
+..  code-block:: bash
+
+    ddev typo3 referenceindex:update
+
+The console command has the advantage that it does not cause time outs on large
+pages.

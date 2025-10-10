@@ -106,6 +106,10 @@ When you are not familiar with cron jobs we refer to https://en.wikipedia.org/wi
 DB check (optional)
 ===================
 
+..  versionchanged:: 14.0
+    The tool :guilabel:`Check and Update Reference Index` has been moved to
+    :guilabel:`Admin Tools > Maintenance`
+
 This module is only available if the system extension
 :composer:`typo3/cms-lowlevel` is installed.
 
@@ -119,12 +123,6 @@ Record Statistics
 Search
     A tool to search through the whole database. It offers an
     advanced mode which is similar to a visual query builder.
-
-Check and update global reference index
-    TYPO3 CMS keeps a record of relations between all records.
-    This may get out of sync when certain operations are performed
-    without the strict context of the backend. It is therefore
-    useful to update this index regularly.
 
 Some third party extensions offer similar but extended functionality around
 the database, for example :composer:`fixpunkt/backendtools` can be used during
