@@ -6,10 +6,14 @@
 The list module
 ===============
 
+..  versionchanged:: 14.0
+    The main module `Web` has been renamed to `Content`.
+    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
+
 Almost all data stored in the database is represented as a
 :ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.
 
-The respective backend module called :guilabel:`Web > List` module can be
+The respective backend module called :guilabel:`Content > List` module can be
 used to view, edit, search and export database records.
 
 How to use the List module effectively for managing database records is

@@ -7,7 +7,11 @@
 Info module
 ===========
 
-The **WEB > Info** module displays a variety of information
+..  versionchanged:: 14.0
+    The main module `Web` has been renamed to `Content`.
+    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
+
+The :guilabel:`Content > Info` module displays a variety of information
 related to the pages in your web site. It contains several
 functions which can be accessed from the dropdown menu in the
 docheader. For example, the *Localization Overview* lets

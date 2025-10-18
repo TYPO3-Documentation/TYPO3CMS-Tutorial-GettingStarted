@@ -16,7 +16,7 @@ the arrow to the left of each page.
 
 1. :ref:`Enter the backend <backend-login>` and select the page module
 
-   Click on **WEB** > **Page** now.
+   Click on :guilabel:`Content > Page` now.
 
 2. Look at the page tree in the backend:
 

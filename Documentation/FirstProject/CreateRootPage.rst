@@ -29,7 +29,11 @@ you will learn how to create a root page in TYPO3 v13.
 Create a new page on root level
 ===============================
 
-Once you log into the TYPO3 backend, locate the :guilabel:`Web > Page` module on the left-hand
+..  versionchanged:: 14.0
+    The main module `Web` has been renamed to `Content`.
+    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
+
+Once you log into the TYPO3 backend, locate the :guilabel:`Content > Page` module on the left-hand
 side of the screen. Click on the Page module to open the page tree.
 
 ..  figure:: /Images/ManualScreenshots/CreateRootPage/CreateNewPage.png

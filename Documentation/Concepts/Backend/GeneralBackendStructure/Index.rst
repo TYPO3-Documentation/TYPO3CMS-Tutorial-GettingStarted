@@ -22,7 +22,7 @@ Situated in the center left of page is the
 
 Module menu (2)
     This is the main menu of the TYPO3 CMS backend. It is divided
-    into main modules (:guilabel:`WEB`, :guilabel:`FILE`, etc.) and
+    into main modules (:guilabel:`Content`, :guilabel:`File`, etc.) and
     their sub-modules.
 
 :ref:`Page tree <page-tree>` (3)
