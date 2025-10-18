@@ -39,10 +39,14 @@ You can view and try out the TYPO3 backend on this `demo <https://demo.typo3.org
 Backend modules
 ---------------
 
+..  versionchanged:: 14.0
+    The main module `Web` has been renamed to `Content`.
+    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
+
 The backend contains modules that are grouped by task. Which modules a
 user sees depends on the access rights that have been given to them.
 
-The :guilabel:`Web` group contains a set of modules for the creation and
+The :guilabel:`Content` group contains a set of modules for the creation and
 management of pages and content. This group contains important backend modules
 such as :ref:`Pages <page-content>`, where the page content can be edited,
 :ref:`List <list-module>` where database records can be viewed and edited and

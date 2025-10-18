@@ -6,7 +6,11 @@
 "Page" backend module in TYPO3
 ==============================
 
-The :guilabel:`Web > Page` module is used by the editors of the site to add
+..  versionchanged:: 14.0
+    The main module `Web` has been renamed to `Content`.
+    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
+
+The :guilabel:`Content > Page` module is used by the editors of the site to add
 and modify content elements on the page.
 
 The Editors Guide, chapter :ref:`Content Elements <t3editors:content-elements>`,
