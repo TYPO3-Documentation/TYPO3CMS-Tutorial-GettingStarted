@@ -51,7 +51,7 @@ management of pages and content. This group contains important backend modules
 such as :ref:`Pages <page-content>`, where the page content can be edited,
 :ref:`List <list-module>` where database records can be viewed and edited and
 :ref:`Info <info-module>` where you can find information provided by different
-system and third party extension. Many page modules provided by third party
+system and third-party extension. Many page modules provided by third-party
 extensions can also be found in this area.
 
 :guilabel:`Site Management` is for the setup of a site. Here it is possible to
