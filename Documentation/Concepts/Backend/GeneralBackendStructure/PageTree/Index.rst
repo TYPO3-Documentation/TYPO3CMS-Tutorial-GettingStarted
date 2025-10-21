@@ -8,7 +8,7 @@ Page tree
 
 The page tree represents the hierarchical structure of your site and its pages. In
 most cases this corresponds exactly to the navigation structure
-of your web site. The page tree can be expanded by clicking
+of your website. The page tree can be expanded by clicking
 the arrow to the left of each page.
 
 .. rst-class:: bignums
@@ -44,7 +44,7 @@ the arrow to the left of each page.
       :alt: Frontend of the Introduction Package
       :class: with-shadow
 
-The main menu on top of your web site corresponds to the first
+The main menu on top of your website corresponds to the first
 level menu pages in the page tree. The sub-menu of the :guilabel:`"Content Examples"`
 page in the frontend corresponds to the entries beneath "Content Examples" in the page tree.
 
@@ -57,7 +57,7 @@ We will now look at some components of the page tree a little more closely:
 
 
 Root page
-   The page with the globe icon represents the root of your web site.
+   The page with the globe icon represents the root of your website.
    Multiple websites can exist within a single installation of TYPO3.
    The top node with the TYPO3 logo is a special container which is used
    to store shared resources such as file mounts and backend user records.
@@ -66,15 +66,15 @@ Root page
 
 Modules:
    Some modules make use of the page tree, but not all. The presence of the page tree
-   implies that the module depends upon the selection of a specific pages in the page tree.
+   implies that the module depends upon the selection of a specific page in the page tree.
 
 Content area:
-   Clicking on a pages title opens that page in the content area to
+   Clicking on a page's title opens that page in the content area to
    the right. Hovering over the icon of a page will display its internal id.
 
 Context menu:
    1. A click on the page icon will open the context menu. 2. **Or**, you
-   can right click the whole page title.
+   can right click on the whole page title.
 
    .. include:: /Images/AutomaticScreenshots/PageTree/ContextMenu.rst.txt
 
@@ -108,7 +108,7 @@ page related functions. Here is what these options do:
        |
        ---> new page
 
-   If you wish to create a new page, as subpage of current page, use "More options"
+   If you wish to create a new page, as a subpage of the current page, use "More options"
    > 'Create New' wizard" or use :ref:`new-page-drag-and-drop`.
 
    .. code-block:: none
