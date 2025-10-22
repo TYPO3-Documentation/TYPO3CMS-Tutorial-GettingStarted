@@ -108,7 +108,7 @@ page related functions. Here is what these options do:
        |
        ---> new page
 
-   If you wish to create a new page, as a subpage of the current page, use "More options"
+   If you wish to create a new page as a subpage of the current page, use "More options"
    > 'Create New' wizard" or use :ref:`new-page-drag-and-drop`.
 
    .. code-block:: none
