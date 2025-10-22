@@ -6,7 +6,7 @@ The Filelist module
 ===================
 
 The :guilabel:`File > Filelist` module is where you can manage
-all the :ref:`media and downloads <media>` associated with your TYPO3 web site.
+all the :ref:`media and downloads <media>` associated with your TYPO3 website.
 
 The Editors Guide describes how to
 :ref:`manage media in the TYPO3 backend <t3editors:managing-files-in-typo>`.
@@ -35,7 +35,7 @@ File storages
 =============
 
 It is possible to configure additional file storages, including private and
-read only ones. This topic is beyond the scope of this guide. It is explained in
+read-only ones. This topic is beyond the scope of this guide. It is explained in
 TYPO3 Explained, chapter :ref:`File storages <t3coreapi:fal-administration-storages>`.
 
 .. _file-module-fal:
@@ -48,7 +48,7 @@ an abstraction layer. You can find the documentation of this layer in TYPO3
 Explained, chapter :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>`.
 
 On uploading, each file gets a unique identifier assigned to
-it. This identifier is used to link to files and also to attach meta data to
+it. This identifier is used to link to files and also to attach metadata to
 them.
 
 This allows your editors to rename and move files without breaking the frontend.
@@ -72,19 +72,19 @@ references <t3coreapi:fal-using-fal-examples-file-folder>`
 
 ..  note::
     Never link to a file in the fileadmin from CSS or or JavaScript. Such files
-    like logos, icons, background images etc. should be stored as
+    like logos, icons, background images, etc. should be stored as
     :ref:`Assets in extensions and site packages <assets>`.
 
 .. _file-module-meta-data:
 
-File meta data
+File metadata
 ==============
 
-A number of meta data fields for media uploaded in the Filelist module is
-available out-of-the-box. Additional meta data fields are available if the
+A number of metadata fields for media uploaded in the Filelist module is
+available out-of-the-box. Additional metadata fields are available if the
 system extension :composer:`typo3/cms-filemetadata` is installed.
 
-For accessibility reasons images should always have an alt text defined.
+For accessibility reasons, images should always have an alt text defined.
 Editors can input an alt text either in the file metadata in the Filelist module
 or override it in the file relation when they use an image in a content element.
 
