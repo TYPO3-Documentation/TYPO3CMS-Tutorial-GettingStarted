@@ -50,8 +50,8 @@ Grant access to the user_upload folder (file mounts)
 ====================================================
 
 The :ref:`automatically created user groups <backend-users-groups-quick>` from
-the previous step have access to the :guilabel:`Filelist` module, however, as
-file mount is created automatically, they will only see an error message:
+the previous step have access to the :guilabel:`Media > Filelist` module, however, as
+the file mount is created automatically, they will only see an error message:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/MissingFolderPermissions.png
     :alt: Error message: Missing folder permissions. You have no access to the folder "1:/user_upload/".
@@ -61,7 +61,7 @@ file mount is created automatically, they will only see an error message:
 Unless your users or their groups have at least one file mount they will not be
 able to upload files including images.
 
-To create a file mount, go to the backend module :guilabel:`File > Filelist`
+To create a file mount, go to the backend module :guilabel:`Media > Filelist`
 then choose the folder in which you want to create a file mount.
 
 Right click on the folder in the directory tree and choose "New Filemount"

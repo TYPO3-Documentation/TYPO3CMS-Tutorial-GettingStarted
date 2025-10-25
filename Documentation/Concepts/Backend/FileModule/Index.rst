@@ -5,7 +5,7 @@
 The Filelist module
 ===================
 
-The :guilabel:`File > Filelist` module is where you can manage
+The :guilabel:`Media > Filelist` module is where you can manage
 all the :ref:`media and downloads <media>` associated with your TYPO3 website.
 
 The Editors Guide describes how to

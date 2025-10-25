@@ -37,7 +37,7 @@ Files in the fileadmin directory are managed by the
 :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>`.
 
 They can be uploaded, moved and deleted in the backend module
-:guilabel:`File > Filelist` by administrators and
+:guilabel:`Media > Filelist` by administrators and
 depending on :ref:`permissions <t3coreapi:permissions-management>`,
 by editors.
 
