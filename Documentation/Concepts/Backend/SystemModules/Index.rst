@@ -50,7 +50,7 @@ Integrations backend module hub (optional)
 ..  versionadded:: 14.0
     The new :guilabel:`System > Integrations` module has been introduced.
 
-The Integrations module provides a centralized location for managing all
+The Integrations module provides a central location for managing all
 types of external system integrations in TYPO3.
 
 It is only visible if at least one of its submodules is visible. Submodules
