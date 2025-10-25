@@ -42,10 +42,25 @@ backend users.
 See also TYPO3 Explained,
 :ref:`Backend user management <t3coreapi:user-management>`.
 
-.. _system-modules-reactions:
+..  _system-modules-integrations:
+
+Integrations backend module hub (optional)
+==========================================
+
+..  versionadded:: 14.0
+    The new :guilabel:`System > Integrations` module has been introduced.
+
+The Integrations module provides a centralized location for managing all
+types of external system integrations in TYPO3.
+
+It is only visible if at least one of its submodules is visible. Submodules
+can be provided by optional system extensions (see below) or third party
+extensions.
+
+..  _system-modules-reactions:
 
 Reactions (optional)
-====================
+--------------------
 
 This module is only available if the system extension
 :composer:`typo3/cms-reactions` is installed. This extension handles **incoming**
@@ -55,17 +70,18 @@ reaction records.
 It has its own manual:
 :ref:`TYPO3 Reactions <typo3/cms-reactions:start>`.
 
-.. _system-modules-webhooks :
+..  _system-modules-webhooks:
 
 Webhooks (optional)
-===================
+-------------------
 
 This module is only available if the system extension
 :composer:`typo3/cms-webhooks` is installed. This extension handles **outgoing**
 webhooks to TYPO3. It also provides a corresponding backend module to manage
 webhook records in TYPO3.
 
-Unfortunately this extension is not documented at the time of writing.
+It has its own manual:
+:ref:`TYPO3 Webhooks <typo3/cms-webhooks:start>`.
 
 .. _system-modules-scheduler:
 
