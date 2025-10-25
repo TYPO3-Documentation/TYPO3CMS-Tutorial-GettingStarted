@@ -51,7 +51,7 @@ Grant access to the user_upload folder (file mounts)
 
 The :ref:`automatically created user groups <backend-users-groups-quick>` from
 the previous step have access to the :guilabel:`Media > Filelist` module, however, as
-file mount is created automatically, they will only see an error message:
+the file mount is created automatically, they will only see an error message:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/MissingFolderPermissions.png
     :alt: Error message: Missing folder permissions. You have no access to the folder "1:/user_upload/".

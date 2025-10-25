@@ -15,7 +15,7 @@ backend. You will notice that different sets of
 icons appear depending on what page you are on
 what actions you are performing.
 
-For example, there's a contextual menu in the :guilabel:`Content > List` view:
+For example, there is a contextual menu in the :guilabel:`Content > List` view:
 
 .. include:: /Images/AutomaticScreenshots/ListModule/ContextMenu.rst.txt
 
