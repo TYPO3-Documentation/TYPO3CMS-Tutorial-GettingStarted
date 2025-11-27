@@ -1,29 +1,32 @@
-:navigation-title: Page module
+:navigation-title: Layout module
+
 .. include:: /Includes.rst.txt
 .. _page-content:
 
-==============================
-"Page" backend module in TYPO3
-==============================
+================================
+"Layout" backend module in TYPO3
+================================
 
 ..  versionchanged:: 14.0
-    The main module `Web` has been renamed to `Content`.
+    The main module `Web` has been renamed to `Content`, the module itself has
+    been renamed from `Page` to `Layout`.
     See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
-The :guilabel:`Content > Page` module is used by the editors of the site to add
+The :guilabel:`Content > Layout` module is used by the editors of the site to add
 and modify content elements on the page.
 
 The Editors Guide, chapter :ref:`Content Elements <t3editors:content-elements>`,
 covers practical topics on how to work with content.
 
-..  contents:: Topics related to the page module
+..  contents:: Topics related to the :guilabel:`Content > Layout` module
 
 .. _page-layout:
 
 Page layout / backend layout
 ============================
 
-Within the Page module there can be one or more areas (also called columns)
+Within the :guilabel:`Content > Layout` module there can be one or more areas
+(also called columns)
 in which content can be added. The columns to be displayed in the backend
 are defined via page TSconfig in a so-called backend layout, sometimes also
 called page layout. The site package tutorial describes how page layouts
@@ -109,7 +112,7 @@ How to preview a page
 
 The preview function in TYPO3 allows you to check pages before publishing them.
 
-#.  Preview from the Page Module
+#.  Preview from the :guilabel:`Content > Layout` module
 
     *   You can preview a page by clicking the page icon of the desired page in
         the page tree. Click the ´show´ icon in the appearing context menu.

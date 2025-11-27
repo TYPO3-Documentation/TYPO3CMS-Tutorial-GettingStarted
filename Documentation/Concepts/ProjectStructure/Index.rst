@@ -76,7 +76,7 @@ The following files are processed:
 The folder :file:`config/system/` contains the installation-wide
 
 *   :file:`settings.php`: :ref:`Configuration <t3coreapi:typo3ConfVars-localConfiguration>` written
-    by the :guilabel:`Admin Tools > Settings` backend module
+    by the :guilabel:`System > Settings` backend module
 *   :file:`additional.php`: :ref:`Manually created file <t3coreapi:typo3ConfVars-additionalConfiguration>`
     which can override settings from :file:`settings.php` file
 

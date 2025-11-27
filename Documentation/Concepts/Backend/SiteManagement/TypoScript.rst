@@ -2,9 +2,9 @@
 ..  include:: /Includes.rst.txt
 ..  _site-management-typoscript:
 
-===================================
-TypoScript module (Site management)
-===================================
+=========================
+TypoScript module (Sites)
+=========================
 
 The TypoScript backend module can be used to debug the TypoScript configuration
 that you provided via your site as described in

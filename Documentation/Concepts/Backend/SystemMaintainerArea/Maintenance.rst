@@ -1,14 +1,20 @@
 :navigation-title: Maintenance
+
 ..  include:: /Includes.rst.txt
 ..  _admin-tools-maintenance:
+..  _system-maintenance:
 
-=========================
-Maintenance (Admin Tools)
-=========================
+====================
+Maintenance (System)
+====================
+
+..  versionchanged:: 14.0
+    This module has been moved from :guilabel:`Admin tools` to :guilabel:`System`
+	see `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
 
 Only available if :composer:`typo3/cms-install` is installed.
 
-The backend module :guilabel:`Admin Tools > Maintenance` offers tools
+The backend module :guilabel:`System > Maintenance` offers tools
 to system maintainers that are necessary during development or updates.
 
 Some of the tools available here include:
@@ -65,7 +71,7 @@ You can also create a new backend user from the console:
 
     ddev typo3 backend:user:create
 
-and from the module :guilabel:`System > Backend Users`. The latter cannot
+and from the module :guilabel:`Administration > Users`. The latter cannot
 grant system maintainer rights but is available to all admins.
 
 ..  _admin-tools-maintenance-reference-index:

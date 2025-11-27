@@ -3,4 +3,4 @@
 .. figure:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.png
    :class: with-shadow
 
-   The contextual menu in the Filelist
+   The contextual menu in the Media module

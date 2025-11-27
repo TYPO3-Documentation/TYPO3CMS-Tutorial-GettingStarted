@@ -26,15 +26,15 @@ You can view and try out the TYPO3 backend on this `demo <https://demo.typo3.org
 
     GeneralBackendStructure/Index
     Login/Index
-    PageModule/Index
+    LayoutModule/Index
     RecordsModule/Index
-    FileModule/Index
+    MediaModule/Index
     SiteManagement/Index
-    InfoModule/Index
-    AdminTools/Index
-    SystemModules/Index
+    StatusModule/Index
+    SystemMaintainerArea/Index
+    AdministrationModules/Index
 
-..  _backend modules:
+..  _backend-modules:
 
 Backend modules
 ---------------
@@ -50,19 +50,20 @@ The :guilabel:`Content` group contains a set of modules for the creation and
 management of pages and content. This group contains important backend modules
 such as :ref:`Pages <page-content>`, where the page content can be edited,
 :guilabel:`Content > Records` where database records can be viewed and edited and
-:ref:`Info <info-module>` where you can find information provided by different
-system and third-party extension. Many page modules provided by third-party
+:ref:`Content > Status <status-module>` where you can find information provided by different
+system and third-party extension. Many content modules provided by third-party
 extensions can also be found in this area.
 
-:guilabel:`Site Management` is for the setup of a site. Here it is possible to
+:guilabel:`Sites` is for the setup of a site. Here it is possible to
 specify the site name, assign domains and select languages.
 
-:ref:`Media > Filelist <file-module>` is for viewing and managing files including
+:ref:`Media <file-module>` is for viewing and managing files including
 documents, images and videos.
 
-:guilabel:`Admin Tools` are administrative modules for maintenance and performing
+The modules in the top level module :guilabel:`System` are system modules for
+maintenance, global settings and performing
 upgrades. One module is the Extension manager for enabling/disabling
 third-party extensions.
 
-:ref:`System <system-modules>` is where administrators control access to the
+:ref:`Administration <administration-modules>` is where administrators control access to the
 backend, view error logs and provide information specific to the installation.

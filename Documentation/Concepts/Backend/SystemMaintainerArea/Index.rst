@@ -1,9 +1,10 @@
 ..  include:: /Includes.rst.txt
 ..  _admin-tools:
+..  _system-maintainer-area:
 
-===========
-Admin Tools
-===========
+======================
+System maintainer area
+======================
 
 In the :ref:`User Management <t3coreapi:user-management>` chapter we covered the
 *Access* and *Backend Users* module. In this section we take a look
@@ -19,17 +20,20 @@ The following modules are available in a full TYPO3 installation:
     Settings
     Upgrade
     Environment
-    ContentSecurityPolicy
     Extensions
+    Database
+    Configuration
+    ContentSecurityPolicy
 
 ..  contents::
 
 ..  _admin-tools-access:
+..  _system-maintainer-access:
 
-Accessing the Admin Tools
-=========================
+Accessing the system maintainer area
+====================================
 
-The Admin Tools can only be accessed from the backend if:
+The system maintainer area can only be accessed from the backend if:
 
 *   :composer:`typo3/cms-install` is installed. This system extension became
     optional with TYPO3 13.

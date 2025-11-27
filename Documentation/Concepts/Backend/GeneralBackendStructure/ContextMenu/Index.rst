@@ -8,7 +8,7 @@ The context menus
 
 While learning about the :ref:`page tree <page-tree>`,
 we were introduced to contextual menus
-when selecting icons in the Page module.
+when selecting icons in the :guilabel:`Content > Layout` module.
 
 Contextual menus exist throughout the CMS's
 backend. You will notice that different sets of
@@ -19,6 +19,6 @@ For example, there is a contextual menu in the :guilabel:`Content > Records` vie
 
 .. include:: /Images/AutomaticScreenshots/RecordsModule/ContextMenu.rst.txt
 
-or in the :guilabel:`Media > Filelist` view:
+or in the :guilabel:`Media` view:
 
 .. include:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.rst.txt
