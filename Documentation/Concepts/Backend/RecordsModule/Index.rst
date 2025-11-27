@@ -1,10 +1,10 @@
 .. include:: /Includes.rst.txt
-.. index:: Modules; List module
-.. _list-module:
+.. index:: Modules; Records module
+.. _records-module:
 
-===============
-The list module
-===============
+==================
+The Records module
+==================
 
 ..  versionchanged:: 14.0
     The main module `Web` has been renamed to `Content`.
@@ -13,38 +13,38 @@ The list module
 Almost all data stored in the database is represented as a
 :ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.
 
-The respective backend module called :guilabel:`Content > List` module can be
+The respective backend module called :guilabel:`Content > Records` module can be
 used to view, edit, search and export database records.
 
-How to use the List module effectively for managing database records is
+How to use the :guilabel:`Content > Records` module effectively for managing database records is
 described in-depth in
-:ref:`Editors Guide, Using the list module <t3editors:using-the-list-module-effectively>`.
+:ref:`Editors Guide, Using the records module <t3editors:using-the-list-module-effectively>`.
 
 For example there is a :ref:`Mass editing mode <t3editors:selective-editing>` and
 a :ref:`clipboard <t3editors:clipboard>`.
 
-.. _list-module-tca:
+.. records-module-tca:
 
-Display of database records in the List module
-==============================================
+Display of database records in the Records module
+=================================================
 
-How a database record type is displayed in the list module is determined by
+How a database record type is displayed in the :guilabel:`Content > Records` module is determined by
 :ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
 globally Tsconfig can be included on a per-site or per-page level.
 
 ..  todo: Link tsconfig once article exists in concepts.
 
-Here are some examples of what you might want to change in the list module:
+Here are some examples of what you might want to change in the :guilabel:`Content > Records` module:
 
-.. _list-module-mod-hideTables:
+.. _records-module-mod-hideTables:
 
-Hide tables in the List module
+Hide tables in the Records module
 ------------------------------
 
 The TSconfig properties in section :ref:`web_list <t3tsref:pageweblist>`
-can be used to influence display and functionality of the List module.
+can be used to influence display and functionality of the :guilabel:`Content > Records` module.
 
-For example you can hide the records of certain tables visible in the List module with:
+For example you can hide the records of certain tables visible in the :guilabel:`Content > Records` module with:
 
 ..  code-block:: typoscript
     :caption: EXT:site_package/Configuration/page.tsconfig
@@ -55,7 +55,7 @@ For example you can hide the records of certain tables visible in the List modul
 
 We use the :ref:`operator ":=" <t3tsref:typoscript-syntax-syntax-value-modification>` to add tables to a list that we want to hide.
 
-.. _list-module-disableHideAtCopy:
+.. _records-module-disableHideAtCopy:
 
 Disable hide and prepend at copy
 --------------------------------
@@ -74,7 +74,7 @@ the affected table belonging to the record to true like so:
        disableHideAtCopy = 1
     }
 
-.. _list-module-TCAdefaults:
+.. _records-module-TCAdefaults:
 
 Define defaults for certain fields
 ----------------------------------

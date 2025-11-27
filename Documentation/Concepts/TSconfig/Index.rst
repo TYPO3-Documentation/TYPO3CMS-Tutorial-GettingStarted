@@ -35,7 +35,7 @@ set at the page level and then affects that page and all the pages below it in
 the tree. The things that can be configured mainly affect the look and feel of the backend,
 such as which fields are available when editing a content element. In general,
 page TSconfig dictates what a user sees when they click on modules under `Web` in the
-left-hand module bar that open a pagetree, e.g. Page, View, List.
+left-hand module bar that open a pagetree, e.g. Page, View, Records.
 
 ..  _tsconfig-more-information:
 

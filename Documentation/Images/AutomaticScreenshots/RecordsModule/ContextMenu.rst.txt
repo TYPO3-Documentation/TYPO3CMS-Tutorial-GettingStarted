@@ -1,0 +1,6 @@
+.. Automatic screenshot: Remove this line if you want to manually change this file
+
+.. figure:: /Images/AutomaticScreenshots/RecordsModule/ContextMenu.png
+   :class: with-shadow
+
+   The contextual menu in the  "Records" module
