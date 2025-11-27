@@ -1,11 +1,12 @@
 .. include:: /Includes.rst.txt
 .. _file-module:
+.. _media-module:
 
-===================
-The Filelist module
-===================
+================
+The Media module
+================
 
-The :guilabel:`Media > Filelist` module is where you can manage
+The :guilabel:`Media` module is where you can manage
 all the :ref:`media and downloads <media>` associated with your TYPO3 website.
 
 The Editors Guide describes how to
@@ -20,7 +21,7 @@ or another :ref:`extension <create-own-extension>`.
 Fileadmin - the default file storage
 ====================================
 
-By default all media managed via the Filelist module is stored in the folder
+By default all media managed via the :guilabel:`Media` module is stored in the folder
 :path:`public/fileadmin`.
 
 This folder is publicly accessible and it is possible for attackers to access
@@ -43,7 +44,7 @@ TYPO3 Explained, chapter :ref:`File storages <t3coreapi:fal-administration-stora
 File abstraction layer (FAL)
 ============================
 
-All media and download files managed in the Filelist module are managed via
+All media and download files managed in the :guilabel:`Media` module are managed via
 an abstraction layer. You can find the documentation of this layer in TYPO3
 Explained, chapter :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>`.
 
@@ -80,12 +81,12 @@ references <t3coreapi:fal-using-fal-examples-file-folder>`
 File metadata
 ==============
 
-A number of metadata fields for media uploaded in the Filelist module is
+A number of metadata fields for media uploaded in the :guilabel:`Media` module is
 available out-of-the-box. Additional metadata fields are available if the
 system extension :composer:`typo3/cms-filemetadata` is installed.
 
 For accessibility reasons, images should always have an alt text defined.
-Editors can input an alt text either in the file metadata in the Filelist module
+Editors can input an alt text either in the file metadata in the :guilabel:`Media` module
 or override it in the file relation when they use an image in a content element.
 
 By using the :ref:`Image ViewHelper <f:image> <t3viewhelper:typo3-fluid-image>`

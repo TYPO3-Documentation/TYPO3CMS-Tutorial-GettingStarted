@@ -28,9 +28,13 @@ manual changes to the first file mentioned, as it is auto-managed.
 Global extension settings
 -------------------------
 
+..  versionchanged:: 14.0
+    This module has been moved from :guilabel:`Admin tools` to :guilabel:`System`
+	see `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+
 Global settings for installed extensions, including some that are part of a
 default installation, can be made in the
-:guilabel:`Admin Tools > Settings > Extension Configuration` submodule.
+:guilabel:`System > Settings > Extension Configuration` submodule.
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/ExtensionConfiguration.png
     :alt: Screenshot demonstration the location of the Extension Configuration in module "Settings"
@@ -60,7 +64,7 @@ Read more about this in the chapter: :ref:`siteconfiguration`.
 
 Site configurations are stored in a file called
 :file:`config/sites/my-site/config.yaml` and can be edited from the
-:guilabel:`Site Management > Sites` module. Each site must have a unique key, called
+:guilabel:`Sites > Setup` module. Each site must have a unique key, called
 the "Site Identifier". For demonstration purposes, we use "my-site" here. The
 Site Identifier is also used as the path for saving the configuration file.
 
@@ -80,7 +84,7 @@ Site settings
     Starting with TYPO3 v13.3, site settings can also be edited in the site
     settings editor.
 
-You can edit site settings in the :guilabel:`Site Management > Settings` module.
+You can edit site settings in the :guilabel:`Sites > Setup > Settings` module.
 Changes are written to the :file:`config/sites/my-site/settings.yaml` file. If you
 keep this file under version control, you must commit and push the changes made
 to this file.
@@ -125,13 +129,9 @@ For detailed information on this topic, see also
 Page wide frontend definitions: TypoScript
 ==========================================
 
-..  versionchanged:: 12.0
-    This module was renamed. With TYPO3 v12 it was moved from
-    :guilabel:`Web > Template` to :guilabel:`Site Management > TypoScript`.
-
 TypoScript is a configuration language used to configure both the frontend
 output and the backend of a TYPO3 web site. TypoScript can be managed in a TypoScript
-record, which can be found in the :guilabel:`Site Management > TypoScript` module.
+record, which can be found in the :guilabel:`Sites > TypoScript` module.
 
 ..  figure:: /Images/ManualScreenshots/SiteManagement/TypoScriptModule.png
     :ref: Screenshot demonstrating the TypoScript overview module

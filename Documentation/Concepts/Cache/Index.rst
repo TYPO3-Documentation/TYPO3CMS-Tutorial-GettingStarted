@@ -35,7 +35,7 @@ Here are the main ways to clear caches in TYPO3 13:
         .. figure:: /Images/ManualScreenshots/ClearCache/Toolbar.png
 
     *   For deeper cache management, you can use the Install Tool:
-        In :guilabel:`Admin Tools > Maintenance` you can find the option to
+        In :guilabel:`System > Maintenance` you can find the option to
         clear all caches. This will refresh everything, including caches
         that aren't typically cleared through the backend top bar.
 

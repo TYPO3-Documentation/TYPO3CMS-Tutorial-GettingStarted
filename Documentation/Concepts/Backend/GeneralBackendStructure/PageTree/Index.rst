@@ -14,9 +14,9 @@ the arrow to the left of each page.
 .. rst-class:: bignums
 
 
-1. :ref:`Enter the backend <backend-login>` and select the page module
+1. :ref:`Enter the backend <backend-login>` and select the :guilabel:`Content > Layout` module
 
-   Click on :guilabel:`Content > Page` now.
+   Click on :guilabel:`Content > Layout` now.
 
 2. Look at the page tree in the backend:
 

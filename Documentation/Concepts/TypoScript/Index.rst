@@ -83,12 +83,12 @@ Debug the TypoScript in the backend module "Active TypoScript"
 ==============================================================
 
 Open the backend module
-:guilabel:`Site Management > TypoScript > Active TypoScript`.
+:guilabel:`Sites > TypoScript > Active TypoScript`.
 
 ..  figure:: ActiveTypoScript.png
-    :alt: Screenshot of the submodule "Active TypoScript" in the module "Site Management > TypoScript"
+    :alt: Screenshot of the submodule "Active TypoScript" in the module "Sites > TypoScript"
 
-    Switch the submodules of module :guilabel:`Site Management > TypoScript`
+    Switch the submodules of module :guilabel:`Sites > TypoScript`
     using the Dropdown in the module header.
 
 You can find the variable `page` that you just defined. The other variables have

@@ -1,17 +1,18 @@
 .. include:: /Includes.rst.txt
-.. index:: Modules; Info
+.. index:: Modules; Status
 .. _info-functions-modules:
 .. _info-module:
+.. _status-module:
 
-===========
-Info module
-===========
+=============
+Status module
+=============
 
 ..  versionchanged:: 14.0
-    The main module `Web` has been renamed to `Content`.
+    The module `Web > Info` has been renamed to `Content > Status`.
     See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
-The :guilabel:`Content > Info` module displays a variety of information
+The :guilabel:`Content > Status` module displays a variety of information
 related to the pages in your web site. It contains several
 functions which can be accessed from the dropdown menu in the
 docheader. For example, the *Localization Overview* lets

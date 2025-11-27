@@ -15,8 +15,8 @@ The user that was automatically created for you during
 `Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_
 has the widest rights possible and is a System Maintainer. The System Maintainer
 is an Administrator who can also see and use the section
-`Admin Tools <https://docs.typo3.org/permalink/t3start:admin-tools>`_ in the
-backend.
+`System maintainer area <https://docs.typo3.org/permalink/t3start:system-maintainer-area>`_
+in the backend.
 
 ..  tip::
     If your Backend User account does not seem to work for some reason, check

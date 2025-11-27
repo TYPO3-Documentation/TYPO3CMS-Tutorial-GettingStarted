@@ -2,9 +2,9 @@
 ..  include:: /Includes.rst.txt
 ..  _site-management-redirects:
 
-==================================
-Redirects module (Site management)
-==================================
+========================
+Redirects module (Sites)
+========================
 
 This backend module is only available if the optional system extension
 :composer:`typo3/cms-redirects` is installed.

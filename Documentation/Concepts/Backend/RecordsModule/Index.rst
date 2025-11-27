@@ -1,5 +1,6 @@
 .. include:: /Includes.rst.txt
 .. index:: Modules; Records module
+.. _list-module:
 .. _records-module:
 
 ==================

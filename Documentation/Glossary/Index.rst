@@ -17,9 +17,8 @@ Glossary
         is a web server. Others are Nginx, Microsoft IIS and Caddy Server (`see system requirements <https://get.typo3.org/version/13#system-requirements>`__).
 
     Admin Tools
-        Admin tools are a group of backend modules.
-        These include maintaining the installation, adjusting settings, executing upgrade wizards,
-        checking environment information and setting up extensions.
+        Admin tools was until TYPO3 14.0 the group of modules now listed in the
+        system maintainer area
 
     Admin User
 
@@ -141,8 +140,7 @@ Glossary
         documents, and media, that are used on your website.
 
     Filelist
-        The filelist is a backend module where you can upload files and
-        manage your uploaded files.
+        Until TYPO3 14.0 the :guilabel:`Media` module was called "Filelist".
 
     FAL
         :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>` is a

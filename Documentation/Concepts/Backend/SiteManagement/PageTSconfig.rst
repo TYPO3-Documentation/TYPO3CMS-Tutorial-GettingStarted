@@ -2,9 +2,9 @@
 ..  include:: /Includes.rst.txt
 ..  _site-management-page-tsconfig:
 
-======================================
-Page TSconfig module (Site management)
-======================================
+============================
+Page TSconfig module (Sites)
+============================
 
 This module works in a similar way like the
 :ref:`TypoScript module <site-management-typoscript>`.

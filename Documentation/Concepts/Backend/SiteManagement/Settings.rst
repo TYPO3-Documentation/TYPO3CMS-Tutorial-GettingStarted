@@ -2,9 +2,9 @@
 ..  include:: /Includes.rst.txt
 ..  _site-management-settings:
 
-=================================
-Settings module (Site management)
-=================================
+=======================
+Settings module (Sites)
+=======================
 
 ..  note::
     Content will follow, for now see TYPO3 explained,

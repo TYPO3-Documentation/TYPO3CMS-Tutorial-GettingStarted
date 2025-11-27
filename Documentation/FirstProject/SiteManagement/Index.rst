@@ -26,7 +26,7 @@ your site in the page tree.
 
 The site configuration is stored in a file called
 :file:`config/sites/my_site/config.yaml`. For your convenience, you can
-edit this file using the backend module: :guilabel:`Site Management > Sites`.
+edit this file using the backend module: :guilabel:`Sites > Setup`.
 
 Available root pages should be listed in this module. Click
 the button :guilabel:`Add new site configuration` next to the relevant
@@ -191,7 +191,7 @@ Site management: Trouble shooting
         you fix the problem in the page tree:
 
         ..  figure:: /FirstProject/SiteManagement/NoPagesFound.png
-            :alt: No pages found! Please add at least one page through the Page module.
+            :alt: No pages found! Please add at least one page through the Layout module.
 
             Malformed YAML can only be corrected by editing the config file.
 

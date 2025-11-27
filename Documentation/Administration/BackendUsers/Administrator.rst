@@ -14,11 +14,11 @@ The administrator account that was automatically created for you during
 `Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_
 has the widest rights possible and is a System Maintainer. The System Maintainer
 is an Administrator who can also see and use the section
-`Admin Tools <https://docs.typo3.org/permalink/t3start:admin-tools>`_ in the
-backend.
+`System maintainer area <https://docs.typo3.org/permalink/t3start:system-maintainer-area>`_
+in the backend.
 
 ..  tip::
-    If your Backend User account does not seem to work for some reason, check
+    If your backend user account does not seem to work for some reason, check
     chapter `Troubleshooting common TYPO3 backend login
     problems <https://docs.typo3.org/permalink/t3start:troubleshooting-backend-login>`_.
 
@@ -71,13 +71,13 @@ The first administrator got created for you during
 `Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_.
 
 When you log into the backend (See `Backend login <https://docs.typo3.org/permalink/t3start:backend-login>`_)
-you can go to module `Backend Users <https://docs.typo3.org/permalink/t3start:system-modules-backend-users>`_
+you can go to module `Administration > Users <https://docs.typo3.org/permalink/t3start:administration-modules-backend-users>`_
 and create a new administrator there.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/CreateUser.png
     :alt: Screenshot of the "Backend Users" module demonstrating the location of the "Create new backend user" button in the module header
 
-    Open the module :guilabel:`System > Backend Users` and click on "Create new backend user"
+    Open the module :guilabel:`Administration > Users` and click on "Create new backend user"
 
 When creating the user check the "Admin" option:
 
@@ -87,7 +87,7 @@ When creating the user check the "Admin" option:
     When you check the Admin option the form needs to reload once. Answer the dialogue with "OK".
 
 You can :ref:`Grant System Maintainer rights <backend-users-system-maintainer>`
-in the Admin Tools later on.
+in module :guilabel:`System > Maintenance` later on.
 
 ..  _backend-users-admin-install-tool:
 
@@ -115,12 +115,16 @@ Granting System Maintainer rights
     `Application context Development <https://docs.typo3.org/permalink/t3start:application-context>`_
     all backend administrators can use the module.
 
-Using the module :guilabel:`Admin Tools > Settings` and card
+..  versionchanged:: 14.0
+    This module has been moved from :guilabel:`Admin tools` to :guilabel:`System`
+	see `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+
+Using the module :guilabel:`System > Settings` and card
 "Manage System Maintainers Access" you can manage which administrator accounts
 should be granted "System Maintainer" rights.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/ManageSystemMaintainers.png
-    :alt: "Manage System Maintainers" window in the Admin Tools.
+    :alt: "Manage System Maintainers" window in the module System > Settings.
 
     Disabled backend admins are marked with [DISABLED], you can choose them any way.
 
@@ -129,7 +133,7 @@ therefore this file needs to be writable.
 
 If your installation also has a file called :file:`config/system/additional.php`
 the settings can be overridden here. In this case changes you make in the
-Admin Tools do not take effect.
+module :guilabel:`System > Settings` do not take effect.
 
 A setting overriding the System Maintainer list could look like this:
 
