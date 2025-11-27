@@ -2,6 +2,7 @@
 
 .. include:: /Includes.rst.txt
 .. _page-content:
+.. _layout-module:
 
 ================================
 "Layout" backend module in TYPO3
