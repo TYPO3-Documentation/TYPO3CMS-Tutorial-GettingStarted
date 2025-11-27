@@ -27,7 +27,7 @@ You can view and try out the TYPO3 backend on this `demo <https://demo.typo3.org
     GeneralBackendStructure/Index
     Login/Index
     PageModule/Index
-    ListModule/Index
+    RecordsModule/Index
     FileModule/Index
     SiteManagement/Index
     InfoModule/Index
@@ -49,7 +49,7 @@ user sees depends on the access rights that have been given to them.
 The :guilabel:`Content` group contains a set of modules for the creation and
 management of pages and content. This group contains important backend modules
 such as :ref:`Pages <page-content>`, where the page content can be edited,
-:ref:`List <list-module>` where database records can be viewed and edited and
+:guilabel:`Content > Records` where database records can be viewed and edited and
 :ref:`Info <info-module>` where you can find information provided by different
 system and third-party extension. Many page modules provided by third-party
 extensions can also be found in this area.

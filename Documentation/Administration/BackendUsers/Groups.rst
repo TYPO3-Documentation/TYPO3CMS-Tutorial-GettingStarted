@@ -144,7 +144,7 @@ deployable backend user rights. You can, however, use the export / import module
 to export and import backend user groups.
 
 Backend user groups are database records that are stored on the virtual root
-page (uid=0). They can therefore also be viewed and edited in the list module.
+page (uid=0). They can therefore also be viewed and edited in the Records module.
 
 Backend user groups can inherit from one or several other user groups. In such
 a setting it is possible to grant additional permissions of the parent user
