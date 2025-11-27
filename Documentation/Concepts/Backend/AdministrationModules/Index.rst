@@ -1,4 +1,4 @@
-:navigation-title: System modules
+:navigation-title: Administration modules
 
 ..  include:: /Includes.rst.txt
 ..  _system-modules:
