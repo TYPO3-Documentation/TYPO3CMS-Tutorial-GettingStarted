@@ -33,6 +33,9 @@ including the name of your site and also the version of TYPO3 it is currently ru
    to the **"User Settings"** module, where you can change your password
    and configure other backend preferences. You can also "Logout" of
    the CMS from this menu option.
-#. At the far right, is general **"Search"** field, which will search
-   through records (pages, content elements, users, etc.)  that exist
-   within your installation of TYPO3.
+#. The general **"Search"** field is at the top of the page tree. Here you can search
+   through all the records (pages, content elements, users, etc.) in your TYPO3
+   installation. Search using characters or numbers (uids).
+..  versionadded:: 14.1
+    Pages translated into other languages are also included in the search.
+
