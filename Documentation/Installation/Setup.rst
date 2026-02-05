@@ -93,3 +93,57 @@ Restart DDEV to apply the changes:
 ..  code-block:: bash
 
     ddev restart
+
+..  _typo3-setup-next:
+
+Next steps: Create a basic website
+===================================
+
+If you installed the `Default theme <https://docs.typo3.org/permalink/t3start:installation-typo3-default-theme>`_
+and chose to create a basic site during installation, open the frontend and
+have a look at the basic website in a browser of your choice:
+
+..  code-block:: bash
+
+    ddev launch
+
+You should see a default website like the following:
+
+..  figure:: /Images/ManualScreenshots/Theme/NewSite.png
+    :alt: Frontend screenshot of a website using the default theme "Camino" with text "Welcome to your default website"
+    :zoom: lightbox
+
+    Frontend of an empty website using the default theme "Camino"
+
+Access the TYPO3 backend:
+
+..  code-block:: bash
+
+    ddev launch /typo3
+
+Log in using the credentials you just created during the setup process. Navigate
+to the :guilabel:`Content > Layout` module. You should see something like the
+following:
+
+..  figure:: /Images/ManualScreenshots/Theme/NewSiteBackend.png
+    :alt: Backend screenshot of a freshly installed TYPO3 installation, demonstrating the Camino theme with its content areas in the "Content > Layout" module
+    :zoom: lightbox
+
+    Backend of the same website, viewed in the :guilabel:`Content > Layout` module
+
+You can customize the example theme using the
+`Site settings <https://docs.typo3.org/permalink/t3start:settings-site-settings>`_
+or create new `Sub pages <https://docs.typo3.org/permalink/t3editors:pages-creating>`_
+and `Creating content <https://docs.typo3.org/permalink/t3editors:content-creating>`_.
+
+..  rubric:: Trouble shooting:
+
+If there is an error message instead, try clearing the cache:
+
+..  code-block:: bash
+
+    ddev typo3 cache:flush -v
+
+If you can still see no default website, log into the backend and continue to
+`create a root page manually <https://docs.typo3.org/permalink/t3start:create-root-page>`_
+if none was created automatically.

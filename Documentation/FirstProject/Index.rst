@@ -7,11 +7,17 @@
 First project setup
 ===================
 
+If you installed the `Default theme <https://docs.typo3.org/permalink/t3start:installation-typo3-default-theme>`_
+and chose to create a basic site during installation you already have a
+root page, a site configuration and a basic theme / site package created
+automatically. In this case you can proceed with chapter :ref:`Settings <siterecords>`
+to customize your installation.
+
 This chapter demonstrates how to create your first small project in an empty
 `TYPO3 Installation <https://docs.typo3.org/permalink/t3start:installation-index>`_.
 
-Instead of following this chapter you can use a
-`Project template for a quick start <https://docs.typo3.org/permalink/t3start:project-templates>`_.
+There are also some
+`Project templates for a quick start <https://docs.typo3.org/permalink/t3start:project-templates>`_.
 
 ..  card-grid::
     :columns: 1

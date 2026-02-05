@@ -6,6 +6,12 @@
 Site Management
 ===============
 
+..  hint::
+    If you choose "Create a basic site?" during setup you can skip this step.
+
+    Proceed with chapter :ref:`Settings <siterecords>` to customize your
+    installation.
+
 ..  contents:: Table of contents
 
 ..  _siteconfiguration:
