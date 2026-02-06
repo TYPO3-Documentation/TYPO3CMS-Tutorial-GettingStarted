@@ -18,10 +18,6 @@ Install Tool.
 Set up TYPO3 using the console
 ===============================
 
-..  versionadded:: 12.1
-    Starting with TYPO3 12.1, a new CLI command `typo3 setup` is available
-    as an alternative to the traditional web-based installer.
-
 To perform an interactive guided setup, run:
 
 ..  code-block:: bash

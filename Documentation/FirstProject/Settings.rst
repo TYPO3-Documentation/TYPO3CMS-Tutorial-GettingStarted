@@ -83,10 +83,6 @@ Find detailed information in :ref:`TYPO3 Explained, Site handling <t3coreapi:sit
 Site settings
 -------------
 
-..  versionadded:: 13.3
-    Starting with TYPO3 v13.3, site settings can also be edited in the site
-    settings editor.
-
 You can edit site settings in the :guilabel:`Sites > Setup > Settings` module.
 Changes are written to the :file:`config/sites/my-site/settings.yaml` file. If you
 keep this file under version control, you must commit and push the changes made
