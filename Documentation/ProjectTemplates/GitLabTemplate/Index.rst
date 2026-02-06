@@ -24,6 +24,7 @@ or to path `/new#create_from_template` on your self-hosted GitLab. And chose
 :guilabel:`TYPO3 Distribution` from the list:
 
 ..  figure:: UseTemplate.png
+    :zoom: gallery
     :alt: The "TYPO3 Distribution" entry on the "Create from template" page on GitLab.
 
     Click on "Use template"
@@ -34,6 +35,7 @@ Fill in project details
 =======================
 
 ..  figure:: ProjectDetails.png
+    :zoom: gallery
     :alt: Detail page when creating a project from a template in GitLab
 
     Fill in the details
@@ -47,6 +49,7 @@ Clone the project to your local machine. You can download the SSH link from
 the :guilabel:`Code` dropdown:
 
 ..  figure:: GitClone.png
+    :zoom: gallery
     :alt: Screenshot demonstration the location of the Code button where you can copy the Clone with SSH link
 
     Copy the "Clone with SSH" link
@@ -116,6 +119,7 @@ A default user has been created. Username and password are displayed in your
 console.
 
 ..  figure:: Backend.png
+    :zoom: gallery
     :alt: TYPO3 Backend of a project created with the GitLab Template
 
 Once logged in, you can preview a page and see it rendered with a basic theme.

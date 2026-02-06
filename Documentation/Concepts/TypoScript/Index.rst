@@ -86,6 +86,7 @@ Open the backend module
 :guilabel:`Site Management > TypoScript > Active TypoScript`.
 
 ..  figure:: ActiveTypoScript.png
+    :zoom: lightbox
     :alt: Screenshot of the submodule "Active TypoScript" in the module "Site Management > TypoScript"
 
     Switch the submodules of module :guilabel:`Site Management > TypoScript`

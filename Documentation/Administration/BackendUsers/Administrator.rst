@@ -75,6 +75,7 @@ you can go to module `Backend Users <https://docs.typo3.org/permalink/t3start:sy
 and create a new administrator there.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/CreateUser.png
+    :zoom: gallery
     :alt: Screenshot of the "Backend Users" module demonstrating the location of the "Create new backend user" button in the module header
 
     Open the module :guilabel:`System > Backend Users` and click on "Create new backend user"
@@ -82,6 +83,7 @@ and create a new administrator there.
 When creating the user check the "Admin" option:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/CreateAdmin.png
+    :zoom: gallery
     :alt: The Admin option is the first option in the tab "General" in the backend user edit form
 
     When you check the Admin option the form needs to reload once. Answer the dialogue with "OK".
@@ -98,6 +100,7 @@ Access the Install Tool at `https://my-site.ddev.site/typo3/install.php` using
 the Install Tool password defined during the installation process.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/InstallTool.png
+    :zoom: gallery
     :alt: The Install Tool: Create Administrative User, Create new administrative users and grant them system maintainer privileges (optional).
 
     In the module "Maintenance" module use the button "Create Administrator".
@@ -120,6 +123,7 @@ Using the module :guilabel:`Admin Tools > Settings` and card
 should be granted "System Maintainer" rights.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/ManageSystemMaintainers.png
+    :zoom: gallery
     :alt: "Manage System Maintainers" window in the Admin Tools.
 
     Disabled backend admins are marked with [DISABLED], you can choose them any way.

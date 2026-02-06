@@ -33,6 +33,7 @@ default installation, can be made in the
 :guilabel:`Admin Tools > Settings > Extension Configuration` submodule.
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/ExtensionConfiguration.png
+    :zoom: gallery
     :alt: Screenshot demonstration the location of the Extension Configuration in module "Settings"
 
     You can find the global Extension Configuration in module Settings
@@ -41,6 +42,7 @@ After opening the submodule, you can make your changes and hit "Save":
 
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/ExtensionConfigurationDetail.png
+    :zoom: gallery
     :alt: Screenshot of the Extension Configuration submodule
 
     Make changes and hit "Save".
@@ -65,6 +67,7 @@ the "Site Identifier". For demonstration purposes, we use "my-site" here. The
 Site Identifier is also used as the path for saving the configuration file.
 
 ..  figure:: /Images/ManualScreenshots/SiteManagement/SiteIdentifier.png
+    :zoom: gallery
     :alt: Screenshot demonstration field "Site Identifier" in a site configuration
 
     The Site Identifier can be changed in this field
@@ -86,6 +89,7 @@ keep this file under version control, you must commit and push the changes made
 to this file.
 
 ..  figure:: /Images/ManualScreenshots/SiteManagement/SiteSettingsOverview.png
+    :zoom: gallery
     :alt: Screenshot of the Site Settings Overview
 
     You can find all sites in the "Settings" module. If editable settings are available, there is a button "Edit Settings"
