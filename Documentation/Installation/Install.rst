@@ -160,7 +160,7 @@ Recommended: Require the default theme (Camino)
 
     A default theme has been added to TYPO3.
 
-When you are installing TYPO3 for the first time we recommend you use the
+When you are installing TYPO3 for the first time we recommend that you use the
 default theme, :composer:`typo3/theme-camino` shipped with the TYPO3 Core.
 Its main purpose is to build new sites more rapidly in TYPO3 v14.
 
