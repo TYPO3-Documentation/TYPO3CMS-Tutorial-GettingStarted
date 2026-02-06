@@ -12,6 +12,7 @@ TYPO3 Application context: Development or Production
 ====================================================
 
 ..  figure:: _ApplicationContext/ApplicationContextInformation.png
+    :zoom: lightbox
     :alt: Screenshot showing the current application context in the "System Information" box
 
     The current application context is displayed on the top-right in the "System Information" box

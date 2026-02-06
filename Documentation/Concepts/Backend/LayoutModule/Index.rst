@@ -43,6 +43,7 @@ The "New Page Content" wizard
 =============================
 
 ..  figure:: /Images/ManualScreenshots/Backend/NewPageContentWizard.png
+    :zoom: lightbox
     :alt: Screenshot of a "New page content" wizard in a standard TYPO3 installation
 
     The "New page content" wizard

@@ -94,6 +94,7 @@ Or you can set a new password by entering your desired password on the
 Install Tool login page, then copying the calculated hash:
 
 ..  figure:: /Images/ManualScreenshots/AdminTools/InstallToolHash.png
+    :zoom: lightbox
     :alt: Screenshot demonstrating copying the calculated hash in the install tool
 
     Copy the calculated hash

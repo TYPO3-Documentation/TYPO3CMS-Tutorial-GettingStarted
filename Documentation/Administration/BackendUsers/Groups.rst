@@ -54,6 +54,7 @@ the previous step have access to the :guilabel:`Media` module, however, as
 the file mount is created automatically, they will only see an error message:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/MissingFolderPermissions.png
+    :zoom: gallery
     :alt: Error message: Missing folder permissions. You have no access to the folder "1:/user_upload/".
 
     Error message when a user with the auto-generated groups opens the :guilabel:`Media` module
@@ -68,6 +69,7 @@ Right click on the folder in the directory tree and choose "New Filemount"
 from the context menu:
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/CreateNewFilemount.png
+    :zoom: gallery
     :alt: New filemount option in the dropdown of a folder in the Media module in the TYPO3 backend
 
     Create a new filemount, give a name to it and save it
@@ -114,6 +116,7 @@ You can fix such page permissions recursively in the module :guilabel:`Administr
 Permissions`.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/PermissionsModule.png
+    :zoom: gallery
     :alt: The page permissions module in the TYPO3 backend.
 
 You can then fix the permissions recursively. It is recommended to have a group
