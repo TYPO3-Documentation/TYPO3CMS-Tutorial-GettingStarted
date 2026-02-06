@@ -37,7 +37,7 @@ the following data:
         "name": "myvendor/my-extension",
         "type": "typo3-cms-extension",
         "require": {
-            "typo3/cms-core": "^13.4",
+            "typo3/cms-core": "^14",
         },
         "extra": {
             "typo3/cms": {

@@ -57,8 +57,8 @@ Major, minor and patch level updates
 In TYPO3 you can update your TYPO3 version. There exist three different types
 of updates:
 
-#.  Major updates: for example, from 12.4.23 to 13.0.0
-#.  Minor updates: for example, from 13.0 to 13.1
+#.  Major updates: for example, from 13.4.23 to 14.0.0
+#.  Minor updates: for example, from 14.0 to 14.1
 #.  Patch and bugfix level updates (often security updates): for example, from 13.4.0 to 13.4.1
 
 
@@ -87,9 +87,9 @@ In TYPO3, we can separate a TYPO3 update into three stages: the :ref:`pre-upgrad
 Minor updates
 -------------
 
-Minor changes - `11.*.2`: For example 11.5 has new functionalities compared to
-11.4. The version 11.5 is compatible with 11. So within a version like major
-11, the steps do not lead to breaking changes. For example in version 13.3
+Minor changes - `13.*.2`: For example 13.4 has new functionalities compared to
+13.3. The version 13.4 is compatible with 13. So within a version like major
+13, the steps do not lead to breaking changes. For example in version 13.3
 compared to version 13.2 a new
 :ref:`Feature: #101252 - Introduce ErrorHandler for 403 errors with redirect option <changelog:feature-101252-1715447531>`
 was introduced.
@@ -101,7 +101,7 @@ Usually minor and patch changes are also referred to as **non-breaking** changes
 Patchlevel updates
 ------------------
 
-Patchlevel changes - `11.5.*`: The version 11.5.2 indicates a backwards-compatible bugfix or patch release.
+Patchlevel changes - `13.4.*`: The version 13.4.2 indicates a backwards-compatible bugfix or patch release.
 It can be for example a security update. Clear the cache and check if the website is working as expected. For
 further information we refer to the :ref:`Patch/Bugfix update guide<t3coreapi:minor>`.
 

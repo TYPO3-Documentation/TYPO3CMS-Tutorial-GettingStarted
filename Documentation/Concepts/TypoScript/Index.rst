@@ -24,12 +24,6 @@ and with their properties and functions in the
 "Hello world" example in TypoScript
 ===================================
 
-..  versionchanged:: 13.1
-    The site set can be used as
-    :ref:`TypoScript provider <t3coreapi:site-sets-typoscript>`. It is not
-    necessary to use a TypoScript record as is explained in tutorials for
-    TYPO3 versions 12.4 and below.
-
 Put the following TypoScript in a file called :file:`setup.typoscript` within
 your :ref:`Site set <t3coreapi:site-sets>`. The site set is the folder
 containing your :ref:`site configuration <site-configuration>`.
