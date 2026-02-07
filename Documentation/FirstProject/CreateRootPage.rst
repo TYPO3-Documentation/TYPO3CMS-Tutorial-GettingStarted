@@ -9,6 +9,12 @@
 How to create a root page
 =========================
 
+..  hint::
+    If you choose "Create a basic site?" during setup you can skip this step.
+
+    Proceed with chapter :ref:`Settings <siterecords>` to customize your
+    installation.
+
 In TYPO3, the root page is the starting point for any website.
 It serves as the top-level page in the page tree and is essential for
 configuring the site and making it available to users. In this tutorial,

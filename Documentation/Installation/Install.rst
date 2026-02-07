@@ -46,7 +46,10 @@ TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
     ddev start
 
     # Install TYPO3 via Composer
-    ddev composer create-project "typo3/cms-base-distribution:^13"
+    ddev composer create-project "typo3/cms-base-distribution:^14"
+
+    # Recommended: Require the default theme
+    ddev composer req typo3/theme-camino
 
     # Run TYPO3 CLI setup (database credentials are pre-filled)
     ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db
@@ -141,9 +144,40 @@ Install TYPO3 using Composer:
 
 ..  code-block:: bash
 
-    ddev composer create-project "typo3/cms-base-distribution:^13"
+    ddev composer create-project "typo3/cms-base-distribution:^14"
+
+    # Recommended: Require the default theme
+    ddev composer req typo3/theme-camino
 
 You now have a **Composer-based TYPO3 installation**.
+
+..  _installation-typo3-default-theme:
+
+Recommended: Require the default theme (Camino)
+-----------------------------------------------
+
+..  versionadded:: 14.1
+
+    A default theme has been added to TYPO3.
+
+When you are installing TYPO3 for the first time we recommend that you use the
+default theme, :composer:`typo3/theme-camino` shipped with the TYPO3 Core.
+Its main purpose is to build new sites more rapidly in TYPO3 v14.
+
+The theme is customizable in a limited way. It demonstrates basic page
+structures as well as some default content elements.
+
+You can create your own customized theme, also called
+`site package <https://docs.typo3.org/permalink/t3start:creating-a-site-package>`_
+later on.
+
+..  code-block:: bash
+
+    ddev composer req typo3/theme-camino
+
+..  seealso::
+
+    *   `TYPO3 Theme: Camino <https://docs.typo3.org/permalink/typo3-theme-camino:start>`_
 
 Directory structure after composer installation
 -----------------------------------------------
