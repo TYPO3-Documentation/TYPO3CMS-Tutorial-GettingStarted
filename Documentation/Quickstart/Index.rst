@@ -94,8 +94,13 @@ a basic website should have been created.
     Go to module :guilabel:`Content > Layout` and choose the "Home" page.
     View the webpage and edit some content.
 
-If no root page was created during setup, you may need to create one yourself:
-`How to create a root page <https://docs.typo3.org/permalink/t3start:create-root-page>`_.
+If no root page was created during setup, you will need to
+`create a page on root level <https://docs.typo3.org/permalink/t3start:create-root-page-new-page>`_
+and
+`configure it <https://docs.typo3.org/permalink/t3start:create-root-page-configure>`_.
+
+You will also need to `edit the site configuration <https://docs.typo3.org/permalink/t3start:edit-site-configuration>`_
+in order to add the "Theme:Camino" site set.
 
 ..  figure:: /Images/ManualScreenshots/Theme/NewSite.png
     :alt: Frontend screenshot of a website using the default theme "Camino" with text "Welcome to your default website"
@@ -167,7 +172,8 @@ and settings:
     *   `Customizing the Camino theme <https://docs.typo3.org/permalink/typo3-theme-camino:customizing-camino>`_
 
 In the site settings, you can change settings provided by the theme and
-some installed extensions.
+installed extensions. You may need to `clear the caches <https://docs.typo3.org/permalink/t3start:how-to-clear-cache>`_
+to apply changes.
 
 ..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
     :zoom: gallery
@@ -231,7 +237,7 @@ Copy the default theme:
 
             Deactivate and activate the theme so that the type is "Local".
 
-You can now change files in the new location, for example CSS files in the folder
+You can now edit files in this new location, for example CSS files in
 :folder:`packages/theme-camino/Resources/Public/Css`.
 
 

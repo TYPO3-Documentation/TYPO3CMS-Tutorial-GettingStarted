@@ -1,3 +1,5 @@
+ddev composer req friendsoftypo3/kickstarter
+
 ddev typo3 make:extension
 # [...]
 # Composer package name:
