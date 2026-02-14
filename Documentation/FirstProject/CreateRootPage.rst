@@ -54,7 +54,7 @@ the page tree.
     tree (if no pages exist yet, this will likely be labeled as "site" or similar).
     A context menu will appear.
 
-*   From the context menu, select "New". This will open a form for creating a new
+*   From the context menu, select "New subpage". This will open a form for creating a new
     page.
 
 ..  _create-root-page-configure:

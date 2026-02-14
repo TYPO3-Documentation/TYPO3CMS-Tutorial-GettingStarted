@@ -1,0 +1,20 @@
+# Override page templates, use UNIX timestamp so your template is loaded last
+lib.fluidPage {
+    paths.1770975481 = EXT:theme_pluto/Resources/Private/Templates/
+}
+
+page {
+    includeCSS {
+        theme_pluto_styles = EXT:theme_pluto/Resources/Public/Css/styles.css
+    }
+    includeJS {
+        theme_pluto_hello = EXT:theme_pluto/Resources/Public/JavaScript/hello.js
+    }
+}
+
+# Override content element templates, use UNIX timestamp so your template is loaded last
+lib.contentElement {
+    layoutRootPaths.1770975481 = EXT:theme_pluto/Resources/Private/Templates/Layouts/
+    partialRootPaths.1770975481 = EXT:theme_pluto/Resources/Private/Templates/Partials/
+    templateRootPaths.1770975481 = EXT:theme_pluto/Resources/Private/Templates/Content/
+}
