@@ -21,6 +21,13 @@ system and detailed information on how to install TYPO3.
     :class: pb-4
     :card-height: 100
 
+    ..  card:: Quickstart
+
+        From zero to a basic website in TYPO3 v14
+
+        ..  card-footer:: :ref:`Get started <quickstart>`
+            :button-style: btn btn-secondary stretched-link
+
     ..  card:: Prerequisites
 
         In this section we mention the prerequisites that you need before
@@ -90,6 +97,7 @@ system and detailed information on how to install TYPO3.
     :hidden:
     :titlesonly:
 
+    Quickstart/Index
     Prerequisites/Index
     Concepts/Index
     Installation/Index
