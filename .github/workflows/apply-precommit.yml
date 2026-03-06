@@ -8,6 +8,8 @@ on:
 jobs:
   lint:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write        # needed to push commit
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -49,8 +51,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Open Pull Request
-        if: env.FIX_NEEDED == 'true'
-        uses: repo-sync/pull-request@v2
+        if: env.FIX_NEEDED == 'true' && env.EXISTING_PR != 'true'
+        uses: repo-sync/pull-request@7e79a9f5dc3ad0ce53138f01df2fad14a04831c5
         with:
           source_branch: ${{ env.branch_name }}
           destination_branch: ${{ github.ref_name }}
