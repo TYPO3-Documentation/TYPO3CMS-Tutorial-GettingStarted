@@ -13,4 +13,4 @@ jobs:
   backport:
     uses: TYPO3-Documentation/.github/.github/workflows/reusable-backport.yml@bfd07ddbff1402527768131bc42ee409b287e864
     with:
-      label_pattern: "backport *"
+      label_pattern: "^backport (.+)$"
