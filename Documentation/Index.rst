@@ -5,12 +5,12 @@
 TYPO3 - Getting Started Tutorial
 ================================
 
-Welcome to Getting Started. This guide is an introduction to TYPO3 and
-highlights some of the core concepts, including the backend administrative
-interface.
+This guide introduces the core concepts of TYPO3 and provides an overview of
+the backend administrative interface. It is designed to help new users
+understand how TYPO3 works and how its main components fit together.
 
-This guide also contains information on how to configure the host operating
-system and detailed information on how to install TYPO3.
+In addition, the guide includes instructions for preparing your host
+operating system and detailed steps for installing TYPO3.
 
 ----
 
