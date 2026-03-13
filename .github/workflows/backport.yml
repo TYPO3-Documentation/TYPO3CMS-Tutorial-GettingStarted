@@ -7,13 +7,6 @@ on:
 
 jobs:
   backport:
-    runs-on: ubuntu-latest
-    name: Backport
-    permissions:
-      contents: write        # needed to push the backport branch
-      pull-requests: write   # needed to open the PR
-    steps:
-      - name: Backport
-        uses: m-kuhn/backport@30b6e83906cc97bad3a02867181d6236becf68f9
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    uses: TYPO3-Documentation/t3docs-ci-deploy/.github/workflows/backport.yml@48e225fb2124ac073aa08de0b78b50ab51fec3f9
+    with:
+      label-pattern: "backport *"
