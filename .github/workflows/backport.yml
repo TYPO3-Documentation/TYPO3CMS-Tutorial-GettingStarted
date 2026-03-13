@@ -5,6 +5,10 @@ on:
       - closed
       - labeled
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   backport:
     uses: TYPO3-Documentation/.github/.github/workflows/reusable-backport.yml@48e225fb2124ac073aa08de0b78b50ab51fec3f9
