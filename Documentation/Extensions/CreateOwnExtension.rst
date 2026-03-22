@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. _create-own-extension:
+..  _create-own-extension:
 
 =========================
 Create your own extension
@@ -8,6 +8,8 @@ Create your own extension
 
 In TYPO3, extensions allow you to expand the system’s functionality by
 adding new features and customizing behavior according to your project's needs.
+
+..  _create-own-extension-prerequisites:
 
 Prerequisites
 =============
