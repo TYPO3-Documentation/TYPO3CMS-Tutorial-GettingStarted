@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   backport:
-    uses: TYPO3-Documentation/.github/.github/workflows/reusable-backport.yml@b43f22b27bea079a6ebc0180d570424de305037a
+    uses: TYPO3-Documentation/.github/.github/workflows/reusable-backport.yml@76986c977d4297620ea968bf597b1c9308d69e2b
     with:
       label_pattern: "^backport (.+)$"
     secrets:
