@@ -17,9 +17,14 @@ what actions you are performing.
 
 For example, there's a contextual menu in the **WEB > List** view:
 
-.. include:: /Images/AutomaticScreenshots/ListModule/ContextMenu.rst.txt
+..  figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
+    :class: with-shadow
+
+    The contextual menu in the Media module
 
 or in the **FILE > Filelist** view:
 
-.. include:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.rst.txt
+..  figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
+    :class: with-shadow
 
+    The contextual menu in the Media module
