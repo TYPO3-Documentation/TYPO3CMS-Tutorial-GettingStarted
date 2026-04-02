@@ -25,7 +25,7 @@ via the site only.
 The TypoScript module consists of the following submodules. You can switch them
 in the docheader:
 
-..  figure:: /Images/ManualScreenshots/Modules/TypoScript.png
+..  figure:: /Images/ManualScreenshots/SiteManagement/TypoScriptModuleMenu.png
     :zoom: lightbox
     :alt: Screenshot of the TypoScript module in the backend demonstrating the location of the submodule switch, a drop down in the document header
 
