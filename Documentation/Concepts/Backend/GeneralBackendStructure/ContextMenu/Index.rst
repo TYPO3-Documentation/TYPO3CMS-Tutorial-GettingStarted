@@ -17,8 +17,14 @@ what actions you are performing.
 
 For example, there is a contextual menu in the :guilabel:`Content > Records` view:
 
-.. include:: /Images/AutomaticScreenshots/RecordsModule/ContextMenu.rst.txt
+..  figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
+    :class: with-shadow
+
+    The contextual menu in the Media module
 
 or in the :guilabel:`Media` view:
 
-.. include:: /Images/AutomaticScreenshots/FilelistModule/ContextMenu.rst.txt
+..  figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
+    :class: with-shadow
+
+    The contextual menu in the Media module
