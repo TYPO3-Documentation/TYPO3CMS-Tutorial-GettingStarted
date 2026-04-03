@@ -92,7 +92,7 @@ to this file.
     :zoom: gallery
     :alt: Screenshot of the Site Settings Overview
 
-    You can find all sites in the "Settings" module. If editable settings are available, there is a button "Edit Settings"
+    You can find all sites in the "Settings" module. If editable settings are available, there are buttons to edit the site configuration (1) and settings (2)
 
 You can find more information about this editor in
 :ref:`TYPO3 Explained, Site settings editor <t3coreapi:site-settings-editor>`.
