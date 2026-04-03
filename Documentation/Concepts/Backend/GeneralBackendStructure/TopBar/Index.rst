@@ -12,6 +12,7 @@ The top bar also contains specific information about your instance of TYPO3
 including the name of your site and also the version of TYPO3 it is currently running.
 
 ..  figure:: /Images/ManualScreenshots/Backend/BackendTopBar.png
+    :zoom: lightbox
     :alt: Screenshot of the TYPO3 backend top bars with the icons described bellow labeled
 
     The top bar
