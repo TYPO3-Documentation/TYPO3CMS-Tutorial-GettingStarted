@@ -331,7 +331,9 @@ Glossary
         In TYPO3 you can set how the TYPO3 backend looks with
         TSconfig files. You can set page related appearance, backend user related
         appearance and backend user group appearance. You can use
-        :ref:`TSconfig Reference <t3tsconfig:start>` as a overall reference to look up
+        `Page TSconfig Reference <https://docs.typo3.org/permalink/t3tsref:pagetoplevelobjects>`_
+        and `User TSconfig reference <https://docs.typo3.org/permalink/t3tsref:usertoplevelobjects>`_
+        as a overall references to look up
         settings that you can use for TSconfig. Normally you keep all
         your settings in TSconfig files like
         EXT:my_extension/Configuration/Sets/MyExtension/page.tsconfig.
