@@ -15,15 +15,15 @@ When and why should we perform TYPO3 updates?
 =============================================
 
 With the newest version of TYPO3 you receive free bugfixes and free security patches
-for at least three years from the time of the first LTS minor (for example v13.1) release.
+for at least three years from the time of the first LTS minor (for example v14.3) release.
 
 In TYPO3 however, we follow a specific `cycle <https://typo3.org/cms/roadmap>`__ which usually takes 1.5 years long. Every
 1 and a half year a new TYPO3 version occurs.
 
 We explain the different parts in the `roadmap <https://typo3.org/cms/roadmap>`__ now.
 When you follow the roadmap you see dark red strokes. They represent the **sprint releases**.
-Sprint release is a version that starts for example with v13.0 and then the next sprint release follows with v13.1.
-After the last sprint release (v13.3) the **Long Term Support release (LTS release)** v13.4 follows.
+Sprint release is a version that starts for example with v14.0 and then the next sprint release follows with v14.1.
+After the last sprint release (v14.2) the **Long Term Support release (LTS release)** v14.3 follows.
 The aim of the sprint releases is to test the new code with the new features extensively, until the LTS-release is
 reached. Therefore, the reason for sprint releases is to make the new code with the new features as agile and stable
 as possible. The order is: sprint release (0), sprint release (1), sprint release (2), sprint release (3), LTS release (4).
@@ -57,9 +57,9 @@ Major, minor and patch level updates
 In TYPO3 you can update your TYPO3 version. There exist three different types
 of updates:
 
-#.  Major updates: for example, from 13.4.23 to 14.0.0
+#.  Major updates: for example, from 14.3.23 to 14.0.0
 #.  Minor updates: for example, from 14.0 to 14.1
-#.  Patch and bugfix level updates (often security updates): for example, from 13.4.0 to 13.4.1
+#.  Patch and bugfix level updates (often security updates): for example, from 14.3.0 to 14.3.1
 
 
 ..  _getting-started-major-typo3-updates:
@@ -70,14 +70,15 @@ Major updates
 In major updates you will definitely have **breaking changes** and incompatible API
 changes.
 A breaking change can cause your system to break. You need to find a replacement
-for any usage that was removed or changed. For example in version 13.0 was a
-breaking change :ref:`Breaking: #101266 - Remove RequireJS <changelog:breaking-101266-1688654482>`.
-That means, whenever and wherever you used `requireJsModules` you have to find
-an replacement when you would like to have a working JavaScript functionality.
-All files that you included with `requireJsModules` will not be loaded anymore.
+for any usage that was removed or changed. For example in version 14.0 was a
+breaking change `Breaking: #107473 - TypoScript condition function getTSFE() removed <https://docs.typo3.org/permalink/changelog:breaking-107473-1758113238>`_.
+That means, whenever and wherever you used `[getTSFE() && getTSFE().id == 42]` as condition in your TypoScript
+Such usages have to be replaced with the update to something like `[request?.getPageArguments()?.getPageId() == 42]`.
+
 When you update your TYPO3 version you should be aware of those changelog entries
-which you can find in the :doc:`Changelog reference <changelog:Changelog-13#changelog-v13>`.
-When dealing with a major version updates you usually have to use the backend module called **Upgrade wizard**. This
+which you can find in the `ChangeLog v14 <https://docs.typo3.org/permalink/changelog:changelog-v14>`_.
+
+When dealing with a major version update, you usually have to use the backend module called **Upgrade wizard**. This
 module will take care of database table changes that came along with the new TYPO3 version.
 In TYPO3, we can separate a TYPO3 update into three stages: the :ref:`pre-upgrade stage <t3coreapi:preupgradetasks>`,
 :ref:`actual update <t3coreapi:upgradecore>` and the :ref:`post-upgrade stage <t3coreapi:postupgradetasks>`.
@@ -87,11 +88,11 @@ In TYPO3, we can separate a TYPO3 update into three stages: the :ref:`pre-upgrad
 Minor updates
 -------------
 
-Minor changes - `13.*.2`: For example 13.4 has new functionalities compared to
-13.3. The version 13.4 is compatible with 13. So within a version like major
-13, the steps do not lead to breaking changes. For example in version 13.3
-compared to version 13.2 a new
-:ref:`Feature: #101252 - Introduce ErrorHandler for 403 errors with redirect option <changelog:feature-101252-1715447531>`
+Minor changes - `14.3.2`: For example 14.3 has new functionalities compared to
+14.2. The version 14.3 is compatible with 14. So within a version like major
+14, the steps do not lead to breaking changes. For example in version 14.2
+compared to version 14.1 a new
+`Feature: #108726 - Introduce Fluid f:render.contentArea ViewHelper <https://docs.typo3.org/permalink/changelog:feature-108726-1769071158>`_
 was introduced.
 When performing minor updates, you often have to clear the cache, run the Upgrade wizard, and run a database compare.
 Usually minor and patch changes are also referred to as **non-breaking** changes.
@@ -101,7 +102,7 @@ Usually minor and patch changes are also referred to as **non-breaking** changes
 Patchlevel updates
 ------------------
 
-Patchlevel changes - `13.4.*`: The version 13.4.2 indicates a backwards-compatible bugfix or patch release.
+Patchlevel changes - `14.3.*`: The version 14.3.2 indicates a backwards-compatible bugfix or patch release.
 It can be for example a security update. Clear the cache and check if the website is working as expected. For
 further information we refer to the :ref:`Patch/Bugfix update guide<t3coreapi:minor>`.
 

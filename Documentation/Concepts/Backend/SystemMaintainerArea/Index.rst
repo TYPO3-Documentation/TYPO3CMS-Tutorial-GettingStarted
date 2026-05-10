@@ -35,8 +35,8 @@ Accessing the system maintainer area
 
 The system maintainer area can only be accessed from the backend if:
 
-*   :composer:`typo3/cms-install` is installed. This system extension became
-    optional with TYPO3 13.
+*   :composer:`typo3/cms-install` is installed. This system extension is
+    optional.
 *   The currently logged in backend user has admin privileges and is a system
     maintainer.
 *   On systems in the :ref:`application context "Production" <production-settings>`
