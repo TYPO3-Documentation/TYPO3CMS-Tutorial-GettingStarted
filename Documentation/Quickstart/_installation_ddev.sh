@@ -12,7 +12,7 @@ ddev composer create-project "typo3/cms-base-distribution:^14"
 # Recommended: Require the default theme
 ddev composer req typo3/theme-camino
 # Run TYPO3 CLI setup (database credentials are pre-filled)
-ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db --create-site
+ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db --create-site <sitename>
 
 # Open the Backend login in a browser
 ddev launch /typo3/
