@@ -288,8 +288,8 @@ Now add the new theme as a dependency in the site configuration:
     Add the new theme to the sets for this site.
 
 You can now copy any Fluid template, partial, or layout from the folder
-:folder:`vendor/typo3/theme-camino/Resources/Templates` into
-:folder:`packages/theme_pluto/Resources/Templates` and override it.
+:folder:`vendor/typo3/theme-camino/Resources/Private/Templates` into
+:folder:`packages/theme_pluto/Resources/Private/Templates` and override it.
 
 ..  seealso::
 
