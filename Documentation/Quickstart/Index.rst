@@ -270,12 +270,12 @@ Then require the new theme using its Composer name, for example:
     ddev composer req myvendor/theme-pluto:@dev
 
 You can now create a file
-:file:`packages/theme_pluto/Sets/theme_pluto/setup.typoscript`
+:file:`packages/theme_pluto/Configuration/Sets/theme_pluto/setup.typoscript`
 to override the default theme’s TypoScript and add additional paths for templates
 and custom CSS styles and/or JavaScript files:
 
 ..  literalinclude:: /Quickstart/_extended_theme.typoscript
-    :caption: packages/theme_pluto/Sets/theme_pluto/setup.typoscript
+    :caption: packages/theme_pluto/Configuration/Sets/theme_pluto/setup.typoscript
 
 Now add the new theme as a dependency in the site configuration:
 
