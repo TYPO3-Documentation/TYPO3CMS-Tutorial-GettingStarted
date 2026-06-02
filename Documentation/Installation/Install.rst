@@ -183,3 +183,21 @@ does not yet contain any tables.
 All of these will be created during the setup process.
 For detailed instructions, see:
 `TYPO3 setup on first installation <https://docs.typo3.org/permalink/t3start:typo3-setup>`_
+
+=========================
+Installation without DDEV
+=========================
+
+In general you can use the same commands than with DDEV, but make sure you have installed the package *typo3/cms-install*
+
+Then you can use CLI to configure the instance (https://docs.typo3.org/m/typo3/reference-coreapi/main/en-us/ApiOverview/CommandControllers/ListCommands.html#console-command-setup) 
+
+..  code-block:: bash
+
+    vendor/bin/typo3 setup --server-type=other --driver=mysqli --host=mydbserver --port=3306 --dbname=mydbname --username=mydbuser --password=mydbpassword --create-site
+
+or call the install tool with the URL https://myserver.local/?__typo3_install after creating a file public/FIRST_INSTALL
+
+
+
+
