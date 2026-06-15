@@ -57,7 +57,7 @@ Major, minor and patch level updates
 In TYPO3 you can update your TYPO3 version. There exist three different types
 of updates:
 
-#.  Major updates: for example, from 14.3.23 to 14.0.0
+#.  Major updates: for example, from 13.4.23 to 14.0.0
 #.  Minor updates: for example, from 14.0 to 14.1
 #.  Patch and bugfix level updates (often security updates): for example, from 14.3.0 to 14.3.1
 
