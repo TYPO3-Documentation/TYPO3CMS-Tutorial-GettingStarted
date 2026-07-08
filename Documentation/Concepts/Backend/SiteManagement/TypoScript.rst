@@ -86,7 +86,7 @@ For example, if a site set in your site package configures:
     page.20 = TEXT
     page.20.value = Apple
 
-And the set of another extensions configures:
+And the set of another extension configures:
 
 ..  code-block:: typoscript
     :caption: EXT:some_extension/Configuration/Sets/BananaSet/setup.typoscript
