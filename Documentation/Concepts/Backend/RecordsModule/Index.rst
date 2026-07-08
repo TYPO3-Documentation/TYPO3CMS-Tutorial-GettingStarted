@@ -90,5 +90,5 @@ set globally in the :ref:`tca` by setting a custom default value in TSconfig
     # Do not hide newly created pages by default
     TCAdefaults.pages.hidden = 0
 
-    # Set the author of a news to "Anonymous"
+    # Set the author of a news record to "Anonymous"
     TCAdefaults.tx_news_domain_model_news.author = Anonymous
