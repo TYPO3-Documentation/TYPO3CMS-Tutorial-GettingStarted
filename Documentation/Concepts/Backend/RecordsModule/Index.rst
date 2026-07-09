@@ -31,7 +31,7 @@ Display of database records in the Records module
 
 How a database record type is displayed in the :guilabel:`Content > Records` module is determined by
 :ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
-globally TSconfig can be included on a per-site or per-page level.
+globally, TSconfig can be included on a per-site or per-page level.
 
 ..  todo: Link tsconfig once article exists in concepts.
 

@@ -12,15 +12,15 @@ that you provided via your site as described in
 or via your site set as described in the Site Package Tutorial, chapter
 :ref:`The TypoScript-only version <t3sitepackage:make-typoscript-available>`.
 
-Before TYPO3 v13, TypoScript was managed via database records called "TypoScript
-records". It is still possible to do this, and you will see it in older examples
-or installations that have been updated and not yet refactored. This module can
-also be used to manage TypoScript records. Its usage is described in
-TypoScript Reference, chapter
+Before TYPO3 v13, TypoScript was set in database records called "TypoScript
+records". It is still possible to do this, and you will see it in older documentation
+and installations that have been updated but not yet refactored. The TypoScript
+backend module can be used to manage these TypoScript records, see
+the TypoScript Reference in chapter
 :ref:`TypoScript backend module <t3tsref:typoscript-syntax-typoscript-templates-structure>`.
 
 In the context of this guide, we concentrate on the new way of providing TypoScript
-via the site only.
+via the site.
 
 The TypoScript module consists of the following submodules. You can switch them
 in the docheader:
@@ -47,12 +47,12 @@ TypoScript record in one site.
 Constant Editor
 ===============
 
-Before site settings were introduced with TYPO3 13, TypoScript constants were
-used to define values once and reuse them across TypoScript definitions.
+Before site settings were introduced in TYPO3 13, TypoScript constants were
+values that were defined in one place that could then be reused across TypoScript definitions.
 
 Constants can still be used for backward compatibility reasons, but the
-Constant Editor is not available, if you are using site sets. Unlike
-site settings, TypoScript constants are only available within TypoScript.
+Constant Editor is not available if you are using site sets. Unlike
+site settings, TypoScript constants are only available in TypoScript.
 
 It is therefore recommended to always use site settings.
 
@@ -62,8 +62,9 @@ Edit TypoScript record
 ======================
 
 Only available if TypoScript records are being used. This module can be used to
-edit those records. Since this guide focuses on managing TypoScript within the site, 
-this module is out of scope. Its usage is described in the TypoScript reference,
+edit those records. Since this guide focuses on managing TypoScript within the site,
+this module is out of scope. For further information about TypoScript records,
+see the TypoScript reference,
 chapter :ref:`Submodule "Edit TypoScript Record" <t3tsref:typoscript_module_edit>`.
 
 ..  _site-management-typoscript-active:
@@ -71,7 +72,7 @@ chapter :ref:`Submodule "Edit TypoScript Record" <t3tsref:typoscript_module_edit
 Active TypoScript
 =================
 
-This module can be used to debug the active TypoScript. During loading and
+This module can be used to debug active TypoScript. During loading and
 pre-compiling, TypoScript configuration can override or unset definitions made in
 another file.
 
