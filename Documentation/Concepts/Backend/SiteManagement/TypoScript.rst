@@ -12,15 +12,15 @@ that you provided via your site as described in
 or via your site set as described in the Site Package Tutorial, chapter
 :ref:`The TypoScript-only version <t3sitepackage:make-typoscript-available>`.
 
-Before TYPO3 v13 TypoScript was managed via database records, called "TypoScript
-records". It is still possible doing this and you will see it in older examples
-or installations that have been updated and not refactored. This module can
-also be used to manage TypoScript records. Its usage is described in
-TypoScript Reference, chapter
+Before TYPO3 v13, TypoScript was set in database records called "TypoScript
+records". It is still possible to do this, and you will see it in older documentation
+and installations that have been updated but not yet refactored. The TypoScript
+backend module can be used to manage these TypoScript records, see
+the TypoScript Reference in chapter
 :ref:`TypoScript backend module <t3tsref:typoscript-syntax-typoscript-templates-structure>`.
 
-In the context of this guide we concentrate on the new way of providing TypoScript
-via the site only.
+In the context of this guide, we concentrate on the new way of providing TypoScript
+via the site.
 
 The TypoScript module consists of the following submodules. You can switch them
 in the docheader:
@@ -39,7 +39,7 @@ TypoScript Overview
 ===================
 
 Global overview of all pages with active TypoScript definitions (TypoScript
-records and site sets). Useful if you have more then one site or more then one
+records and site sets). Useful if you have more than one site or more than one
 TypoScript record in one site.
 
 ..  _site-management-typoscript-constant-editor:
@@ -47,12 +47,12 @@ TypoScript record in one site.
 Constant Editor
 ===============
 
-Before site settings were introduced with TYPO3 13, TypoScript constants where
-used to define values once and reuse them across TypoScript definitions.
+Before site settings were introduced in TYPO3 13, TypoScript constants were
+values that were defined in one place that could then be reused across TypoScript definitions.
 
-Constants can still be used for backward compatibility reasons but the
-Constant Editor is not available if you are using site sets. Other
-then site settings, TypoScript constants are only available within TypoScript.
+Constants can still be used for backward compatibility reasons, but the
+Constant Editor is not available if you are using site sets. Unlike
+site settings, TypoScript constants are only available in TypoScript.
 
 It is therefore recommended to always use site settings.
 
@@ -61,9 +61,10 @@ It is therefore recommended to always use site settings.
 Edit TypoScript record
 ======================
 
-Only available if TypoScript records are being used. Can be used to edit those
-records. As we manage TypoScript within the site in this Guide it is out of
-scope of this Guide. Its usage is described in the TypoScript reference,
+Only available if TypoScript records are being used. This module can be used to
+edit those records. Since this guide focuses on managing TypoScript within the site,
+this module is out of scope. For further information about TypoScript records,
+see the TypoScript reference,
 chapter :ref:`Submodule "Edit TypoScript Record" <t3tsref:typoscript_module_edit>`.
 
 ..  _site-management-typoscript-active:
@@ -71,14 +72,14 @@ chapter :ref:`Submodule "Edit TypoScript Record" <t3tsref:typoscript_module_edit
 Active TypoScript
 =================
 
-This module can be used to debug the active TypoScript. During loading and
-pre compiling TypoScript configuration can override or unset definitions made in
+This module can be used to debug active TypoScript. During loading and
+pre-compiling, TypoScript configuration can override or unset definitions made in
 another file.
 
 How exactly this happens depends on things like dependencies between the used
 site sets.
 
-For example if a site set in your site package configures:
+For example, if a site set in your site package configures:
 
 ..  code-block:: typoscript
     :caption: EXT:site_package/Configuration/Sets/SitePackage/setup.typoscript
@@ -86,7 +87,7 @@ For example if a site set in your site package configures:
     page.20 = TEXT
     page.20.value = Apple
 
-And the set of another extensions configures:
+And the set of another extension configures:
 
 ..  code-block:: typoscript
     :caption: EXT:some_extension/Configuration/Sets/BananaSet/setup.typoscript
@@ -94,7 +95,7 @@ And the set of another extensions configures:
     page.20 = TEXT
     page.20.value = Banana
 
-It depends on how these sets are loaded weather the `page.20.value` ends up
+It depends on how these sets are loaded whether the `page.20.value` ends up
 being set to "Banana" or "Apple".
 
 If the site set of our site package **depends** on the Banana set, the
