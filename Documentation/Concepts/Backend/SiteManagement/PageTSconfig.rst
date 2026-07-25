@@ -22,8 +22,8 @@ called :file:`EXT:my_extension/Configuration/page.tsconfig` or inserted or
 included in the record of a page in the page properties. Doing so is still
 possible for backward compatibility reasons.
 
-If you included the Page TSconfig via a site set or globally it
-not displayed in the overview submodule.
+If you included the Page TSconfig via a site set or globally, then it
+will not be displayed in the overview submodule.
 
 This does not mean it is not being loaded.
 
@@ -42,7 +42,7 @@ Included page TSconfig
 This module works much like :ref:`site-management-typoscript-included`, however
 the sources from which TSconfig is being loaded are different.
 
-In this Guide we assume that you load page TSconfig via the the site set of your
+In this Guide we assume that you load page TSconfig via the site set of your
 site package. The TSconfig Reference gives you an overview of all possible
 strategies to set page TSconfig:
 :ref:`Setting page TSconfig <t3tsref:setting-page-tsconfig>`.
