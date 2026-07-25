@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  precommit:
+  fix-whitespace:
     uses: TYPO3-Documentation/.github/.github/workflows/reusable-apply-precommit.yml@main
-    permissions:
-      contents: write
-      pull-requests: write
+    secrets:
+      APP_CLIENT_ID: ${{ secrets.APP_ID }}
+      APP_PRIVATE_KEY: ${{ secrets.APP_PRIVATE_KEY }}
