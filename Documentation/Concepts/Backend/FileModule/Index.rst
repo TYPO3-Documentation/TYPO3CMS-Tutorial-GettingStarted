@@ -71,7 +71,7 @@ For usage in PHP there is an API: :ref:`Working with files, folders and file
 references <t3coreapi:fal-using-fal-examples-file-folder>`
 
 ..  note::
-    Never link to a file in the fileadmin from CSS or or JavaScript. Such files
+    Never link to a file in the fileadmin from CSS or JavaScript. Such files
     like logos, icons, background images etc. should be stored as
     :ref:`Assets in extensions and site packages <assets>`.
 
@@ -80,7 +80,7 @@ references <t3coreapi:fal-using-fal-examples-file-folder>`
 File meta data
 ==============
 
-A number of meta data fields for media uploaded in the Filelist module is
+A number of meta data fields for media uploaded in the Filelist module are
 available out-of-the-box. Additional meta data fields are available if the
 system extension :composer:`typo3/cms-filemetadata` is installed.
 
