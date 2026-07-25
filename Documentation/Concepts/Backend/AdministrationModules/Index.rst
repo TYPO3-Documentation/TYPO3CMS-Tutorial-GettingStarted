@@ -9,8 +9,9 @@ Administration modules
 ======================
 
 ..  versionchanged:: 14.0
-    Most modules in this area have been moved from  :guilabel:`System`
-    to :guilabel:`Administration <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+    Most modules in this area have been moved from :guilabel:`System`
+    to :guilabel:`Administration`. See `the changelog entry
+    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
 System modules are backend modules in the group "System"
 and they are only available to backend users with
@@ -29,8 +30,9 @@ Permissions
 ===========
 
 ..  versionchanged:: 14.0
-    This module has been moved from :guilabel:`System` to :guilabel:`Administration
-	<https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+    This module has been moved from :guilabel:`System` to
+    :guilabel:`Administration`. See `the changelog entry
+    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
 In TYPO3, you can grant permissions to backend users.
 At first, a newly created backend user without any administrative
@@ -49,8 +51,9 @@ Backend Users
 =============
 
 ..  versionchanged:: 14.0
-    This module has been moved from :guilabel:`Administration` to :guilabel:`Administration`
-	<https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+    This module has been moved from :guilabel:`System` to
+    :guilabel:`Administration`. See `the changelog entry
+    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
 The module :guilabel:`System > Users` is used to create, edit and delete
 backend users.
@@ -145,8 +148,9 @@ Reports (optional)
 ==================
 
 ..  versionchanged:: 14.0
-    This module has been moved from :guilabel:`System` to :guilabel:`Administration`
-	<https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_.
+    This module has been moved from :guilabel:`System` to
+    :guilabel:`Administration`. See `the changelog entry
+    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
 This module is only available if the system extension
 :composer:`typo3/cms-reports` is installed.
