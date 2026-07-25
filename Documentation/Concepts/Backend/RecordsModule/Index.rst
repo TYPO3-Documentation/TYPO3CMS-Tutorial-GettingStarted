@@ -31,7 +31,7 @@ Display of database records in the Records module
 
 How a database record type is displayed in the :guilabel:`Content > Records` module is determined by
 :ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
-globally Tsconfig can be included on a per-site or per-page level.
+globally, TSconfig can be included on a per-site or per-page level.
 
 ..  todo: Link tsconfig once article exists in concepts.
 
@@ -90,5 +90,5 @@ set globally in the :ref:`tca` by setting a custom default value in TSconfig
     # Do not hide newly created pages by default
     TCAdefaults.pages.hidden = 0
 
-    # Set the author of a news to "Anonymous"
+    # Set the author of a news record to "Anonymous"
     TCAdefaults.tx_news_domain_model_news.author = Anonymous
