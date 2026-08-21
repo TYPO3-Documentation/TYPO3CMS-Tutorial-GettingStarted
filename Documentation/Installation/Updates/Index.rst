@@ -118,8 +118,6 @@ Some extension authors prefer to only publish their extensions on `packagist <ht
 When the extension does not exist for the current TYPO3 version you can create an
 For example, any blog extension could be replaced by another of several blog extensions.
 
-Note that there is also an extension "blog_example" which serves as  example for extension developers and not so much for production.
-
 Useful commands to simplify the updates of extensions can be found in the :ref:`Upgrade extensions guide <t3coreapi:upgradingextensions>`.
 
 ..  _getting-started-deprecations:
