@@ -116,10 +116,7 @@ have to update the third-party extensions too. In the **TER**, `TYPO3 Extension 
 you can enter the name of that extension and get information about supported TYPO3 versions.
 Some extension authors prefer to only publish their extensions on `packagist <https://packagist.org/packages/typo3/>`__.
 When the extension does not exist for the current TYPO3 version you can create an
-issue or search for an alternative extension offering the same functionality.
-For example, the `gridelements extension<https://extensions.typo3.org/extension/gridelements>`__
-was replaced by the `container extension<https://extensions.typo3.org/extension/container>`__, both
-having equal functionalities.
+For example, any blog extension could be replaced by another of several blog extensions.
 
 Useful commands to simplify the updates of extensions can be found in the :ref:`Upgrade extensions guide <t3coreapi:upgradingextensions>`.
 
