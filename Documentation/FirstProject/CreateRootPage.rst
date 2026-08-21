@@ -68,7 +68,7 @@ Save the page
 Once you have filled in the necessary information and selected the
 "Use as Root Page" option, click the "Save" button at the top of the
 form. Your new root page will now appear in the page tree on the left.
-The page is only visible in the Backend at this point
+The page is only visible in the backend at this point
 
 ..  figure:: /Images/ManualScreenshots/CreateRootPage/PageCreated.png
     :zoom: gallery
@@ -104,7 +104,7 @@ The site needs a theme, also known as a "site package" in the TYPO3 world. Learn
 
     TYPO3 does not come with a default theme. You will have to install
     or create a site package. If your site does not have a theme configured,
-    you will see a message like the the one below when trying to display
+    you will see a message like the one below when trying to display
     the page in the frontend:
 
     ..  figure:: /Images/ManualScreenshots/CreateRootPage/NoTypoScriptFound.png
@@ -129,4 +129,4 @@ Enable the page when you are ready
     :zoom: gallery
     :alt: A disabled root page and its context menu
 
-    Right click on the newly created page and chose `Enable` from the context menu. The red icon should disappear.
+    Right click on the newly created page and choose `Enable` from the context menu. The red icon should disappear.
