@@ -7,4 +7,4 @@ mkdir my_project && cd my_project
 composer create-project "typo3/cms-base-distribution:^14"
 
 # Run TYPO3 CLI setup
-vendor/bin/typo3 setup --create-site
+vendor/bin/typo3 setup --create-site <siteurl>
