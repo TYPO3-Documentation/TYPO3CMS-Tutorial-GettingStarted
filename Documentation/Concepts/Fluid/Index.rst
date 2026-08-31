@@ -119,6 +119,11 @@ extension. As they are neither PHP code nor configuration files
 and don't need to be accessed by end users, they are placed in the
 `Resources/Private/` subfolder.
 
+..  versionchanged:: 14.0
+    Since TYPO3 14, Fluid template, layout and partial files use the file
+    extension `.fluid.html` instead of plain `.html`, as shown below. Older
+    files without this extension still work.
+
 ..  directory-tree::
     :level: 6
     :show-file-icons: true
@@ -133,15 +138,15 @@ and don't need to be accessed by end users, they are placed in the
 
                     *   Layouts
 
-                        * DefaultLayout.html
+                        * DefaultLayout.fluid.html
 
                     *   Pages
 
-                        * MyPage.html
+                        * MyPage.fluid.html
 
                     *   Partials
 
-                        * MyPartial.html
+                        * MyPartial.fluid.html
 
 
 The displayed folder structure is the convention for the location
@@ -157,10 +162,10 @@ Templates, Layouts and Partials
 ..  uml::
     :caption: Fluid template structure
 
-    frame layout as "Templates/Layouts/DefaultLayout.html" {
-        frame page as "Templates/Pages/MyPage.html" {
+    frame layout as "Templates/Layouts/DefaultLayout.fluid.html" {
+        frame page as "Templates/Pages/MyPage.fluid.html" {
             rectangle partial [
-                <b>Templates/Partials/MyPartial.html</b>
+                <b>Templates/Partials/MyPartial.fluid.html</b>
                 (reusable code snippet)
             ]
         }
