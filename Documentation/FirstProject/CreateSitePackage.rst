@@ -23,7 +23,7 @@ To create a site package, you have two main options:
     the detailed instructions in the
     :ref:`TYPO3 site package tutorial <t3sitepackage:start>`.
 
-*   Using the `Site Package Builder <https://get.typo3.org/sitepackage/new//>`__:
+*   Using the `Site Package Builder <https://get.typo3.org/sitepackage/new/>`__:
     If you are looking for a faster start, TYPO3's official Site Package Builder
     is a handy tool. You can choose whether your site package should be based on
     the `Bootstrap Package <https://www.bootstrap-package.com/>`__ or
