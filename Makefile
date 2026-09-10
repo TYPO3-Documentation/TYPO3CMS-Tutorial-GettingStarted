@@ -6,40 +6,39 @@ help: ## Displays this list of targets with descriptions
 .PHONY: docs
 docs: ## Generate projects documentation (from "Documentation" directory)
 	mkdir -p Documentation-GENERATED-temp
-
 	docker run --user $(shell id -u):$(shell id -g) --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation
 
 .PHONY: test-docs
 test-docs: ## Test the documentation rendering
 	mkdir -p Documentation-GENERATED-temp
+	docker run --user $(shell id -u):$(shell id -g) --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --minimal-test
 
-	docker run --user $(shell id -u):$(shell id -g) --rm --pull always -v "$(shell pwd)":/project -t ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --fail-on-log
+.PHONY: test
+test: test-docs test-lint test-cgl test-yaml ## Run all test suites
 
 .PHONY: test-lint
-test-lint: ## Regenerate code snippets
+test-lint: ## Lint the included PHP files
 	Build/Scripts/runTests.sh -s lint
 
 .PHONY: test-cgl
-test-cgl: ## Regenerate code snippets
-	Build/Scripts/runTests.sh -s cgl
+test-cgl: ## Check the TYPO3 coding guidelines (dry-run)
+	Build/Scripts/runTests.sh -s cgl -n
 
 .PHONY: test-yaml
-test-yaml: ## Regenerate code snippets
+test-yaml: ## Lint the YAML files
 	Build/Scripts/runTests.sh -s yamlLint
 
-.PHONY: composerUpdate
-composerUpdate: ## Update all dependencies (the composer.lock is not committed)
-	Build/Scripts/runTests.sh -s composerUpdate
-
-.PHONY: install
-install: composerUpdate## Update all dependencies (the composer.lock is not committed)
-
-.PHONY: test
-test: test-docs test-lint test-cgl test-yaml## Test the documentation rendering
+.PHONY: fix
+fix: fix-cgl ## Apply all automatic fixes
 
 .PHONY: fix-cgl
-fix-cgl: ## Fix cgl
+fix-cgl: ## Fix TYPO3 coding guidelines violations
 	Build/Scripts/runTests.sh -s cgl
 
-.PHONY: Fix all
-fix: fix-cgl## Test the documentation rendering
+.PHONY: install
+install: ## Install/update the Composer dependencies
+	Build/Scripts/runTests.sh -s composerUpdate
+
+# Deprecated alias for the former name of this target; use install instead.
+.PHONY: composerUpdate
+composerUpdate: install

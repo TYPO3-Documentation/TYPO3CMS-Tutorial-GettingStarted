@@ -10,7 +10,7 @@ CONTRIBUTING.rst                 # how to contribute (if present)
 ## Commands
 
 - `make docs` — render the manual locally with Docker
-- `make test-docs` — render in fail-on-log mode; use this to validate any change before committing
+- `make test-docs` — render in minimal-test mode (the same validation CI runs); use this to validate any change before committing
 - `make test` — full test suite (docs, lint, cgl, yaml)
 
 ## Documentation writing rules
