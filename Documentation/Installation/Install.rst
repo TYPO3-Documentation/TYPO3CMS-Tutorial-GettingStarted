@@ -35,6 +35,7 @@ The following commands will create a new TYPO3 project, initialize DDEV, install
 TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
 
 ..  literalinclude:: /Quickstart/_installation_ddev.sh
+    :caption: /var/www/$ (DDEV)
     :language: bash
 
 Next steps: `TYPO3 setup on first installation <https://docs.typo3.org/permalink/t3start:typo3-setup>`_
