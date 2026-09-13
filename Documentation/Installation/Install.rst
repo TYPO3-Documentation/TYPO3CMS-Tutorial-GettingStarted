@@ -35,6 +35,7 @@ The following commands will create a new TYPO3 project, initialize DDEV, install
 TYPO3 via Composer, and run the setup. Copy and paste them into your terminal.
 
 ..  code-block:: bash
+    :caption: /var/www/$ (DDEV)
 
     # Create project directory
     mkdir my_project && cd my_project
