@@ -34,11 +34,13 @@ or a Linux system with a web server (Apache or Nginx), a database,
     ..  group-tab:: DDEV
 
         ..  literalinclude:: /Quickstart/_installation_ddev.sh
+            :caption: /var/www/$ (DDEV)
             :language: bash
 
     ..  group-tab:: Linux
 
         ..  literalinclude:: /Quickstart/_installation_linux.sh
+            :caption: /var/www/$ (Linux)
             :language: bash
 
 The directory in which you run these commands must be empty.
@@ -223,11 +225,13 @@ Copy the default theme:
     ..  group-tab:: Composer mode
 
         ..  literalinclude:: /Quickstart/_copy_theme_composer.sh
+            :caption: /var/www/site/$ (Composer mode)
             :language: bash
 
     ..  group-tab:: Classic mode
 
         ..  literalinclude:: /Quickstart/_copy_theme_classic.sh
+            :caption: /var/www/site/$ (Classic mode)
             :language: bash
 
         ..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
@@ -250,6 +254,7 @@ You can use the development extension :composer:`friendsoftypo3/kickstarter`
 to create a custom theme that extends the default theme:
 
 ..  literalinclude:: /Quickstart/_extend_theme_composer.sh
+    :caption: /var/www/site/$
     :language: bash
 
 Edit the newly created :file:`packages/theme_pluto/composer.json` and update
