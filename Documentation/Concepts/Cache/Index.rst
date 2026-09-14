@@ -7,7 +7,7 @@
 Cache
 =====
 
-.. _what-is-caching:
+..  _what-is-caching:
 
 What is caching in TYPO3?
 =========================
@@ -18,7 +18,7 @@ every page or content piece each time a visitor loads it, TYPO3 saves a
 "cached" version. This way, the system can quickly serve this saved content,
 reducing the load on the server and speeding up the response time for users.
 
-.. _how-to-clear-cache:
+..  _how-to-clear-cache:
 
 How to clear caches in TYPO3?
 =============================
@@ -32,7 +32,7 @@ Here are the main ways to clear caches in TYPO3 13:
     *   In the Backend, look for the Clear cache icon, which resembles a
         lightning bolt. You can find this in the `top bar <https://docs.typo3.org/permalink/t3start:top-bar>`_.
 
-        .. figure:: /Images/ManualScreenshots/ClearCache/Toolbar.png
+        ..  figure:: /Images/ManualScreenshots/ClearCache/Toolbar.png
 
     *   For deeper cache management, you can use the Install Tool:
         In :guilabel:`System > Maintenance` you can find the option to
@@ -48,7 +48,7 @@ Here are the main ways to clear caches in TYPO3 13:
 
         ddev typo3 cache:flush
 
-.. _when-to-clear-cache:
+..  _when-to-clear-cache:
 
 When should you clear caches?
 =============================

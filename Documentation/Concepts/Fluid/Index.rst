@@ -138,15 +138,15 @@ and don't need to be accessed by end users, they are placed in the
 
                     *   Layouts
 
-                        * DefaultLayout.fluid.html
+                        *   DefaultLayout.fluid.html
 
                     *   Pages
 
-                        * MyPage.fluid.html
+                        *   MyPage.fluid.html
 
                     *   Partials
 
-                        * MyPartial.fluid.html
+                        *   MyPartial.fluid.html
 
 
 The displayed folder structure is the convention for the location
