@@ -133,15 +133,15 @@ and don't need to be accessed by end users, they are placed in the
 
                     *   Layouts
 
-                        * DefaultLayout.html
+                        *   DefaultLayout.html
 
                     *   Pages
 
-                        * MyPage.html
+                        *   MyPage.html
 
                     *   Partials
 
-                        * MyPartial.html
+                        *   MyPartial.html
 
 
 The displayed folder structure is the convention for the location

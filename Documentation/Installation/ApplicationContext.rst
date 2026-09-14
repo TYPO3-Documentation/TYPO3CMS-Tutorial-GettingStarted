@@ -1,7 +1,7 @@
 :navigation-title: Application context
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. index:: Environment; Configuration; .env ; dotenv
+..  index:: Environment; Configuration; .env ; dotenv
 
 ..  _environment-phpconfig:
 ..  _environment-configuration:
@@ -64,7 +64,7 @@ Restart DDEV using
 
     ddev restart
 
-.. _development-settings:
+..  _development-settings:
 
 Local development
 =================
@@ -82,7 +82,7 @@ You should not :ref:`deploy <deployment>` this file to your production server
 but create one just for the production server.
 See section :ref:`production-settings`
 
-.. _production-settings:
+..  _production-settings:
 
 Production environment
 ======================

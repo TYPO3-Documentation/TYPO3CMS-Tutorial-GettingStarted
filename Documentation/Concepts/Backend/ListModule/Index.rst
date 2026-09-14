@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
-.. index:: Modules; List module
-.. _list-module:
+..  include:: /Includes.rst.txt
+..  index:: Modules; List module
+..  _list-module:
 
 ===============
 The list module
@@ -19,7 +19,7 @@ described in-depth in
 For example there is a :ref:`Mass editing mode <t3editors:selective-editing>` and
 a :ref:`clipboard <t3editors:clipboard>`.
 
-.. _list-module-tca:
+..  _list-module-tca:
 
 Display of database records in the List module
 ==============================================
@@ -32,7 +32,7 @@ globally, TSconfig can be included on a per-site or per-page level.
 
 Here are some examples of what you might want to change in the list module:
 
-.. _list-module-mod-hideTables:
+..  _list-module-mod-hideTables:
 
 Hide tables in the List module
 ------------------------------
@@ -51,7 +51,7 @@ For example you can hide the records of certain tables visible in the List modul
 
 We use the :ref:`operator ":=" <t3tsref:typoscript-syntax-syntax-value-modification>` to add tables to a list that we want to hide.
 
-.. _list-module-disableHideAtCopy:
+..  _list-module-disableHideAtCopy:
 
 Disable hide and prepend at copy
 --------------------------------
@@ -70,7 +70,7 @@ the affected table belonging to the record to true like so:
        disableHideAtCopy = 1
     }
 
-.. _list-module-TCAdefaults:
+..  _list-module-TCAdefaults:
 
 Define defaults for certain fields
 ----------------------------------

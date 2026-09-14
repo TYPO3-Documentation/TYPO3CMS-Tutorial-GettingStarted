@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. _how-to-find-extensions:
+..  _how-to-find-extensions:
 
 ======================
 How to find extensions

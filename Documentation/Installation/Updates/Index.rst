@@ -37,9 +37,9 @@ you want to get further bugfixes you have to book an
 Before we look a bit deeper into the :ref:`types of updates <getting-started-major-minor-patchlevel-updates>`
 we summarize how a TYPO3 user should act with respect to TYPO3 updates:
 
-* When a new major LTS version is released, users **should** focus on updating to this version as soon as possible.
-* When a new minor version is released, users **must** update to the new minor version, since the previous minor version is **not** supported any more.
-* When a new patch level version is released, users **should** always update to the new version, because it contains **important** bugfixes and security fixes (if announced). Here you find the `security advisories <https://typo3.org/help/security-advisories>`__.
+*   When a new major LTS version is released, users **should** focus on updating to this version as soon as possible.
+*   When a new minor version is released, users **must** update to the new minor version, since the previous minor version is **not** supported any more.
+*   When a new patch level version is released, users **should** always update to the new version, because it contains **important** bugfixes and security fixes (if announced). Here you find the `security advisories <https://typo3.org/help/security-advisories>`__.
 
 Additionally, users should take care of updated extensions on a regular schedule
 in order to use the most recent versions.

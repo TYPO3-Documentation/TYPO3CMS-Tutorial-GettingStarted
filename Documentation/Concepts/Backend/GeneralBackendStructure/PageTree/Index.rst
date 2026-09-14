@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
-.. index:: Backend; Page tree
-.. _page-tree:
+..  include:: /Includes.rst.txt
+..  index:: Backend; Page tree
+..  _page-tree:
 
 =========
 Page tree
@@ -14,9 +14,9 @@ the arrow to the left of each page.
 ..  rst-class:: bignums
 
 
-1. :ref:`Enter the backend <backend-login>` and select the page module
+1.  :ref:`Enter the backend <backend-login>` and select the page module
 
-   Click on **WEB** > **Page** now.
+    Click on **WEB** > **Page** now.
 
 2.  Look at the page tree in the backend:
 
@@ -54,7 +54,7 @@ The main menu on top of your web site corresponds to the first
 level menu pages in the page tree. The sub-menu of the :guilabel:`"Content Examples"`
 page in the frontend corresponds to the entries beneath "Content Examples" in the page tree.
 
-.. index:: Root page
+..  index:: Root page
 
 Working with the page tree
 ==========================
@@ -92,8 +92,8 @@ Context menu:
         The contextual menu in the Media module
 
 
-.. index:: Page tree; Context menu
-.. _the-context-menu:
+..  index:: Page tree; Context menu
+..  _the-context-menu:
 
 The context menu
 ================
@@ -113,85 +113,85 @@ page related functions. Here is what these options do:
     This creates a new page under the current page on the same level in the page
     tree:
 
-    .. code-block:: none
+    ..  code-block:: none
 
-       parent
-        |
-        ---> current page
-        |
-        ---> new page
+        parent
+         |
+         ---> current page
+         |
+         ---> new page
 
     If you wish to create a new page as a subpage of the current page, use "More options"
     > 'Create New' wizard" or use :ref:`new-page-drag-and-drop`.
 
-    .. code-block:: none
+    ..  code-block:: none
 
-       parent
-        |
-        --> current page
-             |
-             ---> new page
-
-
-- **Info**: Displays information about the page
-
-- **Copy**: Copies the page
-
-- **Cut**: Cuts the page
-
-- **More options**:
-
-  - **More options ... > 'Create New' wizard**: Same as "New", but you can select where
-    the new page is to be created.
-
-  - ...
-
-  - **More options ... > Export**: Opens the export tool and preselects the selected page
-
-  - **More options ... > Import**: Opens the import tool and preselects the selected
-    page
-
-- **Disable**: Disables the page (so it isn't accessible from the frontend
-  anymore)
-
-- **Delete**: Deletes the page
-
-- **History/Undo**: Shows the change history of the page (who did which
-  changes when)
+        parent
+         |
+         --> current page
+              |
+              ---> new page
 
 
-.. index:: Pages; Create
-.. _new-page-drag-and-drop:
+-   **Info**: Displays information about the page
+
+-   **Copy**: Copies the page
+
+-   **Cut**: Cuts the page
+
+-   **More options**:
+
+    -   **More options ... > 'Create New' wizard**: Same as "New", but you can select where
+        the new page is to be created.
+
+    -   ...
+
+    -   **More options ... > Export**: Opens the export tool and preselects the selected page
+
+    -   **More options ... > Import**: Opens the import tool and preselects the selected
+        page
+
+-   **Disable**: Disables the page (so it isn't accessible from the frontend
+    anymore)
+
+-   **Delete**: Deletes the page
+
+-   **History/Undo**: Shows the change history of the page (who did which
+    changes when)
+
+
+..  index:: Pages; Create
+..  _new-page-drag-and-drop:
 
 Create new pages with drag and drop
 ===================================
 
 You can also create new pages using drag and drop.
 
-.. rst-class:: bignums
+..  rst-class:: bignums
 
-1. Clicking on the "Create new pages" icon (top left of the page tree)
+1.  Clicking on the "Create new pages" icon (top left of the page tree)
 
-2. Drag and drop a "Standard" page to its desired location in the page tree.
-
-
-   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop1.png
-      :class: with-shadow
-
-   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop2.png
-      :class: with-shadow
-
-3. A new page has now been created at the desired location.
-
-   By default it will be called "[Default Title]" which can be changed
-   right away by entering a new title.
-
-   .. figure:: /Images/ManualScreenshots/PageTree/Dragndop3.png
-      :class: with-shadow
+2.  Drag and drop a "Standard" page to its desired location in the page tree.
 
 
-.. index:: Modules; View
-.. _the-view-module:
+    ..  figure:: /Images/ManualScreenshots/PageTree/Dragndop1.png
+        :class: with-shadow
+
+    ..  figure:: /Images/ManualScreenshots/PageTree/Dragndop2.png
+        :class: with-shadow
+
+3.  A new page has now been created at the desired location.
+
+    By default it will be called "[Default Title]" which can be changed
+    right away by entering a new title.
+
+    ..  figure:: /Images/ManualScreenshots/PageTree/Dragndop3.png
+        :class: with-shadow
+
+
+..  index:: Modules; View
+..  _the-view-module:
 
 The view module
 ===============
@@ -200,13 +200,13 @@ It is also possible to view a page without having to leave the backend. By selec
 backend users are able to preview individual pages and test them against various screen sizes,
 by accessing the drop-down menu at the top.
 
-.. figure:: /Images/ManualScreenshots/Modules/ViewModule.png
-   :alt: Viewing a page directly in the backend
-   :class: with-shadow
+..  figure:: /Images/ManualScreenshots/Modules/ViewModule.png
+    :alt: Viewing a page directly in the backend
+    :class: with-shadow
 
 
-.. index:: Page tree; Collapse
-.. _collapse-page-tree:
+..  index:: Page tree; Collapse
+..  _collapse-page-tree:
 
 Collapsing the page tree
 ========================
@@ -220,8 +220,8 @@ on the left in the top bar.
     Collapse or expand the page tree
 
 
-.. index:: Pages; Edit
-.. _editing-pages:
+..  index:: Pages; Edit
+..  _editing-pages:
 
 Editing pages
 =============

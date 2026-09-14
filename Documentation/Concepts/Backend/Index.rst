@@ -7,10 +7,10 @@
 Backend
 =======
 
-.. figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
-   :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
+..  figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
+    :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
 
-   Overview of the whole TYPO3 backend, see also :ref:`general-backend-structure`
+    Overview of the whole TYPO3 backend, see also :ref:`general-backend-structure`
 
 The backend is the administrative side of the CMS, accessible only to users
 with the correct permissions. It allows users to create and publish content,

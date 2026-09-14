@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. _recommended-extensions:
+..  _recommended-extensions:
 
 ======================
 Recommended Extensions
