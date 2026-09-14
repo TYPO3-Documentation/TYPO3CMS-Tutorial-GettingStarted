@@ -26,7 +26,7 @@ Still the choice of the provider depends on numerous aspects:
 
 ..  contents:: Table of contents
 
-.. _hosting-saas:
+..  _hosting-saas:
 
 SaaS-like TYPO3 services
 =========================

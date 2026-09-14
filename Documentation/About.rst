@@ -1,11 +1,11 @@
 :orphan:
 
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
 .. this file is linked from Index.rst but not included in the menu
 
-.. _about:
-.. _about-this-document:
+..  _about:
+..  _about-this-document:
 
 ===================
 About This Tutorial
@@ -30,7 +30,7 @@ the issues with rendering have been solved and the French branch has been
 reviewed for TYPO3 v9.
 
 
-.. _status:
+..  _status:
 
 Status of This Manual
 =====================
@@ -38,7 +38,7 @@ Status of This Manual
 The current version was updated to reflect TYPO3 CMS |release|.
 
 
-.. _credits:
+..  _credits:
 
 Credits
 =======

@@ -1,6 +1,6 @@
-.. include:: /Includes.rst.txt
-.. index:: Context menu
-.. _context-menu:
+..  include:: /Includes.rst.txt
+..  index:: Context menu
+..  _context-menu:
 
 =================
 The context menus

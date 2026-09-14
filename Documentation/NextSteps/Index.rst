@@ -1,8 +1,8 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. index:: fluid, templating, site package
+..  index:: fluid, templating, site package
 
-.. _next-steps:
+..  _next-steps:
 
 ==============================
 Next Steps and Further Reading

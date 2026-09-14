@@ -1,6 +1,6 @@
 :navigation-title: Site Management
-.. include:: /Includes.rst.txt
-.. _site-management-modules:
+..  include:: /Includes.rst.txt
+..  _site-management-modules:
 
 =======================
 Site Management modules

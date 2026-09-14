@@ -1,8 +1,8 @@
 :navigation-title: Layout module
 
-.. include:: /Includes.rst.txt
-.. _page-content:
-.. _layout-module:
+..  include:: /Includes.rst.txt
+..  _page-content:
+..  _layout-module:
 
 ================================
 "Layout" backend module in TYPO3
@@ -21,7 +21,7 @@ covers practical topics on how to work with content.
 
 ..  contents:: Topics related to the :guilabel:`Content > Layout` module
 
-.. _page-layout:
+..  _page-layout:
 
 Page layout / backend layout
 ============================
@@ -37,7 +37,7 @@ TSconfig <t3sitepackage:content-mapping-backend-layout>`.
 The topic is also covered in-depth in the TSconfig Reference,
 chapter :ref:`Backend layouts <t3tsref:backend-layouts>`.
 
-.. _page-new-content:
+..  _page-new-content:
 
 The "New Page Content" wizard
 =============================
@@ -64,7 +64,7 @@ to hide or edit content elements displayed here. For example you can hide the
         special.removeItems := addToList(html)
     }
 
-.. _page-content-elements:
+..  _page-content-elements:
 
 Content elements
 ================
@@ -81,7 +81,7 @@ basic configurations but need no in-depth knowledge of programming.
 
 See :ref:`create a custom content element type <t3coreapi:adding-your-own-content-elements>`.
 
-.. _page-plugins:
+..  _page-plugins:
 
 Plugins
 =======

@@ -1,5 +1,5 @@
-.. include:: /Includes.rst.txt
-.. _webroot:
+..  include:: /Includes.rst.txt
+..  _webroot:
 
 ==================
 Webroot and assets
@@ -21,7 +21,7 @@ There are 3 types of files that must be accessed directly by the browser:
 *   Technical files managed by Composer and TYPO3, including the `index.php` as
     Entry point, automatically generated assets and scaled versions of images.
 
-.. _media:
+..  _media:
 
 Media and downloads
 ===================
@@ -46,7 +46,7 @@ by editors.
     directory. Store them in a :ref:`site package <t3sitepackage:start>`
     :ref:`assets`.
 
-.. _assets:
+..  _assets:
 
 Assets in extensions and site packages
 =====================================
