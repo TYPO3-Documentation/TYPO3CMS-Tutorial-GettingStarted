@@ -1,8 +1,8 @@
-.. include:: /Includes.rst.txt
-.. index:: Modules; Status
-.. _info-functions-modules:
-.. _info-module:
-.. _status-module:
+..  include:: /Includes.rst.txt
+..  index:: Modules; Status
+..  _info-functions-modules:
+..  _info-module:
+..  _status-module:
 
 =============
 Status module

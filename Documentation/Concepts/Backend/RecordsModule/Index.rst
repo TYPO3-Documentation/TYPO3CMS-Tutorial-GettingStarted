@@ -1,7 +1,7 @@
-.. include:: /Includes.rst.txt
-.. index:: Modules; Records module
-.. _list-module:
-.. _records-module:
+..  include:: /Includes.rst.txt
+..  index:: Modules; Records module
+..  _list-module:
+..  _records-module:
 
 ==================
 The Records module
@@ -37,7 +37,7 @@ globally, TSconfig can be included on a per-site or per-page level.
 
 Here are some examples of what you might want to change in the :guilabel:`Content > Records` module:
 
-.. _records-module-mod-hideTables:
+..  _records-module-mod-hideTables:
 
 Hide tables in the Records module
 ------------------------------
@@ -56,7 +56,7 @@ For example you can hide the records of certain tables visible in the :guilabel:
 
 We use the :ref:`operator ":=" <t3tsref:typoscript-syntax-syntax-value-modification>` to add tables to a list that we want to hide.
 
-.. _records-module-disableHideAtCopy:
+..  _records-module-disableHideAtCopy:
 
 Disable hide and prepend at copy
 --------------------------------
@@ -75,7 +75,7 @@ the affected table belonging to the record to true like so:
        disableHideAtCopy = 1
     }
 
-.. _records-module-TCAdefaults:
+..  _records-module-TCAdefaults:
 
 Define defaults for certain fields
 ----------------------------------

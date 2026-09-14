@@ -23,8 +23,8 @@ full TYPO3 install, see https://get.typo3.org/misc/composer/helper
 
 ..  contents:: Backend modules in group "System"
 
-.. _system-modules-permissions:
-.. _administration-modules-permissions:
+..  _system-modules-permissions:
+..  _administration-modules-permissions:
 
 Permissions
 ===========
@@ -44,8 +44,8 @@ these backend user permissions for pages in the backend.
 See also TYPO3 Explained,
 :ref:`Permissions management <t3coreapi:permissions-management>`.
 
-.. _system-modules-backend-users:
-.. _administration-modules-backend-users:
+..  _system-modules-backend-users:
+..  _administration-modules-backend-users:
 
 Backend Users
 =============
@@ -76,8 +76,8 @@ It is only visible if at least one of its submodules is visible. Submodules
 can be provided by optional system extensions (see below) or third party
 extensions.
 
-.. _system-modules-reactions:
-.. _administration-modules-reactions:
+..  _system-modules-reactions:
+..  _administration-modules-reactions:
 
 Reactions (optional)
 --------------------
@@ -90,8 +90,8 @@ reaction records.
 It has its own manual:
 :ref:`TYPO3 Reactions <typo3/cms-reactions:start>`.
 
-.. _system-modules-webhooks:
-.. _administration-modules-webhooks:
+..  _system-modules-webhooks:
+..  _administration-modules-webhooks:
 
 Webhooks (optional)
 -------------------
@@ -104,8 +104,8 @@ webhook records in TYPO3.
 It has its own manual:
 :ref:`TYPO3 Webhooks <typo3/cms-webhooks:start>`.
 
-.. _system-modules-scheduler:
-.. _administration-modules-scheduler:
+..  _system-modules-scheduler:
+..  _administration-modules-scheduler:
 
 Scheduler (optional)
 ====================
@@ -141,8 +141,8 @@ it `here <https://crontab.guru/>`__ and test if it performs like you expect.
 When you are not familiar with cron jobs we refer to https://en.wikipedia.org/wiki/Cron.
 
 
-.. _system-modules-reports:
-.. _administration-modules-reports:
+..  _system-modules-reports:
+..  _administration-modules-reports:
 
 Reports (optional)
 ==================
@@ -165,8 +165,8 @@ This module has its own dedicated manual:
 extensions. For example :composer:`apache-solr-for-typo3/solr` offers its own
 section in the report module.
 
-.. _system-modules-log:
-.. _administration-modules-log:
+..  _system-modules-log:
+..  _administration-modules-log:
 
 Log
 ===
