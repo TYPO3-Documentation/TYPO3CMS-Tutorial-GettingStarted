@@ -1,8 +1,8 @@
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. index:: backend, frontend, concepts
+..  index:: backend, frontend, concepts
 
-.. _concepts:
+..  _concepts:
 
 ==============
 TYPO3 Concepts

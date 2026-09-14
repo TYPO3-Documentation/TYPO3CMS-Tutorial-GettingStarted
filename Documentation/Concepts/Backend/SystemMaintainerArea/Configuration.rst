@@ -1,8 +1,8 @@
 :navigation-title: Configuration
 
 ..  include:: /Includes.rst.txt
-.. _system-modules-configuration:
-.. _administration-modules-configuration:
+..  _system-modules-configuration:
+..  _administration-modules-configuration:
 
 ======================
 Configuration (System)

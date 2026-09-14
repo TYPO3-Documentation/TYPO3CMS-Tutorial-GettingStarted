@@ -39,10 +39,10 @@ To create a site package, you have two main options:
     and include the sets in your `site configuration <https://docs.typo3.org/permalink/t3start:site-configuration>`_.
 
     ..  figure:: /Images/ManualScreenshots/CreateSitePackage/SitePackageBuilder.png
-        :zoom: lightbox
-        :alt: Screenshot of the site package builder at get.typo3.org demonstrating the installation steps
+         :zoom: lightbox
+         :alt: Screenshot of the site package builder at get.typo3.org demonstrating the installation steps
 
-       Click on "Composer-based TYPO3 installation" for the commands to install the site package
+        Click on "Composer-based TYPO3 installation" for the commands to install the site package
 
 
 ..  _pros-and-cons-of-sitepackage-builder:

@@ -1,6 +1,6 @@
 :navigation-title: Structure
-.. include:: /Includes.rst.txt
-.. _general-backend-structure:
+..  include:: /Includes.rst.txt
+..  _general-backend-structure:
 
 =========================
 General backend structure
@@ -8,10 +8,10 @@ General backend structure
 
 Here is a complete overview of the backend interface and its structure.
 
-.. figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
-   :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
+..  figure:: /Images/ManualScreenshots/Backend/BackendAreasOverviewShort.png
+    :alt: Screenshot of the TYPO3 Backend after login, with annotated parts
 
-   Overview of the whole TYPO3 CMS backend
+    Overview of the whole TYPO3 CMS backend
 
 Situated in the center left of page is the
 *page tree* and to its right the (main) *content area*.
