@@ -20,7 +20,7 @@ Prerequisites
 *   Basic knowledge of PHP and TYPO3 development concepts
 *   CLI access to your TYPO3 instance
 
-.. _why-create-extension:
+..  _why-create-extension:
 
 Why create an extension?
 ========================
@@ -31,7 +31,7 @@ Creating an extension allows you to:
 *   Share functionality across multiple TYPO3 instances
 
 
-.. _how-to-create-extension:
+..  _how-to-create-extension:
 
 How to start developing an extension
 ====================================
@@ -45,7 +45,7 @@ Please refer to this :ref:`link <t3coreapi:extension-tutorials>` for
 comprehensive, step-by-step instructions on how to create an extension.
 
 
-.. _basic-steps:
+..  _basic-steps:
 
 Basic steps to create an extension
 ==================================

@@ -1,9 +1,9 @@
 :orphan:
-.. include:: /Includes.rst.txt
+..  include:: /Includes.rst.txt
 
-.. index:: legacy installation
+..  index:: legacy installation
 
-.. _legacyinstallation:
+..  _legacyinstallation:
 ..  _release_integrity:
 
 ===================

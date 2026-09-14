@@ -1,6 +1,6 @@
 :navigation-title: System modules
-.. include:: /Includes.rst.txt
-.. _system-modules:
+..  include:: /Includes.rst.txt
+..  _system-modules:
 
 ==============
 System modules
@@ -16,7 +16,7 @@ full TYPO3 install, see `https://get.typo3.org/misc/composer/helper`__.
 
 ..  contents:: Backend modules in group "System"
 
-.. _system-modules-permissions:
+..  _system-modules-permissions:
 
 Permissions
 ===========
@@ -31,7 +31,7 @@ these backend user permissions for pages in the backend.
 See also TYPO3 Explained,
 :ref:`Permissions management <t3coreapi:permissions-management>`.
 
-.. _system-modules-backend-users:
+..  _system-modules-backend-users:
 
 Backend Users
 =============
@@ -42,7 +42,7 @@ backend users.
 See also TYPO3 Explained,
 :ref:`Backend user management <t3coreapi:user-management>`.
 
-.. _system-modules-reactions:
+..  _system-modules-reactions:
 
 Reactions (optional)
 ====================
@@ -55,7 +55,7 @@ reaction records.
 It has its own manual:
 :ref:`TYPO3 Reactions <typo3/cms-reactions:start>`.
 
-.. _system-modules-webhooks :
+..  _system-modules-webhooks :
 
 Webhooks (optional)
 ===================
@@ -67,7 +67,7 @@ webhook records in TYPO3.
 
 Unfortunately this extension is not documented at the time of writing.
 
-.. _system-modules-scheduler:
+..  _system-modules-scheduler:
 
 Scheduler (optional)
 ====================
@@ -101,7 +101,7 @@ job should be performed once or frequently. To test your pattern you can insert
 it `here <https://crontab.guru/>`__ and test if it performs like you expect.
 When you are not familiar with cron jobs we refer to https://en.wikipedia.org/wiki/Cron.
 
-.. _system-modules-dbcheck:
+..  _system-modules-dbcheck:
 
 DB check (optional)
 ===================
@@ -135,7 +135,7 @@ the database, for example :composer:`fixpunkt/backendtools` can be used during
 development to find all pages that contain a certain plugin or that use
 a certain backend layout etc.
 
-.. _system-modules-configuration:
+..  _system-modules-configuration:
 
 Configuration
 =============
@@ -147,7 +147,7 @@ you can discover their function as you dig deeper into
 TYPO3 CMS. Let's just mention that the `$GLOBALS['TYPO3_CONF_VARS']`
 contains global configuration values.
 
-.. _system-modules-reports:
+..  _system-modules-reports:
 
 Reports (optional)
 ==================
@@ -165,7 +165,7 @@ This module has its own dedicated manual:
 extensions. For example :composer:`apache-solr-for-typo3/solr` offers its own
 section in the report module.
 
-.. _system-modules-log:
+..  _system-modules-log:
 
 Log
 ===

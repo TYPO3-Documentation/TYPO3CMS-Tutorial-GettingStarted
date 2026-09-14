@@ -1,5 +1,5 @@
-.. include:: /Includes.rst.txt
-.. _backend-login:
+..  include:: /Includes.rst.txt
+..  _backend-login:
 
 =============
 Backend login
@@ -7,7 +7,7 @@ Backend login
 
 The backend is accessed via the url (insert your domain) :samp:`example.org/typo3`.
 
-.. figure:: /Images/Illustrations/backend_login.png
+..  figure:: /Images/Illustrations/backend_login.png
 
 When a user logs into the backend they see the dashboard (by default).
 

@@ -1,7 +1,7 @@
-.. include:: /Includes.rst.txt
-.. index:: Modules; Info
-.. _info-functions-modules:
-.. _info-module:
+..  include:: /Includes.rst.txt
+..  index:: Modules; Info
+..  _info-functions-modules:
+..  _info-module:
 
 ===========
 Info module

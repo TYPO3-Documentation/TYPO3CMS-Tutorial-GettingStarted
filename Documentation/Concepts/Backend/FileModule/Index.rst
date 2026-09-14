@@ -1,5 +1,5 @@
-.. include:: /Includes.rst.txt
-.. _file-module:
+..  include:: /Includes.rst.txt
+..  _file-module:
 
 ===================
 The Filelist module
@@ -15,7 +15,7 @@ Do not store :ref:`assets <assets>` needed for your theme here. Store these in
 the folder :path:`Resources/Public` of your :ref:`site package <creating-a-site-package>`
 or another :ref:`extension <create-own-extension>`.
 
-.. _file-module-fileadmin:
+..  _file-module-fileadmin:
 
 Fileadmin - the default file storage
 ====================================
@@ -29,7 +29,7 @@ any file herein when they have or guess the correct path.
 Third party extensions like :composer:`leuchtfeuer/secure-downloads` can help
 you if downloads should only be available to logged-in frontend users.
 
-.. _file-module-storages:
+..  _file-module-storages:
 
 File storages
 =============
@@ -38,7 +38,7 @@ It is possible to configure additional file storages, including private and
 read only ones. This topic is beyond the scope of this guide. It is explained in
 TYPO3 Explained, chapter :ref:`File storages <t3coreapi:fal-administration-storages>`.
 
-.. _file-module-fal:
+..  _file-module-fal:
 
 File abstraction layer (FAL)
 ============================
@@ -75,7 +75,7 @@ references <t3coreapi:fal-using-fal-examples-file-folder>`
     like logos, icons, background images etc. should be stored as
     :ref:`Assets in extensions and site packages <assets>`.
 
-.. _file-module-meta-data:
+..  _file-module-meta-data:
 
 File meta data
 ==============
