@@ -83,7 +83,7 @@ Content area:
     the right. Hovering over the icon of a page will display its internal id.
 
 Context menu:
-    1. A click on the page icon will open the context menu. 2. **Or**, you
+    A click on the page icon will open the context menu. **Or**, you
     can right click the whole page title.
 
     ..  figure:: /Images/ManualScreenshots/PageTree/ContextMenu.png
