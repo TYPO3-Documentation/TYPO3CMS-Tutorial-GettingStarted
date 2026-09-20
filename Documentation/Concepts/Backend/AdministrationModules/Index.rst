@@ -13,15 +13,15 @@ Administration modules
     to :guilabel:`Administration`. See `the changelog entry
     <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
-System modules are backend modules in the group "System"
-and they are only available to backend users with
+Administration modules are backend modules in the group
+:guilabel:`Administration` and they are only available to backend users with
 admin permissions.
 
 Some modules are only available when you have an optional system extension
 installed. If you want to see all available modules you can also make a
 full TYPO3 install, see https://get.typo3.org/misc/composer/helper
 
-..  contents:: Backend modules in group "System"
+..  contents:: Backend modules in group "Administration"
 
 ..  _system-modules-permissions:
 ..  _administration-modules-permissions:
@@ -55,7 +55,7 @@ Backend Users
     :guilabel:`Administration`. See `the changelog entry
     <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
 
-The module :guilabel:`System > Users` is used to create, edit and delete
+The module :guilabel:`Administration > Users` is used to create, edit and delete
 backend users.
 
 See also TYPO3 Explained,
@@ -67,7 +67,7 @@ Integrations backend module hub (optional)
 ==========================================
 
 ..  versionadded:: 14.0
-    The new :guilabel:`System > Integrations` module has been introduced.
+    The new :guilabel:`Administration > Integrations` module has been introduced.
 
 The Integrations module provides a central location for managing all
 types of external system integrations in TYPO3.
