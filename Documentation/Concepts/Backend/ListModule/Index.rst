@@ -25,7 +25,7 @@ Display of database records in the List module
 ==============================================
 
 How a database record type is displayed in the list module is determined by
-:ref:`tca` and can be further configured by TSconfig. While TCA is always loaded
+:ref:`TCA <tca>` and can be further configured by TSconfig. While TCA is always loaded
 globally, TSconfig can be included on a per-site or per-page level.
 
 ..  todo: Link tsconfig once article exists in concepts.
@@ -76,7 +76,8 @@ Define defaults for certain fields
 ----------------------------------
 
 You can override the :confval:`default (TCA reference) <t3tca:input-default>`
-set globally in the :ref:`tca` by setting a custom default value in TSconfig
+set globally in the :ref:`TCA <tca>` by setting a custom default value in
+TSconfig
 :ref:`TCAdefaults <t3tsref:pageTsTcaDefaults>`:
 
 ..  code-block:: typoscript
