@@ -15,7 +15,8 @@ Backend
 The backend is the administrative side of the CMS, accessible only to users
 with the correct permissions. It allows users to create and publish content,
 configure the site (like settings, domains, languages), manage backend users,
-and handle third-party extensions. The :ref:`frontend` is what visitors
+and handle third-party extensions. The :ref:`frontend <frontend>` is what
+visitors
 see when browsing the site.
 
 You can view and try out the TYPO3 backend on this `demo <https://demo.typo3.org/>`__
