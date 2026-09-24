@@ -27,7 +27,8 @@ including the name of your site and also the version of TYPO3 it is currently ru
     a bookmark to this record" in the dropdown.
 #.  The lightning bolt icon opens the **Clear Cache** menu to flush the various
     caches that are used by TYPO3 CMS to improve performance.
-    Caches are described in detail in TYPO3 Explained::ref:`t3coreapi:caching`.
+    Caches are described in detail in
+    :ref:`Caching <t3coreapi:caching>` in TYPO3 Explained.
 #.  The next icon opens up a panel showing various information
     about the environment.
 #.  The search button opens a general **"Search"** field, which will search

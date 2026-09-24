@@ -75,7 +75,8 @@ define additional content elements. Many third party extensions like
 :composer:`georgringer/news` :ref:`plugins <page-plugins>`.
 
 New content elements can also be created without relying on third party
-extensions. You need basic knowledge on :ref:`tca`, :ref:`typoscript`, and
+extensions. You need basic knowledge on :ref:`TCA <tca>`,
+:ref:`TypoScript <typoscript>`, and
 :ref:`templating with Fluid <fluid-templates>`. You have to use PHP for some
 basic configurations but need no in-depth knowledge of programming.
 
@@ -94,7 +95,8 @@ plugins for a wide range of functionality. For example plugins to display news:
 :composer:`wsr/myleaflet`, event management with registration:
 :composer:`derhansen/sf-event-mgt-contentelements` and many more.
 
-The chapter :ref:`how-to-find-extensions` covers searching for suitable extensions.
+The chapter :ref:`How to find extensions <how-to-find-extensions>` covers
+searching for suitable extensions.
 
 Usually a PHP class called a "controller" manages
 the functionality and display of the plugin. To create a custom plugin you
