@@ -32,14 +32,16 @@ This does not mean it is not being loaded.
 Active page TSconfig
 ====================
 
-This module works much like :ref:`site-management-typoscript-active`.
+This module works much like
+:ref:`Active TypoScript <site-management-typoscript-active>`.
 
 ..  _site-management-page-tsconfig-included:
 
 Included page TSconfig
 ======================
 
-This module works much like :ref:`site-management-typoscript-included`, however
+This module works much like
+:ref:`Included TypoScript <site-management-typoscript-included>`, however
 the sources from which TSconfig is being loaded are different.
 
 In this Guide we assume that you load page TSconfig via the site set of your

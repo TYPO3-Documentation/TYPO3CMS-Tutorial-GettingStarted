@@ -121,7 +121,8 @@ This submodule is helpful in debugging in which order TypoScript files were
 included and :ref:`@import <t3tsref:typoscript-syntax-import>` statements were
 resolved.
 
-If the "Banana" from the example in :ref:`site-management-typoscript-active`
+If the "Banana" from the example in
+:ref:`Active TypoScript <site-management-typoscript-active>`
 was overridden, you can use this module to find out where it might have been
 overridden.
 

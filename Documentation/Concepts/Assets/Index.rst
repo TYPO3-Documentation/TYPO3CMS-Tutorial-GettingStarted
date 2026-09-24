@@ -43,8 +43,8 @@ by editors.
 
 ..  warning::
     For security reasons, do not store any templates, scripts or assets in this
-    directory. Store them in a :ref:`site package <t3sitepackage:start>`
-    :ref:`assets`.
+    directory. Store them in the :ref:`assets directory <assets>` of a
+    :ref:`site package <t3sitepackage:start>`.
 
 ..  _assets:
 

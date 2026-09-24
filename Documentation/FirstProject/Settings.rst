@@ -58,7 +58,8 @@ Site handling
 
 One TYPO3 installation can contain more then one site. Even if you only have one
 site in your installation, important settings can be made in the Site Configuration.
-Read more about this in the chapter: :ref:`siteconfiguration`.
+Read more about this in the chapter
+:ref:`Create a new site configuration <siteconfiguration>`.
 
 Site configurations are stored in a file called
 :file:`config/sites/my-site/config.yaml` and can be edited from the

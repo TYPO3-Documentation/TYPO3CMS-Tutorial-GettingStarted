@@ -66,7 +66,7 @@ security incidents. They review them and consider their impact. Security
 advisories are regularly published.
 
 More information about security can be found in the
-:ref:`t3coreapi:security`.
+:ref:`security guidelines <t3coreapi:security>` of TYPO3 Explained.
 
 ..  _next-steps-contributing:
 
