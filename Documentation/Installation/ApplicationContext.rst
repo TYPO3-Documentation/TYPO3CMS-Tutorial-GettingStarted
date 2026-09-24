@@ -80,7 +80,7 @@ server settings needed only during development, including:
 
 You should not :ref:`deploy <deployment>` this file to your production server
 but create one just for the production server.
-See section :ref:`production-settings`
+See section :ref:`Production environment <production-settings>`
 
 ..  _production-settings:
 

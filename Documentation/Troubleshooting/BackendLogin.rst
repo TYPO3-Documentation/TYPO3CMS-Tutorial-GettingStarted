@@ -74,7 +74,8 @@ Access denied before or after login
         -defined('TYPO3_MODE') or die('Access denied.');
         +defined('TYPO3') or die('Access denied.');
 
-    The solution is the same like for :ref:`troubleshooting-login-white-screen`.
+    The solution is the same as for
+    :ref:`a white screen before or after login <troubleshooting-login-white-screen>`.
 *   Check file permissions on the TYPO3 files.
 *   Check the `.htaccess` or Nginx configurations
 
