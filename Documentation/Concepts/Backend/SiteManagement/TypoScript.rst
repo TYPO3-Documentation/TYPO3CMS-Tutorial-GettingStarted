@@ -29,7 +29,7 @@ in the docheader:
     :zoom: lightbox
     :alt: Screenshot of the TypoScript module in the backend demonstrating the location of the submodule switch, a drop down in the document header
 
-    Switch between the TypoScript submodules in
+    Switch between the TypoScript submodules in the docheader
 
 ..  contents::
 
