@@ -48,10 +48,10 @@ can be used to influence display and functionality of the :guilabel:`Content > R
 For example you can hide the records of certain tables visible in the :guilabel:`Content > Records` module with:
 
 ..  code-block:: typoscript
-    :caption: EXT:site_package/Configuration/page.tsconfig
+    :caption: EXT:my_sitepackage/Configuration/page.tsconfig
 
     mod.web_list {
-        hideTables := addToList(tx_my_table,tx_my_table2)
+        hideTables := addToList(tx_myextension_mytable,tx_myextension_mytable2)
     }
 
 We use the :ref:`operator ":=" <t3tsref:typoscript-syntax-syntax-value-modification>` to add tables to a list that we want to hide.
@@ -68,9 +68,9 @@ and :ref:`disableHideAtCopy <t3tsref:pagetcemaintables-disablehideatcopy>` for
 the affected table belonging to the record to true like so:
 
 ..  code-block:: typoscript
-    :caption: EXT:site_package/Configuration/page.tsconfig
+    :caption: EXT:my_sitepackage/Configuration/page.tsconfig
 
-    TCEMAIN.table.tx_my_table {
+    TCEMAIN.table.tx_myextension_mytable {
        disablePrependAtCopy = 1
        disableHideAtCopy = 1
     }
@@ -86,7 +86,7 @@ TSconfig
 :ref:`TCAdefaults <t3tsref:pageTsTcaDefaults>`:
 
 ..  code-block:: typoscript
-    :caption: EXT:site_package/Configuration/page.tsconfig
+    :caption: EXT:my_sitepackage/Configuration/page.tsconfig
 
     # Do not hide newly created pages by default
     TCAdefaults.pages.hidden = 0

@@ -58,7 +58,7 @@ to hide or edit content elements displayed here. For example you can hide the
 "HTML" content element supplied by :composer:`typo3/cms-fluid-styled-content`:
 
 ..  code-block:: typoscript
-    :caption: EXT:site_package/Configuration/page.tsconfig
+    :caption: EXT:my_sitepackage/Configuration/page.tsconfig
 
     mod.wizards.newContentElement.wizardItems {
         special.removeItems := addToList(html)
