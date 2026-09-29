@@ -82,7 +82,7 @@ site sets.
 For example, if a site set in your site package configures:
 
 ..  code-block:: typoscript
-    :caption: EXT:site_package/Configuration/Sets/SitePackage/setup.typoscript
+    :caption: EXT:my_sitepackage/Configuration/Sets/SitePackage/setup.typoscript
 
     page.20 = TEXT
     page.20.value = Apple
@@ -90,7 +90,7 @@ For example, if a site set in your site package configures:
 And the set of another extension configures:
 
 ..  code-block:: typoscript
-    :caption: EXT:some_extension/Configuration/Sets/BananaSet/setup.typoscript
+    :caption: EXT:my_extension/Configuration/Sets/BananaSet/setup.typoscript
 
     page.20 = TEXT
     page.20.value = Banana
