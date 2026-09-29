@@ -134,16 +134,16 @@ Find out the extension key for an extension
 The extension key of an extension can be found in its :file:`composer.json`.
 
 ..  code-block:: json
-    :caption: EXT:blog_example/composer.json
+    :caption: EXT:my_extension/composer.json
     :emphasize-lines: 7
 
     {
-        "name": "t3docs/blog-example",
+        "name": "myvendor/my-extension",
         "type": "typo3-cms-extension",
         "..": "...",
         "extra": {
             "typo3/cms": {
-                "extension-key": "blog_example",
+                "extension-key": "my_extension",
             }
         }
     }

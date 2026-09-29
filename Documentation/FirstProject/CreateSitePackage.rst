@@ -34,7 +34,7 @@ To create a site package, you have two main options:
 
     ..  code-block:: bash
 
-        composer require vendor\sitepackagename
+        composer require myvendor/my-sitepackage
 
     and include the sets in your `site configuration <https://docs.typo3.org/permalink/t3start:site-configuration>`_.
 
