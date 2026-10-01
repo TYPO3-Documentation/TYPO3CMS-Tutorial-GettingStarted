@@ -8,8 +8,9 @@ The Records module
 ==================
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     The main module `Web` has been renamed to `Content`.
-    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
 Almost all data stored in the database is represented as a
 :ref:`Database record <t3coreapi:database-records>` in the TYPO3 backend.

@@ -9,8 +9,9 @@ Status module
 =============
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     The module `Web > Info` has been renamed to `Content > Status`.
-    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
 The :guilabel:`Content > Status` module displays a variety of information
 related to the pages in your web site. It contains several

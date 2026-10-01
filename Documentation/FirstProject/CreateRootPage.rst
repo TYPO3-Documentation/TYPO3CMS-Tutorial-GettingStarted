@@ -36,8 +36,9 @@ Create a new page on root level
 ===============================
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     The main module `Web` has been renamed to `Content`.
-    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
 Once you log into the TYPO3 backend, locate the :guilabel:`Content > Layout`
 module on the left-hand side of the screen.
