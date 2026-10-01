@@ -55,7 +55,7 @@ reaction records.
 It has its own manual:
 :ref:`TYPO3 Reactions <typo3/cms-reactions:start>`.
 
-..  _system-modules-webhooks :
+..  _system-modules-webhooks:
 
 Webhooks (optional)
 ===================
