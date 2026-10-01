@@ -9,7 +9,7 @@ TSConfig
 
 There are two types of TSconfig: user TSconfig and page TSconfig.
 
-..  _concepts_user_tsconfig:
+..  _concepts-user-tsconfig:
 
 User TSconfig
 =============
@@ -24,7 +24,7 @@ There are also configuration values for the :ref:`TYPO3 Admin Panel <typo3/cms-a
 (which is shown in the frontend and not the backend).
 
 
-..  _concepts_page_tsconfig:
+..  _concepts-page-tsconfig:
 
 Page TSconfig
 =============

@@ -64,7 +64,7 @@ Alternatively, you can use the web-based Install Tool to set up TYPO3.
 
 Log in using the credentials you just created during the setup process.
 
-..  _typo3-setup-application context:
+..  _typo3-setup-application-context:
 
 Set the application context for local development
 ==================================================

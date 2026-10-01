@@ -4,7 +4,7 @@
 ..  index:: legacy installation
 
 ..  _legacyinstallation:
-..  _release_integrity:
+..  _release-integrity:
 
 ===================
 Legacy Installation
