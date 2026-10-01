@@ -9,9 +9,10 @@ Administration modules
 ======================
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     Most modules in this area have been moved from :guilabel:`System`
-    to :guilabel:`Administration`. See `the changelog entry
-    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
+    to :guilabel:`Administration`.
 
 Administration modules are backend modules in the group
 :guilabel:`Administration` and they are only available to backend users with
@@ -30,9 +31,10 @@ Permissions
 ===========
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     This module has been moved from :guilabel:`System` to
-    :guilabel:`Administration`. See `the changelog entry
-    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
+    :guilabel:`Administration`.
 
 In TYPO3, you can grant permissions to backend users.
 At first, a newly created backend user without any administrative
@@ -51,9 +53,10 @@ Backend Users
 =============
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     This module has been moved from :guilabel:`System` to
-    :guilabel:`Administration`. See `the changelog entry
-    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
+    :guilabel:`Administration`.
 
 The module :guilabel:`Administration > Users` is used to create, edit and delete
 backend users.
@@ -148,9 +151,10 @@ Reports (optional)
 ==================
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     This module has been moved from :guilabel:`System` to
-    :guilabel:`Administration`. See `the changelog entry
-    <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`__.
+    :guilabel:`Administration`.
 
 This module is only available if the system extension
 :composer:`typo3/cms-reports` is installed.
