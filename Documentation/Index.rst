@@ -26,7 +26,7 @@ system and detailed information on how to install TYPO3.
         In this section we mention the prerequisites that you need before
         you start with this tutorial.
 
-        ..  card-footer:: :ref:`See the prerequisites <Prerequisites>`
+        ..  card-footer:: :ref:`See the prerequisites <prerequisites>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Concepts
@@ -34,7 +34,7 @@ system and detailed information on how to install TYPO3.
         Written for new users, this chapter introduces some of TYPO3's core
         concepts, including the backend - TYPO3's administration interface.
 
-        ..  card-footer:: :ref:`Learn about the basic concepts <Concepts>`
+        ..  card-footer:: :ref:`Learn about the basic concepts <concepts>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Installation
@@ -43,7 +43,7 @@ system and detailed information on how to install TYPO3.
         install TYPO3. It also contains information about how to deploy TYPO3
         to a production environment.
 
-        ..  card-footer:: :ref:`Perform a TYPO3 Installation <Install>`
+        ..  card-footer:: :ref:`Perform a TYPO3 Installation <install>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: First project setup
@@ -60,7 +60,7 @@ system and detailed information on how to install TYPO3.
         troubleshooting chapter covers both TYPO3 CMS and the host environment,
         including the web server, database and PHP.
 
-        ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting_index>`
+        ..  card-footer:: :ref:`Learn how to troubleshoot <troubleshooting-index>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Working with extensions
@@ -68,7 +68,7 @@ system and detailed information on how to install TYPO3.
         Discover how third-party extensions are installed and managed using
         Composer.
 
-        ..  card-footer:: :ref:`Install and manage extensions <extensions_index>`
+        ..  card-footer:: :ref:`Install and manage extensions <extensions-index>`
             :button-style: btn btn-secondary stretched-link
 
     ..  card:: Next steps

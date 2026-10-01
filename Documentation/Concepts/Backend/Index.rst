@@ -35,7 +35,7 @@ You can view and try out the TYPO3 backend on this `demo <https://demo.typo3.org
     AdminTools/Index
     SystemModules/Index
 
-..  _backend modules:
+..  _backend-modules:
 
 Backend modules
 ---------------

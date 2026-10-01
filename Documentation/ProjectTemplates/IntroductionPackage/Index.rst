@@ -1,6 +1,6 @@
 ..  include:: /Includes.rst.txt
 
-..  _introductionpackage_index:
+..  _introductionpackage-index:
 
 ====================
 Introduction Package
