@@ -15,7 +15,7 @@ This TYPO3 tutorial assumes that the reader has some basic knowledge in the foll
 *   `HTML, CSS and JavaScript <https://www.w3schools.com/html/default.asp>`__
 *   `Basic Command Line Interface (CLI) Commands <https://www.w3schools.com/whatis/whatis_cli.asp>`__
 
-..  _composer_cheat_sheat:
+..  _composer-cheat-sheat:
 
 Composer cheat sheet
 ====================
@@ -24,7 +24,7 @@ Composer is a powerful tool for managing dependencies in PHP projects, including
 TYPO3. Here you will find an overview of the four most important commands with a
 simple explanation of what they do.
 
-..  _composer_require:
+..  _composer-require:
 
 composer require
 ----------------
@@ -37,7 +37,7 @@ It installs a new package (e.g. a TYPO3 extension) and automatically adds it to 
 Composer determines the appropriate version based on your current configuration.
 All required dependencies for the package are also installed.
 
-..  _composer_remove:
+..  _composer-remove:
 
 composer remove
 ---------------
@@ -51,7 +51,7 @@ Removes the entry from :guilabel:`composer.json` and deletes related files from 
 :guilabel:`vendor` folder.
 Removes unused dependencies that were only required for the removed package.
 
-..  _composer_install:
+..  _composer-install:
 
 composer install
 ----------------
@@ -62,7 +62,7 @@ composer install
 
 It installs exactly the versions specified in the :guilabel:`composer.lock` file.
 
-..  _composer_update:
+..  _composer-update:
 
 composer update
 ---------------

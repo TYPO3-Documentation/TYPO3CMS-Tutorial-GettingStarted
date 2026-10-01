@@ -83,7 +83,7 @@ The composer command `remove` uninstalls an extension.
 The updated :file:`composer.lock` file needs to be committed to the version
 control system.
 
-..  _install_local_extensions_using_composer:
+..  _install-local-extensions-using-composer:
 
 Installing local extensions
 ===========================
