@@ -1,7 +1,7 @@
 :navigation-title: Installation
 
 ..  include:: /Includes.rst.txt
-..  _installation_index:
+..  _installation-index:
 
 =====================================
 Prepare / Install local TYPO3 project
@@ -63,12 +63,12 @@ installation on a server), see the full
         Learn about TYPO3 update cycles and how to keep your installation secure
         and up to date.
 
-    ..  card:: :ref:`Deploying TYPO3 to a server <DeployTYPO3>`
+    ..  card:: :ref:`Deploying TYPO3 to a server <deploytypo3>`
 
         Learn how to move your TYPO3 project from your local DDEV environment
         to a live web server.
 
-..  _installation_advanced:
+..  _installation-advanced:
 
 Advanced installation topics
 =============================

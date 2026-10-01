@@ -11,7 +11,7 @@ parts of it.
 
 ..  contents::
 
-..  _settings_global:
+..  _settings-global:
 
 Global settings
 ===============
@@ -23,7 +23,7 @@ manual changes to the first file mentioned, as it is auto-managed.
 
 ..  todo: Also explain Configuration Presets and Feature Toggles here?
 
-..  _settings_global-extension:
+..  _settings-global-extension:
 
 Global extension settings
 -------------------------
@@ -57,7 +57,7 @@ After opening the submodule, you can make your changes and hit "Save":
     The :file:`config/system/settings.php` file has to be writable. If you keep
     it under version control, make sure to commit and push your changes.
 
-..  _settings_site:
+..  _settings-site:
 
 Site handling
 =============
@@ -81,7 +81,7 @@ Site Identifier is also used as the path for saving the configuration file.
 
 Find detailed information in :ref:`TYPO3 Explained, Site handling <t3coreapi:sitehandling>`.
 
-..  _settings_site_settings:
+..  _settings-site-settings:
 
 Site settings
 -------------
@@ -127,7 +127,7 @@ You can define custom site settings in your site package:
 For detailed information on this topic, see also
 :ref:`TYPO3 Explained, Site settings <t3coreapi:sitehandling-settings>`.
 
-..  _settings_typoscript:
+..  _settings-typoscript:
 
 Page wide frontend definitions: TypoScript
 ==========================================
@@ -156,7 +156,7 @@ See also the complete :ref:`TypoScript Reference <t3tsref:start>`.
 
 ..  todo: Describe TypoScript in more detail?
 
-..  _settings_page_tsconfig:
+..  _settings-page-tsconfig:
 
 Page wide backend settings: Page TSconfig
 =========================================

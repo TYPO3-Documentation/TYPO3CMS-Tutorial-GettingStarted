@@ -88,7 +88,7 @@ The folder :file:`config/system/` contains the installation-wide
 .. todo: Link sitepackage
 
 Each website running on TYPO3 should have a site package - a specialized an
-:ref:`extension <t3start:extensions_index>` that contains all the templates,
+:ref:`extension <t3start:extensions-index>` that contains all the templates,
 styles, images and other assets required for the theme.
 
 The sitepackage is typically stored locally and then linked into the :file:`vendor`
