@@ -9,9 +9,10 @@
 ================================
 
 ..  versionchanged:: 14.0
+    :changelog: feature-107628-1729026000
+
     The main module `Web` has been renamed to `Content`, the module itself has
     been renamed from `Page` to `Layout`.
-    See `Feature: #107628 - Improved backend module naming and structure <https://docs.typo3.org/permalink/changelog:feature-107628-1729026000>`_
 
 The :guilabel:`Content > Layout` module is used by the editors of the site to add
 and modify content elements on the page.
