@@ -23,9 +23,14 @@ Troubleshooting
 
         Troubleshooting server and administration related topics.
 
+    ..  card:: :ref:`Error pages <troubleshooting-error-page>`
+
+        Read an error page and pass its stack trace on when you ask for help.
+
 ..  toctree::
     :hidden:
     :titlesonly:
 
     BackendLogin
     WebServer
+    ErrorPage
