@@ -25,7 +25,7 @@ described in-depth in
 For example there is a :ref:`Mass editing mode <t3editors:selective-editing>` and
 a :ref:`clipboard <t3editors:clipboard>`.
 
-.. records-module-tca:
+..  _records-module-tca:
 
 Display of database records in the Records module
 =================================================
