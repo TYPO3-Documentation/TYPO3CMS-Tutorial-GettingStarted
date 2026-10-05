@@ -150,7 +150,7 @@ Site management: Trouble shooting
 
             Invalid site sets are listed in the "Site Configuration" module with reasons why they are invalid.
 
-        Sometimes it is easier to just edit the site configuration file:
+        Sometimes it is easier to edit the site configuration file:
 
         ..  code-block:: diff
 

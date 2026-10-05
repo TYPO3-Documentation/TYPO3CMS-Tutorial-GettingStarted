@@ -7,7 +7,7 @@
 Prepare / Install local TYPO3 project
 =====================================
 
-Setting up your local TYPO3 project requires a few simple steps.
+Setting up your local TYPO3 project requires a few steps.
 This chapter will guide you through preparing your development environment,
 installing TYPO3, and getting ready to build your first website.
 
@@ -46,7 +46,7 @@ installation on a server), see the full
 
     ..  card:: :ref:`Installing TYPO3 with DDEV <install>`
 
-        Follow a quick and simple guide to install TYPO3 locally using DDEV,
+        Follow a guide to install TYPO3 locally using DDEV,
         Docker, and Composer.
 
     ..  card:: :ref:`Setting up TYPO3 after installation <typo3-setup>`
