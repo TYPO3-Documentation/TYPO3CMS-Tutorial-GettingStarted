@@ -8,8 +8,8 @@ Installing and using DDEV
 =========================
 
 DDEV is a powerful tool for local TYPO3 development. It automates
-the setup of PHP, database, webserver, and other services using Docker, making
-local development easy, fast, and consistent across platforms.
+the setup of PHP, database, webserver, and other services using Docker, so that
+local development works the same way on every platform.
 
 This guide assumes that you are setting up TYPO3 locally using DDEV.
 For deploying TYPO3 to a live server, see

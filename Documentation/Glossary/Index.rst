@@ -59,8 +59,8 @@ Glossary
         is a collection of letters and symbols used in a writing system.
 
     Composer
-        `Composer <https://getcomposer.org/>`__ is a tool used in TYPO3 to install, update, and manage extensions and libraries,
-        making it simple to handle dependencies and keep the system up to date.
+        `Composer <https://getcomposer.org/>`__ is a tool used in TYPO3 to install, update, and manage extensions and libraries.
+        It resolves their dependencies and keeps the system up to date.
 
     Compression
         In TypoScript you can compress css and js files.
@@ -98,8 +98,8 @@ Glossary
         dependencies, making setup, deployment, and development easier and more reliable.
 
     DDEV
-        `DDEV <https://ddev.com/>`__ is a local development tool that simplifies setting up a TYPO3 environment on your computer, making it
-        easy to start developing, testing, and managing TYPO3 projects without complex configuration.
+        `DDEV <https://ddev.com/>`__ is a local development tool that simplifies setting up a TYPO3 environment on your computer. You can
+        develop, test, and manage TYPO3 projects with it without complex configuration.
 
     Deployment
         :ref:`Deployment <t3start:deployment>` refers to the process of transferring your website’s code, content, and settings from a
@@ -144,7 +144,7 @@ Glossary
 
     FAL
         :ref:`File abstraction layer (FAL) <t3coreapi:fal_introduction>` is a
-        system that manages and organizes media files, allowing you to easily store,
+        system that manages and organizes media files, allowing you to store,
         access, and use files across the entire website in a standardized way.
 
     Frontend
@@ -230,13 +230,13 @@ Glossary
 
     Page tree
         The Page Tree is a hierarchical structure that represents pages and
-        their subpages on a website, allowing you to easily organize and manage content and
+        their subpages on a website, allowing you to organize and manage content and
         navigation.
 
     Resources
         In TYPO3, resources refer to files such as images, documents, and
         other media that are used on a website, which are stored and managed through the
-        File Abstraction Layer (FAL) for easy access and organization.
+        File Abstraction Layer (FAL), which organizes them and gives access to them.
 
     Root page
         The :ref:`Root Page <t3start:create-root-page>` is the top-level page in the Page Tree, serving as
@@ -264,7 +264,8 @@ Glossary
     Site Package
         A :ref:`site package <t3coreapi:site-package>` is a custom
         extension that includes all the necessary templates, configurations and settings
-        to create and manage a specific website, allowing for easy setup and deployment.
+        to create and manage a specific website. With all of this in one package,
+        you can set up and deploy the website from it.
 
     Site Set
         Site sets refer to configurations that define specific settings for
@@ -309,7 +310,7 @@ Glossary
 
     TER
         TER (TYPO3 Extension Repository) is an online platform where developers can share and download extensions,
-        allowing users to easily extend the functionality of their TYPO3 installation.
+        allowing users to extend the functionality of their TYPO3 installation.
 
     TypoScript
         :ref:`TypoScript<t3tsref:start>` is the basic configuration
