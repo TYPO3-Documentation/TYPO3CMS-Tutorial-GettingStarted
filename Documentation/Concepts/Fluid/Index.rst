@@ -185,7 +185,7 @@ header and footer markup to a layout file and only keep the content
 in-between in your template. Layouts automatically have access to all
 variables defined within the template.
 
-**Partials** are an easy way to abstract and reuse code snippets in
+**Partials** are a way to abstract and reuse code snippets in
 your templates. They don't have access to all template variables, instead
 the required variables need to be provided to the partial when it is used.
 
