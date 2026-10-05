@@ -236,7 +236,7 @@ Glossary
     Resources
         In TYPO3, resources refer to files such as images, documents, and
         other media that are used on a website, which are stored and managed through the
-        File Abstraction Layer (FAL).
+        File Abstraction Layer (FAL), which organizes them and gives access to them.
 
     Root page
         The :ref:`Root Page <t3start:create-root-page>` is the top-level page in the Page Tree, serving as
@@ -264,7 +264,8 @@ Glossary
     Site Package
         A :ref:`site package <t3coreapi:site-package>` is a custom
         extension that includes all the necessary templates, configurations and settings
-        to create and manage a specific website.
+        to create and manage a specific website. With all of this in one package,
+        you can set up and deploy the website from it.
 
     Site Set
         Site sets refer to configurations that define specific settings for
