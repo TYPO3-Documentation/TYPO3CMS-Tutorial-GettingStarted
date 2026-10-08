@@ -160,6 +160,8 @@ later on.
 
     *   `TYPO3 Theme: Camino <https://docs.typo3.org/permalink/typo3-theme-camino:start>`_
 
+..  _installation-directory-structure:
+
 Directory structure after composer installation
 -----------------------------------------------
 

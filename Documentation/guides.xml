@@ -14,6 +14,7 @@
            project-contact="https://typo3.slack.com/archives/C028JEPJL"
            project-repository="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted"
            project-issues="https://github.com/TYPO3-Documentation/TYPO3CMS-Tutorial-GettingStarted/issues"
+           check-headline-anchors="true"
     />
     <project
             title="Getting Started"
