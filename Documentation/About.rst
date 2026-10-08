@@ -18,6 +18,8 @@ Upon completing this tutorial, you should have a better understanding about how
 the CMS is installed, how the backend is administered and how you begin creating
 templates.
 
+..  _about-french-translation:
+
 French Translation
 ==================
 
