@@ -336,7 +336,7 @@ Glossary
         as a overall references to look up
         settings that you can use for TSconfig. Normally you keep all
         your settings in TSconfig files like
-        EXT:my_extension/Configuration/Sets/MyExtension/page.tsconfig.
+        :file:`EXT:my_extension/Configuration/Sets/Main/page.tsconfig`.
 
     Update
 
