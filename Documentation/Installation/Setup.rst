@@ -54,7 +54,7 @@ Alternatively, you can use the web-based Install Tool to set up TYPO3.
 
     ..  code-block:: bash
 
-        ddev launch /typo3/install.php
+        ddev launch /typo3/install
 
 3.  After completing the setup, access the TYPO3 backend:
 
