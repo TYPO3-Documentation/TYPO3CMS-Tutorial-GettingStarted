@@ -20,6 +20,8 @@ Build locally and copy all files and symlinks to the server
 *   Compare the database
 *   Fix file permissions
 *   Clear caches
+*   Update the
+    `reference index <https://docs.typo3.org/permalink/t3coreapi:update-reference-index>`_
 
 ..  todo: Link these steps once documented
 
@@ -51,6 +53,8 @@ Using Git and Composer on the webserver
 *   Compare the database
 *   Fix file permissions
 *   Clear caches
+*   Update the
+    `reference index <https://docs.typo3.org/permalink/t3coreapi:update-reference-index>`_
 
 ..  todo: Link these steps once documented
 
