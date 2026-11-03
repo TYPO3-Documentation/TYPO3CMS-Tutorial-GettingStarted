@@ -146,6 +146,8 @@ Install TYPO3 using Composer:
 
 You now have a **Composer-based TYPO3 installation**.
 
+..  _installation-directory-structure:
+
 Directory structure after composer installation
 -----------------------------------------------
 
