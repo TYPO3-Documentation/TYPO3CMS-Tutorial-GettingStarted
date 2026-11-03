@@ -96,7 +96,7 @@ in module :guilabel:`System > Maintenance` later on.
 Using the Install Tool to create an administrator
 -------------------------------------------------
 
-Access the Install Tool at `https://my-site.ddev.site/typo3/install.php` using
+Access the Install Tool at `https://my-site.ddev.site/typo3/install` using
 the Install Tool password defined during the installation process.
 
 ..  figure:: /Images/ManualScreenshots/BackendUser/InstallTool.png

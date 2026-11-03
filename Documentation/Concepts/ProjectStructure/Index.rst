@@ -25,7 +25,6 @@ The following introduction refers to a Composer-based installation.
 
         *   _assets/
         *   fileadmin/
-        *   typo3/
         *   typo3temp/
 
             *   assets/
@@ -120,8 +119,15 @@ PDFs or video files appear in this directory and/or its subdirectories.
 :file:`public/typo3/`
 ~~~~~~~~~~~~~~~~~~~~~
 
-This directory contains the two PHP files for accessing the TYPO3
-backend (:file:`typo3/index.php`) and install tool (:file:`typo3/install.php`).
+Up to TYPO3 v13, this directory contained the PHP files for accessing the
+backend and the Install Tool.
+
+..  versionchanged:: 14.0
+    :changelog: important-107536-1718204204
+
+    The files :file:`typo3/index.php` and :file:`typo3/install.php` have been
+    removed. The backend is at :samp:`/typo3`, the Install Tool at
+    :samp:`/typo3/install`.
 
 ..  _directory-var:
 
