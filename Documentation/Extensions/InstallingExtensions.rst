@@ -37,6 +37,8 @@ Composer package name
     :composer:`friendsoftypo3/extension-builder`
 
 
+..  _install-extension-composer-require:
+
 Use :bash:`composer require` to install the extension
 -----------------------------------------------------
 
@@ -58,6 +60,8 @@ and install the extension.
 
 Whilst the extension is installed and activated automatically, it still needs to be set up before it can be used:
 
+..  _install-extension-setup:
+
 Setup the extension
 -------------------
 
@@ -69,6 +73,8 @@ Setup the extension
 The extension setup command takes care of executing additional installation procedures, such as database migrations and
 clearing caches if necessary. The extension setup command is not specific to a single extension but instead looks at the overall
 state and executes all necessary steps.
+
+..  _uninstalling-extensions:
 
 Uninstalling extensions
 =======================
@@ -122,6 +128,8 @@ it to `typo3conf/ext/my-local-extension` once `composer install` is executed.
 The setup from above defines that the extension is to be placed by composer into the folder `:file:packages/my-local-extension`
 if it has not been already there.
 
+
+..  _installing-extensions-additional-information:
 
 Additional information
 ======================

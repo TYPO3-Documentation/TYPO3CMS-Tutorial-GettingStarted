@@ -54,6 +54,8 @@ The main menu on top of your website corresponds to the first
 level menu pages in the page tree. The sub-menu of the :guilabel:`"Content Examples"`
 page in the frontend corresponds to the entries beneath "Content Examples" in the page tree.
 
+..  _working-with-the-page-tree:
+
 ..  index:: Root page
 
 Working with the page tree
