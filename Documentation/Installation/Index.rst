@@ -47,8 +47,8 @@ installation on a server), see the full
 
     ..  card:: `Setting up TYPO3 with AI support <https://docs.typo3.org/permalink/t3start:ai-support>`_
 
-        Connect your AI client to the TYPO3 Dev Companion, so that it answers
-        for your project and your TYPO3 version.
+        Let your AI client install TYPO3, and connect it to the TYPO3 Dev
+        Companion.
 
     ..  card:: :ref:`Installing TYPO3 with DDEV <install>`
 
