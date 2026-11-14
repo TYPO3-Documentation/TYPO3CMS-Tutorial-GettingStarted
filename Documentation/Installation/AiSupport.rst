@@ -21,8 +21,10 @@ You need the following:
 
 *   `Docker and DDEV <https://docs.typo3.org/permalink/t3start:ddev>`_. You do
     not need PHP or Composer on your computer.
-*   An AI client that can use MCP servers, such as Claude Code, Cursor, or
-    GitHub Copilot.
+*   An AI client that can run commands and change files on your computer, and
+    that can use MCP servers. This can be a coding agent in the terminal, such
+    as Claude Code, Codex, or OpenCode, or the AI assistant of your IDE, such
+    as Cursor or Junie. A chat in the web browser cannot install TYPO3.
 
 We tested these steps with TYPO3 v14.3 in Claude Code, and in cursor-agent,
 the command-line tool of Cursor, with Grok 4.7.
