@@ -23,6 +23,7 @@ installation on a server), see the full
     :titlesonly:
 
     UsingDdev
+    AiSupport
     Install
     Setup
     Version
@@ -43,6 +44,11 @@ installation on a server), see the full
 
         Learn how to install, update, and manage DDEV to run your TYPO3
         projects locally.
+
+    ..  card:: `Setting up TYPO3 with AI support <https://docs.typo3.org/permalink/t3start:ai-support>`_
+
+        Let your AI client install TYPO3, and connect it to the TYPO3 Dev
+        Companion.
 
     ..  card:: :ref:`Installing TYPO3 with DDEV <install>`
 
