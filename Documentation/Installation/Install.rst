@@ -90,7 +90,7 @@ TYPO3 is included in the list of preconfigured project types.
 
 ..  code-block:: bash
 
-    ddev config --php-version 8.4 --docroot public --project-type typo3
+    ddev config --php-version 8.5 --webserver-type apache-fpm --docroot public --project-type typo3 --web-environment-add="TYPO3_CONTEXT=Development/DDEV"
 
 Docroot Location
     The docroot is the folder containing the files accessible to the webserver,
