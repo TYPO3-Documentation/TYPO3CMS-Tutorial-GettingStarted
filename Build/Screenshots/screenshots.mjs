@@ -42,16 +42,28 @@ const newSiteConfiguration = async (frame) => {
 };
 
 const screenshots = {
+  // The module with the list of the root pages without a site configuration,
+  // as in a new installation. The site of the Camino demo, which the
+  // tutorial has not created at this point, is hidden.
   'FirstProject/SiteManagement/NewSite': {
+    // Narrow, so the image takes less room on the page
+    width: 1000,
     url: sitesUrl,
+    prepare: async (frame) => {
+      await frame.locator('h2', { hasText: /^Sites$/ }).evaluate((heading) => {
+        heading.nextElementSibling?.remove();
+        heading.remove();
+      });
+    },
     window: true,
     until: pageWithoutSite(startPage),
   },
+  // The form, down to the sets of the site, which the text names last
   'FirstProject/SiteManagement/NewSitePage1': {
+    width: 1000,
     url: sitesUrl,
     prepare: newSiteConfiguration,
     window: true,
-    // The sets of the site, which the text names last
     until: '.form-section:has([name$="[dependencies]"])',
   },
 };
