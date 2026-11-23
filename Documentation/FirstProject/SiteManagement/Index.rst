@@ -38,9 +38,9 @@ Available root pages should be listed in this module. Click
 the button :guilabel:`Add new site configuration` next to the relevant
 page to create a site configuration for it.
 
-..  figure:: NewSite.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/SiteManagement/NewSite.png
     :zoom: gallery
-    :alt: Screenshot of the "Sites" module with no site created yet
+    :alt: Screenshot of the module "Sites > Setup" with a root page that has no site configuration yet
 
     Create a new site configuration
 
@@ -60,7 +60,7 @@ From the list of available sets, choose the set for your site package if you
 have one. You can learn how to create a site package in the
 :ref:`TYPO3 Sitepackage Tutorial <t3sitepackage:start>`.
 
-..  figure:: NewSitePage1.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/SiteManagement/NewSitePage1.png
     :zoom: gallery
     :alt: Screenshot of the tab "General" of a newly created site configuration
 
