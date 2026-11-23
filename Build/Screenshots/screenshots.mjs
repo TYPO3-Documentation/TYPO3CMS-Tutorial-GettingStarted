@@ -6,7 +6,7 @@
 // below Documentation/Images/GeneratedScreenshots, without ".png". With DUMP
 // set, the HTML of each screen is also written to var/, to look up selectors.
 
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname } from 'node:path';
 import { chromium } from 'playwright';
 
@@ -29,6 +29,39 @@ const sitesUrl = moduleUrl('site/configuration');
 // of the Sites module
 const pageWithoutSite = (uid) => `tr:has([data-contextmenu-uid="${uid}"])`;
 
+// Hides a section of the Sites module, given by its heading, with what
+// follows the heading up to the next one
+const hideSection = (heading) => async (frame) => {
+  await frame.locator('h2', { hasText: heading }).evaluate((element) => {
+    while (element.nextElementSibling && element.nextElementSibling.tagName !== 'H2' && !element.nextElementSibling.matches('.callout, form')) {
+      element.nextElementSibling.remove();
+    }
+    element.remove();
+  });
+};
+
+// A site configuration of the start page that was edited by hand and has a
+// syntax error: the quote of the entry point is not closed. It is written
+// only for the screenshot that shows it, as the Sites module reports it in
+// every view. The cache of the site configurations is removed, so TYPO3
+// reads the file.
+const breakSiteConfiguration = () => {
+  mkdirSync('../../config/sites/example_site', { recursive: true });
+  writeFileSync('../../config/sites/example_site/config.yaml', [
+    `rootPageId: ${startPage}`,
+    "base: 'https://example-site.ddev.site/",
+    'languages:',
+    '  -',
+    '    title: English',
+    '    enabled: true',
+    '    languageId: 0',
+    '    base: /',
+    '    locale: en_US.UTF-8',
+    '',
+  ].join('\n'));
+  rmSync('../../var/cache/code/core/sites-configuration.php', { force: true });
+};
+
 // Creates a site configuration for the start page, up to the filled form
 const newSiteConfiguration = async (frame) => {
   await frame.locator(pageWithoutSite(startPage)).getByText(/Add new site configuration/).first().click();
@@ -49,12 +82,7 @@ const screenshots = {
     // Narrow, so the image takes less room on the page
     width: 1000,
     url: sitesUrl,
-    prepare: async (frame) => {
-      await frame.locator('h2', { hasText: /^Sites$/ }).evaluate((heading) => {
-        heading.nextElementSibling?.remove();
-        heading.remove();
-      });
-    },
+    prepare: hideSection(/^Sites$/),
     window: true,
     until: pageWithoutSite(startPage),
   },
@@ -65,6 +93,29 @@ const screenshots = {
     prepare: newSiteConfiguration,
     window: true,
     until: '.form-section:has([name$="[dependencies]"])',
+  },
+  // Last, as it breaks the site configuration of the start page.
+  // A site configuration with a syntax error, which the module lists with
+  // the error instead of failing
+  'FirstProject/SiteManagement/FailingSiteConfiguration': {
+    width: 1000,
+    before: breakSiteConfiguration,
+    url: sitesUrl,
+    window: true,
+    prepare: async (frame) => {
+      // Only the failing site configuration, which this step is about
+      await hideSection(/^Sites$/)(frame);
+      await hideSection('Pages without a site configuration')(frame);
+      // The message names the path of the file, which differs from one
+      // checkout to the next. It shows the path of a DDEV project instead.
+      await frame.locator('.callout', { hasText: 'Failing site configurations' }).evaluate((callout) => {
+        const walker = document.createTreeWalker(callout, NodeFilter.SHOW_TEXT);
+        for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+          node.textContent = node.textContent.replace(/"[^"]*\/config\/sites\//g, '"/var/www/html/config/sites/');
+        }
+      });
+    },
+    until: '.callout:has-text("Failing site configurations")',
   },
 };
 
@@ -202,6 +253,9 @@ for (const name of names) {
     width: screenshot.width ?? 1280,
     height: screenshot.height ?? viewportHeight,
   });
+  if (screenshot.before) {
+    await screenshot.before();
+  }
   await page.goto(screenshot.url);
   await page.waitForLoadState('networkidle');
   const frame = page.frame({ name: 'list_frame' });
