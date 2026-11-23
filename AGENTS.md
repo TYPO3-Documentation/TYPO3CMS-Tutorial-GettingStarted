@@ -4,6 +4,7 @@
 
 ```
 Documentation/                   # the actual manual (reST source, published to docs.typo3.org)
+Build/Screenshots/               # takes the generated screenshots, see below
 CONTRIBUTING.rst                 # how to contribute (if present)
 ```
 
@@ -12,6 +13,41 @@ CONTRIBUTING.rst                 # how to contribute (if present)
 - `make docs` — render the manual locally with Docker
 - `make test-docs` — render in minimal-test mode (the same validation CI runs); use this to validate any change before committing
 - `make test` — full test suite (docs, lint, cgl, yaml)
+- `make install` — install the TYPO3 Core packages into `.Build`, which
+  `make screenshots` needs; run it once in a new worktree
+- `make screenshots` — take the screenshots listed in
+  `Build/Screenshots/screenshots.mjs` from a throwaway TYPO3 instance;
+  `Build/Scripts/runTests.sh -s screenshots FirstProject/SiteManagement/NewSite`
+  takes only the named ones
+
+## Generated screenshots
+
+The screenshots in `Documentation/Images/GeneratedScreenshots/` come from a
+TYPO3 instance with the demo site of the Camino theme, which the Core ships
+and which the Quickstart uses. The backend runs without debug mode, so it
+looks as a new user sees it. Screenshots are taken as the administrator
+`j.doe`.
+
+To add a screenshot:
+
+1.  Prefer what the Camino demo site already has. If a screenshot needs
+    more, such as a root page without a site configuration, add it to
+    `Build/Screenshots/create-records.php`, and export the uids that a
+    screenshot needs in the list at the end.
+2.  Add an entry to `Build/Screenshots/screenshots.mjs`: the `url`, and
+    either `from`/`to` for a part of a module, `window: true` for the
+    whole backend, or `modal: true` for a dialog. A module screenshot
+    shows where the module is in the menu: the group named in `menu`,
+    `Sites` by default, stays open and every other group is collapsed.
+    Its page tree is hidden unless `pageTree: true`, and an `until`
+    element ends the image below the part that matters. Use `prepare`
+    for clicks before the screenshot.
+3.  Take only that screenshot, then all of them once, and commit the
+    images that changed. A run keeps an image that differs from the old
+    one in fewer than 10 pixels, because a new image is never exactly the
+    same, even when nothing changed.
+4.  Screenshots that a script cannot take stay in
+    `Documentation/Images/ManualScreenshots/`.
 
 ## Documentation writing rules
 
