@@ -40,7 +40,8 @@
         "typo3/cms-sys-note": "dev-main as 14.3",
         "typo3/cms-tstemplate": "dev-main as 14.3",
         "typo3/cms-viewpage": "dev-main as 14.3",
-        "typo3/cms-workspaces": "dev-main as 14.3"
+        "typo3/cms-workspaces": "dev-main as 14.3",
+        "typo3/theme-camino": "dev-main as 14.3"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

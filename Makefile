@@ -36,8 +36,12 @@ fix-cgl: ## Fix TYPO3 coding guidelines violations
 	Build/Scripts/runTests.sh -s cgl
 
 .PHONY: install
-install: ## Install/update the Composer dependencies
+install: ## Install/update the Composer dependencies, also for make screenshots
 	Build/Scripts/runTests.sh -s composerUpdate
+
+.PHONY: screenshots
+screenshots: ## Take the backend screenshots from a TYPO3 instance
+	Build/Scripts/runTests.sh -s screenshots
 
 # Deprecated alias for the former name of this target; use install instead.
 .PHONY: composerUpdate
