@@ -2,7 +2,7 @@
 mkdir my_project && cd my_project
 
 # Initialize DDEV project
-ddev config --php-version 8.4 --docroot public --project-type typo3
+ddev config --php-version 8.5 --webserver-type apache-fpm --docroot public --project-type typo3 --web-environment-add="TYPO3_CONTEXT=Development/DDEV"
 
 # Start DDEV
 ddev start
@@ -12,7 +12,7 @@ ddev composer create-project "typo3/cms-base-distribution:^14"
 # Recommended: Require the default theme
 ddev composer req typo3/theme-camino
 # Run TYPO3 CLI setup (database credentials are pre-filled)
-ddev typo3 setup --server-type=other --driver=mysqli --host=db --port=3306 --dbname=db --username=db --password=db --create-site <siteurl>
+ddev typo3 setup --server-type=other  --create-site <siteurl>
 
 # Open the Backend login in a browser
 ddev launch /typo3/
