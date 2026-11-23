@@ -25,4 +25,7 @@ nbproject
 Documentation-GENERATED-temp/
 /composer.json.testing
 /.Build/
+# TYPO3 instance of make screenshots
+/config/
 /var/
+/Build/Screenshots/node_modules/
