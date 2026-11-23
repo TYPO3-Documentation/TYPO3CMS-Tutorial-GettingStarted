@@ -176,15 +176,24 @@ Site management: Trouble shooting
         :name: site-trouble-yaml
         :header-level: 2
 
+        ..  versionchanged:: 14.3.11
+            :changelog: important-110913-1792506655
+
+            Before, a syntax error stopped the whole backend module.
+
         If you manually edited the site configuration and it contains a syntax
-        error, the whole backend module might stop working:
+        error, the :guilabel:`Sites > Setup` module lists the site under
+        "Failing site configurations", with the error message. All other
+        sites keep working.
 
-        ..  figure:: /FirstProject/SiteManagement/MalformedYAML.png
-            :alt: Whoops, looks like something went wrong: Malformed inline YAML string at line 17.
+        ..  figure:: /Images/GeneratedScreenshots/FirstProject/SiteManagement/FailingSiteConfiguration.png
+            :zoom: gallery
+            :alt: Screenshot of the module "Sites > Setup" with a site configuration under "Failing site configurations": Malformed inline YAML string at line 10.
 
-            Malformed YAML can only be corrected by editing the config file.
+            A site configuration with a syntax error is listed with the error
 
-        Fix or delete the affected site configuration by editing the file, for
+        Malformed YAML can only be corrected by editing the config file. Fix or
+        delete the affected site configuration by editing the file, for
         example :file:`config/sites/my-site/config.yaml`.
 
     ..  accordion-item:: No pages found
