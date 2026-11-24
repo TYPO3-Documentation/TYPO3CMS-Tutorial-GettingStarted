@@ -172,6 +172,16 @@ Different AI clients can recommend different solutions. In our tests, one
 recommended :composer:`tpwd/ke_search`, and the other
 :composer:`typo3/cms-indexed-search`. Compare the reasons, and decide yourself.
 
+If your AI client suggests an extension, ask about more than its features:
+
+..  code-block:: text
+
+    Is ke_search actively maintained? What does it cost? Which TYPO3
+    versions does it support, and how do I replace it later?
+
+Tell your AI client what it cannot know, for example "Our other websites
+use Solr". This can change the recommendation.
+
 When you have decided, describe the result that you want. You do not have to
 name a tool. For example:
 
@@ -196,19 +206,26 @@ then no longer show.
     The page /faqs shows an error. Find the cause and explain it to me before
     you change anything.
 
-We tested the site package prompt and the question about the search engine.
-For the best results, follow these rules:
+We tested the site package prompt, the question about the search engine, and
+the prompt about the error. In the same way, we also built custom content
+elements, a contact form, and a second site language. For the best results,
+follow these rules:
 
 *   **Use exact names.** Write `sys_file_reference`, not "the table with the
     image relations". The server finds a name, not a description.
 *   **Check the result in the browser.** In our tests, the templates of a
     theme hid the new site package, or the new site package hid the content of
-    the theme.
+    the theme. Click through the site like a visitor. Your AI client checks
+    single pages, and can miss errors on the way between them.
 *   **Use DDEV for every command.** If your AI client runs `composer` or `php`
     directly, refuse, and tell it to use :bash:`ddev composer` or
     :bash:`ddev exec`.
 *   **Ask which tools it called.** An answer without a tool call comes from the
-    language model.
+    language model. Your AI client does not always call the server by itself.
+    In this case, write "Look this up with the TYPO3 Dev Companion."
+*   **Read the report at the end.** Your AI client may guess, and tell you
+    only afterwards. In our tests, it corrected an impossible date in the
+    content without asking.
 *   **Commit to Git before each task.** You can then see and undo each change:
     :bash:`git add -A && git commit -m "Before the task"`.
 
