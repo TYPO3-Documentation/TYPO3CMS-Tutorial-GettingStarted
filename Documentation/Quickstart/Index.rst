@@ -111,9 +111,12 @@ in order to add the "Theme:Camino" site set.
 
     After clicking :guilabel:`View webpage`, you should see the frontend of the website.
 
-..  figure:: /Images/ManualScreenshots/Quickstart/content_module.png
+..  figure:: /Images/ManualScreenshots/Quickstart/content_editing.png
     :zoom: gallery
-    :alt: Screenshot of the content editor including a rich text editor with markup options
+    :alt: Form "Edit Page Content" of the content element "Welcome to your
+        default website" on page "Home", with the field "Header" (1), the
+        field "Rank / Hierarchy" (2), the toolbar of the rich text editor
+        in the field "Text" (3), and the button "Save" (4)
     :width: 500px
 
     Edit the content and save your changes.
@@ -177,16 +180,21 @@ In the site settings, you can change settings provided by the theme and
 installed extensions. You may need to `clear the caches <https://docs.typo3.org/permalink/t3start:how-to-clear-cache>`_
 to apply changes.
 
-..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
+..  figure:: /Images/ManualScreenshots/Quickstart/site_settings.png
     :zoom: gallery
-    :alt: Screenshot of the site settings, changing the theme default settings
+    :alt: Site settings of the section "Theme Camino", with the field "Color
+        Scheme" set to "Ocean Breeze" and the checkbox "Header: Fixed
+        position" checked
     :width: 250px
 
     Choose a different color theme and adjust other settings.
 
-..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
+..  figure:: /Images/ManualScreenshots/ClearCache/clear_frontend_cache.png
     :zoom: gallery
-    :alt: Screenshot of the backend toolbar with button "Clear cache" and option "Flush frontend caches"
+    :alt: Menu "Clear cache" of the top bar, with the options "Flush
+        frontend caches" and "Flush all caches". Arrows point at the
+        lightning button that opens the menu and at "Flush frontend
+        caches".
     :width: 250px
 
     Clear the frontend cache after saving the site settings.
@@ -234,12 +242,8 @@ Copy the default theme:
             :caption: /var/www/site/$ (Classic mode)
             :language: bash
 
-        ..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
-            :zoom: gallery
-            :alt: Screenshot of module "System > Extensions"
-            :width: 250px
-
-            Deactivate and activate the theme so that the type is "Local".
+        In the module :guilabel:`System > Extensions`, deactivate the theme
+        and activate it again. Its type is then **Local**.
 
 You can now edit files in this new location, for example CSS files in
 :folder:`packages/theme-camino/Resources/Public/Css`.
