@@ -23,6 +23,11 @@ ${PHP_RUN} .Build/bin/typo3 setup --no-interaction --force \
 ${PHP_RUN} .Build/bin/typo3 extension:setup
 # The PHP web server provides no SERVER_NAME to compare the host with
 ${PHP_RUN} .Build/bin/typo3 configuration:set SYS/trustedHostsPattern '.*'
+# The detailed error page of a development system, which TYPO3 shows to a
+# developer's address only. The browser runs in a container of its own,
+# whose address is not 127.0.0.1.
+${PHP_RUN} .Build/bin/typo3 configuration:set SYS/devIPmask '*'
+${PHP_RUN} .Build/bin/typo3 configuration:set SYS/displayErrors 1
 ${PHP_RUN} php Build/Screenshots/create-records.php
 ${PHP_RUN} .Build/bin/typo3 cache:flush
 
