@@ -40,8 +40,9 @@ To add a screenshot:
     shows where the module is in the menu: the group named in `menu`,
     `Sites` by default, stays open and every other group is collapsed.
     Its page tree is hidden unless `pageTree: true`, and an `until`
-    element ends the image below the part that matters. Use `prepare`
-    for clicks before the screenshot.
+    element ends the image below the part that matters, or an
+    `untilOutside` element outside of the module frame, such as a
+    context menu. Use `prepare` for clicks before the screenshot.
 3.  Take only that screenshot, then all of them once, and commit the
     images that changed. A run keeps an image that differs from the old
     one in fewer than 10 pixels, because a new image is never exactly the
