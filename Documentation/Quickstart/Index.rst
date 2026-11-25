@@ -163,9 +163,10 @@ Configuring the default theme (Camino)
 In the module :guilabel:`Sites > Setup`, you can edit the site configuration
 and settings:
 
-..  figure:: /Images/ManualScreenshots/Quickstart/site_setup.png
+..  figure:: /Images/GeneratedScreenshots/Quickstart/SiteSetup.png
     :zoom: gallery
-    :alt: Screenshot of the "Sites > Setup" module in overview
+    :alt: Module "Sites > Setup" (1) with the site "Camino" and the buttons
+        to edit its site configuration (2) and its settings (3)
     :width: 250px
 
     Go to module :guilabel:`Sites > Setup` (1), and edit the site configuration (2) or settings (3).
@@ -180,7 +181,7 @@ In the site settings, you can change settings provided by the theme and
 installed extensions. You may need to `clear the caches <https://docs.typo3.org/permalink/t3start:how-to-clear-cache>`_
 to apply changes.
 
-..  figure:: /Images/ManualScreenshots/Quickstart/site_settings.png
+..  figure:: /Images/GeneratedScreenshots/Quickstart/SiteSettings.png
     :zoom: gallery
     :alt: Site settings of the section "Theme Camino", with the field "Color
         Scheme" set to "Ocean Breeze" and the checkbox "Header: Fixed

@@ -21,7 +21,7 @@ const moduleUrl = (path, id) => `${baseUrl}/typo3/module/${path}${id === undefin
 const margin = 12;
 
 // The uids of the records that create-records.php created
-const { startPage, newSite } = JSON.parse(readFileSync('../../var/screenshot-records.json', 'utf8'));
+const { startPage, newSite, camino } = JSON.parse(readFileSync('../../var/screenshot-records.json', 'utf8'));
 
 // The Content > Layout module
 const layoutUrl = (id) => moduleUrl('web/layout', id);
@@ -58,6 +58,43 @@ const outline = (locator, offset = 3) => locator.evaluate((element, space) => {
 // An entry of the open context menu
 const menuItem = (label) => `${contextMenu} >> .context-menu-item[aria-label="${label}"]`;
 
+// A number in an orange circle at the lower right of an element, for a
+// screenshot whose text explains the numbered parts. 'before' puts it left
+// of the element, centered on its height.
+const badge = (locator, number, side = 'right') => locator.evaluate((element, [text, side]) => {
+  const box = element.getBoundingClientRect();
+  const position = side === 'before'
+    ? { left: box.left - 32, top: box.top + box.height / 2 - 13 }
+    : { left: box.right - 12, top: box.bottom - 6 };
+  const circle = element.ownerDocument.createElement('span');
+  circle.className = 'screenshot-badge';
+  circle.textContent = text;
+  Object.assign(circle.style, {
+    position: 'fixed', left: `${position.left}px`, top: `${position.top}px`, width: '26px', height: '26px',
+    borderRadius: '50%', background: '#ff8700', color: '#fff', font: 'bold 15px sans-serif', zIndex: '10000',
+    display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 1px 3px rgba(0, 0, 0, 0.4)',
+  });
+  element.ownerDocument.body.appendChild(circle);
+}, [String(number), side]);
+
+// The card of a site in the Sites > Setup module, and one of its buttons
+const siteCard = (identifier) => `.card:has(code:text-is("${identifier}"))`;
+const siteButton = (identifier, title) => `${siteCard(identifier)} [title="${title}"]`;
+// Opens the settings of a site from the Sites > Setup module
+const openSiteSettings = async (frame, identifier) => {
+  await frame.locator(siteButton(identifier, 'Edit site settings')).first().click();
+  await frame.waitForLoadState('networkidle');
+  await frame.locator('typo3-backend-settings-editor .settings-category').first().waitFor();
+};
+// A category of the site settings with its settings, such as the one of a
+// theme
+const settingsCategory = (key) => `.settings-category-list[data-key="${key}"]`;
+// The open menu in the docheader of a module. The docheader has other
+// menus, such as the one of the share button, which are hidden.
+const openDropdown = '.module-docheader .dropdown-menu >> visible=true';
+// The TypoScript module
+const typoScriptUrl = (id) => moduleUrl('web/ts', id);
+
 // A field of a form, found by its name: the backend runs without debug
 // mode, which would show the field names
 const field = (name) => `.form-group:has([name$="[${name}]"]):not(:has(.form-group))`;
@@ -81,6 +118,98 @@ const newSiteConfiguration = async (frame) => {
 };
 
 const screenshots = {
+  // The Sites > Setup module with the site of the Camino demo: the module
+  // in the menu (1), and the buttons to edit the configuration (2) and the
+  // settings (3) of the site
+  'Quickstart/SiteSetup': {
+    width: 1000,
+    url: sitesUrl,
+    prepare: async (frame) => {
+      await badge(frame.page().locator('.modulemenu-action[data-modulemenu-identifier="site_configuration"]').first(), 1);
+      await badge(frame.locator(siteButton('camino', 'Edit site configuration')).first(), 2);
+      await badge(frame.locator(siteButton('camino', 'Edit site settings')).first(), 3);
+    },
+    window: true,
+    until: siteCard('camino'),
+    // Below the numbers at the buttons
+    untilSpace: 24,
+  },
+  // The settings of the Camino theme, with another color scheme and the
+  // fixed header, before they are saved
+  'Quickstart/SiteSettings': {
+    url: sitesUrl,
+    prepare: async (frame) => {
+      await openSiteSettings(frame, 'camino');
+      await frame.locator('[id="setting-camino.colorScheme"]').selectOption('theme-ocean-breeze');
+      await frame.locator('[id="setting-camino.header.fixedPosition"]').check();
+      // The changed fields show that they changed once they lost the focus.
+      // The click scrolls to the headline, so the category comes into view
+      // after it.
+      await frame.locator('h1').first().click();
+      await frame.locator(settingsCategory('camino')).scrollIntoViewIfNeeded();
+      await frame.page().waitForTimeout(500);
+    },
+    from: settingsCategory('camino'),
+  },
+  // The form of the site configuration of the Camino demo, with the
+  // identifier of the text in the field "Site Identifier"
+  'FirstProject/Settings/SiteIdentifier': {
+    width: 1000,
+    url: sitesUrl,
+    prepare: async (frame) => {
+      await frame.locator(siteButton('camino', 'Edit site configuration')).first().click();
+      await frame.waitForURL(/edit/);
+      await frame.waitForLoadState('networkidle');
+      await frame.locator('input[data-formengine-input-name$="[identifier]"]').first().fill('my-site');
+      await outline(frame.locator(field('identifier')).first(), 8);
+      // The field shows that it changed only once it lost the focus
+      await frame.locator('h1').first().click();
+      await frame.page().waitForTimeout(500);
+    },
+    window: true,
+    until: field('identifier'),
+    untilSpace: 16,
+  },
+  // The site of the Camino demo in the Sites > Setup module, with the
+  // buttons to edit its configuration (1) and its settings (2)
+  'FirstProject/Settings/SiteSettingsOverview': {
+    width: 1000,
+    url: sitesUrl,
+    prepare: async (frame) => {
+      await badge(frame.locator(siteButton('camino', 'Edit site configuration')).first(), 1);
+      await badge(frame.locator(siteButton('camino', 'Edit site settings')).first(), 2);
+    },
+    window: true,
+    until: siteCard('camino'),
+    untilSpace: 24,
+  },
+  // The TypoScript Overview with the TypoScript record of the start page
+  'FirstProject/Settings/TypoScriptModule': {
+    width: 1000,
+    url: typoScriptUrl(0),
+    pageTree: true,
+    prepare: async (frame) => {
+      await outline(frame.getByRole('link', { name: 'Start page', exact: true }).last(), 3);
+    },
+    window: true,
+    until: 'table',
+    untilSpace: 16,
+  },
+  // The open menu of the submodules of the TypoScript module
+  'FirstProject/Settings/TypoScriptModuleMenu': {
+    width: 1000,
+    url: typoScriptUrl(camino),
+    pageTree: true,
+    prepare: async (frame) => {
+      await frame.locator('.module-docheader .dropdown-toggle').first().click();
+      await frame.locator(openDropdown).first().waitFor();
+      await outline(frame.locator(openDropdown).first(), 3);
+      await frame.page().waitForTimeout(300);
+    },
+    window: true,
+    until: openDropdown,
+    untilSpace: 16,
+  },
   // The module with the list of the root pages without a site configuration,
   // as in a new installation. The site of the Camino demo, which the
   // tutorial has not created at this point, is hidden.

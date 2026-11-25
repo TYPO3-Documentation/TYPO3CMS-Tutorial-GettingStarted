@@ -73,9 +73,10 @@ Site configurations are stored in a file called
 the "Site Identifier". For demonstration purposes, we use "my-site" here. The
 Site Identifier is also used as the path for saving the configuration file.
 
-..  figure:: /Images/ManualScreenshots/SiteManagement/SiteIdentifier.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/Settings/SiteIdentifier.png
     :zoom: gallery
-    :alt: Screenshot demonstration field "Site Identifier" in a site configuration
+    :alt: Form "camino · Site configuration" on the tab "General", with the
+        field "Site Identifier" (marked) changed to "my-site"
 
     The Site Identifier can be changed in this field
 
@@ -91,9 +92,11 @@ Changes are written to the :file:`config/sites/my-site/settings.yaml` file. If y
 keep this file under version control, you must commit and push the changes made
 to this file.
 
-..  figure:: /Images/ManualScreenshots/SiteManagement/SiteSettingsOverview.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/Settings/SiteSettingsOverview.png
     :zoom: gallery
-    :alt: Screenshot of the Site Settings Overview
+    :alt: Module "Sites > Setup" with the site "Camino", its entry point
+        "/camino/", and the buttons to edit the site configuration (1) and
+        the site settings (2)
 
     You can find all sites in the "Settings" module. If editable settings are available, there are buttons to edit the site configuration (1) and settings (2)
 
@@ -136,8 +139,11 @@ TypoScript is a configuration language used to configure both the frontend
 output and the backend of a TYPO3 web site. TypoScript can be managed in a TypoScript
 record, which can be found in the :guilabel:`Sites > TypoScript` module.
 
-..  figure:: /Images/ManualScreenshots/SiteManagement/TypoScriptModule.png
-    :ref: Screenshot demonstrating the TypoScript overview module
+..  figure:: /Images/GeneratedScreenshots/FirstProject/Settings/TypoScriptModule.png
+    :zoom: gallery
+    :alt: "TypoScript Overview" of the module "Sites > TypoScript" with the
+        pages "Camino", which has the site set "Camino", and "Start page",
+        which has the TypoScript record "Start page" (marked)
 
     Edit the TypoScript record by clicking on the name of the record in the overview module
 
@@ -147,8 +153,11 @@ settings made here affect the entire page.
 
 You can also navigate between the different submodules by using the submodule menu:
 
-..  figure:: /Images/ManualScreenshots/SiteManagement/TypoScriptModuleMenu.png
-    :ref: Screenshot demonstrating the TypoScript module and its location of the submodule menu
+..  figure:: /Images/GeneratedScreenshots/FirstProject/Settings/TypoScriptModuleMenu.png
+    :zoom: gallery
+    :alt: Open menu (marked) in the docheader of the TypoScript module, with
+        the submodules "TypoScript Overview", "Constant Editor", "Edit
+        TypoScript Record", "Active TypoScript", and "Included TypoScript"
 
     Switch between the different submodules of the TypoScript module.
 

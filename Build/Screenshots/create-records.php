@@ -18,6 +18,7 @@ use TYPO3\CMS\Core\Core\SystemEnvironmentBuilder;
 use TYPO3\CMS\Core\Database\ConnectionPool;
 use TYPO3\CMS\Core\DataHandling\DataHandler;
 use TYPO3\CMS\Core\Localization\LanguageServiceFactory;
+use TYPO3\CMS\Core\Site\SiteFinder;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 
 $classLoader = require __DIR__ . '/../../.Build/vendor/autoload.php';
@@ -69,6 +70,20 @@ $dataHandler = $process(['pages' => ['NEW1' => [
     'hidden' => 1,
 ]]]);
 $uids['newSite'] = (int)$dataHandler->substNEWwithIDs['NEW1'];
+
+// A TypoScript record on the start page, as in an installation from before
+// site sets, which the TypoScript module lists with its title
+$process(['sys_template' => ['NEW1' => [
+    'pid' => $uids['startPage'],
+    'title' => 'Start page',
+    'root' => 1,
+    'clear' => 3,
+    'config' => "page = PAGE\npage.10 = TEXT\npage.10.value = Hello world!\n",
+]]]);
+
+// The root page of the demo site of the Camino theme
+$uids['camino'] = GeneralUtility::makeInstance(SiteFinder::class)
+    ->getSiteByIdentifier('camino')->getRootPageId();
 
 // The uids differ between TYPO3 versions, so screenshots.mjs reads them here
 GeneralUtility::mkdir_deep(Environment::getVarPath());
