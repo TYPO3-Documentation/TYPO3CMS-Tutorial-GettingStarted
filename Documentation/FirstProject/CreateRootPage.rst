@@ -46,9 +46,11 @@ module on the left-hand side of the screen.
 Click on the :guilabel:`Layout` module to open
 the page tree.
 
-..  figure:: /Images/ManualScreenshots/CreateRootPage/CreateNewPage.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/CreateNewPage.png
     :zoom: gallery
-    :alt: The "Content > Layout" module in the TYPO3 backend with a context menu to create a new page
+    :alt: Page tree of the module "Content > Layout" with the context menu of
+        the top node "Getting Started", which has the entries "New
+        subpage" (marked), "More options...", and "History/Undo"
 
 *   In the page tree, right-click on the "root level" or the top node of the page
     tree (if no pages exist yet, this will likely be labeled as "site" or similar).
@@ -70,9 +72,10 @@ Now, you need to configure the new page:
 *   Under the :guilabel:`Behavior` tab, look for the checkbox called
     "Use as Root Page". Ensure this is checked.
 
-..  figure:: /Images/ManualScreenshots/CreateRootPage/SetRootPage.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/SetRootPage.png
     :zoom: gallery
-    :alt: Page properties, tab "Behaviour", highlighting the "Use as root page"
+    :alt: Form "Create new Standard Page" on the tab "Behavior" (marked), with
+        the checkbox "Use as Root Page" (marked) switched on
 
 ..  _create-root-page-save:
 
@@ -84,9 +87,11 @@ Once you have filled in the necessary information and selected the
 form. Your new root page will now appear in the page tree on the left.
 The page is only visible in the backend at this point
 
-..  figure:: /Images/ManualScreenshots/CreateRootPage/PageCreated.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/PageCreated.png
     :zoom: gallery
-    :alt: Backend module "Content > Layout" with a newly created but still disabled root page
+    :alt: Module "Content > Layout" with the new root page "New site" below
+        "Camino" and "Start page" in the page tree. The icon of "New site"
+        has a red sign, as the page is disabled.
 
     The root page is disabled, therefore it is marked with the red icon.
     You can enable it in the context menu.
@@ -100,9 +105,10 @@ All sites must have a `site configuration <https://docs.typo3.org/permalink/t3st
 If you have created a new page in the root of the page tree add a new configuration
 or edit the auto generated one:
 
-..  figure:: /Images/ManualScreenshots/CreateRootPage/PageWithoutSiteConfig.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/PageWithoutSiteConfig.png
     :zoom: gallery
-    :alt: Pages without site configuration in the TYPO3 Backend - Button "Add a new site configuration for this site"
+    :alt: List "Pages without a site configuration" with the root page "Start
+        page" and its button "Add new site configuration for this site"
 
     You can find the auto-generated site configuration for your root page in
     the module :guilabel:`Sites > Setup`
@@ -122,9 +128,11 @@ The site needs a theme, also known as a "site package" in the TYPO3 world. Learn
     you will see a message like the one below when trying to display
     the page in the frontend:
 
-    ..  figure:: /Images/ManualScreenshots/CreateRootPage/NoTypoScriptFound.png
+    ..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/NoTypoScriptFound.png
         :zoom: gallery
-        :alt: Error message: No TypoScript record found!
+        :alt: Error "#1607585445 InternalServerErrorException" with the
+            message "No site configuration or TypoScript template record
+            found!"
 
         Error message when no site package is installed or configured
 
@@ -140,8 +148,9 @@ Enable the page when you are ready
 
 :guilabel:`Enable` the page as newly created pages are hidden by default.
 
-..  figure:: /Images/ManualScreenshots/CreateRootPage/EnablePage.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/CreateRootPage/EnablePage.png
     :zoom: gallery
-    :alt: A disabled root page and its context menu
+    :alt: Context menu of the disabled root page "New site" in the page tree,
+        with the pointer on the entry "Enable"
 
     Right click on the newly created page and choose `Enable` from the context menu. The red icon should disappear.
