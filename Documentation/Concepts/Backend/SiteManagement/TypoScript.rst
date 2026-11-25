@@ -25,9 +25,11 @@ via the site.
 The TypoScript module consists of the following submodules. You can switch them
 in the docheader:
 
-..  figure:: /Images/ManualScreenshots/SiteManagement/TypoScriptModuleMenu.png
+..  figure:: /Images/GeneratedScreenshots/FirstProject/Settings/TypoScriptModuleMenu.png
     :zoom: lightbox
-    :alt: Screenshot of the TypoScript module in the backend demonstrating the location of the submodule switch, a drop down in the document header
+    :alt: Open menu (marked) in the docheader of the TypoScript module, with
+        the submodules "TypoScript Overview", "Constant Editor", "Edit
+        TypoScript Record", "Active TypoScript", and "Included TypoScript"
 
     Switch between the TypoScript submodules in the docheader
 
